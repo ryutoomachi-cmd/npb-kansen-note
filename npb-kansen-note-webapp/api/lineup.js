@@ -66,17 +66,29 @@ function jstToday() {
   return { year, mm, dd, mmdd: mm + dd };
 }
 
+function resolveHref(href, baseUrl) {
+  try { return new URL(href, baseUrl).href; } catch (e) { return href; }
+}
+
 // 日程ページから、対象日・対象球団の試合ページURL（絶対URL）を探す。
 // 対戦相手を特定するため、URL中の2球団のコードも一緒に返す。
-function findTodayGameUrl($, year, mmdd, teamCode) {
+// hrefは相対パス（例: "../scores/2026/0902/e-b-23/"）で書かれている可能性があるため、
+// 文字列の部分一致ではなく、URLとして解決した絶対URLで判定する（部分一致だと、
+// 相対パスの書き方次第で一致しないことがあるため）。
+// debugInfoを渡すと、実際に見つかったscores系リンクの例をそこに書き込む（原因調査用）。
+function findTodayGameUrl($, year, mmdd, teamCode, baseUrl, debugInfo) {
   const scoresPrefix = "/scores/" + year + "/" + mmdd + "/";
   let found = null;
-  $("a[href*='" + scoresPrefix + "']").each((_, el) => {
+  const sampleScoreHrefs = [];
+  $("a[href]").each((_, el) => {
     if (found) return;
-    const href = $(el).attr("href") || "";
-    const idx = href.indexOf(scoresPrefix);
+    const rawHref = $(el).attr("href") || "";
+    if (rawHref.indexOf("/scores/") === -1 && rawHref.indexOf("scores/") === -1) return;
+    const abs = resolveHref(rawHref, baseUrl);
+    if (sampleScoreHrefs.length < 12) sampleScoreHrefs.push(abs);
+    const idx = abs.indexOf(scoresPrefix);
     if (idx === -1) return;
-    const rest = href.slice(idx + scoresPrefix.length); // 例: "e-b-23/" や "e-b-23/index.html"
+    const rest = abs.slice(idx + scoresPrefix.length); // 例: "e-b-23/" や "e-b-23/index.html"
     const m = rest.match(/^([a-z]+)-([a-z]+)-(\d+)\//);
     if (!m) return;
     if (m[1] === teamCode || m[2] === teamCode) {
@@ -87,6 +99,11 @@ function findTodayGameUrl($, year, mmdd, teamCode) {
       };
     }
   });
+  if (debugInfo) {
+    debugInfo.scoresPrefix = scoresPrefix;
+    debugInfo.sampleScoreHrefsFound = sampleScoreHrefs;
+    debugInfo.mmddAppearsInPage = null; // handler側でページ全文チェックした結果を入れる
+  }
   return found;
 }
 
@@ -221,9 +238,11 @@ export default async function handler(req, res) {
     debugInfo.scheduleUrl = scheduleUrl;
 
     const scheduleRes = await axios.get(scheduleUrl, { headers: HTTP_HEADERS, timeout: 8000 });
-    const $schedule = cheerio.load(scheduleRes.data);
-    const game = findTodayGameUrl($schedule, year, mmdd, teamCode);
+    const scheduleHtml = String(scheduleRes.data);
+    const $schedule = cheerio.load(scheduleHtml);
+    const game = findTodayGameUrl($schedule, year, mmdd, teamCode, scheduleUrl, debugInfo);
     debugInfo.game = game;
+    if (debugInfo) debugInfo.mmddAppearsInPage = scheduleHtml.indexOf(mmdd) !== -1;
 
     if (!game) {
       return res.status(200).json({
