@@ -1,4 +1,7 @@
 {
+  "functions": {
+    "api/lineup.js": { "maxDuration": 15 }
+  },
   "headers": [
     {
       "source": "/data/(.*)",

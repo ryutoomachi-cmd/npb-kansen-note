@@ -27,7 +27,8 @@
     clipboard: '<rect x="5.5" y="4.5" width="13" height="16" rx="2"/><path d="M9 4.5V3.8a1.8 1.8 0 0 1 1.8-1.8h2.4A1.8 1.8 0 0 1 15 3.8v.7"/><line x1="8.5" y1="10.5" x2="15.5" y2="10.5"/><line x1="8.5" y1="14" x2="15.5" y2="14"/><line x1="8.5" y1="17.5" x2="12.5" y2="17.5"/>',
     filter: '<path d="M3.5 5h17" /><path d="M6.5 12h11" /><path d="M10 19h4" />',
     settings: '<circle cx="12" cy="12" r="3"/><path d="M19.4 13a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V19a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 17.42a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 13 1.65 1.65 0 0 0 3.17 12H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 6.9a1.65 1.65 0 0 0-.33-1.82l-.06-.06A2 2 0 1 1 7.04 2.2l.06.06A1.65 1.65 0 0 0 8.92 2.6 1.65 1.65 0 0 0 9.9 1.1V1a2 2 0 1 1 4 0v.09c0 .68.4 1.28 1 1.51.62.25 1.33.12 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06c-.45.49-.58 1.2-.33 1.82.23.6.83 1 1.51 1H21a2 2 0 1 1 0 4h-.09c-.68 0-1.28.4-1.51 1z" stroke-linejoin="round"/>',
-    check: '<polyline points="20 6 9 17 4 12"/>'
+    check: '<polyline points="20 6 9 17 4 12"/>',
+    download: '<path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M4 19h16"/>'
   };
   function icon(name, size, extraClass) {
     size = size || 16;
@@ -579,6 +580,85 @@
   }
   function lineupFilledCount(side) { return lineupStarterIds(side).length; }
 
+  /* ===================== 本日のスタメンを /api/lineup から取得して自動反映 =====================
+     NPB公式サイト（npb.jp）のスタメン表は「苗字のみ」で選手名が表示されるため、
+     取得した苗字を、対象球団の選手データ（PLAYERS）の名字部分と突き合わせて選手IDを特定する。
+     同姓の選手が複数いる場合は一意に決められないため、その選手名だけ「未反映」として
+     呼び出し側に伝え、勝手に間違った選手を登録しないようにする。 */
+  var SCRAPE_POSITION_TO_KEY = { "投": "P", "捕": "C", "一": "1B", "二": "2B", "三": "3B", "遊": "SS", "左": "LF", "中": "CF", "右": "RF" };
+  // "指"（指名打者）は守備位置ダイヤモンド図上の枠が無いため対象外（打順には反映される）
+
+  function findPlayerBySurname(teamName, surname) {
+    if (!surname) return null;
+    var teamPlayers = PLAYERS.filter(function (p) { return p.currentTeamName === teamName; });
+    var exact = teamPlayers.filter(function (p) { return p.name && p.name.split(/[\s　]+/)[0] === surname; });
+    if (exact.length === 1) return exact[0];
+    if (exact.length > 1) return null; // 同姓が複数：自動判定はせず未反映にする
+    var loose = teamPlayers.filter(function (p) { return p.name && p.name.indexOf(surname) !== -1; });
+    return loose.length === 1 ? loose[0] : null;
+  }
+
+  // 取得したスタメンをstate.lineup[side]へ反映する。反映できなかった選手名の配列を返す。
+  function applyScrapedLineup(side, data) {
+    var teamName = side === "opponent" ? state.opponentTeam : state.homeTeam;
+    var L = emptyLineupSide();
+    var unmatched = [];
+
+    (data.starters || []).forEach(function (s) {
+      var player = findPlayerBySurname(teamName, s.name);
+      if (!player) { unmatched.push(s.name); return; }
+      var idx = s.order - 1;
+      if (idx >= 0 && idx < 9) L.batters[idx] = player.id;
+      var posKey = SCRAPE_POSITION_TO_KEY[s.position];
+      if (posKey) L.positions[posKey] = player.id;
+    });
+
+    if (data.pitcher) {
+      var pitcher = findPlayerBySurname(teamName, data.pitcher);
+      if (pitcher) {
+        L.pitcher = pitcher.id;
+        if (!L.positions.P) L.positions.P = pitcher.id; // DH制で投手が打順に入らない場合も、マウンド上の表示には反映する
+      } else {
+        unmatched.push(data.pitcher);
+      }
+    }
+
+    state.lineup[side] = L;
+    saveLineup();
+    return unmatched;
+  }
+
+  function fetchTodayLineup(side) {
+    if (state.lineupFetching) return; // 二重押し防止
+    var teamName = side === "opponent" ? state.opponentTeam : state.homeTeam;
+    state.lineupFetching = side;
+    state.lineupFetchNotice = null;
+    renderOverlay();
+
+    fetch("/api/lineup?team=" + encodeURIComponent(teamName))
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        state.lineupFetching = null;
+        if (data && data.success) {
+          var unmatched = applyScrapedLineup(side, data);
+          state.lineupFetchNotice = {
+            type: "success",
+            message: unmatched.length
+              ? "本日のスタメンを取得しました（" + unmatched.join("、") + " は選手名を自動判定できず未反映です。手動で登録してください）"
+              : "本日のスタメンを取得して反映しました"
+          };
+        } else {
+          state.lineupFetchNotice = { type: "error", message: (data && data.error) || "本日のスタメンは未発表か、取得できませんでした" };
+        }
+        renderOverlay();
+      })
+      .catch(function () {
+        state.lineupFetching = null;
+        state.lineupFetchNotice = { type: "error", message: "通信に失敗しました。電波状況をご確認のうえ、もう一度お試しください" };
+        renderOverlay();
+      });
+  }
+
   function guessSpecificPositionKeys(p) {
     var text = (p.detailedPosition || "") + " " + (p.position || "");
     var keys = [];
@@ -802,7 +882,9 @@
     lineupSide: "home", // home | opponent（スタメン登録シート内のタブ）
     lineupView: "order", // order | defense | compare（打順一覧 / 守備位置ダイヤモンド図 / 両チーム打線比較）
     lineupPicker: null, // { side, kind: 'batter'|'pitcher'|'position', index?, posKey? }
-    lineupPickerQuery: ""
+    lineupPickerQuery: "",
+    lineupFetching: null, // "home" | "opponent" | null（/api/lineup 取得中の対象サイド。二重押し防止にも使う）
+    lineupFetchNotice: null // { type: 'success'|'error', message } 取得結果の通知（サイド切替時にクリア）
   };
   state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
   applyHomeTheme(state.homeTeam);
@@ -1679,6 +1761,26 @@
     );
   }
 
+  function lineupFetchBtnHtml(side) {
+    var fetching = state.lineupFetching === side;
+    return (
+      '<button class="lineup-fetch-btn" data-action="fetch-today-lineup" data-side="' + side + '"' + (fetching ? " disabled" : "") + '>' +
+        icon("download", 13, fetching ? "spin-icon" : "") +
+        (fetching ? "取得中…" : "今日のスタメンを取得") +
+      "</button>"
+    );
+  }
+
+  function lineupFetchNoticeHtml() {
+    var n = state.lineupFetchNotice;
+    if (!n) return "";
+    return (
+      '<p class="lineup-fetch-notice ' + (n.type === "error" ? "is-error" : "is-success") + '">' +
+        icon(n.type === "error" ? "alertTriangle" : "check", 13) + esc(n.message) +
+      "</p>"
+    );
+  }
+
   // sheet-header（閉じるボタン等）を含まない、打順登録シートの中身だけを返す。
   // 「打順⇄守備位置⇄打線比較」の切替時や対戦チーム切替時は、このinnerHTMLだけを
   // 差し替えることで、シート全体（オーバーレイのスクリム・クリックリスナー等）を
@@ -1689,7 +1791,9 @@
         '<div class="detail-tabs">' +
           '<button class="detail-tab-btn' + (side === "home" ? " active" : "") + '" data-action="set-lineup-side" data-side="home">' + esc(state.homeTeam) + "（" + lineupFilledCount("home") + "/10）</button>" +
           '<button class="detail-tab-btn' + (side === "opponent" ? " active" : "") + '" data-action="set-lineup-side" data-side="opponent">' + esc(state.opponentTeam) + "（" + lineupFilledCount("opponent") + "/10）</button>" +
-        "</div>"
+        "</div>" +
+        '<div class="lineup-fetch-row">' + lineupFetchBtnHtml(side) + "</div>" +
+        lineupFetchNoticeHtml()
       ) +
       '<div class="lineup-view-tabs">' + lineupViewTabsHtml() + "</div>" +
       (isCompare ? lineupComparisonHtml() : lineupSheetBodyHtml(side, teamLabel))
@@ -2157,7 +2261,10 @@
     } else if (action === "set-lineup-side") {
       state.lineupSide = lineupSideAttr === "opponent" ? "opponent" : "home";
       state.lineupPicker = null;
+      state.lineupFetchNotice = null;
       patchLineupBody();
+    } else if (action === "fetch-today-lineup") {
+      fetchTodayLineup(lineupSideAttr === "opponent" ? "opponent" : "home");
     } else if (action === "set-lineup-view") {
       state.lineupView = (key === "defense" || key === "compare") ? key : "order";
       state.lineupPicker = null;
