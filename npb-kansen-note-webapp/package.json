@@ -1,0 +1,10 @@
+{
+  "name": "npb-kansen-note",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NPB観戦ノート - NPB12球団・229選手の名鑑と人脈ネットワーク",
+  "scripts": {
+    "dev": "vercel dev",
+    "serve": "npx serve ."
+  }
+}

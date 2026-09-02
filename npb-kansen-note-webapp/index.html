@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NPB観戦ノート</title>
+<meta name="description" content="NPB12球団・229選手の名鑑と人脈ネットワーク。応援球団を選ぶと、その球団カラーに変わり、他球団選手との実在のつながりをチェックできます。実在選手の実際の記録・エピソードのみを掲載。">
+<meta name="theme-color" content="#870010">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="/css/styles.min.css">
+<style>
+  /* 初期スケルトン（JS/データ読み込み中に表示。app.js起動後は#appの内容に置き換わる） */
+  #boot-skeleton {
+    position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 14px; background: #F7F1E6; color: #870010; font-family: "Zen Kaku Gothic New", sans-serif;
+  }
+  #boot-skeleton .spin {
+    width: 34px; height: 34px; border-radius: 50%; border: 3px solid rgba(135,0,16,0.18); border-top-color: #870010;
+    animation: boot-spin 0.8s linear infinite;
+  }
+  #boot-skeleton p { font-size: 13px; font-weight: 700; opacity: 0.75; }
+  @keyframes boot-spin { to { transform: rotate(360deg); } }
+  [data-boot-done] #boot-skeleton { display: none; }
+</style>
+</head>
+<body>
+<div id="boot-skeleton"><div class="spin"></div><p>読み込み中…</p></div>
+<div id="app"></div>
+<script src="/js/app.min.js" defer></script>
+<script>
+  // オフライン・低速回線対応のService Worker登録。対応ブラウザのみ、失敗しても本体機能には影響しない。
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("/service-worker.js").catch(function (err) {
+        console.warn("Service Worker registration failed:", err);
+      });
+    });
+  }
+</script>
+</body>
+</html>

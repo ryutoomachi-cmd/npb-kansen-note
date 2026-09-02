@@ -1,0 +1,19 @@
+{
+  "name": "NPB観戦ノート",
+  "short_name": "NPB観戦ノート",
+  "description": "NPB12球団・229選手の名鑑と人脈ネットワーク。実在選手の実際の記録・エピソードのみを掲載。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F1E6",
+  "theme_color": "#870010",
+  "lang": "ja",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
