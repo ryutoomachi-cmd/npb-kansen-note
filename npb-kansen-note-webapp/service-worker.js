@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2"; // レジェンド機能追加に伴い更新（古いキャッシュのapp.min.js/styles.min.cssを確実に入れ替える）
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

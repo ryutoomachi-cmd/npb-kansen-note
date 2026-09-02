@@ -70,41 +70,46 @@ function resolveHref(href, baseUrl) {
   try { return new URL(href, baseUrl).href; } catch (e) { return href; }
 }
 
-// 日程ページから、対象日・対象球団の試合ページURL（絶対URL）を探す。
-// 対戦相手を特定するため、URL中の2球団のコードも一緒に返す。
+// 日程ページ（月間）の中から、対象球団が出てくる試合リンクを全て集める。
 // hrefは相対パス（例: "../scores/2026/0902/e-b-23/"）で書かれている可能性があるため、
 // 文字列の部分一致ではなく、URLとして解決した絶対URLで判定する（部分一致だと、
 // 相対パスの書き方次第で一致しないことがあるため）。
-// debugInfoを渡すと、実際に見つかったscores系リンクの例をそこに書き込む（原因調査用）。
-function findTodayGameUrl($, year, mmdd, teamCode, baseUrl, debugInfo) {
-  const scoresPrefix = "/scores/" + year + "/" + mmdd + "/";
-  let found = null;
-  const sampleScoreHrefs = [];
+// 「本日の試合」だけでなく「今月の対象球団の全試合」を集めることで、本日試合が
+// 無い日（オフ日）には直近の過去の試合にフォールバックできるようにする。
+function collectTeamGameLinks($, year, teamCode, baseUrl) {
+  const re = new RegExp("/scores/" + year + "/(\\d{4})/([a-z]+)-([a-z]+)-(\\d+)/");
+  const results = [];
+  const seen = {};
   $("a[href]").each((_, el) => {
-    if (found) return;
     const rawHref = $(el).attr("href") || "";
     if (rawHref.indexOf("/scores/") === -1 && rawHref.indexOf("scores/") === -1) return;
     const abs = resolveHref(rawHref, baseUrl);
-    if (sampleScoreHrefs.length < 12) sampleScoreHrefs.push(abs);
-    const idx = abs.indexOf(scoresPrefix);
-    if (idx === -1) return;
-    const rest = abs.slice(idx + scoresPrefix.length); // 例: "e-b-23/" や "e-b-23/index.html"
-    const m = rest.match(/^([a-z]+)-([a-z]+)-(\d+)\//);
+    const m = abs.match(re);
     if (!m) return;
-    if (m[1] === teamCode || m[2] === teamCode) {
-      found = {
-        url: "https://npb.jp" + scoresPrefix + m[1] + "-" + m[2] + "-" + m[3] + "/",
-        codeA: m[1],
-        codeB: m[2],
-      };
-    }
+    const mmdd = m[1], codeA = m[2], codeB = m[3], num = m[4];
+    if (codeA !== teamCode && codeB !== teamCode) return;
+    const key = mmdd + "-" + codeA + "-" + codeB + "-" + num;
+    if (seen[key]) return;
+    seen[key] = true;
+    results.push({
+      mmdd,
+      codeA,
+      codeB,
+      url: "https://npb.jp/scores/" + year + "/" + mmdd + "/" + codeA + "-" + codeB + "-" + num + "/",
+    });
   });
-  if (debugInfo) {
-    debugInfo.scoresPrefix = scoresPrefix;
-    debugInfo.sampleScoreHrefsFound = sampleScoreHrefs;
-    debugInfo.mmddAppearsInPage = null; // handler側でページ全文チェックした結果を入れる
-  }
-  return found;
+  return results;
+}
+
+function prevMonthOf(year, mm) {
+  let y = parseInt(year, 10);
+  let m = parseInt(mm, 10) - 1;
+  if (m < 1) { m = 12; y -= 1; }
+  return { year: y, mm: String(m).padStart(2, "0") };
+}
+
+function gameDateLabel(mmdd) {
+  return String(parseInt(mmdd.slice(0, 2), 10)) + "月" + String(parseInt(mmdd.slice(2, 4), 10)) + "日";
 }
 
 // 守備位置の略号だけを取り出す（"(右)左" のような表記からも1文字取り出せるようにする）
@@ -232,7 +237,7 @@ export default async function handler(req, res) {
   try {
     const { year, mmdd } = jstToday();
 
-    // 1. 月間日程ページから、本日・対象球団の試合ページURLを特定する
+    // 1. 月間日程ページから、対象球団の試合リンクを全て集める
     const mm = mmdd.slice(0, 2);
     const scheduleUrl = "https://npb.jp/games/" + year + "/schedule_" + mm + "_detail.html";
     debugInfo.scheduleUrl = scheduleUrl;
@@ -240,14 +245,48 @@ export default async function handler(req, res) {
     const scheduleRes = await axios.get(scheduleUrl, { headers: HTTP_HEADERS, timeout: 8000 });
     const scheduleHtml = String(scheduleRes.data);
     const $schedule = cheerio.load(scheduleHtml);
-    const game = findTodayGameUrl($schedule, year, mmdd, teamCode, scheduleUrl, debugInfo);
+    const monthGames = collectTeamGameLinks($schedule, year, teamCode, scheduleUrl);
+    debugInfo.monthGamesFound = monthGames.map((g) => g.mmdd + ":" + g.codeA + "-" + g.codeB);
+    debugInfo.mmddAppearsInPage = scheduleHtml.indexOf(mmdd) !== -1;
+
+    // 本日の試合があればそれを使う。無ければ、今月分の中から一番直近の「過去の」試合を
+    // 探す（＝オフ日でも、前回の試合のスタメンを「終了済みの試合」として表示できるようにする）。
+    // 今月分に対象球団の試合が1件も見つからない場合（月初めで前回の試合が先月分など）は、
+    // 先月の日程ページも確認する。
+    let game = monthGames.find((g) => g.mmdd === mmdd) || null;
+    let isPastGame = false;
+
+    if (!game) {
+      const pastThisMonth = monthGames.filter((g) => g.mmdd < mmdd).sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
+      if (pastThisMonth.length) {
+        game = pastThisMonth[0];
+        isPastGame = true;
+      } else {
+        const prev = prevMonthOf(year, mm);
+        const prevScheduleUrl = "https://npb.jp/games/" + prev.year + "/schedule_" + prev.mm + "_detail.html";
+        debugInfo.prevScheduleUrl = prevScheduleUrl;
+        try {
+          const prevRes = await axios.get(prevScheduleUrl, { headers: HTTP_HEADERS, timeout: 8000 });
+          const $prev = cheerio.load(String(prevRes.data));
+          const prevGames = collectTeamGameLinks($prev, prev.year, teamCode, prevScheduleUrl)
+            .sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
+          if (prevGames.length) {
+            game = prevGames[0];
+            isPastGame = true;
+          }
+        } catch (prevErr) {
+          debugInfo.prevScheduleError = String(prevErr.message || prevErr);
+        }
+      }
+    }
+
     debugInfo.game = game;
-    if (debugInfo) debugInfo.mmddAppearsInPage = scheduleHtml.indexOf(mmdd) !== -1;
+    debugInfo.isPastGame = isPastGame;
 
     if (!game) {
       return res.status(200).json({
         success: false,
-        error: "本日の" + teamName + "の試合が見つかりませんでした（本日は試合がない可能性があります）",
+        error: "本日および直近の" + teamName + "の試合が見つかりませんでした",
         ...(debug ? { debug: debugInfo } : {}),
       });
     }
@@ -267,7 +306,7 @@ export default async function handler(req, res) {
     // これだけでブロックせず、まずスタメン表の取得を試み、失敗した場合の判定材料として使う。
     const teamTable = findTeamOrderTable($game, fullName);
     if (!teamTable || !teamTable.rows.length) {
-      const notAnnouncedYet = isBeforeAnnouncement($game.text());
+      const notAnnouncedYet = !isPastGame && isBeforeAnnouncement($game.text());
       return res.status(200).json({
         success: false,
         error: notAnnouncedYet
@@ -306,6 +345,8 @@ export default async function handler(req, res) {
       pitcher: pitcher || null,
       starters,
       bench,
+      isPastGame,
+      gameDate: isPastGame ? gameDateLabel(game.mmdd) : null,
       ...(debug ? { debug: debugInfo } : {}),
     });
   } catch (err) {

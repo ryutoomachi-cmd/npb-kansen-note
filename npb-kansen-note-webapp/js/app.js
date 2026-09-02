@@ -6,6 +6,9 @@
   var RELATIONS = [];
   var TEAM_NEXT_GAMES = [];
   var NEWS = [];
+  var LEGENDS = null; // レジェンド機能用データ（起動直後の描画をブロックしないよう、boot()後にバックグラウンドで取得）
+  var legendsLoadFailed = false;
+  var legendsLoadPromise = null;
 
   /* ===================== Icons (hand-drawn, minimal) ===================== */
   var ICONS = {
@@ -146,6 +149,26 @@
   function loadRelations() { return fetchWithCache("relations", "data/relations.json"); }
   function loadSchedule() { return fetchWithCache("schedule", "data/schedule.json"); }
   function loadNews() { return fetchWithCache("news", "data/news.json"); }
+
+  // レジェンドデータ（50人超）は初回描画には不要なため、boot()完了後にバックグラウンドで
+  // 取得する（レジェンドタブを開いたとき・選手詳細の「似た成績のレジェンド」表示のときに使う）。
+  // 既に取得済み/取得中ならその結果を再利用する。
+  function ensureLegendsLoaded() {
+    if (LEGENDS) return Promise.resolve(LEGENDS);
+    if (!legendsLoadPromise) {
+      legendsLoadFailed = false;
+      legendsLoadPromise = fetchWithCache("legends", "data/legends.json").then(function (list) {
+        LEGENDS = list || [];
+        return LEGENDS;
+      }).catch(function (err) {
+        console.error("レジェンドデータの取得に失敗しました", err);
+        legendsLoadPromise = null;
+        legendsLoadFailed = true;
+        throw err;
+      });
+    }
+    return legendsLoadPromise;
+  }
 
   function mergeTeamPlayers(list) {
     if (!list || !list.length) return;
@@ -641,12 +664,20 @@
         state.lineupFetching = null;
         if (data && data.success) {
           var unmatched = applyScrapedLineup(side, data);
-          state.lineupFetchNotice = {
-            type: "success",
-            message: unmatched.length
-              ? "本日のスタメンを取得しました（" + unmatched.join("、") + " は選手名を自動判定できず未反映です。手動で登録してください）"
-              : "本日のスタメンを取得して反映しました"
-          };
+          var unmatchedSuffix = unmatched.length
+            ? "（" + unmatched.join("、") + " は選手名を自動判定できず未反映です。手動で登録してください）"
+            : "";
+          if (data.isPastGame) {
+            state.lineupFetchNotice = {
+              type: "warning",
+              message: "本日は試合がないため、前回（" + (data.gameDate || "直近") + "）の終了した試合のスタメンを表示しています" + unmatchedSuffix
+            };
+          } else {
+            state.lineupFetchNotice = {
+              type: "success",
+              message: "本日のスタメンを取得して反映しました" + unmatchedSuffix
+            };
+          }
         } else {
           state.lineupFetchNotice = { type: "error", message: (data && data.error) || "本日のスタメンは未発表か、取得できませんでした" };
         }
@@ -879,7 +910,8 @@
     batterSort: "avg",
     pitcherSort: "era",
     tab: "home", // home | roster
-    overlay: null, // { type: 'detail'|'connections'|'lineup'|'filters'|'settings', playerId? }
+    rosterView: "players", // players | legends（名鑑タブ内の切替：現役選手一覧 / レジェンド一覧）
+    overlay: null, // { type: 'detail'|'connections'|'lineup'|'filters'|'settings'|'legend-detail', playerId?, legendId? }
     detailTab: "basic", // basic | other (選手詳細シート内のタブ)
     homeTeam: initHomeTeam,
     opponentTeam: initOpponentTeam,
@@ -889,7 +921,11 @@
     lineupPicker: null, // { side, kind: 'batter'|'pitcher'|'position', index?, posKey? }
     lineupPickerQuery: "",
     lineupFetching: null, // "home" | "opponent" | null（/api/lineup 取得中の対象サイド。二重押し防止にも使う）
-    lineupFetchNotice: null // { type: 'success'|'error', message } 取得結果の通知（サイド切替時にクリア）
+    lineupFetchNotice: null, // { type: 'success'|'warning'|'error', message } 取得結果の通知（サイド切替時にクリア）
+    legendCategoryFilter: "all", // all | legend | overseas | faded（レジェンド一覧の絞り込み）
+    legendComparePlayerId: null, // レジェンド詳細で「比較する選手を変える」により手動選択された現役選手ID（未選択なら自動で近い成績の選手を選ぶ）
+    legendComparePickerOpen: false,
+    legendComparePickerQuery: ""
   };
   state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
   applyHomeTheme(state.homeTeam);
@@ -910,20 +946,26 @@
         '<span class="txt" id="matchup-banner-txt"></span>' +
       "</div>" +
       '<div id="roster-controls">' +
-        '<div class="search-wrap">' +
-          icon("search", 16, "icon-search") +
-          '<input id="search-input" type="search" inputmode="search" placeholder="選手名・学校名・シニア名で検索" autocomplete="off">' +
-          '<button class="search-clear" id="search-clear" aria-label="検索をクリア" hidden>' + icon("x", 14) + "</button>" +
+        '<div class="mode-switch roster-view-switch" id="roster-view-switch">' +
+          '<button data-roster-view="players">' + icon("grid", 13) + "選手一覧</button>" +
+          '<button data-roster-view="legends">' + icon("trophy", 13) + "レジェンド</button>" +
         "</div>" +
-        '<div class="filter-trigger-row">' +
-          '<button class="filter-trigger-btn" id="filter-trigger-btn" data-action="open-filters"></button>' +
-          '<div class="active-filter-chips no-scrollbar" id="active-filter-chips" hidden></div>' +
-        "</div>" +
-        '<div class="control-row">' +
-          '<div class="mode-switch" id="mode-switch">' +
-            '<button data-mode="all">全員</button><button data-mode="batter">野手</button><button data-mode="pitcher">投手</button>' +
+        '<div id="roster-players-controls">' +
+          '<div class="search-wrap">' +
+            icon("search", 16, "icon-search") +
+            '<input id="search-input" type="search" inputmode="search" placeholder="選手名・学校名・シニア名で検索" autocomplete="off">' +
+            '<button class="search-clear" id="search-clear" aria-label="検索をクリア" hidden>' + icon("x", 14) + "</button>" +
           "</div>" +
-          '<div class="sort-row no-scrollbar" id="sort-row"></div>' +
+          '<div class="filter-trigger-row">' +
+            '<button class="filter-trigger-btn" id="filter-trigger-btn" data-action="open-filters"></button>' +
+            '<div class="active-filter-chips no-scrollbar" id="active-filter-chips" hidden></div>' +
+          "</div>" +
+          '<div class="control-row">' +
+            '<div class="mode-switch" id="mode-switch">' +
+              '<button data-mode="all">全員</button><button data-mode="batter">野手</button><button data-mode="pitcher">投手</button>' +
+            "</div>" +
+            '<div class="sort-row no-scrollbar" id="sort-row"></div>' +
+          "</div>" +
         "</div>" +
       "</div>" +
     "</header>" +
@@ -943,6 +985,8 @@
     brandEyebrow: document.getElementById("brand-eyebrow"),
     brandTitle: document.getElementById("brand-title"),
     rosterControls: document.getElementById("roster-controls"),
+    rosterViewSwitch: document.getElementById("roster-view-switch"),
+    rosterPlayersControls: document.getElementById("roster-players-controls"),
     searchInput: document.getElementById("search-input"),
     searchClear: document.getElementById("search-clear"),
     filterTriggerBtn: document.getElementById("filter-trigger-btn"),
@@ -1173,13 +1217,353 @@
   }
   function sortDirFor(key) { return key === "era" || key === "number" ? "asc" : "desc"; }
 
+  function renderRosterViewSwitch() {
+    if (!els.rosterViewSwitch) return;
+    var btns = els.rosterViewSwitch.querySelectorAll("button[data-roster-view]");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].classList.toggle("active", btns[i].getAttribute("data-roster-view") === state.rosterView);
+    }
+    if (els.rosterPlayersControls) els.rosterPlayersControls.style.display = state.rosterView === "players" ? "block" : "none";
+  }
+
   function renderRoster() {
+    renderRosterViewSwitch();
+    if (state.rosterView === "legends") { renderLegendGrid(); return; }
     var list = currentRosterList();
     els.countPill.textContent = list.length + "名";
     els.main.innerHTML = '<div class="grid">' +
       (list.length ? list.map(playerCardHtml).join("") : '<p class="empty-state">該当する選手が見つかりませんでした。</p>') +
       "</div>" +
       '<p class="data-footnote">' + esc(DATA_AS_OF) + "。全12球団" + PLAYERS.length + "名を掲載（各球団の主力・注目選手を中心に、全選手を網羅するものではありません）。</p>";
+  }
+
+  /* ===================== Render: レジェンド（歴代スター・海外組・現役成績と比較） ===================== */
+  var LEGEND_CATEGORY_LABELS = { legend: "歴代レジェンド", overseas: "海外へ羽ばたいた選手", faded: "かつての大スター" };
+  var LEGEND_CATEGORY_SHORT = { legend: "歴代", overseas: "海外組", faded: "元スター" };
+  var LEGEND_CATEGORY_FILTERS = [
+    { key: "all", label: "全員" },
+    { key: "legend", label: "歴代レジェンド" },
+    { key: "overseas", label: "海外組" },
+    { key: "faded", label: "かつての大スター" }
+  ];
+  function legendCategoryClass(cat) { return cat === "overseas" ? "cat-overseas" : cat === "faded" ? "cat-faded" : "cat-legend"; }
+  function legendById(id) { return LEGENDS ? LEGENDS.filter(function (l) { return l.id === id; })[0] : null; }
+
+  function legendAvatarHtml(leg, size) {
+    var sz = size || 40;
+    var radius = Math.round(sz * 0.28);
+    return (
+      '<div class="legend-avatar ' + legendCategoryClass(leg.category) + '" style="width:' + sz + "px;height:" + sz + 'px;border-radius:' + radius + 'px;">' +
+        icon("trophy", Math.round(sz * 0.44)) +
+      "</div>"
+    );
+  }
+
+  function legendCardHtml(leg) {
+    var bs = leg.bestSeason || {};
+    var statLine = leg.isPitcher
+      ? [["防御率", bs.eraDisplay || "-"], ["勝-敗", bs.wins != null ? bs.wins + "-" + (bs.losses != null ? bs.losses : 0) : "-"], ["奪三振", bs.strikeouts != null ? String(bs.strikeouts) : "-"]]
+      : [["打率", bs.avgDisplay || "-"], ["本塁打", bs.hr != null ? String(bs.hr) : "-"], ["打点", bs.rbi != null ? String(bs.rbi) : "-"]];
+    return (
+      '<button class="p-card" data-action="open-legend-detail" data-id="' + leg.id + '">' +
+        '<div class="p-card-top">' +
+          '<div class="p-card-id">' +
+            legendAvatarHtml(leg, 40) +
+            '<div class="p-meta"><p class="p-num">' + esc(leg.detailedPosition || "") + "</p><p class=\"p-name\">" + esc(leg.name) + "</p></div>" +
+          "</div>" +
+        "</div>" +
+        '<div class="badge-row">' +
+          '<span class="badge legend-badge ' + legendCategoryClass(leg.category) + '">' + esc(LEGEND_CATEGORY_SHORT[leg.category] || "レジェンド") + "</span>" +
+          (leg.peakTeam ? '<span class="badge" style="background:var(--bg-sunken);color:var(--ink-dim);">' + esc(leg.peakTeam) + "</span>" : "") +
+        "</div>" +
+        '<div class="stat-strip">' +
+          statLine.map(function (s) { return '<div><p class="lbl">' + s[0] + '</p><p class="val">' + s[1] + "</p></div>"; }).join("") +
+        "</div>" +
+      "</button>"
+    );
+  }
+
+  function currentLegendList() {
+    var list = LEGENDS || [];
+    if (state.legendCategoryFilter !== "all") list = list.filter(function (l) { return l.category === state.legendCategoryFilter; });
+    return list;
+  }
+
+  function legendFilterRowHtml() {
+    return '<div class="legend-filter-row no-scrollbar">' +
+      LEGEND_CATEGORY_FILTERS.map(function (f) {
+        return '<button class="legend-filter-btn' + (state.legendCategoryFilter === f.key ? " active" : "") + '" data-action="set-legend-category" data-key="' + f.key + '">' + esc(f.label) + "</button>";
+      }).join("") +
+    "</div>";
+  }
+
+  function renderLegendGrid() {
+    if (!LEGENDS) {
+      els.countPill.textContent = "-名";
+      els.main.innerHTML = legendsLoadFailed
+        ? '<div class="empty-state-block">' +
+            '<p class="empty-state">レジェンドデータの取得に失敗しました。電波状況をご確認のうえ、もう一度お試しください。</p>' +
+            '<button class="cta-btn cta-outline" data-action="retry-legends" style="margin:14px auto 0;max-width:220px;">' + icon("network", 15) + "再読み込み</button>" +
+          "</div>"
+        : '<p class="empty-state">読み込み中…</p>';
+      return;
+    }
+    var list = currentLegendList();
+    els.countPill.textContent = list.length + "名";
+    els.main.innerHTML =
+      '<div style="padding:0 16px;">' + legendFilterRowHtml() + "</div>" +
+      '<div class="grid">' +
+        (list.length ? list.map(legendCardHtml).join("") : '<p class="empty-state">該当するレジェンドが見つかりませんでした。</p>') +
+      "</div>" +
+      '<p class="data-footnote">歴代の球界スター・海外へ羽ばたいた選手・かつて活躍した選手を' + LEGENDS.length + '名掲載。各選手の「自己ベストシーズン」成績はWikipedia・NPB公式記録等をもとに調査していますが、数値には誤りが含まれる可能性があります。正確な記録は球団・NPB公式の記録をご確認ください。</p>';
+  }
+
+  /* ---- 現役選手⇔レジェンドの類似成績マッチング ----
+     打率・本塁打・打点（打者）／防御率・勝利数・奪三振（投手）のズレを大まかに正規化して
+     合計したスコアが最も小さい相手を「似た成績」とみなす。レジェンドの成績は本人のNPB
+     自己ベストシーズン（実質フルシーズン）、現役選手の成績はアプリ内の今季（シーズン
+     途中）成績のため、単純な優劣比較ではなく「タイプの近さ」の目安として案内する。 */
+  function battersSimilarityScore(bs, cs) {
+    if (bs.avg == null || cs.avg == null) return null;
+    var d = Math.abs(bs.avg - cs.avg) / 0.05;
+    if (bs.hr != null && cs.hr != null) d += Math.abs(bs.hr - cs.hr) / 15;
+    if (bs.rbi != null && cs.rbi != null) d += Math.abs(bs.rbi - cs.rbi) / 30;
+    return d;
+  }
+  function pitchersSimilarityScore(bs, cs) {
+    if (bs.era == null || cs.era == null) return null;
+    var d = Math.abs(bs.era - cs.era) / 1.5;
+    if (bs.wins != null && cs.wins != null) d += Math.abs(bs.wins - cs.wins) / 8;
+    if (bs.strikeouts != null && cs.strikeouts != null) d += Math.abs(bs.strikeouts - cs.strikeouts) / 60;
+    return d;
+  }
+  function findSimilarCurrentPlayer(leg, excludeId) {
+    var pool = PLAYERS.filter(function (p) { return isPitcher(p) === !!leg.isPitcher && p.id !== excludeId; });
+    var bs = leg.bestSeason || {};
+    var best = null, bestScore = Infinity;
+    pool.forEach(function (p) {
+      var cs = p.currentStats || {};
+      var score = leg.isPitcher ? pitchersSimilarityScore(bs, cs) : battersSimilarityScore(bs, cs);
+      if (score != null && score < bestScore) { bestScore = score; best = p; }
+    });
+    return best;
+  }
+  function findSimilarLegend(player) {
+    if (!LEGENDS || !LEGENDS.length) return null;
+    var cs = player.currentStats || {};
+    var pitcherFlag = isPitcher(player);
+    var best = null, bestScore = Infinity;
+    LEGENDS.forEach(function (leg) {
+      if (!!leg.isPitcher !== pitcherFlag) return;
+      var score = pitcherFlag ? pitchersSimilarityScore(leg.bestSeason || {}, cs) : battersSimilarityScore(leg.bestSeason || {}, cs);
+      if (score != null && score < bestScore) { bestScore = score; best = leg; }
+    });
+    return best;
+  }
+
+  // 現役選手の詳細画面に表示する「似た成績のレジェンド」ヒント（レジェンドデータ未取得時は非表示）
+  function similarLegendHintHtml(p) {
+    if (!LEGENDS || !LEGENDS.length) return "";
+    var match = findSimilarLegend(p);
+    if (!match) return "";
+    var bs = match.bestSeason || {};
+    var statText = match.isPitcher
+      ? (bs.eraDisplay || "-") + "／" + (bs.wins != null ? bs.wins + "勝" + (bs.losses != null ? bs.losses : 0) + "敗" : "-")
+      : (bs.avgDisplay || "-") + "／" + (bs.hr != null ? bs.hr + "本" : "-") + "／" + (bs.rbi != null ? bs.rbi + "打点" : "-");
+    return (
+      '<section><p class="section-label">' + icon("trophy", 13) + "似た成績のレジェンド</p>" +
+        '<button class="legend-hint-card" data-action="open-legend-detail" data-id="' + match.id + '">' +
+          legendAvatarHtml(match, 36) +
+          '<span class="legend-hint-body">' +
+            '<span class="legend-hint-nm">' + esc(match.name) +
+              '<span class="badge legend-badge ' + legendCategoryClass(match.category) + '" style="margin-left:6px;font-size:9.5px;padding:2px 7px;">' + esc(LEGEND_CATEGORY_SHORT[match.category] || "") + "</span>" +
+            "</span>" +
+            '<span class="legend-hint-stats">' + esc(bs.year || "") + "年 自己ベストシーズン： " + statText + "</span>" +
+          "</span>" +
+          icon("arrowRight", 15) +
+        "</button>" +
+      "</section>"
+    );
+  }
+
+  // 打者/投手それぞれ、2つの成績オブジェクトから「どちらが優れているか」込みの比較表示値を作る
+  function compareValuesFor(aStats, bStats, isPitcherFlag) {
+    if (isPitcherFlag) {
+      var aEra = aStats.era, bEra = bStats.era, aWins = aStats.wins, bWins = bStats.wins;
+      return {
+        aVals: [
+          { text: aStats.eraDisplay || "-", better: aEra != null && (bEra == null || aEra < bEra) },
+          { text: aWins != null ? aWins + "勝" : "-", better: aWins != null && (bWins == null || aWins > bWins) }
+        ],
+        bVals: [
+          { text: bStats.eraDisplay || "-", better: bEra != null && (aEra == null || bEra < aEra) },
+          { text: bWins != null ? bWins + "勝" : "-", better: bWins != null && (aWins == null || bWins > aWins) }
+        ]
+      };
+    }
+    var aAvg = aStats.avg, bAvg = bStats.avg, aHr = aStats.hr, bHr = bStats.hr;
+    return {
+      aVals: [
+        { text: aStats.avgDisplay || (aAvg != null ? aAvg.toFixed(3) : "-"), better: aAvg != null && (bAvg == null || aAvg > bAvg) },
+        { text: aHr != null ? aHr + "本" : "-", better: aHr != null && (bHr == null || aHr > bHr) }
+      ],
+      bVals: [
+        { text: bStats.avgDisplay || (bAvg != null ? bAvg.toFixed(3) : "-"), better: bAvg != null && (aAvg == null || bAvg > aAvg) },
+        { text: bHr != null ? bHr + "本" : "-", better: bHr != null && (aHr == null || bHr > aHr) }
+      ]
+    };
+  }
+  function legendCompareCardHtml(leg, statsArr) {
+    return (
+      '<div class="compare-side" style="cursor:default;">' +
+        legendAvatarHtml(leg, 28) +
+        '<span class="compare-nm-wrap">' +
+          '<span class="compare-nm">' + esc(leg.name) + "</span>" +
+          '<span class="compare-stats">' + compareStatRow(statsArr) + "</span>" +
+        "</span>" +
+      "</div>"
+    );
+  }
+  function legendComparePlayerCardHtml(p, statsArr) {
+    if (!p) return '<div class="compare-side compare-empty"><span class="compare-nm-wrap"><span class="compare-nm">対象なし</span></span></div>';
+    var tc = teamColor(p.currentTeamName);
+    return (
+      '<button class="compare-side" data-action="open-detail" data-id="' + p.id + '">' +
+        avatarHtml(p, 28) +
+        '<span class="compare-nm-wrap">' +
+          '<span class="compare-nm">' + esc(p.name) + '<span style="font-weight:600;color:' + tc.fg + ";background:" + tc.bg + ';border-radius:6px;padding:1px 5px;margin-left:5px;font-size:9px;">' + esc(p.currentTeamName) + "</span></span>" +
+          '<span class="compare-stats">' + compareStatRow(statsArr) + "</span>" +
+        "</span>" +
+      "</button>"
+    );
+  }
+
+  function legendComparePickerHtml(leg) {
+    var q = (state.legendComparePickerQuery || "").trim().toLowerCase();
+    var pool = PLAYERS.filter(function (p) { return isPitcher(p) === !!leg.isPitcher; });
+    if (q) pool = pool.filter(function (p) { return (p.name || "").toLowerCase().indexOf(q) !== -1 || (p.nameKana || "").indexOf(q) !== -1; });
+    pool = pool.slice().sort(function (a, b) {
+      var ah = a.currentTeamName === state.homeTeam ? 0 : 1, bh = b.currentTeamName === state.homeTeam ? 0 : 1;
+      return ah - bh || a.number - b.number;
+    }).slice(0, 60);
+    return (
+      '<div class="search-wrap lineup-picker-search">' +
+        icon("search", 16, "icon-search") +
+        '<input type="search" inputmode="search" id="legend-compare-picker-input" placeholder="選手名で検索" autocomplete="off" value="' + esc(state.legendComparePickerQuery || "") + '">' +
+      "</div>" +
+      '<div class="lineup-picker-list">' +
+        (pool.length ? pool.map(function (p) {
+          var tc = teamColor(p.currentTeamName);
+          return (
+            '<button class="lineup-picker-row" data-action="pick-legend-compare-player" data-id="' + p.id + '">' +
+              avatarHtml(p, 36) +
+              '<span class="lineup-picker-nm">' + esc(p.name) +
+                '<span class="lineup-picker-pos" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(p.currentTeamName) + "</span>" +
+              "</span>" +
+            "</button>"
+          );
+        }).join("") : '<p class="empty-state" style="padding:18px 0;">該当する選手が見つかりませんでした。</p>') +
+      "</div>" +
+      '<button class="lineup-clear-btn" data-action="close-legend-compare-picker">キャンセル</button>'
+    );
+  }
+
+  function refreshLegendComparePickerList() {
+    var leg = state.overlay && state.overlay.type === "legend-detail" ? legendById(state.overlay.legendId) : null;
+    if (!leg) return;
+    var wrap = els.overlayRoot.querySelector(".legend-compare-picker-body");
+    if (!wrap) return;
+    wrap.innerHTML = legendComparePickerHtml(leg);
+  }
+
+  function legendCompareSectionHtml(leg) {
+    if (state.legendComparePickerOpen) {
+      return (
+        '<section><p class="section-label">' + icon("network", 13) + "比較する現役選手を選ぶ</p>" +
+          '<div class="legend-compare-picker-body">' + legendComparePickerHtml(leg) + "</div>" +
+        "</section>"
+      );
+    }
+    var chosen = state.legendComparePlayerId ? byId(state.legendComparePlayerId) : null;
+    var target = chosen || findSimilarCurrentPlayer(leg);
+    var isAuto = !chosen;
+    var body;
+    if (!LEGENDS) {
+      body = '<p class="empty-state" style="padding:10px 0;">読み込み中…</p>';
+    } else if (!PLAYERS.length) {
+      body = '<p class="empty-state" style="padding:10px 0;">現役選手データを読み込み中です…</p>';
+    } else if (!target) {
+      body = '<p class="empty-state" style="padding:10px 0;">比較できる現役選手が見つかりませんでした。</p>';
+    } else {
+      var cmp = compareValuesFor(leg.bestSeason || {}, target.currentStats || {}, !!leg.isPitcher);
+      body =
+        '<p class="network-intro">' + esc((leg.bestSeason && leg.bestSeason.year) || "") + "年の自己ベストシーズンと、" + esc(target.name) + "選手の今季ここまでの成績を比べています。" + (isAuto ? "（成績が近い現役選手を自動で選んでいます）" : "") + "</p>" +
+        '<div class="compare-row">' +
+          legendCompareCardHtml(leg, cmp.aVals) +
+          '<span class="compare-num">vs</span>' +
+          legendComparePlayerCardHtml(target, cmp.bVals) +
+        "</div>" +
+        '<button class="lineup-fetch-btn" data-action="open-legend-compare-picker" style="margin-top:10px;">' + icon("users", 13) + "比較する選手を変える</button>";
+    }
+    return '<section><p class="section-label">' + icon("network", 13) + "現役選手と比較</p>" + body + "</section>";
+  }
+
+  function legendDetailHtml(leg) {
+    var bs = leg.bestSeason || {};
+    var catCls = legendCategoryClass(leg.category);
+    var catLabel = LEGEND_CATEGORY_LABELS[leg.category] || "レジェンド";
+
+    var statRows = leg.isPitcher
+      ? [["防御率", bs.eraDisplay || "-"], ["勝-敗", bs.wins != null ? bs.wins + "-" + (bs.losses != null ? bs.losses : 0) : "-"], ["セーブ", bs.saves != null ? String(bs.saves) : "-"], ["奪三振", bs.strikeouts != null ? String(bs.strikeouts) : "-"], ["投球回", bs.inningsPitched != null ? String(bs.inningsPitched) : "-"], ["登板数", bs.games != null ? String(bs.games) : "-"]]
+      : [["打率", bs.avgDisplay || "-"], ["本塁打", bs.hr != null ? String(bs.hr) : "-"], ["打点", bs.rbi != null ? String(bs.rbi) : "-"], ["盗塁", bs.stolenBases != null ? String(bs.stolenBases) : "-"], ["試合数", bs.games != null ? String(bs.games) : "-"]];
+    var statTable =
+      '<table class="stat-table"><thead><tr><th>項目</th><th class="cur">' + esc(bs.year || "-") + "年（自己ベストシーズン）</th></tr></thead><tbody>" +
+      statRows.map(function (r) { return "<tr><td class=\"lbl\">" + r[0] + '</td><td class="cur">' + r[1] + "</td></tr>"; }).join("") +
+      "</tbody></table>";
+
+    var battingExtra = "";
+    if (leg.bestSeasonBatting) {
+      var bb = leg.bestSeasonBatting;
+      battingExtra =
+        '<section><p class="section-label">' + esc(bb.year || "") + "年 打者成績（投打二刀流）</p>" +
+        '<table class="stat-table"><tbody>' +
+          "<tr><td class=\"lbl\">打率</td><td class=\"cur\">" + (bb.avgDisplay || "-") + "</td></tr>" +
+          "<tr><td class=\"lbl\">本塁打</td><td class=\"cur\">" + (bb.hr != null ? bb.hr : "-") + "</td></tr>" +
+          "<tr><td class=\"lbl\">打点</td><td class=\"cur\">" + (bb.rbi != null ? bb.rbi : "-") + "</td></tr>" +
+        "</tbody></table></section>";
+    }
+
+    var titlesHtml = (leg.titles && leg.titles.length)
+      ? '<div class="pos-chain">' + leg.titles.map(function (t) { return '<span class="pos-chip">' + esc(t) + "</span>"; }).join("") + "</div>"
+      : "";
+    var highlightBlock =
+      '<section><p class="section-label">' + icon("sparkles", 13) + "実績・エピソード</p><div class=\"panel\">" +
+        '<p style="font-size:12.5px;line-height:1.7;margin:0 0 10px;">' + esc(leg.careerHighlight || "") + "</p>" +
+        titlesHtml +
+        (leg.note ? '<p style="font-size:11px;color:var(--ink-faint);margin:10px 0 0;">' + esc(leg.note) + "</p>" : "") +
+      "</div></section>";
+
+    var dataNote =
+      '<section><div class="info-note-panel">' + icon("info", 14) +
+        '<p>成績はWikipedia・NPB公式記録等をもとに調査したものです。数値には誤りが含まれる可能性があるため、正確な記録は球団・NPB公式の記録をご確認ください。</p>' +
+      "</div></section>";
+
+    return (
+      '<div class="sheet-header">' +
+        '<div class="who">' + legendAvatarHtml(leg, 46) + "<span><p class=\"sub\">" + esc(leg.peakTeam || "") + (leg.detailedPosition ? " ・ " + esc(leg.detailedPosition) : "") + "</p><p class=\"nm\">" + esc(leg.name) + "</p></span></div>" +
+        '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
+      "</div>" +
+      '<div class="sheet-body">' +
+        '<div class="badge-row"><span class="badge legend-badge ' + catCls + '">' + esc(catLabel) + "</span>" +
+          (leg.activeYears ? '<span class="badge" style="background:var(--bg-sunken);color:var(--ink-dim);">' + esc(leg.activeYears) + "</span>" : "") +
+        "</div>" +
+        '<section><p class="section-label">自己ベストシーズン成績</p>' + statTable + "</section>" +
+        battingExtra +
+        highlightBlock +
+        legendCompareSectionHtml(leg) +
+        dataNote +
+      "</div>"
+    );
   }
 
   /* ===================== Render: home tab ===================== */
@@ -1779,9 +2163,11 @@
   function lineupFetchNoticeHtml() {
     var n = state.lineupFetchNotice;
     if (!n) return "";
+    var cls = n.type === "error" ? "is-error" : (n.type === "warning" ? "is-warning" : "is-success");
+    var iconName = n.type === "success" ? "check" : "alertTriangle";
     return (
-      '<p class="lineup-fetch-notice ' + (n.type === "error" ? "is-error" : "is-success") + '">' +
-        icon(n.type === "error" ? "alertTriangle" : "check", 13) + esc(n.message) +
+      '<p class="lineup-fetch-notice ' + cls + '">' +
+        icon(iconName, 13) + esc(n.message) +
       "</p>"
     );
   }
@@ -2037,6 +2423,7 @@
 
     var basicPane =
       "<section><p class=\"section-label\">今季 ＆ 前年成績比較</p>" + careerNote + statTable + "</section>" +
+      similarLegendHintHtml(p) +
       salaryPanelHtml(p) + awardsPanelHtml(p) + vsBlock + infoGrid + timeline + posChain + dataNoteBlock;
 
     var otherPane = episodes + song + connectionsHtml(p);
@@ -2114,6 +2501,24 @@
       });
       var sheetEl5 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl5) sheetEl5.scrollTop = 0;
+    } else if (state.overlay.type === "legend-detail") {
+      var leg = legendById(state.overlay.legendId);
+      if (!leg) { state.overlay = null; els.overlayRoot.innerHTML = ""; return; }
+      els.overlayRoot.innerHTML =
+        '<div class="overlay-scrim"><div class="sheet">' + legendDetailHtml(leg) + "</div></div>";
+      var scrimEl6 = els.overlayRoot.querySelector(".overlay-scrim");
+      scrimEl6.addEventListener("click", function (e) {
+        if (e.target === scrimEl6) { state.overlay = null; state.legendComparePickerOpen = false; render(); }
+      });
+      var sheetEl6 = els.overlayRoot.querySelector(".sheet");
+      if (sheetEl6) sheetEl6.scrollTop = 0;
+      var comparePickerInput = els.overlayRoot.querySelector("#legend-compare-picker-input");
+      if (comparePickerInput) {
+        comparePickerInput.addEventListener("input", function (e) {
+          state.legendComparePickerQuery = e.target.value;
+          refreshLegendComparePickerList();
+        });
+      }
     }
   }
 
@@ -2182,6 +2587,21 @@
     renderSortRow();
     renderRoster();
   });
+
+  if (els.rosterViewSwitch) {
+    els.rosterViewSwitch.addEventListener("click", function (e) {
+      var btn = e.target.closest("button[data-roster-view]");
+      if (!btn) return;
+      state.rosterView = btn.getAttribute("data-roster-view");
+      if (state.rosterView === "legends" && !LEGENDS) {
+        ensureLegendsLoaded()
+          .then(function () { if (state.tab === "roster" && state.rosterView === "legends") renderRoster(); })
+          .catch(function () { if (state.tab === "roster" && state.rosterView === "legends") renderRoster(); });
+      }
+      renderRoster();
+      window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+    });
+  }
 
   els.bottomNav.addEventListener("click", function (e) {
     var btn = e.target.closest("button[data-tab]");
@@ -2321,9 +2741,11 @@
     } else if (action === "close-overlay") {
       state.overlay = null;
       state.lineupPicker = null;
+      state.legendComparePickerOpen = false;
       render();
     } else if (action === "goto-roster") {
       state.tab = "roster";
+      state.rosterView = "players";
       state.activeTags = tags ? [tags] : [];
       state.teamFilter = "all";
       state.viewMode = "all";
@@ -2333,6 +2755,30 @@
       els.searchClear.hidden = true;
       render();
       window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+    } else if (action === "open-legend-detail") {
+      state.overlay = { type: "legend-detail", legendId: id };
+      state.legendComparePlayerId = null;
+      state.legendComparePickerOpen = false;
+      state.legendComparePickerQuery = "";
+      renderOverlay();
+    } else if (action === "set-legend-category") {
+      state.legendCategoryFilter = key;
+      if (state.tab === "roster" && state.rosterView === "legends") renderLegendGrid();
+    } else if (action === "retry-legends") {
+      legendsLoadFailed = false;
+      ensureLegendsLoaded().then(function () { if (state.tab === "roster" && state.rosterView === "legends") renderLegendGrid(); }).catch(function () { if (state.tab === "roster" && state.rosterView === "legends") renderLegendGrid(); });
+      renderLegendGrid();
+    } else if (action === "open-legend-compare-picker") {
+      state.legendComparePickerOpen = true;
+      state.legendComparePickerQuery = "";
+      renderOverlay();
+    } else if (action === "close-legend-compare-picker") {
+      state.legendComparePickerOpen = false;
+      renderOverlay();
+    } else if (action === "pick-legend-compare-player") {
+      state.legendComparePlayerId = id;
+      state.legendComparePickerOpen = false;
+      renderOverlay();
     }
   });
 
@@ -2367,6 +2813,9 @@
         render();
         document.body.setAttribute("data-boot-done", "");
         loadRemainingTeamsInBackground(homeTeamId);
+        // レジェンドデータも初回描画をブロックせず裏で取得しておく（選手詳細の「似た成績の
+        // レジェンド」ヒントを、レジェンドタブを開く前から使えるようにするため）
+        ensureLegendsLoaded().then(function () { render(); }).catch(function () { /* 失敗時はレジェンドタブ内の再読み込みボタンに任せる */ });
       });
   }
   boot();
