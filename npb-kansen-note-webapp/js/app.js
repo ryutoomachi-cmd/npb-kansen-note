@@ -863,8 +863,13 @@
 
   /* ===================== State ===================== */
   var initHomeTeam = loadHomeTeam();
-  var initOpponentTeam = loadOpponentTeam();
-  if (!initOpponentTeam || initOpponentTeam === initHomeTeam) initOpponentTeam = computeDefaultOpponent(initHomeTeam);
+  var storedOpponentTeam = loadOpponentTeam();
+  // 対戦相手が未保存（＝ユーザーが明示的に選んだのではなく自動計算に頼る）場合は、
+  // 起動直後の時点ではTEAM_NEXT_GAMES/RELATIONSがまだ空（非同期取得前）なので、
+  // ここでのcomputeDefaultOpponent()は本来の「本日の実際の対戦相手」を選べないことがある。
+  // そのためboot()で日程データが揃った時点にもう一度計算し直す（下のopponentTeamNeedsRecomputeを参照）。
+  var opponentTeamNeedsRecompute = !storedOpponentTeam || storedOpponentTeam === initHomeTeam;
+  var initOpponentTeam = opponentTeamNeedsRecompute ? computeDefaultOpponent(initHomeTeam) : storedOpponentTeam;
 
   var state = {
     query: "",
@@ -2343,6 +2348,15 @@
         RELATIONS = results[1] || [];
         TEAM_NEXT_GAMES = results[2] || [];
         NEWS = results[3] || [];
+        if (opponentTeamNeedsRecompute) {
+          // 日程データが揃ったので、対戦相手の自動選択をやり直す
+          // （起動直後は本日の実際の対戦カードを正しく選べていない可能性があるため）
+          var recomputedOpponent = computeDefaultOpponent(state.homeTeam);
+          if (recomputedOpponent !== state.opponentTeam) {
+            state.opponentTeam = recomputedOpponent;
+            state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
+          }
+        }
       })
       .catch(function (err) {
         // 初回データが1件も取れない場合（オフラインかつキャッシュ無し等）でも、
