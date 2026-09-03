@@ -31,7 +31,8 @@
     filter: '<path d="M3.5 5h17" /><path d="M6.5 12h11" /><path d="M10 19h4" />',
     settings: '<circle cx="12" cy="12" r="3"/><path d="M19.4 13a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V19a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 17.42a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 13 1.65 1.65 0 0 0 3.17 12H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 6.9a1.65 1.65 0 0 0-.33-1.82l-.06-.06A2 2 0 1 1 7.04 2.2l.06.06A1.65 1.65 0 0 0 8.92 2.6 1.65 1.65 0 0 0 9.9 1.1V1a2 2 0 1 1 4 0v.09c0 .68.4 1.28 1 1.51.62.25 1.33.12 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06c-.45.49-.58 1.2-.33 1.82.23.6.83 1 1.51 1H21a2 2 0 1 1 0 4h-.09c-.68 0-1.28.4-1.51 1z" stroke-linejoin="round"/>',
     check: '<polyline points="20 6 9 17 4 12"/>',
-    download: '<path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M4 19h16"/>'
+    download: '<path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M4 19h16"/>',
+    refresh: '<polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>'
   };
   function icon(name, size, extraClass) {
     size = size || 16;
@@ -139,6 +140,17 @@
     });
   }
 
+  // ヘッダーの更新ボタン用：キャッシュ（localStorageの6時間キャッシュ・Service Workerのデータキャッシュ）を
+  // 一切信用せず、必ずネットワークから最新のJSONを取りに行く。URLにキャッシュ避けのクエリを付けることで、
+  // service-worker.js側のstale-while-revalidate（＝まずキャッシュ済みの古い応答を即返す挙動）も回避する。
+  function forceFetchJson(url) {
+    var bustUrl = url + (url.indexOf("?") === -1 ? "?" : "&") + "_r=" + Date.now();
+    return fetch(bustUrl, { cache: "no-store" }).then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status + " for " + url);
+      return res.json();
+    });
+  }
+
   function loadTeamPlayers(teamId) {
     return fetchWithCache("team_" + teamId, "data/teams/" + teamId + ".json").then(function (list) {
       var teamName = TEAM_ID_TO_NAME[teamId];
@@ -190,6 +202,79 @@
     }).catch(function (err) {
       console.error("残り球団データの取得に失敗しました（電波状況などが原因の可能性があります）", err);
     });
+  }
+
+  // ヘッダーの更新ボタンの見た目（回転アイコン・操作可否）を直接書き換える。
+  // ヘッダー自体は起動時に一度だけ作られDOMがrender()で作り直されることは無いため、ここで直接触る。
+  function updateRefreshBtnUi() {
+    if (!els.refreshBtn) return;
+    els.refreshBtn.innerHTML = icon("refresh", 16, state.dataRefreshing ? "spin-icon" : "");
+    els.refreshBtn.disabled = state.dataRefreshing;
+    els.refreshBtn.setAttribute("aria-busy", state.dataRefreshing ? "true" : "false");
+  }
+
+  // ヘッダーの更新ボタン：localStorageの6時間キャッシュ・Service Workerのデータキャッシュを両方
+  // 無視して、全12球団の選手データ・つながり・日程・ニュース・レジェンドを取り直す。
+  // 取得できたデータはcacheWriteで上書きするので、以後6時間はこの最新データがそのまま使われる。
+  function refreshAllData() {
+    if (state.dataRefreshing) return; // 二重押し防止
+    state.dataRefreshing = true;
+    updateRefreshBtnUi();
+
+    var teamIds = TEAM_NAMES.map(function (name) { return TEAM_ID_MAP[name]; });
+    var teamFetches = teamIds.map(function (id) {
+      return forceFetchJson("data/teams/" + id + ".json").then(function (list) {
+        cacheWrite("team_" + id, list);
+        return { id: id, list: list };
+      });
+    });
+    var extraFetches = [
+      forceFetchJson("data/relations.json").then(function (d) { cacheWrite("relations", d); return d; }),
+      forceFetchJson("data/schedule.json").then(function (d) { cacheWrite("schedule", d); return d; }),
+      forceFetchJson("data/news.json").then(function (d) { cacheWrite("news", d); return d; }),
+      forceFetchJson("data/legends.json").then(function (d) { cacheWrite("legends", d); return d; })
+        .catch(function () { return null; }) // レジェンドが無くても致命的ではないので個別に握りつぶす
+    ];
+
+    Promise.all(teamFetches.concat(extraFetches)).then(function (results) {
+      var teamResults = results.slice(0, teamIds.length);
+      var relations = results[teamIds.length];
+      var schedule = results[teamIds.length + 1];
+      var news = results[teamIds.length + 2];
+      var legends = results[teamIds.length + 3];
+
+      var freshPlayers = [];
+      teamResults.forEach(function (r) {
+        var teamName = TEAM_ID_TO_NAME[r.id];
+        (r.list || []).forEach(function (p) { p.currentTeamName = teamName; });
+        freshPlayers = freshPlayers.concat(r.list || []);
+      });
+      PLAYERS = freshPlayers;
+      RELATIONS = relations || [];
+      TEAM_NEXT_GAMES = schedule || [];
+      NEWS = news || [];
+      if (legends) LEGENDS = legends;
+
+      state.dataRefreshing = false;
+      updateRefreshBtnUi();
+      render();
+      refreshSettingsIfOpen();
+      showToast("最新データに更新しました（選手" + PLAYERS.length + "名）", 2600);
+    }).catch(function (err) {
+      console.error("データの手動更新に失敗しました", err);
+      state.dataRefreshing = false;
+      updateRefreshBtnUi();
+      showToast("更新に失敗しました。通信状況をご確認のうえ、もう一度お試しください", 2600);
+    });
+
+    // ついでにアプリ本体（JS/CSS）に新しいバージョンが無いかも確認しておく。見つかっても
+    // 今回の画面には反映されないが、Service Workerが裏で準備してくれるので次回起動時から
+    // 自動的に新しくなる（＝わざわざアンインストール等の案内をしなくてよい）。
+    if ("serviceWorker" in navigator && navigator.serviceWorker.getRegistration) {
+      navigator.serviceWorker.getRegistration().then(function (reg) {
+        if (reg) reg.update().catch(function () {});
+      }).catch(function () {});
+    }
   }
 
   /* ===================== ホーム球団・対戦相手の永続化 ===================== */
@@ -604,20 +689,35 @@
   function lineupFilledCount(side) { return lineupStarterIds(side).length; }
 
   /* ===================== 本日のスタメンを /api/lineup から取得して自動反映 =====================
-     NPB公式サイト（npb.jp）のスタメン表は「苗字のみ」で選手名が表示されるため、
-     取得した苗字を、対象球団の選手データ（PLAYERS）の名字部分と突き合わせて選手IDを特定する。
-     同姓の選手が複数いる場合は一意に決められないため、その選手名だけ「未反映」として
-     呼び出し側に伝え、勝手に間違った選手を登録しないようにする。 */
+     NPB公式サイト（npb.jp）のスタメン表は基本的に「苗字のみ」で選手名が表示されるが、
+     終了済みの試合では代打・代走・守備交代の行が「→選手名」のような記号付きで混ざっていたり、
+     ページによっては姓名がスペース無しで表示されたりすることがある。そのため、
+     1) 姓のみの完全一致 → 2) フルネーム（スペース無し）の完全一致 → 3) 記号混入にも耐える緩い判定
+     の順で突き合わせる。いずれの段階でも同姓・同名候補が複数見つかった場合は一意に決められない
+     ため、その選手名だけ「未反映」として呼び出し側に伝え、勝手に間違った選手を登録しないようにする。 */
   var SCRAPE_POSITION_TO_KEY = { "投": "P", "捕": "C", "一": "1B", "二": "2B", "三": "3B", "遊": "SS", "左": "LF", "中": "CF", "右": "RF" };
   // "指"（指名打者）は守備位置ダイヤモンド図上の枠が無いため対象外（打順には反映される）
 
-  function findPlayerBySurname(teamName, surname) {
-    if (!surname) return null;
+  function findPlayerBySurname(teamName, rawName) {
+    if (!rawName) return null;
+    // 交代選手の行等に混ざりうる矢印・カッコ・数字を除いた文字列でも判定できるようにしておく
+    var scraped = String(rawName).replace(/[\s　]/g, "").replace(/[→←()（）0-9]/g, "");
+    if (!scraped) return null;
     var teamPlayers = PLAYERS.filter(function (p) { return p.currentTeamName === teamName; });
-    var exact = teamPlayers.filter(function (p) { return p.name && p.name.split(/[\s　]+/)[0] === surname; });
-    if (exact.length === 1) return exact[0];
-    if (exact.length > 1) return null; // 同姓が複数：自動判定はせず未反映にする
-    var loose = teamPlayers.filter(function (p) { return p.name && p.name.indexOf(surname) !== -1; });
+
+    var bySurname = teamPlayers.filter(function (p) { return p.name && p.name.split(/[\s　]+/)[0] === scraped; });
+    if (bySurname.length === 1) return bySurname[0];
+    if (bySurname.length > 1) return null; // 同姓が複数：自動判定はせず未反映にする
+
+    var byFullName = teamPlayers.filter(function (p) { return p.name && p.name.replace(/[\s　]/g, "") === scraped; });
+    if (byFullName.length === 1) return byFullName[0];
+    if (byFullName.length > 1) return null;
+
+    var loose = teamPlayers.filter(function (p) {
+      if (!p.name) return false;
+      var sn = p.name.split(/[\s　]+/)[0];
+      return sn.length >= 2 && (scraped.indexOf(sn) !== -1 || sn.indexOf(scraped) !== -1);
+    });
     return loose.length === 1 ? loose[0] : null;
   }
 
@@ -922,6 +1022,7 @@
     lineupPickerQuery: "",
     lineupFetching: null, // "home" | "opponent" | null（/api/lineup 取得中の対象サイド。二重押し防止にも使う）
     lineupFetchNotice: null, // { type: 'success'|'warning'|'error', message } 取得結果の通知（サイド切替時にクリア）
+    dataRefreshing: false, // ヘッダーの更新ボタンで全データを再取得中かどうか（二重押し防止・アイコン回転表示に使用）
     legendCategoryFilter: "all", // all | legend | overseas | faded（レジェンド一覧の絞り込み）
     legendComparePlayerId: null, // レジェンド詳細で「比較する選手を変える」により手動選択された現役選手ID（未選択なら自動で近い成績の選手を選ぶ）
     legendComparePickerOpen: false,
@@ -937,6 +1038,7 @@
       '<div class="brand-row">' +
         '<div><p class="brand-eyebrow" id="brand-eyebrow">SCOUT NOTE</p><h1 class="brand-title" id="brand-title">観戦ノート</h1></div>' +
         '<div class="header-actions">' +
+          '<button class="settings-btn" id="refresh-btn" data-action="refresh-data" aria-label="最新データに更新">' + icon("refresh", 16) + "</button>" +
           '<button class="settings-btn" id="settings-btn" data-action="open-settings" aria-label="設定・ホーム球団の変更">' + icon("settings", 17) + "</button>" +
           '<span class="count-pill" id="count-pill">0名</span>' +
         "</div>" +
@@ -979,6 +1081,7 @@
 
   var els = {
     countPill: document.getElementById("count-pill"),
+    refreshBtn: document.getElementById("refresh-btn"),
     filterToast: document.getElementById("filter-toast"),
     matchupBanner: document.getElementById("matchup-banner"),
     matchupBannerTxt: document.getElementById("matchup-banner-txt"),
@@ -1116,9 +1219,10 @@
 
   var filterToastTimer = null;
   var filterToastHideTimer = null;
-  function showFilterToast(count) {
+  // count用の「N件表示中」表示だけでなく、データ更新結果などの一言通知にも使う汎用トースト
+  function showToast(message, durationMs) {
     if (!els.filterToast) return;
-    els.filterToast.textContent = count + "件表示中";
+    els.filterToast.textContent = message;
     els.filterToast.hidden = false;
     if (filterToastHideTimer) { clearTimeout(filterToastHideTimer); filterToastHideTimer = null; }
     void els.filterToast.offsetWidth;
@@ -1127,8 +1231,9 @@
     filterToastTimer = setTimeout(function () {
       els.filterToast.classList.remove("show");
       filterToastHideTimer = setTimeout(function () { els.filterToast.hidden = true; }, 220);
-    }, 1400);
+    }, durationMs || 1400);
   }
+  function showFilterToast(count) { showToast(count + "件表示中"); }
 
   function renderModeSwitch() {
     Array.prototype.forEach.call(els.modeSwitch.querySelectorAll("button"), function (btn) {
@@ -1769,7 +1874,7 @@
         '<p><strong>データについて：</strong>' + esc(DATA_AS_OF) + "。NPB公式記録・球団公式サイト・報道をもとに、実在の選手の実際の記録・エピソードのみを掲載しています（架空の設定は含みません）。未確認の項目は「情報未確認」と表示しています。" +
         "アイコンはすべて選手を模したイラスト表現で、実際の顔写真ではありません。全12球団" + PLAYERS.length + "名を掲載しています（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。" +
         "「対戦相手（つながり表示用）」は、ホーム球団の実際の次の試合の相手を自動で表示しています。設定から別の球団に変更して、つながりを探すこともできます。" +
-        "試合日程・今季成績・ニュースは週1回、自動で調べ直して更新しています。" + "</p>" +
+        "試合日程・今季成績・ニュースは週1回、自動で調べ直して更新しています。通信量を抑えるため端末内に最大6時間キャッシュしているので、それより早く最新化したいときは右上の" + icon("refresh", 11) + "更新ボタンをタップしてください。" + "</p>" +
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</section>";
 
@@ -2650,6 +2755,8 @@
     } else if (action === "open-settings") {
       state.overlay = { type: "settings" };
       renderOverlay();
+    } else if (action === "refresh-data") {
+      refreshAllData();
     } else if (action === "reset-filters") {
       state.activeTags = [];
       state.teamFilter = "all";

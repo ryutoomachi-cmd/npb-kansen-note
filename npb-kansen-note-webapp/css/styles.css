@@ -136,6 +136,7 @@
     width: 32px; height: 32px; border-radius: 999px; border: 1px solid var(--line-strong);
     background: var(--bg-elevated); color: var(--ink-dim); cursor: pointer; box-shadow: var(--shadow);
   }
+  .settings-btn:disabled { opacity: 0.5; cursor: default; }
 
   /* ===================== 設定シート（ホーム球団・対戦相手 選択） ===================== */
   .settings-intro { font-size: 11.5px; color: var(--ink-dim); line-height: 1.55; margin: 0 0 4px; }
@@ -578,7 +579,7 @@
     background: var(--bg); border-radius: 22px 22px 0 0; box-shadow: var(--shadow-lg);
     animation: sheet-up 0.22s ease-out;
   }
-  @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } .spin-icon { animation: none; } }
   @keyframes sheet-up { from { transform: translateY(24px); opacity: 0.4; } to { transform: translateY(0); opacity: 1; } }
 
   .sheet-header {

@@ -139,13 +139,18 @@ function parseOrderTable($, table) {
       const orderNum = parseInt(cells[0], 10);
       if (!isNaN(orderNum) && orderNum >= 1 && orderNum <= 9) {
         const pos = normalizePosition(cells[1]);
-        const name = (cells[2] || "").replace(/[\s　]/g, "");
+        // 終了済みの試合では、同じ打順番号の行に代打・代走・守備交代が「→選手名」のような
+        // 矢印付きで追加されていることがある。矢印以降（＝実際に途中出場した選手）を優先し、
+        // 矢印自体は選手名として残さないよう取り除く。
+        const rawName = (cells[2] || "").replace(/[\s　]/g, "");
+        const name = rawName.split(/[→←]/).pop();
         if (pos && name) rows.push({ order: orderNum, position: pos, name });
         return;
       }
       // DH制の場合、先発投手は打順に入らず「投｜選手名」だけの行になっていることがある
       if (normalizePosition(cells[0]) === "投" && !pitcherOutsideOrder) {
-        const name = (cells[1] || "").replace(/[\s　]/g, "");
+        const rawName = (cells[1] || "").replace(/[\s　]/g, "");
+        const name = rawName.split(/[→←]/).pop();
         if (name) pitcherOutsideOrder = name;
       }
     });
