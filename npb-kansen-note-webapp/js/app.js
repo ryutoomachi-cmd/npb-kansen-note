@@ -280,14 +280,41 @@
       showToast("更新に失敗しました。通信状況をご確認のうえ、もう一度お試しください", 2600);
     });
 
-    // ついでにアプリ本体（JS/CSS）に新しいバージョンが無いかも確認しておく。見つかっても
-    // 今回の画面には反映されないが、Service Workerが裏で準備してくれるので次回起動時から
-    // 自動的に新しくなる（＝わざわざアンインストール等の案内をしなくてよい）。
-    if ("serviceWorker" in navigator && navigator.serviceWorker.getRegistration) {
-      navigator.serviceWorker.getRegistration().then(function (reg) {
-        if (reg) reg.update().catch(function () {});
-      }).catch(function () {});
-    }
+    // ついでにアプリ本体（JS/CSS）に新しいバージョンが無いかも確認し、見つかったら
+    // キャッシュを意識させずに済むよう自動でページを再読み込みする（forceCodeUpdateCheck）。
+    forceCodeUpdateCheck();
+  }
+
+  // 更新ボタンが押されたタイミングで、Service Workerに新しいバージョン（＝新しい
+  // CACHE_VERSION）が無いか確認する。見つかった場合、そのService Workerは
+  // install時に自動でskipWaiting()するようになっているので、まもなく有効化されて
+  // このページの「controllerchange」イベントが発火する。それを合図に、ユーザーが
+  // 何もしなくてもアプリ本体（JS/CSS）が最新の状態でページが再読み込みされる。
+  // ＝データだけでなく、コードの更新も更新ボタン1つで即座に反映されるようにする。
+  //
+  // リスナーはこの1回の更新チェックのためだけに一時的に付け、既定時間（20秒）以内に
+  // 変化がなければ自動的に外す。そうしないと、ブラウザが自分のタイミングで行う
+  // バックグラウンドのService Worker更新チェック（更新ボタンとは無関係に発生しうる）
+  // まで拾ってしまい、ユーザーが何か入力中の画面が予期せず再読み込みされてしまう
+  // おそれがあるため。
+  function forceCodeUpdateCheck() {
+    if (!("serviceWorker" in navigator) || !navigator.serviceWorker.getRegistration) return;
+    navigator.serviceWorker.getRegistration().then(function (reg) {
+      if (!reg) return;
+      var handled = false;
+      function onControllerChange() {
+        if (handled) return;
+        handled = true;
+        navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
+        showToast("アプリの新しいバージョンを読み込んでいます…", 1500);
+        setTimeout(function () { window.location.reload(); }, 400);
+      }
+      navigator.serviceWorker.addEventListener("controllerchange", onControllerChange);
+      setTimeout(function () {
+        if (!handled) navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
+      }, 20000);
+      reg.update().catch(function () {});
+    }).catch(function () {});
   }
 
   // NEXT GAMEカードの「日程を更新」ボタン：本日のスタメン取得（/api/lineup）と同じ考え方で、
