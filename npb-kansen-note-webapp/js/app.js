@@ -70,7 +70,7 @@
   ];
   var TEAM_NAMES = TEAMS.map(function (t) { return t.name; });
   var DEFAULT_HOME_TEAM = "楽天";
-  var DATA_AS_OF = "2026年9月2日時点（NPB公式記録・Wikipediaほか、全12球団770選手）";
+  var DATA_AS_OF = "2026年9月3日時点（NPB公式記録・Wikipediaほか、全12球団769選手）";
   function getTeam(name) {
     for (var i = 0; i < TEAMS.length; i++) if (TEAMS[i].name === name) return TEAMS[i];
     return TEAMS[0];
@@ -904,8 +904,10 @@
     }
 
     if (!out.length) {
-      var topHomeBatter = topByStat(homePlayers.filter(function (p) { return !isPitcher(p); }), "avg");
-      var topOppBatter = topByStat(oppPlayers.filter(function (p) { return !isPitcher(p); }), "avg");
+      // 規定打席未到達の選手は打席数が少なく打率がぶれやすいため、「今季打率トップ」の
+      // 注目対決には含めない（例：数打席で3割超のような極端な値が出てしまうのを防ぐ）
+      var topHomeBatter = topByStat(homePlayers.filter(function (p) { return !isPitcher(p) && isQualifiedThisSeason(p); }), "avg");
+      var topOppBatter = topByStat(oppPlayers.filter(function (p) { return !isPitcher(p) && isQualifiedThisSeason(p); }), "avg");
       if (topHomeBatter) {
         out.push({ player: topHomeBatter, text: "本日の" + state.homeTeam + "スタメンで今季打率トップ（" + (topHomeBatter.currentStats.avgDisplay || "-") + "）。" });
       }

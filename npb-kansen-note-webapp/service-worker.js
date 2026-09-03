@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v7"; // スタメン取得バグを修正（守備位置が「DH」「打」等の未知表記だと打順が丸ごと消えていた問題）。調査用の診断コードは撤去済み
+const CACHE_VERSION = "v10"; // 楽天：直近1年でスタメン出場歴のある新規追加選手のプロフィールを拡充（+自由契約選手を除去）
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 
