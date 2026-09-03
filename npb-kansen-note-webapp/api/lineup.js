@@ -125,6 +125,7 @@ function normalizePosition(raw) {
 // 打順として妥当な行が5つ以上見つからなければ「スタメン表ではない」と判定する。
 function parseOrderTable($, table) {
   const rows = [];
+  const rawRows = []; // 調査用：現在の解析ロジックが拾わなかった行も含め、全行の生セルをそのまま記録
   let pitcherOutsideOrder = null;
   $(table)
     .find("tr")
@@ -135,6 +136,7 @@ function parseOrderTable($, table) {
         .get()
         .filter((t) => t.length > 0);
       if (cells.length < 2) return;
+      rawRows.push(cells);
 
       const orderNum = parseInt(cells[0], 10);
       if (!isNaN(orderNum) && orderNum >= 1 && orderNum <= 9) {
@@ -154,7 +156,7 @@ function parseOrderTable($, table) {
         if (name) pitcherOutsideOrder = name;
       }
     });
-  return { rows, pitcherOutsideOrder };
+  return { rows, pitcherOutsideOrder, rawRows };
 }
 
 // ページ内で対象球団の正式名称が出てくる場所を探し、それより後（文書順で最初）に
@@ -176,8 +178,8 @@ function findTeamOrderTable($, fullTeamName) {
       return;
     }
     if (el.tagName === "table" || el.name === "table") {
-      const { rows, pitcherOutsideOrder } = parseOrderTable($, el);
-      if (rows.length >= 5) best = { rows, pitcherOutsideOrder };
+      const { rows, pitcherOutsideOrder, rawRows } = parseOrderTable($, el);
+      if (rows.length >= 5) best = { rows, pitcherOutsideOrder, rawRows };
     }
   });
   return best;
@@ -310,6 +312,9 @@ export default async function handler(req, res) {
     // 「試合開始前」の表示は、スタメンが発表済みでも試合が始まるまでは出続ける可能性があるため、
     // これだけでブロックせず、まずスタメン表の取得を試み、失敗した場合の判定材料として使う。
     const teamTable = findTeamOrderTable($game, fullName);
+    // 調査用：現在の解析ロジックが実際に何を拾っているか（拾えていない行も含めて）確認できるよう、
+    // テーブルの生のセル内容をそのままdebugInfoに残しておく（`?debug=1`のときだけレスポンスに含まれる）。
+    if (teamTable) debugInfo.rawTableRows = teamTable.rawRows;
     if (!teamTable || !teamTable.rows.length) {
       const notAnnouncedYet = !isPastGame && isBeforeAnnouncement($game.text());
       return res.status(200).json({

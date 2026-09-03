@@ -531,8 +531,13 @@
   }
 
   function filterPlayers(list, query, tags, teamFilter, homeTeam, opponentTeam) {
+    // 検索キーワードが入力されている間は、「#ホーム球団の選手」等の絞り込みタグ・球団指定を
+    // 一時的に無視して全球団から探す（「名前で調べたのに出てこない」を防ぐため。対戦相手や
+    // 他球団の選手を検索したいケースの方が多いと考えられるので、検索は常に全選手を対象にする）。
+    var isSearching = !!query && !!query.trim();
     return list.filter(function (p) {
       if (!matchesSearch(p, query)) return false;
+      if (isSearching) return true;
       if (teamFilter && teamFilter !== "all" && p.currentTeamName !== teamFilter) return false;
       return tags.every(function (t) { return matchesFilterTag(p, t, homeTeam, opponentTeam); });
     });
@@ -698,28 +703,36 @@
   var SCRAPE_POSITION_TO_KEY = { "投": "P", "捕": "C", "一": "1B", "二": "2B", "三": "3B", "遊": "SS", "左": "LF", "中": "CF", "右": "RF" };
   // "指"（指名打者）は守備位置ダイヤモンド図上の枠が無いため対象外（打順には反映される）
 
-  function findPlayerBySurname(teamName, rawName) {
-    if (!rawName) return null;
+  // reasonには不一致の原因を短いコードで入れる（"no-team-players"＝対象球団の選手が1人も
+  // PLAYERSに無い＝読み込みタイミングの問題の可能性、"ambiguous-*"＝候補が2人以上で自動判定不可、
+  // "no-match"＝候補が1人も見つからない）。原因ごとに切り分けできるよう、一時的に呼び出し側の
+  // 「未反映」通知にこのreasonを併記して調査できるようにしている。
+  function findPlayerBySurnameDebug(teamName, rawName) {
+    if (!rawName) return { player: null, reason: "empty" };
     // 交代選手の行等に混ざりうる矢印・カッコ・数字を除いた文字列でも判定できるようにしておく
     var scraped = String(rawName).replace(/[\s　]/g, "").replace(/[→←()（）0-9]/g, "");
-    if (!scraped) return null;
+    if (!scraped) return { player: null, reason: "empty-after-clean" };
     var teamPlayers = PLAYERS.filter(function (p) { return p.currentTeamName === teamName; });
+    if (!teamPlayers.length) return { player: null, reason: "no-team-players:" + teamName + ":total=" + PLAYERS.length };
 
     var bySurname = teamPlayers.filter(function (p) { return p.name && p.name.split(/[\s　]+/)[0] === scraped; });
-    if (bySurname.length === 1) return bySurname[0];
-    if (bySurname.length > 1) return null; // 同姓が複数：自動判定はせず未反映にする
+    if (bySurname.length === 1) return { player: bySurname[0], reason: "ok" };
+    if (bySurname.length > 1) return { player: null, reason: "ambiguous-surname:" + bySurname.length }; // 同姓が複数：自動判定はせず未反映にする
 
     var byFullName = teamPlayers.filter(function (p) { return p.name && p.name.replace(/[\s　]/g, "") === scraped; });
-    if (byFullName.length === 1) return byFullName[0];
-    if (byFullName.length > 1) return null;
+    if (byFullName.length === 1) return { player: byFullName[0], reason: "ok-fullname" };
+    if (byFullName.length > 1) return { player: null, reason: "ambiguous-fullname:" + byFullName.length };
 
     var loose = teamPlayers.filter(function (p) {
       if (!p.name) return false;
       var sn = p.name.split(/[\s　]+/)[0];
       return sn.length >= 2 && (scraped.indexOf(sn) !== -1 || sn.indexOf(scraped) !== -1);
     });
-    return loose.length === 1 ? loose[0] : null;
+    if (loose.length === 1) return { player: loose[0], reason: "ok-loose" };
+    if (loose.length > 1) return { player: null, reason: "ambiguous-loose:" + loose.length };
+    return { player: null, reason: "no-match:teamPlayers=" + teamPlayers.length };
   }
+  function findPlayerBySurname(teamName, rawName) { return findPlayerBySurnameDebug(teamName, rawName).player; }
 
   // 取得したスタメンをstate.lineup[side]へ反映する。反映できなかった選手名の配列を返す。
   function applyScrapedLineup(side, data) {
@@ -727,22 +740,24 @@
     var L = emptyLineupSide();
     var unmatched = [];
 
+    // 調査用：一時的に、未反映の選手名の横に不一致の原因コードを併記している
+    // （例："来田[no-match:teamPlayers=65]"）。原因が特定でき次第、通常表示に戻す。
     (data.starters || []).forEach(function (s) {
-      var player = findPlayerBySurname(teamName, s.name);
-      if (!player) { unmatched.push(s.name); return; }
+      var dbg = findPlayerBySurnameDebug(teamName, s.name);
+      if (!dbg.player) { unmatched.push(s.name + "[" + dbg.reason + "]"); return; }
       var idx = s.order - 1;
-      if (idx >= 0 && idx < 9) L.batters[idx] = player.id;
+      if (idx >= 0 && idx < 9) L.batters[idx] = dbg.player.id;
       var posKey = SCRAPE_POSITION_TO_KEY[s.position];
-      if (posKey) L.positions[posKey] = player.id;
+      if (posKey) L.positions[posKey] = dbg.player.id;
     });
 
     if (data.pitcher) {
-      var pitcher = findPlayerBySurname(teamName, data.pitcher);
-      if (pitcher) {
-        L.pitcher = pitcher.id;
-        if (!L.positions.P) L.positions.P = pitcher.id; // DH制で投手が打順に入らない場合も、マウンド上の表示には反映する
+      var pitcherDbg = findPlayerBySurnameDebug(teamName, data.pitcher);
+      if (pitcherDbg.player) {
+        L.pitcher = pitcherDbg.player.id;
+        if (!L.positions.P) L.positions.P = pitcherDbg.player.id; // DH制で投手が打順に入らない場合も、マウンド上の表示には反映する
       } else {
-        unmatched.push(data.pitcher);
+        unmatched.push(data.pitcher + "[" + pitcherDbg.reason + "]");
       }
     }
 

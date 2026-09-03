@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v4"; // スタメン自動反映の姓マッチング精度向上＋手動更新ボタン追加に伴い更新（古いキャッシュのapp.min.js/styles.min.cssを確実に入れ替える）
+const CACHE_VERSION = "v6"; // スタメン未反映の原因調査用に診断コードを一時追加（古いキャッシュのapp.min.js/styles.min.cssを確実に入れ替える）
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 
