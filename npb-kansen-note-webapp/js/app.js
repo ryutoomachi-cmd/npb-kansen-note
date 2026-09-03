@@ -69,7 +69,7 @@
   ];
   var TEAM_NAMES = TEAMS.map(function (t) { return t.name; });
   var DEFAULT_HOME_TEAM = "楽天";
-  var DATA_AS_OF = "2026年9月1日時点（NPB公式記録・Wikipediaほか、全12球団229選手）";
+  var DATA_AS_OF = "2026年9月2日時点（NPB公式記録・Wikipediaほか、全12球団770選手）";
   function getTeam(name) {
     for (var i = 0; i < TEAMS.length; i++) if (TEAMS[i].name === name) return TEAMS[i];
     return TEAMS[0];
@@ -1234,7 +1234,7 @@
     els.main.innerHTML = '<div class="grid">' +
       (list.length ? list.map(playerCardHtml).join("") : '<p class="empty-state">該当する選手が見つかりませんでした。</p>') +
       "</div>" +
-      '<p class="data-footnote">' + esc(DATA_AS_OF) + "。全12球団" + PLAYERS.length + "名を掲載（各球団の主力・注目選手を中心に、全選手を網羅するものではありません）。</p>";
+      '<p class="data-footnote">' + esc(DATA_AS_OF) + "。全12球団" + PLAYERS.length + "名を掲載（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。</p>";
   }
 
   /* ===================== Render: レジェンド（歴代スター・海外組・現役成績と比較） ===================== */
@@ -1767,7 +1767,7 @@
     var footer =
       '<section class="home-section home-footnote">' +
         '<p><strong>データについて：</strong>' + esc(DATA_AS_OF) + "。NPB公式記録・球団公式サイト・報道をもとに、実在の選手の実際の記録・エピソードのみを掲載しています（架空の設定は含みません）。未確認の項目は「情報未確認」と表示しています。" +
-        "アイコンはすべて選手を模したイラスト表現で、実際の顔写真ではありません。全12球団" + PLAYERS.length + "名を掲載していますが、各球団の主力・注目選手が中心で、全選手を網羅するものではありません。" +
+        "アイコンはすべて選手を模したイラスト表現で、実際の顔写真ではありません。全12球団" + PLAYERS.length + "名を掲載しています（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。" +
         "「対戦相手（つながり表示用）」は、ホーム球団の実際の次の試合の相手を自動で表示しています。設定から別の球団に変更して、つながりを探すこともできます。" +
         "試合日程・今季成績・ニュースは週1回、自動で調べ直して更新しています。" + "</p>" +
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
