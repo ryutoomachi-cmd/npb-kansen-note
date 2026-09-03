@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v6"; // スタメン未反映の原因調査用に診断コードを一時追加（古いキャッシュのapp.min.js/styles.min.cssを確実に入れ替える）
+const CACHE_VERSION = "v7"; // スタメン取得バグを修正（守備位置が「DH」「打」等の未知表記だと打順が丸ごと消えていた問題）。調査用の診断コードは撤去済み
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

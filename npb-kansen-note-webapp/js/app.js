@@ -705,8 +705,8 @@
 
   // reasonには不一致の原因を短いコードで入れる（"no-team-players"＝対象球団の選手が1人も
   // PLAYERSに無い＝読み込みタイミングの問題の可能性、"ambiguous-*"＝候補が2人以上で自動判定不可、
-  // "no-match"＝候補が1人も見つからない）。原因ごとに切り分けできるよう、一時的に呼び出し側の
-  // 「未反映」通知にこのreasonを併記して調査できるようにしている。
+  // "no-match"＝候補が1人も見つからない）。デバッグ用に開発者コンソール等から調べたい場合は
+  // findPlayerBySurnameDebug を直接呼び出せる（通常のUI表示には使わない）。
   function findPlayerBySurnameDebug(teamName, rawName) {
     if (!rawName) return { player: null, reason: "empty" };
     // 交代選手の行等に混ざりうる矢印・カッコ・数字を除いた文字列でも判定できるようにしておく
@@ -740,24 +740,22 @@
     var L = emptyLineupSide();
     var unmatched = [];
 
-    // 調査用：一時的に、未反映の選手名の横に不一致の原因コードを併記している
-    // （例："来田[no-match:teamPlayers=65]"）。原因が特定でき次第、通常表示に戻す。
     (data.starters || []).forEach(function (s) {
-      var dbg = findPlayerBySurnameDebug(teamName, s.name);
-      if (!dbg.player) { unmatched.push(s.name + "[" + dbg.reason + "]"); return; }
+      var player = findPlayerBySurname(teamName, s.name);
+      if (!player) { unmatched.push(s.name); return; }
       var idx = s.order - 1;
-      if (idx >= 0 && idx < 9) L.batters[idx] = dbg.player.id;
+      if (idx >= 0 && idx < 9) L.batters[idx] = player.id;
       var posKey = SCRAPE_POSITION_TO_KEY[s.position];
-      if (posKey) L.positions[posKey] = dbg.player.id;
+      if (posKey) L.positions[posKey] = player.id;
     });
 
     if (data.pitcher) {
-      var pitcherDbg = findPlayerBySurnameDebug(teamName, data.pitcher);
-      if (pitcherDbg.player) {
-        L.pitcher = pitcherDbg.player.id;
-        if (!L.positions.P) L.positions.P = pitcherDbg.player.id; // DH制で投手が打順に入らない場合も、マウンド上の表示には反映する
+      var pitcher = findPlayerBySurname(teamName, data.pitcher);
+      if (pitcher) {
+        L.pitcher = pitcher.id;
+        if (!L.positions.P) L.positions.P = pitcher.id; // DH制で投手が打順に入らない場合も、マウンド上の表示には反映する
       } else {
-        unmatched.push(data.pitcher + "[" + pitcherDbg.reason + "]");
+        unmatched.push(data.pitcher);
       }
     }
 

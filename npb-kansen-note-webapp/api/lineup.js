@@ -50,6 +50,21 @@ Object.keys(TEAM_CODES).forEach((name) => {
 
 const POSITION_ABBR = ["投", "捕", "一", "二", "三", "遊", "左", "中", "右", "指"];
 
+// 守備位置表記のゆれ吸収用。DH制のチームで指名打者の表記が「指」ではなく
+// 別表記（アルファベットの「DH」、「打」など）になっているケースが実際にあった
+// （オリックスの試合で打順1番が「DH」、打順5番が「打」と表記され、
+// POSITION_ABBRのどれとも一致せず、その打順が丸ごと欠落するバグが発生していた）。
+// 打順の数字（1〜9）自体は正しく取れている前提のもとで、守備位置の表記だけを
+// 補正する。ここに無い未知の表記が今後出てきても、下のparseOrderTable側で
+// 「守備位置が不明でも、打順番号と選手名さえあれば行を捨てない」ようにしてあるため、
+// 選手が丸ごと消えることはない。
+const POSITION_ALIASES = {
+  "DH": "指",
+  "ＤＨ": "指",
+  "指名打者": "指",
+  "打": "指",
+};
+
 const HTTP_HEADERS = {
   // 一般的なブラウザからのアクセスに近いUser-Agentを指定（一部サイトはUAが無いと弾くことがあるため）
   "User-Agent": "Mozilla/5.0 (compatible; NPBKansenNoteBot/1.0; +https://npb-kansen-note.vercel.app/)",
@@ -118,6 +133,9 @@ function normalizePosition(raw) {
   for (const abbr of POSITION_ABBR) {
     if (text.indexOf(abbr) !== -1) return abbr;
   }
+  for (const alias in POSITION_ALIASES) {
+    if (text.indexOf(alias) !== -1) return POSITION_ALIASES[alias];
+  }
   return null;
 }
 
@@ -140,13 +158,18 @@ function parseOrderTable($, table) {
 
       const orderNum = parseInt(cells[0], 10);
       if (!isNaN(orderNum) && orderNum >= 1 && orderNum <= 9) {
-        const pos = normalizePosition(cells[1]);
+        // 守備位置の表記は揺れがあり（例:「DH」「打」など、POSITION_ABBR/POSITION_ALIASES
+        // のどちらにも一致しない未知の表記が今後出てくる可能性もある）、ここで正規化に
+        // 失敗しても、打順番号と選手名さえ取れていれば行を捨てない
+        // （守備位置が不明なせいで選手そのものが打順から消えるのを防ぐため）。
+        const posRaw = (cells[1] || "").trim();
+        const pos = normalizePosition(posRaw) || posRaw || "不明";
         // 終了済みの試合では、同じ打順番号の行に代打・代走・守備交代が「→選手名」のような
         // 矢印付きで追加されていることがある。矢印以降（＝実際に途中出場した選手）を優先し、
         // 矢印自体は選手名として残さないよう取り除く。
         const rawName = (cells[2] || "").replace(/[\s　]/g, "");
         const name = rawName.split(/[→←]/).pop();
-        if (pos && name) rows.push({ order: orderNum, position: pos, name });
+        if (name) rows.push({ order: orderNum, position: pos, name });
         return;
       }
       // DH制の場合、先発投手は打順に入らず「投｜選手名」だけの行になっていることがある
