@@ -186,21 +186,38 @@ function parseOrderTable($, table) {
 // 出てくる「スタメン表らしきテーブル」を返す。class名等の具体的な構造に依存せず、
 // 「文書順で見出し→表」という並び方だけを頼りにしているので、入れ子の深さが
 // 見出しと表とで違っていても対応できる。
-function findTeamOrderTable($, fullTeamName) {
-  let seenName = false;
+//
+// 【重要】以前は「対象球団名を一度でも見たら、その後に最初に見つかったテーブルを
+// 問答無用で採用する」実装だった。これだと、対象球団名がページ中の離れた場所
+// （対戦カードの見出し等）に先に出てきて、その直後にたまたま相手球団の打順表がある場合、
+// 相手球団のデータを誤って対象球団のものとして取得してしまう不具合があった
+// （実例：楽天のスタメンを要求したのに、オリックスの打順がそのまま返ってきていた。
+// 　実際の試合ページでは楽天とオリックスの対戦カードが先に出た後、打順表の並びの都合で
+// 　オリックスの表が先に来ており、「楽天」という文字列を一度見た時点でロックしていたため、
+// 　直後に来たオリックスの表をそのまま採用してしまっていた）。
+// これを防ぐため、対象球団・相手球団どちらの名称が「直近で単独に」言及されていたかを
+// 常に追跡し続け、「直近の単独言及が対象球団だったときに出てくるテーブル」だけを候補とする
+// （対象球団名を見た後でも、相手球団名を先に見ればロックは相手側に切り替わる）。
+// 両チーム名が同じテキスト内に混在する場合（対戦カード見出し等、"東北楽天ゴールデン
+// イーグルス vs オリックス・バファローズ" のような1つのテキストに両方含まれる場合）は、
+// どちらの打順表の直前見出しでもない可能性が高いため、文脈の更新には使わない。
+function findTeamOrderTable($, fullTeamName, opponentFullTeamName) {
+  let currentTeam = null;
   let best = null;
   $("body *").each((_, el) => {
     if (best) return;
     const $el = $(el);
-    if (!seenName) {
-      const ownText = $el
-        .contents()
-        .filter(function () { return this.type === "text"; })
-        .text();
-      if (ownText.indexOf(fullTeamName) !== -1) seenName = true;
-      return;
+    const ownText = $el
+      .contents()
+      .filter(function () { return this.type === "text"; })
+      .text();
+    if (ownText) {
+      const hasTarget = ownText.indexOf(fullTeamName) !== -1;
+      const hasOpponent = !!opponentFullTeamName && ownText.indexOf(opponentFullTeamName) !== -1;
+      if (hasTarget && !hasOpponent) currentTeam = fullTeamName;
+      else if (hasOpponent && !hasTarget) currentTeam = opponentFullTeamName;
     }
-    if (el.tagName === "table" || el.name === "table") {
+    if ((el.tagName === "table" || el.name === "table") && currentTeam === fullTeamName) {
       const { rows, pitcherOutsideOrder, rawRows } = parseOrderTable($, el);
       if (rows.length >= 5) best = { rows, pitcherOutsideOrder, rawRows };
     }
@@ -334,7 +351,7 @@ export default async function handler(req, res) {
 
     // 「試合開始前」の表示は、スタメンが発表済みでも試合が始まるまでは出続ける可能性があるため、
     // これだけでブロックせず、まずスタメン表の取得を試み、失敗した場合の判定材料として使う。
-    const teamTable = findTeamOrderTable($game, fullName);
+    const teamTable = findTeamOrderTable($game, fullName, opponentFullName);
     // 調査用：現在の解析ロジックが実際に何を拾っているか（拾えていない行も含めて）確認できるよう、
     // テーブルの生のセル内容をそのままdebugInfoに残しておく（`?debug=1`のときだけレスポンスに含まれる）。
     if (teamTable) debugInfo.rawTableRows = teamTable.rawRows;
