@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v10"; // 楽天：直近1年でスタメン出場歴のある新規追加選手のプロフィールを拡充（+自由契約選手を除去）
+const CACHE_VERSION = "v14"; // 最新ニュース36件に刷新＋ホーム球団／全体を切り替えるトグルを追加
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

@@ -249,6 +249,7 @@
   }
   .mode-switch button.active { background: var(--bg-elevated); color: var(--ink); box-shadow: var(--shadow); }
   .roster-view-switch { width: 100%; margin-bottom: 10px; }
+  .news-scope-switch { align-self: flex-start; }
   .roster-view-switch button { flex: 1; display: flex; align-items: center; justify-content: center; gap: 5px; padding: 8px 10px; font-size: 12.5px; }
   .sort-row { display: flex; align-items: center; gap: 6px; min-width: 0; flex: 1; overflow-x: auto; }
   .sort-row .sicon { flex-shrink: 0; color: var(--ink-faint); }

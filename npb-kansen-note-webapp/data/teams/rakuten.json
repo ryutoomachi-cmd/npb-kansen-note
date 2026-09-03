@@ -1642,7 +1642,7 @@
   {
     "id": "e20",
     "name": "カーソン・マッカスカー",
-    "nameKana": "かーそん まっかすかー",
+    "nameKana": "かーそん・まっかすかー",
     "number": 34,
     "position": "外野手",
     "detailedPosition": "外野手",
@@ -3137,7 +3137,7 @@
   {
     "id": "rakuten-114",
     "name": "ボイト",
-    "nameKana": "るーく ぼいと",
+    "nameKana": "ぼいと",
     "number": 9,
     "position": "内野手",
     "detailedPosition": "一塁手",
@@ -3212,7 +3212,7 @@
   {
     "id": "rakuten-115",
     "name": "ワォーターズ璃海ジュミル",
-    "nameKana": "ワォーターズ りかい ジュミル",
+    "nameKana": "わぉーたーず りかい じゅみる",
     "number": 60,
     "position": "内野手",
     "detailedPosition": "遊撃手",
@@ -3986,7 +3986,8 @@
       "losses": 0,
       "saves": 0,
       "strikeouts": 13
-    }
+    },
+    "nameKana": "まるて"
   },
   {
     "id": "rakuten-134",

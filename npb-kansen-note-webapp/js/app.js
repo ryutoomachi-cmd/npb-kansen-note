@@ -8,6 +8,7 @@
   var NEWS = [];
   var LEGENDS = null; // レジェンド機能用データ（起動直後の描画をブロックしないよう、boot()後にバックグラウンドで取得）
   var legendsLoadFailed = false;
+  var STATS_LAST_UPDATED = null; // 今季成績（打率・本塁打など）をapi/stats.jsで自動更新した最新日時（表示用）
   var legendsLoadPromise = null;
 
   /* ===================== Icons (hand-drawn, minimal) ===================== */
@@ -71,6 +72,8 @@
   var TEAM_NAMES = TEAMS.map(function (t) { return t.name; });
   var DEFAULT_HOME_TEAM = "楽天";
   var DATA_AS_OF = "2026年9月3日時点（NPB公式記録・Wikipediaほか、全12球団769選手）";
+  // ↑ プロフィール等の基本情報の基準時点。今季成績（打率・本塁打など）はこれとは別に
+  //   api/stats.js経由でNPB公式サイトから自動更新される（statsFreshnessText参照）
   function getTeam(name) {
     for (var i = 0; i < TEAMS.length; i++) if (TEAMS[i].name === name) return TEAMS[i];
     return TEAMS[0];
@@ -199,6 +202,9 @@
     Promise.all(ids.map(loadTeamPlayers)).then(function (lists) {
       lists.forEach(mergeTeamPlayers);
       render();
+      // 全12球団分のPLAYERSが揃ったところで、今季成績（打率・本塁打など）の
+      // 自動更新チェックを行う（前回更新から18時間未満ならスキップされる）
+      maybeRefreshLiveStats();
     }).catch(function (err) {
       console.error("残り球団データの取得に失敗しました（電波状況などが原因の可能性があります）", err);
     });
@@ -260,6 +266,13 @@
       render();
       refreshSettingsIfOpen();
       showToast("最新データに更新しました（選手" + PLAYERS.length + "名）", 2600);
+      // 上記で取り直した選手データ（data/teams/*.json）は、あくまで「現在デプロイされている
+      // 静的ファイル」の再取得であり、打率・本塁打などの今季成績そのものは含まれていない
+      // （それらはapi/stats.js経由でnpb.jpから取ってPLAYERSに後乗せしているだけなので、
+      // 上のPLAYERS = freshPlayers で一旦消えてしまう）。手動更新ボタンを押した＝
+      // 「今すぐ最新の状態にしたい」という明確な意思表示なので、18時間キャッシュを待たず
+      // ここで強制的に今季成績も取り直す。
+      refreshLiveStatsNow();
     }).catch(function (err) {
       console.error("データの手動更新に失敗しました", err);
       state.dataRefreshing = false;
@@ -275,6 +288,122 @@
         if (reg) reg.update().catch(function () {});
       }).catch(function () {});
     }
+  }
+
+  // NEXT GAMEカードの「日程を更新」ボタン：本日のスタメン取得（/api/lineup）と同じ考え方で、
+  // ホーム球団の「次の試合」だけをその場でnpb.jpから取り直す。data/schedule.json全体を
+  // 作り直す（＝GitHubへの反映が必要になる）のではなく、取得できた1球団ぶんのデータで
+  // TEAM_NEXT_GAMES（表示に使っている配列）とローカルキャッシュを差し替えるだけなので、
+  // アプリを開いている人が誰でもその場で最新化できる。
+  function fetchLatestSchedule() {
+    if (state.scheduleFetching) return; // 二重押し防止
+    var teamName = state.homeTeam;
+    state.scheduleFetching = true;
+    render();
+
+    fetch("/api/schedule?team=" + encodeURIComponent(teamName))
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        state.scheduleFetching = false;
+        if (data && data.success && data.game) {
+          var idx = -1;
+          for (var i = 0; i < TEAM_NEXT_GAMES.length; i++) {
+            if (TEAM_NEXT_GAMES[i].teamName === teamName) { idx = i; break; }
+          }
+          if (idx !== -1) TEAM_NEXT_GAMES[idx] = data.game; else TEAM_NEXT_GAMES.push(data.game);
+          cacheWrite("schedule", TEAM_NEXT_GAMES);
+          render();
+          showToast("最新の日程を取得しました（" + data.game.dateDisplay + " " + teamName + " vs " + (data.game.opponent || "-") + "）", 2600);
+        } else {
+          render();
+          showToast((data && data.error) || "日程の取得に失敗しました。もう一度お試しください", 2600);
+        }
+      })
+      .catch(function () {
+        state.scheduleFetching = false;
+        render();
+        showToast("通信に失敗しました。電波状況をご確認のうえ、もう一度お試しください", 2600);
+      });
+  }
+
+  /* ===================== 今季成績（打率・本塁打など）の自動更新 =====================
+     「ホームラン数などは毎日更新してほしい」という要望に応えるための仕組み。
+     data/teams/*.json 内のcurrentStats（打率・本塁打・打点・防御率・勝敗等）は本来
+     手動でファイルを作り直しGitHubへpushしないと更新できないが、それでは自動更新に
+     ならない。そこで、アプリ起動のたびに（ただし前回の自動更新から一定時間が経って
+     いる場合のみ）api/stats.jsを12球団ぶん叩き、NPB公式サイトの最新の成績で
+     PLAYERS配列の currentStats をその場で上書きする。GitHubへの反映は一切不要で、
+     ボタン操作も不要（勝手に裏側で完結する）。 */
+  var STATS_REFRESH_INTERVAL_MS = 18 * 60 * 60 * 1000; // 18時間：1日1回程度のペースで十分なため
+  var statsRefreshing = false;
+
+  function stripSpacesForMatch(s) {
+    return (s || "").replace(/[\s　]/g, "");
+  }
+
+  function applyLiveStatsResult(teamName, players) {
+    if (!players) return 0;
+    var applied = 0;
+    for (var i = 0; i < PLAYERS.length; i++) {
+      var p = PLAYERS[i];
+      if (p.currentTeamName !== teamName) continue;
+      var key = stripSpacesForMatch(p.name);
+      var found = players[key];
+      if (!found) continue;
+      p.currentStats = Object.assign({}, p.currentStats || {}, found);
+      applied++;
+    }
+    return applied;
+  }
+
+  function refreshLiveStatsNow() {
+    if (statsRefreshing) return;
+    statsRefreshing = true;
+    var totalApplied = 0;
+    var fetches = TEAM_NAMES.map(function (teamName) {
+      return fetch("/api/stats?team=" + encodeURIComponent(teamName))
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data && data.success) totalApplied += applyLiveStatsResult(teamName, data.players);
+        })
+        .catch(function () { /* 1球団分の取得失敗は無視し、他の球団の更新は続ける */ });
+    });
+    Promise.all(fetches).then(function () {
+      statsRefreshing = false;
+      // 「試みた」ことは成否によらず必ず記録する（npb.jp側の障害等で毎回全滅する場合に、
+      // 起動のたびに12球団ぶん無駄打ちし続けないようにするため）
+      cacheWrite("liveStatsAttempt", { done: true });
+      // 一方、ユーザーに見せる「最終更新」表示は、実際に1件以上のデータが反映できた
+      // 場合のみ更新する（全滅していたら「更新済み」と偽って見せないため）
+      if (totalApplied > 0) {
+        STATS_LAST_UPDATED = new Date();
+        cacheWrite("liveStatsSuccess", { done: true });
+      }
+      render();
+    });
+  }
+
+  function maybeRefreshLiveStats() {
+    var cached = cacheRead("liveStatsAttempt");
+    if (cached && (Date.now() - cached.t) < STATS_REFRESH_INTERVAL_MS) return; // 前回の試行から間もない場合はスキップ
+    refreshLiveStatsNow();
+  }
+
+  // 選手一覧下部のフッターに表示する、今季成績の自動更新状況の一言
+  // （実際に1件以上更新できたことがある場合のみ「更新済み」と表示し、
+  //  一度も成功していない場合は誤解を招かないよう控えめな文言にする）
+  function statsFreshnessText() {
+    if (STATS_LAST_UPDATED) {
+      var hh = String(STATS_LAST_UPDATED.getHours()).padStart(2, "0");
+      var mm = String(STATS_LAST_UPDATED.getMinutes()).padStart(2, "0");
+      return " 打率・本塁打などの今季成績はNPB公式サイトから自動更新されます（本日" + hh + ":" + mm + "更新済み）。";
+    }
+    var cached = cacheRead("liveStatsSuccess");
+    if (cached) {
+      var d = new Date(cached.t);
+      return " 打率・本塁打などの今季成績はNPB公式サイトから自動更新されます（" + (d.getMonth() + 1) + "/" + d.getDate() + "更新）。";
+    }
+    return " 打率・本塁打などの今季成績はNPB公式サイトから自動更新されます。";
   }
 
   /* ===================== ホーム球団・対戦相手の永続化 ===================== */
@@ -1038,6 +1167,8 @@
     lineupFetching: null, // "home" | "opponent" | null（/api/lineup 取得中の対象サイド。二重押し防止にも使う）
     lineupFetchNotice: null, // { type: 'success'|'warning'|'error', message } 取得結果の通知（サイド切替時にクリア）
     dataRefreshing: false, // ヘッダーの更新ボタンで全データを再取得中かどうか（二重押し防止・アイコン回転表示に使用）
+    scheduleFetching: false, // NEXT GAMEカードの「日程を更新」ボタンで取得中かどうか（二重押し防止）
+    newsScope: "team", // ホーム画面「最新ニュース」の表示範囲："team"=ホーム球団のみ／"all"=全球団
     legendCategoryFilter: "all", // all | legend | overseas | faded（レジェンド一覧の絞り込み）
     legendComparePlayerId: null, // レジェンド詳細で「比較する選手を変える」により手動選択された現役選手ID（未選択なら自動で近い成績の選手を選ぶ）
     legendComparePickerOpen: false,
@@ -1354,7 +1485,8 @@
     els.main.innerHTML = '<div class="grid">' +
       (list.length ? list.map(playerCardHtml).join("") : '<p class="empty-state">該当する選手が見つかりませんでした。</p>') +
       "</div>" +
-      '<p class="data-footnote">' + esc(DATA_AS_OF) + "。全12球団" + PLAYERS.length + "名を掲載（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。</p>";
+      '<p class="data-footnote">' + esc(DATA_AS_OF) + "。全12球団" + PLAYERS.length + "名を掲載（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。" +
+      esc(statsFreshnessText()) + "</p>";
   }
 
   /* ===================== Render: レジェンド（歴代スター・海外組・現役成績と比較） ===================== */
@@ -1783,17 +1915,33 @@
     );
   }
 
-  // 応援球団のニュースを優先し、残りを他球団の最新ニュースで埋める（実データのみ・週1回自動更新）
+  // ホーム球団のニュース／全球団のニュースを切り替えて表示する（実データのみ）。
+  // state.newsScope が "team" ならホーム球団の分だけ、"all" なら全球団を新着順で表示する。
+  // ホーム球団を変更すると（setHomeTeamで再描画がかかるため）自動的にその新しい球団の
+  // ニュースに切り替わる（＝スコープの状態自体は保持したまま、中身が追従する）。
   function newsSectionHtml() {
     function byDateDesc(a, b) { return a.date > b.date ? -1 : a.date < b.date ? 1 : 0; }
-    var homeNews = NEWS.filter(function (n) { return n.teamName === state.homeTeam; }).sort(byDateDesc);
-    var otherNews = NEWS.filter(function (n) { return n.teamName !== state.homeTeam; }).sort(byDateDesc);
-    var list = homeNews.concat(otherNews).slice(0, 6);
-    if (!list.length) return "";
+    var scope = state.newsScope === "all" ? "all" : "team";
+    var list;
+    if (scope === "team") {
+      list = NEWS.filter(function (n) { return n.teamName === state.homeTeam; }).sort(byDateDesc).slice(0, 6);
+    } else {
+      list = NEWS.slice().sort(byDateDesc).slice(0, 8);
+    }
+    var switcher =
+      '<div class="mode-switch news-scope-switch">' +
+        '<button data-action="set-news-scope" data-key="team" class="' + (scope === "team" ? "active" : "") + '">' + esc(state.homeTeam) + "</button>" +
+        '<button data-action="set-news-scope" data-key="all" class="' + (scope === "all" ? "active" : "") + '">全体</button>' +
+      "</div>";
+    var body = list.length
+      ? '<div class="news-list">' + list.map(newsCardHtml).join("") + "</div>"
+      : '<p class="empty-state">' + esc(scope === "team" ? state.homeTeam + "の最新ニュースは現在ありません。" : "最新ニュースは現在ありません。") + "</p>";
+    if (!list.length && scope === "team" && !NEWS.length) return ""; // ニュースデータ自体が全く無い場合はセクションごと非表示
     return (
       '<section class="home-section">' +
         '<p class="section-label">' + icon("clipboard", 13) + "最新ニュース（年俸・移籍・故障など）</p>" +
-        '<div class="news-list">' + list.map(newsCardHtml).join("") + "</div>" +
+        switcher +
+        body +
       "</section>"
     );
   }
@@ -1813,8 +1961,11 @@
       heroTop = '<p class="hero-eyebrow">NEXT GAME</p><p class="hero-matchup">' + esc(state.homeTeam) + ' <span class="vs">vs</span> ' + esc(game.opponent) + "</p>";
       heroMeta = '<div class="hero-meta"><span class="hero-date">' + esc(game.dateDisplay) + "</span><span class=\"hero-countdown\">" + esc(countdownText) + "</span>" +
         (game.venue ? '<span class="hero-venue">' + icon("mapPin", 10) + esc(homeAwayLabel) + "・" + esc(game.venue) + "</span>" : "") +
+        '<button class="hero-date" data-action="fetch-schedule" style="cursor:pointer;border:none;"' + (state.scheduleFetching ? " disabled" : "") + ">" +
+          icon("refresh", 10, state.scheduleFetching ? "spin-icon" : "") + (state.scheduleFetching ? "取得中…" : "日程を更新") +
+        "</button>" +
         "</div>";
-      heroLead = "実際の試合日程です（球団公式サイト等より、週1回自動更新）。選手同士のつながりや小話は下のボタンからチェックできます。";
+      heroLead = "実際の試合日程です。選手同士のつながりや小話は下のボタンからチェックできます。";
     } else {
       heroTop = '<p class="hero-eyebrow">FEATURED MATCHUP</p><p class="hero-matchup">' + esc(state.homeTeam) + ' <span class="vs">vs</span> ' + esc(state.opponentTeam) + "</p>";
       heroMeta = '<div class="hero-meta"><button class="hero-date" data-action="open-settings" style="cursor:pointer;border:none;">' + icon("network", 11) + " 対戦相手を変更</button></div>";
@@ -2772,6 +2923,11 @@
       renderOverlay();
     } else if (action === "refresh-data") {
       refreshAllData();
+    } else if (action === "fetch-schedule") {
+      fetchLatestSchedule();
+    } else if (action === "set-news-scope") {
+      state.newsScope = key === "all" ? "all" : "team";
+      if (state.tab === "home") renderHome();
     } else if (action === "reset-filters") {
       state.activeTags = [];
       state.teamFilter = "all";

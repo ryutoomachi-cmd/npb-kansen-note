@@ -1,1 +1,2228 @@
-[{"id":"o10","name":"近本 光司","nameKana":"ちかもと こうじ","number":5,"position":"外野手","detailedPosition":"外野手（リードオフ）","birthDate":"1993-06-18","draftInfo":"2018年ドラフト1位（阪神タイガース）※社会人・大阪ガスから","roots":{"hometown":"情報未確認","juniorHigh":"淡路市立東浦中学校（軟式野球部）","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"兵庫県立社高等学校","university":"関西学院大学","social":"大阪ガス"},"isTohokuConnection":false,"currentStats":{"season":"2026","plateAppearances":293,"games":0,"avgDisplay":"-"},"lastSeasonStats":{"season":"2025","plateAppearances":638,"games":140,"avg":0.279,"avgDisplay":".279","hr":3,"rbi":34,"ops":0.701,"stolenBases":32},"careerSummary":"阪神の俊足リードオフマン。辰己涼介選手（楽天）の兵庫県立社高校の後輩にあたる。","nationalTeamHistory":[{"competition":"侍ジャパンシリーズ2022（強化試合）","year":"2022"}],"allStarYears":["2019","2021","2022","2023","2024","2025"],"growthTimeline":[{"period":"高校時代","title":"兵庫県立社高校で県大会準優勝・ベスト8","description":"2年春の兵庫県大会で準優勝。3年夏は投手兼3番打者として県大会ベスト8。甲子園出場（春夏とも）はなし。"}],"positionHistory":[],"episodes":["楽天の辰己涼介は近本の兵庫県立社高校2学年後輩にあたり、「いつ会ってもめっちゃ優しい。賢いし」と高校時代から近本を深く尊敬していたと証言している。2024年オールスターでは辰己が近本の打撃フォームを模倣して右前打を放つ一幕もあった。","2026年3月、初の著書を上梓した近本は「正解か、不正解か。成功か、失敗か。情報が多いなかで、僕たちは“どっち”を急ぎすぎているのではないか」と問いかけ、「検証する、揺らぐ、保留する」という独自の思考法を明かしている。"],"dataNote":"辰己選手との関連で登場する参考プロフィールのため、出身中学等の詳細調査は行っていません。2026年成績は今回のリサーチでは確認できていません。","salaryManYen":50000,"salaryNote":"推定5億円（2026年、日刊ゲンダイ報道：FA後5年25億円規模契約の平均値）","photoEmoji":"🐯"},{"id":"ti1","name":"村上 頌樹","nameKana":"むらかみ しょうき","number":41,"position":"投手","detailedPosition":"先発","throwsBats":"右投左打","birthDate":"1998-06-25","height":175,"weight":84,"draftInfo":"2020年ドラフト5位（阪神タイガース）","roots":{"hometown":"兵庫県南あわじ市","juniorHigh":"南あわじ市立南淡中学校","seniorOrBoys":"アイランドホークス（硬式クラブチーム）","highSchool":"智辯学園高等学校（奈良県）","university":"東洋大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":22,"inningsPitched":151.33,"era":1.84,"eraDisplay":"1.84","wins":10,"losses":6,"saves":0,"strikeouts":127},"lastSeasonStats":{"season":"2025","games":26,"inningsPitched":175.33,"era":2.1,"eraDisplay":"2.10","wins":14,"losses":4,"saves":0,"strikeouts":144},"careerSummary":"2023年に最優秀防御率・新人王・MVPを独占した右腕で、2026年も8月末時点で防御率1.84とリーグ最上位級の数字を残す阪神の先発の柱。制球とテンポの良さで長いイニングを投げ切るタイプ。","allStarYears":["2023","2025"],"growthTimeline":[{"period":"高校時代","title":"2016年センバツ優勝投手","description":"智辯学園（奈良）のエースとして2016年の選抜高等学校野球大会で優勝。同年は春夏の甲子園7試合を一人で投げ抜き、計921球を投じた。"}],"positionHistory":[],"episodes":["2023年に新人王と最優秀選手（MVP）を同時受賞。同時受賞は木田勇（1980年）、野茂英雄（1990年）に次ぐ史上3人目となった。","2023年の日本シリーズでは第1戦に先発して勝利投手となり、前年まで一軍通算0勝の投手が日本シリーズ初戦で勝利を挙げるのは日本人史上初と報じられた。"],"salaryManYen":23000,"salaryNote":"推定2億3000万円（2026年、年俸集計サイト等による推定）","photoEmoji":"🎯"},{"id":"ti2","name":"才木 浩人","nameKana":"さいき ひろと","number":35,"position":"投手","detailedPosition":"先発","throwsBats":"右投右打","birthDate":"1998-11-07","height":189,"weight":90,"draftInfo":"2016年ドラフト3位（阪神タイガース）","roots":{"hometown":"兵庫県神戸市西区","juniorHigh":"神戸市立王塚台中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"神戸市立須磨翔風高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":21,"inningsPitched":130,"era":2.63,"eraDisplay":"2.63","wins":8,"losses":5,"saves":0,"strikeouts":155},"lastSeasonStats":{"season":"2025","games":24,"inningsPitched":157,"era":1.55,"eraDisplay":"1.55","wins":12,"losses":6,"saves":0,"strikeouts":122},"careerSummary":"公立校から入団し、トミー・ジョン手術を乗り越えてエース級に成長した長身右腕。2025年は防御率1.55、2026年は8月末時点で155奪三振とリーグ上位の奪三振能力を示している。","nationalTeamHistory":[{"competition":"第3回WBSCプレミア12","year":"2024"}],"allStarYears":["2024"],"growthTimeline":[{"period":"高校時代","title":"公立・須磨翔風の右腕エース","description":"兄の母校でもある神戸市立須磨翔風高校でエースを務め、最速148km/hを記録。強豪私学とも互角に渡り合う公立校の好投手として注目された。"}],"positionHistory":[],"episodes":["2019年5月に右肘を痛め、2020年11月にトミー・ジョン手術を受けた。2022年7月3日に1159日ぶりの一軍登板を果たし、復帰勝利を挙げた。","2025年3月16日のロサンゼルス・ドジャースとのプレシーズンゲームに先発し、5回1安打無失点7奪三振で勝利投手となった。"],"salaryManYen":25000,"salaryNote":"推定2億5000万円（2026年、年俸集計サイト等による推定）","photoEmoji":"🔥"},{"id":"ti3","name":"髙橋 遥人","nameKana":"たかはし はると","number":29,"position":"投手","detailedPosition":"先発","throwsBats":"左投左打","birthDate":"1995-11-07","height":181,"weight":82,"draftInfo":"2017年ドラフト2位（阪神タイガース）","roots":{"hometown":"静岡県静岡市葵区","juniorHigh":"常葉大学附属橘中学校（当時は常葉学園橘中学校）","seniorOrBoys":"該当なし（中学は軟式野球部。3年時に全国大会優勝）","highSchool":"常葉大学附属橘高等学校（当時は常葉学園橘高等学校）","university":"亜細亜大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":18,"inningsPitched":126.33,"era":1.85,"eraDisplay":"1.85","wins":12,"losses":2,"saves":0,"strikeouts":118},"lastSeasonStats":{"season":"2025","games":8,"inningsPitched":43.33,"era":2.28,"eraDisplay":"2.28","wins":3,"losses":1,"saves":0,"strikeouts":48},"careerSummary":"度重なる故障を乗り越えて完全復活した左腕。2026年は8月末時点で12勝2敗・防御率1.85と自己最高のシーズンを送り、阪神の首位を支えている。","allStarYears":["2026"],"growthTimeline":[{"period":"大学時代","title":"東都・亜細亜大の左腕","description":"亜細亜大学で東都大学野球リーグに登板し、3年間で31試合5勝7敗・防御率3.57。全日本大学野球選手権ではベスト8進出を経験した。"}],"positionHistory":[],"episodes":["2018年4月11日のデビュー戦（甲子園）で7回2安打無失点。ルーキーが甲子園で先発デビュー勝利を挙げるのは1959年の村山実以来59年ぶりと報じられた。","2022年4月にトミー・ジョン手術、2023年6月に肩の手術を受けた後に復活。2026年8月12日に今季12勝目を挙げ、敵地での11勝は江夏豊以来53年ぶりの球団左腕記録と報じられた。"],"salaryManYen":3000,"salaryNote":"推定3000万円（2026年、年俸集計サイト等による推定。出来高払いの有無は未確認）","photoEmoji":"⚡"},{"id":"ti4","name":"大竹 耕太郎","nameKana":"おおたけ こうたろう","number":21,"position":"投手","detailedPosition":"先発","throwsBats":"左投左打","birthDate":"1995-06-29","height":184,"weight":87,"draftInfo":"2017年育成ドラフト4位（福岡ソフトバンクホークス）、2022年12月の現役ドラフトで阪神タイガースへ移籍","roots":{"hometown":"熊本県熊本市南区","juniorHigh":"熊本市立託麻中学校","seniorOrBoys":"情報未確認","highSchool":"熊本県立済々黌高等学校","university":"早稲田大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":15,"inningsPitched":86.67,"era":2.8,"eraDisplay":"2.80","wins":5,"losses":8,"saves":0,"strikeouts":47},"lastSeasonStats":{"season":"2025","games":16,"inningsPitched":98,"era":2.85,"eraDisplay":"2.85","wins":9,"losses":4,"saves":0,"strikeouts":48},"careerSummary":"育成出身から現役ドラフトで阪神に移り、2023年に12勝を挙げて18年ぶりのリーグ優勝に貢献した技巧派左腕。2026年も先発ローテーションを守り、防御率2点台を維持している。","allStarYears":["2023"],"growthTimeline":[{"period":"大学時代","title":"早大で全日本大学選手権優勝","description":"早稲田大学で2年時に春秋連覇を経験し、第64回全日本大学野球選手権優勝に貢献。高校時代は済々黌で2012年夏の甲子園と2013年春の選抜に出場した。"}],"positionHistory":[],"episodes":["2018年8月1日、育成出身の新人として一軍公式戦初先発初勝利を挙げた初めての選手となった。","移籍1年目の2023年に12勝2敗・防御率2.26を記録し、18年ぶりのリーグ優勝と38年ぶりの日本一に貢献した。"],"salaryManYen":13000,"salaryNote":"推定1億3000万円（2026年、年俸集計サイト等による推定）","dataNote":"中学時代に硬式クラブに所属していたか学校の軟式野球部だったかは確認できなかった（3年時に全国大会出場との記述のみ）。","photoEmoji":"🎯"},{"id":"ti5","name":"岩崎 優","nameKana":"いわさき すぐる","number":13,"position":"投手","detailedPosition":"中継ぎ・抑え","throwsBats":"左投左打","birthDate":"1991-06-19","height":185,"weight":92,"draftInfo":"2013年ドラフト6位（阪神タイガース）","roots":{"hometown":"静岡県静岡市清水区（旧・清水市）","juniorHigh":"静岡市立清水第四中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"静岡県立清水東高等学校","university":"国士舘大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":39,"inningsPitched":36.33,"era":2.72,"eraDisplay":"2.72","wins":3,"losses":3,"saves":11,"strikeouts":31},"lastSeasonStats":{"season":"2025","games":53,"inningsPitched":51.33,"era":2.1,"eraDisplay":"2.10","wins":1,"losses":3,"saves":31,"strikeouts":40},"careerSummary":"2014年の入団以来ブルペンを支え続けるベテラン左腕。2023年には球団史上初となる左腕での30セーブを記録し、2026年も抑えとセットアッパーを兼ねて起用されている。","nationalTeamHistory":[{"competition":"東京オリンピック（野球競技）","year":"2021"}],"allStarYears":["2021","2022","2023","2024"],"growthTimeline":[{"period":"大学時代","title":"国士舘大で防御率1.75","description":"国士舘大学では3年間で2部リーグ通算52試合に登板し10勝8敗・防御率1.75。3年秋には防御率0.94でリーグ2位を記録した。"}],"positionHistory":[],"episodes":["2021年8月7日、東京五輪の決勝アメリカ戦で8回を三者凡退に抑え、日本の金メダル獲得に貢献した。","2023年に球団史上初めて左腕投手としてシーズン30セーブに到達した。"],"salaryManYen":20000,"salaryNote":"推定2億円（2026年、年俸集計サイト等による推定）","photoEmoji":"🔥"},{"id":"ti6","name":"工藤 泰成","nameKana":"くどう たいせい","number":49,"position":"投手","detailedPosition":"中継ぎ","throwsBats":"右投左打","birthDate":"2001-11-19","height":177,"weight":82,"draftInfo":"2024年育成ドラフト1位（阪神タイガース）、2025年3月6日に支配下登録","roots":{"hometown":"秋田県秋田市","juniorHigh":"能代市立能代第一中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"明桜高等学校（秋田県）","university":"東京国際大学","social":"徳島インディゴソックス（四国アイランドリーグplus、2024年）"},"isTohokuConnection":true,"currentStats":{"season":"2026","games":45,"inningsPitched":47.67,"era":1.13,"eraDisplay":"1.13","wins":3,"losses":0,"saves":8,"strikeouts":57},"lastSeasonStats":{"season":"2025","games":18,"inningsPitched":16.33,"era":3.31,"eraDisplay":"3.31","wins":0,"losses":2,"saves":0,"strikeouts":16},"careerSummary":"独立リーグ経由・育成ドラフト1位から支配下を勝ち取った剛腕。2026年は8月末時点で45試合に登板して防御率1.13、8セーブ10ホールドとブルペンの中心になっている。","growthTimeline":[{"period":"独立リーグ時代","title":"徳島で最多勝、最速159km/h","description":"2024年に徳島インディゴソックスで8勝1敗を挙げて最多勝を獲得。この時期に直球が最速159km/hまで伸びた。"}],"positionHistory":[],"episodes":["2024年10月の育成ドラフト1位指名から、翌春のキャンプでの好投で2025年3月に支配下登録を勝ち取った。","2025年に東京ドームで行われたシカゴ・カブスとの試合に登板し、メジャーリーガーから3三振を奪った。"],"salaryManYen":840,"salaryNote":"推定840万円（2026年、年俸集計サイト等による推定）","dataNote":"Wikipediaの出身地表記は「秋田県秋田市」だが、地元紙は「能代一中出身」と報じており、中学は能代市立能代第一中学校。","photoEmoji":"⚡"},{"id":"ti7","name":"ドリス","nameKana":"どりす","number":98,"position":"投手","detailedPosition":"抑え","throwsBats":"右投右打","birthDate":"1988-01-10","height":196,"weight":106,"draftInfo":"ドラフト外（2016年に阪神と契約。2019年限りで退団後、2025年7月に高知ファイティングドッグスから6年ぶりに阪神へ復帰）","roots":{"hometown":"ドミニカ共和国ラ・ロマナ","juniorHigh":"情報未確認","seniorOrBoys":"情報未確認","highSchool":"情報未確認"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":43,"inningsPitched":41,"era":1.76,"eraDisplay":"1.76","wins":2,"losses":3,"saves":19,"strikeouts":50},"lastSeasonStats":{"season":"2025","games":20,"inningsPitched":18.67,"era":1.93,"eraDisplay":"1.93","wins":2,"losses":2,"saves":0,"strikeouts":16},"careerSummary":"2016〜2019年に阪神の守護神を務めた後、MLBトロント・ブルージェイズや独立リーグを経て2025年7月に6年ぶり復帰。2026年は8月末時点で19セーブを挙げ、38歳で再び守護神を担っている。","allStarYears":["2026"],"growthTimeline":[{"period":"MLB時代","title":"シカゴ・カブスでメジャーデビュー","description":"2011年9月26日にシカゴ・カブスでメジャーデビュー。その後トロント・ブルージェイズ（2020〜2021年）でもプレーした。"}],"positionHistory":[],"episodes":["2017年に37セーブを挙げてセントラル・リーグ最多セーブのタイトルを獲得した。","2025年7月、四国アイランドリーグplusの高知ファイティングドッグスから6年ぶりに阪神へ復帰。当時37歳、NPB通算96セーブの状態での復帰が各紙で大きく報じられた。"],"salaryManYen":10000,"salaryNote":"推定1億円（2026年、年俸集計サイト等による推定）","dataNote":"外国人選手のため出身中学・高校・大学の項目は該当なし。","photoEmoji":"🔥"},{"id":"ti8","name":"坂本 誠志郎","nameKana":"さかもと せいしろう","number":12,"position":"捕手","detailedPosition":"捕手","throwsBats":"右投右打","birthDate":"1993-11-10","height":176,"weight":79,"draftInfo":"2015年ドラフト2位（阪神タイガース）","roots":{"hometown":"兵庫県養父市（旧・養父郡養父町）","juniorHigh":"養父市立養父中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"履正社高等学校（大阪府）","university":"明治大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":79,"plateAppearances":253,"avg":0.222,"avgDisplay":".222","hr":9,"rbi":33,"ops":0.661,"stolenBases":2},"lastSeasonStats":{"season":"2025","games":117,"plateAppearances":414,"avg":0.247,"avgDisplay":".247","hr":2,"rbi":27,"ops":0.683,"stolenBases":2},"careerSummary":"投手陣の信頼が厚い正捕手で、2023年の日本一に貢献してゴールデングラブ賞を受賞。2026年は8月末時点で自己最多の9本塁打を放ち、打撃面でも存在感を増している。","careerTags":["captain","koshien"],"allStarYears":["2025","2026"],"growthTimeline":[{"period":"大学時代","title":"明大の正捕手・大学日本代表主将","description":"履正社高で2季連続甲子園出場（3年春はベスト4）。明治大学では1年秋から正捕手に定着してベストナイン2度、2015年ユニバーシアード日本代表では主将を務めた。"}],"positionHistory":[],"episodes":["2023年、梅野隆太郎の離脱後に残り全試合で先発マスクをかぶり、クライマックスシリーズ・日本シリーズも通して18年ぶりのリーグ優勝と38年ぶりの日本一に貢献。同年11月10日の誕生日にゴールデングラブ賞初受賞が発表された。","2021年に選手間投票で新キャプテンに選出された。"],"salaryManYen":10000,"salaryNote":"推定1億円（2026年、年俸集計サイト等による推定）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"🛡️"},{"id":"ti9","name":"梅野 隆太郎","nameKana":"うめの りゅうたろう","number":2,"position":"捕手","detailedPosition":"捕手","throwsBats":"右投右打","birthDate":"1991-06-17","height":173,"weight":75,"draftInfo":"2013年ドラフト4位（阪神タイガース）","roots":{"hometown":"福岡県那珂川市","juniorHigh":"情報未確認","seniorOrBoys":"那珂川シャークス（中学時代の所属クラブチーム）","highSchool":"福岡工業大学附属城東高等学校","university":"福岡大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":24,"plateAppearances":74,"avg":0.182,"avgDisplay":".182","hr":1,"rbi":3,"ops":0.494,"stolenBases":1},"lastSeasonStats":{"season":"2025","games":52,"plateAppearances":132,"avg":0.22,"avgDisplay":".220","hr":0,"rbi":2,"ops":0.524,"stolenBases":2},"careerSummary":"ゴールデングラブ賞3度、通算1000試合出場を果たした強肩のベテラン捕手。2026年は出場機会こそ減っているが、経験豊富な第2捕手としてチームを支えている。","careerTags":["captain"],"nationalTeamHistory":[{"competition":"東京オリンピック（野球競技）","year":"2021"}],"allStarYears":["2017","2019","2021","2023"],"growthTimeline":[{"period":"大学時代","title":"福岡大の主将として4季連続全国大会","description":"福岡大学では3年春から主将を務めてチームを4季連続全国大会出場へ導き、リーグ通算打率.338・7本塁打。2013年の日米大学野球選手権では日本代表の主将を務めた。"}],"positionHistory":[],"episodes":["2018年から2020年まで3年連続でゴールデングラブ賞を受賞。阪神の捕手の連続受賞は1973〜1974年の田淵幸一以来45年ぶりだった。","2019年9月24日の巨人戦で捕手のシーズン補殺日本記録を樹立し、最終的に123補殺を記録。同年4月9日にはサイクル安打も達成している。"],"salaryManYen":12000,"salaryNote":"推定1億2000万円（2026年、年俸集計サイト等による推定）","dataNote":"出身中学校名は確認できなかった。中学時代の所属チーム「那珂川シャークス」が硬式か軟式かは資料により記述が分かれ、断定できなかった。OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"🧤"},{"id":"ti10","name":"佐藤 輝明","nameKana":"さとう てるあき","number":8,"position":"内野手","detailedPosition":"三塁手","throwsBats":"右投左打","birthDate":"1999-03-13","height":187,"weight":96,"draftInfo":"2020年ドラフト1位（阪神タイガース、4球団競合の末に抽選で交渉権獲得）","roots":{"hometown":"兵庫県西宮市","juniorHigh":"西宮市立甲陵中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"仁川学院高等学校（兵庫県）","university":"近畿大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":117,"plateAppearances":498,"avg":0.322,"avgDisplay":".322","hr":30,"rbi":84,"ops":1.02,"stolenBases":6},"lastSeasonStats":{"season":"2025","games":139,"plateAppearances":597,"avg":0.277,"avgDisplay":".277","hr":40,"rbi":102,"ops":0.924,"stolenBases":10},"careerSummary":"2025年に40本塁打・102打点で本塁打王と打点王の二冠を獲得した球界屈指の長距離砲。2026年は8月末時点で打率.322・30本塁打・84打点、OPS1.020と打撃三部門で軒並みリーグ上位につけている。","nationalTeamHistory":[{"competition":"侍ジャパンシリーズ2022（強化試合）","year":"2022"}],"allStarYears":["2021","2022","2023","2025","2026"],"growthTimeline":[{"period":"大学時代","title":"関西学生リーグ通算本塁打記録を更新","description":"近畿大学で3季連続ベストナイン。4年秋にリーグ戦通算14本塁打として関西学生野球リーグ記録を更新し、2度目のリーグMVPに輝いた。"}],"positionHistory":[],"episodes":["2025年に40本塁打・102打点を記録し、本塁打王と打点王の二冠を獲得した。","ルーキーイヤーの2021年に24本塁打を放ち新人左打者の最多本塁打記録を樹立。5月28日には長嶋茂雄以来63年ぶりとなる新人の1試合3本塁打を記録した。"],"salaryManYen":45000,"salaryNote":"推定4億5000万円（2026年、単年契約。出来高を含めた総額は5億円と報じられた）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💣"},{"id":"ti11","name":"大山 悠輔","nameKana":"おおやま ゆうすけ","number":3,"position":"内野手","detailedPosition":"一塁手","throwsBats":"右投右打","birthDate":"1994-12-19","height":181,"weight":96,"draftInfo":"2016年ドラフト1位（阪神タイガース）","roots":{"hometown":"茨城県下妻市","juniorHigh":"下妻市立千代川中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"つくば秀英高等学校（茨城県）","university":"白鷗大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":115,"plateAppearances":480,"avg":0.274,"avgDisplay":".274","hr":15,"rbi":68,"ops":0.793,"stolenBases":0},"lastSeasonStats":{"season":"2025","games":141,"plateAppearances":587,"avg":0.264,"avgDisplay":".264","hr":13,"rbi":75,"ops":0.759,"stolenBases":6},"careerSummary":"2023年の日本一で中軸を担い、2024年オフにFA権を行使したうえで阪神残留を選んだチームの精神的支柱。2026年も一塁の主力として8月末時点で115試合に出場している。","nationalTeamHistory":[{"competition":"ENEOS侍ジャパンシリーズ2018（対オーストラリア代表 強化試合）","year":"2018"}],"allStarYears":["2022","2023","2025","2026"],"growthTimeline":[{"period":"大学時代","title":"白鷗大でリーグ新記録の8本塁打","description":"白鷗大学4年春のリーグ戦で打率.417、リーグ新記録の8本塁打、20打点を挙げて本塁打王・打点王を獲得。通算98試合で119安打16本塁打93打点を記録した。"}],"positionHistory":[],"episodes":["2023年は全試合で4番に先発して最高出塁率のタイトルを獲得。日本シリーズでもサヨナラ安打を放ち、リーグ優勝と日本一に貢献した。","2024年11月、FA権を行使したうえで5年総額17億円の条件で阪神残留を決断した。"],"salaryManYen":34000,"salaryNote":"推定3億4000万円（2026年、年俸集計サイト等による推定。2024年オフに5年契約を締結）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💪"},{"id":"ti12","name":"中野 拓夢","nameKana":"なかの たくむ","number":7,"position":"内野手","detailedPosition":"二塁手","throwsBats":"右投左打","birthDate":"1996-06-28","height":172,"weight":68,"draftInfo":"2020年ドラフト6位（阪神タイガース）","roots":{"hometown":"山形県天童市","juniorHigh":"情報未確認","seniorOrBoys":"山形シニア","highSchool":"日本大学山形高等学校","university":"東北福祉大学","social":"三菱自動車岡崎"},"isTohokuConnection":true,"currentStats":{"season":"2026","games":117,"plateAppearances":471,"avg":0.282,"avgDisplay":".282","hr":0,"rbi":20,"ops":0.652,"stolenBases":7},"lastSeasonStats":{"season":"2025","games":143,"plateAppearances":625,"avg":0.282,"avgDisplay":".282","hr":0,"rbi":30,"ops":0.667,"stolenBases":19},"careerSummary":"ルーキーイヤーに盗塁王、2023年には二塁手でゴールデングラブ賞を獲得した俊足巧打の二塁手。2026年も8月末時点でチームトップタイの117試合に出場し、打率.282を残している。","nationalTeamHistory":[{"competition":"侍ジャパンシリーズ2022（強化試合）","year":"2022"},{"competition":"2023年WBC（ワールド・ベースボール・クラシック）","year":"2023"}],"allStarYears":["2021","2022","2023","2024","2025","2026"],"growthTimeline":[{"period":"大学時代","title":"東北福祉大で全日本大学選手権優勝","description":"東北福祉大学で2020年の全日本大学野球選手権優勝に貢献し、決勝で勝ち越し打を放った。日大山形高では2013年夏の甲子園で県勢初のベスト4進出に貢献している。"}],"positionHistory":[],"episodes":["2021年に新人ながら30盗塁を記録して盗塁王を獲得。新人での盗塁王はNPB史上3人目だった。","2023年に二塁手部門で自身初のゴールデングラブ賞を受賞。10年連続受賞中だった菊池涼介から受賞を奪う形となった。"],"salaryManYen":30000,"salaryNote":"推定3億円（2026年、年俸集計サイト等による推定）","dataNote":"出身中学校名は確認できなかった（中学時代は硬式クラブの山形シニアに所属）。背番号は2026年に51から7へ変更。OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💨"},{"id":"ti13","name":"髙寺 望夢","nameKana":"たかてら のぞむ","number":67,"position":"内野手","detailedPosition":"内野手（ユーティリティ）","throwsBats":"右投左打","birthDate":"2002-10-17","height":178,"weight":78,"draftInfo":"2020年ドラフト7位（阪神タイガース）","roots":{"hometown":"長野県上田市","juniorHigh":"上田市立真田中学校","seniorOrBoys":"上田シニア","highSchool":"上田西高等学校（長野県）"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":105,"plateAppearances":318,"avg":0.222,"avgDisplay":".222","hr":2,"rbi":21,"ops":0.599,"stolenBases":12},"lastSeasonStats":{"season":"2025","games":67,"plateAppearances":160,"avg":0.231,"avgDisplay":".231","hr":2,"rbi":7,"ops":0.631,"stolenBases":4},"careerSummary":"プロ6年目の2026年に大きく出場機会を伸ばし、8月末時点で105試合出場・12盗塁。内野手登録ながら外野も守り、離脱した近本光司の穴を埋める働きを見せている。","growthTimeline":[{"period":"高校時代","title":"上田西から初のプロ入り","description":"上田西高で通算31本塁打。プロ志望高校生合同練習会（東京ドーム）のフリー打撃で6打数5安打2四球と結果を残した。同校から直接プロ入りしたのは史上初。"}],"positionHistory":[],"episodes":["2026年5月、離脱した近本光司に代わり、それまで外野未経験ながら「1番・中堅」で11試合連続先発出場を果たしたと報じられた。","2020年ドラフトで上田西高から7位指名を受け、同校史上初の直接プロ入り選手となった。"],"salaryManYen":2000,"salaryNote":"推定2000万円（2026年、年俸集計サイト等による推定）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💨"},{"id":"ti14","name":"立石 正広","nameKana":"たていし まさひろ","number":9,"position":"内野手","detailedPosition":"内野手","throwsBats":"右投右打","birthDate":"2003-11-01","height":180,"weight":87,"draftInfo":"2025年ドラフト1位（阪神タイガース、広島・日本ハムとの3球団競合の末に抽選で交渉権獲得）","roots":{"hometown":"山口県防府市","juniorHigh":"高川学園中学校（中高一貫）","seniorOrBoys":"情報未確認（小学生時代は華浦スポーツ少年団）","highSchool":"高川学園高等学校（山口県）","university":"創価大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":32,"plateAppearances":113,"avg":0.198,"avgDisplay":".198","hr":2,"rbi":10,"ops":0.482,"stolenBases":1},"lastSeasonStats":{"season":"2025"},"careerSummary":"3球団競合の末に阪神が引き当てた「世代No.1スラッガー」と評される右打者。ルーキーイヤーの2026年は8月末時点で32試合に出場し、プロ初打席初安打からデビュー5戦連続安打の球団新記録を樹立した。","growthTimeline":[{"period":"大学時代","title":"創価大で三冠王・ベストナイン4度","description":"創価大学で東京新大学野球リーグのベストナインを4度受賞。2年春に打率.500・5本塁打・14打点で三冠王、2025年春は打率.400で本塁打王と打点王の二冠、最高殊勲選手賞にも輝いた。"}],"positionHistory":[],"episodes":["プロ初打席でセンター前へ初安打を放ち、デビューから5試合連続安打という球団新記録を樹立した。","巨人戦でプロ初本塁打を逆方向へ放ち、スーパールーキーの一発として各紙に報じられた。"],"salaryManYen":1600,"salaryNote":"推定1600万円（2026年。入団時の契約金は1億円＋出来高5000万円と報じられた）","dataNote":"2025年はアマチュア（創価大学）のため lastSeasonStats は該当なし。中学時代に硬式クラブへ所属していたかは確認できず、中高一貫の高川学園中学校で野球を続けたことのみ確認できた。OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💣"},{"id":"ti15","name":"森下 翔太","nameKana":"もりした しょうた","number":1,"position":"外野手","detailedPosition":"右翼手","throwsBats":"右投右打","birthDate":"2000-08-14","height":182,"weight":93,"draftInfo":"2022年ドラフト1位（阪神タイガース）","roots":{"hometown":"神奈川県横浜市港南区","juniorHigh":"横浜市立日限山中学校","seniorOrBoys":"戸塚リトルシニア","highSchool":"東海大学付属相模高等学校（神奈川県）","university":"中央大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":117,"plateAppearances":504,"avg":0.303,"avgDisplay":".303","hr":31,"rbi":70,"ops":0.977,"stolenBases":3},"lastSeasonStats":{"season":"2025","games":143,"plateAppearances":620,"avg":0.275,"avgDisplay":".275","hr":23,"rbi":89,"ops":0.813,"stolenBases":5},"careerSummary":"2023年の日本シリーズで新人記録の7打点を挙げて日本一に貢献した右の大砲。2026年は8月末時点で打率.303・31本塁打とキャリアハイのペースで、佐藤輝明とクリーンアップを組む。","nationalTeamHistory":[{"competition":"第3回WBSCプレミア12","year":"2024"}],"allStarYears":["2025","2026"],"growthTimeline":[{"period":"大学時代","title":"中大の主軸・大学日本代表","description":"東海大相模高で高校通算57本塁打を放ち、3年春の第90回記念選抜大会に出場。中央大学では1年時から日米大学野球の日本代表に選ばれ、アマ球界屈指の右の強打者と評された。"}],"positionHistory":[],"episodes":["2023年の日本シリーズで新人記録となる7打点を挙げて優秀選手賞を受賞し、38年ぶりの日本一に貢献した。第7戦では4打数3安打2打点と活躍した。","2024年8月4日に10試合連続打点を記録し、藤村富美男・掛布雅之を超える球団記録を樹立した。"],"salaryManYen":21000,"salaryNote":"推定2億1000万円（2026年、年俸集計サイト等による推定）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💣"},{"id":"ti16","name":"前川 右京","nameKana":"まえかわ うきょう","number":58,"position":"外野手","detailedPosition":"左翼手","throwsBats":"左投左打","birthDate":"2003-05-18","height":176,"weight":92,"draftInfo":"2021年ドラフト4位（阪神タイガース）","roots":{"hometown":"三重県津市","juniorHigh":"津市立一身田中学校","seniorOrBoys":"津ボーイズ","highSchool":"智辯学園高等学校（奈良県）"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":59,"plateAppearances":172,"avg":0.23,"avgDisplay":".230","hr":5,"rbi":18,"ops":0.695,"stolenBases":0},"lastSeasonStats":{"season":"2025","games":69,"plateAppearances":209,"avg":0.246,"avgDisplay":".246","hr":1,"rbi":15,"ops":0.62,"stolenBases":0},"careerSummary":"智辯学園時代から評価の高かった左の中距離打者。2026年は8月末時点で59試合に出場し、限られた打席ながら5本塁打とOPS.695を記録している。","careerTags":["koshien"],"growthTimeline":[{"period":"高校時代","title":"2021年夏の甲子園で打率.455・準優勝","description":"智辯学園で高校通算37本塁打。第103回全国高等学校野球選手権では6試合で打率.455を記録し、横浜高・日本航空高から本塁打を放って準優勝に貢献した。"}],"positionHistory":[],"episodes":["智辯学園入学時、投手としての期待をかけられながら「投手はやりません。野手一本で行きます」と宣言して打者に専念した。","2024年6月16日に21歳0か月で満塁本塁打を放ち、球団最年少記録となった。"],"salaryManYen":3100,"salaryNote":"推定3100万円（2026年、年俸集計サイト等による推定）","dataNote":"OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💪"},{"id":"ti17","name":"福島 圭音","nameKana":"ふくしま けいん","number":92,"position":"外野手","detailedPosition":"中堅手","throwsBats":"右投左打","birthDate":"2001-10-06","height":171,"weight":69,"draftInfo":"2023年育成ドラフト2位（阪神タイガース）、2026年3月31日に支配下登録（背番号92）","roots":{"hometown":"埼玉県秩父市","juniorHigh":"秩父市立秩父第一中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"聖望学園高等学校（埼玉県）","university":"白鷗大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":66,"plateAppearances":148,"avg":0.237,"avgDisplay":".237","hr":0,"rbi":4,"ops":0.613,"stolenBases":6},"lastSeasonStats":{"season":"2025"},"careerSummary":"育成2位入団から2026年3月に支配下を勝ち取った韋駄天タイプの外野手。離脱した近本光司の代役として起用され、8月末時点で66試合に出場し6盗塁を記録している。","growthTimeline":[{"period":"大学時代","title":"白鷗大4年春に打率.526で5冠","description":"白鷗大学4年春のリーグ戦で打率.526、リーグ記録を更新する20盗塁を記録し、首位打者・最多安打・最多盗塁・最高出塁率・ベストナインの5つを獲得した。"}],"positionHistory":[],"episodes":["2026年3月31日に育成選手から支配下選手契約を勝ち取り、背番号92を与えられた。前年のウエスタン・リーグでは盗塁王を獲得している。","母親が俳優のケイン・コスギのファンだったことから「圭音（けいん）」と名付けられ、プロ入り後に本人から激励を受けたことが報じられている。"],"salaryManYen":300,"salaryNote":"推定300万円（2026年、年俸集計サイト等による推定）","dataNote":"2025年は育成選手で一軍出場がないため lastSeasonStats は該当なし。OPSはNPB公式の出塁率＋長打率から算出。","photoEmoji":"💨"},{"id":"hanshin-101","name":"石井 大智","number":69,"position":"投手","birthDate":"1997-07-29","draftInfo":"2020年ドラフト8位（阪神タイガース）","roots":{"hometown":"秋田県秋田市","highSchool":"秋田工業高等専門学校"},"currentStats":{"season":"2025","games":53,"inningsPitched":53,"era":0.17,"eraDisplay":"0.17","wins":1,"losses":0,"saves":9,"strikeouts":42}},{"id":"hanshin-102","name":"伊藤 将司","number":27,"position":"投手","birthDate":"1996-05-08","draftInfo":"2020年ドラフト2位（阪神タイガース）","roots":{"hometown":"千葉県山武郡横芝町（現・横芝光町）","highSchool":"横浜高等学校","university":"国際武道大学"},"currentStats":{"season":"2026","games":8,"inningsPitched":41,"era":2.63,"eraDisplay":"2.63","wins":1,"losses":2,"saves":0,"strikeouts":34}},{"id":"hanshin-103","name":"伊原 陵人","number":18,"position":"投手","birthDate":"2000-08-07","draftInfo":"2024年ドラフト1位（阪神タイガース）","roots":{"hometown":"奈良県橿原市","highSchool":"智辯学園高等学校","university":"大阪商業大学"},"currentStats":{"season":"2026","games":8,"inningsPitched":36,"era":3.25,"eraDisplay":"3.25","wins":4,"losses":2,"saves":0,"strikeouts":34}},{"id":"hanshin-104","name":"茨木 秀俊","number":48,"position":"投手","birthDate":"2004-06-08","draftInfo":"2022年ドラフト4位（阪神タイガース）","roots":{"hometown":"北海道札幌市","highSchool":"帝京長岡高等学校"},"currentStats":{"season":"2026","games":3,"inningsPitched":12.67,"era":6.39,"eraDisplay":"6.39","wins":1,"losses":0,"saves":0,"strikeouts":10}},{"id":"hanshin-105","name":"岩貞 祐太","number":14,"position":"投手","birthDate":"1991-09-05","draftInfo":"2013年ドラフト1位（阪神タイガース）","roots":{"hometown":"熊本県熊本市東区","highSchool":"熊本市立必由館高等学校","university":"横浜商科大学"},"currentStats":{"season":"2026","games":1,"inningsPitched":0.67,"era":13.5,"eraDisplay":"13.50","wins":0,"losses":0,"saves":0,"strikeouts":0}},{"id":"hanshin-106","name":"岡留 英貴","number":64,"position":"投手","birthDate":"1999-11-07","draftInfo":"2021年ドラフト5位（阪神タイガース）","roots":{"hometown":"沖縄県糸満市","highSchool":"沖縄尚学高等学校","university":"亜細亜大学"},"currentStats":{"season":"2026","games":2,"inningsPitched":2.67,"era":0.0,"eraDisplay":"0.00","wins":0,"losses":0,"saves":0,"strikeouts":4}},{"id":"hanshin-107","name":"及川 雅貴","number":37,"position":"投手","birthDate":"2001-04-18","draftInfo":"2019年ドラフト3位（阪神タイガース）","roots":{"hometown":"千葉県八日市場市（現・匝瑳市）","highSchool":"横浜高等学校"},"currentStats":{"season":"2026","games":36,"inningsPitched":34,"era":3.44,"eraDisplay":"3.44","wins":2,"losses":1,"saves":0,"strikeouts":21}},{"id":"hanshin-108","name":"木下 里都","number":54,"position":"投手","birthDate":"2001-01-27","draftInfo":"2024年ドラフト3位（阪神タイガース）","roots":{"hometown":"福岡県福岡市早良区","highSchool":"福岡舞鶴高等学校","university":"福岡大学"},"currentStats":{"season":"2026","games":34,"inningsPitched":38.33,"era":1.64,"eraDisplay":"1.64","wins":4,"losses":1,"saves":0,"strikeouts":38}},{"id":"hanshin-109","name":"桐敷 拓馬","number":47,"position":"投手","birthDate":"1999-06-20","draftInfo":"2021年ドラフト3位（阪神タイガース）","roots":{"hometown":"埼玉県北埼玉郡川里町（現・鴻巣市）","highSchool":"本庄東高等学校","university":"新潟医療福祉大学"},"currentStats":{"season":"2026","games":22,"inningsPitched":19.33,"era":5.59,"eraDisplay":"5.59","wins":1,"losses":2,"saves":1,"strikeouts":12}},{"id":"hanshin-110","name":"今朝丸 裕喜","number":28,"position":"投手","birthDate":"2006-06-02","draftInfo":"2024年ドラフト2位（阪神タイガース）","roots":{"hometown":"兵庫県神戸市東灘区","highSchool":"報徳学園高等学校"},"currentStats":{"season":"2026","games":3,"inningsPitched":8,"era":5.63,"eraDisplay":"5.63","wins":0,"losses":1,"saves":0,"strikeouts":3}},{"id":"hanshin-111","name":"椎葉 剛","nameKana":"しいば つよし","number":26,"position":"投手","birthDate":"2002-03-18","draftInfo":"2023年ドラフト2位（阪神タイガース）","roots":{"hometown":"大阪府堺市南区","highSchool":"島原中央高等学校"},"currentStats":{"season":"2026","games":4,"inningsPitched":7,"era":6.43,"eraDisplay":"6.43","wins":0,"losses":0,"saves":0,"strikeouts":4}},{"id":"hanshin-112","name":"下村 海翔","number":19,"position":"投手","birthDate":"2002-03-27","draftInfo":"2023年ドラフト単独1位（阪神タイガース）","roots":{"hometown":"兵庫県西宮市","highSchool":"九州国際大学付属高等学校","university":"青山学院大学"},"currentStats":{"season":"2026","games":7,"inningsPitched":34.67,"era":3.63,"eraDisplay":"3.63","wins":1,"losses":2,"saves":0,"strikeouts":33}},{"id":"hanshin-113","name":"神宮 僚介","number":95,"position":"投手","birthDate":"2003-05-27","roots":{},"currentStats":{"season":"2026","games":9,"inningsPitched":7.67,"era":2.35,"eraDisplay":"2.35","wins":0,"losses":0,"saves":0,"strikeouts":9}},{"id":"hanshin-114","name":"セベリーノ","number":97,"position":"投手","birthDate":"1994-09-17","roots":{},"currentStats":{"season":"2026","games":10,"inningsPitched":11,"era":3.27,"eraDisplay":"3.27","wins":0,"losses":0,"saves":0,"strikeouts":9}},{"id":"hanshin-115","name":"津田 淳哉","number":66,"position":"投手","birthDate":"2001-08-27","draftInfo":"2023年ドラフト6位（阪神タイガース）","roots":{"hometown":"奈良県大和郡山市","highSchool":"大和高田市立高田商業高等学校","university":"大阪経済大学"},"currentStats":{"season":"2026","games":9,"inningsPitched":10.33,"era":4.35,"eraDisplay":"4.35","wins":0,"losses":0,"saves":0,"strikeouts":8}},{"id":"hanshin-116","name":"富田 蓮","number":50,"position":"投手","birthDate":"2001-09-06","draftInfo":"2022年ドラフト6位（阪神タイガース）","roots":{"hometown":"岐阜県養老郡養老町","highSchool":"岐阜県立大垣商業高等学校"},"currentStats":{"season":"2026","games":1,"inningsPitched":2,"era":13.5,"eraDisplay":"13.50","wins":0,"losses":0,"saves":0,"strikeouts":2}},{"id":"hanshin-117","name":"西 勇輝","number":16,"position":"投手","birthDate":"1990-11-10","draftInfo":"2008年ドラフト3位（オリックス・バファローズ）","roots":{"hometown":"三重県三重郡菰野町","highSchool":"三重県立菰野高等学校"},"currentStats":{"season":"2026","games":7,"inningsPitched":35,"era":2.57,"eraDisplay":"2.57","wins":3,"losses":3,"saves":0,"strikeouts":19}},{"id":"hanshin-118","name":"畠 世周","number":36,"position":"投手","birthDate":"1994-05-31","draftInfo":"2016年ドラフト2位（読売ジャイアンツ）","roots":{"hometown":"広島県呉市","highSchool":"近畿大学附属福山高等学校","university":"近畿大学"},"currentStats":{"season":"2026","games":11,"inningsPitched":10.67,"era":2.53,"eraDisplay":"2.53","wins":0,"losses":1,"saves":0,"strikeouts":7}},{"id":"hanshin-119","name":"早川 太貴","number":51,"position":"投手","birthDate":"1999-12-18","draftInfo":"2024年育成ドラフト3位（阪神タイガース）","roots":{"hometown":"北海道江別市","highSchool":"北海道大麻高等学校","university":"小樽商科大学"},"currentStats":{"season":"2026","games":9,"inningsPitched":13.67,"era":9.22,"eraDisplay":"9.22","wins":0,"losses":2,"saves":0,"strikeouts":15}},{"id":"hanshin-120","name":"モレッタ","number":99,"position":"投手","birthDate":"1996-04-15","roots":{},"currentStats":{"season":"2026","games":19,"inningsPitched":16,"era":6.19,"eraDisplay":"6.19","wins":2,"losses":2,"saves":0,"strikeouts":22}},{"id":"hanshin-121","name":"門別 啓人","number":30,"position":"投手","birthDate":"2004-07-10","draftInfo":"2022年ドラフト2位（阪神タイガース）","roots":{"hometown":"北海道沙流郡門別町（現・日高町）","highSchool":"東海大学付属札幌高等学校"},"currentStats":{"season":"2026","games":11,"inningsPitched":19,"era":4.74,"eraDisplay":"4.74","wins":1,"losses":1,"saves":0,"strikeouts":11}},{"id":"hanshin-122","name":"湯浅 京己","number":65,"position":"投手","birthDate":"1999-07-17","draftInfo":"2018年ドラフト6位（阪神タイガース）","roots":{"hometown":"三重県尾鷲市","highSchool":"聖光学院高等学校"},"currentStats":{"season":"2026","games":25,"inningsPitched":24.33,"era":3.33,"eraDisplay":"3.33","wins":3,"losses":0,"saves":0,"strikeouts":20}},{"id":"hanshin-123","name":"ルーカス","number":42,"position":"投手","birthDate":"1996-09-23","roots":{},"currentStats":{"season":"2026","games":4,"inningsPitched":19.67,"era":4.58,"eraDisplay":"4.58","wins":1,"losses":2,"saves":0,"strikeouts":17}},{"id":"hanshin-124","name":"石黒 佑弥","number":63,"position":"投手","birthDate":"2001-06-20","draftInfo":"2023年ドラフト5位（阪神タイガース）","roots":{"hometown":"愛知県江南市","highSchool":"星城高等学校"},"currentStats":{"season":"2026","games":13,"inningsPitched":17.67,"era":4.58,"eraDisplay":"4.58","wins":0,"losses":0,"saves":0,"strikeouts":21}},{"id":"hanshin-125","name":"伏見 寅威","number":17,"position":"捕手","birthDate":"1990-05-12","draftInfo":"2012年ドラフト3位（オリックス・バファローズ）","roots":{"hometown":"北海道千歳市","highSchool":"東海大学付属第四高等学校（現・東海大学付属札幌高等学校）","university":"東海大学"},"currentStats":{"season":"2026","plateAppearances":122,"games":42,"avg":0.213,"avgDisplay":".213","hr":0,"rbi":12,"stolenBases":0}},{"id":"hanshin-126","name":"榮枝 裕貴","number":39,"position":"捕手","birthDate":"1998-05-16","draftInfo":"2020年ドラフト4位（阪神タイガース）","roots":{"hometown":"高知県高知市","highSchool":"高知高等学校","university":"立命館大学"},"currentStats":{"season":"2026","plateAppearances":1,"games":2,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-127","name":"長坂 拳弥","number":57,"position":"捕手","birthDate":"1994-04-28","draftInfo":"2016年ドラフト7位（阪神タイガース）","roots":{"hometown":"群馬県富岡市","highSchool":"高崎健康福祉大学高崎高等学校","university":"東北福祉大学"},"currentStats":{"season":"2025","plateAppearances":1,"games":1,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-128","name":"中川 勇斗","number":68,"position":"捕手","birthDate":"2004-01-27","draftInfo":"2021年ドラフト7位（阪神タイガース）","roots":{"hometown":"愛知県小牧市","highSchool":"京都国際高等学校"},"currentStats":{"season":"2026","plateAppearances":25,"games":10,"avg":0.053,"avgDisplay":".053","hr":0,"rbi":2,"stolenBases":0}},{"id":"hanshin-129","name":"嶋村 麟士朗","number":85,"position":"捕手","birthDate":"2003-07-13","draftInfo":"2024年育成ドラフト2位（阪神タイガース）","roots":{"hometown":"高知県高知市","highSchool":"高知市立高知商業高等学校","university":"福井工業大学"},"currentStats":{"season":"2026","plateAppearances":41,"games":30,"avg":0.195,"avgDisplay":".195","hr":1,"rbi":5,"stolenBases":0}},{"id":"hanshin-130","name":"元山 飛優","number":"00","position":"内野手","birthDate":"1998-12-04","draftInfo":"2020年ドラフト4位（東京ヤクルトスワローズ）","roots":{"hometown":"大阪府東大阪市","highSchool":"佐久長聖高等学校","university":"東北福祉大学"},"currentStats":{"season":"2026","plateAppearances":113,"games":37,"avg":0.274,"avgDisplay":".274","hr":0,"rbi":4,"stolenBases":1}},{"id":"hanshin-131","name":"木浪 聖也","number":0,"position":"内野手","birthDate":"1994-06-15","draftInfo":"2018年ドラフト3位（阪神タイガース）","roots":{"hometown":"青森県青森市","highSchool":"青森山田高等学校","university":"亜細亜大学"},"currentStats":{"season":"2026","plateAppearances":138,"games":50,"avg":0.228,"avgDisplay":".228","hr":1,"rbi":14,"stolenBases":1}},{"id":"hanshin-132","name":"熊谷 敬宥","number":4,"position":"内野手","birthDate":"1995-11-10","draftInfo":"2017年ドラフト3位（阪神タイガース）","roots":{"hometown":"宮城県仙台市","highSchool":"仙台育英学園高等学校","university":"立教大学"},"currentStats":{"season":"2026","plateAppearances":166,"games":68,"avg":0.224,"avgDisplay":".224","hr":0,"rbi":13,"stolenBases":5}},{"id":"hanshin-133","name":"ディベイニー","number":24,"position":"内野手","birthDate":"1997-04-13","roots":{},"currentStats":{"season":"2026","plateAppearances":9,"games":6,"avg":0.125,"avgDisplay":".125","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-134","name":"谷端 将伍","number":25,"position":"内野手","birthDate":"2004-03-17","roots":{},"currentStats":{"season":"2026","plateAppearances":3,"games":1,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-135","name":"糸原 健斗","number":33,"position":"内野手","birthDate":"1992-11-11","draftInfo":"2016年ドラフト5位（阪神タイガース）","roots":{"hometown":"島根県雲南市","highSchool":"開星高等学校","university":"明治大学"},"currentStats":{"season":"2026","plateAppearances":12,"games":12,"avg":0.083,"avgDisplay":".083","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-136","name":"小幡 竜平","number":38,"position":"内野手","birthDate":"2000-09-21","draftInfo":"2018年ドラフト2位（阪神タイガース）","roots":{"hometown":"大分県大分市","highSchool":"延岡学園高等学校"},"currentStats":{"season":"2026","plateAppearances":104,"games":36,"avg":0.213,"avgDisplay":".213","hr":0,"rbi":4,"stolenBases":1}},{"id":"hanshin-137","name":"百﨑 蒼生","number":56,"position":"内野手","birthDate":"2005-09-11","draftInfo":"2023年ドラフト4位（阪神タイガース）","roots":{"hometown":"熊本県菊池市","highSchool":"東海大学付属熊本星翔高等学校"},"currentStats":{"season":"2026","plateAppearances":2,"games":2,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-138","name":"植田 海","number":62,"position":"内野手","birthDate":"1996-04-19","draftInfo":"2014年ドラフト5位（阪神タイガース）","roots":{"hometown":"滋賀県甲賀市","highSchool":"近江高等学校"},"currentStats":{"season":"2026","plateAppearances":5,"games":21,"avg":0.5,"avgDisplay":".500","hr":0,"rbi":1,"stolenBases":4}},{"id":"hanshin-139","name":"濱田 太貴","number":32,"position":"外野手","birthDate":"2000-09-04","draftInfo":"2018年ドラフト4位（東京ヤクルトスワローズ）","roots":{"hometown":"福岡県北九州市八幡西区","highSchool":"明豊高等学校"},"currentStats":{"season":"2026","plateAppearances":27,"games":19,"avg":0.16,"avgDisplay":".160","hr":1,"rbi":2,"stolenBases":0}},{"id":"hanshin-140","name":"岡城 快生","number":34,"position":"外野手","birthDate":"2003-06-23","roots":{},"currentStats":{"season":"2026","plateAppearances":34,"games":15,"avg":0.152,"avgDisplay":".152","hr":0,"rbi":1,"stolenBases":0}},{"id":"hanshin-141","name":"井坪 陽生","number":40,"position":"外野手","birthDate":"2005-03-17","draftInfo":"2022年ドラフト3位（阪神タイガース）","roots":{"hometown":"東京都八王子市","highSchool":"関東第一高等学校"},"currentStats":{"season":"2026","plateAppearances":2,"games":2,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-142","name":"島田 海吏","number":53,"position":"外野手","birthDate":"1996-02-06","draftInfo":"2017年ドラフト4位（阪神タイガース）","roots":{"hometown":"熊本県宇土市","highSchool":"九州学院高等学校","university":"上武大学"},"currentStats":{"season":"2026","plateAppearances":3,"games":5,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"hanshin-143","name":"小野寺 暖","number":60,"position":"外野手","birthDate":"1998-03-17","draftInfo":"2019年育成ドラフト1位（阪神タイガース）","roots":{"hometown":"奈良県奈良市","highSchool":"京都翔英高等学校","university":"大阪商業大学"},"currentStats":{"season":"2026","plateAppearances":16,"games":21,"avg":0.125,"avgDisplay":".125","hr":0,"rbi":1,"stolenBases":0}},{"id":"hanshin-144","name":"豊田 寛","number":61,"position":"外野手","birthDate":"1997-04-28","draftInfo":"2021年ドラフト6位（阪神タイガース）","roots":{"hometown":"神奈川県横浜市戸塚区","highSchool":"東海大学付属相模高等学校","university":"国際武道大学"},"currentStats":{"season":"2025","plateAppearances":61,"games":33,"avg":0.232,"avgDisplay":".232","hr":0,"rbi":4,"stolenBases":0}},{"id":"hanshin-145","name":"ガルシア","number":94,"position":"外野手","birthDate":"1998-01-07","roots":{},"currentStats":{"season":"2026","plateAppearances":35,"games":19,"avg":0.129,"avgDisplay":".129","hr":2,"rbi":7,"stolenBases":0}}]
+[
+  {
+    "id": "o10",
+    "name": "近本 光司",
+    "nameKana": "ちかもと こうじ",
+    "number": 5,
+    "position": "外野手",
+    "detailedPosition": "外野手（リードオフ）",
+    "birthDate": "1993-06-18",
+    "draftInfo": "2018年ドラフト1位（阪神タイガース）※社会人・大阪ガスから",
+    "roots": {
+      "hometown": "情報未確認",
+      "juniorHigh": "淡路市立東浦中学校（軟式野球部）",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "兵庫県立社高等学校",
+      "university": "関西学院大学",
+      "social": "大阪ガス"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 293,
+      "games": 0,
+      "avgDisplay": "-"
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "plateAppearances": 638,
+      "games": 140,
+      "avg": 0.279,
+      "avgDisplay": ".279",
+      "hr": 3,
+      "rbi": 34,
+      "ops": 0.701,
+      "stolenBases": 32
+    },
+    "careerSummary": "阪神の俊足リードオフマン。辰己涼介選手（楽天）の兵庫県立社高校の後輩にあたる。",
+    "nationalTeamHistory": [
+      {
+        "competition": "侍ジャパンシリーズ2022（強化試合）",
+        "year": "2022"
+      }
+    ],
+    "allStarYears": [
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "兵庫県立社高校で県大会準優勝・ベスト8",
+        "description": "2年春の兵庫県大会で準優勝。3年夏は投手兼3番打者として県大会ベスト8。甲子園出場（春夏とも）はなし。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "楽天の辰己涼介は近本の兵庫県立社高校2学年後輩にあたり、「いつ会ってもめっちゃ優しい。賢いし」と高校時代から近本を深く尊敬していたと証言している。2024年オールスターでは辰己が近本の打撃フォームを模倣して右前打を放つ一幕もあった。",
+      "2026年3月、初の著書を上梓した近本は「正解か、不正解か。成功か、失敗か。情報が多いなかで、僕たちは“どっち”を急ぎすぎているのではないか」と問いかけ、「検証する、揺らぐ、保留する」という独自の思考法を明かしている。"
+    ],
+    "dataNote": "辰己選手との関連で登場する参考プロフィールのため、出身中学等の詳細調査は行っていません。2026年成績は今回のリサーチでは確認できていません。",
+    "salaryManYen": 50000,
+    "salaryNote": "推定5億円（2026年、日刊ゲンダイ報道：FA後5年25億円規模契約の平均値）",
+    "photoEmoji": "🐯"
+  },
+  {
+    "id": "ti1",
+    "name": "村上 頌樹",
+    "nameKana": "むらかみ しょうき",
+    "number": 41,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "右投左打",
+    "birthDate": "1998-06-25",
+    "height": 175,
+    "weight": 84,
+    "draftInfo": "2020年ドラフト5位（阪神タイガース）",
+    "roots": {
+      "hometown": "兵庫県南あわじ市",
+      "juniorHigh": "南あわじ市立南淡中学校",
+      "seniorOrBoys": "アイランドホークス（硬式クラブチーム）",
+      "highSchool": "智辯学園高等学校（奈良県）",
+      "university": "東洋大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 22,
+      "inningsPitched": 151.33,
+      "era": 1.84,
+      "eraDisplay": "1.84",
+      "wins": 10,
+      "losses": 6,
+      "saves": 0,
+      "strikeouts": 127
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 26,
+      "inningsPitched": 175.33,
+      "era": 2.1,
+      "eraDisplay": "2.10",
+      "wins": 14,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 144
+    },
+    "careerSummary": "2023年に最優秀防御率・新人王・MVPを独占した右腕で、2026年も8月末時点で防御率1.84とリーグ最上位級の数字を残す阪神の先発の柱。制球とテンポの良さで長いイニングを投げ切るタイプ。",
+    "allStarYears": [
+      "2023",
+      "2025"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "2016年センバツ優勝投手",
+        "description": "智辯学園（奈良）のエースとして2016年の選抜高等学校野球大会で優勝。同年は春夏の甲子園7試合を一人で投げ抜き、計921球を投じた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2023年に新人王と最優秀選手（MVP）を同時受賞。同時受賞は木田勇（1980年）、野茂英雄（1990年）に次ぐ史上3人目となった。",
+      "2023年の日本シリーズでは第1戦に先発して勝利投手となり、前年まで一軍通算0勝の投手が日本シリーズ初戦で勝利を挙げるのは日本人史上初と報じられた。"
+    ],
+    "salaryManYen": 23000,
+    "salaryNote": "推定2億3000万円（2026年、年俸集計サイト等による推定）",
+    "photoEmoji": "🎯"
+  },
+  {
+    "id": "ti2",
+    "name": "才木 浩人",
+    "nameKana": "さいき ひろと",
+    "number": 35,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "右投右打",
+    "birthDate": "1998-11-07",
+    "height": 189,
+    "weight": 90,
+    "draftInfo": "2016年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "兵庫県神戸市西区",
+      "juniorHigh": "神戸市立王塚台中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "神戸市立須磨翔風高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 21,
+      "inningsPitched": 130,
+      "era": 2.63,
+      "eraDisplay": "2.63",
+      "wins": 8,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 155
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 24,
+      "inningsPitched": 157,
+      "era": 1.55,
+      "eraDisplay": "1.55",
+      "wins": 12,
+      "losses": 6,
+      "saves": 0,
+      "strikeouts": 122
+    },
+    "careerSummary": "公立校から入団し、トミー・ジョン手術を乗り越えてエース級に成長した長身右腕。2025年は防御率1.55、2026年は8月末時点で155奪三振とリーグ上位の奪三振能力を示している。",
+    "nationalTeamHistory": [
+      {
+        "competition": "第3回WBSCプレミア12",
+        "year": "2024"
+      }
+    ],
+    "allStarYears": [
+      "2024"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "公立・須磨翔風の右腕エース",
+        "description": "兄の母校でもある神戸市立須磨翔風高校でエースを務め、最速148km/hを記録。強豪私学とも互角に渡り合う公立校の好投手として注目された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2019年5月に右肘を痛め、2020年11月にトミー・ジョン手術を受けた。2022年7月3日に1159日ぶりの一軍登板を果たし、復帰勝利を挙げた。",
+      "2025年3月16日のロサンゼルス・ドジャースとのプレシーズンゲームに先発し、5回1安打無失点7奪三振で勝利投手となった。"
+    ],
+    "salaryManYen": 25000,
+    "salaryNote": "推定2億5000万円（2026年、年俸集計サイト等による推定）",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "ti3",
+    "name": "髙橋 遥人",
+    "nameKana": "たかはし はると",
+    "number": 29,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "左投左打",
+    "birthDate": "1995-11-07",
+    "height": 181,
+    "weight": 82,
+    "draftInfo": "2017年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "静岡県静岡市葵区",
+      "juniorHigh": "常葉大学附属橘中学校（当時は常葉学園橘中学校）",
+      "seniorOrBoys": "該当なし（中学は軟式野球部。3年時に全国大会優勝）",
+      "highSchool": "常葉大学附属橘高等学校（当時は常葉学園橘高等学校）",
+      "university": "亜細亜大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 18,
+      "inningsPitched": 126.33,
+      "era": 1.85,
+      "eraDisplay": "1.85",
+      "wins": 12,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 118
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 8,
+      "inningsPitched": 43.33,
+      "era": 2.28,
+      "eraDisplay": "2.28",
+      "wins": 3,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 48
+    },
+    "careerSummary": "度重なる故障を乗り越えて完全復活した左腕。2026年は8月末時点で12勝2敗・防御率1.85と自己最高のシーズンを送り、阪神の首位を支えている。",
+    "allStarYears": [
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "東都・亜細亜大の左腕",
+        "description": "亜細亜大学で東都大学野球リーグに登板し、3年間で31試合5勝7敗・防御率3.57。全日本大学野球選手権ではベスト8進出を経験した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2018年4月11日のデビュー戦（甲子園）で7回2安打無失点。ルーキーが甲子園で先発デビュー勝利を挙げるのは1959年の村山実以来59年ぶりと報じられた。",
+      "2022年4月にトミー・ジョン手術、2023年6月に肩の手術を受けた後に復活。2026年8月12日に今季12勝目を挙げ、敵地での11勝は江夏豊以来53年ぶりの球団左腕記録と報じられた。"
+    ],
+    "salaryManYen": 3000,
+    "salaryNote": "推定3000万円（2026年、年俸集計サイト等による推定。出来高払いの有無は未確認）",
+    "photoEmoji": "⚡"
+  },
+  {
+    "id": "ti4",
+    "name": "大竹 耕太郎",
+    "nameKana": "おおたけ こうたろう",
+    "number": 21,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "左投左打",
+    "birthDate": "1995-06-29",
+    "height": 184,
+    "weight": 87,
+    "draftInfo": "2017年育成ドラフト4位（福岡ソフトバンクホークス）、2022年12月の現役ドラフトで阪神タイガースへ移籍",
+    "roots": {
+      "hometown": "熊本県熊本市南区",
+      "juniorHigh": "熊本市立託麻中学校",
+      "seniorOrBoys": "情報未確認",
+      "highSchool": "熊本県立済々黌高等学校",
+      "university": "早稲田大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 15,
+      "inningsPitched": 86.67,
+      "era": 2.8,
+      "eraDisplay": "2.80",
+      "wins": 5,
+      "losses": 8,
+      "saves": 0,
+      "strikeouts": 47
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 16,
+      "inningsPitched": 98,
+      "era": 2.85,
+      "eraDisplay": "2.85",
+      "wins": 9,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 48
+    },
+    "careerSummary": "育成出身から現役ドラフトで阪神に移り、2023年に12勝を挙げて18年ぶりのリーグ優勝に貢献した技巧派左腕。2026年も先発ローテーションを守り、防御率2点台を維持している。",
+    "allStarYears": [
+      "2023"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "早大で全日本大学選手権優勝",
+        "description": "早稲田大学で2年時に春秋連覇を経験し、第64回全日本大学野球選手権優勝に貢献。高校時代は済々黌で2012年夏の甲子園と2013年春の選抜に出場した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2018年8月1日、育成出身の新人として一軍公式戦初先発初勝利を挙げた初めての選手となった。",
+      "移籍1年目の2023年に12勝2敗・防御率2.26を記録し、18年ぶりのリーグ優勝と38年ぶりの日本一に貢献した。"
+    ],
+    "salaryManYen": 13000,
+    "salaryNote": "推定1億3000万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "中学時代に硬式クラブに所属していたか学校の軟式野球部だったかは確認できなかった（3年時に全国大会出場との記述のみ）。",
+    "photoEmoji": "🎯"
+  },
+  {
+    "id": "ti5",
+    "name": "岩崎 優",
+    "nameKana": "いわさき すぐる",
+    "number": 13,
+    "position": "投手",
+    "detailedPosition": "中継ぎ・抑え",
+    "throwsBats": "左投左打",
+    "birthDate": "1991-06-19",
+    "height": 185,
+    "weight": 92,
+    "draftInfo": "2013年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "静岡県静岡市清水区（旧・清水市）",
+      "juniorHigh": "静岡市立清水第四中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "静岡県立清水東高等学校",
+      "university": "国士舘大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 39,
+      "inningsPitched": 36.33,
+      "era": 2.72,
+      "eraDisplay": "2.72",
+      "wins": 3,
+      "losses": 3,
+      "saves": 11,
+      "strikeouts": 31
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 53,
+      "inningsPitched": 51.33,
+      "era": 2.1,
+      "eraDisplay": "2.10",
+      "wins": 1,
+      "losses": 3,
+      "saves": 31,
+      "strikeouts": 40
+    },
+    "careerSummary": "2014年の入団以来ブルペンを支え続けるベテラン左腕。2023年には球団史上初となる左腕での30セーブを記録し、2026年も抑えとセットアッパーを兼ねて起用されている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "東京オリンピック（野球競技）",
+        "year": "2021"
+      }
+    ],
+    "allStarYears": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "国士舘大で防御率1.75",
+        "description": "国士舘大学では3年間で2部リーグ通算52試合に登板し10勝8敗・防御率1.75。3年秋には防御率0.94でリーグ2位を記録した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2021年8月7日、東京五輪の決勝アメリカ戦で8回を三者凡退に抑え、日本の金メダル獲得に貢献した。",
+      "2023年に球団史上初めて左腕投手としてシーズン30セーブに到達した。"
+    ],
+    "salaryManYen": 20000,
+    "salaryNote": "推定2億円（2026年、年俸集計サイト等による推定）",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "ti6",
+    "name": "工藤 泰成",
+    "nameKana": "くどう たいせい",
+    "number": 49,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "throwsBats": "右投左打",
+    "birthDate": "2001-11-19",
+    "height": 177,
+    "weight": 82,
+    "draftInfo": "2024年育成ドラフト1位（阪神タイガース）、2025年3月6日に支配下登録",
+    "roots": {
+      "hometown": "秋田県秋田市",
+      "juniorHigh": "能代市立能代第一中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "明桜高等学校（秋田県）",
+      "university": "東京国際大学",
+      "social": "徳島インディゴソックス（四国アイランドリーグplus、2024年）"
+    },
+    "isTohokuConnection": true,
+    "currentStats": {
+      "season": "2026",
+      "games": 45,
+      "inningsPitched": 47.67,
+      "era": 1.13,
+      "eraDisplay": "1.13",
+      "wins": 3,
+      "losses": 0,
+      "saves": 8,
+      "strikeouts": 57
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 18,
+      "inningsPitched": 16.33,
+      "era": 3.31,
+      "eraDisplay": "3.31",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 16
+    },
+    "careerSummary": "独立リーグ経由・育成ドラフト1位から支配下を勝ち取った剛腕。2026年は8月末時点で45試合に登板して防御率1.13、8セーブ10ホールドとブルペンの中心になっている。",
+    "growthTimeline": [
+      {
+        "period": "独立リーグ時代",
+        "title": "徳島で最多勝、最速159km/h",
+        "description": "2024年に徳島インディゴソックスで8勝1敗を挙げて最多勝を獲得。この時期に直球が最速159km/hまで伸びた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2024年10月の育成ドラフト1位指名から、翌春のキャンプでの好投で2025年3月に支配下登録を勝ち取った。",
+      "2025年に東京ドームで行われたシカゴ・カブスとの試合に登板し、メジャーリーガーから3三振を奪った。"
+    ],
+    "salaryManYen": 840,
+    "salaryNote": "推定840万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "Wikipediaの出身地表記は「秋田県秋田市」だが、地元紙は「能代一中出身」と報じており、中学は能代市立能代第一中学校。",
+    "photoEmoji": "⚡"
+  },
+  {
+    "id": "ti7",
+    "name": "ドリス",
+    "nameKana": "どりす",
+    "number": 98,
+    "position": "投手",
+    "detailedPosition": "抑え",
+    "throwsBats": "右投右打",
+    "birthDate": "1988-01-10",
+    "height": 196,
+    "weight": 106,
+    "draftInfo": "ドラフト外（2016年に阪神と契約。2019年限りで退団後、2025年7月に高知ファイティングドッグスから6年ぶりに阪神へ復帰）",
+    "roots": {
+      "hometown": "ドミニカ共和国ラ・ロマナ",
+      "juniorHigh": "情報未確認",
+      "seniorOrBoys": "情報未確認",
+      "highSchool": "情報未確認"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 43,
+      "inningsPitched": 41,
+      "era": 1.76,
+      "eraDisplay": "1.76",
+      "wins": 2,
+      "losses": 3,
+      "saves": 19,
+      "strikeouts": 50
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 20,
+      "inningsPitched": 18.67,
+      "era": 1.93,
+      "eraDisplay": "1.93",
+      "wins": 2,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 16
+    },
+    "careerSummary": "2016〜2019年に阪神の守護神を務めた後、MLBトロント・ブルージェイズや独立リーグを経て2025年7月に6年ぶり復帰。2026年は8月末時点で19セーブを挙げ、38歳で再び守護神を担っている。",
+    "allStarYears": [
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "MLB時代",
+        "title": "シカゴ・カブスでメジャーデビュー",
+        "description": "2011年9月26日にシカゴ・カブスでメジャーデビュー。その後トロント・ブルージェイズ（2020〜2021年）でもプレーした。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2017年に37セーブを挙げてセントラル・リーグ最多セーブのタイトルを獲得した。",
+      "2025年7月、四国アイランドリーグplusの高知ファイティングドッグスから6年ぶりに阪神へ復帰。当時37歳、NPB通算96セーブの状態での復帰が各紙で大きく報じられた。"
+    ],
+    "salaryManYen": 10000,
+    "salaryNote": "推定1億円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "外国人選手のため出身中学・高校・大学の項目は該当なし。",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "ti8",
+    "name": "坂本 誠志郎",
+    "nameKana": "さかもと せいしろう",
+    "number": 12,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "throwsBats": "右投右打",
+    "birthDate": "1993-11-10",
+    "height": 176,
+    "weight": 79,
+    "draftInfo": "2015年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "兵庫県養父市（旧・養父郡養父町）",
+      "juniorHigh": "養父市立養父中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "履正社高等学校（大阪府）",
+      "university": "明治大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 79,
+      "plateAppearances": 253,
+      "avg": 0.222,
+      "avgDisplay": ".222",
+      "hr": 9,
+      "rbi": 33,
+      "ops": 0.661,
+      "stolenBases": 2
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 117,
+      "plateAppearances": 414,
+      "avg": 0.247,
+      "avgDisplay": ".247",
+      "hr": 2,
+      "rbi": 27,
+      "ops": 0.683,
+      "stolenBases": 2
+    },
+    "careerSummary": "投手陣の信頼が厚い正捕手で、2023年の日本一に貢献してゴールデングラブ賞を受賞。2026年は8月末時点で自己最多の9本塁打を放ち、打撃面でも存在感を増している。",
+    "careerTags": [
+      "captain",
+      "koshien"
+    ],
+    "allStarYears": [
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "明大の正捕手・大学日本代表主将",
+        "description": "履正社高で2季連続甲子園出場（3年春はベスト4）。明治大学では1年秋から正捕手に定着してベストナイン2度、2015年ユニバーシアード日本代表では主将を務めた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2023年、梅野隆太郎の離脱後に残り全試合で先発マスクをかぶり、クライマックスシリーズ・日本シリーズも通して18年ぶりのリーグ優勝と38年ぶりの日本一に貢献。同年11月10日の誕生日にゴールデングラブ賞初受賞が発表された。",
+      "2021年に選手間投票で新キャプテンに選出された。"
+    ],
+    "salaryManYen": 10000,
+    "salaryNote": "推定1億円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "🛡️"
+  },
+  {
+    "id": "ti9",
+    "name": "梅野 隆太郎",
+    "nameKana": "うめの りゅうたろう",
+    "number": 2,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "throwsBats": "右投右打",
+    "birthDate": "1991-06-17",
+    "height": 173,
+    "weight": 75,
+    "draftInfo": "2013年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "福岡県那珂川市",
+      "juniorHigh": "情報未確認",
+      "seniorOrBoys": "那珂川シャークス（中学時代の所属クラブチーム）",
+      "highSchool": "福岡工業大学附属城東高等学校",
+      "university": "福岡大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 24,
+      "plateAppearances": 74,
+      "avg": 0.182,
+      "avgDisplay": ".182",
+      "hr": 1,
+      "rbi": 3,
+      "ops": 0.494,
+      "stolenBases": 1
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 52,
+      "plateAppearances": 132,
+      "avg": 0.22,
+      "avgDisplay": ".220",
+      "hr": 0,
+      "rbi": 2,
+      "ops": 0.524,
+      "stolenBases": 2
+    },
+    "careerSummary": "ゴールデングラブ賞3度、通算1000試合出場を果たした強肩のベテラン捕手。2026年は出場機会こそ減っているが、経験豊富な第2捕手としてチームを支えている。",
+    "careerTags": [
+      "captain"
+    ],
+    "nationalTeamHistory": [
+      {
+        "competition": "東京オリンピック（野球競技）",
+        "year": "2021"
+      }
+    ],
+    "allStarYears": [
+      "2017",
+      "2019",
+      "2021",
+      "2023"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "福岡大の主将として4季連続全国大会",
+        "description": "福岡大学では3年春から主将を務めてチームを4季連続全国大会出場へ導き、リーグ通算打率.338・7本塁打。2013年の日米大学野球選手権では日本代表の主将を務めた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2018年から2020年まで3年連続でゴールデングラブ賞を受賞。阪神の捕手の連続受賞は1973〜1974年の田淵幸一以来45年ぶりだった。",
+      "2019年9月24日の巨人戦で捕手のシーズン補殺日本記録を樹立し、最終的に123補殺を記録。同年4月9日にはサイクル安打も達成している。"
+    ],
+    "salaryManYen": 12000,
+    "salaryNote": "推定1億2000万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "出身中学校名は確認できなかった。中学時代の所属チーム「那珂川シャークス」が硬式か軟式かは資料により記述が分かれ、断定できなかった。OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "🧤"
+  },
+  {
+    "id": "ti10",
+    "name": "佐藤 輝明",
+    "nameKana": "さとう てるあき",
+    "number": 8,
+    "position": "内野手",
+    "detailedPosition": "三塁手",
+    "throwsBats": "右投左打",
+    "birthDate": "1999-03-13",
+    "height": 187,
+    "weight": 96,
+    "draftInfo": "2020年ドラフト1位（阪神タイガース、4球団競合の末に抽選で交渉権獲得）",
+    "roots": {
+      "hometown": "兵庫県西宮市",
+      "juniorHigh": "西宮市立甲陵中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "仁川学院高等学校（兵庫県）",
+      "university": "近畿大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 117,
+      "plateAppearances": 498,
+      "avg": 0.322,
+      "avgDisplay": ".322",
+      "hr": 30,
+      "rbi": 84,
+      "ops": 1.02,
+      "stolenBases": 6
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 139,
+      "plateAppearances": 597,
+      "avg": 0.277,
+      "avgDisplay": ".277",
+      "hr": 40,
+      "rbi": 102,
+      "ops": 0.924,
+      "stolenBases": 10
+    },
+    "careerSummary": "2025年に40本塁打・102打点で本塁打王と打点王の二冠を獲得した球界屈指の長距離砲。2026年は8月末時点で打率.322・30本塁打・84打点、OPS1.020と打撃三部門で軒並みリーグ上位につけている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "侍ジャパンシリーズ2022（強化試合）",
+        "year": "2022"
+      }
+    ],
+    "allStarYears": [
+      "2021",
+      "2022",
+      "2023",
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "関西学生リーグ通算本塁打記録を更新",
+        "description": "近畿大学で3季連続ベストナイン。4年秋にリーグ戦通算14本塁打として関西学生野球リーグ記録を更新し、2度目のリーグMVPに輝いた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年に40本塁打・102打点を記録し、本塁打王と打点王の二冠を獲得した。",
+      "ルーキーイヤーの2021年に24本塁打を放ち新人左打者の最多本塁打記録を樹立。5月28日には長嶋茂雄以来63年ぶりとなる新人の1試合3本塁打を記録した。"
+    ],
+    "salaryManYen": 45000,
+    "salaryNote": "推定4億5000万円（2026年、単年契約。出来高を含めた総額は5億円と報じられた）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "ti11",
+    "name": "大山 悠輔",
+    "nameKana": "おおやま ゆうすけ",
+    "number": 3,
+    "position": "内野手",
+    "detailedPosition": "一塁手",
+    "throwsBats": "右投右打",
+    "birthDate": "1994-12-19",
+    "height": 181,
+    "weight": 96,
+    "draftInfo": "2016年ドラフト1位（阪神タイガース）",
+    "roots": {
+      "hometown": "茨城県下妻市",
+      "juniorHigh": "下妻市立千代川中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "つくば秀英高等学校（茨城県）",
+      "university": "白鷗大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 115,
+      "plateAppearances": 480,
+      "avg": 0.274,
+      "avgDisplay": ".274",
+      "hr": 15,
+      "rbi": 68,
+      "ops": 0.793,
+      "stolenBases": 0
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 141,
+      "plateAppearances": 587,
+      "avg": 0.264,
+      "avgDisplay": ".264",
+      "hr": 13,
+      "rbi": 75,
+      "ops": 0.759,
+      "stolenBases": 6
+    },
+    "careerSummary": "2023年の日本一で中軸を担い、2024年オフにFA権を行使したうえで阪神残留を選んだチームの精神的支柱。2026年も一塁の主力として8月末時点で115試合に出場している。",
+    "nationalTeamHistory": [
+      {
+        "competition": "ENEOS侍ジャパンシリーズ2018（対オーストラリア代表 強化試合）",
+        "year": "2018"
+      }
+    ],
+    "allStarYears": [
+      "2022",
+      "2023",
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "白鷗大でリーグ新記録の8本塁打",
+        "description": "白鷗大学4年春のリーグ戦で打率.417、リーグ新記録の8本塁打、20打点を挙げて本塁打王・打点王を獲得。通算98試合で119安打16本塁打93打点を記録した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2023年は全試合で4番に先発して最高出塁率のタイトルを獲得。日本シリーズでもサヨナラ安打を放ち、リーグ優勝と日本一に貢献した。",
+      "2024年11月、FA権を行使したうえで5年総額17億円の条件で阪神残留を決断した。"
+    ],
+    "salaryManYen": 34000,
+    "salaryNote": "推定3億4000万円（2026年、年俸集計サイト等による推定。2024年オフに5年契約を締結）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "ti12",
+    "name": "中野 拓夢",
+    "nameKana": "なかの たくむ",
+    "number": 7,
+    "position": "内野手",
+    "detailedPosition": "二塁手",
+    "throwsBats": "右投左打",
+    "birthDate": "1996-06-28",
+    "height": 172,
+    "weight": 68,
+    "draftInfo": "2020年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "山形県天童市",
+      "juniorHigh": "情報未確認",
+      "seniorOrBoys": "山形シニア",
+      "highSchool": "日本大学山形高等学校",
+      "university": "東北福祉大学",
+      "social": "三菱自動車岡崎"
+    },
+    "isTohokuConnection": true,
+    "currentStats": {
+      "season": "2026",
+      "games": 117,
+      "plateAppearances": 471,
+      "avg": 0.282,
+      "avgDisplay": ".282",
+      "hr": 0,
+      "rbi": 20,
+      "ops": 0.652,
+      "stolenBases": 7
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 143,
+      "plateAppearances": 625,
+      "avg": 0.282,
+      "avgDisplay": ".282",
+      "hr": 0,
+      "rbi": 30,
+      "ops": 0.667,
+      "stolenBases": 19
+    },
+    "careerSummary": "ルーキーイヤーに盗塁王、2023年には二塁手でゴールデングラブ賞を獲得した俊足巧打の二塁手。2026年も8月末時点でチームトップタイの117試合に出場し、打率.282を残している。",
+    "nationalTeamHistory": [
+      {
+        "competition": "侍ジャパンシリーズ2022（強化試合）",
+        "year": "2022"
+      },
+      {
+        "competition": "2023年WBC（ワールド・ベースボール・クラシック）",
+        "year": "2023"
+      }
+    ],
+    "allStarYears": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "東北福祉大で全日本大学選手権優勝",
+        "description": "東北福祉大学で2020年の全日本大学野球選手権優勝に貢献し、決勝で勝ち越し打を放った。日大山形高では2013年夏の甲子園で県勢初のベスト4進出に貢献している。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2021年に新人ながら30盗塁を記録して盗塁王を獲得。新人での盗塁王はNPB史上3人目だった。",
+      "2023年に二塁手部門で自身初のゴールデングラブ賞を受賞。10年連続受賞中だった菊池涼介から受賞を奪う形となった。"
+    ],
+    "salaryManYen": 30000,
+    "salaryNote": "推定3億円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "出身中学校名は確認できなかった（中学時代は硬式クラブの山形シニアに所属）。背番号は2026年に51から7へ変更。OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💨"
+  },
+  {
+    "id": "ti13",
+    "name": "髙寺 望夢",
+    "nameKana": "たかてら のぞむ",
+    "number": 67,
+    "position": "内野手",
+    "detailedPosition": "内野手（ユーティリティ）",
+    "throwsBats": "右投左打",
+    "birthDate": "2002-10-17",
+    "height": 178,
+    "weight": 78,
+    "draftInfo": "2020年ドラフト7位（阪神タイガース）",
+    "roots": {
+      "hometown": "長野県上田市",
+      "juniorHigh": "上田市立真田中学校",
+      "seniorOrBoys": "上田シニア",
+      "highSchool": "上田西高等学校（長野県）"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 105,
+      "plateAppearances": 318,
+      "avg": 0.222,
+      "avgDisplay": ".222",
+      "hr": 2,
+      "rbi": 21,
+      "ops": 0.599,
+      "stolenBases": 12
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 67,
+      "plateAppearances": 160,
+      "avg": 0.231,
+      "avgDisplay": ".231",
+      "hr": 2,
+      "rbi": 7,
+      "ops": 0.631,
+      "stolenBases": 4
+    },
+    "careerSummary": "プロ6年目の2026年に大きく出場機会を伸ばし、8月末時点で105試合出場・12盗塁。内野手登録ながら外野も守り、離脱した近本光司の穴を埋める働きを見せている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "上田西から初のプロ入り",
+        "description": "上田西高で通算31本塁打。プロ志望高校生合同練習会（東京ドーム）のフリー打撃で6打数5安打2四球と結果を残した。同校から直接プロ入りしたのは史上初。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年5月、離脱した近本光司に代わり、それまで外野未経験ながら「1番・中堅」で11試合連続先発出場を果たしたと報じられた。",
+      "2020年ドラフトで上田西高から7位指名を受け、同校史上初の直接プロ入り選手となった。"
+    ],
+    "salaryManYen": 2000,
+    "salaryNote": "推定2000万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💨"
+  },
+  {
+    "id": "ti14",
+    "name": "立石 正広",
+    "nameKana": "たていし まさひろ",
+    "number": 9,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "throwsBats": "右投右打",
+    "birthDate": "2003-11-01",
+    "height": 180,
+    "weight": 87,
+    "draftInfo": "2025年ドラフト1位（阪神タイガース、広島・日本ハムとの3球団競合の末に抽選で交渉権獲得）",
+    "roots": {
+      "hometown": "山口県防府市",
+      "juniorHigh": "高川学園中学校（中高一貫）",
+      "seniorOrBoys": "情報未確認（小学生時代は華浦スポーツ少年団）",
+      "highSchool": "高川学園高等学校（山口県）",
+      "university": "創価大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 32,
+      "plateAppearances": 113,
+      "avg": 0.198,
+      "avgDisplay": ".198",
+      "hr": 2,
+      "rbi": 10,
+      "ops": 0.482,
+      "stolenBases": 1
+    },
+    "lastSeasonStats": {
+      "season": "2025"
+    },
+    "careerSummary": "3球団競合の末に阪神が引き当てた「世代No.1スラッガー」と評される右打者。ルーキーイヤーの2026年は8月末時点で32試合に出場し、プロ初打席初安打からデビュー5戦連続安打の球団新記録を樹立した。",
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "創価大で三冠王・ベストナイン4度",
+        "description": "創価大学で東京新大学野球リーグのベストナインを4度受賞。2年春に打率.500・5本塁打・14打点で三冠王、2025年春は打率.400で本塁打王と打点王の二冠、最高殊勲選手賞にも輝いた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "プロ初打席でセンター前へ初安打を放ち、デビューから5試合連続安打という球団新記録を樹立した。",
+      "巨人戦でプロ初本塁打を逆方向へ放ち、スーパールーキーの一発として各紙に報じられた。"
+    ],
+    "salaryManYen": 1600,
+    "salaryNote": "推定1600万円（2026年。入団時の契約金は1億円＋出来高5000万円と報じられた）",
+    "dataNote": "2025年はアマチュア（創価大学）のため lastSeasonStats は該当なし。中学時代に硬式クラブへ所属していたかは確認できず、中高一貫の高川学園中学校で野球を続けたことのみ確認できた。OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "ti15",
+    "name": "森下 翔太",
+    "nameKana": "もりした しょうた",
+    "number": 1,
+    "position": "外野手",
+    "detailedPosition": "右翼手",
+    "throwsBats": "右投右打",
+    "birthDate": "2000-08-14",
+    "height": 182,
+    "weight": 93,
+    "draftInfo": "2022年ドラフト1位（阪神タイガース）",
+    "roots": {
+      "hometown": "神奈川県横浜市港南区",
+      "juniorHigh": "横浜市立日限山中学校",
+      "seniorOrBoys": "戸塚リトルシニア",
+      "highSchool": "東海大学付属相模高等学校（神奈川県）",
+      "university": "中央大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 117,
+      "plateAppearances": 504,
+      "avg": 0.303,
+      "avgDisplay": ".303",
+      "hr": 31,
+      "rbi": 70,
+      "ops": 0.977,
+      "stolenBases": 3
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 143,
+      "plateAppearances": 620,
+      "avg": 0.275,
+      "avgDisplay": ".275",
+      "hr": 23,
+      "rbi": 89,
+      "ops": 0.813,
+      "stolenBases": 5
+    },
+    "careerSummary": "2023年の日本シリーズで新人記録の7打点を挙げて日本一に貢献した右の大砲。2026年は8月末時点で打率.303・31本塁打とキャリアハイのペースで、佐藤輝明とクリーンアップを組む。",
+    "nationalTeamHistory": [
+      {
+        "competition": "第3回WBSCプレミア12",
+        "year": "2024"
+      }
+    ],
+    "allStarYears": [
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "中大の主軸・大学日本代表",
+        "description": "東海大相模高で高校通算57本塁打を放ち、3年春の第90回記念選抜大会に出場。中央大学では1年時から日米大学野球の日本代表に選ばれ、アマ球界屈指の右の強打者と評された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2023年の日本シリーズで新人記録となる7打点を挙げて優秀選手賞を受賞し、38年ぶりの日本一に貢献した。第7戦では4打数3安打2打点と活躍した。",
+      "2024年8月4日に10試合連続打点を記録し、藤村富美男・掛布雅之を超える球団記録を樹立した。"
+    ],
+    "salaryManYen": 21000,
+    "salaryNote": "推定2億1000万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "ti16",
+    "name": "前川 右京",
+    "nameKana": "まえかわ うきょう",
+    "number": 58,
+    "position": "外野手",
+    "detailedPosition": "左翼手",
+    "throwsBats": "左投左打",
+    "birthDate": "2003-05-18",
+    "height": 176,
+    "weight": 92,
+    "draftInfo": "2021年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "三重県津市",
+      "juniorHigh": "津市立一身田中学校",
+      "seniorOrBoys": "津ボーイズ",
+      "highSchool": "智辯学園高等学校（奈良県）"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 59,
+      "plateAppearances": 172,
+      "avg": 0.23,
+      "avgDisplay": ".230",
+      "hr": 5,
+      "rbi": 18,
+      "ops": 0.695,
+      "stolenBases": 0
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 69,
+      "plateAppearances": 209,
+      "avg": 0.246,
+      "avgDisplay": ".246",
+      "hr": 1,
+      "rbi": 15,
+      "ops": 0.62,
+      "stolenBases": 0
+    },
+    "careerSummary": "智辯学園時代から評価の高かった左の中距離打者。2026年は8月末時点で59試合に出場し、限られた打席ながら5本塁打とOPS.695を記録している。",
+    "careerTags": [
+      "koshien"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "2021年夏の甲子園で打率.455・準優勝",
+        "description": "智辯学園で高校通算37本塁打。第103回全国高等学校野球選手権では6試合で打率.455を記録し、横浜高・日本航空高から本塁打を放って準優勝に貢献した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "智辯学園入学時、投手としての期待をかけられながら「投手はやりません。野手一本で行きます」と宣言して打者に専念した。",
+      "2024年6月16日に21歳0か月で満塁本塁打を放ち、球団最年少記録となった。"
+    ],
+    "salaryManYen": 3100,
+    "salaryNote": "推定3100万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "ti17",
+    "name": "福島 圭音",
+    "nameKana": "ふくしま けいん",
+    "number": 92,
+    "position": "外野手",
+    "detailedPosition": "中堅手",
+    "throwsBats": "右投左打",
+    "birthDate": "2001-10-06",
+    "height": 171,
+    "weight": 69,
+    "draftInfo": "2023年育成ドラフト2位（阪神タイガース）、2026年3月31日に支配下登録（背番号92）",
+    "roots": {
+      "hometown": "埼玉県秩父市",
+      "juniorHigh": "秩父市立秩父第一中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "聖望学園高等学校（埼玉県）",
+      "university": "白鷗大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 66,
+      "plateAppearances": 148,
+      "avg": 0.237,
+      "avgDisplay": ".237",
+      "hr": 0,
+      "rbi": 4,
+      "ops": 0.613,
+      "stolenBases": 6
+    },
+    "lastSeasonStats": {
+      "season": "2025"
+    },
+    "careerSummary": "育成2位入団から2026年3月に支配下を勝ち取った韋駄天タイプの外野手。離脱した近本光司の代役として起用され、8月末時点で66試合に出場し6盗塁を記録している。",
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "白鷗大4年春に打率.526で5冠",
+        "description": "白鷗大学4年春のリーグ戦で打率.526、リーグ記録を更新する20盗塁を記録し、首位打者・最多安打・最多盗塁・最高出塁率・ベストナインの5つを獲得した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年3月31日に育成選手から支配下選手契約を勝ち取り、背番号92を与えられた。前年のウエスタン・リーグでは盗塁王を獲得している。",
+      "母親が俳優のケイン・コスギのファンだったことから「圭音（けいん）」と名付けられ、プロ入り後に本人から激励を受けたことが報じられている。"
+    ],
+    "salaryManYen": 300,
+    "salaryNote": "推定300万円（2026年、年俸集計サイト等による推定）",
+    "dataNote": "2025年は育成選手で一軍出場がないため lastSeasonStats は該当なし。OPSはNPB公式の出塁率＋長打率から算出。",
+    "photoEmoji": "💨"
+  },
+  {
+    "id": "hanshin-101",
+    "name": "石井 大智",
+    "number": 69,
+    "position": "投手",
+    "birthDate": "1997-07-29",
+    "draftInfo": "2020年ドラフト8位（阪神タイガース）",
+    "roots": {
+      "hometown": "秋田県秋田市",
+      "highSchool": "秋田工業高等専門学校"
+    },
+    "currentStats": {
+      "season": "2025",
+      "games": 53,
+      "inningsPitched": 53,
+      "era": 0.17,
+      "eraDisplay": "0.17",
+      "wins": 1,
+      "losses": 0,
+      "saves": 9,
+      "strikeouts": 42
+    },
+    "nameKana": "いしい だいち"
+  },
+  {
+    "id": "hanshin-102",
+    "name": "伊藤 将司",
+    "number": 27,
+    "position": "投手",
+    "birthDate": "1996-05-08",
+    "draftInfo": "2020年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "千葉県山武郡横芝町（現・横芝光町）",
+      "highSchool": "横浜高等学校",
+      "university": "国際武道大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 8,
+      "inningsPitched": 41,
+      "era": 2.63,
+      "eraDisplay": "2.63",
+      "wins": 1,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 34
+    },
+    "nameKana": "いとう まさし"
+  },
+  {
+    "id": "hanshin-103",
+    "name": "伊原 陵人",
+    "number": 18,
+    "position": "投手",
+    "birthDate": "2000-08-07",
+    "draftInfo": "2024年ドラフト1位（阪神タイガース）",
+    "roots": {
+      "hometown": "奈良県橿原市",
+      "highSchool": "智辯学園高等学校",
+      "university": "大阪商業大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 8,
+      "inningsPitched": 36,
+      "era": 3.25,
+      "eraDisplay": "3.25",
+      "wins": 4,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 34
+    },
+    "nameKana": "いはら たかと"
+  },
+  {
+    "id": "hanshin-104",
+    "name": "茨木 秀俊",
+    "number": 48,
+    "position": "投手",
+    "birthDate": "2004-06-08",
+    "draftInfo": "2022年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "北海道札幌市",
+      "highSchool": "帝京長岡高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 3,
+      "inningsPitched": 12.67,
+      "era": 6.39,
+      "eraDisplay": "6.39",
+      "wins": 1,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 10
+    },
+    "nameKana": "いばらぎ ひでとし"
+  },
+  {
+    "id": "hanshin-105",
+    "name": "岩貞 祐太",
+    "number": 14,
+    "position": "投手",
+    "birthDate": "1991-09-05",
+    "draftInfo": "2013年ドラフト1位（阪神タイガース）",
+    "roots": {
+      "hometown": "熊本県熊本市東区",
+      "highSchool": "熊本市立必由館高等学校",
+      "university": "横浜商科大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 1,
+      "inningsPitched": 0.67,
+      "era": 13.5,
+      "eraDisplay": "13.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 0
+    },
+    "nameKana": "いわさだ ゆうた"
+  },
+  {
+    "id": "hanshin-106",
+    "name": "岡留 英貴",
+    "number": 64,
+    "position": "投手",
+    "birthDate": "1999-11-07",
+    "draftInfo": "2021年ドラフト5位（阪神タイガース）",
+    "roots": {
+      "hometown": "沖縄県糸満市",
+      "highSchool": "沖縄尚学高等学校",
+      "university": "亜細亜大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 2,
+      "inningsPitched": 2.67,
+      "era": 0.0,
+      "eraDisplay": "0.00",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 4
+    },
+    "nameKana": "おかどめ ひでたか"
+  },
+  {
+    "id": "hanshin-107",
+    "name": "及川 雅貴",
+    "number": 37,
+    "position": "投手",
+    "birthDate": "2001-04-18",
+    "draftInfo": "2019年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "千葉県八日市場市（現・匝瑳市）",
+      "highSchool": "横浜高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 36,
+      "inningsPitched": 34,
+      "era": 3.44,
+      "eraDisplay": "3.44",
+      "wins": 2,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 21
+    },
+    "nameKana": "およかわ まさき"
+  },
+  {
+    "id": "hanshin-108",
+    "name": "木下 里都",
+    "number": 54,
+    "position": "投手",
+    "birthDate": "2001-01-27",
+    "draftInfo": "2024年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "福岡県福岡市早良区",
+      "highSchool": "福岡舞鶴高等学校",
+      "university": "福岡大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 34,
+      "inningsPitched": 38.33,
+      "era": 1.64,
+      "eraDisplay": "1.64",
+      "wins": 4,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 38
+    },
+    "nameKana": "きのした りと"
+  },
+  {
+    "id": "hanshin-109",
+    "name": "桐敷 拓馬",
+    "number": 47,
+    "position": "投手",
+    "birthDate": "1999-06-20",
+    "draftInfo": "2021年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "埼玉県北埼玉郡川里町（現・鴻巣市）",
+      "highSchool": "本庄東高等学校",
+      "university": "新潟医療福祉大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 22,
+      "inningsPitched": 19.33,
+      "era": 5.59,
+      "eraDisplay": "5.59",
+      "wins": 1,
+      "losses": 2,
+      "saves": 1,
+      "strikeouts": 12
+    },
+    "nameKana": "きりしき たくま"
+  },
+  {
+    "id": "hanshin-110",
+    "name": "今朝丸 裕喜",
+    "number": 28,
+    "position": "投手",
+    "birthDate": "2006-06-02",
+    "draftInfo": "2024年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "兵庫県神戸市東灘区",
+      "highSchool": "報徳学園高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 3,
+      "inningsPitched": 8,
+      "era": 5.63,
+      "eraDisplay": "5.63",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 3
+    },
+    "nameKana": "けさまる ゆうき"
+  },
+  {
+    "id": "hanshin-111",
+    "name": "椎葉 剛",
+    "nameKana": "しいば つよし",
+    "number": 26,
+    "position": "投手",
+    "birthDate": "2002-03-18",
+    "draftInfo": "2023年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "大阪府堺市南区",
+      "highSchool": "島原中央高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 4,
+      "inningsPitched": 7,
+      "era": 6.43,
+      "eraDisplay": "6.43",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 4
+    }
+  },
+  {
+    "id": "hanshin-112",
+    "name": "下村 海翔",
+    "number": 19,
+    "position": "投手",
+    "birthDate": "2002-03-27",
+    "draftInfo": "2023年ドラフト単独1位（阪神タイガース）",
+    "roots": {
+      "hometown": "兵庫県西宮市",
+      "highSchool": "九州国際大学付属高等学校",
+      "university": "青山学院大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 7,
+      "inningsPitched": 34.67,
+      "era": 3.63,
+      "eraDisplay": "3.63",
+      "wins": 1,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 33
+    },
+    "nameKana": "しもむら かいと"
+  },
+  {
+    "id": "hanshin-113",
+    "name": "神宮 僚介",
+    "number": 95,
+    "position": "投手",
+    "birthDate": "2003-05-27",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "games": 9,
+      "inningsPitched": 7.67,
+      "era": 2.35,
+      "eraDisplay": "2.35",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 9
+    },
+    "nameKana": "じんぐう りょうすけ"
+  },
+  {
+    "id": "hanshin-114",
+    "name": "セベリーノ",
+    "number": 97,
+    "position": "投手",
+    "birthDate": "1994-09-17",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "games": 10,
+      "inningsPitched": 11,
+      "era": 3.27,
+      "eraDisplay": "3.27",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 9
+    },
+    "nameKana": "せべりーの"
+  },
+  {
+    "id": "hanshin-115",
+    "name": "津田 淳哉",
+    "number": 66,
+    "position": "投手",
+    "birthDate": "2001-08-27",
+    "draftInfo": "2023年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "奈良県大和郡山市",
+      "highSchool": "大和高田市立高田商業高等学校",
+      "university": "大阪経済大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 9,
+      "inningsPitched": 10.33,
+      "era": 4.35,
+      "eraDisplay": "4.35",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 8
+    },
+    "nameKana": "つだ じゅんや"
+  },
+  {
+    "id": "hanshin-116",
+    "name": "富田 蓮",
+    "number": 50,
+    "position": "投手",
+    "birthDate": "2001-09-06",
+    "draftInfo": "2022年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "岐阜県養老郡養老町",
+      "highSchool": "岐阜県立大垣商業高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 1,
+      "inningsPitched": 2,
+      "era": 13.5,
+      "eraDisplay": "13.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 2
+    },
+    "nameKana": "とみだ れん"
+  },
+  {
+    "id": "hanshin-117",
+    "name": "西 勇輝",
+    "number": 16,
+    "position": "投手",
+    "birthDate": "1990-11-10",
+    "draftInfo": "2008年ドラフト3位（オリックス・バファローズ）",
+    "roots": {
+      "hometown": "三重県三重郡菰野町",
+      "highSchool": "三重県立菰野高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 7,
+      "inningsPitched": 35,
+      "era": 2.57,
+      "eraDisplay": "2.57",
+      "wins": 3,
+      "losses": 3,
+      "saves": 0,
+      "strikeouts": 19
+    },
+    "nameKana": "にし ゆうき"
+  },
+  {
+    "id": "hanshin-118",
+    "name": "畠 世周",
+    "number": 36,
+    "position": "投手",
+    "birthDate": "1994-05-31",
+    "draftInfo": "2016年ドラフト2位（読売ジャイアンツ）",
+    "roots": {
+      "hometown": "広島県呉市",
+      "highSchool": "近畿大学附属福山高等学校",
+      "university": "近畿大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 11,
+      "inningsPitched": 10.67,
+      "era": 2.53,
+      "eraDisplay": "2.53",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 7
+    },
+    "nameKana": "はたけ せいしゅう"
+  },
+  {
+    "id": "hanshin-119",
+    "name": "早川 太貴",
+    "number": 51,
+    "position": "投手",
+    "birthDate": "1999-12-18",
+    "draftInfo": "2024年育成ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "北海道江別市",
+      "highSchool": "北海道大麻高等学校",
+      "university": "小樽商科大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 9,
+      "inningsPitched": 13.67,
+      "era": 9.22,
+      "eraDisplay": "9.22",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 15
+    },
+    "nameKana": "はやかわ だいき"
+  },
+  {
+    "id": "hanshin-120",
+    "name": "モレッタ",
+    "number": 99,
+    "position": "投手",
+    "birthDate": "1996-04-15",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "games": 19,
+      "inningsPitched": 16,
+      "era": 6.19,
+      "eraDisplay": "6.19",
+      "wins": 2,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 22
+    },
+    "nameKana": "もれった"
+  },
+  {
+    "id": "hanshin-121",
+    "name": "門別 啓人",
+    "number": 30,
+    "position": "投手",
+    "birthDate": "2004-07-10",
+    "draftInfo": "2022年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "北海道沙流郡門別町（現・日高町）",
+      "highSchool": "東海大学付属札幌高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 11,
+      "inningsPitched": 19,
+      "era": 4.74,
+      "eraDisplay": "4.74",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 11
+    },
+    "nameKana": "もんべつ けいと"
+  },
+  {
+    "id": "hanshin-122",
+    "name": "湯浅 京己",
+    "number": 65,
+    "position": "投手",
+    "birthDate": "1999-07-17",
+    "draftInfo": "2018年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "三重県尾鷲市",
+      "highSchool": "聖光学院高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 25,
+      "inningsPitched": 24.33,
+      "era": 3.33,
+      "eraDisplay": "3.33",
+      "wins": 3,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 20
+    },
+    "nameKana": "ゆあさ あつき"
+  },
+  {
+    "id": "hanshin-123",
+    "name": "ルーカス",
+    "number": 42,
+    "position": "投手",
+    "birthDate": "1996-09-23",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "games": 4,
+      "inningsPitched": 19.67,
+      "era": 4.58,
+      "eraDisplay": "4.58",
+      "wins": 1,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 17
+    },
+    "nameKana": "るーかす"
+  },
+  {
+    "id": "hanshin-124",
+    "name": "石黒 佑弥",
+    "number": 63,
+    "position": "投手",
+    "birthDate": "2001-06-20",
+    "draftInfo": "2023年ドラフト5位（阪神タイガース）",
+    "roots": {
+      "hometown": "愛知県江南市",
+      "highSchool": "星城高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 13,
+      "inningsPitched": 17.67,
+      "era": 4.58,
+      "eraDisplay": "4.58",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 21
+    },
+    "nameKana": "いしぐろ ゆうや"
+  },
+  {
+    "id": "hanshin-125",
+    "name": "伏見 寅威",
+    "number": 17,
+    "position": "捕手",
+    "birthDate": "1990-05-12",
+    "draftInfo": "2012年ドラフト3位（オリックス・バファローズ）",
+    "roots": {
+      "hometown": "北海道千歳市",
+      "highSchool": "東海大学付属第四高等学校（現・東海大学付属札幌高等学校）",
+      "university": "東海大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 122,
+      "games": 42,
+      "avg": 0.213,
+      "avgDisplay": ".213",
+      "hr": 0,
+      "rbi": 12,
+      "stolenBases": 0
+    },
+    "nameKana": "ふしみ とらい"
+  },
+  {
+    "id": "hanshin-126",
+    "name": "榮枝 裕貴",
+    "number": 39,
+    "position": "捕手",
+    "birthDate": "1998-05-16",
+    "draftInfo": "2020年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "高知県高知市",
+      "highSchool": "高知高等学校",
+      "university": "立命館大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 1,
+      "games": 2,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "さかえだ ゆうき"
+  },
+  {
+    "id": "hanshin-127",
+    "name": "長坂 拳弥",
+    "number": 57,
+    "position": "捕手",
+    "birthDate": "1994-04-28",
+    "draftInfo": "2016年ドラフト7位（阪神タイガース）",
+    "roots": {
+      "hometown": "群馬県富岡市",
+      "highSchool": "高崎健康福祉大学高崎高等学校",
+      "university": "東北福祉大学"
+    },
+    "currentStats": {
+      "season": "2025",
+      "plateAppearances": 1,
+      "games": 1,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "ながさか けんや"
+  },
+  {
+    "id": "hanshin-128",
+    "name": "中川 勇斗",
+    "number": 68,
+    "position": "捕手",
+    "birthDate": "2004-01-27",
+    "draftInfo": "2021年ドラフト7位（阪神タイガース）",
+    "roots": {
+      "hometown": "愛知県小牧市",
+      "highSchool": "京都国際高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 25,
+      "games": 10,
+      "avg": 0.053,
+      "avgDisplay": ".053",
+      "hr": 0,
+      "rbi": 2,
+      "stolenBases": 0
+    },
+    "nameKana": "なかがわ はやと"
+  },
+  {
+    "id": "hanshin-129",
+    "name": "嶋村 麟士朗",
+    "number": 85,
+    "position": "捕手",
+    "birthDate": "2003-07-13",
+    "draftInfo": "2024年育成ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "高知県高知市",
+      "highSchool": "高知市立高知商業高等学校",
+      "university": "福井工業大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 41,
+      "games": 30,
+      "avg": 0.195,
+      "avgDisplay": ".195",
+      "hr": 1,
+      "rbi": 5,
+      "stolenBases": 0
+    },
+    "nameKana": "しまむら りんしろう"
+  },
+  {
+    "id": "hanshin-130",
+    "name": "元山 飛優",
+    "number": "00",
+    "position": "内野手",
+    "birthDate": "1998-12-04",
+    "draftInfo": "2020年ドラフト4位（東京ヤクルトスワローズ）",
+    "roots": {
+      "hometown": "大阪府東大阪市",
+      "highSchool": "佐久長聖高等学校",
+      "university": "東北福祉大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 113,
+      "games": 37,
+      "avg": 0.274,
+      "avgDisplay": ".274",
+      "hr": 0,
+      "rbi": 4,
+      "stolenBases": 1
+    },
+    "nameKana": "もとやま ひゆう"
+  },
+  {
+    "id": "hanshin-131",
+    "name": "木浪 聖也",
+    "number": 0,
+    "position": "内野手",
+    "birthDate": "1994-06-15",
+    "draftInfo": "2018年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "青森県青森市",
+      "highSchool": "青森山田高等学校",
+      "university": "亜細亜大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 138,
+      "games": 50,
+      "avg": 0.228,
+      "avgDisplay": ".228",
+      "hr": 1,
+      "rbi": 14,
+      "stolenBases": 1
+    },
+    "nameKana": "きなみ せいや"
+  },
+  {
+    "id": "hanshin-132",
+    "name": "熊谷 敬宥",
+    "number": 4,
+    "position": "内野手",
+    "birthDate": "1995-11-10",
+    "draftInfo": "2017年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "宮城県仙台市",
+      "highSchool": "仙台育英学園高等学校",
+      "university": "立教大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 166,
+      "games": 68,
+      "avg": 0.224,
+      "avgDisplay": ".224",
+      "hr": 0,
+      "rbi": 13,
+      "stolenBases": 5
+    },
+    "nameKana": "くまがい たかひろ"
+  },
+  {
+    "id": "hanshin-133",
+    "name": "ディベイニー",
+    "number": 24,
+    "position": "内野手",
+    "birthDate": "1997-04-13",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 9,
+      "games": 6,
+      "avg": 0.125,
+      "avgDisplay": ".125",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "でぃべいにー"
+  },
+  {
+    "id": "hanshin-134",
+    "name": "谷端 将伍",
+    "number": 25,
+    "position": "内野手",
+    "birthDate": "2004-03-17",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 3,
+      "games": 1,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "たにはた しょうご"
+  },
+  {
+    "id": "hanshin-135",
+    "name": "糸原 健斗",
+    "number": 33,
+    "position": "内野手",
+    "birthDate": "1992-11-11",
+    "draftInfo": "2016年ドラフト5位（阪神タイガース）",
+    "roots": {
+      "hometown": "島根県雲南市",
+      "highSchool": "開星高等学校",
+      "university": "明治大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 12,
+      "games": 12,
+      "avg": 0.083,
+      "avgDisplay": ".083",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "いとはら けんと"
+  },
+  {
+    "id": "hanshin-136",
+    "name": "小幡 竜平",
+    "number": 38,
+    "position": "内野手",
+    "birthDate": "2000-09-21",
+    "draftInfo": "2018年ドラフト2位（阪神タイガース）",
+    "roots": {
+      "hometown": "大分県大分市",
+      "highSchool": "延岡学園高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 104,
+      "games": 36,
+      "avg": 0.213,
+      "avgDisplay": ".213",
+      "hr": 0,
+      "rbi": 4,
+      "stolenBases": 1
+    },
+    "nameKana": "おばた りゅうへい"
+  },
+  {
+    "id": "hanshin-137",
+    "name": "百﨑 蒼生",
+    "number": 56,
+    "position": "内野手",
+    "birthDate": "2005-09-11",
+    "draftInfo": "2023年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "熊本県菊池市",
+      "highSchool": "東海大学付属熊本星翔高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 2,
+      "games": 2,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "ももさき あおい"
+  },
+  {
+    "id": "hanshin-138",
+    "name": "植田 海",
+    "number": 62,
+    "position": "内野手",
+    "birthDate": "1996-04-19",
+    "draftInfo": "2014年ドラフト5位（阪神タイガース）",
+    "roots": {
+      "hometown": "滋賀県甲賀市",
+      "highSchool": "近江高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 5,
+      "games": 21,
+      "avg": 0.5,
+      "avgDisplay": ".500",
+      "hr": 0,
+      "rbi": 1,
+      "stolenBases": 4
+    },
+    "nameKana": "うえだ かい"
+  },
+  {
+    "id": "hanshin-139",
+    "name": "濱田 太貴",
+    "number": 32,
+    "position": "外野手",
+    "birthDate": "2000-09-04",
+    "draftInfo": "2018年ドラフト4位（東京ヤクルトスワローズ）",
+    "roots": {
+      "hometown": "福岡県北九州市八幡西区",
+      "highSchool": "明豊高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 27,
+      "games": 19,
+      "avg": 0.16,
+      "avgDisplay": ".160",
+      "hr": 1,
+      "rbi": 2,
+      "stolenBases": 0
+    },
+    "nameKana": "はまだ たいき"
+  },
+  {
+    "id": "hanshin-140",
+    "name": "岡城 快生",
+    "number": 34,
+    "position": "外野手",
+    "birthDate": "2003-06-23",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 34,
+      "games": 15,
+      "avg": 0.152,
+      "avgDisplay": ".152",
+      "hr": 0,
+      "rbi": 1,
+      "stolenBases": 0
+    },
+    "nameKana": "おかしろ かいせい"
+  },
+  {
+    "id": "hanshin-141",
+    "name": "井坪 陽生",
+    "number": 40,
+    "position": "外野手",
+    "birthDate": "2005-03-17",
+    "draftInfo": "2022年ドラフト3位（阪神タイガース）",
+    "roots": {
+      "hometown": "東京都八王子市",
+      "highSchool": "関東第一高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 2,
+      "games": 2,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "いつぼ ひなせ"
+  },
+  {
+    "id": "hanshin-142",
+    "name": "島田 海吏",
+    "number": 53,
+    "position": "外野手",
+    "birthDate": "1996-02-06",
+    "draftInfo": "2017年ドラフト4位（阪神タイガース）",
+    "roots": {
+      "hometown": "熊本県宇土市",
+      "highSchool": "九州学院高等学校",
+      "university": "上武大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 3,
+      "games": 5,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "nameKana": "しまだ かいり"
+  },
+  {
+    "id": "hanshin-143",
+    "name": "小野寺 暖",
+    "number": 60,
+    "position": "外野手",
+    "birthDate": "1998-03-17",
+    "draftInfo": "2019年育成ドラフト1位（阪神タイガース）",
+    "roots": {
+      "hometown": "奈良県奈良市",
+      "highSchool": "京都翔英高等学校",
+      "university": "大阪商業大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 16,
+      "games": 21,
+      "avg": 0.125,
+      "avgDisplay": ".125",
+      "hr": 0,
+      "rbi": 1,
+      "stolenBases": 0
+    },
+    "nameKana": "おのでら だん"
+  },
+  {
+    "id": "hanshin-144",
+    "name": "豊田 寛",
+    "number": 61,
+    "position": "外野手",
+    "birthDate": "1997-04-28",
+    "draftInfo": "2021年ドラフト6位（阪神タイガース）",
+    "roots": {
+      "hometown": "神奈川県横浜市戸塚区",
+      "highSchool": "東海大学付属相模高等学校",
+      "university": "国際武道大学"
+    },
+    "currentStats": {
+      "season": "2025",
+      "plateAppearances": 61,
+      "games": 33,
+      "avg": 0.232,
+      "avgDisplay": ".232",
+      "hr": 0,
+      "rbi": 4,
+      "stolenBases": 0
+    },
+    "nameKana": "とよだ ひろし"
+  },
+  {
+    "id": "hanshin-145",
+    "name": "ガルシア",
+    "number": 94,
+    "position": "外野手",
+    "birthDate": "1998-01-07",
+    "roots": {},
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 35,
+      "games": 19,
+      "avg": 0.129,
+      "avgDisplay": ".129",
+      "hr": 2,
+      "rbi": 7,
+      "stolenBases": 0
+    },
+    "nameKana": "がるしあ"
+  }
+]
