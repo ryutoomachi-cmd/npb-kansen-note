@@ -517,6 +517,12 @@
   .lineup-fetch-notice.is-success { background: color-mix(in srgb, #2E8B57 14%, transparent); color: #2E8B57; }
   .lineup-fetch-notice.is-warning { background: var(--amber-bg); color: var(--amber); }
   .lineup-fetch-notice.is-error { background: color-mix(in srgb, var(--crimson) 12%, transparent); color: var(--crimson-text); }
+  /* is-alert: 「本日のスタメンではない参考データを表示中」という、見た瞬間に気づいてほしい
+     警告用。is-warningより濃い色・太い枠で目立たせ、単なる「オフ日」通知と区別する。 */
+  .lineup-fetch-notice.is-alert {
+    background: color-mix(in srgb, var(--crimson) 16%, transparent); color: var(--crimson-text);
+    border: 1.5px solid var(--crimson); font-weight: 800;
+  }
   .spin-icon { animation: lineup-fetch-spin 0.9s linear infinite; }
   @keyframes lineup-fetch-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 

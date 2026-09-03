@@ -264,6 +264,72 @@ function fetchRosterNames(rosterHtmlText, fullTeamName, otherFullTeamName) {
   return names;
 }
 
+// 指定した1試合（game）について、試合ページ・登録選手ページを取得し、対象球団の
+// スタメン・先発投手・ベンチを解析する。「見つからなかった」場合はteamTable: nullで返し、
+// 呼び出し側で成功／失敗・フォールバックの要否を判断できるようにする（この関数自体は
+// 例外を投げるのはネットワークエラー等の異常時のみ）。
+async function fetchGameLineup(game, teamCode, fullName, debugInfo, debugKeyPrefix) {
+  const gameUrl = game.url;
+  const opponentCode = game.codeA === teamCode ? game.codeB : game.codeA;
+  const opponentFullName = CODE_TO_FULL_NAME[opponentCode] || null;
+
+  const indexUrl = gameUrl + "index.html";
+  debugInfo[debugKeyPrefix + "IndexUrl"] = indexUrl;
+  const gameRes = await axios.get(indexUrl, { headers: HTTP_HEADERS, timeout: 8000 });
+  const pageText = String(gameRes.data);
+  const $game = cheerio.load(pageText);
+
+  const teamTable = findTeamOrderTable($game, fullName, opponentFullName);
+  if (teamTable) debugInfo[debugKeyPrefix + "RawTableRows"] = teamTable.rawRows;
+
+  if (!teamTable || !teamTable.rows.length) {
+    return { teamTable: null, notAnnouncedYet: isBeforeAnnouncement($game.text()), pageText, opponentFullName };
+  }
+
+  const starters = teamTable.rows
+    .slice()
+    .sort((a, b) => a.order - b.order)
+    .map((r) => ({ order: r.order, position: r.position, name: r.name }));
+  const pitcherFromOrder = teamTable.rows.find((r) => r.position === "投");
+  const pitcher = pitcherFromOrder ? pitcherFromOrder.name : teamTable.pitcherOutsideOrder;
+
+  let bench = [];
+  try {
+    const rosterUrl = gameUrl + "roster.html";
+    debugInfo[debugKeyPrefix + "RosterUrl"] = rosterUrl;
+    const rosterRes = await axios.get(rosterUrl, { headers: HTTP_HEADERS, timeout: 8000 });
+    const allNames = fetchRosterNames(rosterRes.data, fullName, opponentFullName);
+    const startingNames = new Set(starters.map((s) => s.name));
+    if (pitcher) startingNames.add(pitcher);
+    bench = allNames.filter((n) => !startingNames.has(n));
+  } catch (rosterErr) {
+    debugInfo[debugKeyPrefix + "RosterError"] = String(rosterErr.message || rosterErr);
+  }
+
+  return { teamTable, starters, pitcher: pitcher || null, bench, opponentFullName, pageText };
+}
+
+// monthGames（当月の対象球団の全試合）の中から、beforeMmdd より前で一番直近の試合を探す。
+// 当月に無ければ前月の日程ページも確認する（月初めで前回の試合が先月分だったケース向け）。
+async function findMostRecentPastGame(monthGames, beforeMmdd, year, mm, teamCode, debugInfo, debugKey) {
+  const pastThisMonth = monthGames.filter((g) => g.mmdd < beforeMmdd).sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
+  if (pastThisMonth.length) return pastThisMonth[0];
+
+  const prev = prevMonthOf(year, mm);
+  const prevScheduleUrl = "https://npb.jp/games/" + prev.year + "/schedule_" + prev.mm + "_detail.html";
+  debugInfo[debugKey + "PrevScheduleUrl"] = prevScheduleUrl;
+  try {
+    const prevRes = await axios.get(prevScheduleUrl, { headers: HTTP_HEADERS, timeout: 8000 });
+    const $prev = cheerio.load(String(prevRes.data));
+    const prevGames = collectTeamGameLinks($prev, prev.year, teamCode, prevScheduleUrl)
+      .sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
+    if (prevGames.length) return prevGames[0];
+  } catch (prevErr) {
+    debugInfo[debugKey + "PrevScheduleError"] = String(prevErr.message || prevErr);
+  }
+  return null;
+}
+
 export default async function handler(req, res) {
   res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate");
 
@@ -298,33 +364,13 @@ export default async function handler(req, res) {
 
     // 本日の試合があればそれを使う。無ければ、今月分の中から一番直近の「過去の」試合を
     // 探す（＝オフ日でも、前回の試合のスタメンを「終了済みの試合」として表示できるようにする）。
-    // 今月分に対象球団の試合が1件も見つからない場合（月初めで前回の試合が先月分など）は、
-    // 先月の日程ページも確認する。
-    let game = monthGames.find((g) => g.mmdd === mmdd) || null;
+    const todayGame = monthGames.find((g) => g.mmdd === mmdd) || null;
+    let game = todayGame;
     let isPastGame = false;
 
     if (!game) {
-      const pastThisMonth = monthGames.filter((g) => g.mmdd < mmdd).sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
-      if (pastThisMonth.length) {
-        game = pastThisMonth[0];
-        isPastGame = true;
-      } else {
-        const prev = prevMonthOf(year, mm);
-        const prevScheduleUrl = "https://npb.jp/games/" + prev.year + "/schedule_" + prev.mm + "_detail.html";
-        debugInfo.prevScheduleUrl = prevScheduleUrl;
-        try {
-          const prevRes = await axios.get(prevScheduleUrl, { headers: HTTP_HEADERS, timeout: 8000 });
-          const $prev = cheerio.load(String(prevRes.data));
-          const prevGames = collectTeamGameLinks($prev, prev.year, teamCode, prevScheduleUrl)
-            .sort((a, b) => (a.mmdd < b.mmdd ? 1 : -1));
-          if (prevGames.length) {
-            game = prevGames[0];
-            isPastGame = true;
-          }
-        } catch (prevErr) {
-          debugInfo.prevScheduleError = String(prevErr.message || prevErr);
-        }
-      }
+      game = await findMostRecentPastGame(monthGames, mmdd, year, mm, teamCode, debugInfo, "noGameToday");
+      isPastGame = true;
     }
 
     debugInfo.game = game;
@@ -338,65 +384,50 @@ export default async function handler(req, res) {
       });
     }
 
-    const gameUrl = game.url;
-    const opponentCode = game.codeA === teamCode ? game.codeB : game.codeA;
-    const opponentFullName = CODE_TO_FULL_NAME[opponentCode] || null;
+    // 2. 試合ページから、スタメン・先発投手・ベンチを取得する
+    let result = await fetchGameLineup(game, teamCode, fullName, debugInfo, "primary");
 
-    // 2. 試合ページから、スタメン・先発投手を取得する
-    const indexUrl = gameUrl + "index.html";
-    debugInfo.indexUrl = indexUrl;
-    const gameRes = await axios.get(indexUrl, { headers: HTTP_HEADERS, timeout: 8000 });
-    const pageText = String(gameRes.data);
-    const $game = cheerio.load(pageText);
+    // 3. 本日の試合はあるが、まだスタメンが発表されていない場合（例：試合開始の数時間前）は、
+    //    エラーで終わらせず、直前の「終了済みの試合」のスタメンを代わりに取得して返す。
+    //    ユーザーからの要望：「今日のスタメンが未発表のときは、代わりに前回の試合のスタメンを見せてほしい。
+    //    ただし今日のものではないことがはっきり分かるように」。そのため notAnnouncedYet フラグを
+    //    レスポンスに含め、フロント側で「これは本日のスタメンではありません」という警告を必ず出せるようにする。
+    let usedFallbackForUnannounced = false;
+    if ((!result.teamTable || !result.teamTable.rows || !result.teamTable.rows.length) && !isPastGame && result.notAnnouncedYet) {
+      const fallbackGame = await findMostRecentPastGame(monthGames, mmdd, year, mm, teamCode, debugInfo, "fallback");
+      debugInfo.fallbackGame = fallbackGame;
+      if (fallbackGame) {
+        const fallbackResult = await fetchGameLineup(fallbackGame, teamCode, fullName, debugInfo, "fallback");
+        if (fallbackResult.teamTable && fallbackResult.teamTable.rows && fallbackResult.teamTable.rows.length) {
+          result = fallbackResult;
+          game = fallbackGame;
+          isPastGame = true;
+          usedFallbackForUnannounced = true;
+        }
+      }
+    }
 
-    // 「試合開始前」の表示は、スタメンが発表済みでも試合が始まるまでは出続ける可能性があるため、
-    // これだけでブロックせず、まずスタメン表の取得を試み、失敗した場合の判定材料として使う。
-    const teamTable = findTeamOrderTable($game, fullName, opponentFullName);
-    // 調査用：現在の解析ロジックが実際に何を拾っているか（拾えていない行も含めて）確認できるよう、
-    // テーブルの生のセル内容をそのままdebugInfoに残しておく（`?debug=1`のときだけレスポンスに含まれる）。
-    if (teamTable) debugInfo.rawTableRows = teamTable.rawRows;
-    if (!teamTable || !teamTable.rows.length) {
-      const notAnnouncedYet = !isPastGame && isBeforeAnnouncement($game.text());
+    if (!result.teamTable || !result.teamTable.rows || !result.teamTable.rows.length) {
+      const notAnnouncedYet = !isPastGame && result.notAnnouncedYet;
       return res.status(200).json({
         success: false,
         error: notAnnouncedYet
           ? "本日のスタメンはまだ発表されていません。試合開始が近づいたら、もう一度お試しください"
           : "スタメン情報の取得に失敗しました（ページの形式が変わった可能性があります）",
-        ...(debug ? { debug: { ...debugInfo, notAnnouncedYet, pageTextSnippet: pageText.slice(0, 2000) } } : {}),
+        ...(debug ? { debug: { ...debugInfo, notAnnouncedYet, pageTextSnippet: (result.pageText || "").slice(0, 2000) } } : {}),
       });
-    }
-
-    const starters = teamTable.rows
-      .slice()
-      .sort((a, b) => a.order - b.order)
-      .map((r) => ({ order: r.order, position: r.position, name: r.name }));
-
-    // 先発投手: 打順の中に「投」がいればそれ（DH無し）、無ければ打順外の「投｜選手名」行（DH制）
-    const pitcherFromOrder = teamTable.rows.find((r) => r.position === "投");
-    const pitcher = pitcherFromOrder ? pitcherFromOrder.name : teamTable.pitcherOutsideOrder;
-
-    // 3. 登録選手一覧（ベンチ入り選手を含む）を取得し、スタメン・先発投手を除いたものをベンチとする
-    let bench = [];
-    try {
-      const rosterUrl = gameUrl + "roster.html";
-      debugInfo.rosterUrl = rosterUrl;
-      const rosterRes = await axios.get(rosterUrl, { headers: HTTP_HEADERS, timeout: 8000 });
-      const allNames = fetchRosterNames(rosterRes.data, fullName, opponentFullName);
-      const startingNames = new Set(starters.map((s) => s.name));
-      if (pitcher) startingNames.add(pitcher);
-      bench = allNames.filter((n) => !startingNames.has(n));
-    } catch (rosterErr) {
-      // ベンチ情報の取得に失敗しても、スタメン自体は返す（bench: [] のまま）
-      debugInfo.rosterError = String(rosterErr.message || rosterErr);
     }
 
     return res.status(200).json({
       success: true,
-      pitcher: pitcher || null,
-      starters,
-      bench,
+      pitcher: result.pitcher || null,
+      starters: result.starters,
+      bench: result.bench,
       isPastGame,
       gameDate: isPastGame ? gameDateLabel(game.mmdd) : null,
+      // 本日の試合自体は存在するが、まだスタメンが発表されておらず、代わりに直前の
+      // 終了済み試合のスタメンを返している場合にtrue（フロント側で強めの警告文言に使う）。
+      notAnnouncedYet: usedFallbackForUnannounced,
       ...(debug ? { debug: debugInfo } : {}),
     });
   } catch (err) {

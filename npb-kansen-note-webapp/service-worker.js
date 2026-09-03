@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v15"; // ふりがな追加誤り31件を修正＋更新ボタンでアプリ本体の新バージョンも自動リロード
+const CACHE_VERSION = "v16"; // 本日のスタメン未発表時に前回試合のスタメンを警告付きで表示するように
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

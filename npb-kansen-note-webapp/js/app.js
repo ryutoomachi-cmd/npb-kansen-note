@@ -936,7 +936,16 @@
           var unmatchedSuffix = unmatched.length
             ? "（" + unmatched.join("、") + " は選手名を自動判定できず未反映です。手動で登録してください）"
             : "";
-          if (data.isPastGame) {
+          if (data.notAnnouncedYet) {
+            // 本日の試合自体はあるが、スタメンがまだ発表されていないため、代わりに直前の
+            // 終了済み試合のスタメンを取得して表示しているケース。「本日のスタメンが
+            // 見られた」と誤解されるとチェック漏れにつながりかねないため、他の通知より
+            // 強い警告表示（is-alert、赤系）ではっきり区別する。
+            state.lineupFetchNotice = {
+              type: "alert",
+              message: "これは本日のスタメンではありません。本日のぶんはまだ発表されていないため、参考として前回（" + (data.gameDate || "直近") + "）の試合のスタメンを表示しています" + unmatchedSuffix
+            };
+          } else if (data.isPastGame) {
             state.lineupFetchNotice = {
               type: "warning",
               message: "本日は試合がないため、前回（" + (data.gameDate || "直近") + "）の終了した試合のスタメンを表示しています" + unmatchedSuffix
@@ -2461,7 +2470,7 @@
   function lineupFetchNoticeHtml() {
     var n = state.lineupFetchNotice;
     if (!n) return "";
-    var cls = n.type === "error" ? "is-error" : (n.type === "warning" ? "is-warning" : "is-success");
+    var cls = n.type === "error" ? "is-error" : (n.type === "alert" ? "is-alert" : (n.type === "warning" ? "is-warning" : "is-success"));
     var iconName = n.type === "success" ? "check" : "alertTriangle";
     return (
       '<p class="lineup-fetch-notice ' + cls + '">' +
