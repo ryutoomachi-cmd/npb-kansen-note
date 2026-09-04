@@ -1831,10 +1831,54 @@
         (leg.note ? '<p style="font-size:11px;color:var(--ink-faint);margin:10px 0 0;">' + esc(leg.note) + "</p>" : "") +
       "</div></section>";
 
+    var legendInfoCells = [
+      infoCell("生年月日", legendBirthDateInfoValue(leg))
+    ].filter(Boolean).join("");
+    var legendInfoGrid = legendInfoCells
+      ? '<section><p class="section-label">基本情報</p><div class="panel info-grid">' + legendInfoCells + "</div></section>"
+      : "";
+
+    var legendTimeline = "";
+    if (leg.growthTimeline && leg.growthTimeline.length) {
+      legendTimeline =
+        '<section><p class="section-label">成長軌跡（タイムライン）</p><ol class="timeline">' +
+          leg.growthTimeline.map(function (t) {
+            return "<li><p class=\"period\">" + esc(t.period) + '</p><p class="title">' + esc(t.title) + '</p><p class="desc">' + linkifyMentions(t.description, leg.id) + "</p></li>";
+          }).join("") +
+        "</ol></section>";
+    }
+
+    var teamHistoryHtml = "";
+    if (leg.teamHistory && leg.teamHistory.length) {
+      teamHistoryHtml =
+        '<section><p class="section-label">' + icon("mapPin", 13) + "在籍球団・海外球団の歩み</p>" +
+          leg.teamHistory.map(function (th) {
+            return (
+              '<div class="panel" style="margin-bottom:8px;">' +
+                '<p style="font-weight:700;font-size:12.5px;margin:0 0 4px;">' + esc(th.team) +
+                  (th.years ? '<span style="font-weight:400;color:var(--ink-dim);font-size:11.5px;"> ・ ' + esc(th.years) + "</span>" : "") +
+                "</p>" +
+                '<p style="font-size:12px;line-height:1.7;margin:0;color:var(--ink-dim);">' + linkifyMentions(th.highlight, leg.id) + "</p>" +
+              "</div>"
+            );
+          }).join("") +
+        "</section>";
+    }
+
+    var legendEpisodes =
+      '<section><p class="section-label">' + icon("sparkles", 13) + "伝説を物語るエピソード</p><div class=\"ep-list\">" +
+        (leg.episodes && leg.episodes.length
+          ? leg.episodes.map(function (e) { return '<div class="ep-item">' + linkifyMentions(e, leg.id) + "</div>"; }).join("")
+          : '<div class="ep-item ep-item-empty">このレジェンドのエピソードは今後のアップデートで追加予定です。</div>') +
+      "</div></section>";
+
     var dataNote =
       '<section><div class="info-note-panel">' + icon("info", 14) +
         '<p>成績はWikipedia・NPB公式記録等をもとに調査したものです。数値には誤りが含まれる可能性があるため、正確な記録は球団・NPB公式の記録をご確認ください。</p>' +
-      "</div></section>";
+      "</div></section>" +
+      (leg.dataNote
+        ? '<section><div class="info-note-panel">' + icon("info", 14) + "<p>" + esc(leg.dataNote) + "</p></div></section>"
+        : "");
 
     return (
       '<div class="sheet-header">' +
@@ -1845,9 +1889,13 @@
         '<div class="badge-row"><span class="badge legend-badge ' + catCls + '">' + esc(catLabel) + "</span>" +
           (leg.activeYears ? '<span class="badge" style="background:var(--bg-sunken);color:var(--ink-dim);">' + esc(leg.activeYears) + "</span>" : "") +
         "</div>" +
+        legendInfoGrid +
         '<section><p class="section-label">自己ベストシーズン成績</p>' + statTable + "</section>" +
         battingExtra +
+        legendTimeline +
+        teamHistoryHtml +
         highlightBlock +
+        legendEpisodes +
         legendCompareSectionHtml(leg) +
         dataNote +
       "</div>"
@@ -2776,6 +2824,28 @@
     if (!p.birthDate) return "";
     var age = currentAge(p.birthDate);
     return formatBirthDateDisplay(p.birthDate) + (age != null ? "（満" + age + "歳）" : "");
+  }
+  // 生年月日から特定の日付時点での満年齢を計算する（没年齢＝享年の算出用）。
+  function ageAtDate(birthIso, atIso) {
+    var b = new Date(birthIso + "T00:00:00");
+    var a = new Date(atIso + "T00:00:00");
+    if (isNaN(b.getTime()) || isNaN(a.getTime())) return null;
+    var age = a.getFullYear() - b.getFullYear();
+    var hadBirthday = (a.getMonth() > b.getMonth()) || (a.getMonth() === b.getMonth() && a.getDate() >= b.getDate());
+    if (!hadBirthday) age -= 1;
+    return age >= 0 ? age : null;
+  }
+  // レジェンドの生年月日表示：故人の場合は「現在の年齢」ではなく没年月日＋享年を表示する
+  // （存命前提の満年齢計算をそのまま使うと、故人を「今も生きていて〇歳」であるかのように
+  // 誤って表示してしまうため、意図的に分岐している）。
+  function legendBirthDateInfoValue(leg) {
+    if (!leg.birthDate) return "";
+    if (leg.deathDate) {
+      var ageAtDeath = ageAtDate(leg.birthDate, leg.deathDate);
+      return formatBirthDateDisplay(leg.birthDate) + "生 - " + formatBirthDateDisplay(leg.deathDate) + "没" + (ageAtDeath != null ? "（享年" + ageAtDeath + "歳）" : "");
+    }
+    var age = currentAge(leg.birthDate);
+    return formatBirthDateDisplay(leg.birthDate) + (age != null ? "（満" + age + "歳）" : "");
   }
 
   function renderOverlay() {
