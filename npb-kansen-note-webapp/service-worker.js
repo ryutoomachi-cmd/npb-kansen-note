@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v16"; // 本日のスタメン未発表時に前回試合のスタメンを警告付きで表示するように
+const CACHE_VERSION = "v22"; // 西武の全選手詳細情報を追加完了
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

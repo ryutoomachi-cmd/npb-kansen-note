@@ -2150,7 +2150,7 @@
       return (
         '<button class="rel-card" data-action="open-detail" data-id="' + r.player.id + '">' +
           avatarHtml(r.player, 36) +
-          "<span>" +
+          '<span class="rel-card-body">' +
             kanaHtml(r.player, "kana-inline") +
             '<span style="font-size:13px;font-weight:800;">' + esc(r.player.name) + '</span> ' +
             '<span class="rel-team-pill" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(r.player.currentTeamName) + " #" + r.player.number + "</span><br>" +
@@ -2658,6 +2658,7 @@
     }
 
     var infoCells = [
+      infoCell("生年月日", birthDateInfoValue(p)),
       infoCell("出身地", p.roots.hometown),
       infoCell("ドラフト", p.draftInfo),
       infoCell("投打", p.throwsBats),
@@ -2750,6 +2751,31 @@
   function infoCell(label, value) {
     if (!value) return "";
     return '<div><p class="lbl">' + label + '</p><p class="val">' + esc(value) + "</p></div>";
+  }
+
+  // 生年月日から「現在の満年齢」をその場（レンダリング時）で計算する。ページを開くたびに
+  // 実際の今日の日付を使って計算し直すので、誕生日を過ぎれば自動的に歳が1つ増える
+  // （データを更新したり、更新ボタンを押したりする必要は無い＝常に正しい年齢になる）。
+  function formatBirthDateDisplay(iso) {
+    if (!iso) return "";
+    var parts = String(iso).split("-");
+    if (parts.length !== 3) return iso;
+    return parts[0] + "年" + parseInt(parts[1], 10) + "月" + parseInt(parts[2], 10) + "日";
+  }
+  function currentAge(birthDateIso) {
+    if (!birthDateIso) return null;
+    var b = new Date(birthDateIso + "T00:00:00");
+    if (isNaN(b.getTime())) return null;
+    var now = new Date();
+    var age = now.getFullYear() - b.getFullYear();
+    var hadBirthdayThisYear = (now.getMonth() > b.getMonth()) || (now.getMonth() === b.getMonth() && now.getDate() >= b.getDate());
+    if (!hadBirthdayThisYear) age -= 1;
+    return age >= 0 ? age : null;
+  }
+  function birthDateInfoValue(p) {
+    if (!p.birthDate) return "";
+    var age = currentAge(p.birthDate);
+    return formatBirthDateDisplay(p.birthDate) + (age != null ? "（満" + age + "歳）" : "");
   }
 
   function renderOverlay() {

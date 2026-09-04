@@ -1,1 +1,4498 @@
-[{"id":"o9","name":"中村 剛也","nameKana":"なかむら たけや","number":60,"position":"内野手","detailedPosition":"内野手","birthDate":"1983-01-19","draftInfo":"2001年ドラフト2巡目（埼玉西武ライオンズ）","roots":{"hometown":"情報未確認","juniorHigh":"大東市立四条中学校","seniorOrBoys":"大東畷ボーイズ","highSchool":"大阪桐蔭高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","plateAppearances":42,"games":0,"avgDisplay":"-"},"lastSeasonStats":{"season":"2025","plateAppearances":110,"games":44,"avg":0.24,"avgDisplay":".240","hr":3,"rbi":10,"ops":0.721,"stolenBases":0},"careerSummary":"本塁打王4回の西武の看板打者「おかわり君」。2026年の出場状況は今回のリサーチでは確認できていません。","nationalTeamHistory":[{"competition":"2015年 第1回WBSCプレミア12","year":"2015"}],"allStarYears":["2008","2009","2010","2011","2012","2014","2015","2021","2023","2024"],"growthTimeline":[{"period":"高校時代","title":"大阪桐蔭高等学校／甲子園出場なし・高校通算83本塁打","description":"2年春から4番打者として活躍し高校通算83本塁打を記録したが、甲子園出場歴はない（3年夏の大阪府予選では6本塁打）。同期に岩田稔（元阪神）。"}],"positionHistory":[],"episodes":["2026年8月21日、敵地・楽天モバイルパークでの対楽天戦、延長11回2死満塁で43歳ながら代打満塁本塁打を放ち勝ち越し。自身通算23本目の満塁本塁打（NPB史上最多）に加え、2004年から2026年まで23年連続本塁打という記録も同時に達成した。","通算本塁打を積み重ねてきた中村だが、本塁打を打った直後の心境について「別に。ただ『ホームランだなぁ』と思いながら一周していますね」「打って、走っているときはちょっと恥ずかしい」と、意外にも照れくささが先に立つと語っている。"],"dataNote":"浅村選手との関連で登場する参考プロフィールのため、出身校等の詳細調査は行っていません。2026年成績は未確認です。","salaryManYen":7500,"salaryNote":"推定7500万円（2026年、Full-Count報道）","photoEmoji":"💥"},{"id":"li1","name":"隅田 知一郎","nameKana":"すみだ ちひろ","number":16,"position":"投手","detailedPosition":"先発","throwsBats":"左投左打","birthDate":"1999-08-20","height":177,"weight":84,"draftInfo":"2021年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"長崎県大村市","juniorHigh":"大村市立西大村中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"長崎県立波佐見高等学校","university":"西日本工業大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":20,"inningsPitched":144,"era":2.19,"eraDisplay":"2.19","wins":9,"losses":6,"saves":0,"strikeouts":128},"lastSeasonStats":{"season":"2025","games":23,"inningsPitched":159.67,"era":2.59,"eraDisplay":"2.59","wins":10,"losses":10,"saves":0,"strikeouts":149},"careerSummary":"西日本工業大から2021年ドラフト1位で入団した左腕エース。2026年は8月31日時点でパ・リーグ防御率1位に立ち、チームの柱として先発ローテーションを支えている。","nationalTeamHistory":[{"competition":"2023年 第2回WBSCアジアプロ野球チャンピオンシップ","year":"2023"},{"competition":"2024年 侍ジャパン強化試合（対オランダ、カーネクスト侍ジャパンシリーズ）","year":"2024"},{"competition":"2024年 第3回WBSCプレミア12","year":"2024"}],"allStarYears":["2025"],"growthTimeline":[{"period":"大学時代","title":"「大学No.1左腕」と評された西日本工大のエース","description":"西日本工業大では1年春からベンチ入りし、リーグ戦通算14勝。4年時には全日本大学野球選手権に出場し、ドラフト前には社会人を含めた同世代屈指の左腕と評価された。"}],"positionHistory":[],"episodes":["2026年は8月31日時点で防御率2.19とパ・リーグ防御率トップに立ち、規定投球回に到達している。","波佐見高3年時は左肘の疲労骨折明けで背番号10ながら、夏の長崎大会優勝に貢献した。"],"salaryManYen":16000,"salaryNote":"推定1億6000万円（2026年、年俸データサイトによる推定）","photoEmoji":"🎯"},{"id":"li2","name":"平良 海馬","nameKana":"たいら かいま","number":61,"position":"投手","detailedPosition":"先発","throwsBats":"右投左打","birthDate":"1999-11-15","height":173,"weight":93,"draftInfo":"2017年ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"沖縄県石垣市","juniorHigh":"石垣市立石垣中学校","seniorOrBoys":"八重山ポニーズ（ポニーリーグ／石垣島唯一の硬式チーム）","highSchool":"沖縄県立八重山商工高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":19,"inningsPitched":117,"era":1.46,"eraDisplay":"1.46","wins":10,"losses":3,"saves":0,"strikeouts":109},"lastSeasonStats":{"season":"2025","games":54,"inningsPitched":52.67,"era":1.71,"eraDisplay":"1.71","wins":4,"losses":2,"saves":31,"strikeouts":53},"careerSummary":"石垣島出身の剛腕。抑え・中継ぎで最優秀中継ぎや最多セーブのタイトルを獲得したのち、2026年は再び先発に転向して二桁勝利を挙げている。","nationalTeamHistory":[{"competition":"2020年東京オリンピック（2021年開催、金メダル）","year":"2021"}],"allStarYears":["2021","2022","2023","2025","2026"],"growthTimeline":[{"period":"高校時代","title":"離島から世代最速154km/h","description":"八重山商工高では1年時から外野手兼投手として公式戦に出場。在学中に最速154km/hを記録し、離島の公立校から全国区の注目を集めた。"}],"positionHistory":[],"episodes":["2025年は31セーブを挙げ、自身初の最多セーブのタイトルを獲得した。","2026年はプロ9年目で再び先発に転向し、開幕からローテーションを守って10勝。6月時点では防御率0.89でリーグトップに立ち、MLBスカウトの視察も報じられた。"],"salaryManYen":30000,"salaryNote":"推定3億円（2026年、年俸データサイトによる推定）","dataNote":"出身中学校名はWikipedia等の主要記事に明記がなく、地元・石垣島の情報サイトの記述（真喜良小→石垣中→八重山商工高）に拠った。中学時代の所属は硬式クラブ「八重山ポニーズ」。","photoEmoji":"🔥"},{"id":"li3","name":"髙橋 光成","nameKana":"たかはし こうな","number":13,"position":"投手","detailedPosition":"先発","throwsBats":"右投右打","birthDate":"1997-02-03","height":190,"weight":105,"draftInfo":"2014年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"群馬県沼田市（旧・利根郡利根村）","juniorHigh":"沼田市立利根中学校","seniorOrBoys":"該当なし（中学は軟式野球部。沼田市の軟式野球クラブ「NBAトレジャーズ」でもプレー）","highSchool":"前橋育英高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":19,"inningsPitched":125.33,"era":2.51,"eraDisplay":"2.51","wins":9,"losses":5,"saves":0,"strikeouts":104},"lastSeasonStats":{"season":"2025","games":24,"inningsPitched":148,"era":3.04,"eraDisplay":"3.04","wins":8,"losses":9,"saves":0,"strikeouts":88},"careerSummary":"前橋育英高を夏の甲子園初優勝に導き、2014年ドラフト1位で入団。二桁勝利4度、開幕投手も複数回務めてきた長身右腕で、2026年も防御率2点台でローテーションを支えている。","careerTags":["koshien"],"allStarYears":["2019","2026"],"growthTimeline":[{"period":"高校時代","title":"2013年夏の甲子園優勝投手","description":"前橋育英高2年時、第95回全国高等学校野球選手権大会で全試合に登板し大会防御率0.36。決勝で延岡学園を破り、同校初の全国制覇を果たした。"}],"positionHistory":[],"episodes":["2013年夏の甲子園では9者連続奪三振を記録するなど圧巻の投球で前橋育英を初優勝に導いた。","2026年は8月31日時点で防御率2.51とパ・リーグ6位につけ、規定投球回に到達している。"],"salaryManYen":25000,"salaryNote":"推定2億5000万円（2026年、年俸データサイトによる推定）","photoEmoji":"🔥"},{"id":"li4","name":"武内 夏暉","nameKana":"たけうち なつき","number":21,"position":"投手","detailedPosition":"先発","throwsBats":"左投左打","birthDate":"2001-07-21","height":186,"weight":96,"draftInfo":"2023年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"福岡県北九州市八幡西区","juniorHigh":"折尾愛真中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"福岡県立八幡南高等学校","university":"國學院大學"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":19,"inningsPitched":123.67,"era":2.77,"eraDisplay":"2.77","wins":10,"losses":6,"saves":0,"strikeouts":97},"lastSeasonStats":{"season":"2025","games":12,"inningsPitched":63.33,"era":5.26,"eraDisplay":"5.26","wins":4,"losses":5,"saves":0,"strikeouts":46},"careerSummary":"県立八幡南高から國學院大を経て2023年ドラフト1位で入団し、1年目に新人王を獲得した左腕。2026年は10勝を挙げてチームトップタイの勝ち星を記録している。","growthTimeline":[{"period":"大学時代","title":"國學院大のエース左腕、リーグMVP","description":"國學院大3年秋のリーグ戦で4勝0敗・防御率0.68をマークしMVP。明治神宮大会では8回2死までパーフェクトの無四球完封勝利を挙げ、2023年の日米大学野球選手権日本代表にも選ばれた。"}],"positionHistory":[],"episodes":["2024年にパ・リーグ新人王を獲得（10勝6敗・防御率2.17）。同年5月には月間MVPにも選ばれた。","2026年は8月31日時点で10勝を挙げ、リーグ4位タイの勝利数・防御率2.77でリーグ7位につけている。"],"salaryManYen":3850,"salaryNote":"推定3850万円（2026年、年俸データサイトによる推定）","photoEmoji":"⚡"},{"id":"li5","name":"渡邉 勇太朗","nameKana":"わたなべ ゆうたろう","number":12,"position":"投手","detailedPosition":"先発","throwsBats":"右投右打","birthDate":"2000-09-21","height":191,"weight":106,"draftInfo":"2018年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"埼玉県羽生市","juniorHigh":"羽生市立東中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"浦和学院高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":19,"inningsPitched":123.33,"era":3.58,"eraDisplay":"3.58","wins":5,"losses":7,"saves":0,"strikeouts":96},"lastSeasonStats":{"season":"2025","games":23,"inningsPitched":134,"era":2.69,"eraDisplay":"2.69","wins":7,"losses":9,"saves":0,"strikeouts":81},"careerSummary":"埼玉県羽生市出身・浦和学院高卒の地元育ちの長身右腕。2025年に自身初の完投完封を達成し、2026年も規定投球回に到達してローテーションを守っている。","growthTimeline":[{"period":"高校時代","title":"浦和学院で第100回選手権大会に出場","description":"浦和学院高3年時は右肘の故障を乗り越えて春の関東大会で復帰。第100回全国高等学校野球選手権記念大会に出場し、準々決勝で大阪桐蔭に敗れた。大会後はU-18アジア選手権の日本代表に選出された。"}],"positionHistory":[],"episodes":["2025年9月6日にプロ初完投初完封を達成した。","埼玉県羽生市出身で浦和学院高から地元球団入り。2026年も8月31日時点で規定投球回に到達している。"],"salaryManYen":4300,"salaryNote":"推定4300万円（2026年、年俸データサイトによる推定）","photoEmoji":"🎯"},{"id":"li6","name":"甲斐野 央","nameKana":"かいの ひろし","number":34,"position":"投手","detailedPosition":"抑え","throwsBats":"右投左打","birthDate":"1996-11-16","height":188,"weight":92,"draftInfo":"2018年ドラフト1位（福岡ソフトバンクホークス）／2023年オフのFA人的補償で埼玉西武ライオンズへ移籍","roots":{"hometown":"兵庫県西脇市（旧・多可郡黒田庄町）","juniorHigh":"西脇市立黒田庄中学校","seniorOrBoys":"該当なし（中学は軟式野球部）","highSchool":"東洋大学附属姫路高等学校","university":"東洋大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":49,"inningsPitched":46.67,"era":1.74,"eraDisplay":"1.74","wins":2,"losses":2,"saves":19,"strikeouts":49},"lastSeasonStats":{"season":"2025","games":47,"inningsPitched":43.67,"era":2.47,"eraDisplay":"2.47","wins":2,"losses":3,"saves":0,"strikeouts":36},"careerSummary":"東洋大からソフトバンクにドラフト1位入団し、2024年にFA人的補償で西武へ。2026年はクローザーを務め、8月31日時点で19セーブを挙げている。","nationalTeamHistory":[{"competition":"2019年 第2回WBSCプレミア12","year":"2019"}],"allStarYears":["2025"],"growthTimeline":[{"period":"大学時代","title":"東都で最優秀投手・ベストナイン","description":"東洋大3年秋の東都大学野球リーグでベストナインと最優秀投手を受賞。ハーレム国際大会では日本代表の胴上げ投手になった。"}],"positionHistory":[],"episodes":["2026年6月、西武が球団初の交流戦優勝（勝率.824は交流戦史上最高）を決めた試合で1点差の9回を締め、胴上げ投手となった。","2025年は33ホールドを記録し、2026年は守護神として8月31日時点で19セーブを挙げている。"],"salaryManYen":6800,"salaryNote":"推定6800万円（2026年、年俸データサイトによる推定）","photoEmoji":"🔥"},{"id":"li7","name":"篠原 響","nameKana":"しのはら ひびき","number":52,"position":"投手","detailedPosition":"中継ぎ（セットアッパー）","throwsBats":"右投右打","birthDate":"2006-09-20","height":178,"weight":81,"draftInfo":"2024年ドラフト5位（埼玉西武ライオンズ）","roots":{"hometown":"愛知県名古屋市","juniorHigh":"名古屋市立日比野中学校","seniorOrBoys":"愛知尾州ボーイズ","highSchool":"福井工業大学附属福井高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":37,"inningsPitched":36,"era":1.75,"eraDisplay":"1.75","wins":2,"losses":2,"saves":1,"strikeouts":38},"lastSeasonStats":{"season":"2025","games":2,"inningsPitched":7,"era":10.29,"eraDisplay":"10.29","wins":0,"losses":1,"saves":0,"strikeouts":8},"careerSummary":"最速158km/hを誇るプロ2年目・19歳の剛腕。2026年春季キャンプでリリーフ転向を告げられ、シーズン中盤にはリーグ屈指のセットアッパーに定着した。","growthTimeline":[{"period":"高校時代","title":"福井工大福井のエースとして北信越ベスト4","description":"3年春の福井県大会で148km/hを計測して完投勝利。36回1/3を投げて46奪三振を記録し、北信越大会ベスト4に進出した。"}],"positionHistory":[],"episodes":["2026年の春季キャンプ終盤に西口文也監督から「いい場面で使うつもりだから」とリリーフ転向を告げられ、19歳でセットアッパーに定着。4〜5月には12試合連続無失点を記録した。","2025年は二軍で8勝・防御率2.20を挙げ、イースタン・リーグ優秀選手賞を受賞した。"],"salaryManYen":700,"salaryNote":"推定700万円（2026年、年俸データサイトによる推定）","photoEmoji":"⚡"},{"id":"li8","name":"古賀 悠斗","nameKana":"こが ゆうと","number":22,"position":"捕手","detailedPosition":"捕手","throwsBats":"右投右打","birthDate":"1999-09-10","height":174,"weight":86,"draftInfo":"2021年ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"福岡県筑紫野市","juniorHigh":"筑紫野市立筑山中学校","seniorOrBoys":"オール筑紫ベースボールクラブ","highSchool":"福岡大学附属大濠高等学校","university":"中央大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":84,"plateAppearances":219,"avg":0.288,"avgDisplay":".288","hr":4,"rbi":27,"ops":0.78,"stolenBases":2},"lastSeasonStats":{"season":"2025","games":112,"plateAppearances":328,"avg":0.228,"avgDisplay":".228","hr":7,"rbi":21,"ops":0.634,"stolenBases":1},"careerSummary":"強肩と打撃を兼ね備えた正捕手格。侍ジャパンにも複数回選出され、2026年はルーキー小島大河とマスクを分け合いながら打率.288と好調を維持している。","nationalTeamHistory":[{"competition":"2023年 第2回WBSCアジアプロ野球チャンピオンシップ","year":"2023"}],"growthTimeline":[{"period":"高校時代","title":"福岡大大濠で高校通算52本塁打","description":"内野手から2年秋に捕手へ転向。第89回選抜高等学校野球大会に出場し、高校通算52本塁打を放って2017年WBSC U-18ワールドカップの日本代表にも選ばれた。"}],"positionHistory":[],"episodes":["2025年8月、1試合8補殺という捕手の日本新記録を達成した。","2023年アジアプロ野球チャンピオンシップ（金メダル）、2024年WBSCプレミア12（銀メダル）の日本代表に選出された。"],"salaryManYen":6600,"salaryNote":"推定6600万円（2026年、年俸データサイトによる推定）","photoEmoji":"🛡️"},{"id":"li9","name":"小島 大河","nameKana":"こじま たいが","number":10,"position":"捕手","detailedPosition":"捕手","throwsBats":"右投左打","birthDate":"2003-10-27","height":178,"weight":83,"draftInfo":"2025年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"神奈川県伊勢原市","juniorHigh":"伊勢原市立山王中学校","seniorOrBoys":"相模ボーイズ","highSchool":"東海大学付属相模高等学校","university":"明治大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":77,"plateAppearances":288,"avg":0.258,"avgDisplay":".258","hr":8,"rbi":29,"ops":0.685,"stolenBases":0},"lastSeasonStats":{"season":"2025"},"careerSummary":"東海大相模高・明治大で「打てる捕手」と評され2025年ドラフト1位で入団したルーキー。開幕からマスクをかぶり、新人王争いに加わる活躍を見せている。","growthTimeline":[{"period":"高校時代","title":"2021年センバツ優勝、決勝でサヨナラ打","description":"東海大相模高3年春の第93回選抜高等学校野球大会で優勝。決勝戦ではサヨナラ適時打を放った。明治大では2年春から正捕手を務め、東京六大学でベストナインに選出された。"}],"positionHistory":[],"episodes":["2026年3月27日のデビュー戦で初出場初先発を果たし、初打席初安打を記録。3月31日には12球団の新人で一番乗りとなるプロ1号本塁打を放った。","8月8日のソフトバンク戦では8回に逆転の5号2ランを放ち、西口文也監督が「思い切りの良さ」を評価。新人捕手としての2桁本塁打（阿部慎之助以来）が視野に入った。"],"salaryManYen":1600,"salaryNote":"推定1600万円（2026年、年俸データサイトによる推定）","dataNote":"2026年が1年目のため2025年のNPB一軍成績はなし（明治大4年時は東京六大学秋季リーグで打率.432を記録）。","photoEmoji":"🧤"},{"id":"li10","name":"源田 壮亮","nameKana":"げんだ そうすけ","number":6,"position":"内野手","detailedPosition":"遊撃手","throwsBats":"右投左打","birthDate":"1993-02-16","height":179,"weight":77,"draftInfo":"2016年ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"大分県大分市","juniorHigh":"大分市立明野中学校","seniorOrBoys":"明野ビッグボーイズ（現・明野ボーイズ）","highSchool":"大分県立大分商業高等学校","university":"愛知学院大学","social":"トヨタ自動車"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":99,"plateAppearances":266,"avg":0.211,"avgDisplay":".211","hr":1,"rbi":23,"ops":0.548,"stolenBases":0},"lastSeasonStats":{"season":"2025","games":104,"plateAppearances":361,"avg":0.209,"avgDisplay":".209","hr":0,"rbi":20,"ops":0.544,"stolenBases":8},"careerSummary":"球界屈指の名手として知られる不動のショート。2017年新人王、ゴールデングラブ賞7年連続7回受賞、東京五輪・WBCの金メダルメンバーで、2026年も遊撃の定位置を守り続けている。","nationalTeamHistory":[{"competition":"2017年 第1回WBSCアジアプロ野球チャンピオンシップ","year":"2017"},{"competition":"2019年 第2回WBSCプレミア12","year":"2019"},{"competition":"2020年東京オリンピック（2021年開催、金メダル）","year":"2021"},{"competition":"2023年World Baseball Classic (WBC)","year":"2023"}],"allStarYears":["2017","2018","2019","2021","2023","2024"],"growthTimeline":[{"period":"社会人時代","title":"トヨタ自動車で都市対抗優勝","description":"愛知学院大から進んだトヨタ自動車で1年目から公式戦に出場し、第87回都市対抗野球大会の優勝と優秀選手賞に輝いた。"}],"positionHistory":[],"episodes":["2018年から2024年まで三井ゴールデン・グラブ賞を7年連続7回受賞した。","2021年東京五輪、2023年WBCでいずれも金メダルを獲得した日本代表の遊撃手。"],"salaryManYen":30000,"salaryNote":"推定3億円（2026年、年俸データサイトによる推定）","photoEmoji":"🧤"},{"id":"li11","name":"外崎 修汰","nameKana":"とのさき しゅうた","number":5,"position":"内野手","detailedPosition":"二塁手","throwsBats":"右投右打","birthDate":"1992-12-20","height":177,"weight":84,"draftInfo":"2014年ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"青森県弘前市","juniorHigh":"弘前市立弘前第四中学校","seniorOrBoys":"弘前シニア（1期生）→2年から弘前白神シニア","highSchool":"青森県立弘前実業高等学校","university":"富士大学"},"isTohokuConnection":true,"currentStats":{"season":"2026","games":25,"plateAppearances":75,"avg":0.162,"avgDisplay":".162","hr":1,"rbi":5,"ops":0.462,"stolenBases":1},"lastSeasonStats":{"season":"2025","games":115,"plateAppearances":415,"avg":0.234,"avgDisplay":".234","hr":5,"rbi":34,"ops":0.628,"stolenBases":6},"careerSummary":"青森・弘前実業高から富士大を経て入団したチーム最古参格の内野手。ゴールデングラブ賞3度の守備と勝負強い打撃でチームを支え、2026年に通算1000安打を達成した。","careerTags":["captain"],"nationalTeamHistory":[{"competition":"2017年 第1回WBSCアジアプロ野球チャンピオンシップ","year":"2017"},{"competition":"2018年日米野球","year":"2018"},{"competition":"2019年 第2回WBSCプレミア12","year":"2019"}],"allStarYears":["2018","2023"],"growthTimeline":[{"period":"大学時代","title":"富士大で首位打者・主将","description":"富士大4年時に打率.432で首位打者となりベストナイン・優秀選手賞を受賞。チームの主将も務めた。甲子園出場経験はない叩き上げ。"}],"positionHistory":[],"episodes":["2026年4月5日に史上327人目となる通算1000安打を達成し、同じ試合で通算200二塁打も同時に記録した。","2017年アジアプロ野球チャンピオンシップでMVPを受賞。ゴールデングラブ賞を2018年・2020年・2022年に受賞している。"],"salaryManYen":16000,"salaryNote":"推定1億6000万円（2026年、年俸データサイトによる推定）","dataNote":"2026年は出場機会が限られており、8月末時点で25試合出場。","photoEmoji":"💪"},{"id":"li12","name":"滝澤 夏央","nameKana":"たきざわ なつお","number":62,"position":"内野手","detailedPosition":"二塁手・遊撃手","throwsBats":"右投左打","birthDate":"2003-08-13","height":164,"weight":65,"draftInfo":"2021年育成ドラフト2位（埼玉西武ライオンズ）／2022年5月13日に支配下登録","roots":{"hometown":"新潟県上越市","juniorHigh":"上越市立城西中学校","seniorOrBoys":"該当なし（中学は軟式野球部。新潟県KWBクラブ選抜に選出）","highSchool":"関根学園高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":102,"plateAppearances":396,"avg":0.287,"avgDisplay":".287","hr":1,"rbi":28,"ops":0.687,"stolenBases":11},"lastSeasonStats":{"season":"2025","games":125,"plateAppearances":438,"avg":0.234,"avgDisplay":".234","hr":0,"rbi":14,"ops":0.533,"stolenBases":21},"careerSummary":"164cmの小柄な体格ながら球界屈指の守備範囲を誇るユーティリティ内野手。育成2位からの叩き上げで、2026年は打率.287と自己最高の打撃成績を残している。","allStarYears":["2025","2026"],"growthTimeline":[{"period":"高校時代","title":"関根学園で北信越ベスト4","description":"1年夏から二塁手のレギュラーを掴み、2年秋には新潟県大会3位・北信越大会ベスト4に進出。甲子園出場はなく、育成ドラフトでの入団となった。"}],"positionHistory":[],"episodes":["2025年、守備指標で選出されるフィールディング・バイブル・アワードで年間最優秀選手に選ばれた。","2026年は規定打席に到達し、打率.287・出塁率.368と自己最高のシーズンを送っている。"],"salaryManYen":3200,"salaryNote":"推定3200万円（2026年、年俸データサイトによる推定）","photoEmoji":"💨"},{"id":"li13","name":"平沢 大河","nameKana":"ひらさわ たいが","number":39,"position":"内野手","detailedPosition":"一塁手・三塁手（外野も兼任）","throwsBats":"右投左打","birthDate":"1997-12-24","height":176,"weight":80,"draftInfo":"2015年ドラフト1位（千葉ロッテマリーンズ）／2024年12月の現役ドラフトで埼玉西武ライオンズへ移籍","roots":{"hometown":"宮城県多賀城市","juniorHigh":"多賀城市立高崎中学校","seniorOrBoys":"七ヶ浜リトルシニア（現・仙台伊達リトルシニア）","highSchool":"仙台育英学園高等学校"},"isTohokuConnection":true,"currentStats":{"season":"2026","games":74,"plateAppearances":260,"avg":0.26,"avgDisplay":".260","hr":2,"rbi":17,"ops":0.678,"stolenBases":1},"lastSeasonStats":{"season":"2025","games":7,"plateAppearances":17,"avg":0.059,"avgDisplay":".059","hr":0,"rbi":0,"ops":0.177,"stolenBases":0},"careerSummary":"仙台育英高から2015年ドラフト1位でロッテ入りし、2024年12月の現役ドラフトで西武へ。移籍2年目の2026年に一・三塁と外野を兼ねながら打率.260と出場機会を大きく増やした。","careerTags":["koshien"],"growthTimeline":[{"period":"高校時代","title":"仙台育英で甲子園準優勝","description":"第97回全国高等学校野球選手権大会で仙台育英の準優勝に貢献し、大会で3本塁打を放った。U-18ワールドカップでは遊撃手としてベストナインに選ばれた。"}],"positionHistory":[],"episodes":["2024年12月の現役ドラフトでロッテから西武へ移籍。入団会見で「この移籍をいいきっかけにしたい」と語った。","2022年にはイースタン・リーグの首位打者と最高出塁率のタイトルを獲得している。"],"salaryManYen":1400,"salaryNote":"推定1400万円（2026年、年俸データサイトによる推定）","photoEmoji":"💪"},{"id":"li14","name":"T.ネビン","nameKana":"T.ねびん","number":26,"position":"内野手","detailedPosition":"一塁手","throwsBats":"右投右打","birthDate":"1997-05-29","height":193,"weight":102,"draftInfo":"2015年MLBドラフト1巡目・戦力均衡ラウンドA（全体38位、コロラド・ロッキーズ）／2025年に埼玉西武ライオンズ入団","roots":{"hometown":"アメリカ・カリフォルニア州パウウェイ","juniorHigh":"情報未確認","seniorOrBoys":"情報未確認","highSchool":"パウウェイ高等学校（Poway High School）"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":82,"plateAppearances":340,"avg":0.268,"avgDisplay":".268","hr":17,"rbi":39,"ops":0.842,"stolenBases":0},"lastSeasonStats":{"season":"2025","games":137,"plateAppearances":570,"avg":0.277,"avgDisplay":".277","hr":21,"rbi":63,"ops":0.794,"stolenBases":2},"careerSummary":"オリオールズ・タイガース・アスレチックスを経て2025年に来日した右の中軸打者。来日1年目に21本塁打を放ち一塁手でゴールデングラブ賞を受賞、2026年も長打力でチームを牽引している。","allStarYears":["2026"],"growthTimeline":[{"period":"高校時代","title":"パウウェイ高からMLBドラフト1巡目","description":"カリフォルニア州のパウウェイ高から2015年MLBドラフト1巡目（全体38位）でコロラド・ロッキーズに指名された。父は元メジャーリーガーのフィル・ネビン。"}],"positionHistory":[],"episodes":["来日1年目の2025年にリーグ3位の21本塁打を放ち、5月の月間MVPと一塁手部門の三井ゴールデン・グラブ賞（初受賞）に輝いた。","2025年オフに球団と2年契約を締結し、2026年も主軸を任されている。"],"salaryManYen":30000,"salaryNote":"推定3億円（2026年、年俸データサイトによる推定）","dataNote":"外国出身選手のため出身中学・シニア/ボーイズに相当する項目は該当なし（米国の学校制度のため）。大学進学歴はなく高卒でプロ入り。","photoEmoji":"💣"},{"id":"li15","name":"渡部 聖弥","nameKana":"わたなべ せいや","number":8,"position":"外野手","detailedPosition":"三塁手（登録は外野手／2026年は主に三塁を守る）","throwsBats":"右投右打","birthDate":"2002-08-31","height":177,"weight":88,"draftInfo":"2024年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"広島県府中市","juniorHigh":"府中市立第一中学校","seniorOrBoys":"該当なし（中学は軟式のクラブチーム「府中野球クラブ」でプレー）","highSchool":"広陵高等学校","university":"大阪商業大学"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":107,"plateAppearances":425,"avg":0.256,"avgDisplay":".256","hr":8,"rbi":39,"ops":0.655,"stolenBases":3},"lastSeasonStats":{"season":"2025","games":109,"plateAppearances":452,"avg":0.259,"avgDisplay":".259","hr":12,"rbi":43,"ops":0.694,"stolenBases":2},"careerSummary":"広陵高から大阪商業大を経て2024年ドラフト2位で入団。1年目から開幕スタメンを勝ち取り12本塁打を放った右の若手主砲で、2026年は三塁にコンバートされてフル出場を続けている。","allStarYears":["2025"],"growthTimeline":[{"period":"大学時代","title":"関西六大学のシーズン最多本塁打記録を更新","description":"大阪商業大2年春に首位打者、同年秋には5本塁打で関西六大学野球連盟のシーズン最多本塁打記録を更新。ベストナインに計5度選ばれ、2023年の日米大学野球選手権の日本代表にも選出された。"}],"positionHistory":[],"episodes":["2025年は球団では8年ぶりとなる新人の開幕スタメンを務め、新人としては22年ぶりの2桁本塁打（12本）を記録した。","2026年は外野手から三塁手へコンバートされ、「サードでタイトルを取りたい」と語って守備の再構築に取り組んでいる。"],"salaryManYen":3100,"salaryNote":"推定3100万円（2026年、年俸データサイトによる推定）","photoEmoji":"💣"},{"id":"li16","name":"長谷川 信哉","nameKana":"はせがわ しんや","number":63,"position":"外野手","detailedPosition":"外野手（一塁も兼任）","throwsBats":"右投右打","birthDate":"2002-05-17","height":183,"weight":90,"draftInfo":"2020年育成ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"京都府京都市","juniorHigh":"京都市立東山泉小中学校","seniorOrBoys":"情報未確認（小学生時代は御所南クラブでプレー）","highSchool":"敦賀気比高等学校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":71,"plateAppearances":248,"avg":0.293,"avgDisplay":".293","hr":10,"rbi":33,"ops":0.852,"stolenBases":6},"lastSeasonStats":{"season":"2025","games":132,"plateAppearances":450,"avg":0.225,"avgDisplay":".225","hr":6,"rbi":36,"ops":0.611,"stolenBases":9},"careerSummary":"育成2位から支配下を勝ち取った長打力と俊足を併せ持つ外野手。2025年に育成出身では球界初となる交流戦MVPを受賞し、2026年はOPS.852と打棒が本格化している。","growthTimeline":[{"period":"高校時代","title":"敦賀気比で投手から野手へ転向","description":"敦賀気比高2年春に投手から野手へ転向。第91回選抜大会でベンチ入りし、第101回全国高等学校野球選手権大会では控えとして3試合に出場した。3年時はコロナ禍で大会が中止となった。"}],"positionHistory":[],"episodes":["2025年のセ・パ交流戦で打率.366の首位打者となり日本生命賞（交流戦MVP）を受賞。育成出身選手の受賞は球界初の快挙だった。","高校2年春まで投手だったため、野手としては本格転向から2年でプロ入りした異色の経歴を持つ。"],"salaryManYen":3400,"salaryNote":"推定3400万円（2026年、年俸データサイトによる推定）","dataNote":"中学時代の所属野球チーム（硬式クラブか学校の軟式野球部か）は確認できなかった。出身中学は文化放送のインタビュー記事に基づく（京都市立東山泉小中学校）。","photoEmoji":"💪"},{"id":"li17","name":"A.カナリオ","nameKana":"A.かなりお","number":25,"position":"外野手","detailedPosition":"外野手","throwsBats":"右投右打","birthDate":"2000-05-07","height":185,"weight":97,"draftInfo":"国際フリーエージェント契約でサンフランシスコ・ジャイアンツ入団（2016年）／2025年12月に埼玉西武ライオンズと契約","roots":{"hometown":"ドミニカ共和国モンテクリスティ州","juniorHigh":"情報未確認","seniorOrBoys":"情報未確認","highSchool":"リセオ・セクンダリオ・ホセ・マルティ高校"},"isTohokuConnection":false,"currentStats":{"season":"2026","games":111,"plateAppearances":437,"avg":0.246,"avgDisplay":".246","hr":13,"rbi":47,"ops":0.697,"stolenBases":12},"lastSeasonStats":{"season":"2025"},"careerSummary":"カブス・パイレーツでプレーしたドミニカ共和国出身の長距離砲。2026年に来日し、外野のレギュラーとして規定打席に到達しながら本塁打・盗塁の両方で二桁を記録している。","growthTimeline":[{"period":"マイナー時代","title":"マイナー通算109本塁打","description":"ジャイアンツ傘下で育ち、2022年にはマイナーで37本塁打を記録。長距離打者特有の打球角度が評価され、西武入団の決め手となった。"}],"positionHistory":[],"episodes":["2025年12月22日に西武と契約（背番号25）。獲得時、広池球団本部長は「さまざまな起用に応えられる点も獲得の決め手」とコメントした。","2026年3月27日のロッテ戦でNPBデビューし、以降は外野の主力として規定打席に到達している。"],"salaryManYen":15000,"salaryNote":"推定1億5000万円（2026年、報道・年俸データサイトによる推定）","dataNote":"2026年が来日1年目のため2025年のNPB成績はなし（2025年はピッツバーグ・パイレーツ傘下でプレー）。外国出身選手のため出身中学・シニア/ボーイズに相当する項目は該当なし。","photoEmoji":"💣"},{"id":"seibu-101","name":"青山 美夏人","nameKana":"あおやま みなと","number":29,"position":"投手","detailedPosition":"投手","birthDate":"2000-07-19","draftInfo":"2022年ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"神奈川県横須賀市","juniorHigh":"横須賀市立衣笠中学校","highSchool":"横浜隼人高等学校","university":"亜細亜大学"},"currentStats":{"season":"2026","inningsPitched":2,"games":2,"era":9.0,"eraDisplay":"9.00","wins":0,"losses":0,"saves":0,"strikeouts":2}},{"id":"seibu-102","name":"糸川 亮太","nameKana":"いとがわ りょうた","number":23,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1998-04-30","draftInfo":"2023年ドラフト7位（埼玉西武ライオンズ）","roots":{"hometown":"愛媛県四国中央市","juniorHigh":"四国中央市立川之江北中学校","highSchool":"愛媛県立川之江高等学校","university":"立正大学"},"currentStats":{"season":"2026","inningsPitched":11.67,"games":9,"era":6.17,"eraDisplay":"6.17","wins":0,"losses":1,"saves":0,"strikeouts":6}},{"id":"seibu-103","name":"岩城 颯空","nameKana":"いわき はくあ","number":20,"position":"投手","detailedPosition":"抑え","birthDate":"2003-09-17","draftInfo":"2025年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"富山県","highSchool":"富山県立富山商業高等学校","university":"中央大学"},"currentStats":{"season":"2026","inningsPitched":30.67,"games":31,"era":3.52,"eraDisplay":"3.52","wins":2,"losses":1,"saves":18,"strikeouts":31}},{"id":"seibu-104","name":"T.ウィンゲンター","nameKana":"T.うぃんげんたー","number":45,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1994-04-15","draftInfo":"MLBパドレス・タイガース・レッドソックス・カブスを経て2025年に埼玉西武ライオンズと契約","roots":{"hometown":"アメリカ合衆国アラバマ州ハンツビル","highSchool":"ボブ・ジョーンズ高等学校","university":"オーバーン大学"},"currentStats":{"season":"2026","inningsPitched":23,"games":25,"era":1.57,"eraDisplay":"1.57","wins":0,"losses":1,"saves":0,"strikeouts":27}},{"id":"seibu-105","name":"上田 大河","nameKana":"うえだ たいが","number":11,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2001-11-15","draftInfo":"2023年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"三重県尾鷲市","juniorHigh":"大阪市立東生野中学校","highSchool":"大阪商業大学高等学校","university":"大阪商業大学"},"currentStats":{"season":"2026","inningsPitched":19.33,"games":14,"era":3.72,"eraDisplay":"3.72","wins":2,"losses":1,"saves":0,"strikeouts":16}},{"id":"seibu-106","name":"黒木 優太","nameKana":"くろき ゆうた","number":54,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1994-08-16","draftInfo":"2016年ドラフト2位（オリックス・バファローズ）／北海道日本ハムファイターズを経て2024年11月に育成契約で埼玉西武ライオンズ入団","roots":{"hometown":"神奈川県横浜市港北区","juniorHigh":"横浜市立日吉台中学校","highSchool":"橘学苑高等学校","university":"立正大学"},"currentStats":{"season":"2026","inningsPitched":7,"games":8,"era":1.29,"eraDisplay":"1.29","wins":1,"losses":0,"saves":0,"strikeouts":9}},{"id":"seibu-107","name":"黒田 将矢","nameKana":"くろだ まさや","number":57,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2004-01-24","draftInfo":"2021年ドラフト5位（埼玉西武ライオンズ）","roots":{"hometown":"青森県むつ市","juniorHigh":"むつ市立大平中学校","highSchool":"八戸工業大学第一高等学校"},"currentStats":{"season":"2026","inningsPitched":24.33,"games":29,"era":4.07,"eraDisplay":"4.07","wins":2,"losses":0,"saves":0,"strikeouts":19}},{"id":"seibu-108","name":"佐藤 隼輔","nameKana":"さとう しゅんすけ","number":19,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2000-01-03","draftInfo":"2021年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"宮城県仙台市","juniorHigh":"仙台市立広瀬中学校","highSchool":"仙台市立仙台高等学校","university":"筑波大学"},"currentStats":{"season":"2026","inningsPitched":24,"games":28,"era":4.5,"eraDisplay":"4.50","wins":4,"losses":1,"saves":1,"strikeouts":22}},{"id":"seibu-109","name":"佐藤 爽","nameKana":"さとう そう","number":75,"position":"投手","detailedPosition":"先発","birthDate":"2003-02-09","draftInfo":"2024年育成ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"北海道北広島市","juniorHigh":"北広島市立大曲中学校","highSchool":"札幌山の手高等学校","university":"星槎道都大学"},"currentStats":{"season":"2026","inningsPitched":38,"games":7,"era":3.79,"eraDisplay":"3.79","wins":1,"losses":1,"saves":0,"strikeouts":24}},{"id":"seibu-110","name":"菅井 信也","nameKana":"すがい しんや","number":71,"position":"投手","detailedPosition":"先発","birthDate":"2003-06-28","draftInfo":"2021年育成ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"山形県南陽市","juniorHigh":"南陽市立赤湯中学校","highSchool":"山本学園高等学校"},"currentStats":{"season":"2026","inningsPitched":38.33,"games":7,"era":3.05,"eraDisplay":"3.05","wins":2,"losses":2,"saves":0,"strikeouts":20}},{"id":"seibu-111","name":"杉山 遙希","nameKana":"すぎやま はるき","number":47,"position":"投手","detailedPosition":"先発","birthDate":"2005-09-23","draftInfo":"2023年ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"東京都江戸川区","juniorHigh":"江戸川区立篠崎中学校","highSchool":"横浜高等学校"},"currentStats":{"season":"2026","inningsPitched":5,"games":1,"era":1.8,"eraDisplay":"1.80","wins":0,"losses":1,"saves":0,"strikeouts":4}},{"id":"seibu-112","name":"中村 祐太","nameKana":"なかむら ゆうた","number":58,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1995-08-31","draftInfo":"2013年ドラフト5位（広島東洋カープ）／2024年12月の現役ドラフトで埼玉西武ライオンズへ移籍","roots":{"hometown":"東京都江戸川区","juniorHigh":"江戸川区立小岩第五中学校","highSchool":"関東第一高等学校"},"currentStats":{"season":"2026","inningsPitched":22.67,"games":18,"era":2.38,"eraDisplay":"2.38","wins":1,"losses":1,"saves":0,"strikeouts":26}},{"id":"seibu-113","name":"成田 晴風","nameKana":"なりた はるせ","number":41,"position":"投手","detailedPosition":"投手","birthDate":"2006-02-27","draftInfo":"2023年ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"青森県南津軽郡大鰐町","juniorHigh":"大鰐町立大鰐中学校","highSchool":"青森県立弘前工業高等学校"},"currentStats":{"season":"2026","inningsPitched":2,"games":2,"era":13.5,"eraDisplay":"13.50","wins":0,"losses":0,"saves":0,"strikeouts":0}},{"id":"seibu-114","name":"羽田 慎之介","nameKana":"はだ しんのすけ","number":43,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2003-12-25","draftInfo":"2021年ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"埼玉県所沢市","juniorHigh":"所沢市立山口中学校","highSchool":"八王子学園八王子高等学校"},"currentStats":{"season":"2026","inningsPitched":8.33,"games":8,"era":7.56,"eraDisplay":"7.56","wins":1,"losses":1,"saves":0,"strikeouts":10}},{"id":"seibu-115","name":"浜屋 将太","nameKana":"はまや しょうた","number":90,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1999-01-26","draftInfo":"2019年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"鹿児島県曽於郡大崎町","juniorHigh":"大崎町立大崎中学校","highSchool":"樟南高等学校"},"currentStats":{"season":"2026","inningsPitched":17,"games":21,"era":2.12,"eraDisplay":"2.12","wins":0,"losses":1,"saves":0,"strikeouts":13}},{"id":"seibu-116","name":"冨士 大和","nameKana":"ふじ やまと","number":67,"position":"投手","detailedPosition":"投手","birthDate":"2006-08-26","draftInfo":"2024年育成ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"埼玉県さいたま市","juniorHigh":"さいたま市立三橋中学校","highSchool":"埼玉県立大宮東高等学校"},"currentStats":{"season":"2026","inningsPitched":2,"games":2,"era":22.5,"eraDisplay":"22.50","wins":0,"losses":0,"saves":0,"strikeouts":3}},{"id":"seibu-117","name":"堀越 啓太","nameKana":"ほりこし けいた","number":40,"position":"投手","detailedPosition":"投手","birthDate":"2003-07-15","draftInfo":"2025年ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"埼玉県","highSchool":"花咲徳栄高等学校","university":"東北福祉大学"},"currentStats":{"season":"2026","inningsPitched":2,"games":2,"era":4.5,"eraDisplay":"4.50","wins":0,"losses":0,"saves":0,"strikeouts":1}},{"id":"seibu-118","name":"松本 航","nameKana":"まつもと わたる","number":17,"position":"投手","detailedPosition":"投手","birthDate":"1996-11-28","draftInfo":"2018年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"兵庫県朝来市","juniorHigh":"朝来市立梁瀬中学校","highSchool":"明石商業高等学校","university":"日本体育大学"},"currentStats":{"season":"2026","inningsPitched":3.33,"games":4,"era":0.0,"eraDisplay":"0.00","wins":0,"losses":0,"saves":1,"strikeouts":3}},{"id":"seibu-119","name":"豆田 泰志","nameKana":"まめだ たいし","number":70,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2003-01-15","draftInfo":"2020年育成ドラフト4位（埼玉西武ライオンズ）","roots":{"hometown":"埼玉県越谷市","juniorHigh":"越谷市立千間台中学校","highSchool":"浦和実業学園高等学校"},"currentStats":{"season":"2026","inningsPitched":29.33,"games":24,"era":1.84,"eraDisplay":"1.84","wins":1,"losses":0,"saves":2,"strikeouts":24}},{"id":"seibu-120","name":"森脇 亮介","nameKana":"もりわき りょうすけ","number":28,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1992-07-13","draftInfo":"2018年ドラフト6位（埼玉西武ライオンズ）","roots":{"hometown":"京都府福知山市","juniorHigh":"福知山市立日新中学校","highSchool":"京都市立塔南高等学校","university":"日本大学"},"currentStats":{"season":"2026","inningsPitched":14,"games":16,"era":2.57,"eraDisplay":"2.57","wins":1,"losses":1,"saves":0,"strikeouts":9}},{"id":"seibu-121","name":"山田 陽翔","nameKana":"やまだ はると","number":36,"position":"投手","detailedPosition":"中継ぎ","birthDate":"2004-05-09","draftInfo":"2022年ドラフト5位（埼玉西武ライオンズ）","roots":{"hometown":"滋賀県栗東市","juniorHigh":"栗東市立栗東西中学校","highSchool":"近江高等学校"},"currentStats":{"season":"2026","inningsPitched":6.33,"games":7,"era":4.26,"eraDisplay":"4.26","wins":0,"losses":0,"saves":0,"strikeouts":6}},{"id":"seibu-122","name":"E.ラミレス","nameKana":"えまにゅえる らみれす","number":56,"position":"投手","detailedPosition":"中継ぎ","birthDate":"1994-07-15","draftInfo":"パドレス・マーリンズ・ブルージェイズ傘下等を経て2024年11月29日に埼玉西武ライオンズと契約","roots":{"hometown":"ドミニカ共和国プエルト・プラタ"},"currentStats":{"season":"2026","inningsPitched":9,"games":8,"era":6.0,"eraDisplay":"6.00","wins":2,"losses":1,"saves":0,"strikeouts":5}},{"id":"seibu-123","name":"A.ワイナンス","nameKana":"あらん わいなんす","number":30,"position":"投手","detailedPosition":"先発","birthDate":"1995-08-10","draftInfo":"2018年MLBドラフト17巡目（全体500位、ニューヨーク・メッツ）を経て2025年に埼玉西武ライオンズと契約","roots":{"hometown":"アメリカ合衆国カリフォルニア州ベーカーズフィールド"},"currentStats":{"season":"2026","inningsPitched":43.33,"games":8,"era":5.19,"eraDisplay":"5.19","wins":2,"losses":4,"saves":0,"strikeouts":41}},{"id":"seibu-124","name":"與座 海人","nameKana":"よざ かいと","number":15,"position":"投手","detailedPosition":"先発","birthDate":"1995-09-15","draftInfo":"2017年ドラフト5位（埼玉西武ライオンズ）","roots":{"hometown":"沖縄県浦添市","juniorHigh":"浦添市立浦添中学校","highSchool":"沖縄尚学高等学校","university":"岐阜経済大学（現・岐阜協立大学）"},"currentStats":{"season":"2025","inningsPitched":93.67,"games":16,"era":2.5,"eraDisplay":"2.50","wins":6,"losses":5,"saves":0,"strikeouts":44}},{"id":"seibu-125","name":"柘植 世那","nameKana":"つげ せな","number":37,"position":"捕手","detailedPosition":"捕手","birthDate":"1997-06-03","draftInfo":"2019年ドラフト5位（埼玉西武ライオンズ）","roots":{"hometown":"群馬県高崎市","juniorHigh":"高崎市立矢中中学校","highSchool":"高崎健康福祉大学高崎高等学校"},"currentStats":{"season":"2026","games":27,"plateAppearances":52,"avg":0.313,"avgDisplay":".313","hr":1,"rbi":2,"stolenBases":0}},{"id":"seibu-126","name":"是澤 涼輔","nameKana":"これさわ りょうすけ","number":65,"position":"捕手","detailedPosition":"捕手","birthDate":"2000-04-19","draftInfo":"2022年育成ドラフト4位（埼玉西武ライオンズ）","roots":{"highSchool":"高崎健康福祉大学高崎高等学校","university":"法政大学"},"currentStats":{"season":"2026","games":1,"plateAppearances":1,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-127","name":"炭谷 銀仁朗","nameKana":"すみたに ぎんじろう","number":27,"position":"捕手","detailedPosition":"捕手","birthDate":"1987-07-19","draftInfo":"2005年高校生ドラフト1巡目（埼玉西武ライオンズ）／読売ジャイアンツ・東北楽天ゴールデンイーグルスを経て2024年に埼玉西武ライオンズへ復帰","roots":{"hometown":"京都府京都市左京区","highSchool":"平安高等学校"},"currentStats":{"season":"2025","games":40,"plateAppearances":88,"avg":0.235,"avgDisplay":".235","hr":0,"rbi":4,"stolenBases":0}},{"id":"seibu-128","name":"牧野 翔矢","nameKana":"まきの しょうや","number":53,"position":"捕手","detailedPosition":"捕手","birthDate":"2001-03-04","draftInfo":"2018年ドラフト5位（埼玉西武ライオンズ）","roots":{"highSchool":"遊学館高等学校"},"currentStats":{"season":"2025","games":29,"plateAppearances":67,"avg":0.213,"avgDisplay":".213","hr":0,"rbi":0,"stolenBases":1}},{"id":"seibu-129","name":"石井 一成","nameKana":"いしい かずなり","number":4,"position":"内野手","detailedPosition":"内野手","birthDate":"1994-05-06","draftInfo":"2016年ドラフト2位（北海道日本ハムファイターズ）／2026年に埼玉西武ライオンズへ移籍","roots":{"hometown":"栃木県那須郡小川町（現・那珂川町）","juniorHigh":"小川中学校","highSchool":"作新学院高等学校","university":"早稲田大学"},"currentStats":{"season":"2026","games":67,"plateAppearances":232,"avg":0.225,"avgDisplay":".225","hr":6,"rbi":18,"stolenBases":0}},{"id":"seibu-130","name":"児玉 亮涼","nameKana":"こだま りょうすけ","number":0,"position":"内野手","detailedPosition":"内野手","birthDate":"1998-07-10","draftInfo":"2022年ドラフト6位（埼玉西武ライオンズ）","roots":{"highSchool":"文徳高等学校","university":"九州産業大学"},"currentStats":{"season":"2026","games":11,"plateAppearances":3,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-131","name":"髙松 渡","nameKana":"たかまつ わたる","number":50,"position":"内野手","detailedPosition":"内野手（代走）","birthDate":"1999-07-02","draftInfo":"2017年ドラフト3位（埼玉西武ライオンズ）","roots":{"highSchool":"滝川第二高等学校"},"currentStats":{"season":"2026","games":8,"plateAppearances":1,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":4}},{"id":"seibu-132","name":"仲田 慶介","nameKana":"なかた けいすけ","number":"00","position":"内野手","detailedPosition":"内野手","birthDate":"1999-07-25","draftInfo":"2021年育成ドラフト14位（埼玉西武ライオンズ）","roots":{"highSchool":"福岡大学附属大濠高等学校","university":"福岡大学"},"currentStats":{"season":"2026","games":21,"plateAppearances":26,"avg":0.2,"avgDisplay":".200","hr":0,"rbi":3,"stolenBases":0}},{"id":"seibu-133","name":"山村 崇嘉","nameKana":"やまむら たかよし","number":32,"position":"内野手","detailedPosition":"内野手","birthDate":"2002-09-28","draftInfo":"2020年ドラフト3位（埼玉西武ライオンズ）","roots":{"hometown":"東京都世田谷区","juniorHigh":"東海大学付属相模高等学校中等部","highSchool":"東海大学付属相模高等学校"},"currentStats":{"season":"2026","games":29,"plateAppearances":88,"avg":0.2,"avgDisplay":".200","hr":1,"rbi":6,"stolenBases":0}},{"id":"seibu-134","name":"佐藤 太陽","nameKana":"さとう たいよう","number":38,"position":"内野手","detailedPosition":"内野手","birthDate":"2002-05-19","draftInfo":"2024年育成ドラフト2位（埼玉西武ライオンズ）","roots":{"highSchool":"静岡県立浜松商業高等学校","university":"神奈川大学"},"currentStats":{"season":"2026","games":14,"plateAppearances":26,"avg":0.231,"avgDisplay":".231","hr":1,"rbi":2,"stolenBases":0}},{"id":"seibu-135","name":"村田 怜音","nameKana":"むらた れおん","number":99,"position":"内野手","detailedPosition":"内野手","birthDate":"2001-08-04","draftInfo":"2023年ドラフト6位（埼玉西武ライオンズ）","roots":{"highSchool":"三重県立相可高等学校","university":"皇學館大学"},"currentStats":{"season":"2026","games":4,"plateAppearances":10,"avg":0.0,"avgDisplay":".000","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-136","name":"齋藤 大翔","nameKana":"さいとう ひろと","number":2,"position":"内野手","detailedPosition":"内野手","birthDate":"2007-01-27","draftInfo":"2024年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"石川県金沢市","highSchool":"金沢高等学校"},"currentStats":{"season":"2025","games":4,"plateAppearances":12,"avg":0.091,"avgDisplay":".091","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-137","name":"栗山 巧","nameKana":"くりやま たくみ","number":1,"position":"外野手","detailedPosition":"外野手","birthDate":"1983-09-03","draftInfo":"2001年ドラフト4巡目（埼玉西武ライオンズ）","roots":{"hometown":"兵庫県神戸市西区","juniorHigh":"神戸市立太山寺中学校","highSchool":"育英高等学校"},"currentStats":{"season":"2026","games":11,"plateAppearances":14,"avg":0.154,"avgDisplay":".154","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-138","name":"桑原 将志","nameKana":"くわはら まさゆき","number":7,"position":"外野手","detailedPosition":"外野手","birthDate":"1993-07-21","draftInfo":"2011年ドラフト4位（横浜DeNAベイスターズ）／2026年に埼玉西武ライオンズへ移籍","roots":{"hometown":"大阪府和泉市","highSchool":"福知山成美高等学校"},"currentStats":{"season":"2026","games":60,"plateAppearances":235,"avg":0.231,"avgDisplay":".231","hr":3,"rbi":15,"stolenBases":2}},{"id":"seibu-139","name":"岸 潤一郎","nameKana":"きし じゅんいちろう","number":68,"position":"外野手","detailedPosition":"外野手","birthDate":"1996-12-08","draftInfo":"2019年ドラフト8位（埼玉西武ライオンズ）","roots":{"hometown":"兵庫県尼崎市","juniorHigh":"尼崎市立中央中学校","highSchool":"明徳義塾高等学校"},"currentStats":{"season":"2026","games":87,"plateAppearances":168,"avg":0.219,"avgDisplay":".219","hr":1,"rbi":11,"stolenBases":3}},{"id":"seibu-140","name":"茶野 篤政","nameKana":"ちゃの とくまさ","number":31,"position":"外野手","detailedPosition":"外野手","birthDate":"1999-08-04","draftInfo":"2022年育成ドラフト4位（埼玉西武ライオンズ）","roots":{"highSchool":"中京学院大学中京高等学校","university":"名古屋商科大学"},"currentStats":{"season":"2026","games":16,"plateAppearances":8,"avg":0.143,"avgDisplay":".143","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-141","name":"秋山 俊","nameKana":"あきやま しゅん","number":35,"position":"外野手","detailedPosition":"外野手","birthDate":"2003-04-20","draftInfo":"2025年ドラフト3位（埼玉西武ライオンズ）","roots":{"highSchool":"仙台育英学園高等学校","university":"中京大学"},"currentStats":{"season":"2026","games":5,"plateAppearances":14,"avg":0.143,"avgDisplay":".143","hr":0,"rbi":0,"stolenBases":0}},{"id":"seibu-142","name":"西川 愛也","nameKana":"にしかわ まなや","number":51,"position":"外野手","detailedPosition":"外野手","birthDate":"1999-06-10","draftInfo":"2017年ドラフト2位（埼玉西武ライオンズ）","roots":{"hometown":"大阪府堺市北区","highSchool":"花咲徳栄高等学校"},"currentStats":{"season":"2026","games":90,"plateAppearances":301,"avg":0.226,"avgDisplay":".226","hr":3,"rbi":26,"stolenBases":5}},{"id":"seibu-143","name":"仲三 優太","nameKana":"なかみ ゆうた","number":55,"position":"外野手","detailedPosition":"外野手","birthDate":"2002-10-22","draftInfo":"2020年ドラフト7位（埼玉西武ライオンズ）","roots":{"highSchool":"大阪桐蔭高等学校"},"currentStats":{"season":"2026","games":11,"plateAppearances":35,"avg":0.129,"avgDisplay":".129","hr":1,"rbi":3,"stolenBases":0}},{"id":"seibu-144","name":"蛭間 拓哉","nameKana":"ひるま たくや","number":9,"position":"外野手","detailedPosition":"外野手","birthDate":"2000-09-08","draftInfo":"2022年ドラフト1位（埼玉西武ライオンズ）","roots":{"hometown":"群馬県桐生市","juniorHigh":"桐生市立相生中学校","highSchool":"浦和学院高等学校","university":"早稲田大学"},"currentStats":{"season":"2026","games":28,"plateAppearances":73,"avg":0.269,"avgDisplay":".269","hr":0,"rbi":6,"stolenBases":0}},{"id":"seibu-145","name":"林 安可","nameKana":"りん あんこー","number":73,"position":"外野手","detailedPosition":"外野手","birthDate":"1997-05-19","draftInfo":"2019年CPBL（台湾プロ野球）ドラフト1位・統一ライオンズを経て埼玉西武ライオンズ入団","roots":{"hometown":"台湾台南市"},"currentStats":{"season":"2026","games":64,"plateAppearances":223,"avg":0.235,"avgDisplay":".235","hr":7,"rbi":27,"stolenBases":0}},{"id":"seibu-146","name":"古川 雄大","nameKana":"ふるかわ ゆうだい","number":33,"position":"外野手","detailedPosition":"外野手","birthDate":"2004-05-25","draftInfo":"2022年ドラフト2位（埼玉西武ライオンズ）","roots":{"highSchool":"大分県立佐伯鶴城高等学校"},"currentStats":{"season":"2025","games":5,"plateAppearances":16,"avg":0.083,"avgDisplay":".083","hr":0,"rbi":0,"stolenBases":0}}]
+[
+  {
+    "id": "o9",
+    "name": "中村 剛也",
+    "nameKana": "なかむら たけや",
+    "number": 60,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "1983-01-19",
+    "draftInfo": "2001年ドラフト2巡目（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "情報未確認",
+      "juniorHigh": "大東市立四条中学校",
+      "seniorOrBoys": "大東畷ボーイズ",
+      "highSchool": "大阪桐蔭高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "plateAppearances": 42,
+      "games": 0,
+      "avgDisplay": "-"
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "plateAppearances": 110,
+      "games": 44,
+      "avg": 0.24,
+      "avgDisplay": ".240",
+      "hr": 3,
+      "rbi": 10,
+      "ops": 0.721,
+      "stolenBases": 0
+    },
+    "careerSummary": "本塁打王4回の西武の看板打者「おかわり君」。2026年の出場状況は今回のリサーチでは確認できていません。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2015年 第1回WBSCプレミア12",
+        "year": "2015"
+      }
+    ],
+    "allStarYears": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "大阪桐蔭高等学校／甲子園出場なし・高校通算83本塁打",
+        "description": "2年春から4番打者として活躍し高校通算83本塁打を記録したが、甲子園出場歴はない（3年夏の大阪府予選では6本塁打）。同期に岩田稔（元阪神）。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年8月21日、敵地・楽天モバイルパークでの対楽天戦、延長11回2死満塁で43歳ながら代打満塁本塁打を放ち勝ち越し。自身通算23本目の満塁本塁打（NPB史上最多）に加え、2004年から2026年まで23年連続本塁打という記録も同時に達成した。",
+      "通算本塁打を積み重ねてきた中村だが、本塁打を打った直後の心境について「別に。ただ『ホームランだなぁ』と思いながら一周していますね」「打って、走っているときはちょっと恥ずかしい」と、意外にも照れくささが先に立つと語っている。"
+    ],
+    "dataNote": "浅村選手との関連で登場する参考プロフィールのため、出身校等の詳細調査は行っていません。2026年成績は未確認です。",
+    "salaryManYen": 7500,
+    "salaryNote": "推定7500万円（2026年、Full-Count報道）",
+    "photoEmoji": "💥"
+  },
+  {
+    "id": "li1",
+    "name": "隅田 知一郎",
+    "nameKana": "すみだ ちひろ",
+    "number": 16,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "左投左打",
+    "birthDate": "1999-08-20",
+    "height": 177,
+    "weight": 84,
+    "draftInfo": "2021年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "長崎県大村市",
+      "juniorHigh": "大村市立西大村中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "長崎県立波佐見高等学校",
+      "university": "西日本工業大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 20,
+      "inningsPitched": 144,
+      "era": 2.19,
+      "eraDisplay": "2.19",
+      "wins": 9,
+      "losses": 6,
+      "saves": 0,
+      "strikeouts": 128
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 23,
+      "inningsPitched": 159.67,
+      "era": 2.59,
+      "eraDisplay": "2.59",
+      "wins": 10,
+      "losses": 10,
+      "saves": 0,
+      "strikeouts": 149
+    },
+    "careerSummary": "西日本工業大から2021年ドラフト1位で入団した左腕エース。2026年は8月31日時点でパ・リーグ防御率1位に立ち、チームの柱として先発ローテーションを支えている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2023年 第2回WBSCアジアプロ野球チャンピオンシップ",
+        "year": "2023"
+      },
+      {
+        "competition": "2024年 侍ジャパン強化試合（対オランダ、カーネクスト侍ジャパンシリーズ）",
+        "year": "2024"
+      },
+      {
+        "competition": "2024年 第3回WBSCプレミア12",
+        "year": "2024"
+      }
+    ],
+    "allStarYears": [
+      "2025"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "「大学No.1左腕」と評された西日本工大のエース",
+        "description": "西日本工業大では1年春からベンチ入りし、リーグ戦通算14勝。4年時には全日本大学野球選手権に出場し、ドラフト前には社会人を含めた同世代屈指の左腕と評価された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年は8月31日時点で防御率2.19とパ・リーグ防御率トップに立ち、規定投球回に到達している。",
+      "波佐見高3年時は左肘の疲労骨折明けで背番号10ながら、夏の長崎大会優勝に貢献した。"
+    ],
+    "salaryManYen": 16000,
+    "salaryNote": "推定1億6000万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🎯"
+  },
+  {
+    "id": "li2",
+    "name": "平良 海馬",
+    "nameKana": "たいら かいま",
+    "number": 61,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "右投左打",
+    "birthDate": "1999-11-15",
+    "height": 173,
+    "weight": 93,
+    "draftInfo": "2017年ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "沖縄県石垣市",
+      "juniorHigh": "石垣市立石垣中学校",
+      "seniorOrBoys": "八重山ポニーズ（ポニーリーグ／石垣島唯一の硬式チーム）",
+      "highSchool": "沖縄県立八重山商工高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 19,
+      "inningsPitched": 117,
+      "era": 1.46,
+      "eraDisplay": "1.46",
+      "wins": 10,
+      "losses": 3,
+      "saves": 0,
+      "strikeouts": 109
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 54,
+      "inningsPitched": 52.67,
+      "era": 1.71,
+      "eraDisplay": "1.71",
+      "wins": 4,
+      "losses": 2,
+      "saves": 31,
+      "strikeouts": 53
+    },
+    "careerSummary": "石垣島出身の剛腕。抑え・中継ぎで最優秀中継ぎや最多セーブのタイトルを獲得したのち、2026年は再び先発に転向して二桁勝利を挙げている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2020年東京オリンピック（2021年開催、金メダル）",
+        "year": "2021"
+      }
+    ],
+    "allStarYears": [
+      "2021",
+      "2022",
+      "2023",
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "離島から世代最速154km/h",
+        "description": "八重山商工高では1年時から外野手兼投手として公式戦に出場。在学中に最速154km/hを記録し、離島の公立校から全国区の注目を集めた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年は31セーブを挙げ、自身初の最多セーブのタイトルを獲得した。",
+      "2026年はプロ9年目で再び先発に転向し、開幕からローテーションを守って10勝。6月時点では防御率0.89でリーグトップに立ち、MLBスカウトの視察も報じられた。"
+    ],
+    "salaryManYen": 30000,
+    "salaryNote": "推定3億円（2026年、年俸データサイトによる推定）",
+    "dataNote": "出身中学校名はWikipedia等の主要記事に明記がなく、地元・石垣島の情報サイトの記述（真喜良小→石垣中→八重山商工高）に拠った。中学時代の所属は硬式クラブ「八重山ポニーズ」。",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "li3",
+    "name": "髙橋 光成",
+    "nameKana": "たかはし こうな",
+    "number": 13,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "右投右打",
+    "birthDate": "1997-02-03",
+    "height": 190,
+    "weight": 105,
+    "draftInfo": "2014年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "群馬県沼田市（旧・利根郡利根村）",
+      "juniorHigh": "沼田市立利根中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部。沼田市の軟式野球クラブ「NBAトレジャーズ」でもプレー）",
+      "highSchool": "前橋育英高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 19,
+      "inningsPitched": 125.33,
+      "era": 2.51,
+      "eraDisplay": "2.51",
+      "wins": 9,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 104
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 24,
+      "inningsPitched": 148,
+      "era": 3.04,
+      "eraDisplay": "3.04",
+      "wins": 8,
+      "losses": 9,
+      "saves": 0,
+      "strikeouts": 88
+    },
+    "careerSummary": "前橋育英高を夏の甲子園初優勝に導き、2014年ドラフト1位で入団。二桁勝利4度、開幕投手も複数回務めてきた長身右腕で、2026年も防御率2点台でローテーションを支えている。",
+    "careerTags": [
+      "koshien"
+    ],
+    "allStarYears": [
+      "2019",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "2013年夏の甲子園優勝投手",
+        "description": "前橋育英高2年時、第95回全国高等学校野球選手権大会で全試合に登板し大会防御率0.36。決勝で延岡学園を破り、同校初の全国制覇を果たした。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2013年夏の甲子園では9者連続奪三振を記録するなど圧巻の投球で前橋育英を初優勝に導いた。",
+      "2026年は8月31日時点で防御率2.51とパ・リーグ6位につけ、規定投球回に到達している。"
+    ],
+    "salaryManYen": 25000,
+    "salaryNote": "推定2億5000万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "li4",
+    "name": "武内 夏暉",
+    "nameKana": "たけうち なつき",
+    "number": 21,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "左投左打",
+    "birthDate": "2001-07-21",
+    "height": 186,
+    "weight": 96,
+    "draftInfo": "2023年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "福岡県北九州市八幡西区",
+      "juniorHigh": "折尾愛真中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "福岡県立八幡南高等学校",
+      "university": "國學院大學"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 19,
+      "inningsPitched": 123.67,
+      "era": 2.77,
+      "eraDisplay": "2.77",
+      "wins": 10,
+      "losses": 6,
+      "saves": 0,
+      "strikeouts": 97
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 12,
+      "inningsPitched": 63.33,
+      "era": 5.26,
+      "eraDisplay": "5.26",
+      "wins": 4,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 46
+    },
+    "careerSummary": "県立八幡南高から國學院大を経て2023年ドラフト1位で入団し、1年目に新人王を獲得した左腕。2026年は10勝を挙げてチームトップタイの勝ち星を記録している。",
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "國學院大のエース左腕、リーグMVP",
+        "description": "國學院大3年秋のリーグ戦で4勝0敗・防御率0.68をマークしMVP。明治神宮大会では8回2死までパーフェクトの無四球完封勝利を挙げ、2023年の日米大学野球選手権日本代表にも選ばれた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2024年にパ・リーグ新人王を獲得（10勝6敗・防御率2.17）。同年5月には月間MVPにも選ばれた。",
+      "2026年は8月31日時点で10勝を挙げ、リーグ4位タイの勝利数・防御率2.77でリーグ7位につけている。"
+    ],
+    "salaryManYen": 3850,
+    "salaryNote": "推定3850万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "⚡"
+  },
+  {
+    "id": "li5",
+    "name": "渡邉 勇太朗",
+    "nameKana": "わたなべ ゆうたろう",
+    "number": 12,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "throwsBats": "右投右打",
+    "birthDate": "2000-09-21",
+    "height": 191,
+    "weight": 106,
+    "draftInfo": "2018年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "埼玉県羽生市",
+      "juniorHigh": "羽生市立東中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "浦和学院高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 19,
+      "inningsPitched": 123.33,
+      "era": 3.58,
+      "eraDisplay": "3.58",
+      "wins": 5,
+      "losses": 7,
+      "saves": 0,
+      "strikeouts": 96
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 23,
+      "inningsPitched": 134,
+      "era": 2.69,
+      "eraDisplay": "2.69",
+      "wins": 7,
+      "losses": 9,
+      "saves": 0,
+      "strikeouts": 81
+    },
+    "careerSummary": "埼玉県羽生市出身・浦和学院高卒の地元育ちの長身右腕。2025年に自身初の完投完封を達成し、2026年も規定投球回に到達してローテーションを守っている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "浦和学院で第100回選手権大会に出場",
+        "description": "浦和学院高3年時は右肘の故障を乗り越えて春の関東大会で復帰。第100回全国高等学校野球選手権記念大会に出場し、準々決勝で大阪桐蔭に敗れた。大会後はU-18アジア選手権の日本代表に選出された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年9月6日にプロ初完投初完封を達成した。",
+      "埼玉県羽生市出身で浦和学院高から地元球団入り。2026年も8月31日時点で規定投球回に到達している。"
+    ],
+    "salaryManYen": 4300,
+    "salaryNote": "推定4300万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🎯"
+  },
+  {
+    "id": "li6",
+    "name": "甲斐野 央",
+    "nameKana": "かいの ひろし",
+    "number": 34,
+    "position": "投手",
+    "detailedPosition": "抑え",
+    "throwsBats": "右投左打",
+    "birthDate": "1996-11-16",
+    "height": 188,
+    "weight": 92,
+    "draftInfo": "2018年ドラフト1位（福岡ソフトバンクホークス）／2023年オフのFA人的補償で埼玉西武ライオンズへ移籍",
+    "roots": {
+      "hometown": "兵庫県西脇市（旧・多可郡黒田庄町）",
+      "juniorHigh": "西脇市立黒田庄中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部）",
+      "highSchool": "東洋大学附属姫路高等学校",
+      "university": "東洋大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 49,
+      "inningsPitched": 46.67,
+      "era": 1.74,
+      "eraDisplay": "1.74",
+      "wins": 2,
+      "losses": 2,
+      "saves": 19,
+      "strikeouts": 49
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 47,
+      "inningsPitched": 43.67,
+      "era": 2.47,
+      "eraDisplay": "2.47",
+      "wins": 2,
+      "losses": 3,
+      "saves": 0,
+      "strikeouts": 36
+    },
+    "careerSummary": "東洋大からソフトバンクにドラフト1位入団し、2024年にFA人的補償で西武へ。2026年はクローザーを務め、8月31日時点で19セーブを挙げている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2019年 第2回WBSCプレミア12",
+        "year": "2019"
+      }
+    ],
+    "allStarYears": [
+      "2025"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "東都で最優秀投手・ベストナイン",
+        "description": "東洋大3年秋の東都大学野球リーグでベストナインと最優秀投手を受賞。ハーレム国際大会では日本代表の胴上げ投手になった。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年6月、西武が球団初の交流戦優勝（勝率.824は交流戦史上最高）を決めた試合で1点差の9回を締め、胴上げ投手となった。",
+      "2025年は33ホールドを記録し、2026年は守護神として8月31日時点で19セーブを挙げている。"
+    ],
+    "salaryManYen": 6800,
+    "salaryNote": "推定6800万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "li7",
+    "name": "篠原 響",
+    "nameKana": "しのはら ひびき",
+    "number": 52,
+    "position": "投手",
+    "detailedPosition": "中継ぎ（セットアッパー）",
+    "throwsBats": "右投右打",
+    "birthDate": "2006-09-20",
+    "height": 178,
+    "weight": 81,
+    "draftInfo": "2024年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "愛知県名古屋市",
+      "juniorHigh": "名古屋市立日比野中学校",
+      "seniorOrBoys": "愛知尾州ボーイズ",
+      "highSchool": "福井工業大学附属福井高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 37,
+      "inningsPitched": 36,
+      "era": 1.75,
+      "eraDisplay": "1.75",
+      "wins": 2,
+      "losses": 2,
+      "saves": 1,
+      "strikeouts": 38
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 2,
+      "inningsPitched": 7,
+      "era": 10.29,
+      "eraDisplay": "10.29",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 8
+    },
+    "careerSummary": "最速158km/hを誇るプロ2年目・19歳の剛腕。2026年春季キャンプでリリーフ転向を告げられ、シーズン中盤にはリーグ屈指のセットアッパーに定着した。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "福井工大福井のエースとして北信越ベスト4",
+        "description": "3年春の福井県大会で148km/hを計測して完投勝利。36回1/3を投げて46奪三振を記録し、北信越大会ベスト4に進出した。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年の春季キャンプ終盤に西口文也監督から「いい場面で使うつもりだから」とリリーフ転向を告げられ、19歳でセットアッパーに定着。4〜5月には12試合連続無失点を記録した。",
+      "2025年は二軍で8勝・防御率2.20を挙げ、イースタン・リーグ優秀選手賞を受賞した。"
+    ],
+    "salaryManYen": 700,
+    "salaryNote": "推定700万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "⚡"
+  },
+  {
+    "id": "li8",
+    "name": "古賀 悠斗",
+    "nameKana": "こが ゆうと",
+    "number": 22,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "throwsBats": "右投右打",
+    "birthDate": "1999-09-10",
+    "height": 174,
+    "weight": 86,
+    "draftInfo": "2021年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "福岡県筑紫野市",
+      "juniorHigh": "筑紫野市立筑山中学校",
+      "seniorOrBoys": "オール筑紫ベースボールクラブ",
+      "highSchool": "福岡大学附属大濠高等学校",
+      "university": "中央大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 84,
+      "plateAppearances": 219,
+      "avg": 0.288,
+      "avgDisplay": ".288",
+      "hr": 4,
+      "rbi": 27,
+      "ops": 0.78,
+      "stolenBases": 2
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 112,
+      "plateAppearances": 328,
+      "avg": 0.228,
+      "avgDisplay": ".228",
+      "hr": 7,
+      "rbi": 21,
+      "ops": 0.634,
+      "stolenBases": 1
+    },
+    "careerSummary": "強肩と打撃を兼ね備えた正捕手格。侍ジャパンにも複数回選出され、2026年はルーキー小島大河とマスクを分け合いながら打率.288と好調を維持している。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2023年 第2回WBSCアジアプロ野球チャンピオンシップ",
+        "year": "2023"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "福岡大大濠で高校通算52本塁打",
+        "description": "内野手から2年秋に捕手へ転向。第89回選抜高等学校野球大会に出場し、高校通算52本塁打を放って2017年WBSC U-18ワールドカップの日本代表にも選ばれた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年8月、1試合8補殺という捕手の日本新記録を達成した。",
+      "2023年アジアプロ野球チャンピオンシップ（金メダル）、2024年WBSCプレミア12（銀メダル）の日本代表に選出された。"
+    ],
+    "salaryManYen": 6600,
+    "salaryNote": "推定6600万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🛡️"
+  },
+  {
+    "id": "li9",
+    "name": "小島 大河",
+    "nameKana": "こじま たいが",
+    "number": 10,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "throwsBats": "右投左打",
+    "birthDate": "2003-10-27",
+    "height": 178,
+    "weight": 83,
+    "draftInfo": "2025年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "神奈川県伊勢原市",
+      "juniorHigh": "伊勢原市立山王中学校",
+      "seniorOrBoys": "相模ボーイズ",
+      "highSchool": "東海大学付属相模高等学校",
+      "university": "明治大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 77,
+      "plateAppearances": 288,
+      "avg": 0.258,
+      "avgDisplay": ".258",
+      "hr": 8,
+      "rbi": 29,
+      "ops": 0.685,
+      "stolenBases": 0
+    },
+    "lastSeasonStats": {
+      "season": "2025"
+    },
+    "careerSummary": "東海大相模高・明治大で「打てる捕手」と評され2025年ドラフト1位で入団したルーキー。開幕からマスクをかぶり、新人王争いに加わる活躍を見せている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "2021年センバツ優勝、決勝でサヨナラ打",
+        "description": "東海大相模高3年春の第93回選抜高等学校野球大会で優勝。決勝戦ではサヨナラ適時打を放った。明治大では2年春から正捕手を務め、東京六大学でベストナインに選出された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年3月27日のデビュー戦で初出場初先発を果たし、初打席初安打を記録。3月31日には12球団の新人で一番乗りとなるプロ1号本塁打を放った。",
+      "8月8日のソフトバンク戦では8回に逆転の5号2ランを放ち、西口文也監督が「思い切りの良さ」を評価。新人捕手としての2桁本塁打（阿部慎之助以来）が視野に入った。"
+    ],
+    "salaryManYen": 1600,
+    "salaryNote": "推定1600万円（2026年、年俸データサイトによる推定）",
+    "dataNote": "2026年が1年目のため2025年のNPB一軍成績はなし（明治大4年時は東京六大学秋季リーグで打率.432を記録）。",
+    "photoEmoji": "🧤"
+  },
+  {
+    "id": "li10",
+    "name": "源田 壮亮",
+    "nameKana": "げんだ そうすけ",
+    "number": 6,
+    "position": "内野手",
+    "detailedPosition": "遊撃手",
+    "throwsBats": "右投左打",
+    "birthDate": "1993-02-16",
+    "height": 179,
+    "weight": 77,
+    "draftInfo": "2016年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "大分県大分市",
+      "juniorHigh": "大分市立明野中学校",
+      "seniorOrBoys": "明野ビッグボーイズ（現・明野ボーイズ）",
+      "highSchool": "大分県立大分商業高等学校",
+      "university": "愛知学院大学",
+      "social": "トヨタ自動車"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 99,
+      "plateAppearances": 266,
+      "avg": 0.211,
+      "avgDisplay": ".211",
+      "hr": 1,
+      "rbi": 23,
+      "ops": 0.548,
+      "stolenBases": 0
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 104,
+      "plateAppearances": 361,
+      "avg": 0.209,
+      "avgDisplay": ".209",
+      "hr": 0,
+      "rbi": 20,
+      "ops": 0.544,
+      "stolenBases": 8
+    },
+    "careerSummary": "球界屈指の名手として知られる不動のショート。2017年新人王、ゴールデングラブ賞7年連続7回受賞、東京五輪・WBCの金メダルメンバーで、2026年も遊撃の定位置を守り続けている。",
+    "nationalTeamHistory": [
+      {
+        "competition": "2017年 第1回WBSCアジアプロ野球チャンピオンシップ",
+        "year": "2017"
+      },
+      {
+        "competition": "2019年 第2回WBSCプレミア12",
+        "year": "2019"
+      },
+      {
+        "competition": "2020年東京オリンピック（2021年開催、金メダル）",
+        "year": "2021"
+      },
+      {
+        "competition": "2023年World Baseball Classic (WBC)",
+        "year": "2023"
+      }
+    ],
+    "allStarYears": [
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "growthTimeline": [
+      {
+        "period": "社会人時代",
+        "title": "トヨタ自動車で都市対抗優勝",
+        "description": "愛知学院大から進んだトヨタ自動車で1年目から公式戦に出場し、第87回都市対抗野球大会の優勝と優秀選手賞に輝いた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2018年から2024年まで三井ゴールデン・グラブ賞を7年連続7回受賞した。",
+      "2021年東京五輪、2023年WBCでいずれも金メダルを獲得した日本代表の遊撃手。"
+    ],
+    "salaryManYen": 30000,
+    "salaryNote": "推定3億円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "🧤"
+  },
+  {
+    "id": "li11",
+    "name": "外崎 修汰",
+    "nameKana": "とのさき しゅうた",
+    "number": 5,
+    "position": "内野手",
+    "detailedPosition": "二塁手",
+    "throwsBats": "右投右打",
+    "birthDate": "1992-12-20",
+    "height": 177,
+    "weight": 84,
+    "draftInfo": "2014年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "青森県弘前市",
+      "juniorHigh": "弘前市立弘前第四中学校",
+      "seniorOrBoys": "弘前シニア（1期生）→2年から弘前白神シニア",
+      "highSchool": "青森県立弘前実業高等学校",
+      "university": "富士大学"
+    },
+    "isTohokuConnection": true,
+    "currentStats": {
+      "season": "2026",
+      "games": 25,
+      "plateAppearances": 75,
+      "avg": 0.162,
+      "avgDisplay": ".162",
+      "hr": 1,
+      "rbi": 5,
+      "ops": 0.462,
+      "stolenBases": 1
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 115,
+      "plateAppearances": 415,
+      "avg": 0.234,
+      "avgDisplay": ".234",
+      "hr": 5,
+      "rbi": 34,
+      "ops": 0.628,
+      "stolenBases": 6
+    },
+    "careerSummary": "青森・弘前実業高から富士大を経て入団したチーム最古参格の内野手。ゴールデングラブ賞3度の守備と勝負強い打撃でチームを支え、2026年に通算1000安打を達成した。",
+    "careerTags": [
+      "captain"
+    ],
+    "nationalTeamHistory": [
+      {
+        "competition": "2017年 第1回WBSCアジアプロ野球チャンピオンシップ",
+        "year": "2017"
+      },
+      {
+        "competition": "2018年日米野球",
+        "year": "2018"
+      },
+      {
+        "competition": "2019年 第2回WBSCプレミア12",
+        "year": "2019"
+      }
+    ],
+    "allStarYears": [
+      "2018",
+      "2023"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "富士大で首位打者・主将",
+        "description": "富士大4年時に打率.432で首位打者となりベストナイン・優秀選手賞を受賞。チームの主将も務めた。甲子園出場経験はない叩き上げ。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2026年4月5日に史上327人目となる通算1000安打を達成し、同じ試合で通算200二塁打も同時に記録した。",
+      "2017年アジアプロ野球チャンピオンシップでMVPを受賞。ゴールデングラブ賞を2018年・2020年・2022年に受賞している。"
+    ],
+    "salaryManYen": 16000,
+    "salaryNote": "推定1億6000万円（2026年、年俸データサイトによる推定）",
+    "dataNote": "2026年は出場機会が限られており、8月末時点で25試合出場。",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "li12",
+    "name": "滝澤 夏央",
+    "nameKana": "たきざわ なつお",
+    "number": 62,
+    "position": "内野手",
+    "detailedPosition": "二塁手・遊撃手",
+    "throwsBats": "右投左打",
+    "birthDate": "2003-08-13",
+    "height": 164,
+    "weight": 65,
+    "draftInfo": "2021年育成ドラフト2位（埼玉西武ライオンズ）／2022年5月13日に支配下登録",
+    "roots": {
+      "hometown": "新潟県上越市",
+      "juniorHigh": "上越市立城西中学校",
+      "seniorOrBoys": "該当なし（中学は軟式野球部。新潟県KWBクラブ選抜に選出）",
+      "highSchool": "関根学園高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 102,
+      "plateAppearances": 396,
+      "avg": 0.287,
+      "avgDisplay": ".287",
+      "hr": 1,
+      "rbi": 28,
+      "ops": 0.687,
+      "stolenBases": 11
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 125,
+      "plateAppearances": 438,
+      "avg": 0.234,
+      "avgDisplay": ".234",
+      "hr": 0,
+      "rbi": 14,
+      "ops": 0.533,
+      "stolenBases": 21
+    },
+    "careerSummary": "164cmの小柄な体格ながら球界屈指の守備範囲を誇るユーティリティ内野手。育成2位からの叩き上げで、2026年は打率.287と自己最高の打撃成績を残している。",
+    "allStarYears": [
+      "2025",
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "関根学園で北信越ベスト4",
+        "description": "1年夏から二塁手のレギュラーを掴み、2年秋には新潟県大会3位・北信越大会ベスト4に進出。甲子園出場はなく、育成ドラフトでの入団となった。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年、守備指標で選出されるフィールディング・バイブル・アワードで年間最優秀選手に選ばれた。",
+      "2026年は規定打席に到達し、打率.287・出塁率.368と自己最高のシーズンを送っている。"
+    ],
+    "salaryManYen": 3200,
+    "salaryNote": "推定3200万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "💨"
+  },
+  {
+    "id": "li13",
+    "name": "平沢 大河",
+    "nameKana": "ひらさわ たいが",
+    "number": 39,
+    "position": "内野手",
+    "detailedPosition": "一塁手・三塁手（外野も兼任）",
+    "throwsBats": "右投左打",
+    "birthDate": "1997-12-24",
+    "height": 176,
+    "weight": 80,
+    "draftInfo": "2015年ドラフト1位（千葉ロッテマリーンズ）／2024年12月の現役ドラフトで埼玉西武ライオンズへ移籍",
+    "roots": {
+      "hometown": "宮城県多賀城市",
+      "juniorHigh": "多賀城市立高崎中学校",
+      "seniorOrBoys": "七ヶ浜リトルシニア（現・仙台伊達リトルシニア）",
+      "highSchool": "仙台育英学園高等学校"
+    },
+    "isTohokuConnection": true,
+    "currentStats": {
+      "season": "2026",
+      "games": 74,
+      "plateAppearances": 260,
+      "avg": 0.26,
+      "avgDisplay": ".260",
+      "hr": 2,
+      "rbi": 17,
+      "ops": 0.678,
+      "stolenBases": 1
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 7,
+      "plateAppearances": 17,
+      "avg": 0.059,
+      "avgDisplay": ".059",
+      "hr": 0,
+      "rbi": 0,
+      "ops": 0.177,
+      "stolenBases": 0
+    },
+    "careerSummary": "仙台育英高から2015年ドラフト1位でロッテ入りし、2024年12月の現役ドラフトで西武へ。移籍2年目の2026年に一・三塁と外野を兼ねながら打率.260と出場機会を大きく増やした。",
+    "careerTags": [
+      "koshien"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "仙台育英で甲子園準優勝",
+        "description": "第97回全国高等学校野球選手権大会で仙台育英の準優勝に貢献し、大会で3本塁打を放った。U-18ワールドカップでは遊撃手としてベストナインに選ばれた。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2024年12月の現役ドラフトでロッテから西武へ移籍。入団会見で「この移籍をいいきっかけにしたい」と語った。",
+      "2022年にはイースタン・リーグの首位打者と最高出塁率のタイトルを獲得している。"
+    ],
+    "salaryManYen": 1400,
+    "salaryNote": "推定1400万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "li14",
+    "name": "T.ネビン",
+    "nameKana": "T.ねびん",
+    "number": 26,
+    "position": "内野手",
+    "detailedPosition": "一塁手",
+    "throwsBats": "右投右打",
+    "birthDate": "1997-05-29",
+    "height": 193,
+    "weight": 102,
+    "draftInfo": "2015年MLBドラフト1巡目・戦力均衡ラウンドA（全体38位、コロラド・ロッキーズ）／2025年に埼玉西武ライオンズ入団",
+    "roots": {
+      "hometown": "アメリカ・カリフォルニア州パウウェイ",
+      "juniorHigh": "情報未確認",
+      "seniorOrBoys": "情報未確認",
+      "highSchool": "パウウェイ高等学校（Poway High School）"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 82,
+      "plateAppearances": 340,
+      "avg": 0.268,
+      "avgDisplay": ".268",
+      "hr": 17,
+      "rbi": 39,
+      "ops": 0.842,
+      "stolenBases": 0
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 137,
+      "plateAppearances": 570,
+      "avg": 0.277,
+      "avgDisplay": ".277",
+      "hr": 21,
+      "rbi": 63,
+      "ops": 0.794,
+      "stolenBases": 2
+    },
+    "careerSummary": "オリオールズ・タイガース・アスレチックスを経て2025年に来日した右の中軸打者。来日1年目に21本塁打を放ち一塁手でゴールデングラブ賞を受賞、2026年も長打力でチームを牽引している。",
+    "allStarYears": [
+      "2026"
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "パウウェイ高からMLBドラフト1巡目",
+        "description": "カリフォルニア州のパウウェイ高から2015年MLBドラフト1巡目（全体38位）でコロラド・ロッキーズに指名された。父は元メジャーリーガーのフィル・ネビン。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "来日1年目の2025年にリーグ3位の21本塁打を放ち、5月の月間MVPと一塁手部門の三井ゴールデン・グラブ賞（初受賞）に輝いた。",
+      "2025年オフに球団と2年契約を締結し、2026年も主軸を任されている。"
+    ],
+    "salaryManYen": 30000,
+    "salaryNote": "推定3億円（2026年、年俸データサイトによる推定）",
+    "dataNote": "外国出身選手のため出身中学・シニア/ボーイズに相当する項目は該当なし（米国の学校制度のため）。大学進学歴はなく高卒でプロ入り。",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "li15",
+    "name": "渡部 聖弥",
+    "nameKana": "わたなべ せいや",
+    "number": 8,
+    "position": "外野手",
+    "detailedPosition": "三塁手（登録は外野手／2026年は主に三塁を守る）",
+    "throwsBats": "右投右打",
+    "birthDate": "2002-08-31",
+    "height": 177,
+    "weight": 88,
+    "draftInfo": "2024年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "広島県府中市",
+      "juniorHigh": "府中市立第一中学校",
+      "seniorOrBoys": "該当なし（中学は軟式のクラブチーム「府中野球クラブ」でプレー）",
+      "highSchool": "広陵高等学校",
+      "university": "大阪商業大学"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 107,
+      "plateAppearances": 425,
+      "avg": 0.256,
+      "avgDisplay": ".256",
+      "hr": 8,
+      "rbi": 39,
+      "ops": 0.655,
+      "stolenBases": 3
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 109,
+      "plateAppearances": 452,
+      "avg": 0.259,
+      "avgDisplay": ".259",
+      "hr": 12,
+      "rbi": 43,
+      "ops": 0.694,
+      "stolenBases": 2
+    },
+    "careerSummary": "広陵高から大阪商業大を経て2024年ドラフト2位で入団。1年目から開幕スタメンを勝ち取り12本塁打を放った右の若手主砲で、2026年は三塁にコンバートされてフル出場を続けている。",
+    "allStarYears": [
+      "2025"
+    ],
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "関西六大学のシーズン最多本塁打記録を更新",
+        "description": "大阪商業大2年春に首位打者、同年秋には5本塁打で関西六大学野球連盟のシーズン最多本塁打記録を更新。ベストナインに計5度選ばれ、2023年の日米大学野球選手権の日本代表にも選出された。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年は球団では8年ぶりとなる新人の開幕スタメンを務め、新人としては22年ぶりの2桁本塁打（12本）を記録した。",
+      "2026年は外野手から三塁手へコンバートされ、「サードでタイトルを取りたい」と語って守備の再構築に取り組んでいる。"
+    ],
+    "salaryManYen": 3100,
+    "salaryNote": "推定3100万円（2026年、年俸データサイトによる推定）",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "li16",
+    "name": "長谷川 信哉",
+    "nameKana": "はせがわ しんや",
+    "number": 63,
+    "position": "外野手",
+    "detailedPosition": "外野手（一塁も兼任）",
+    "throwsBats": "右投右打",
+    "birthDate": "2002-05-17",
+    "height": 183,
+    "weight": 90,
+    "draftInfo": "2020年育成ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "京都府京都市",
+      "juniorHigh": "京都市立東山泉小中学校",
+      "seniorOrBoys": "情報未確認（小学生時代は御所南クラブでプレー）",
+      "highSchool": "敦賀気比高等学校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 71,
+      "plateAppearances": 248,
+      "avg": 0.293,
+      "avgDisplay": ".293",
+      "hr": 10,
+      "rbi": 33,
+      "ops": 0.852,
+      "stolenBases": 6
+    },
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 132,
+      "plateAppearances": 450,
+      "avg": 0.225,
+      "avgDisplay": ".225",
+      "hr": 6,
+      "rbi": 36,
+      "ops": 0.611,
+      "stolenBases": 9
+    },
+    "careerSummary": "育成2位から支配下を勝ち取った長打力と俊足を併せ持つ外野手。2025年に育成出身では球界初となる交流戦MVPを受賞し、2026年はOPS.852と打棒が本格化している。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "敦賀気比で投手から野手へ転向",
+        "description": "敦賀気比高2年春に投手から野手へ転向。第91回選抜大会でベンチ入りし、第101回全国高等学校野球選手権大会では控えとして3試合に出場した。3年時はコロナ禍で大会が中止となった。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年のセ・パ交流戦で打率.366の首位打者となり日本生命賞（交流戦MVP）を受賞。育成出身選手の受賞は球界初の快挙だった。",
+      "高校2年春まで投手だったため、野手としては本格転向から2年でプロ入りした異色の経歴を持つ。"
+    ],
+    "salaryManYen": 3400,
+    "salaryNote": "推定3400万円（2026年、年俸データサイトによる推定）",
+    "dataNote": "中学時代の所属野球チーム（硬式クラブか学校の軟式野球部か）は確認できなかった。出身中学は文化放送のインタビュー記事に基づく（京都市立東山泉小中学校）。",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "li17",
+    "name": "A.カナリオ",
+    "nameKana": "A.かなりお",
+    "number": 25,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "throwsBats": "右投右打",
+    "birthDate": "2000-05-07",
+    "height": 185,
+    "weight": 97,
+    "draftInfo": "国際フリーエージェント契約でサンフランシスコ・ジャイアンツ入団（2016年）／2025年12月に埼玉西武ライオンズと契約",
+    "roots": {
+      "hometown": "ドミニカ共和国モンテクリスティ州",
+      "juniorHigh": "情報未確認",
+      "seniorOrBoys": "情報未確認",
+      "highSchool": "リセオ・セクンダリオ・ホセ・マルティ高校"
+    },
+    "isTohokuConnection": false,
+    "currentStats": {
+      "season": "2026",
+      "games": 111,
+      "plateAppearances": 437,
+      "avg": 0.246,
+      "avgDisplay": ".246",
+      "hr": 13,
+      "rbi": 47,
+      "ops": 0.697,
+      "stolenBases": 12
+    },
+    "lastSeasonStats": {
+      "season": "2025"
+    },
+    "careerSummary": "カブス・パイレーツでプレーしたドミニカ共和国出身の長距離砲。2026年に来日し、外野のレギュラーとして規定打席に到達しながら本塁打・盗塁の両方で二桁を記録している。",
+    "growthTimeline": [
+      {
+        "period": "マイナー時代",
+        "title": "マイナー通算109本塁打",
+        "description": "ジャイアンツ傘下で育ち、2022年にはマイナーで37本塁打を記録。長距離打者特有の打球角度が評価され、西武入団の決め手となった。"
+      }
+    ],
+    "positionHistory": [],
+    "episodes": [
+      "2025年12月22日に西武と契約（背番号25）。獲得時、広池球団本部長は「さまざまな起用に応えられる点も獲得の決め手」とコメントした。",
+      "2026年3月27日のロッテ戦でNPBデビューし、以降は外野の主力として規定打席に到達している。"
+    ],
+    "salaryManYen": 15000,
+    "salaryNote": "推定1億5000万円（2026年、報道・年俸データサイトによる推定）",
+    "dataNote": "2026年が来日1年目のため2025年のNPB成績はなし（2025年はピッツバーグ・パイレーツ傘下でプレー）。外国出身選手のため出身中学・シニア/ボーイズに相当する項目は該当なし。",
+    "photoEmoji": "💣"
+  },
+  {
+    "id": "seibu-101",
+    "name": "青山 美夏人",
+    "nameKana": "あおやま みなと",
+    "number": 29,
+    "position": "投手",
+    "detailedPosition": "投手",
+    "birthDate": "2000-07-19",
+    "draftInfo": "2022年ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "神奈川県横須賀市",
+      "juniorHigh": "横須賀市立衣笠中学校",
+      "highSchool": "横浜隼人高等学校",
+      "university": "亜細亜大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 2,
+      "games": 2,
+      "era": 9.0,
+      "eraDisplay": "9.00",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 2
+    },
+    "throwsBats": "右投右打",
+    "height": 184,
+    "weight": 94,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 2,
+      "games": 2,
+      "era": 13.5,
+      "eraDisplay": "13.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 0
+    },
+    "careerSummary": "亜細亜大学から2022年ドラフト4位で西武入りした本格派右腕。ルーキーイヤーの2023年は開幕から一軍の抑えを任され、2024年7月17日には自己初完投・初勝利を無四球の内容で飾った。以後は右肘周辺の状態もあり登板機会に波がある。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "甲子園には届かず",
+        "description": "横浜隼人高校でプレーし、3年夏の神奈川大会では2回戦で横浜商業高校に敗れ、甲子園出場はならなかった。"
+      },
+      {
+        "period": "亜細亜大学時代",
+        "title": "故障を乗り越え4年春に急成長",
+        "description": "3年時に右肩を痛めるも、4年春のリーグ戦で6勝を挙げてMVPとベストナインを受賞。ハーレム・ベースボール・ウィーク日本代表にも選出され、2022年10月のドラフト会議で埼玉西武ライオンズから4位指名を受けた。"
+      },
+      {
+        "period": "2023年",
+        "title": "ルーキーながら開幕投手(抑え)に指名",
+        "description": "オープン戦5試合を無失点で乗り切り、開幕前に松井貴夫監督から起用法を尋ねられた際「一番いい場面で投げたい」と答えたことも一因となり、開幕戦(3月31日・オリックス戦)でいきなり抑えを任された。この試合は森友哉に同点本塁打を浴びセーブを逃したが、4月2日の同カードで初セーブを記録。ルーキーイヤーは39試合、1ホールド、3セーブ、防御率2.96だった。"
+      },
+      {
+        "period": "2024年",
+        "title": "先発転向、7月17日に初完投・初勝利",
+        "description": "2024年は先発としての起用を試み、5月10日の東北楽天戦で先発デビューするも黒星が続いた。7月17日のオリックス戦では9回を3安打1四球3奪三振無失点に抑えて自己初完投・プロ初勝利を挙げた。8月20日には体調不良で登録抹消され、シーズンは6先発・1勝4敗・防御率2.78で終えた。"
+      }
+    ],
+    "episodes": [
+      "2023年開幕前、松井貴夫監督(当時)から起用法の希望を聞かれた青山は「一番いい場面で投げたい」と答え、ルーキーながら開幕戦の抑えに指名された。初登板となった3月31日のオリックス戦では9回に同点ソロを森友哉に浴びセーブを逃したものの、中2日の4月2日に同カードでプロ初セーブを記録し、開幕早々に汚名を返上した。",
+      "2024年7月17日のオリックス戦、9回を3安打1四球3奪三振無失点に封じた青山は、プロ初勝利を自己初完投という最高の形で飾った。武器の鋭く落ちるフォークボールに加え、亜細亜大学時代に磨いたツーシームを軟投派の緩急として織り交ぜる投球が持ち味となっている。"
+    ],
+    "salaryManYen": 1550,
+    "salaryNote": "推定1550万円（2025年シーズン分、2024年12月契約更改時点、スポーツ紙推定年俸集計）",
+    "photoEmoji": "🌊"
+  },
+  {
+    "id": "seibu-102",
+    "name": "糸川 亮太",
+    "nameKana": "いとがわ りょうた",
+    "number": 23,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1998-04-30",
+    "draftInfo": "2023年ドラフト7位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "愛媛県四国中央市",
+      "juniorHigh": "四国中央市立川之江北中学校",
+      "highSchool": "愛媛県立川之江高等学校",
+      "university": "立正大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 11.67,
+      "games": 9,
+      "era": 6.17,
+      "eraDisplay": "6.17",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 6
+    },
+    "throwsBats": "右投右打",
+    "height": 172,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 18.67,
+      "games": 13,
+      "era": 2.89,
+      "eraDisplay": "2.89",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 17
+    },
+    "careerSummary": "愛媛県川之江高校から立正大学、社会人のENEOSを経て2023年ドラフト7位で西武入り。2024年は延長戦のプロ初登板でサヨナラ負け投手となる苦しい船出だったが、2025年は防御率2.89まで安定感を増した。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "右肘の張りに苦しみ甲子園には届かず",
+        "description": "愛媛県立川之江高校では2年時に救援投手として県大会準々決勝で敗退。3年春は四国大会決勝まで進出したが、春先から右肘に張りを覚え四国大会は欠場し、3年夏は愛媛大会2回戦で松山聖陵に1-5で敗れた。"
+      },
+      {
+        "period": "立正大学時代",
+        "title": "東都リーグ・明治神宮大会で優勝投手に",
+        "description": "1年冬にシンカーを習得。2年秋には東都大学野球リーグ2部で6試合に登板し2勝1敗・防御率1.98をマークしてチームの18季ぶりとなる1部昇格に貢献し、明治神宮大会でも3試合13イニングを防御率0.69に抑え優勝投手となった。"
+      },
+      {
+        "period": "社会人ENEOS時代",
+        "title": "都市対抗・日本選手権で経験を積む",
+        "description": "2年目に都市対抗2回戦でデビューし、日本選手権2回戦の日本新薬戦では6回1安打8奪三振無失点の好投を見せた。3年目には都市対抗のメンバー入りを果たした。"
+      },
+      {
+        "period": "プロ入り2023-2024年",
+        "title": "唯一のルーキーとして開幕一軍、延長戦で苦い初登板",
+        "description": "2023年10月26日のドラフト会議で埼玉西武ライオンズから7位指名を受け、11月20日に契約金2000万円・年俸950万円(いずれも推定)で仮契約。2024年は同期入団選手で唯一開幕一軍入りし、3月31日の東北楽天戦(延長11回)でプロ初登板を果たすも小深田大翔に決勝の犠牲フライを浴びサヨナラ負け投手となった。この年は4試合登板、0勝1敗、防御率9.82に終わった。"
+      },
+      {
+        "period": "2025年",
+        "title": "防御率2.89まで改善",
+        "description": "2025年は13試合に登板し2ホールドを記録、防御率2.89と前年から大きく数字を改善した。"
+      }
+    ],
+    "episodes": [
+      "2024年3月31日、延長11回の東北楽天戦でプロ初登板を果たした糸川は、小深田大翔に決勝の犠牲フライを許してサヨナラ負け投手となった。この年、同期入団選手の中で開幕一軍入りしたのは糸川だけだったが、シーズンは4試合登板・防御率9.82と厳しい結果に終わり、同年12月の契約更改では「期待に応えることができなかった」と振り返り年俸を減額でサインした。",
+      "社会人時代のENEOS(旧・新日本石油)で磨いたシンカーを武器に、2025年は13試合の登板で防御率2.89まで数字を改善。「任されたポジションでがんばりたい」と語り、救援陣の一角に食い込みつつある。"
+    ],
+    "salaryManYen": 900,
+    "salaryNote": "推定900万円（2025年シーズン分、2024年12月契約更改時点、前年から50万円減額。スポーツ紙推定年俸集計）",
+    "photoEmoji": "⛽"
+  },
+  {
+    "id": "seibu-103",
+    "name": "岩城 颯空",
+    "nameKana": "いわき はくあ",
+    "number": 20,
+    "position": "投手",
+    "detailedPosition": "抑え",
+    "birthDate": "2003-09-17",
+    "draftInfo": "2025年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "富山県",
+      "highSchool": "富山県立富山商業高等学校",
+      "university": "中央大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 30.67,
+      "games": 31,
+      "era": 3.52,
+      "eraDisplay": "3.52",
+      "wins": 2,
+      "losses": 1,
+      "saves": 18,
+      "strikeouts": 31
+    },
+    "throwsBats": "左投左打",
+    "height": 181,
+    "weight": 95,
+    "isTohokuConnection": false,
+    "careerSummary": "富山県立富山商業高校から中央大学へ進み、2025年ドラフト2位で西武入り。ルーキーながら開幕から一軍の守護神を任され、2026年はここまで自己最多となるセーブを重ねる即戦力左腕として台頭している。",
+    "growthTimeline": [
+      {
+        "period": "富山商業高校〜中央大学",
+        "title": "中央大学から2025年ドラフト2位でプロ入り",
+        "description": "富山県立富山商業高等学校を経て中央大学に進学。2025年10月のドラフト会議で埼玉西武ライオンズから2位指名を受けた。"
+      },
+      {
+        "period": "2026年",
+        "title": "ルーキーながら開幕から守護神に",
+        "description": "1年目から一軍のクローザーを任され、2026年8月25日時点で31試合に登板し2勝1敗18セーブ、防御率3.52をマークしている。"
+      }
+    ],
+    "episodes": [
+      "2025年ドラフトで西武から2位指名を受けた岩城は、中央大学から即戦力左腕として入団。育成に時間をかける投手が多い中、ルーキーイヤーの2026年から一軍の抑えという重責を任され、シーズン中盤時点で18セーブを挙げるなど、球団の新たな守護神候補として存在感を示している。"
+    ],
+    "photoEmoji": "🔒"
+  },
+  {
+    "id": "seibu-104",
+    "name": "T.ウィンゲンター",
+    "nameKana": "T.うぃんげんたー",
+    "number": 45,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1994-04-15",
+    "draftInfo": "MLBパドレス・タイガース・レッドソックス・カブスを経て2025年に埼玉西武ライオンズと契約",
+    "roots": {
+      "hometown": "アメリカ合衆国アラバマ州ハンツビル",
+      "highSchool": "ボブ・ジョーンズ高等学校",
+      "university": "オーバーン大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 23,
+      "games": 25,
+      "era": 1.57,
+      "eraDisplay": "1.57",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 27
+    },
+    "throwsBats": "右投右打",
+    "height": 201,
+    "weight": 107,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 46.67,
+      "games": 49,
+      "era": 1.74,
+      "eraDisplay": "1.74",
+      "wins": 1,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 69
+    },
+    "careerSummary": "米アラバマ州出身。オーバーン大学からパドレスに2015年ドラフト指名されメジャーデビューし、右肘のトミー・ジョン手術を乗り越えてパドレス、タイガース、レッドソックス、カブスと渡り歩いた。2025年1月に西武と契約すると来日1年目からリリーフで防御率1.74の好成績を残し、シーズン中の同年8月には早くも2026年の契約継続が発表された。",
+    "growthTimeline": [
+      {
+        "period": "大学〜メジャー挑戦",
+        "title": "2015年ドラフトでパドレス入り",
+        "description": "ボブ・ジョーンズ高校卒業後、2012年のMLBドラフトでマリナーズから36巡目指名を受けるも進学を選択。オーバーン大学を経て2015年ドラフトでサンディエゴ・パドレスから17巡目指名を受け、2018年8月7日にメジャーデビューを果たした。"
+      },
+      {
+        "period": "2020年",
+        "title": "トミー・ジョン手術からの再起",
+        "description": "2020年7月17日に右肘の靭帯再建(トミー・ジョン)手術を受けシーズンを全休。以後はレッズ傘下、タイガース、レッドソックス、カブスと複数球団を渡り歩くジャーニーマンとなった。"
+      },
+      {
+        "period": "2025年",
+        "title": "西武移籍1年目からリリーフの中心に",
+        "description": "2025年1月6日に埼玉西武ライオンズと契約し来日。49試合に登板し1勝4敗・防御率1.74、31ホールド、69奪三振と、メジャー通算防御率5.66台から大きく数字を改善する好成績を残し、8月18日にはシーズン中ながら早くも2026年分の契約締結が発表された。"
+      }
+    ],
+    "episodes": [
+      "2018年8月にパドレスでメジャーデビューしたウィンゲンターは、2020年に右肘のトミー・ジョン手術を経験。その後タイガース、レッドソックス、カブスと複数球団を渡り歩くジャーニーマンとなったが、メジャー通算防御率5.66・127奪三振という数字に対し、2025年に西武でNPB1年目を迎えると49試合登板で防御率1.74・69奪三振という好成績を残し、日本球界で自身のキャリアを再構築しつつある。201cmの長身から投げ下ろす制球力が武器で、シーズン途中の2025年8月18日には早くも翌2026年分の契約が発表された。"
+    ],
+    "photoEmoji": "✈️"
+  },
+  {
+    "id": "seibu-105",
+    "name": "上田 大河",
+    "nameKana": "うえだ たいが",
+    "number": 11,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2001-11-15",
+    "draftInfo": "2023年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "三重県尾鷲市",
+      "juniorHigh": "大阪市立東生野中学校",
+      "highSchool": "大阪商業大学高等学校",
+      "university": "大阪商業大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 19.33,
+      "games": 14,
+      "era": 3.72,
+      "eraDisplay": "3.72",
+      "wins": 2,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 16
+    },
+    "throwsBats": "右投右打",
+    "height": 183,
+    "weight": 88,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 20.67,
+      "games": 4,
+      "era": 6.75,
+      "eraDisplay": "6.75",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 6
+    },
+    "careerSummary": "三重県尾鷲市生まれで幼少期に大阪へ転居。大阪商業大学高校から大阪商業大学に進み、大学では2年連続の防御率タイトルと大学野球史上12人目のノーヒットノーランを達成した。2023年ドラフト2位で西武入りし、2024年6月5日にプロ初登板を果たした。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "大阪商業大学高校でエースに、甲子園は目前で逃す",
+        "description": "3年秋に背番号1を託され、3年春の大阪大会では優勝を果たした。3年夏は大阪府予選3回戦で大商大堺に敗れ、甲子園出場はならなかった。"
+      },
+      {
+        "period": "大阪商業大学時代",
+        "title": "2年連続防御率タイトルとノーヒットノーラン",
+        "description": "3年時と4年時に関西六大学リーグの防御率タイトルを連続で獲得。4年秋には大阪学院大学戦で大学野球史上12人目となるノーヒットノーランを達成し、日米大学野球選手権では日本代表として優勝に貢献した。"
+      },
+      {
+        "period": "プロ入り2023-2024年",
+        "title": "ドラフト2位でプロ入り、プロ初登板・初ホールド",
+        "description": "2023年10月26日のドラフト会議で埼玉西武ライオンズから2位指名を受け、11月21日に契約金7000万円・年俸1250万円(いずれも推定)で仮契約。2024年6月5日、読売ジャイアンツ戦(8回途中救援)でプロ初登板を果たし、8月22日のオリックス戦では2イニングを無失点に抑えプロ初ホールドを記録した。"
+      },
+      {
+        "period": "2025年",
+        "title": "苦しんだ2年目",
+        "description": "2025年は4試合の登板にとどまり、0勝2敗・防御率6.75と結果を残せないシーズンとなった。"
+      }
+    ],
+    "episodes": [
+      "大阪商業大学4年秋、大阪学院大学戦で大学野球史上12人目となるノーヒットノーランを達成した上田は、自己最速154km/hの直球を武器に2023年ドラフト2位で西武入り。「プレッシャーに負けない自信はある」と語った通り、2024年6月5日の読売ジャイアンツ戦でプロ初登板を飾り、同年8月22日には無失点投球でプロ初ホールドを記録した。2025年は4試合の登板にとどまり、一軍定着へ向けて再起を期すシーズンとなった。"
+    ],
+    "salaryManYen": 1250,
+    "salaryNote": "推定1250万円(2024年シーズン分、2023年11月の入団時契約金・年俸)。以降の契約更改額は非公表のため不明。",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "seibu-106",
+    "name": "黒木 優太",
+    "nameKana": "くろき ゆうた",
+    "number": 54,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1994-08-16",
+    "draftInfo": "2016年ドラフト2位（オリックス・バファローズ）／北海道日本ハムファイターズを経て2024年11月に育成契約で埼玉西武ライオンズ入団",
+    "roots": {
+      "hometown": "神奈川県横浜市港北区",
+      "juniorHigh": "横浜市立日吉台中学校",
+      "highSchool": "橘学苑高等学校",
+      "university": "立正大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 7,
+      "games": 8,
+      "era": 1.29,
+      "eraDisplay": "1.29",
+      "wins": 1,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 9
+    },
+    "throwsBats": "右投左打",
+    "height": 180,
+    "weight": 87,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 29.33,
+      "games": 29,
+      "era": 3.38,
+      "eraDisplay": "3.38",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 25
+    },
+    "careerSummary": "神奈川県横浜市出身。立正大学からオリックスに2016年ドラフト2位で入団し、2017年に55試合登板・オールスター選出の活躍を見せたが2019年にトミー・ジョン手術を経験。2023年に日本ハムへ移籍後2度の戦力外通告を受け、2024年11月に育成契約で西武へ加入。2025年は29試合に登板し防御率3.38と復活を印象づけた。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "遊撃手から投手へ転向",
+        "description": "橘学苑高校2年秋、強肩を買われ遊撃手から投手へ転向し、最速146km/hを計測した。"
+      },
+      {
+        "period": "オリックス時代 2016-2022年",
+        "title": "ルーキーイヤーにオールスター選出、その後の故障",
+        "description": "2016年ドラフト2位でオリックスに入団すると、2017年は55試合に登板し6勝3敗25ホールド2セーブ・防御率4.22の成績でオールスターに初選出された。だが2019年6月24日に右肘靭帯を損傷しトミー・ジョン手術を受け、同年10月に一度目の戦力外通告、12月に育成契約となった。2022年には支配下復帰後初めてシーズンを通して一軍で活躍した。"
+      },
+      {
+        "period": "2023年〜日本ハム移籍",
+        "title": "先発転向の模索と移籍、2度目の戦力外",
+        "description": "2023年は先発転向を試みるも4先発を含む12試合で1勝5敗・防御率6.58と苦しみ、同年11月24日に吉田輝星との交換トレードで北海道日本ハムへ移籍。2024年は登板わずか2試合にとどまり、10月22日に2度目の戦力外通告を受けた。"
+      },
+      {
+        "period": "2024年11月〜2025年",
+        "title": "育成契約で西武へ、リリーフとして復活",
+        "description": "2024年11月20日、育成選手として埼玉西武ライオンズに入団(背番号136)。支配下再登録を経て、2025年は29試合に登板し1勝1敗・防御率3.38を記録し、救援陣の一角として存在感を示した。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "高校時代",
+        "position": "投手(遊撃手から転向)",
+        "reason": "強肩を買われ2年秋に投手へ転向"
+      },
+      {
+        "period": "2017年",
+        "position": "投手(セットアッパー・抑え)",
+        "reason": "ルーキーイヤーから救援陣の中心として起用された"
+      },
+      {
+        "period": "2018〜2019年、2023年",
+        "position": "投手(先発転向を試行)",
+        "reason": "役割拡大を目指し先発転向に挑戦するも定着せず、2019年はその過程で右肘を痛めてトミー・ジョン手術に至った"
+      },
+      {
+        "period": "2024年11月〜",
+        "position": "投手(リリーフ)",
+        "reason": "日本ハムから2度目の戦力外通告を受けた後、西武の育成選手として救援投手で再起を図った"
+      }
+    ],
+    "episodes": [
+      "オリックス時代、敬愛する黒木知宏にあやかり「ジョニー」の愛称で呼ばれた黒木は、大の倖田來未ファンとしても知られ、2017年から2021年まで登場曲に「LIFE so GOOD!!」を使用。2022年には本人書き下ろしの「It's 'K' magic」を登場曲として提供されるほどの熱心さで、高校時代から愛読する野球漫画『砂の栄冠』を「野球の教科書」と公言している。",
+      "2019年6月にトミー・ジョン手術を受けた黒木は、術前の右肘の状態について医師も驚くほどだったと振り返る。オリックスで2度の先発転向失敗を経て2023年に日本ハムへトレードされるも定着できず2度目の戦力外通告を受けたが、2024年11月に育成契約で西武へ加入。支配下復帰を経て2025年は29試合に登板し防御率3.38をマークし、再起を果たしつつある。"
+    ],
+    "photoEmoji": "🎤"
+  },
+  {
+    "id": "seibu-107",
+    "name": "黒田 将矢",
+    "nameKana": "くろだ まさや",
+    "number": 57,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2004-01-24",
+    "draftInfo": "2021年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "青森県むつ市",
+      "juniorHigh": "むつ市立大平中学校",
+      "highSchool": "八戸工業大学第一高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 24.33,
+      "games": 29,
+      "era": 4.07,
+      "eraDisplay": "4.07",
+      "wins": 2,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 19
+    },
+    "throwsBats": "右投右打",
+    "height": 188,
+    "weight": 88,
+    "isTohokuConnection": true,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 12.67,
+      "games": 8,
+      "era": 5.68,
+      "eraDisplay": "5.68",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 13
+    },
+    "careerSummary": "青森県むつ市出身。八戸工業大学第一高校でエースを務めたが甲子園出場はなく、2021年ドラフト5位で西武入り。最速157km/hの剛腕で「むつの剛腕」の異名を持つ。2025年は一軍8試合の登板にとどまったが、2026年は中継ぎとして登板数を伸ばしている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "「むつの剛腕」、甲子園には一歩届かず",
+        "description": "八戸工業大学第一高校で2年秋からエースを任され、同年秋の青森大会は八戸西に敗れ県8位。3年春の県大会は準優勝。3年夏は青森大会準決勝で青森山田に敗れベスト4に終わり、甲子園出場はならなかった。"
+      },
+      {
+        "period": "プロ入り2021-2024年",
+        "title": "ファームで力を蓄えた雌伏の時期",
+        "description": "2021年10月のドラフト会議で埼玉西武ライオンズから5位指名を受け、契約金2500万円・年俸650万円(いずれも推定)でプロ入り。2023年にはフレッシュオールスターに選出されたが右手指屈筋腱の負傷で出場を辞退。2024年はイースタン・リーグで8試合に登板し防御率3.94、オフには台湾で行われたアジアウインターベースボールリーグにも派遣された。"
+      },
+      {
+        "period": "2025年〜2026年",
+        "title": "一軍定着への挑戦",
+        "description": "2025年は一軍8試合の登板で防御率5.68と苦戦したが、2026年は中継ぎとして一軍での登板機会を増やしている。"
+      }
+    ],
+    "episodes": [
+      "むつ市の大平マリナーズで4年生から野球を始め、むつ市立大平中学校では軟式野球部に所属した黒田は、八戸工業大学第一高校で最速157km/hを記録し「むつの剛腕」の異名で呼ばれるように。3年夏は青森大会準決勝で青森山田に敗れ、甲子園出場は果たせなかった。",
+      "2023年にはフレッシュオールスターに選出されるも右手指屈筋腱の負傷で出場を辞退した黒田は、2024年オフに山田陽翔・村田怜音・モンテルら若手とともに台湾のアジアウインターベースボールリーグへ派遣され経験を積んだ。2025年は一軍8試合にとどまったが、2026年は中継ぎとして着実に登板数を積み重ねている。"
+    ],
+    "salaryManYen": 630,
+    "salaryNote": "推定630万円（2025年シーズン分、2024年12月契約更改時点、前年から20万円減額。スポーツ紙推定年俸集計）",
+    "photoEmoji": "💪"
+  },
+  {
+    "id": "seibu-108",
+    "name": "佐藤 隼輔",
+    "nameKana": "さとう しゅんすけ",
+    "number": 19,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2000-01-03",
+    "draftInfo": "2021年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "宮城県仙台市",
+      "juniorHigh": "仙台市立広瀬中学校",
+      "highSchool": "仙台市立仙台高等学校",
+      "university": "筑波大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 24,
+      "games": 28,
+      "era": 4.5,
+      "eraDisplay": "4.50",
+      "wins": 4,
+      "losses": 1,
+      "saves": 1,
+      "strikeouts": 22
+    },
+    "throwsBats": "左投左打",
+    "height": 182,
+    "weight": 86,
+    "isTohokuConnection": true,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 19.67,
+      "games": 20,
+      "era": 6.41,
+      "eraDisplay": "6.41",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 13
+    },
+    "careerSummary": "山形県山形市生まれ、宮城県仙台市出身。仙台高校から筑波大学へ進み、2021年ドラフト2位で西武入り。2022年3月29日、一軍公式戦初先発でいきなりプロ初勝利を挙げると、2023年以降は救援陣の柱として台頭し、2024年は自己最多17ホールド・防御率1.69を記録した。2025年は制球に苦しみ防御率6.41と足踏みした。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "仙台高校のエースとして活躍",
+        "description": "1年夏に背番号18で県立宮城広瀬高校戦に先発し9回10安打9奪三振3失点の完投勝利。2年秋にエース番号「1」を託され、3年夏の宮城大会は全5試合に先発登板、41イニングで58奪三振をマークしたがベスト8で敗退。最速144km/hを記録しプロ球団のスカウトも注目したが、大学進学を選んだ。"
+      },
+      {
+        "period": "筑波大学時代",
+        "title": "日米大学野球代表、故障を乗り越えてドラフト候補に",
+        "description": "1年秋のリーグ戦で44回2/3連続無失点を記録してデビュー。2年時には日米大学野球選手権大会の日本代表に選出され5試合6回を無失点に抑えた。2年秋に左肘内側、3年秋には左肘外側の違和感を抱えながらも、3年秋の東海大学戦では自己最速152km/hを更新。通算防御率1.55の成績で2021年9月にドラフト届出を提出した。"
+      },
+      {
+        "period": "プロ入り2021-2022年",
+        "title": "ドラフト2位、初先発でいきなり初勝利",
+        "description": "2021年10月11日のドラフト会議で埼玉西武ライオンズから2位指名を受け、「悔しい思いはありますが、順位に関係なく頑張りたいです」とコメント。2022年3月29日、北海道日本ハム戦(札幌ドーム)でプロ初先発・初登板を果たし、5回4安打1失点でプロ初勝利を挙げた。"
+      },
+      {
+        "period": "2023-2024年",
+        "title": "救援陣の中心に定着",
+        "description": "2023年は47試合に登板し1勝2敗18ホールド・防御率2.50、2024年は45試合で2勝1敗17ホールド・防御率1.69とセットアッパーとして安定した成績を残し、2024年は終盤22イニング連続無失点でシーズンを締めくくった。"
+      },
+      {
+        "period": "2025年",
+        "title": "制球に苦しんだ1年",
+        "description": "2025年は20試合の登板で0勝2敗6ホールド、防御率6.41と数字を落とし、苦しいシーズンとなった。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2022年",
+        "position": "投手(先発)",
+        "reason": "ルーキーイヤーは救援要員の想定だったが、オープン戦の好投を経て開幕から先発ローテーション入りした"
+      },
+      {
+        "period": "2023年以降",
+        "position": "投手(リリーフ)",
+        "reason": "救援陣(水上由伸・増田達至ら)の不振を受け、勝ちパターンを担う救援投手として起用されるようになった"
+      }
+    ],
+    "episodes": [
+      "2022年3月29日、北海道日本ハム戦(札幌ドーム)でプロ初先発を果たした佐藤は、5回4安打1失点という内容で国立大学出身選手としては異例のデビュー戦勝利を挙げた。同年オフに佐藤龍世がトレードで加入すると、同姓選手が並ぶこととなり、スコアボード表記が「佐藤隼」に変更された。",
+      "指先の感覚に敏感な佐藤は、ブルペンで肩を作る前やマウンドに上がる前にカイロで手を温めるのを習慣にしている。2024年の契約更改では、救援投手の実際の負担を正しく評価してほしいとの思いから、登板イニングだけでなくブルペンでの投球数(準備投球)も評価に加味するよう球団に直接交渉し、年俸は前年から1300万円増の推定4300万円でサインした。"
+    ],
+    "salaryManYen": 4300,
+    "salaryNote": "推定4300万円（2025年シーズン分、2024年12月契約更改時点、前年から1300万円増。スポーツ紙推定年俸集計）",
+    "photoEmoji": "🧤"
+  },
+  {
+    "id": "seibu-109",
+    "name": "佐藤 爽",
+    "nameKana": "さとう そう",
+    "number": 75,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "birthDate": "2003-02-09",
+    "draftInfo": "2024年育成ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "北海道北広島市",
+      "juniorHigh": "北広島市立大曲中学校",
+      "highSchool": "札幌山の手高等学校",
+      "university": "星槎道都大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 38,
+      "games": 7,
+      "era": 3.79,
+      "eraDisplay": "3.79",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 24
+    },
+    "throwsBats": "左投左打",
+    "height": 178,
+    "weight": 82,
+    "isTohokuConnection": false,
+    "careerSummary": "北海道北広島市出身。札幌山の手高校から星槎道都大学へ進み、4年春には30回1/3連続無失点・5勝0敗防御率0.47の成績でリーグ最優秀選手に輝いた。2024年育成ドラフト4位で西武入りし、支配下登録を経て2026年に一軍のマウンドで先発として登板を重ねている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "札幌山の手高校で頭角",
+        "description": "3年秋に道大会に進出(チーム史上3度目)したが、初戦で帯広農業に敗れた。"
+      },
+      {
+        "period": "星槎道都大学時代",
+        "title": "4年春に自己最多成績、大学屈指の左腕に",
+        "description": "3年春に最優秀投手・ベストナインを受賞しリーグ連覇に貢献。4年春には30回1/3連続無失点、5勝0敗・防御率0.47の成績で最優秀選手・最優秀投手・特別賞・ベストナインを総なめにしたが、全日本大学野球選手権では仙台大学に先発し5回で9失点(自責3)と苦しみチームは初戦敗退した。"
+      },
+      {
+        "period": "プロ入り2024年",
+        "title": "2024年育成ドラフト4位で入団",
+        "description": "2024年10月24日の育成ドラフト会議で埼玉西武ライオンズから4位指名を受け、11月17日に仮契約(契約金350万円・年俸400万円、いずれも推定)を結んだ。同姓の佐藤隼輔・佐藤龍世と区別するため背番号133とともに「SATOH」の登録名が与えられた。"
+      },
+      {
+        "period": "2025年〜2026年",
+        "title": "支配下登録を経て一軍デビュー",
+        "description": "育成契約からステップアップし、2026年は先発投手として一軍のマウンドに立っている。"
+      }
+    ],
+    "episodes": [
+      "父ひとり子ひとりで育てられた佐藤は、プロ入りして父を経済的に支えられる存在になりたいという思いを公言している。星槎道都大学4年春には30回1/3連続無失点、5勝0敗・防御率0.47という圧巻の成績でリーグの主要タイトルを総なめにし、2024年育成ドラフト4位で西武入り。チームには佐藤隼輔・佐藤龍世という同姓の先輩選手がいるため、登録名は「SATOH」と表記されている。"
+    ],
+    "salaryManYen": 400,
+    "salaryNote": "推定400万円（2024年11月の仮契約時点の育成選手年俸。スポーツ紙推定）",
+    "photoEmoji": "👨‍👦"
+  },
+  {
+    "id": "seibu-110",
+    "name": "菅井 信也",
+    "nameKana": "すがい しんや",
+    "number": 71,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "birthDate": "2003-06-28",
+    "draftInfo": "2021年育成ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "山形県南陽市",
+      "juniorHigh": "南陽市立赤湯中学校",
+      "highSchool": "山本学園高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 38.33,
+      "games": 7,
+      "era": 3.05,
+      "eraDisplay": "3.05",
+      "wins": 2,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 20
+    },
+    "throwsBats": "左投左打",
+    "weight": 80,
+    "isTohokuConnection": true,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 55.33,
+      "games": 11,
+      "era": 3.58,
+      "eraDisplay": "3.58",
+      "wins": 5,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 47
+    },
+    "careerSummary": "山形県南陽市出身の左腕。2021年育成ドラフト3位で入団し、2024年6月に支配下登録されると同年7月にプロ初先発勝利。2025年は自己最多の11試合に登板し5勝5敗と先発ローテーションに定着した。",
+    "growthTimeline": [
+      {
+        "period": "山本学園高校時代",
+        "title": "エースとして力投も甲子園に届かず",
+        "description": "1年夏からベンチ入りし秋からエースナンバーを背負った菅井は、3年夏の山形大会3回戦で敗退。延長を含む長いイニングを一人で投げ抜き多くの三振を奪う粘投を見せたが、甲子園出場はならなかった。"
+      },
+      {
+        "period": "2021年〜2023年",
+        "title": "育成3位でプロ入り、内海哲也コーチの指導を受ける",
+        "description": "2021年10月の育成ドラフト3位で埼玉西武ライオンズに入団。支度金350万円・年俸280万円での契約だった。プロ入り後の2年間、ファーム投手コーチだった内海哲也の指導を受けて研鑽を積み、2023年のみやざきフェニックス・リーグでは、この年に日本一となる阪神タイガースの主力打線を6回1失点に抑える好投を見せた。"
+      },
+      {
+        "period": "2024年",
+        "title": "支配下登録、球団史上初の育成出身投手による先発勝利",
+        "description": "2024年6月2日に支配下選手契約を結び背番号を71に変更。同年7月15日のオリックス戦でプロ初先発を果たすと、7回無失点7奪三振無四球という内容で埼玉西武ライオンズ球団史上初となる育成出身投手の先発勝利を記録した。"
+      },
+      {
+        "period": "2025年",
+        "title": "自己最多の登板数で先発ローテ定着",
+        "description": "2025年は11試合に登板し5勝5敗・防御率3.58を記録。プロ入り後最多となる55回1/3を投げ、先発ローテーションの一角として定着した。"
+      }
+    ],
+    "episodes": [
+      "山形県南陽市出身の菅井は、山本学園高校(現・惺山高校)でエースを務めるも3年夏の山形大会3回戦で敗退し甲子園には届かなかった。2021年の育成ドラフト3位で埼玉西武に入団後は、ファーム投手コーチだった内海哲也の指導を受けて力をつけた。内海が巨人の投手コーチに転じた後も交流は続き、2024年6月の支配下登録が決まった際には菅井自身が内海に直接報告し祝福されたという師弟のエピソードが残っている。",
+      "支配下登録から1カ月半ほど経った2024年7月15日のオリックス戦、菅井はプロ初先発で7回を無失点7奪三振無四球に抑える投球を見せ、埼玉西武ライオンズ球団史上初となる「育成出身投手による先発勝利」を達成した。2025年は自己最多の11試合に登板し5勝5敗・防御率3.58と、先発ローテーションの一角として一年間を投げ抜いた。"
+    ],
+    "photoEmoji": "🌱"
+  },
+  {
+    "id": "seibu-111",
+    "name": "杉山 遙希",
+    "nameKana": "すぎやま はるき",
+    "number": 47,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "birthDate": "2005-09-23",
+    "draftInfo": "2023年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "東京都江戸川区",
+      "juniorHigh": "江戸川区立篠崎中学校",
+      "highSchool": "横浜高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 5,
+      "games": 1,
+      "era": 1.8,
+      "eraDisplay": "1.80",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 4
+    },
+    "throwsBats": "左投左打",
+    "weight": 82,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 4,
+      "games": 1,
+      "era": 18.0,
+      "eraDisplay": "18.00",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 2
+    },
+    "careerSummary": "東京都江戸川区出身。名門・横浜高校で1年夏から甲子園のマウンドを経験するも3年連続出場には届かず、2023年ドラフト3位で埼玉西武ライオンズ入り。147km/hの直球と、本人が「一番の武器」と語るブレーキの利いたチェンジアップが持ち味の左腕。",
+    "growthTimeline": [
+      {
+        "period": "横浜高校1年時(2021年夏・第103回大会)",
+        "title": "1年生エースとして甲子園デビュー、2回戦で智辯学園に敗退",
+        "description": "1年春からベンチ入りした杉山は、1年夏の神奈川大会決勝で横浜創学館との一戦に先発しチームの甲子園出場に貢献。第103回全国高等学校野球選手権大会では背番号1を背負い1回戦の広島新庄戦を突破すると、2回戦の智辯学園戦で自身初の甲子園先発を経験したが、4回6安打5四死球3失点で降板しチームも敗退した。"
+      },
+      {
+        "period": "横浜高校2年時(2022年夏・第104回大会)",
+        "title": "完投勝利も2回戦で聖光学院に競り負ける",
+        "description": "第104回大会では初戦の三重高校戦を6安打無四球2失点の完投で突破。2回戦の聖光学院戦では8回途中3失点まで好投したが、チームは敗れて姿を消した。"
+      },
+      {
+        "period": "横浜高校3年時(2023年夏)",
+        "title": "神奈川大会決勝で慶應義塾に逆転負け、3年連続出場ならず",
+        "description": "3年夏の神奈川大会決勝で慶應義塾と対戦。9回表に逆転3点本塁打を浴びるなどして敗れ、3年連続となるはずだった甲子園出場を逃した。"
+      },
+      {
+        "period": "2023年〜2024年",
+        "title": "ドラフト3位で入団、プロ初登板は失策絡みの黒星スタート",
+        "description": "2023年10月26日のドラフト会議で埼玉西武ライオンズから3位指名を受け、契約金5000万円・年俸700万円で仮契約。2024年9月12日の東北楽天ゴールデンイーグルス戦でプロ初登板・初先発を果たしたが、自身の失策も絡んで3回0/3を6失点(自責0)で降板し、初黒星となった。"
+      }
+    ],
+    "episodes": [
+      "横浜高校では1年夏からいきなり甲子園のマウンドを経験した杉山だが、2021年夏(第103回大会)は2回戦で智辯学園に、2022年夏(第104回大会)は完投勝利の後の2回戦で聖光学院にそれぞれ敗れ、3年夏は神奈川大会決勝で慶應義塾に逆転本塁打を浴びて甲子園出場を逃した。高校時代の最速は147km/hで、本人が「自分の一番の武器」と語るブレーキの利いたチェンジアップが持ち味。",
+      "2023年ドラフト3位で埼玉西武に入団した杉山は、2024年9月12日の東北楽天戦でプロ初登板・初先発を経験したが、自身の失策が絡んで初回・4回に失点し3回0/3で6失点の黒星スタートとなった。"
+    ],
+    "photoEmoji": "🎯"
+  },
+  {
+    "id": "seibu-112",
+    "name": "中村 祐太",
+    "nameKana": "なかむら ゆうた",
+    "number": 58,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1995-08-31",
+    "draftInfo": "2013年ドラフト5位（広島東洋カープ）／2024年12月の現役ドラフトで埼玉西武ライオンズへ移籍",
+    "roots": {
+      "hometown": "東京都江戸川区",
+      "juniorHigh": "江戸川区立小岩第五中学校",
+      "highSchool": "関東第一高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 22.67,
+      "games": 18,
+      "era": 2.38,
+      "eraDisplay": "2.38",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 26
+    },
+    "throwsBats": "右投右打",
+    "height": 183,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 26,
+      "games": 20,
+      "era": 1.04,
+      "eraDisplay": "1.04",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 23
+    },
+    "careerSummary": "東京都江戸川区出身。関東第一高校で2012年春の甲子園ベスト4進出に貢献し、2013年ドラフト5位で広島東洋カープ入り。「マエケン2世」と呼ばれた本格派右腕は、2023年12月の現役ドラフトで埼玉西武ライオンズへ移籍すると中継ぎとして開花し、2025年は防御率1.04という自己最高の安定感を見せた。",
+    "growthTimeline": [
+      {
+        "period": "関東第一高校時代",
+        "title": "東京都優勝と甲子園ベスト4、「マエケン2世」の異名",
+        "description": "1年秋からベンチ入りしエース格に成長。東京大会決勝では帝京高校相手に1安打完封に加え自ら先制適時二塁打を放ち、4年ぶり2度目の優勝を果たした。2012年春の選抜高等学校野球大会では3試合連続完投勝利で25年ぶりのベスト4進出に貢献したが、準決勝で八戸学院光星に6回途中からのリリーフで3失点を喫し敗退。前田健太を思わせる本格派として「マエケン2世」と呼ばれた。"
+      },
+      {
+        "period": "2013年ドラフト〜広島時代",
+        "title": "5位指名でプロ入り、故障と戦いながら一軍定着を目指す",
+        "description": "2013年10月のドラフト会議で広島東洋カープから5位指名(契約金3000万円・年俸460万円)。高校時代の左腸骨剥離骨折に続き2014年11月には右足内顆疲労骨折を負うなど故障に苦しんだが、2017年5月3日の中日戦で一軍初登板・初勝利を挙げ、その年は15試合(14先発)で5勝4敗・防御率3.74を記録した。"
+      },
+      {
+        "period": "2023年12月",
+        "title": "現役ドラフトで埼玉西武へ移籍",
+        "description": "2023年12月8日に開催された現役ドラフトで埼玉西武ライオンズへの移籍が決定。球団に中村剛也が在籍するため、スコアボード表記は「中村祐」、背ネームは「Y.NAKAMURA」となった。「新天地の西武ライオンズで頑張りたいと思います」とコメントした。"
+      },
+      {
+        "period": "2024年〜2025年",
+        "title": "中継ぎで才能開花、自己最高の防御率1.04",
+        "description": "移籍1年目の2024年は27試合に登板し防御率3.09。2025年は20試合で防御率1.04まで安定感を高め、「今は中継ぎが好き」と自身の適性を語るなど、リリーフ転向によって新たな一面を見せている。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "広島時代",
+        "position": "投手(先発中心)",
+        "reason": ""
+      },
+      {
+        "period": "西武移籍後(2024年〜)",
+        "position": "投手(中継ぎ)",
+        "reason": "現役ドラフトでの移籍を機に中継ぎに専念。本人は「もともと気持ちの切り替えが下手で、先発のときは打たれると沈むが、野球が毎日できることで今は中継ぎが好き」と心境の変化を語っている。"
+      }
+    ],
+    "episodes": [
+      "関東第一高校のエースだった中村は、2012年春の甲子園で3試合連続完投勝利を挙げてチームを25年ぶりのベスト4に導いたが、準決勝で八戸学院光星に6回途中からのリリーフで3失点を喫し涙をのんだ。本格派の投球フォームから広島時代は「マエケン2世」の異名で呼ばれた。",
+      "2023年12月8日の現役ドラフトで広島から埼玉西武へ移籍が決まった中村は「新天地の西武ライオンズで頑張りたいと思います」とコメント。球団に中村剛也がいるためスコアボードでは「中村祐」と表記される。移籍後は中継ぎとして持ち味を発揮し、2025年は20試合登板で防御率1.04という自己最高の安定感を示した。"
+    ],
+    "dataNote": "現役ドラフトでの移籍時期は本人のWikipedia記載および報道(スポーツ報知)に基づき「2023年12月8日(第2回現役ドラフト、2024年シーズンから西武)」に補正しました(従来は2024年12月と記載)。",
+    "photoEmoji": "🔄"
+  },
+  {
+    "id": "seibu-113",
+    "name": "成田 晴風",
+    "nameKana": "なりた はるせ",
+    "number": 41,
+    "position": "投手",
+    "detailedPosition": "投手",
+    "birthDate": "2006-02-27",
+    "draftInfo": "2023年ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "青森県南津軽郡大鰐町",
+      "juniorHigh": "大鰐町立大鰐中学校",
+      "highSchool": "青森県立弘前工業高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 2,
+      "games": 2,
+      "era": 13.5,
+      "eraDisplay": "13.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 0
+    },
+    "weight": 86,
+    "isTohokuConnection": true,
+    "careerSummary": "青森県南津軽郡大鰐町出身。青森県立弘前工業高校でエースを務め、2023年ドラフト4位で埼玉西武ライオンズ入り。両親がともに陸上競技出身という「陸上一家」に育ったスケールの大きい右腕で、2024年に頸椎の手術を経験しながら復活を目指している。",
+    "growthTimeline": [
+      {
+        "period": "弘前工業高校時代",
+        "title": "1年秋からエースナンバー、県大会で強豪と対戦",
+        "description": "1年春からベンチ入りし1年秋から背番号1を背負った成田は、3年夏の青森大会2回戦で強豪・八戸学院光星と対戦。強力打線相手に9奪三振を記録する力投を見せたが敗れ、甲子園出場はならなかった。高校時代の最速は150km/hに達した。"
+      },
+      {
+        "period": "2023年",
+        "title": "ドラフト4位で入団",
+        "description": "2023年10月26日のドラフト会議で埼玉西武ライオンズから4位指名を受け、11月7日に契約金4000万円・年俸650万円で仮契約。背番号41が与えられた。"
+      },
+      {
+        "period": "2024年",
+        "title": "首の不調から頸椎手術、長期離脱",
+        "description": "2024年6月に首の不調を訴え、右第5頚椎神経根症と診断。7月10日に頸椎の手術を受け、球団からは復帰まで6か月以上を要すると発表された。"
+      }
+    ],
+    "episodes": [
+      "青森県大鰐町出身の成田は、父が国体やり投げ選手、母がハードル選手という「陸上一家」で育った。弘前工業高校のエースとして3年夏の青森大会2回戦に登板し、強豪・八戸学院光星の強力打線から9つの三振を奪う力投を見せたが敗れ、甲子園出場は果たせなかった。",
+      "2023年ドラフト4位で埼玉西武に入団した成田は、2024年6月に首の不調を訴え右第5頚椎神経根症と診断された。7月10日に頸椎の手術を受け、復帰までに6か月以上を要する長期離脱を余儀なくされた。"
+    ],
+    "photoEmoji": "🏃"
+  },
+  {
+    "id": "seibu-114",
+    "name": "羽田 慎之介",
+    "nameKana": "はだ しんのすけ",
+    "number": 43,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2003-12-25",
+    "draftInfo": "2021年ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "埼玉県所沢市",
+      "juniorHigh": "所沢市立山口中学校",
+      "highSchool": "八王子学園八王子高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 8.33,
+      "games": 8,
+      "era": 7.56,
+      "eraDisplay": "7.56",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 10
+    },
+    "throwsBats": "左投左打",
+    "height": 192,
+    "weight": 96,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 21.33,
+      "games": 24,
+      "era": 2.95,
+      "eraDisplay": "2.95",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 25
+    },
+    "careerSummary": "埼玉県所沢市出身、埼玉西武ライオンズジュニア出身選手として初めてプロ入りした192cmの長身左腕。八王子学園八王子高校時代は左肘の故障に苦しんだが、2021年ドラフト4位で入団。「ランディ・ジョンソンを彷彿とさせる」フォームから最速157km/hを投げ込む。",
+    "growthTimeline": [
+      {
+        "period": "八王子学園八王子高校時代",
+        "title": "故障との戦い、甲子園には届かず",
+        "description": "1年からベンチ入りしたが2年秋に左肘の骨膜炎を発症。3年春は球数・変化球を制限しながら149km/hを計測したが、3年夏は左肘の骨髄浮腫で登板できず、西東京大会は代打出場にとどまり甲子園出場はならなかった。"
+      },
+      {
+        "period": "2021年",
+        "title": "西武ジュニア出身初のプロ野球選手に",
+        "description": "2021年10月のドラフト会議で埼玉西武ライオンズから4位指名を受け、11月9日に契約金4000万円・年俸600万円で入団。埼玉西武ライオンズジュニア出身選手として初のプロ野球選手となった。"
+      },
+      {
+        "period": "2022年〜2023年",
+        "title": "故障を抱えながらファームで力をつける",
+        "description": "2022年はイースタン・リーグ5試合で防御率7.04と苦しんだが、2023年は8試合で1勝2敗・防御率2.15まで改善。ただし後半戦は左肩痛のため登板を控えた。"
+      },
+      {
+        "period": "2024年",
+        "title": "プロ初登板からプロ初勝利まで駆け抜けた1年",
+        "description": "5月11日に初の一軍昇格を果たすと、5月14日の北海道日本ハム戦でプロ初登板(1失点)。7月2日のソフトバンク戦で初先発(3回2失点で敗戦)、9月14日には捕手・岡田雅利の引退試合となった一戦で本拠地初先発登板を任され、9月26日の同じソフトバンク戦でプロ初勝利(8回無失点)を挙げた。年間9試合(3先発)で1勝3敗2ホールド・防御率2.76。"
+      },
+      {
+        "period": "2025年",
+        "title": "中継ぎでフル回転、自己最多の24試合に登板",
+        "description": "2025年は中継ぎとして24試合に登板し1勝1敗・防御率2.95を記録。長身から投げ下ろす角度のある直球とスライダー、フォークを軸に一軍の戦力として定着しつつある。"
+      }
+    ],
+    "episodes": [
+      "192cmの長身左腕・羽田は、八王子学園八王子高校時代に2年秋の左肘骨膜炎、3年夏には左肘骨髄浮腫と故障に苦しみながらも3年春には球数制限付きで149km/hを計測。甲子園には届かなかったものの、2021年ドラフト4位で埼玉西武ライオンズに入団し、「西武ジュニア出身のプロ野球選手」の第1号となった。",
+      "2024年9月14日、羽田は捕手・岡田雅利の引退試合となった一戦で本拠地初先発を任され、5回1失点と好投しながらも黒星がついた。だが12日後の9月26日、同じソフトバンク戦で8回無失点の好投を見せてプロ初勝利を挙げた。「ランディ・ジョンソンを彷彿とさせる」と評されるダイナミックなフォームから最速157km/hを投げ込む。"
+    ],
+    "photoEmoji": "🌲"
+  },
+  {
+    "id": "seibu-115",
+    "name": "浜屋 将太",
+    "nameKana": "はまや しょうた",
+    "number": 90,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1999-01-26",
+    "draftInfo": "2019年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "鹿児島県曽於郡大崎町",
+      "juniorHigh": "大崎町立大崎中学校",
+      "highSchool": "樟南高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 17,
+      "games": 21,
+      "era": 2.12,
+      "eraDisplay": "2.12",
+      "wins": 0,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 13
+    },
+    "throwsBats": "左投左打",
+    "weight": 77,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 14,
+      "games": 16,
+      "era": 4.5,
+      "eraDisplay": "4.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 12
+    },
+    "careerSummary": "鹿児島県出身。樟南高校のエースとして甲子園に出場した左腕で、2019年ドラフト2位で埼玉西武ライオンズ入り。故障や新型コロナ感染で長く一軍を離れ2024年10月に戦力外通告を受けたが、同年11月に育成契約で再契約。2025年は16試合に登板し復活の足がかりをつかんだ。",
+    "growthTimeline": [
+      {
+        "period": "樟南高校時代",
+        "title": "甲子園出場、2回戦で花咲徳栄に敗退",
+        "description": "2年秋からエースを務め、3年夏の鹿児島大会決勝では鹿児島実業相手に6回から10回までをロングリリーフし13奪三振無失点で甲子園出場を決めた。第98回全国高等学校野球選手権大会では1回戦の京都翔英戦を8回1失点に抑えて勝利に貢献したが、2回戦で花咲徳栄に敗れた。"
+      },
+      {
+        "period": "2019年",
+        "title": "ドラフト2位で入団",
+        "description": "2019年10月17日のドラフト会議で埼玉西武ライオンズから2位指名。契約金7000万円・推定年俸1300万円で入団し、背番号20を与えられた。"
+      },
+      {
+        "period": "2020年〜2021年",
+        "title": "リリーフから先発転向も、故障で苦しむ",
+        "description": "2020年は一軍でリリーフとしてデビューした後に先発へ転向し、9月16日のプロ初先発で6回4安打1失点の好投でプロ初勝利を挙げ、以降3勝3敗・防御率4.07を記録した。しかし2021年は開幕ローテーション入り後に制球難で二軍再調整となり、10月に左有痛性外脛骨障害の骨部分切除術を受けるなど故障に苦しんだ。"
+      },
+      {
+        "period": "2022年〜2024年",
+        "title": "故障とコロナで2年連続一軍登板なし、戦力外から育成再契約",
+        "description": "2022年・2023年は故障や新型コロナ感染の影響で2年連続一軍登板なし。2024年も一軍登板は1試合にとどまり、10月2日に戦力外通告を受けたが、同年11月に育成選手として再契約し背番号111で再スタートを切った。"
+      },
+      {
+        "period": "2025年",
+        "title": "育成から復活、自己最多クラスの登板数",
+        "description": "2025年は16試合に登板し防御率4.50を記録。長い低迷期を乗り越え、一軍のマウンドに戻ってきた。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2020年",
+        "position": "投手(先発)",
+        "reason": "一軍デビュー当初はリリーフ起用だったが、同年途中から先発に転向しプロ初先発・初勝利を挙げた。"
+      }
+    ],
+    "episodes": [
+      "鹿児島・樟南高校のエースだった浜屋は、3年夏の鹿児島大会決勝で鹿児島実業相手にロングリリーフで13奪三振無失点の力投を見せて甲子園出場を決めた。第98回大会では1回戦の京都翔英を8回1失点で突破したが、2回戦で花咲徳栄に敗れた。",
+      "2019年ドラフト2位で入団した浜屋は、2020年に先発へ転向してプロ初勝利を挙げるも、翌2021年に左足の骨部分切除術を受けるなど故障に苦しみ、2022〜2023年は2年連続で一軍登板がなかった。2024年10月に戦力外通告を受けながらも同年11月に育成選手として再契約し、2025年は16試合に登板して現役続行への足がかりをつかんだ。"
+    ],
+    "photoEmoji": "🎢"
+  },
+  {
+    "id": "seibu-116",
+    "name": "冨士 大和",
+    "nameKana": "ふじ やまと",
+    "number": 67,
+    "position": "投手",
+    "detailedPosition": "投手",
+    "birthDate": "2006-08-26",
+    "draftInfo": "2024年育成ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "埼玉県さいたま市",
+      "juniorHigh": "さいたま市立三橋中学校",
+      "highSchool": "埼玉県立大宮東高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 2,
+      "games": 2,
+      "era": 22.5,
+      "eraDisplay": "22.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 3
+    },
+    "throwsBats": "左投左打",
+    "weight": 80,
+    "isTohokuConnection": false,
+    "careerSummary": "埼玉県さいたま市出身。大宮東高校時代に兄の助言で胸郭を柔らかく使うトレーニングに取り組み球速を伸ばした左腕で、2024年育成ドラフト1位で埼玉西武ライオンズ入り。独特なテイクバックから最速144km/hのストレートと伸びのあるチェンジアップを武器にする。",
+    "growthTimeline": [
+      {
+        "period": "大宮東高校時代",
+        "title": "兄の助言で急成長、球速120km/h台から一気に飛躍",
+        "description": "入学当初は球速120km/h台だったが、兄からのアドバイスを受けて胸郭を柔らかく使うトレーニングに取り組み、2年春から背番号1を着用。県大会でチームを9年ぶりのベスト4に導き、高校時代の最速は144km/hに到達した。甲子園出場はなかった。"
+      },
+      {
+        "period": "2024年",
+        "title": "育成ドラフト1位で入団",
+        "description": "2024年10月24日、埼玉西武ライオンズから育成ドラフト1位指名を受け、11月7日に支度金350万円・年俸280万円で仮契約。12月1日に背番号123が発表された。"
+      }
+    ],
+    "episodes": [
+      "大宮東高校入学時は球速120km/h台にとどまっていた冨士だが、兄の助言を受けて胸郭を柔らかく使うトレーニングに取り組み、2年春には背番号1を背負うまでに成長。チームを9年ぶりの県大会ベスト4に導き、最速144km/hまで球速を伸ばした。足を高く上げてから膝を胸につけ、テイクバックで左肘が落ちるという独特なフォームが持ち味で、本人は「胸郭を柔らかく使う腕の振り」と説明している。"
+    ],
+    "photoEmoji": "🌟"
+  },
+  {
+    "id": "seibu-117",
+    "name": "堀越 啓太",
+    "nameKana": "ほりこし けいた",
+    "number": 40,
+    "position": "投手",
+    "detailedPosition": "投手",
+    "birthDate": "2003-07-15",
+    "draftInfo": "2025年ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "埼玉県",
+      "highSchool": "花咲徳栄高等学校",
+      "university": "東北福祉大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 2,
+      "games": 2,
+      "era": 4.5,
+      "eraDisplay": "4.50",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 1
+    },
+    "isTohokuConnection": false,
+    "careerSummary": "埼玉県出身。花咲徳栄高校を経て東北福祉大学でプレーし、2025年ドラフト4位で埼玉西武ライオンズに入団した投手。2025年秋のドラフトで指名されたばかりの選手のため、投打・身長・体重など詳細プロフィールの信頼できる公開情報は現時点で確認できていない。",
+    "photoEmoji": "🆕"
+  },
+  {
+    "id": "seibu-118",
+    "name": "松本 航",
+    "nameKana": "まつもと わたる",
+    "number": 17,
+    "position": "投手",
+    "detailedPosition": "投手",
+    "birthDate": "1996-11-28",
+    "draftInfo": "2018年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "兵庫県朝来市",
+      "juniorHigh": "朝来市立梁瀬中学校",
+      "highSchool": "明石商業高等学校",
+      "university": "日本体育大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 3.33,
+      "games": 4,
+      "era": 0.0,
+      "eraDisplay": "0.00",
+      "wins": 0,
+      "losses": 0,
+      "saves": 1,
+      "strikeouts": 3
+    },
+    "throwsBats": "右投右打",
+    "height": 176,
+    "weight": 88,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 14,
+      "games": 3,
+      "era": 6.43,
+      "eraDisplay": "6.43",
+      "wins": 0,
+      "losses": 2,
+      "saves": 0,
+      "strikeouts": 12
+    },
+    "careerSummary": "兵庫県朝来市出身。明石商業高校では甲子園に届かなかったが、日本体育大学でユニバーシアード代表に選ばれるなど評価を高め、2018年ドラフト1位で明石商業高校出身初のプロ野球選手として埼玉西武ライオンズに入団。2021年に規定投球回に到達し自己最多10勝を挙げてオールスターにも初出場した右腕。2024年からは中継ぎに配置転換され、新たな役割を模索している。",
+    "growthTimeline": [
+      {
+        "period": "明石商業高校〜日本体育大学時代",
+        "title": "甲子園には届かず、大学で評価急上昇",
+        "description": "明石商業高校では2年夏以降に主戦投手を務めたが、3年夏は兵庫大会準々決勝で社高校に敗れ甲子園出場はならなかった。日本体育大学では首都大学野球連盟の最優秀投手に選ばれ通算30勝をマーク。2017年には夏季ユニバーシアードの野球日本代表にも選出された。"
+      },
+      {
+        "period": "2018年",
+        "title": "ドラフト1位で入団、明石商業高出身初のプロ野球選手に",
+        "description": "2018年10月25日のドラフト会議で埼玉西武ライオンズから1位指名を受け、契約金1億円・出来高払い5000万円、年俸1500万円で入団。明石商業高校出身では初めてのプロ野球選手となった。"
+      },
+      {
+        "period": "2019年",
+        "title": "デビュー戦白星発進",
+        "description": "2019年5月19日のオリックス戦でプロ初登板・初先発を果たし、そのまま白星を挙げた。この年は16試合に先発し7勝4敗・防御率4.54を記録した。"
+      },
+      {
+        "period": "2021年",
+        "title": "規定投球回到達、自己最多10勝でオールスター初出場",
+        "description": "28試合(先発24試合)に登板し自己最多の10勝(8敗)を記録して初めて規定投球回に到達。10月7日にはプロ初の完投・完封勝利を達成した。同年は監督推薦でオールスターにも初選出され、第2戦に2番手で登板し2回を3者連続奪三振を含む無失点に抑えた。防御率はリーグワーストの3.79だったが、先発の柱としての存在感を示した。"
+      },
+      {
+        "period": "2022年〜2023年",
+        "title": "コロナ感染や不振を乗り越えながら先発を継続",
+        "description": "2022年は新型コロナウイルス感染で5月に登録抹消される中断を挟みながら7勝6敗・防御率3.19。2023年は7月に3連敗を喫し当時の松井稼頭央監督から二軍再調整を示唆されるも8月に復帰し、6勝8敗・防御率3.47でシーズンを終えた。"
+      },
+      {
+        "period": "2024年",
+        "title": "開幕好投もチーム事情で中継ぎへ配置転換",
+        "description": "開幕から4試合に先発し1勝1敗・防御率1.91と好投していたが、救援防御率が悪化していたブルペン事情を受けて5月7日のロッテ戦からブルペン待機に。5月11日の東北楽天戦で3年ぶりのリリーフ登板を果たし最速154km/hで無失点に抑えプロ初ホールドを記録した。以降は34試合(先発8試合)で1勝9敗6ホールド・防御率3.93に終わった。"
+      },
+      {
+        "period": "2025年",
+        "title": "登板数わずか3試合にとどまる",
+        "description": "2025年は登板数が3試合(0勝2敗、防御率6.43)にとどまり、出場機会が大きく減少するシーズンとなった。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2019年〜2023年",
+        "position": "投手(先発)",
+        "reason": ""
+      },
+      {
+        "period": "2024年〜",
+        "position": "投手(中継ぎ)",
+        "reason": "開幕から4先発で1勝1敗・防御率1.91と好投していたが、守護神アブレイユにつなぐセットアッパー不在というブルペン事情を受けて5月にリリーフへ配置転換された。"
+      }
+    ],
+    "episodes": [
+      "明石商業高校時代は甲子園に届かなかった松本だが、日本体育大学で首都大学野球連盟最優秀投手に輝き2017年夏季ユニバーシアード日本代表に選出されるなど評価を急上昇させ、2018年ドラフト1位で埼玉西武ライオンズから指名された。明石商業高校出身では初めてのプロ野球選手となった。",
+      "2021年、松本は28試合に登板し自己最多の10勝を挙げて初めて規定投球回に到達。10月7日にはプロ初の完投・完封勝利を記録し、この年は監督推薦でオールスターにも初選出され、2回を3者連続奪三振を含む無失点に抑えた。「浮き上がるような速球」を武器にするフライボールピッチャーとして、先発の柱を担った。",
+      "2024年5月、開幕から4先発を1勝1敗・防御率1.91とまずまずの内容で乗り切っていた松本だったが、守護神アブレイユにつなぐセットアッパー不在というチーム事情から5月7日のロッテ戦を境にブルペン待機となった。5月11日の東北楽天戦で3年ぶりのリリーフ登板を果たすと、最速154km/hのストレートで8回を無失点に抑えプロ初ホールドを記録。以降は先発と中継ぎの両方を経験しながらチームに貢献する道を模索している。"
+    ],
+    "photoEmoji": "🚀"
+  },
+  {
+    "id": "seibu-119",
+    "name": "豆田 泰志",
+    "nameKana": "まめだ たいし",
+    "number": 70,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2003-01-15",
+    "draftInfo": "2020年育成ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "埼玉県越谷市",
+      "juniorHigh": "越谷市立千間台中学校",
+      "highSchool": "浦和実業学園高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 29.33,
+      "games": 24,
+      "era": 1.84,
+      "eraDisplay": "1.84",
+      "wins": 1,
+      "losses": 0,
+      "saves": 2,
+      "strikeouts": 24
+    },
+    "throwsBats": "右投右打",
+    "height": 173,
+    "weight": 88,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 4,
+      "games": 3,
+      "era": 0.0,
+      "eraDisplay": "0.00",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 6
+    },
+    "careerSummary": "2020年育成ドラフト4位。浦和実業学園高では兄がかつてエースだった縁で入部した。オリックス・山本由伸投手の投球フォームを参考に自身のフォームを見直したことが転機となり2023年に支配下選手へ昇格。173cmと小柄ながら最速152km/hのライジング系ストレート「豆直球」を武器とする中継ぎ右腕。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "甲子園出場なし、兄の背中を追い浦和実業学園へ",
+        "description": "兄がかつて浦和実業学園高のエースだった縁で同校に進学。2年春の県大会は5試合を一人で投げ抜いて準優勝、その夏には浦和学院高校を相手に完封勝利を挙げたが、3年時の甲子園出場はかなわなかった（3年夏はコロナ禍の代替大会に出場し18回1/3で23奪三振）。"
+      },
+      {
+        "period": "2020年育成ドラフト",
+        "title": "育成4位で入団",
+        "description": "2020年10月26日の育成ドラフト会議で西武から4位指名を受け、支度金350万円・年俸280万円（推定）で契約した。"
+      },
+      {
+        "period": "2023年",
+        "title": "フォーム改良で支配下昇格、即戦力の働き",
+        "description": "山本由伸投手の投球フォームを参考に自身のフォームを見直したことがきっかけとなり、同年7月21日に支配下選手へ昇格（背番号70）。7月28日の楽天戦でプロ初登板を果たすと、その年は16試合に登板し防御率0.59という好成績を残した。"
+      },
+      {
+        "period": "2024〜2026年",
+        "title": "苦しんだ2年目を経て再浮上",
+        "description": "2024年は開幕一軍を勝ち取ったが15試合で防御率6.32と苦しみ、2025年は登板が3試合にとどまった。2026年は24試合に登板し防御率1.84、自己初の2セーブを記録するなど再び台頭している。"
+      }
+    ],
+    "episodes": [
+      "浦和実業学園高でかつてエースを務めていた兄の背中を追って同校に進学した豆田は、2年の春季大会で5試合すべてを一人で投げ抜いてチームを準優勝に導き、その夏には浦和学院高校を相手に完封勝利を挙げた。3年夏はコロナ禍の代替大会に出場し18回1/3を投げて23奪三振を記録したが、甲子園出場はかなわなかった。",
+      "2020年育成ドラフト4位で入団した豆田は、プロ入り後しばらく伸び悩んでいたが、オリックス・山本由伸投手の投球フォームを参考に自身のフォームを見直したことが転機となった。「投げてみたら良くて、試合でも投げよう」と本人が振り返るこの改良により2023年7月21日に支配下選手へ昇格し、同月28日の楽天戦でプロ初登板を飾ると、その年は16試合登板で防御率0.59という見事な成績を残した。",
+      "173cmと小柄な体格ながら最速152km/hを誇る豆田のストレートは、独特の高いスピン量から「豆直球」と呼ばれる。本人はファンに対し「豆ちゃん」という愛称で呼んでほしいと語っている。"
+    ],
+    "salaryManYen": 770,
+    "salaryNote": "推定770万円（2024年オフ契約更改時点。2025年以降の公表は確認できず）",
+    "photoEmoji": "🫘"
+  },
+  {
+    "id": "seibu-120",
+    "name": "森脇 亮介",
+    "nameKana": "もりわき りょうすけ",
+    "number": 28,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1992-07-13",
+    "draftInfo": "2018年ドラフト6位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "京都府福知山市",
+      "juniorHigh": "福知山市立日新中学校",
+      "highSchool": "京都市立塔南高等学校",
+      "university": "日本大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 14,
+      "games": 16,
+      "era": 2.57,
+      "eraDisplay": "2.57",
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 9
+    },
+    "throwsBats": "右投右打",
+    "height": 175,
+    "weight": 70,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 0,
+      "eraDisplay": "-"
+    },
+    "careerSummary": "2018年ドラフト6位。2020年に自己最多7勝・防御率1.35で信頼を勝ち取ったセットアッパーだったが、2023年に右上腕動脈閉塞症を発症し手術と戦力外を経験。育成契約で再起を懸けたリハビリの末、2026年7月に支配下選手へ復帰した苦労人右腕。",
+    "growthTimeline": [
+      {
+        "period": "高校・大学時代",
+        "title": "無名の公立校から日大を経て社会人でプロ入りを目指す",
+        "description": "京都市立塔南高校では1年秋にエースとなり京都府大会3位、近畿大会にも出場したが甲子園出場はなし。プロ志望届は提出せず日本大学へ進学し、卒業後は監督の勧めでセガサミー（社会人野球）に加入した。"
+      },
+      {
+        "period": "2018年ドラフト",
+        "title": "西武から6位指名",
+        "description": "2018年ドラフト会議で西武ライオンズから6位指名を受け入団。"
+      },
+      {
+        "period": "2020年",
+        "title": "セットアッパーとして飛躍",
+        "description": "47試合に登板し7勝1敗16ホールド、防御率1.35をマークし勝ちパターンの一角に定着した。"
+      },
+      {
+        "period": "2023年7月",
+        "title": "右上腕動脈閉塞症を発症",
+        "description": "開幕一軍を勝ち取り31試合に登板していた最中の7月14日に右上腕動脈閉塞症と診断され、8月8日に血管パッチ形成術を受けた。10月4日に戦力外通告を受けたが、11月25日に育成選手として西武と再契約し現役続行を決めた。"
+      },
+      {
+        "period": "2024〜2026年",
+        "title": "長いリハビリを経て支配下復帰",
+        "description": "2024年前半はリハビリに専念し、7月3日のイースタン・リーグ戦で約1年ぶりに実戦復帰。長期のリハビリを経て2026年7月1日に支配下選手へ再昇格した。"
+      }
+    ],
+    "episodes": [
+      "京都市立塔南高校でエースとなり最速140km/h超を投げていた森脇は、プロ志望届を提出せず日本大学に進学。「結果が出ず、行き詰まりを感じ、野球はここで終わるかもしれない」と当時を振り返るほど苦しんだ時期を経て、卒業後は監督の勧めでセガサミーに進み、2018年ドラフト6位で西武入りを果たした。",
+      "2020年に自己最多7勝・防御率1.35でセットアッパーの座を掴んだ森脇は、2023年7月14日、開幕一軍で31試合に登板していた最中に右上腕動脈閉塞症と診断された。8月に血管パッチ形成手術を受け、10月には戦力外通告を受けたが、11月25日に育成選手として西武残留を決断。長いリハビリの末、2026年7月1日に支配下選手へ復帰した。"
+    ],
+    "salaryManYen": 3600,
+    "salaryNote": "推定3600万円（2023年11月、育成選手として再契約した時点の金額。支配下復帰後の最新契約は未公表）",
+    "dataNote": "2025年は故障からのリハビリのため一軍出場なし。2026年7月1日に育成選手から支配下選手へ再昇格しました。",
+    "photoEmoji": "🩹"
+  },
+  {
+    "id": "seibu-121",
+    "name": "山田 陽翔",
+    "nameKana": "やまだ はると",
+    "number": 36,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "2004-05-09",
+    "draftInfo": "2022年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "滋賀県栗東市",
+      "juniorHigh": "栗東市立栗東西中学校",
+      "highSchool": "近江高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 6.33,
+      "games": 7,
+      "era": 4.26,
+      "eraDisplay": "4.26",
+      "wins": 0,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 6
+    },
+    "throwsBats": "右投右打",
+    "height": 176,
+    "weight": 85,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 47.67,
+      "games": 49,
+      "era": 2.08,
+      "eraDisplay": "2.08",
+      "wins": 3,
+      "losses": 3,
+      "saves": 1,
+      "strikeouts": 31
+    },
+    "careerSummary": "近江高校のエースとして2度の甲子園ベスト4進出を果たし、通算11勝（歴代5位タイ）・108奪三振（歴代4位）という記録を残した超高校級右腕。2022年ドラフト5位で西武入りし、2025年は49試合に登板して防御率2.08をマークするなど中継ぎとして頭角を現している。",
+    "growthTimeline": [
+      {
+        "period": "高校2年夏（2021年）",
+        "title": "甲子園初出場でベスト4進出、大阪桐蔭撃破の金星も",
+        "description": "第103回全国高等学校野球選手権大会に背番号8ながらエースとして全試合に先発。3回戦では優勝候補の大阪桐蔭を6-4で破る金星を挙げ、準々決勝の神戸国際大学附属戦では延長10回7x-6のサヨナラ勝ちを演出し自らも4番打者として本塁打を放った。準決勝は智弁和歌山に1-5で敗れたが、この智弁和歌山がそのまま大会を制した。"
+      },
+      {
+        "period": "高校3年春（2022年）",
+        "title": "コロナ禍の繰り上げ出場からセンバツ準優勝",
+        "description": "出場予定だった京都国際が新型コロナウイルスのクラスター発生により出場を辞退したことで近江に出場権が回ってきた。1回戦から準決勝まで4試合連続完投勝利で決勝進出を果たしたが、決勝の大阪桐蔭戦は4回途中で降板し完敗した。"
+      },
+      {
+        "period": "高校3年夏（2022年）",
+        "title": "2年連続ベスト4、甲子園通算成績が歴代上位に到達",
+        "description": "第104回全国高等学校野球選手権大会でも4勝を挙げてベスト4進出（準々決勝は高松商業に7-6、準決勝は下関国際に2-8で敗戦）。3回戦の海星高校（長崎）戦では満塁本塁打を放つなど投打で活躍し、甲子園通算11勝（松坂大輔・島袋洋奨と並び歴代5位タイ）、108奪三振（田中将大・斎藤佑樹を上回る歴代4位）を記録した。大会後にはU-18ワールドカップ日本代表の主将に選ばれている。"
+      },
+      {
+        "period": "2022年10月",
+        "title": "ドラフト5位で西武入団",
+        "description": "2022年ドラフト会議で埼玉西武ライオンズから5位指名を受け入団。"
+      },
+      {
+        "period": "2025年",
+        "title": "中継ぎとして一軍に定着",
+        "description": "49試合に登板し3勝3敗1セーブ、防御率2.08と安定した投球でブルペンの一角に定着した。"
+      }
+    ],
+    "episodes": [
+      "2021年夏（第103回大会）、近江高校2年生エースだった山田は背番号8ながら全試合に先発した。3回戦では優勝候補の大阪桐蔭を6-4で撃破する金星を挙げ、準々決勝の神戸国際大学附属戦では延長10回7x-6のサヨナラ勝ちを演出、自らも4番打者として本塁打を放った。準決勝では智弁和歌山に1-5で敗れ、無名だった近江の名を全国に知らしめた大会となった。",
+      "翌2022年春のセンバツでは、出場予定だった京都国際が新型コロナウイルスのクラスター発生により出場を辞退したことで近江に出場権が回ってきた。この“繰り上げ出場”を無駄にせず、山田は1回戦から準決勝まで4試合連続完投勝利で決勝進出を果たしたが、決勝の大阪桐蔭戦は4回途中で降板し完敗した。",
+      "同年夏の選手権大会でも4勝を挙げてベスト4に進出。3回戦の海星高校（長崎）戦では満塁本塁打を放つなど投打で存在感を示し、通算甲子園11勝は松坂大輔・島袋洋奨と並ぶ歴代5位タイ、108奪三振は田中将大・斎藤佑樹を上回る歴代4位という記録に到達した。この活躍で大会後にはU-18ワールドカップ日本代表の主将に選ばれている。",
+      "2022年ドラフト5位で西武入りした山田は、2025年に49試合の登板をこなし防御率2.08をマーク。高校時代からの安定感をプロのブルペンでも発揮しつつある。"
+    ],
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "seibu-122",
+    "name": "E.ラミレス",
+    "nameKana": "えまにゅえる らみれす",
+    "number": 56,
+    "position": "投手",
+    "detailedPosition": "中継ぎ",
+    "birthDate": "1994-07-15",
+    "draftInfo": "パドレス・マーリンズ・ブルージェイズ傘下等を経て2024年11月29日に埼玉西武ライオンズと契約",
+    "roots": {
+      "hometown": "ドミニカ共和国プエルト・プラタ"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 9,
+      "games": 8,
+      "era": 6.0,
+      "eraDisplay": "6.00",
+      "wins": 2,
+      "losses": 1,
+      "saves": 0,
+      "strikeouts": 5
+    },
+    "throwsBats": "右投右打",
+    "height": 188,
+    "weight": 86,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 26.67,
+      "games": 27,
+      "era": 1.01,
+      "eraDisplay": "1.01",
+      "wins": 1,
+      "losses": 0,
+      "saves": 0,
+      "strikeouts": 28
+    },
+    "careerSummary": "ドミニカ共和国出身。パドレス、ブレーブス、ヤンキース傘下でマイナーを渡り歩き、2024年にマーリンズでメジャーデビュー（15試合、防御率6.97）。ブルージェイズへのウェーバー移籍を経て2024年11月に西武と契約し来日すると、NPB1年目の2025年は27試合に登板して防御率1.01という圧巻の数字を残した。",
+    "growthTimeline": [
+      {
+        "period": "2012〜2019年",
+        "title": "パドレス傘下でマイナー生活をスタート",
+        "description": "2012年11月にパドレスと国際FA契約を結び、ドミニカサマーリーグからスタート。複数の傘下チームを経て2019年までパドレス組織でプレーした。"
+      },
+      {
+        "period": "2020〜2023年",
+        "title": "ブレーブス、ヤンキース傘下を渡り歩く",
+        "description": "2020年11月にブレーブスとマイナー契約、2021年にダブルAでプレー。2021年11月にはヤンキースと契約し2022年はトリプルAまで昇格。2023年はメキシカンリーグのアセレロス・デ・モンクロバでプレーした。"
+      },
+      {
+        "period": "2024年",
+        "title": "マーリンズでメジャーデビュー、ブルージェイズへ",
+        "description": "2024年1月にマーリンズとマイナー契約し4月28日にメジャーデビュー。15試合に登板し防御率6.97だったが9月3日にDFA、9月5日にブルージェイズへウェーバー移籍。11月4日に再びDFAとなり11月8日に解雇された。"
+      },
+      {
+        "period": "2024年11月",
+        "title": "西武と契約、来日",
+        "description": "11月30日に埼玉西武ライオンズとの契約が発表され、2025年からNPBでプレーすることとなった。"
+      },
+      {
+        "period": "2025年",
+        "title": "NPB1年目から驚異的な安定感",
+        "description": "27試合に登板して1勝0敗、防御率1.01という傑出した成績を残し、中継ぎ陣の柱の一人となった。"
+      }
+    ],
+    "episodes": [
+      "ドミニカ共和国出身のラミレスは、パドレス、ブレーブス、ヤンキースの傘下を渡り歩きながらメジャー昇格のチャンスを掴めずにいたが、2024年にマーリンズとマイナー契約を結ぶと同年4月28日についにメジャーデビューを果たした。15試合の登板で防御率6.97に終わり9月にDFA、ブルージェイズへのウェーバー移籍を経て11月に解雇されるという厳しいシーズンとなったが、その直後の11月30日に西武ライオンズとの契約が決まり日本での再起の場を得た。",
+      "初めてのNPBシーズンとなった2025年、ラミレスは27試合に登板して防御率1.01という圧巻の数字を残し、マイナーリーガー時代の苦労を払拭するような活躍を見せた。"
+    ],
+    "photoEmoji": "🇩🇴"
+  },
+  {
+    "id": "seibu-123",
+    "name": "A.ワイナンス",
+    "nameKana": "あらん わいなんす",
+    "number": 30,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "birthDate": "1995-08-10",
+    "draftInfo": "2018年MLBドラフト17巡目（全体500位、ニューヨーク・メッツ）を経て2025年に埼玉西武ライオンズと契約",
+    "roots": {
+      "hometown": "アメリカ合衆国カリフォルニア州ベーカーズフィールド"
+    },
+    "currentStats": {
+      "season": "2026",
+      "inningsPitched": 43.33,
+      "games": 8,
+      "era": 5.19,
+      "eraDisplay": "5.19",
+      "wins": 2,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 41
+    },
+    "throwsBats": "右投右打",
+    "height": 188,
+    "weight": 81,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 0,
+      "eraDisplay": "-"
+    },
+    "careerSummary": "アメリカ・カリフォルニア州出身。2018年MLBドラフト17巡目でメッツ入りし、2021年12月のルール5ドラフトでブレーブス移籍。2023年7月22日にメジャーデビューし、同年8月12日には7回無失点でメジャー初勝利を挙げた。2024年にヤンキースへ移り、2025年12月に西武と契約すると2026年5月17日にNPBデビューし初登板で初勝利を飾った。",
+    "growthTimeline": [
+      {
+        "period": "大学時代",
+        "title": "ベイカーズフィールド・カレッジからキャンベル大学へ",
+        "description": "地元カリフォルニア州のベイカーズフィールド・カレッジを経てキャンベル大学（ノースカロライナ州）でプレー。2018年MLBドラフトでメッツから17巡目（全体500位）指名を受けた。"
+      },
+      {
+        "period": "2018〜2021年",
+        "title": "メッツ傘下でのマイナー生活",
+        "description": "メッツ傘下でルーキー級からシングルAまで昇格したが、2020年はコロナ禍でシーズン自体が中止。2021年にハイA・ダブルAでプレーした後、同年12月のルール5ドラフトでブレーブスに移籍した。"
+      },
+      {
+        "period": "2023年7月22日",
+        "title": "ブレーブスでメジャーデビュー",
+        "description": "ブルワーズ戦でメジャーデビュー。8月12日のメッツ戦では7回無失点の好投でメジャー初勝利を挙げた（試合は21-3の大勝）。ルーキーイヤーは6先発で1勝2敗、防御率5.29。"
+      },
+      {
+        "period": "2024〜2025年",
+        "title": "ヤンキース移籍、苦しんだ2年間",
+        "description": "2024年終盤にブレーブスからDFAされ、2025年1月にヤンキースへウェーバー移籍。同年4月にメジャー昇格したが3試合で防御率8.68と苦しみ、12月17日に解雇された。"
+      },
+      {
+        "period": "2025年12月",
+        "title": "西武と契約",
+        "description": "12月18日、埼玉西武ライオンズとの契約が発表された。"
+      },
+      {
+        "period": "2026年5月17日",
+        "title": "NPBデビューで初白星",
+        "description": "NPB初登板で防御率3.00・6奪三振の内容を見せ、早くも初勝利を挙げた。"
+      }
+    ],
+    "episodes": [
+      "地元カリフォルニアのベイカーズフィールド・カレッジからキャンベル大学に進み、2018年MLBドラフトでメッツから17巡目指名を受けたワイナンスは、プロ入り後もマイナー暮らしが続いた。2021年12月のルール5ドラフトでブレーブス移籍を果たすと、2023年7月22日についにメジャーデビュー。同年8月12日のメッツ戦では自身初となるメジャー初勝利を7回無失点の好投で飾った（試合は21-3の大勝）。メジャー昇格前は地元ベーカーズフィールドの高校で投手インストラクターや代用教員を務めていたという異色の経歴も持つ。",
+      "2024年終盤にブレーブスを離れ、2025年はヤンキース傘下でプレーしたワイナンスは、同年12月17日に解雇された翌日の18日、埼玉西武ライオンズとの契約が発表された。2026年5月17日にNPB初登板を果たすと、防御率3.00・6奪三振の内容で早くも初勝利を挙げてみせた。"
+    ],
+    "dataNote": "2025年はニューヨーク・ヤンキース傘下に所属していたためNPB成績はありません（NPBデビューは2026年5月17日）。",
+    "photoEmoji": "📚"
+  },
+  {
+    "id": "seibu-124",
+    "name": "與座 海人",
+    "nameKana": "よざ かいと",
+    "number": 15,
+    "position": "投手",
+    "detailedPosition": "先発",
+    "birthDate": "1995-09-15",
+    "draftInfo": "2017年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "沖縄県浦添市",
+      "juniorHigh": "浦添市立浦添中学校",
+      "highSchool": "沖縄尚学高等学校",
+      "university": "岐阜経済大学（現・岐阜協立大学）"
+    },
+    "currentStats": {
+      "season": "2025",
+      "inningsPitched": 93.67,
+      "games": 16,
+      "era": 2.5,
+      "eraDisplay": "2.50",
+      "wins": 6,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 44
+    },
+    "throwsBats": "右投右打",
+    "height": 173,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "inningsPitched": 93.67,
+      "games": 16,
+      "era": 2.5,
+      "eraDisplay": "2.50",
+      "wins": 6,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 44
+    },
+    "careerSummary": "沖縄尚学高では2年からサイドスローに転向、岐阜経済大学でさらにアンダースローへと進化させた技巧派右腕。2017年ドラフト5位で西武入りし、2018年にトミー・ジョン手術を経験しながらも2022年に自己最多10勝をマークするブレイクを果たした。亡き大学時代のチームメートの背番号「15」を受け継いで背負っている。",
+    "growthTimeline": [
+      {
+        "period": "沖縄尚学高校時代",
+        "title": "オーバースローからサイドスローへ転向",
+        "description": "入学当初はオーバースローだったが、2年時に指導者の勧めでサイドスローへ転向。3年時には春夏連続で甲子園に出場したが、春は初戦敗退、夏は2回戦敗退にとどまった。"
+      },
+      {
+        "period": "岐阜経済大学時代",
+        "title": "アンダースローへ再転向、悲劇と初の全国切符",
+        "description": "大学ではアンダースローにさらに転向。2年時に最優秀投手・最高殊勲選手賞を受賞するなど活躍する一方、2014年5月にチームメートの中野選手がバイク事故に遭い、事故から1週間後の5月10日に死去した。4年時、チームを創部以来初の全国大会出場に導く一安打完封を演じた際、與座は亡き中野選手の背番号「15」のユニフォームを掲げて喜びを分かち合った。"
+      },
+      {
+        "period": "2017年ドラフト",
+        "title": "育成でなく5位指名で西武入り",
+        "description": "2017年10月のドラフト会議で西武から5位指名。契約金3000万円、年俸1000万円（推定）で入団。"
+      },
+      {
+        "period": "2018年",
+        "title": "右肘故障、トミー・ジョン手術",
+        "description": "右肘の炎症により同年10月にトミー・ジョン手術を受け、長期リハビリに専念した。"
+      },
+      {
+        "period": "2020年",
+        "title": "プロ初登板・初勝利",
+        "description": "同年7月23日の千葉ロッテ戦でプロ初登板を果たし、その試合で初勝利も記録した。"
+      },
+      {
+        "period": "2022年",
+        "title": "自己最多10勝でブレイク",
+        "description": "20試合（19先発）に登板し10勝7敗、防御率2.88をマーク。7月30日の福岡ソフトバンク戦では9回7安打無四球無失点の自身初完封勝利を挙げた。"
+      }
+    ],
+    "episodes": [
+      "沖縄尚学高でオーバースローからサイドスロー、岐阜経済大学でさらにアンダースローへと投球フォームを進化させてきた與座は、大学2年時に最優秀投手・最高殊勲選手賞を獲得するなど頭角を現した。しかし2014年5月、チームメートの中野選手がバイク事故に遭い、1週間後に他界するという悲劇に見舞われる。4年時、チーム史上初となる全国大会出場を一安打完封で決めた際、與座は亡き中野選手の背番号「15」のユニフォームを掲げてマウンドで喜びを表現した。プロ入り後、與座が背負う背番号15はこの中野選手への想いを受け継いだものである。",
+      "2017年ドラフト5位で西武入りした與座は、2018年に右肘のトミー・ジョン手術を経験しながらも2020年7月23日の千葉ロッテ戦でプロ初登板・初勝利を挙げた。2022年には20試合（19先発）で10勝7敗、防御率2.88と自己最多勝を記録し、7月30日の福岡ソフトバンク戦では無四球無失点の完封勝利も演じた。本人は「僕の中では真っ直ぐの強さが一番良かった要因」とブレイクの理由を語っている。"
+    ],
+    "salaryManYen": 2500,
+    "salaryNote": "推定2500万円（2024年オフ契約更改時点。2025年以降の公表は確認できず）",
+    "photoEmoji": "🌺"
+  },
+  {
+    "id": "seibu-125",
+    "name": "柘植 世那",
+    "nameKana": "つげ せな",
+    "number": 37,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "birthDate": "1997-06-03",
+    "draftInfo": "2019年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "群馬県高崎市",
+      "juniorHigh": "高崎市立矢中中学校",
+      "highSchool": "高崎健康福祉大学高崎高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 27,
+      "plateAppearances": 52,
+      "avg": 0.313,
+      "avgDisplay": ".313",
+      "hr": 1,
+      "rbi": 2,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 174,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 13,
+      "plateAppearances": 17,
+      "avg": 0.125,
+      "avgDisplay": ".125",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "群馬県高崎市出身。健大高崎高では2014年夏の甲子園でベスト8まで進出したが、大阪桐蔭に敗れ全国制覇には届かなかった。社会人・本田鈴鹿を経て2019年ドラフト5位で西武入りし、正捕手・森友哉のメジャー移籍後は正捕手争いに加わってきたベテラン捕手。",
+    "growthTimeline": [
+      {
+        "period": "健大高崎高校時代",
+        "title": "甲子園ベスト8、大阪桐蔭に惜敗",
+        "description": "2014年夏の第96回大会でベスト8に進出。3回戦の利府高校（宮城）戦で4安打5打点、準々決勝の大阪桐蔭戦（香月一也らを擁するチーム）では2安打を放つも敗退。翌2015年夏の第97回大会でも出場したが3回戦で成田翔投手擁する秋田商業に敗れた。高校通算32本塁打。"
+      },
+      {
+        "period": "本田鈴鹿時代（2016〜2019年）",
+        "title": "社会人野球で正捕手に成長",
+        "description": "本田鈴鹿で2年目から正捕手に定着。都市対抗野球ではきらやか銀行戦で決勝打を放つなど活躍したが、2度ドラフト指名を逃した末に3度目でプロ入りを果たした。"
+      },
+      {
+        "period": "2019年ドラフト",
+        "title": "西武から5位指名",
+        "description": "2019年ドラフト会議で埼玉西武ライオンズから5位指名を受け入団。契約金3000万円、年俸1000万円（推定）。"
+      },
+      {
+        "period": "2020〜2023年",
+        "title": "森友哉の正捕手時代を支える",
+        "description": "2020年7月15日に一軍デビューし、8月27日には自身初本塁打（相手投手：加藤翔平）を記録。2023年、森友哉がFAでオリックスへ移籍したことを受け正捕手争いに参戦し、開幕スタメンマスクを含む自己最多59試合に出場した。同年5月には右肘炎症で離脱も経験。"
+      }
+    ],
+    "episodes": [
+      "健大高崎高校の捕手として2014年夏の甲子園でベスト8まで進出した柘植は、3回戦の利府高校（宮城）戦で4安打5打点と打棒を発揮。準々決勝では優勝候補の大阪桐蔭（香月一也ら擁する）を相手に2安打を放ったが敗退した。翌年夏も出場したが3回戦で成田翔投手を擁する秋田商業に敗れている。",
+      "社会人・本田鈴鹿で正捕手を務めながら2度ドラフト指名を逃した柘植は、3度目の挑戦となる2019年ドラフトで西武から5位指名を受けプロ入りを果たした。2023年に森友哉がFAでオリックスへ移籍すると正捕手争いに加わり、開幕スタメンを含む自己最多59試合に出場した。同年12月には群馬県出身の一般女性と結婚している。"
+    ],
+    "photoEmoji": "🧢"
+  },
+  {
+    "id": "seibu-126",
+    "name": "是澤 涼輔",
+    "nameKana": "これさわ りょうすけ",
+    "number": 65,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "birthDate": "2000-04-19",
+    "draftInfo": "2022年育成ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "高崎健康福祉大学高崎高等学校",
+      "university": "法政大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 1,
+      "plateAppearances": 1,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 177,
+    "weight": 85,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 0,
+      "avgDisplay": "-"
+    },
+    "careerSummary": "三重県いなべ市出身。西武の先輩捕手・柘植世那に憧れて健大高崎高校に進学し、法政大学を経て2022年育成ドラフト4位で西武入り。二塁送球1.85秒・遠投120mの強肩が武器の捕手で、2026年7月に育成選手から支配下選手へ昇格しプロ初出場を果たした。",
+    "growthTimeline": [
+      {
+        "period": "健大高崎高校時代",
+        "title": "柘植世那への憧れから進学、控え捕手として研鑽",
+        "description": "西武の先輩捕手・柘植世那に憧れて健大高崎高校に進学。出場機会は限られ、2年春には甲子園のベンチ入りメンバーには入れなかった。"
+      },
+      {
+        "period": "法政大学時代",
+        "title": "指定校推薦で進学、控えながら強肩で評価",
+        "description": "指定校推薦で法政大学へ進学。長く3番手捕手・ブルペン捕手を務めたが、4年春に東京六大学リーグ戦デビュー（4試合3打数無安打）。二塁送球1.85秒、遠投120m、最速142km/hの送球など強肩ぶりが評価された。"
+      },
+      {
+        "period": "2022年育成ドラフト",
+        "title": "育成4位で西武入り",
+        "description": "2022年10月20日の育成ドラフト会議で西武から4位指名を受け、同年11月7日に契約合意（支度金350万円、年俸400万円、いずれも推定）。"
+      },
+      {
+        "period": "2026年7月",
+        "title": "支配下選手へ昇格、プロ初出場",
+        "description": "7月31日に育成選手から支配下選手へ昇格。あこがれの柘植世那の背中を追い続けた末に、一軍の舞台に立った。"
+      }
+    ],
+    "episodes": [
+      "西武の先輩捕手・柘植世那に憧れて健大高崎高校に進学した是澤は、高校でも法政大学でも出場機会に恵まれない控え捕手人生を送った。法政大学では長らく3番手捕手・ブルペン捕手にとどまり、公式戦出場は4年春の東京六大学リーグでの4試合（3打数無安打）のみだったが、二塁送球1.85秒、遠投120m、最速142km/hという強肩を武器に評価され、2022年育成ドラフト4位で西武入りを果たした。",
+      "大学時代、送球時のボールの握り替えが遅いことから「火縄銃」というあだ名で呼ばれていた是澤は、地道な育成生活を経て2026年7月31日に支配下選手へ昇格。あこがれの柘植世那と同じ西武の一軍捕手陣に加わった。"
+    ],
+    "salaryManYen": 400,
+    "salaryNote": "推定400万円（2023年12月、育成選手として契約更改した時点の金額。支配下昇格後の最新契約は未公表）",
+    "dataNote": "出身地はNPB公式データでは非公開でしたが、Wikipediaで「三重県いなべ市」出身と確認できたため補完しました（roots.hometownへの反映を推奨）。",
+    "photoEmoji": "🏹"
+  },
+  {
+    "id": "seibu-127",
+    "name": "炭谷 銀仁朗",
+    "nameKana": "すみたに ぎんじろう",
+    "number": 27,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "birthDate": "1987-07-19",
+    "draftInfo": "2005年高校生ドラフト1巡目（埼玉西武ライオンズ）／読売ジャイアンツ・東北楽天ゴールデンイーグルスを経て2024年に埼玉西武ライオンズへ復帰",
+    "roots": {
+      "hometown": "京都府京都市左京区",
+      "highSchool": "平安高等学校"
+    },
+    "currentStats": {
+      "season": "2025",
+      "games": 40,
+      "plateAppearances": 88,
+      "avg": 0.235,
+      "avgDisplay": ".235",
+      "hr": 0,
+      "rbi": 4,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 181,
+    "weight": 98,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 40,
+      "plateAppearances": 88,
+      "avg": 0.235,
+      "avgDisplay": ".235",
+      "hr": 0,
+      "rbi": 4,
+      "stolenBases": 0
+    },
+    "careerSummary": "2005年高校生ドラフト1巡目で西武入りし、高卒捕手として51年ぶりとなる開幕スタメンマスクを付けた早熟の捕手。2008年の日本一に貢献し、2018年に巨人へFA移籍、2021年に楽天へ移籍した後、2024年に古巣・西武へ復帰した。ゴールデングラブ賞2回、選手会長も歴任したベテラン捕手。",
+    "growthTimeline": [
+      {
+        "period": "平安高校時代",
+        "title": "満塁敬遠を受けるも甲子園には届かず",
+        "description": "3年夏の京都大会準決勝、満塁の場面で敬遠されるほど警戒されたが、その試合はその年の選手権大会準優勝校・京都外大西に2-3で敗れベスト4止まり。高校通算48本塁打を放ちながら甲子園出場はかなわなかった。"
+      },
+      {
+        "period": "2005年高校生ドラフト",
+        "title": "西武から1位指名",
+        "description": "契約金7000万円、年俸700万円（推定）で入団、初期背番号は37。"
+      },
+      {
+        "period": "2006年",
+        "title": "高卒捕手として51年ぶりの開幕スタメンマスク",
+        "description": "3月25日、高卒捕手としては51年ぶりとなる開幕戦スタメンマスクを被った。3月29日には高卒捕手プロ初の満塁本塁打を放った。"
+      },
+      {
+        "period": "2008年",
+        "title": "日本一に貢献",
+        "description": "控え捕手として日本シリーズ制覇に貢献した。"
+      },
+      {
+        "period": "2012・2015年",
+        "title": "ゴールデングラブ賞受賞",
+        "description": "巧みなリードと盗塁阻止力が評価され2度受賞。2015年にはベストナインにも選出された。"
+      },
+      {
+        "period": "2017〜2019年",
+        "title": "選手会長を歴任",
+        "description": "高校から直接入団した選手としては史上初めてプロ野球選手会長に就任した。"
+      },
+      {
+        "period": "2018年11月",
+        "title": "FAで巨人へ",
+        "description": "人的補償で投手・内海哲也が西武へ移籍。3年総額推定1億5000万円の契約だった。"
+      },
+      {
+        "period": "2021年7月",
+        "title": "金銭トレードで楽天へ",
+        "description": "同一シーズン内に2球団それぞれで本塁打を放つという69年ぶりの記録も達成した。"
+      },
+      {
+        "period": "2023年10月",
+        "title": "楽天から戦力外通告",
+        "description": "65試合の出場にとどまり戦力外通告を受けた。"
+      },
+      {
+        "period": "2023年11月",
+        "title": "6年ぶりに古巣・西武へ復帰",
+        "description": "「野球人としてもう一回勝負したい」とコメントし、推定年俸3500万円で西武と1年契約。背番号は古巣時代と同じ27に復帰した。"
+      }
+    ],
+    "episodes": [
+      "平安高校3年の夏、京都大会準決勝で満塁の場面で申告敬遠を受けるほど警戒された炭谷だったが、この試合は後にその年の選手権大会準優勝校となる京都外大西に2-3で敗れ、甲子園出場はかなわなかった。それでも2005年の高校生ドラフトで西武から1位指名を受けてプロ入りすると、2006年3月25日、高卒捕手としては実に51年ぶりとなる開幕戦スタメンマスクを被り、同29日には高卒捕手プロ初の満塁本塁打を放つという衝撃的なデビューを飾った。",
+      "西武の正捕手として2008年の日本一に貢献し、2012年・2015年にゴールデングラブ賞を2度受賞した炭谷は、2017年から2019年にかけて高校から直接入団した選手としては史上初めてプロ野球選手会長を務めた。2018年11月にFA権を行使して巨人へ移籍（人的補償で内海哲也投手が西武入り）、2021年7月には金銭トレードで楽天へ移籍し、同一シーズン中に2球団それぞれで本塁打を放つという69年ぶりの珍しい記録も残した。",
+      "2023年10月に楽天から戦力外通告を受けた炭谷は、同年11月16日、6年ぶりとなる古巣・西武への復帰を発表。「野球人としてもう一回勝負したい」と語り、かつての背番号27を再び背負ってベテラン捕手として若手の指導役も担っている。なお本来は左利きだが、投打とも右で行う経歴の持ち主でもある。"
+    ],
+    "salaryManYen": 3500,
+    "salaryNote": "推定3500万円（2023年11月、西武復帰時の1年契約金額。以降の公表は確認できず）",
+    "photoEmoji": "🎖️"
+  },
+  {
+    "id": "seibu-128",
+    "name": "牧野 翔矢",
+    "nameKana": "まきの しょうや",
+    "number": 53,
+    "position": "捕手",
+    "detailedPosition": "捕手",
+    "birthDate": "2001-03-04",
+    "draftInfo": "2018年ドラフト5位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "遊学館高等学校"
+    },
+    "currentStats": {
+      "season": "2025",
+      "games": 29,
+      "plateAppearances": 67,
+      "avg": 0.213,
+      "avgDisplay": ".213",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 1
+    },
+    "throwsBats": "右投左打",
+    "height": 178,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2024",
+      "games": 10,
+      "plateAppearances": 20,
+      "avg": 0.05,
+      "avgDisplay": ".050",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "石川県出身、遊学館高から2018年ドラフト5位で入団した捕手。故障による二度の手術と一度の戦力外通告を乗り越え、2024年に支配下選手契約を勝ち取った雑草魂の持ち主。",
+    "growthTimeline": [
+      {
+        "period": "高校時代",
+        "title": "遊学館高で好打の捕手として台頭",
+        "description": "遊学館高等学校に1年からベンチ入りし、夏から出場機会を得た。甲子園出場はなかったが、高校通算15本塁打を記録し、2018年ドラフトで西武から5位指名を受けた。"
+      },
+      {
+        "period": "2019〜2020年",
+        "title": "二軍でのスタートと右肘の故障",
+        "description": "プロ入り後は二軍暮らしが続き、2019年は44試合出場で打率.163。2020年は右肘の手術の影響で出場が22試合にとどまり、打率.161と伸び悩んだ。"
+      },
+      {
+        "period": "2022年",
+        "title": "一軍初出場も再手術、そして一度の戦力外通告",
+        "description": "4年目の2022年に開幕一軍入りし、4月6日にプロ初出場・初安打を記録。しかし6月に右肘の手術を受け、10月に戦力外通告を受けた。11月に育成選手として再契約（背番号117）し、現役続行の道を選んだ。"
+      },
+      {
+        "period": "2023〜2024年",
+        "title": "育成からの這い上がり、支配下選手契約を再び獲得",
+        "description": "2023年は二軍で42試合に出場し打率.221とリハビリを進め、2024年6月25日に支配下選手契約を締結（背番号53）。育成落ちからの復帰を果たした。"
+      },
+      {
+        "period": "2025年",
+        "title": "支配下復帰後初のフルシーズン",
+        "description": "支配下復帰後初めてシーズンを通して一軍に帯同し、29試合に出場して打率.213を記録した。"
+      }
+    ],
+    "episodes": [
+      "石川県鳳珠郡穴水町出身の牧野は、遊学館高校時代は甲子園出場こそなかったものの、通算15本塁打を放つ好打の捕手として2018年ドラフトで西武から5位指名を受けた。プロ入り後は右肘の状態に苦しみ、2020年と2022年の二度にわたり手術を受けるなど、故障との戦いが続いた。",
+      "2022年10月に一度は戦力外通告を受けながら、11月に育成選手として再契約するという苦しい経験をした牧野は、腐らずに二軍でプレーを続け、2024年6月25日に支配下選手契約を再び勝ち取った。2025年は29試合に出場して打率.213を記録し、正捕手争いに名乗りを上げている。"
+    ],
+    "photoEmoji": "🧤",
+    "dataNote": "出身地は既存データに記載がなかったため、公開情報に基づき「石川県鳳珠郡穴水町」であることを確認しました（要・roots.hometown反映）。"
+  },
+  {
+    "id": "seibu-129",
+    "name": "石井 一成",
+    "nameKana": "いしい かずなり",
+    "number": 4,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "1994-05-06",
+    "draftInfo": "2016年ドラフト2位（北海道日本ハムファイターズ）／2026年に埼玉西武ライオンズへ移籍",
+    "roots": {
+      "hometown": "栃木県那須郡小川町（現・那珂川町）",
+      "juniorHigh": "小川中学校",
+      "highSchool": "作新学院高等学校",
+      "university": "早稲田大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 67,
+      "plateAppearances": 232,
+      "avg": 0.225,
+      "avgDisplay": ".225",
+      "hr": 6,
+      "rbi": 18,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 182,
+    "weight": 86,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 108,
+      "plateAppearances": 364,
+      "avg": 0.259,
+      "avgDisplay": ".259",
+      "hr": 6,
+      "rbi": 30,
+      "stolenBases": 3
+    },
+    "careerSummary": "作新学院高から早稲田大学を経て2016年ドラフト2位で日本ハム入り。長年チームの内野を支えたユーティリティプレーヤーで、2025年に自己最多の108試合・打率.259を記録した後、2026年に西武へ移籍した。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（作新学院高）",
+        "title": "甲子園3季連続出場、2年夏はベスト4",
+        "description": "作新学院高校で1年秋からレギュラーとなり、甲子園に3季連続出場。2年夏（2011年、第93回大会）は準決勝まで勝ち上がったが、後にプロ入りする髙山俊を擁する日大三に7-6で惜敗。3年夏（2012年）は準々決勝で東海大甲府（渡邉諒がこの試合で本塁打）に4-8で敗れベスト8で終えた。3年時には主将を務めた。"
+      },
+      {
+        "period": "大学時代（早稲田大学）",
+        "title": "遊撃手としてベストナイン、4年時に主将",
+        "description": "1年春からリーグ戦に出場し、3年春には遊撃手でベストナインを受賞。4年時は主将としてチームを牽引し、通算80試合出場・打率.287・6本塁打の成績を残した。"
+      },
+      {
+        "period": "2016〜2017年",
+        "title": "日本ハム2位指名、新人最速本塁打",
+        "description": "2016年ドラフト会議で日本ハムから2位指名（背番号38）。2017年に開幕一軍入りし、二塁手でスタートした後に遊撃手に定着。4月14日には12球団の新人最速となる本塁打を記録した。"
+      },
+      {
+        "period": "2018〜2024年",
+        "title": "中島卓也との遊撃争い、内野ユーティリティへ",
+        "description": "正遊撃手に返り咲いた中島卓也との争いで出場機会が減り、二塁・三塁も守る内野のユーティリティとして起用される日々が続いた。2022年は新庄剛志新監督の積極起用で自己最高打率.236を記録したが、2023年は左肩の肉離れで36試合出場にとどまった。"
+      },
+      {
+        "period": "2025〜2026年",
+        "title": "キャリアハイの成績、そして西武へ移籍",
+        "description": "2025年は108試合に出場し打率.259・6本塁打・30打点とキャリアハイ級の成績を残した。2026年、日本ハムから埼玉西武ライオンズへ移籍し、新天地での挑戦となった。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2018年以降",
+        "position": "遊撃手 → 内野のユーティリティ",
+        "reason": "正遊撃手争いで中島卓也が定位置を確保したため、二塁・三塁など複数ポジションを守る内野のユーティリティ的役割を担うようになった。"
+      }
+    ],
+    "episodes": [
+      "作新学院高校時代の石井は甲子園に3季連続で出場し、2年夏（2011年）には準決勝まで進んだが、後にプロ入りする髙山俊（阪神）を擁する日大三に7-6で惜敗した。3年夏（2012年）は準々決勝で東海大甲府（渡邉諒）に4-8で敗れ、ベスト8で夏を終えた。早稲田大学では4年時に主将を務め、リーダーシップを発揮した。",
+      "2016年ドラフトで日本ハム2位指名を受けた石井は、2017年に開幕一軍入りし、4月14日には12球団の新人最速本塁打を記録するなど鮮烈なデビューを飾った。しかしその後は中島卓也との遊撃手争いに苦しみ、内野のユーティリティとして出場機会を積み重ねる日々が続いた。2022年には新庄剛志新監督の積極起用でキャリアハイの打率.236を記録し、2025年には108試合出場・打率.259・6本塁打とベテランらしい安定感を見せた。",
+      "2026年、石井は日本ハムから埼玉西武ライオンズへ移籍。長年慣れ親しんだ北海道を離れての新天地での挑戦となった。"
+    ],
+    "salaryManYen": 4000,
+    "salaryNote": "推定4000万円（2025年、日本ハム時代の契約更改時点。西武移籍後の金額は未公表）。",
+    "photoEmoji": "🔄"
+  },
+  {
+    "id": "seibu-130",
+    "name": "児玉 亮涼",
+    "nameKana": "こだま りょうすけ",
+    "number": 0,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "1998-07-10",
+    "draftInfo": "2022年ドラフト6位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "文徳高等学校",
+      "university": "九州産業大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 11,
+      "plateAppearances": 3,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 166,
+    "weight": 68,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 60,
+      "plateAppearances": 53,
+      "avg": 0.17,
+      "avgDisplay": ".170",
+      "hr": 0,
+      "rbi": 3,
+      "stolenBases": 1
+    },
+    "careerSummary": "熊本県出身、166cmと小柄ながら文徳高から九州産業大、社会人・大阪ガスを経て2022年ドラフト6位で入団。2023年に源田壮亮の負傷離脱に伴い遊撃手のレギュラーを一時的に任された。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（文徳高）",
+        "title": "1年から主力、甲子園には届かず",
+        "description": "文徳高等学校で1年夏からレギュラーを務め、2年秋から主将としてチームを牽引した。3年夏は熊本県大会ベスト4が最高で、甲子園出場はかなわなかった。"
+      },
+      {
+        "period": "大学〜社会人時代",
+        "title": "大学日本代表、社会人日本選手権優勝に貢献",
+        "description": "九州産業大学では2年春からレギュラーに抜擢され大学日本代表に選出、日米大学野球選手権とハーレムベースボールウィークで優勝を経験した。ただし打撃面の課題からプロ志望届は提出せず、社会人の大阪ガスへ進むと1年目からレギュラー遊撃手として活躍し、社会人野球日本選手権大会優勝に貢献して優秀選手にも選ばれた。"
+      },
+      {
+        "period": "2022年",
+        "title": "2022年ドラフト6位で西武入団",
+        "description": "2022年ドラフト会議で埼玉西武ライオンズから6位指名を受けプロ入りした。"
+      },
+      {
+        "period": "2023年",
+        "title": "源田壮亮の代役として緊急抜擢",
+        "description": "開幕直前に正遊撃手の源田壮亮が骨折で離脱したため、3月31日のオリックス戦で代走としてプロ初出場、4月2日に遊撃手で先発デビュー。4月4日の楽天戦では則本昂大から初安打・初打点を記録した。シーズンは二塁・三塁も守りながら56試合に出場し、打率.221を残した。"
+      },
+      {
+        "period": "2025年",
+        "title": "出場機会を維持しつつ打率は低迷",
+        "description": "60試合に出場したが打率.170にとどまり、レギュラー定着には至らなかった。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2023年開幕",
+        "position": "遊撃手（正遊撃手代役）",
+        "reason": "正遊撃手の源田壮亮が骨折で開幕一軍を逃したため、緊急的に遊撃のレギュラーを任された。"
+      }
+    ],
+    "episodes": [
+      "熊本県出身、166cmと決して大きくない体格の児玉は、大阪ガスで社会人野球日本選手権優勝に貢献した実力を引っさげ、2022年ドラフト6位で西武に入団した。",
+      "2023年開幕直前、正遊撃手の源田壮亮が骨折で戦線を離脱すると、児玉が緊急的に遊撃のレギュラーを任された。3月31日のオリックス戦で代走としてプロ初出場を果たすと、4月2日に遊撃手で先発デビュー。4月4日の楽天戦では則本昂大から値千金の初安打・初打点を記録し、源田不在の穴を懸命に埋めた。シーズンは二塁・三塁も守りながら56試合に出場し打率.221を残した。"
+    ],
+    "salaryManYen": 1300,
+    "salaryNote": "推定1300万円（2023年オフの契約更改時点。以降の推定は未確認）。",
+    "photoEmoji": "🛡️",
+    "dataNote": "出身地は既存データに記載がなかったため、公開情報に基づき「熊本県玉名郡玉東町」であることを確認しました（要・roots.hometown反映）。"
+  },
+  {
+    "id": "seibu-131",
+    "name": "髙松 渡",
+    "nameKana": "たかまつ わたる",
+    "number": 50,
+    "position": "内野手",
+    "detailedPosition": "内野手（代走）",
+    "birthDate": "1999-07-02",
+    "draftInfo": "2017年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "滝川第二高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 8,
+      "plateAppearances": 1,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 4
+    },
+    "throwsBats": "右投左打",
+    "height": 177,
+    "weight": 75,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 27,
+      "plateAppearances": 19,
+      "avg": 0.059,
+      "avgDisplay": ".059",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 7
+    },
+    "careerSummary": "兵庫県加古川市出身、「滝二のイチロー」と呼ばれた俊足巧打の内野手。2017年ドラフト3位で中日ドラゴンズに入団し、2023年7月に川越誠司とのトレードで西武へ移籍。以後は代走のスペシャリストとして重宝されている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（滝川第二高校）",
+        "title": "「滝二のイチロー」と呼ばれた俊足",
+        "description": "2年時の全国高等学校野球選手権県予選で打率.444を記録し、「滝二のイチロー」の愛称で呼ばれた。3年春には遊撃手として復帰し、守備技術を磨いた。"
+      },
+      {
+        "period": "2017年",
+        "title": "中日ドラゴンズから3位指名",
+        "description": "2017年10月26日のドラフト会議で中日ドラゴンズから3位指名を受け、契約金5000万円・年俸600万円・背番号0で入団した。"
+      },
+      {
+        "period": "2021年",
+        "title": "開幕一軍でプロ初盗塁・初安打",
+        "description": "開幕から一軍入りし、3月26日にプロ初盗塁、4月2日にプロ初安打を記録。78試合に出場し15盗塁をマークするなど俊足を発揮した。"
+      },
+      {
+        "period": "2023年7月",
+        "title": "川越誠司とのトレードで西武へ",
+        "description": "7月18日、川越誠司との交換トレードで埼玉西武ライオンズへ移籍。西武は「代走の切り札」を求め、中日は長打力不足の解消を狙うという、互いの補強ポイントが一致したトレードだった。"
+      },
+      {
+        "period": "2024〜2025年",
+        "title": "代走のスペシャリストとして定着",
+        "description": "2024年は35試合に出場し8盗塁を記録、契約更改では「目標は30盗塁」とコメントした。2025年は27試合に出場し7盗塁をマークした。"
+      }
+    ],
+    "episodes": [
+      "兵庫県加古川市出身、滝川第二高校時代に「滝二のイチロー」と呼ばれた髙松は、50m5秒8・一塁到達3秒53という俊足を武器に、2017年ドラフト3位で中日ドラゴンズに入団した。2021年に開幕一軍入りすると3月26日にプロ初盗塁、4月2日にプロ初安打を記録し、78試合出場・15盗塁とその足の速さを存分に発揮した。",
+      "2023年7月18日、川越誠司との交換トレードで埼玉西武ライオンズへ移籍。西武は「代走の切り札」を欲し、中日は長打力不足の解消を狙う、互いのニーズが一致したトレードだった。移籍後は代走のスペシャリストとして重宝され、2024年は35試合に出場して8盗塁を記録。契約更改の際には「目標は30盗塁」と意気込みを語った。"
+    ],
+    "salaryManYen": 1100,
+    "salaryNote": "推定1100万円（2024年オフの契約更改時点）。",
+    "photoEmoji": "💨",
+    "dataNote": "出身地は既存データに記載がなかったため、公開情報に基づき「兵庫県加古川市」であることを確認しました（要・roots.hometown反映）。また、draftInfoは現状「2017年ドラフト3位（埼玉西武ライオンズ）」となっていますが、実際は2017年ドラフト3位で中日ドラゴンズに入団し、2023年7月18日に川越誠司とのトレードで西武へ移籍した経歴です。draftInfoフィールドの修正をご検討ください。"
+  },
+  {
+    "id": "seibu-132",
+    "name": "仲田 慶介",
+    "nameKana": "なかた けいすけ",
+    "number": "00",
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "1999-07-25",
+    "draftInfo": "2021年育成ドラフト14位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "福岡大学附属大濠高等学校",
+      "university": "福岡大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 21,
+      "plateAppearances": 26,
+      "avg": 0.2,
+      "avgDisplay": ".200",
+      "hr": 0,
+      "rbi": 3,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投両打",
+    "height": 175,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 60,
+      "plateAppearances": 96,
+      "avg": 0.23,
+      "avgDisplay": ".230",
+      "hr": 0,
+      "rbi": 3,
+      "stolenBases": 1
+    },
+    "careerSummary": "福岡市出身のスイッチヒッター。福岡大大濠高から福岡大学を経て2021年育成ドラフト14位でソフトバンクに入団したが、2024年11月に戦力外通告を受け、同月に西武と育成選手契約を結んで新天地でのプレーを続けている。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（福岡大大濠高）",
+        "title": "一般入学唯一のレギュラー、選抜ベスト8",
+        "description": "選抜高等学校野球大会でベスト8まで進出。3年夏の福岡県大会では中堅手のレギュラーとして出場したが、決勝で東筑高校に敗れ準優勝に終わった。推薦入学生が多くを占めるチームの中、一般入学で唯一レギュラーを獲得した。"
+      },
+      {
+        "period": "大学時代（福岡大学）",
+        "title": "打率.382でベストナイン、チーム初の4強",
+        "description": "2年秋からレギュラーとなり、4年春の九州六大学リーグ戦では打率.382を記録してベストナインを受賞。全日本大学野球選手権では1番・中堅手としてチーム初の4強入りに貢献した。"
+      },
+      {
+        "period": "2021年",
+        "title": "ソフトバンクから育成14位（全体最終）指名",
+        "description": "10月11日のドラフト会議で福岡ソフトバンクホークスから育成選手ドラフト14位（この年全体最終・128番目）の指名を受けた。10月28日に支度金300万円・年俸400万円で契約合意（背番号155）。"
+      },
+      {
+        "period": "2024年3月",
+        "title": "支配下選手契約を締結",
+        "description": "3月19日、緒方理貢・川村友斗とともに支配下選手契約を結んだ（背番号69、推定年俸700万円）。"
+      },
+      {
+        "period": "2024年11月",
+        "title": "ソフトバンクを戦力外、西武と育成契約",
+        "description": "11月4日にソフトバンクから戦力外通告を受け、育成再契約のオファーを拒否。11月24日に埼玉西武ライオンズと育成選手契約を締結した（背番号140）。"
+      },
+      {
+        "period": "2025年",
+        "title": "西武で一軍出場機会を獲得",
+        "description": "移籍後初のシーズンで60試合に出場し、打率.230を記録した。"
+      }
+    ],
+    "episodes": [
+      "福岡市出身の仲田は、福岡大大濠高では推薦入学の選手たちがレギュラーを固める中、一般入学ながら唯一レギュラーの座を掴んだ努力家。福岡大学では4年春に打率.382でベストナインを受賞し、チームを全日本大学野球選手権初の4強に導いた。",
+      "2021年ドラフトでソフトバンクから育成14位（その年全体最終・128番目）指名を受けた仲田は、2024年3月に支配下選手契約を勝ち取ったものの、同年11月4日に戦力外通告を受けるという苦しい経験をした。ソフトバンクからの育成再契約のオファーを断り、11月24日に西武と育成選手契約を締結。新天地で60試合に出場し打率.230を記録するなど、スイッチヒッターとして出場機会を広げている。"
+    ],
+    "photoEmoji": "🔁",
+    "dataNote": "出身地は既存データに記載がなかったため、公開情報に基づき「福岡県福岡市早良区」であることを確認しました（要・roots.hometown反映）。また、draftInfoは現状「2021年育成ドラフト14位（埼玉西武ライオンズ）」となっていますが、実際は2021年に福岡ソフトバンクホークスから育成14位指名を受けてプロ入りし、2024年11月にソフトバンクを戦力外となった後、同月に西武と育成選手契約を結んだ経歴です。draftInfoフィールドの修正をご検討ください。"
+  },
+  {
+    "id": "seibu-133",
+    "name": "山村 崇嘉",
+    "nameKana": "やまむら たかよし",
+    "number": 32,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "2002-09-28",
+    "draftInfo": "2020年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "東京都世田谷区",
+      "juniorHigh": "東海大学付属相模高等学校中等部",
+      "highSchool": "東海大学付属相模高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 29,
+      "plateAppearances": 88,
+      "avg": 0.2,
+      "avgDisplay": ".200",
+      "hr": 1,
+      "rbi": 6,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 183,
+    "weight": 89,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 71,
+      "plateAppearances": 231,
+      "avg": 0.246,
+      "avgDisplay": ".246",
+      "hr": 4,
+      "rbi": 20,
+      "stolenBases": 0
+    },
+    "careerSummary": "東京都世田谷区出身。東海大相模高から2020年ドラフト3位で入団。高校では一塁手だったが、プロ入り後は遊撃手を中心に二塁・三塁もこなす内野のユーティリティとして成長している。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（東海大相模高）",
+        "title": "2年夏に甲子園出場、3回戦で敗退",
+        "description": "2年夏（2019年、第101回全国高等学校野球選手権大会）に一塁手として甲子園に出場したが、3回戦で藤田健斗・元謙太を擁する中京学院大中京（岐阜）に敗れた。2年秋には主将兼一塁手として関東地区高等学校野球大会でベスト4に進出。3年時はセンバツ出場を決めていたが新型コロナウイルスの影響で大会が中止となり、代替の交流試合で大阪桐蔭と対戦して敗れた。高校通算49本塁打を記録した。"
+      },
+      {
+        "period": "2020年",
+        "title": "西武から3位指名",
+        "description": "2020年10月のドラフト会議で埼玉西武ライオンズから3位指名を受け、契約金5000万円・年俸700万円で入団した。"
+      },
+      {
+        "period": "2022年",
+        "title": "未成年飲酒・喫煙による謹慎処分",
+        "description": "3月10日から4月2日まで、未成年での飲酒・喫煙が発覚し謹慎処分を受けた。"
+      },
+      {
+        "period": "2023年",
+        "title": "初の開幕一軍、プロ初本塁打",
+        "description": "初めて開幕一軍入りを果たし、3月31日のオリックス戦で一軍初出場。10月2日のロッテ戦ではプロ初安打がそのまま初本塁打となった。"
+      },
+      {
+        "period": "2024〜2025年",
+        "title": "4番打者への抜擢と自己最高成績",
+        "description": "2024年は4番打者に抜擢される場面もあったが、右太もも裏の肉離れで離脱し打率.219、2本塁打、23打点に終わった。2025年は71試合に出場し、打率.246・4本塁打・20打点とプロ入り後最多の出場機会を生かして自己最高の成績を残した。"
+      }
+    ],
+    "episodes": [
+      "東海大相模高校時代の山村は、2年夏（2019年）の甲子園に一塁手として出場したが、3回戦で好投手・藤田健斗らを擁する中京学院大中京（岐阜）に敗れた。3年時はセンバツ出場を決めていたが新型コロナウイルスの影響で大会が中止となり、代替の交流試合で大阪桐蔭と対戦する巡り合わせとなった。",
+      "2022年には未成年飲酒・喫煙が発覚し、3月10日から4月2日まで謹慎処分を受けるという苦い経験をしたが、2023年に初めて開幕一軍入り。10月2日のロッテ戦ではプロ初安打がそのまま初本塁打となった。2024年には4番打者に抜擢される場面もあったが右太もも裏の肉離れで離脱。2025年は71試合に出場し打率.246、4本塁打、20打点とプロ入り後最多の出場機会を生かして自己最高の成績を残した。"
+    ],
+    "photoEmoji": "⚡"
+  },
+  {
+    "id": "seibu-134",
+    "name": "佐藤 太陽",
+    "nameKana": "さとう たいよう",
+    "number": 38,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "2002-05-19",
+    "draftInfo": "2024年育成ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "静岡県立浜松商業高等学校",
+      "university": "神奈川大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 14,
+      "plateAppearances": 26,
+      "avg": 0.231,
+      "avgDisplay": ".231",
+      "hr": 1,
+      "rbi": 2,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 177,
+    "weight": 82,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 13,
+      "plateAppearances": 34,
+      "avg": 0.167,
+      "avgDisplay": ".167",
+      "hr": 0,
+      "rbi": 3,
+      "stolenBases": 0
+    },
+    "careerSummary": "静岡県立浜松商業高校から神奈川大学を経て、2024年育成ドラフト2位で西武入団した内野手。2025年に一軍公式戦初出場を果たした。",
+    "growthTimeline": [
+      {
+        "period": "2024年",
+        "title": "育成ドラフト2位で西武入団",
+        "description": "浜松商業高校、神奈川大学を経て、2024年の育成選手ドラフトで埼玉西武ライオンズから2位指名を受けプロ入りした。"
+      },
+      {
+        "period": "2025年",
+        "title": "一軍初出場",
+        "description": "13試合の一軍出場で打率.167、3打点を記録し、プロとしての足がかりを作った。通算では27試合60打席、打率.196。"
+      }
+    ],
+    "episodes": [
+      "静岡県立浜松商業高校から神奈川大学へと進み、2024年育成ドラフト2位で西武入団した佐藤は、2025年に一軍公式戦初出場を果たした。13試合に出場し打率.167、3打点を記録するなど、まずは一軍の舞台に足がかりを作ったシーズンとなった。"
+    ],
+    "photoEmoji": "☀️",
+    "dataNote": "出身地はNPB公式・Wikipedia等の公開情報では確認できず、「不明（要調査）」のまま残しています。"
+  },
+  {
+    "id": "seibu-135",
+    "name": "村田 怜音",
+    "nameKana": "むらた れおん",
+    "number": 99,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "2001-08-04",
+    "draftInfo": "2023年ドラフト6位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "三重県立相可高等学校",
+      "university": "皇學館大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 4,
+      "plateAppearances": 10,
+      "avg": 0.0,
+      "avgDisplay": ".000",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 197,
+    "weight": 115,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 23,
+      "plateAppearances": 85,
+      "avg": 0.195,
+      "avgDisplay": ".195",
+      "hr": 2,
+      "rbi": 9,
+      "stolenBases": 0
+    },
+    "careerSummary": "三重県松阪市出身、197cm・115kgの規格外の体格から「伊勢のガリバー」「伊勢のラオウ」の異名を持つ内野手。三重県立相可高から皇學館大学を経て2023年ドラフト6位で西武入団。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（相可高校）",
+        "title": "骨折からの復活、20本塁打も甲子園には届かず",
+        "description": "入学直後に右第一肋骨を骨折し9か月間の離脱を強いられたが、3年春に打撃が一気に開花し、夏までに20本塁打を量産した。ただし夏の三重県大会は3回戦で敗退し、甲子園出場は果たせなかった。"
+      },
+      {
+        "period": "2023年10月",
+        "title": "西武から6位指名",
+        "description": "10月26日のドラフト会議で埼玉西武ライオンズから6位指名を受けた。"
+      },
+      {
+        "period": "2024年5月",
+        "title": "一軍初昇格から4日で大怪我",
+        "description": "5月11日に一軍初昇格・初出場し、初打席で初安打を記録する鮮烈なデビューを飾った。5月14日にプロ初打点を挙げたが、5月15日にファウルフライを追う際にフェンスのネットに激突し左膝後十字靭帯を損傷、全治3か月と診断された。"
+      },
+      {
+        "period": "2024年9〜12月",
+        "title": "復帰、そして台湾へ武者修行",
+        "description": "9月23日に実戦復帰を果たし、オフにはアジアウインターベースボールリーグに台湾へ派遣され、経験を積んだ。"
+      },
+      {
+        "period": "2025年",
+        "title": "一軍定着への挑戦",
+        "description": "23試合に出場し、打率.195・2本塁打・9打点を記録した。"
+      }
+    ],
+    "episodes": [
+      "三重県松阪市出身の村田は、197cm・115kgという規格外の体格から「伊勢のガリバー」「伊勢のラオウ」の異名で呼ばれる。相可高校時代は入学直後に右第一肋骨を骨折して9か月間の離脱を強いられたが、3年春に打撃が一気に開花し、夏までに20本塁打を量産。ただし三重県大会は3回戦で敗れ、甲子園出場は叶わなかった。",
+      "2024年5月11日に一軍初昇格を果たすと初打席で初安打を記録する鮮烈なデビューを飾ったが、わずか4日後の5月15日、ファウルフライを追う際にフェンスのネットに激突し左膝後十字靭帯を損傷、全治3か月の大怪我を負った。9月23日に実戦復帰を果たし、オフには台湾のアジアウインターベースボールリーグにも派遣されるなど、規格外の体格を生かした将来性に球団の期待がかかる。"
+    ],
+    "photoEmoji": "🦣",
+    "dataNote": "出身地は既存データで「不明（要調査）」となっていましたが、公開情報に基づき「三重県松阪市」であることを確認しました（要・roots.hometown反映）。"
+  },
+  {
+    "id": "seibu-136",
+    "name": "齋藤 大翔",
+    "nameKana": "さいとう ひろと",
+    "number": 2,
+    "position": "内野手",
+    "detailedPosition": "内野手",
+    "birthDate": "2007-01-27",
+    "draftInfo": "2024年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "石川県金沢市",
+      "highSchool": "金沢高等学校"
+    },
+    "currentStats": {
+      "season": "2025",
+      "games": 4,
+      "plateAppearances": 12,
+      "avg": 0.091,
+      "avgDisplay": ".091",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 181,
+    "weight": 76,
+    "isTohokuConnection": false,
+    "careerSummary": "石川県金沢市出身、金沢高校で遊撃手として活躍し、2024年ドラフトで西武から抽選の末1位指名を受けた期待の遊撃手。「日本一の遊撃手になりたい」を目標に掲げる。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（金沢高校）",
+        "title": "遊撃手として活躍、甲子園には届かず",
+        "description": "金沢高等学校で遊撃手としてプレーし、高校通算14本塁打を記録した。甲子園出場はなかった。3年夏は右肩に違和感を抱えながらのプレーが続いた。"
+      },
+      {
+        "period": "2024年10月",
+        "title": "抽選の末、西武が1位指名で交渉権獲得",
+        "description": "10月24日のドラフト会議で、西武は競合が予想された宗山塁・石塚裕惺の抽選に外れた末、1位指名で齋藤の交渉権を獲得した（担当スカウトは安達俊也）。"
+      },
+      {
+        "period": "2024年11月",
+        "title": "入団合意、「日本一の遊撃手」を目標に",
+        "description": "11月14日、契約金9000万円・年俸1000万円で入団合意（背番号2）。「日本一の遊撃手になりたい」とコメントした。"
+      },
+      {
+        "period": "2025年",
+        "title": "右肩の不安を抱えながらプロ初出場",
+        "description": "右肩の状態から春季キャンプは二軍スタートとなったが、シーズン中に一軍昇格を果たし4試合に出場、打率.091を記録した。"
+      }
+    ],
+    "episodes": [
+      "石川県金沢市出身の齋藤は、金沢高校で遊撃手として活躍したが3年間甲子園出場はかなわなかった。2024年ドラフトで西武は競合必至と見られた宗山塁、石塚裕惺の抽選に外れた末の1位指名として齋藤の交渉権を獲得。11月14日に契約金9000万円、年俸1000万円で入団合意し、「日本一の遊撃手になりたい」と大きな目標を掲げた。",
+      "プロ1年目の2025年は3年夏から抱える右肩の違和感の影響で春季キャンプを二軍でスタートしたが、シーズン中には一軍昇格を果たし4試合に出場した。まだ打率.091と結果はこれからだが、10代でのNPB一軍出場という経験を積んだ。"
+    ],
+    "salaryManYen": 1000,
+    "salaryNote": "契約金9000万円・年俸1000万円（2024年11月、入団合意時点）。",
+    "photoEmoji": "🌟"
+  },
+  {
+    "id": "seibu-137",
+    "name": "栗山 巧",
+    "nameKana": "くりやま たくみ",
+    "number": 1,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1983-09-03",
+    "draftInfo": "2001年ドラフト4巡目（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "兵庫県神戸市西区",
+      "juniorHigh": "神戸市立太山寺中学校",
+      "highSchool": "育英高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 11,
+      "plateAppearances": 14,
+      "avg": 0.154,
+      "avgDisplay": ".154",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 177,
+    "weight": 85,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 11,
+      "plateAppearances": 23,
+      "avg": 0.087,
+      "avgDisplay": ".087",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "兵庫県神戸市出身。育英高校時代は甲子園でベスト4進出、2001年ドラフト4巡目で西武入団。2021年に球団生え抜き選手として初の通算2000安打を達成した「ミスターレオ」。通算2323試合・2152安打・128本塁打（2026年時点）を誇る、長年チームを牽引してきた生きる伝説である。",
+    "growthTimeline": [
+      {
+        "period": "高校時代（育英高校）",
+        "title": "2年時に春夏連続甲子園、夏はベスト4",
+        "description": "2年時の2000年に春夏連続で甲子園に出場。センバツは1回戦で國學院栃木高校に敗れたが、夏の第82回全国高等学校野球選手権大会ではベスト4まで進出し、5試合で打率.348・9打点を記録した。準決勝で東海大浦安高校に敗退。高校通算47本塁打。"
+      },
+      {
+        "period": "2001年〜2004年",
+        "title": "ドラフト4巡目でプロ入り、一軍デビュー",
+        "description": "2001年ドラフト4巡目で西武に入団（背番号52）。2004年9月24日、対大阪近鉄バファローズ戦で一軍初出場・初先発・初安打を記録した。"
+      },
+      {
+        "period": "2008〜2010年",
+        "title": "レギュラー定着、初のタイトルと表彰",
+        "description": "2008年に最多安打を獲得しベストナインに初選出、背番号を1に変更。2009年には本人の「いつかは守りたい」という希望が実り中堅手のレギュラーに定着。2010年に2度目のベストナインとゴールデングラブ賞を受賞した。"
+      },
+      {
+        "period": "2011〜2012年",
+        "title": "右肘故障で左翼転向、キャプテン就任",
+        "description": "2011年途中、右肘の故障の影響で守備範囲の広い中堅手から左翼手へ配置転換。2012年にはチームキャプテンに就任し、390試合続いていた連続フルイニング出場記録が途切れた。"
+      },
+      {
+        "period": "2016〜2019年",
+        "title": "通算1500安打、オールスター初出場",
+        "description": "2016年6月19日に通算1500安打を達成（史上120人目）。同年7月15日のオールスターゲームに初出場し、初打席で初本塁打を放った。2017年4月7日には通算1500試合出場（史上187人目）を達成し、以降は指名打者としての出場が主体となった。2019年8月11日に通算100本塁打、同月31日には通算1807安打で石毛宏典の球団記録を更新した。"
+      },
+      {
+        "period": "2021〜2022年",
+        "title": "球団生え抜き初の通算2000安打",
+        "description": "2021年6月12日に通算2000試合出場（史上52人目）を達成。9月4日には対楽天17回戦（楽天生命パーク宮城）の9回表、牧田和久から放った左前安打で通算2000安打を達成した（史上54人目、西武の生え抜き選手としては球団史上初）。2022年5月29日には38歳8カ月でサヨナラ本塁打を放ち、球団最年長サヨナラ本塁打記録を樹立した。"
+      },
+      {
+        "period": "2023〜2024年",
+        "title": "球団史上初の通算1000四球、NPB史上15人目の400二塁打",
+        "description": "2023年4月23日に球団史上初となる通算1000四球を達成。2024年6月4日にはNPB史上15人目となる通算400二塁打を記録した。"
+      },
+      {
+        "period": "2025年",
+        "title": "出場機会の大幅減少",
+        "description": "40代を目前に出場機会が11試合まで減少し、打率.087に終わった。それでもベテランとしてチームに帯同を続けている。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2004〜2008年",
+        "position": "左翼手・指名打者",
+        "reason": "一軍定着当初は左翼手・指名打者として起用された。"
+      },
+      {
+        "period": "2009年",
+        "position": "中堅手",
+        "reason": "本人の「いつかは守りたい」という希望により、中堅手のレギュラーに定着した。"
+      },
+      {
+        "period": "2011年途中〜",
+        "position": "左翼手",
+        "reason": "右肘の故障の影響で、守備範囲の広い中堅手から左翼手へ配置転換された。"
+      },
+      {
+        "period": "2017年以降",
+        "position": "指名打者中心",
+        "reason": "年齢による負担軽減のため、出場の主体が指名打者へと移行した。"
+      }
+    ],
+    "episodes": [
+      "兵庫県神戸市西区出身の栗山は、育英高校2年時の2000年に春夏連続で甲子園に出場。夏の第82回大会ではベスト4まで勝ち上がり、5試合で打率.348・9打点と打棒を発揮したが、準決勝で東海大浦安に敗れた。2001年ドラフト4巡目で西武に入団し、2004年9月24日に対大阪近鉄戦で一軍初出場・初先発・初安打を記録した。",
+      "2009年、本人の「いつかは守りたい」という希望が実り中堅手のレギュラーに定着した栗山だったが、2011年途中に右肘を痛めたことで守備範囲の広いセンターから左翼手へと配置転換された。2012年にはチームキャプテンに就任し、長らくチームの顔として君臨した。",
+      "2021年9月4日、対楽天17回戦（楽天生命パーク宮城）の9回表、牧田和久から放った左前安打で通算2000安打を達成。史上54人目、そして西武の生え抜き選手としては球団史上初の快挙だった。この試合の前日、栗山は38歳の誕生日を迎えたばかりだった。2022年5月29日には38歳8カ月でサヨナラ本塁打を放ち、球団最年長サヨナラ本塁打記録を樹立するなど、40歳が近づいてもなお勝負強さを発揮し続けた。",
+      "「クリ」「クリボー」「ミスターレオ」の愛称で長年ファンに親しまれてきた栗山は、選球眼に優れ簡単に凡退しない粘り強い打撃で知られる。少年時代はオリックス・ブルーウェーブのファンでイチローのサインボールを持っていたという逸話もある。2011年には神戸市の少年野球団と共に「栗山巧杯少年野球大会」を創設するなど、地元・神戸への貢献も続けている。2023年4月23日には球団史上初の通算1000四球、2024年6月4日にはNPB史上15人目となる通算400二塁打を達成し、推定年俸は2021年に1億7900万円まで到達した。40代を目前にした今もチームの生きる伝説であり続けている。"
+    ],
+    "photoEmoji": "👑"
+  },
+  {
+    "id": "seibu-138",
+    "name": "桑原 将志",
+    "nameKana": "くわはら まさゆき",
+    "number": 7,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1993-07-21",
+    "draftInfo": "2011年ドラフト4位（横浜DeNAベイスターズ）／2026年に埼玉西武ライオンズへ移籍",
+    "roots": {
+      "hometown": "大阪府和泉市",
+      "highSchool": "福知山成美高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 60,
+      "plateAppearances": 235,
+      "avg": 0.231,
+      "avgDisplay": ".231",
+      "hr": 3,
+      "rbi": 15,
+      "stolenBases": 2
+    },
+    "throwsBats": "右投右打",
+    "height": 174,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 106,
+      "plateAppearances": 447,
+      "avg": 0.284,
+      "avgDisplay": ".284",
+      "hr": 6,
+      "rbi": 27,
+      "stolenBases": 10
+    },
+    "careerSummary": "大阪府和泉市出身。福知山成美高から2011年ドラフト4位で横浜(現DeNA)入りし、俊足と広い守備範囲を武器に外野のレギュラーに定着。2017年・2023年にゴールデングラブ賞を受賞し、2024年日本シリーズでは打率.444・史上初の5戦連続打点でMVPに輝いた。2026年、埼玉西武ライオンズへ移籍。",
+    "growthTimeline": [
+      {
+        "period": "福知山成美高校時代",
+        "title": "部内不祥事による対外試合禁止処分を乗り越えて",
+        "description": "1年春に三塁手のレギュラーに定着するも、同級生の暴力事件によりチーム全体が対外試合出場停止処分を受けた。処分解除後は遊撃手として3番に定着。3年夏の京都大会準決勝では龍谷大学付属平安に敗れたが16打数6安打5打点と気を吐き、甲子園全国大会出場はならなかった。"
+      },
+      {
+        "period": "2011年ドラフト〜プロ初期",
+        "title": "内野手として入団",
+        "description": "2011年10月27日のドラフト会議で横浜ベイスターズから内野手として4位指名を受け、契約金3500万円・年俸540万円で入団。2012年10月1日の中日戦で一軍初出場・初安打を記録した。"
+      },
+      {
+        "period": "2016〜2017年",
+        "title": "外野のレギュラーに定着、月間MVPとゴールデングラブ賞",
+        "description": "2016年に打率.284・11本塁打で初の2桁本塁打を記録。2017年は全143試合に出場し、7月には打率.389でセ・リーグ月間MVPを受賞、シーズン終了後に自身初のゴールデングラブ賞を受賞した。"
+      },
+      {
+        "period": "2018〜2021年",
+        "title": "サイクル安打とキャリアハイ",
+        "description": "2018年7月20日の阪神戦でサイクル安打を達成(史上67人目)。2021年は打率.310・14本塁打とキャリアハイの成績を残し、4年ぶりに規定打席へ到達した。"
+      },
+      {
+        "period": "2024年",
+        "title": "日本シリーズMVP",
+        "description": "日本シリーズ全6試合に1番・中堅手で出場し、打率.444・1本塁打・9打点。史上初となる5戦連続打点を記録してシリーズMVPを受賞し、球団26年ぶりの日本一に貢献した。"
+      },
+      {
+        "period": "2026年",
+        "title": "埼玉西武ライオンズへ移籍",
+        "description": "DeNA一筋で積み重ねたキャリアを経て、2026年に埼玉西武ライオンズへ移籍。長年培った守備力と勝負強さが新天地でも期待されている。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "プロ入り時",
+        "position": "内野手として入団",
+        "reason": ""
+      },
+      {
+        "period": "入団後",
+        "position": "外野手(中堅・右翼)",
+        "reason": "俊足を生かす外野手として起用され定着した"
+      }
+    ],
+    "episodes": [
+      "2011年ドラフト4位で入団した桑原は内野手としてスタートしたが、俊足を生かして外野手にコンバートされると徐々に才能を開花させた。2017年7月には打率.389でセ・リーグ月間MVPを獲得し、シーズン終了後には自身初となるゴールデングラブ賞に輝いた。2018年7月20日の阪神戦ではサイクル安打を達成し、史上67人目の快挙として名を刻んだ。",
+      "2024年の日本シリーズでは1番中堅手として全6試合に出場し、打率.444・5戦連続打点という日本シリーズ新記録をマークしてシリーズMVPを獲得、DeNAの26年ぶり日本一に貢献した。2026年には長年慣れ親しんだ横浜を離れ、埼玉西武ライオンズで新たな挑戦を始めている。"
+    ],
+    "photoEmoji": "💨"
+  },
+  {
+    "id": "seibu-139",
+    "name": "岸 潤一郎",
+    "nameKana": "きし じゅんいちろう",
+    "number": 68,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1996-12-08",
+    "draftInfo": "2019年ドラフト8位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "兵庫県尼崎市",
+      "juniorHigh": "尼崎市立中央中学校",
+      "highSchool": "明徳義塾高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 87,
+      "plateAppearances": 168,
+      "avg": 0.219,
+      "avgDisplay": ".219",
+      "hr": 1,
+      "rbi": 11,
+      "stolenBases": 3
+    },
+    "throwsBats": "右投右打",
+    "height": 174,
+    "weight": 85,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 10,
+      "plateAppearances": 31,
+      "avg": 0.167,
+      "avgDisplay": ".167",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "兵庫県尼崎市出身。明徳義塾高校時代は投手兼中軸打者として4季連続甲子園に出場するも、いずれも大阪桐蔭の壁に阻まれた。拓殖大学で右肘の手術を経て中退し、独立リーグ・徳島インディゴソックスを経て2019年ドラフト8位で西武入団。俊足とパンチ力を武器に、2021年には独立リーグ出身の日本人選手として当時史上最多となるシーズン9本塁打を記録した。",
+    "growthTimeline": [
+      {
+        "period": "明徳義塾高校時代",
+        "title": "4季連続甲子園、立ちはだかった大阪桐蔭",
+        "description": "1年夏(2012年第94回大会)でベスト4進出も優勝した大阪桐蔭に敗退。2年夏(2013年第95回大会)ベスト8、3年春(2014年第86回選抜)ベスト8。3年夏(2014年第96回大会)は1回戦で岡本和真(読売ジャイアンツ)を擁する智弁学園に10-4で快勝したが、2回戦で3-5と大阪桐蔭に敗れた。高校通算24本塁打。"
+      },
+      {
+        "period": "拓殖大学時代",
+        "title": "肘の手術と中退",
+        "description": "高校の恩師・馬淵史郎の母校である拓殖大学に進学したが、肩と肘の故障が相次ぎ2年時に右肘のトミー・ジョン手術を受けた。術後の回復が思わしくなく3年秋に野球部を退部し大学を中退した。"
+      },
+      {
+        "period": "徳島インディゴソックス時代(2018〜2019年)",
+        "title": "投手から外野・遊撃へ転向、盗塁王",
+        "description": "2017年11月のトライアウトを経て徳島に入団。2018年は開幕時こそ投手登録だったが登板機会のないまま外野手へ転向し、64試合で38盗塁の最多盗塁を獲得。2019年は外野手登録のまま全試合を遊撃手で守り、チームの年間総合優勝に貢献した。"
+      },
+      {
+        "period": "2019年ドラフト〜プロ入り",
+        "title": "西武から8位指名",
+        "description": "2019年10月17日、埼玉西武ライオンズから8位指名を受け、契約金1000万円・年俸500万円で入団。背番号は68。"
+      },
+      {
+        "period": "2021年",
+        "title": "独立リーグ出身選手として当時史上最多のシーズン9本塁打",
+        "description": "6月1日の巨人戦(東京ドーム)で鍵谷陽平から左中間ソロ本塁打を放ち初安打・初本塁打・初打点を記録。100試合に出場し打率.220・9本塁打で、独立リーグ出身の日本人選手として当時史上最多のシーズン本塁打数を記録した。10月10日の東北楽天戦ではプロ初のサヨナラ打を放った。"
+      },
+      {
+        "period": "2022〜2023年",
+        "title": "股関節の怪我と勝負強さ",
+        "description": "2022年は股関節の怪我で45試合・打率.205に終わったが、2023年8月4日のオリックス戦(ベルーナドーム)ではプロ初のサヨナラ本塁打を放つなど勝負強さを発揮した。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "高校〜拓殖大学時代",
+        "position": "投手(兼中軸打者)",
+        "reason": ""
+      },
+      {
+        "period": "徳島インディゴソックス時代",
+        "position": "投手→外野手、のち遊撃手でも起用",
+        "reason": "開幕時は投手登録だったが登板機会がなく、俊足を生かすため外野手に転向。2019年は外野登録のまま全試合遊撃手で出場した"
+      }
+    ],
+    "episodes": [
+      "明徳義塾高校では『甲子園の申し子』と呼ばれ4季連続で甲子園に出場したが、いずれも大阪桐蔭に立ちはだかられた。3年夏の1回戦では後の巨人主砲・岡本和真を擁する智弁学園に10-4で快勝しながら、2回戦で3-5と大阪桐蔭に敗退。甲子園の申し子は決勝の舞台には届かなかった。",
+      "拓殖大学で右肘のトミー・ジョン手術を受け中退、一時は野球を離れかけた岸だったが、母から『もう一度野球している姿を見たい』と言われたことが転機となり独立リーグ・徳島インディゴソックスに合格した。高校時代から子供好きを公言し、甲子園出場選手アンケートの『将来の夢』欄には『保育士』と記入していたという一面もある。"
+    ],
+    "salaryManYen": 1650,
+    "salaryNote": "推定1650万円(2023年終了後、2024年分の契約更改時点の推定。スポーツ紙推定年俸集計)",
+    "photoEmoji": "🔥"
+  },
+  {
+    "id": "seibu-140",
+    "name": "茶野 篤政",
+    "nameKana": "ちゃの とくまさ",
+    "number": 31,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1999-08-04",
+    "draftInfo": "2022年育成ドラフト4位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "中京学院大学中京高等学校",
+      "university": "名古屋商科大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 16,
+      "plateAppearances": 8,
+      "avg": 0.143,
+      "avgDisplay": ".143",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 175,
+    "weight": 80,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 3,
+      "plateAppearances": 12,
+      "avg": 0.167,
+      "avgDisplay": ".167",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "滋賀県東近江市(旧八日市市)出身。中京高校では控えに甘んじたが、名古屋商科大学、独立リーグ・徳島インディゴソックスを経て2022年育成ドラフト4位でプロ入り。育成出身ルーキーとして史上初の開幕戦先発出場、史上初のNPB1号満塁本塁打を記録するなど、下位指名から這い上がった俊足巧打の外野手。",
+    "growthTimeline": [
+      {
+        "period": "中学時代",
+        "title": "左腕複雑骨折を乗り越えて",
+        "description": "東近江市立聖徳中学校在学中の3年春、一塁へのヘッドスライディングで左腕を複雑骨折。それでも片手で練習を続け、夏の大会にも出場した。"
+      },
+      {
+        "period": "中京高校時代",
+        "title": "控え選手から積み上げた3年間",
+        "description": "岐阜県の中京高校では控えに甘んじ、3年夏は代打での出場にとどまった。同校の先輩には今井順之助、加藤壮太がいる。甲子園の出場歴はない。"
+      },
+      {
+        "period": "名古屋商科大学時代",
+        "title": "二塁手のレギュラーも進路は未定",
+        "description": "愛知大学野球連盟2部リーグに所属する同大学で1年秋からレギュラー二塁手を務めたが、4年秋になっても社会人チームへの進路が決まらず、公務員試験の勉強も検討していた。"
+      },
+      {
+        "period": "徳島インディゴソックス時代(2022年)",
+        "title": "リードオフマンに転向し首位打者・盗塁王",
+        "description": "練習参加を経て特別合格で独立リーグ入り。俊足を生かして外野のリードオフマンに定着し、前期リーグトップの17盗塁、後期は打率.3164で首位打者を獲得、通算37盗塁とベストナインに輝いた。"
+      },
+      {
+        "period": "2022年ドラフト〜プロ入り初年度",
+        "title": "育成4位から史上初づくしの開幕戦",
+        "description": "2022年度ドラフト会議で育成4位指名を受け、11月15日に支度金350万円で仮契約。2023年3月24日に支配下登録され、3月31日の開幕戦(対西武、ベルーナドーム)で8番レフトの先発に抜擢された。育成ドラフト1年目選手の開幕戦先発出場はNPB史上初だった。"
+      },
+      {
+        "period": "2023年シーズン",
+        "title": "史上初の満塁アーチ、後半戦は苦しむ",
+        "description": "4月9日には打率リーグトップに浮上し14試合連続安打をマーク。6月1日の広島戦(京セラドーム大阪)ではNPB公式戦1号本塁打が満塁弾となり、育成出身ルーキーの初本塁打が満塁本塁打だったのはNPB史上初の記録となった。後半戦は3度の登録抹消を経験した。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "名古屋商科大学時代",
+        "position": "二塁手",
+        "reason": ""
+      },
+      {
+        "period": "徳島インディゴソックス入団後",
+        "position": "外野手",
+        "reason": "俊足を生かすため外野のリードオフマンとして起用された"
+      }
+    ],
+    "episodes": [
+      "中京高校では控え選手として過ごし、大学卒業を控えた4年秋には社会人野球の進路が決まらず公務員試験も検討していたという茶野。それでも野球への未練を捨てきれず徳島インディゴソックスの練習に参加して特別合格を果たすと、2022年後期は打率.3164で首位打者を獲得する活躍を見せた。",
+      "2023年3月31日、育成ドラフト1年目にして開幕戦(対西武)の先発出場という史上初の快挙を成し遂げた茶野は、6月1日の広島戦でも『育成出身ルーキー最初のアーチが満塁本塁打』というさらなる史上初を記録した。下位指名からの一発逆転劇は、独立リーグ経由の遅咲きプロスペクトとして注目を集めた。"
+    ],
+    "salaryManYen": 2100,
+    "salaryNote": "推定2100万円(2023年終了後、2024年分の契約更改時点の推定。支配下登録初年度の推定500万円から大幅増額)",
+    "photoEmoji": "⚡",
+    "dataNote": "出身地は公開資料に基づき「滋賀県東近江市(旧八日市市)」に補完しました。なお公開されている経歴では、2022年育成ドラフト4位は本来オリックス・バファローズによる指名だったことが確認されており、球団情報については要確認です。"
+  },
+  {
+    "id": "seibu-141",
+    "name": "秋山 俊",
+    "nameKana": "あきやま しゅん",
+    "number": 35,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "2003-04-20",
+    "draftInfo": "2025年ドラフト3位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "仙台育英学園高等学校",
+      "university": "中京大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 5,
+      "plateAppearances": 14,
+      "avg": 0.143,
+      "avgDisplay": ".143",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 180,
+    "weight": 88,
+    "isTohokuConnection": true,
+    "careerSummary": "仙台育英学園高校から中京大学を経て、2025年ドラフト3位で西武入団した外野手。公開資料からは高校・大学時代の詳しい実績や甲子園出場歴は確認できておらず、2026年にプロ入りしたばかりで一軍定着を目指すルーキーシーズンを送っている。",
+    "growthTimeline": [
+      {
+        "period": "2025年ドラフト〜入団",
+        "title": "西武から3位指名",
+        "description": "仙台育英学園高校、中京大学を経て2025年ドラフト会議で埼玉西武ライオンズから3位指名を受け入団した。"
+      },
+      {
+        "period": "2026年",
+        "title": "ルーキーイヤー",
+        "description": "プロ1年目から一軍出場の機会を得て経験を積んでいる段階で、今後の成長が注目される。"
+      }
+    ],
+    "episodes": [
+      "2025年ドラフトで西武から3位指名を受けてプロ入りした秋山。仙台育英学園高校から中京大学へ進んだ経歴を持つが、公開されている資料は少なく、これからのプレーぶりで自身の物語を積み重ねていく段階にあるルーキーである。"
+    ],
+    "photoEmoji": "🌱"
+  },
+  {
+    "id": "seibu-142",
+    "name": "西川 愛也",
+    "nameKana": "にしかわ まなや",
+    "number": 51,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1999-06-10",
+    "draftInfo": "2017年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "大阪府堺市北区",
+      "highSchool": "花咲徳栄高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 90,
+      "plateAppearances": 301,
+      "avg": 0.226,
+      "avgDisplay": ".226",
+      "hr": 3,
+      "rbi": 26,
+      "stolenBases": 5
+    },
+    "throwsBats": "右投左打",
+    "height": 181,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 124,
+      "plateAppearances": 553,
+      "avg": 0.264,
+      "avgDisplay": ".264",
+      "hr": 10,
+      "rbi": 38,
+      "stolenBases": 25
+    },
+    "careerSummary": "大阪府堺市出身。花咲徳栄高校時代は甲子園に3度出場し、3年夏(2017年第99回大会)の決勝で3安打4打点の活躍を見せ、同校悲願・埼玉県勢史上初となる全国制覇に貢献した。2017年ドラフト2位で西武入団後は62打席連続無安打というNPB野手ワースト記録を経験するなど長い雌伏の時を過ごしたが、2025年には打率.264・25盗塁でリードオフマンとして飛躍した。",
+    "growthTimeline": [
+      {
+        "period": "少年時代",
+        "title": "全国制覇の優勝投手",
+        "description": "堺市立金岡小学校2年時から軟式野球を始め、6年時には全日本学童軟式野球大会(高円宮賜杯)で全国優勝を果たし、自身は優勝投手を務めた。"
+      },
+      {
+        "period": "花咲徳栄高校時代",
+        "title": "埼玉県勢史上初の甲子園優勝に貢献",
+        "description": "甲子園に3度出場。3年夏の第99回全国高等学校野球選手権大会決勝では3安打4打点を記録し、花咲徳栄にとって初、埼玉県勢としても史上初となる全国制覇に貢献した。高校通算31本塁打。同学年には清水達也(中日)、長谷川威展(日本ハム)がいた。"
+      },
+      {
+        "period": "2017年ドラフト〜プロ入り",
+        "title": "西武から2位指名",
+        "description": "2017年9月22日にプロ志望届を提出し、10月26日のドラフト会議で西武から2位指名。11月15日に仮契約を結んだ。背番号51。"
+      },
+      {
+        "period": "2018〜2019年",
+        "title": "故障のリハビリと二軍での経験値",
+        "description": "高校時代の大胸筋断裂のリハビリからのスタートとなり、2018年は二軍79試合で打率.226、2019年は103試合で打率.242と着実に経験を積んだ。"
+      },
+      {
+        "period": "2020年",
+        "title": "内野から外野へコンバート、プロ初安打",
+        "description": "2月18日に内野手から外野手へポジション変更。8月16日、東北楽天戦の代打でプロ初出場を果たすと同打席で2点適時二塁打を放ち初安打・初打点を記録した。"
+      },
+      {
+        "period": "2022〜2023年",
+        "title": "『打てない』苦しみとNPBワースト記録",
+        "description": "2022年に30打席連続無安打で当時の野手ワースト記録に並ぶと、2023年4月30日の楽天戦では62打席連続無安打というNPB野手ワースト記録を更新。同日第4打席でようやく中安打を放ち記録を止めた。8月22日のオリックス戦でプロ初本塁打を記録。"
+      },
+      {
+        "period": "2024〜2025年",
+        "title": "プロ7年目でブレイク",
+        "description": "2024年6月12日の広島戦でプロ入り7年目にして初のお立ち台に上がる2点適時三塁打を放ち、104試合・打率.227・自己最高の6本塁打を記録。2025年は124試合に出場し打率.264・10本塁打・25盗塁とリードオフマンとして定着した。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "2020年2月まで",
+        "position": "内野手",
+        "reason": ""
+      },
+      {
+        "period": "2020年2月18日以降",
+        "position": "外野手",
+        "reason": ""
+      }
+    ],
+    "episodes": [
+      "花咲徳栄高校3年夏の甲子園決勝、3安打4打点の活躍で埼玉県勢として史上初の全国制覇に貢献した西川。持ち前の勝負強さは入団後しばらく鳴りを潜め、2023年4月30日の楽天戦では62打席連続無安打というNPB野手ワースト記録を更新してしまう。だが同じ試合の第4打席で中安打を放ち、長いトンネルを自らの手で抜け出した。",
+      "2024年4月5日の日本ハム戦では、中堅からのノーバウンド送球で本塁の走者を刺殺し、長年の課題だった送球の不安を払拭してみせた西川。50m6秒2の俊足と苦しんだ末に掴んだ勝負強さを武器に、2025年には打率.264・25盗塁でリードオフマンの座を掴んだ。"
+    ],
+    "photoEmoji": "🥇"
+  },
+  {
+    "id": "seibu-143",
+    "name": "仲三 優太",
+    "nameKana": "なかみ ゆうた",
+    "number": 55,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "2002-10-22",
+    "draftInfo": "2020年ドラフト7位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "大阪桐蔭高等学校"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 11,
+      "plateAppearances": 35,
+      "avg": 0.129,
+      "avgDisplay": ".129",
+      "hr": 1,
+      "rbi": 3,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投左打",
+    "height": 180,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "careerSummary": "栃木県栃木市出身(公開資料では本名「仲三河優太」)。大阪桐蔭高校では投手として入部し、3年春の第92回選抜大会出場を決めていたが新型コロナウイルスの影響で大会が中止。夏には代替開催の甲子園交流試合に代打で出場した。2020年ドラフト7位で西武入団後は外野手として起用され、2023年オフに一度戦力外通告を受け育成選手として再契約するなど苦しい時期を乗り越えながらプレーを続けている。",
+    "growthTimeline": [
+      {
+        "period": "大阪桐蔭高校時代",
+        "title": "幻の選抜出場とコロナ禍の甲子園交流試合",
+        "description": "投手として入部し1年からベンチ入り。3年春の第92回選抜高等学校野球大会への出場を決めていたが、新型コロナウイルスの影響で大会そのものが中止に。代替開催された夏の甲子園交流試合には代打として1試合出場した。高校通算11本塁打。"
+      },
+      {
+        "period": "2020年ドラフト〜プロ入り初期",
+        "title": "西武から7位指名",
+        "description": "2020年度新人選手選択会議で埼玉西武ライオンズから7位指名を受け入団。2021年8月5日にはイースタン・リーグの日本ハム戦で斎藤佑樹から公式戦初本塁打を記録した。"
+      },
+      {
+        "period": "2022〜2023年",
+        "title": "パンチ力とコンタクトの課題、戦力外からの再契約",
+        "description": "2022年は二軍47試合でチーム3位タイの9本塁打を放つも打率.188と課題を残した。2023年は一軍出場がなく、10月31日に戦力外通告を受けるが11月23日に育成選手として再契約し、背番号を135に変更した。"
+      },
+      {
+        "period": "2024年",
+        "title": "育成選手として再起へ",
+        "description": "7月16日の巨人戦で堀田賢慎から2打席連続本塁打を放つなどパンチ力を示したが、二軍19試合で打率.156にとどまった。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "大阪桐蔭高校時代",
+        "position": "投手",
+        "reason": ""
+      },
+      {
+        "period": "プロ入り後",
+        "position": "外野手",
+        "reason": "高校では投手だったが、プロでは外野手として育成された"
+      }
+    ],
+    "episodes": [
+      "大阪桐蔭で3年春の選抜出場を決めながら新型コロナウイルスの感染拡大で大会中止という悔しさを味わった仲三優太(公開資料では仲三河優太)。代替開催された夏の甲子園交流試合では代打として1試合に立った。",
+      "2021年8月5日、イースタン・リーグの日本ハム戦で登板した斎藤佑樹から公式戦初本塁打を放った仲三は、その後もパンチ力を武器に二軍でアピールを続けたが、2023年10月末に一度戦力外通告を経験。それでも野球への思いを絶たず、同年11月に育成選手として再契約を結び、再起への道を歩んでいる。"
+    ],
+    "photoEmoji": "🎯",
+    "dataNote": "登録名は「仲三優太」ですが、公開されている出身校(大阪桐蔭高校)関連資料等では「仲三河優太(なかみかわ ゆうた)」の表記が確認されており、出身地は「栃木県栃木市」と判明しました。表記の統一についてはご確認ください。"
+  },
+  {
+    "id": "seibu-144",
+    "name": "蛭間 拓哉",
+    "nameKana": "ひるま たくや",
+    "number": 9,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "2000-09-08",
+    "draftInfo": "2022年ドラフト1位（埼玉西武ライオンズ）",
+    "roots": {
+      "hometown": "群馬県桐生市",
+      "juniorHigh": "桐生市立相生中学校",
+      "highSchool": "浦和学院高等学校",
+      "university": "早稲田大学"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 28,
+      "plateAppearances": 73,
+      "avg": 0.269,
+      "avgDisplay": ".269",
+      "hr": 0,
+      "rbi": 6,
+      "stolenBases": 0
+    },
+    "throwsBats": "左投左打",
+    "height": 177,
+    "weight": 87,
+    "isTohokuConnection": false,
+    "lastSeasonStats": {
+      "season": "2025",
+      "games": 12,
+      "plateAppearances": 37,
+      "avg": 0.176,
+      "avgDisplay": ".176",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "careerSummary": "群馬県桐生市出身。浦和学院高校では2年秋から主将を務め、3年夏の第100回全国高等学校野球選手権大会でベスト8に進出(準々決勝で春夏連覇を達成した大阪桐蔭に2-11で敗退)。早稲田大学では早慶戦で活躍を見せ、2022年ドラフトで西武から単独1位指名を受けた。プロ入り後は好不調の波がありながらも高い潜在能力を示し続ける、次世代を担う外野手の一人。",
+    "growthTimeline": [
+      {
+        "period": "浦和学院高校時代",
+        "title": "甲子園ベスト8、大阪桐蔭の壁",
+        "description": "1年春からベンチ入りして4番を任され、2年秋から主将に就任。3年夏の第100回全国高等学校野球選手権記念大会(2018年)では2回戦の仙台育英戦(9-0)でソロ本塁打を放つなど勝ち上がり、3回戦で二松学舎大付を6-0で降してベスト8進出。準々決勝では春夏連覇を達成する大阪桐蔭(根尾昂・藤原恭大らを擁した)に2-11で敗れた。高校通算28本塁打を記録し、BFA U-18アジア選手権の日本代表にも選出された。"
+      },
+      {
+        "period": "早稲田大学時代",
+        "title": "早慶戦の主役、大学日本代表",
+        "description": "2年春からレギュラーに定着。2年秋の早慶戦2連戦では、初戦で木澤尚文(現ヤクルト)から決勝ソロ本塁打、翌日の優勝決定戦でも逆転の2点本塁打を放つ活躍を見せた。3年春にはリーグ戦ベストナインを受賞し、4年時にはハーレムベースボールウィーク日本代表にも選出された。"
+      },
+      {
+        "period": "2022年ドラフト〜入団",
+        "title": "西武の外野手1位指名は52年ぶり",
+        "description": "2022年ドラフト会議で埼玉西武ライオンズから単独1位指名。西武の外野手1位指名は52年ぶり2人目、大学生では球団史上初だった。契約金1億円、年俸1600万円プラス出来高で合意し、背番号9を託された。"
+      },
+      {
+        "period": "2023年",
+        "title": "プロ初本塁打は3ラン",
+        "description": "6月23日の東北楽天戦(楽天モバイルパーク宮城)でプロ初出場。初打席は則本昂大から空振り三振に倒れたが、24日に辛島航から右前打でプロ初安打、25日には早川隆久から右越え3ランでプロ初本塁打・初打点を記録した。同年は56試合に出場し打率.232、9月27日に背中の違和感で登録抹消となった。"
+      },
+      {
+        "period": "2024〜2025年",
+        "title": "交流戦の壁と出場機会の波",
+        "description": "2024年は開幕前の打率.340から交流戦で低迷して.264まで下降し、6月9日に一度抹消。7月15日に再登録後も打率.189に苦しんだ。2025年は12試合の出場にとどまるなど、一軍定着に向けてなお波のあるシーズンが続いている。"
+      }
+    ],
+    "episodes": [
+      "2018年夏、浦和学院の主将として甲子園に乗り込んだ蛭間は、2回戦の仙台育英戦でソロ本塁打を放つなどチームをベスト8まで導いたが、準々決勝で春夏連覇を達成することになる大阪桐蔭(根尾昂・藤原恭大ら)に2-11で敗れた。それでも高校通算28本塁打を残し、早稲田大学では2年秋の早慶戦2連戦で2試合連続本塁打を放つなど主砲としての地位を確立していった。",
+      "2022年ドラフトで西武から単独1位指名を受けた際の記者会見で、蛭間は『小さい時から目標だったプロ野球選手になるために、一番最初にプロ野球を見に行った球場が西武ドーム。一番行きたい球団だったので指名していただいてうれしく思う』と地元愛あふれるコメントを残した。翌2023年6月25日には早川隆久から3ランを放ちプロ初本塁打を記録するなど、早くから長打力の片鱗を見せている。"
+    ],
+    "salaryManYen": 2200,
+    "salaryNote": "推定2200万円(2023年終了後、2024年分契約更改時点の推定。入団時1600万円から600万円増額)",
+    "photoEmoji": "⭐"
+  },
+  {
+    "id": "seibu-145",
+    "name": "林 安可",
+    "nameKana": "りん あんこー",
+    "number": 73,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "1997-05-19",
+    "draftInfo": "2019年CPBL（台湾プロ野球）ドラフト1位・統一ライオンズを経て埼玉西武ライオンズ入団",
+    "roots": {
+      "hometown": "台湾台南市"
+    },
+    "currentStats": {
+      "season": "2026",
+      "games": 64,
+      "plateAppearances": 223,
+      "avg": 0.235,
+      "avgDisplay": ".235",
+      "hr": 7,
+      "rbi": 27,
+      "stolenBases": 0
+    },
+    "throwsBats": "左投左打",
+    "height": 184,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "careerSummary": "台湾台南市出身。父親は台湾人、母親はアルゼンチン人。中国文化大学時代は投手として活動し、2019年7月のCPBLドラフトで統一7-ELEVEnライオンズから1位指名を受けてプロ入りしたが、プロでは主に外野手として起用された。台湾球界でのプレーを経て埼玉西武ライオンズに加入し、長打力を生かした外野手としてプレーしている。",
+    "growthTimeline": [
+      {
+        "period": "少年〜中国文化大学時代",
+        "title": "投手として頭角、多様なルーツ",
+        "description": "父が台湾人、母がアルゼンチン人という国際的なルーツを持つ。小学4年生で野球を始め、中国文化大学では投手として活動した。"
+      },
+      {
+        "period": "2019年CPBLドラフト",
+        "title": "統一7-ELEVEnライオンズから1位指名",
+        "description": "2019年7月のドラフト会議で統一7-ELEVEnライオンズから1位指名を受け、契約金530万台湾円・月給10万台湾円で入団。投手として指名を受けたが、プロでは主に右翼手として起用された。"
+      },
+      {
+        "period": "2020〜2021年",
+        "title": "『二刀流』を断念し野手専念へ",
+        "description": "2020年春季キャンプで投手としての二刀流挑戦が試みられたが、コーチ陣から球速・制球面での改善余地を指摘された。2021年の春季キャンプでは二刀流に再挑戦せず、野手専念の方針が固まった。"
+      },
+      {
+        "period": "西武加入後",
+        "title": "NPB挑戦",
+        "description": "台湾球界でのプレーを経て埼玉西武ライオンズに加入。長打力を生かした外野手としてNPBでの新たな挑戦を続けている。"
+      }
+    ],
+    "positionHistory": [
+      {
+        "period": "アマチュア〜CPBLドラフト時",
+        "position": "投手",
+        "reason": ""
+      },
+      {
+        "period": "プロ入り後(統一ライオンズ時代)",
+        "position": "外野手(右翼手)中心",
+        "reason": "投手として指名されたが制球・球速面の課題から野手起用が中心となり、2021年に『二刀流』を断念して野手専念となった"
+      }
+    ],
+    "episodes": [
+      "台湾人の父とアルゼンチン人の母を持つ林安可は、投手として2019年のCPBLドラフトで統一7-ELEVEnライオンズから1位指名を受けてプロ入りした。だが2020年春季キャンプでの『二刀流』挑戦ではコーチ陣から制球や球速面の課題を指摘され、2021年には野手専念を決断。持ち前の長打力を生かす外野手としての道を歩み始めた。"
+    ],
+    "photoEmoji": "🇹🇼"
+  },
+  {
+    "id": "seibu-146",
+    "name": "古川 雄大",
+    "nameKana": "ふるかわ ゆうだい",
+    "number": 33,
+    "position": "外野手",
+    "detailedPosition": "外野手",
+    "birthDate": "2004-05-25",
+    "draftInfo": "2022年ドラフト2位（埼玉西武ライオンズ）",
+    "roots": {
+      "highSchool": "大分県立佐伯鶴城高等学校"
+    },
+    "currentStats": {
+      "season": "2025",
+      "games": 5,
+      "plateAppearances": 16,
+      "avg": 0.083,
+      "avgDisplay": ".083",
+      "hr": 0,
+      "rbi": 0,
+      "stolenBases": 0
+    },
+    "throwsBats": "右投右打",
+    "height": 185,
+    "weight": 90,
+    "isTohokuConnection": false,
+    "careerSummary": "大分県佐伯市出身。大分県立佐伯鶴城高校では甲子園出場こそなかったものの、遠投110m・50m走6秒0の身体能力で注目され柳田悠岐との比較もされた逸材。2022年ドラフト2位で西武入団後は主に三軍・二軍で体作りに専念する期間が続いており、一軍デビューはこれからの伸びしろの大きい若手外野手。",
+    "growthTimeline": [
+      {
+        "period": "佐伯鶴城高校時代",
+        "title": "甲子園には届かず、身体能力で評価",
+        "description": "1年秋からベンチ入りし2年秋から4番に定着。3年夏の大分大会準決勝で大分舞鶴に逆転サヨナラ負けを喫し、3年間で甲子園出場はならなかった。高校通算21本塁打。遠投110m、50m走6秒0の身体能力を武器に、メディアからは柳田悠岐(ソフトバンク)と比較されることもあった。"
+      },
+      {
+        "period": "2022年ドラフト〜入団",
+        "title": "西武から2位指名",
+        "description": "9月17日にプロ志望届を提出し、10月20日のドラフト会議で埼玉西武ライオンズから2位指名。11月10日に契約金7000万円・年俸750万円で仮契約を結んだ。背番号33。"
+      },
+      {
+        "period": "2023〜2024年",
+        "title": "体作りの期間、二軍・三軍で経験を積む",
+        "description": "2023年は主に三軍で体作りに注力し、二軍出場はわずか1試合。体重は入団時の85kgから2023年には95kgまで増量した。2024年はフレッシュオールスターゲームのイースタン・リーグ選抜に選出された。"
+      }
+    ],
+    "episodes": [
+      "遠投110m、50m走6秒0という卓越した身体能力を持ち、メディアからは柳田悠岐に例えられたこともある古川。高校時代に甲子園には届かなかったが、その素材は2022年ドラフトで西武から2位指名を受けるに値するものだった。入団後は体重を85kgから95kgまで増やすなど地道な体作りに取り組んでおり、一軍デビューへ向けて雌伏の時を過ごしている。"
+    ],
+    "photoEmoji": "🌾",
+    "dataNote": "出身地は公開資料に基づき「大分県佐伯市」に補完しました。"
+  }
+]
