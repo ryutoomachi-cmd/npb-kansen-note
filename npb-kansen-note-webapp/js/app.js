@@ -471,11 +471,13 @@
         cacheWrite("schedule", TEAM_NEXT_GAMES);
         SCHEDULE_LAST_UPDATED = new Date();
         // 日程データが変わった可能性があるため、対戦相手の自動選択（実際の次の試合の相手）も
-        // 併せてやり直す。ユーザーが既に手動で対戦相手を選び直している場合は上書きしない。
-        if (!loadOpponentTeam()) {
+        // 併せてやり直す。ユーザーが設定画面から明示的に対戦相手を選び直している場合
+        // （OPPONENT_MANUAL_KEY）のみ、その選択を尊重して上書きしない。
+        if (!loadOpponentIsManual()) {
           var recomputed = computeDefaultOpponent(state.homeTeam);
           if (recomputed !== state.opponentTeam) {
             state.opponentTeam = recomputed;
+            saveOpponentTeam(recomputed);
             state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
           }
         }
@@ -513,6 +515,24 @@
   }
   function saveOpponentTeam(name) {
     try { if (window.localStorage) localStorage.setItem(OPPONENT_TEAM_KEY, name); } catch (e) { /* ignore */ }
+  }
+
+  // 対戦相手が「ユーザーが設定画面で明示的に選んだもの」か「アプリが自動計算しただけのもの」かを
+  // 区別するためのフラグ。以前はOPPONENT_TEAM_KEYに値が保存されているかどうかだけで判定していたが、
+  // setHomeTeam()が自動計算した対戦相手も同じキーに保存してしまうため「一度でもホーム球団を
+  // 切り替えたことがある＝手動で選んだことになる」という誤判定が起き、日程の自動更新（NEXT GAME）で
+  // 対戦相手が実際の相手に合わせて追従しない不具合の原因になっていた。これを避けるため、本当に
+  // ユーザーが「対戦相手を変更」から選んだ場合（setOpponentTeam）だけこのフラグを立てる。
+  var OPPONENT_MANUAL_KEY = "eaglesScoutOpponentManual_v1";
+  function loadOpponentIsManual() {
+    try { return window.localStorage ? localStorage.getItem(OPPONENT_MANUAL_KEY) === "1" : false; } catch (e) { return false; }
+  }
+  function saveOpponentIsManual(isManual) {
+    try {
+      if (!window.localStorage) return;
+      if (isManual) localStorage.setItem(OPPONENT_MANUAL_KEY, "1");
+      else localStorage.removeItem(OPPONENT_MANUAL_KEY);
+    } catch (e) { /* ignore */ }
   }
 
   // 対戦相手の初期値は、まず「実際の次の試合の相手」（TEAM_NEXT_GAMES）を優先して選ぶ。
@@ -1232,12 +1252,15 @@
   /* ===================== State ===================== */
   var initHomeTeam = loadHomeTeam();
   var storedOpponentTeam = loadOpponentTeam();
-  // 対戦相手が未保存（＝ユーザーが明示的に選んだのではなく自動計算に頼る）場合は、
+  // 対戦相手がユーザーの明示的な選択でない（＝自動計算に頼ってよい）場合は、
   // 起動直後の時点ではTEAM_NEXT_GAMES/RELATIONSがまだ空（非同期取得前）なので、
   // ここでのcomputeDefaultOpponent()は本来の「本日の実際の対戦相手」を選べないことがある。
   // そのためboot()で日程データが揃った時点にもう一度計算し直す（下のopponentTeamNeedsRecomputeを参照）。
-  var opponentTeamNeedsRecompute = !storedOpponentTeam || storedOpponentTeam === initHomeTeam;
-  var initOpponentTeam = opponentTeamNeedsRecompute ? computeDefaultOpponent(initHomeTeam) : storedOpponentTeam;
+  // 判定にはOPPONENT_MANUAL_KEY（本当にユーザーが「対戦相手を変更」から選んだ場合のみ立つフラグ）を
+  // 使う。保存値の有無だけで判定すると、setHomeTeam()による自動計算結果の保存まで「手動」と
+  // 誤判定してしまい、日程の自動更新に対戦相手が追従しなくなる不具合が起きるため。
+  var opponentTeamNeedsRecompute = !loadOpponentIsManual();
+  var initOpponentTeam = opponentTeamNeedsRecompute ? computeDefaultOpponent(initHomeTeam) : (storedOpponentTeam || computeDefaultOpponent(initHomeTeam));
 
   var state = {
     query: "",
@@ -3011,9 +3034,12 @@
     saveHomeTeam(name);
     applyHomeTheme(name);
     // ホーム球団を切り替えたら、対戦相手はその球団の「実際の次の試合の相手」に合わせ直す
-    // （前のホーム球団向けに選んでいた対戦相手をそのまま引き継ぐと、実際の日程とずれるため）
+    // （前のホーム球団向けに選んでいた対戦相手をそのまま引き継ぐと、実際の日程とずれるため）。
+    // これは自動計算であり、ユーザーが明示的に選んだわけではないので「手動」フラグは立てない
+    // （＝以後も日程の自動更新に合わせて対戦相手が追従し続けるようにする）。
     state.opponentTeam = computeDefaultOpponent(name);
     saveOpponentTeam(state.opponentTeam);
+    saveOpponentIsManual(false);
     // ホーム球団に依存する絞り込みタグ・球団フィルタが無効化されていないか確認
     if (state.teamFilter !== "all" && TEAM_NAMES.indexOf(state.teamFilter) === -1) state.teamFilter = "all";
     resetLineupForCurrentTeams();
@@ -3022,6 +3048,9 @@
     if (name === state.opponentTeam || name === state.homeTeam) return;
     state.opponentTeam = name;
     saveOpponentTeam(name);
+    // これは設定画面からのユーザーの明示的な選択なので「手動」フラグを立てる。
+    // 以後は日程の自動更新（NEXT GAME）が対戦相手を勝手に上書きしないようにする。
+    saveOpponentIsManual(true);
     resetLineupForCurrentTeams();
   }
 
@@ -3276,6 +3305,7 @@
           var recomputedOpponent = computeDefaultOpponent(state.homeTeam);
           if (recomputedOpponent !== state.opponentTeam) {
             state.opponentTeam = recomputedOpponent;
+            saveOpponentTeam(recomputedOpponent);
             state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
           }
         }

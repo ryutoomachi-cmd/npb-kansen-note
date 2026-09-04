@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v27"; // 試合日程（NEXT GAME）をNPB公式サイトから自動更新するように変更（起動時+6時間おき、ボタン操作不要）
+const CACHE_VERSION = "v28"; // 対戦相手（オリックス固定になっていた不具合）も日程の自動更新に追従するように修正
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 
