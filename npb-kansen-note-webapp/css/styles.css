@@ -298,6 +298,7 @@
   .badge.tohoku { background: var(--sky-bg); color: var(--sky); }
   .badge.killer { background: var(--amber-bg); color: var(--amber); }
   .badge.unqualified { background: var(--bg-sunken); color: var(--ink-faint); }
+  .badge.age-badge { background: var(--bg-sunken); color: var(--ink-dim); }
 
   .stat-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); text-align: center; }
   .stat-strip .lbl { font-size: 8.5px; color: var(--ink-faint); }
@@ -330,7 +331,21 @@
   .hero-countdown { font-family: var(--font-display); font-size: 15px; font-weight: 600; color: var(--hero-gold); }
   .hero-venue { display: inline-flex; align-items: center; gap: 3px; font-size: 10.5px; font-weight: 700; opacity: 0.85; }
   .hero-venue svg { flex-shrink: 0; }
+  .hero-weather {
+    display: inline-flex; align-items: center; gap: 3px; font-size: 10.5px; font-weight: 700;
+    background: rgba(255,255,255,0.14); border-radius: 999px; padding: 3px 9px;
+  }
   .hero-lead { font-size: 12px; line-height: 1.6; opacity: 0.92; margin: 0 0 14px; }
+  .hero-highlights {
+    background: rgba(255,255,255,0.10); border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 14px; padding: 10px 12px; margin: 0 0 14px;
+  }
+  .hero-highlights-label {
+    display: flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 800;
+    letter-spacing: 0.04em; color: var(--hero-gold); margin: 0 0 5px;
+  }
+  .hero-highlights-text { font-size: 12.5px; line-height: 1.65; margin: 0 0 5px; opacity: 0.96; }
+  .hero-highlights-source { font-size: 9.5px; font-weight: 600; opacity: 0.6; margin: 0; }
   .hero-cta-row { display: flex; flex-direction: column; gap: 8px; }
   .cta-btn {
     display: flex; align-items: center; gap: 10px;
@@ -347,6 +362,46 @@
 
   .home-section { display: flex; flex-direction: column; gap: 10px; }
   .section-label { font-size: 11px; font-weight: 800; color: var(--ink-faint); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 8px; display: flex; align-items: center; gap: 5px; }
+
+  /* 予告先発の対戦カード：ユーザーの要望で「デカく」目立たせるため、hero-cardに次ぐ
+     視覚的な重みを持たせている（球団色を背景に、投手名と勝敗をひと目で見せる） */
+  .starter-card { display: flex; align-items: stretch; gap: 8px; }
+  .starter-team {
+    flex: 1; min-width: 0; border-radius: 16px; padding: 14px 10px; text-align: center;
+    display: flex; flex-direction: column; align-items: center; gap: 4px; box-shadow: var(--shadow);
+  }
+  .starter-team-name { font-size: 10.5px; font-weight: 800; letter-spacing: 0.02em; opacity: 0.85; }
+  .starter-pitcher { font-family: var(--font-display); font-size: 17px; font-weight: 600; margin: 0; line-height: 1.25; word-break: keep-all; }
+  .starter-record { font-size: 12px; font-weight: 800; margin: 0; display: flex; flex-direction: column; gap: 2px; font-variant-numeric: tabular-nums; }
+  .starter-era { font-size: 10px; font-weight: 700; opacity: 0.8; }
+  .starter-vs {
+    align-self: center; flex-shrink: 0; font-family: var(--font-display); font-size: 13px; font-weight: 700;
+    color: var(--ink-faint);
+  }
+  .starter-meta {
+    display: flex; align-items: center; gap: 3px; font-size: 10.5px; color: var(--ink-faint);
+    font-weight: 700; margin: 0;
+  }
+  .starter-meta svg { flex-shrink: 0; }
+
+  /* リーグ順位表・チーム成績：横幅が狭い端末でも列が潰れないよう横スクロール可にしてある */
+  .standings-block { margin-bottom: 12px; }
+  .standings-block:last-child { margin-bottom: 0; }
+  .standings-league-label { font-size: 11px; font-weight: 800; color: var(--ink-dim); margin: 0 0 6px; }
+  .standings-table { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--bg-elevated); box-shadow: var(--shadow); }
+  .standings-row {
+    display: grid; grid-template-columns: 24px 88px repeat(7, 40px); align-items: center;
+    gap: 3px; padding: 7px 8px; font-size: 11px; font-variant-numeric: tabular-nums;
+    border-bottom: 1px solid var(--line); white-space: nowrap; width: max-content; min-width: 100%;
+  }
+  .standings-row:last-child { border-bottom: none; }
+  .standings-head { font-size: 9.5px; font-weight: 800; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.03em; }
+  .standings-row-home { background: var(--bg-sunken); font-weight: 800; }
+  .st-rank { font-family: var(--font-display); font-weight: 700; color: var(--ink-faint); text-align: center; }
+  .standings-row-home .st-rank { color: var(--crimson-text); }
+  .st-team { display: flex; align-items: center; gap: 5px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; }
+  .st-team-dot { width: 7px; height: 7px; border-radius: 999px; flex-shrink: 0; }
+  .st-num { text-align: right; color: var(--ink-dim); }
 
   .trivia-list { display: flex; flex-direction: column; gap: 8px; }
   .trivia-card {

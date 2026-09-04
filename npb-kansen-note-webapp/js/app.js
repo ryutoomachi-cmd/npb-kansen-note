@@ -10,7 +10,16 @@
   var legendsLoadFailed = false;
   var STATS_LAST_UPDATED = null; // 今季成績（打率・本塁打など）をapi/stats.jsで自動更新した最新日時（表示用）
   var SCHEDULE_LAST_UPDATED = null; // 試合日程をapi/schedule.jsで自動更新した最新日時（表示用）
+  var HIGHLIGHTS_TEXT = null; // 「見どころ」テキスト（api/highlights.jsで自動取得。対応球団のみ）
+  var HIGHLIGHTS_GAME_DATE = null; // 上記「見どころ」がどの試合日のものか（YYYY-MM-DD）
+  var HIGHLIGHTS_TEAM = null; // 上記「見どころ」がどの球団向けに取得したものか（球団切り替え時の一瞬の表示ズレ防止用）
   var legendsLoadPromise = null;
+  var STANDINGS_DATA = null; // リーグ順位表・チーム成績（api/standings.jsで自動取得。リーグ全体のため球団非依存）
+  var TODAY_STARTER_HOME = null; // 本日の実際の先発投手（ホーム球団側）。api/lineup.jsの確定スタメンから取得（{pitcherName, player}）
+  var TODAY_STARTER_AWAY = null; // 本日の実際の先発投手（対戦相手側。今日の実際の対戦相手のぶん）
+  var TODAY_STARTER_KEY = null; // 上記がどの対戦カード向けに取得したものか（"ホーム球団|相手球団|日付"）
+  var WEATHER_DATA = null; // 次の試合会場の天気（api/weather.jsで自動取得）
+  var WEATHER_KEY = null; // 上記がどの球場・日付向けに取得したものか（"球場名|YYYY-MM-DD"）
 
   /* ===================== Icons (hand-drawn, minimal) ===================== */
   var ICONS = {
@@ -206,6 +215,11 @@
       // 全12球団分のPLAYERSが揃ったところで、今季成績（打率・本塁打など）の
       // 自動更新チェックを行う（前回更新から18時間未満ならスキップされる）
       maybeRefreshLiveStats();
+      // 「本日の先発」対戦カードは起動直後（まだホーム球団しかPLAYERSに無い時点）にも
+      // 一度取得を試みているため、対戦相手が他球団だった場合はその時点では投手名は取れても
+      // 今季成績（勝敗・防御率）まではひも付けられていないことがある。全球団分のPLAYERSが
+      // 揃ったこのタイミングで、間隔にかかわらず一度だけ取り直して成績を反映する。
+      refreshTodayStarterNow();
     }).catch(function (err) {
       console.error("残り球団データの取得に失敗しました（電波状況などが原因の可能性があります）", err);
     });
@@ -267,13 +281,20 @@
       render();
       refreshSettingsIfOpen();
       showToast("最新データに更新しました（選手" + PLAYERS.length + "名）", 2600);
-      // 上記で取り直した選手データ（data/teams/*.json）は、あくまで「現在デプロイされている
-      // 静的ファイル」の再取得であり、打率・本塁打などの今季成績そのものは含まれていない
-      // （それらはapi/stats.js経由でnpb.jpから取ってPLAYERSに後乗せしているだけなので、
-      // 上のPLAYERS = freshPlayers で一旦消えてしまう）。手動更新ボタンを押した＝
-      // 「今すぐ最新の状態にしたい」という明確な意思表示なので、18時間キャッシュを待たず
-      // ここで強制的に今季成績も取り直す。
+      // 上記で取り直した選手データ（data/teams/*.json）や日程（data/schedule.json）は、
+      // あくまで「現在デプロイされている静的ファイル」の再取得であり、打率・本塁打などの
+      // 今季成績や、NPB公式サイト上の本当に最新の試合日程そのものは含まれていない
+      // （それらはapi/stats.js・api/schedule.js経由でnpb.jpから直接取ってPLAYERS/
+      // TEAM_NEXT_GAMESに後乗せしているだけなので、直前の TEAM_NEXT_GAMES = schedule で
+      // 静的ファイルの内容にいったん巻き戻ってしまっている）。手動更新ボタンを押した＝
+      // 「今すぐ最新の状態にしたい」という明確な意思表示なので、通常のキャッシュ間隔を
+      // 待たず、ここで強制的に今季成績・試合日程の両方をnpb.jpから直接取り直す。
       refreshLiveStatsNow();
+      refreshScheduleNow();
+      refreshHighlightsNow(state.homeTeam);
+      refreshStandingsNow();
+      refreshTodayStarterNow();
+      refreshWeatherNow(state.homeTeam);
     }).catch(function (err) {
       console.error("データの手動更新に失敗しました", err);
       state.dataRefreshing = false;
@@ -490,6 +511,196 @@
     var cached = cacheRead("scheduleLiveAttempt");
     if (cached && (Date.now() - cached.t) < SCHEDULE_REFRESH_INTERVAL_MS) return; // 前回の試行から間もない場合はスキップ
     refreshScheduleNow();
+  }
+
+  /* ===================== 「見どころ」（NEXT GAMEカード）の自動取得 =====================
+     ホーム球団の公式サイトに載っている、その試合の「見どころ」的なプレビュー・総括文を
+     api/highlights.js経由で自動取得し、ホーム画面のNEXT GAMEカードに表示する。
+     各球団公式サイト自身のデータのため、対応している球団は一部のみ（api/highlights.js側で
+     非対応の球団はsuccess:falseを返すので、フロント側は「取得できなかった＝非表示」として
+     扱えばよく、対応球団かどうかをここで意識する必要はない）。
+     日程・成績の自動更新と同じ考え方で、起動のたびに（前回の取得から一定時間が経っている
+     場合のみ）裏側で取得し、GitHubへの反映もボタン操作も不要にする。
+     ホーム球団を切り替えた場合は「見どころ」も球団に紐づくデータなので、間隔を待たず
+     その場で新しいホーム球団向けに取得し直す（setHomeTeam参照）。 */
+  var HIGHLIGHTS_REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000; // 6時間：試合日程の自動更新と同じ間隔にしている
+  var highlightsRefreshing = false;
+
+  function refreshHighlightsNow(teamName) {
+    var team = teamName || state.homeTeam;
+    if (highlightsRefreshing) return;
+    highlightsRefreshing = true;
+    fetch("/api/highlights?team=" + encodeURIComponent(team))
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        highlightsRefreshing = false;
+        cacheWrite("highlightsAttempt", { done: true, team: team });
+        if (data && data.success && data.highlights) {
+          HIGHLIGHTS_TEXT = data.highlights;
+          HIGHLIGHTS_GAME_DATE = data.gameDate || null;
+          HIGHLIGHTS_TEAM = team;
+          cacheWrite("highlights", { team: team, highlights: data.highlights, gameDate: data.gameDate || null });
+        } else if (HIGHLIGHTS_TEAM === team) {
+          // 同じ球団向けの取得が失敗/非対応だった場合のみ表示をクリアする（別球団に切り替えた
+          // 直後の取得が失敗した際に、たまたま残っている前の球団の表示まで巻き込んで消さないため）
+          HIGHLIGHTS_TEXT = null;
+          HIGHLIGHTS_GAME_DATE = null;
+        }
+        render();
+      })
+      .catch(function () {
+        highlightsRefreshing = false;
+        // 取得できなくても致命的ではない（NEXT GAMEカードの見どころ欄が非表示のままになるだけ）ので、
+        // エラーをユーザーに通知したりはしない
+      });
+  }
+
+  function maybeRefreshHighlights(teamName) {
+    var team = teamName || state.homeTeam;
+    var cached = cacheRead("highlightsAttempt");
+    // 前回の取得対象が今のホーム球団と同じで、かつ間もない場合のみスキップする
+    // （球団を切り替えた直後は、間隔にかかわらずその場で取得し直したいため）
+    if (cached && cached.d && cached.d.team === team && (Date.now() - cached.t) < HIGHLIGHTS_REFRESH_INTERVAL_MS) return;
+    refreshHighlightsNow(team);
+  }
+
+  /* ===================== リーグ順位表・チーム成績の自動更新 =====================
+     見どころ・日程と同じ考え方で、api/standings.js経由でNPB公式サイトの実際の順位表・
+     チーム打率/本塁打/防御率を取得する。ホーム球団に紐づく情報ではなくリーグ全体の
+     データなので、球団切り替え時に取り直す必要はない。 */
+  var STANDINGS_REFRESH_INTERVAL_MS = 3 * 60 * 60 * 1000; // 3時間：試合結果は毎日進むが、順位表自体はそこまで頻繁でなくてよい
+  var standingsRefreshing = false;
+
+  function refreshStandingsNow() {
+    if (standingsRefreshing) return;
+    standingsRefreshing = true;
+    fetch("/api/standings")
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        standingsRefreshing = false;
+        cacheWrite("standingsAttempt", { done: true });
+        if (data && data.success) {
+          STANDINGS_DATA = data;
+          cacheWrite("standings", data);
+        }
+        render();
+      })
+      .catch(function () { standingsRefreshing = false; });
+  }
+
+  function maybeRefreshStandings() {
+    var cached = cacheRead("standingsAttempt");
+    if (cached && (Date.now() - cached.t) < STANDINGS_REFRESH_INTERVAL_MS) return;
+    refreshStandingsNow();
+  }
+
+  /* ===================== 「本日の先発」対戦カードの自動更新 =====================
+     以前は予告先発（ファンサイトからの推測取得）を使っていたが、信頼度の低さから方針転換。
+     試合直前（概ね1〜1.5時間前）にNPB公式サイトで確定するスタメン表を取得している
+     api/lineup.js（既存の「本日のスタメンを登録」機能と同じAPI）から、両チームの
+     「本日・確定済み」の先発投手だけを取り出して表示する。予告先発と違い試合前日には
+     まだ出ないが、その代わり公式ソースの確定情報なので確度が高い。
+     この機能は既存の「本日のスタメンを登録」ボタン（state.lineup を書き換える手動操作）
+     とは完全に別系統のデータとして扱う（自動更新でユーザーが手動登録したスタメンを
+     勝手に上書きしないようにするため）。
+     対戦相手は、ユーザーが設定画面で選んでいる可能性のあるstate.opponentTeam（つながり
+     閲覧用）ではなく、必ず「今日の実際の対戦相手」（nextGameFor(homeTeam).opponent）を使う。 */
+  var TODAY_STARTER_REFRESH_INTERVAL_MS = 30 * 60 * 1000; // 30分：先発発表は試合直前に行われるため、他の自動更新より短い間隔で確認する
+  var todayStarterRefreshing = false;
+
+  function fetchTodayStarterSide(teamName) {
+    return fetch("/api/lineup?team=" + encodeURIComponent(teamName))
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        // 「今日・発表済み」の確定スタメンでなければ（試合が無い日／まだ未発表／取得失敗）
+        // このカードとしては「まだ出せない」ものとして扱う
+        if (!data || !data.success || !data.pitcher || data.isPastGame || data.notAnnouncedYet) return null;
+        var player = findPlayerBySurname(teamName, data.pitcher);
+        return { pitcherName: data.pitcher, player: player || null };
+      })
+      .catch(function () { return null; });
+  }
+
+  function refreshTodayStarterNow() {
+    var homeTeam = state.homeTeam;
+    var game = nextGameFor(homeTeam);
+    if (!game || !game.opponent) {
+      TODAY_STARTER_HOME = null; TODAY_STARTER_AWAY = null; TODAY_STARTER_KEY = null;
+      render();
+      return;
+    }
+    var awayTeam = game.opponent;
+    var key = homeTeam + "|" + awayTeam + "|" + game.date;
+    if (todayStarterRefreshing) return;
+    todayStarterRefreshing = true;
+
+    Promise.all([fetchTodayStarterSide(homeTeam), fetchTodayStarterSide(awayTeam)]).then(function (results) {
+      todayStarterRefreshing = false;
+      cacheWrite("todayStarterAttempt", { done: true, key: key });
+      if (results[0] && results[1]) {
+        TODAY_STARTER_HOME = results[0];
+        TODAY_STARTER_AWAY = results[1];
+        TODAY_STARTER_KEY = key;
+        cacheWrite("todayStarter", { key: key, home: results[0], away: results[1] });
+      } else {
+        TODAY_STARTER_HOME = null;
+        TODAY_STARTER_AWAY = null;
+        TODAY_STARTER_KEY = key; // このキーでは出せなかったことを記録し、30分間は再試行せずおく
+      }
+      render();
+    });
+  }
+
+  function maybeRefreshTodayStarter() {
+    var game = nextGameFor(state.homeTeam);
+    if (!game || !game.opponent) return;
+    var key = state.homeTeam + "|" + game.opponent + "|" + game.date;
+    var cached = cacheRead("todayStarterAttempt");
+    if (cached && cached.d && cached.d.key === key && (Date.now() - cached.t) < TODAY_STARTER_REFRESH_INTERVAL_MS) return;
+    refreshTodayStarterNow();
+  }
+
+  /* ===================== 次の試合会場の天気の自動更新 =====================
+     nextGameFor()で分かる「次の試合の開催球場・日付」を使ってapi/weather.jsを叩く
+     （このAPI自身は日程を取りに行かず、渡された球場・日付をそのまま使う）。
+     日程が変わればキャッシュキー（球場|日付）も変わるので、試合が近づいて日程が
+     更新された場合も自然に取り直される。 */
+  var WEATHER_REFRESH_INTERVAL_MS = 3 * 60 * 60 * 1000;
+  var weatherRefreshing = false;
+
+  function refreshWeatherNow(teamName) {
+    var team = teamName || state.homeTeam;
+    var game = nextGameFor(team);
+    if (!game || !game.venue || !game.date) { WEATHER_DATA = null; WEATHER_KEY = null; render(); return; }
+    var key = game.venue + "|" + game.date;
+    if (weatherRefreshing) return;
+    weatherRefreshing = true;
+    fetch("/api/weather?venue=" + encodeURIComponent(game.venue) + "&date=" + encodeURIComponent(game.date))
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        weatherRefreshing = false;
+        cacheWrite("weatherAttempt", { done: true, key: key });
+        if (data && data.success) {
+          WEATHER_DATA = data;
+          WEATHER_KEY = key;
+          cacheWrite("weather", { key: key, data: data });
+        } else {
+          WEATHER_DATA = null;
+          WEATHER_KEY = key;
+        }
+        render();
+      })
+      .catch(function () { weatherRefreshing = false; });
+  }
+
+  function maybeRefreshWeather(teamName) {
+    var team = teamName || state.homeTeam;
+    var game = nextGameFor(team);
+    if (!game || !game.venue || !game.date) return;
+    var key = game.venue + "|" + game.date;
+    var cached = cacheRead("weatherAttempt");
+    if (cached && cached.d && cached.d.key === key && (Date.now() - cached.t) < WEATHER_REFRESH_INTERVAL_MS) return;
+    refreshWeatherNow(team);
   }
 
   /* ===================== ホーム球団・対戦相手の永続化 ===================== */
@@ -1551,6 +1762,7 @@
     var tc = teamColor(p.currentTeamName);
     var sortKey = isPitcher(p) ? state.pitcherSort : state.batterSort;
     var showUnqualified = state.viewMode !== "all" && isRateSortKey(sortKey) && qualifyStateFor(p, sortKey) === "short";
+    var age = currentAge(p.birthDate); // 一覧カードでも一目で年齢が分かるよう、詳細画面を開かなくても表示する
     return (
       '<button class="p-card" data-action="open-detail" data-id="' + p.id + '">' +
         '<div class="p-card-top">' +
@@ -1562,6 +1774,7 @@
         "</div>" +
         '<div class="badge-row">' +
           '<span class="badge" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(p.currentTeamName) + "</span>" +
+          (age != null ? '<span class="badge age-badge">満' + age + "歳</span>" : "") +
           (isLocalConnection(p, state.homeTeam) ? '<span class="badge tohoku">' + icon("mapPin", 9) + esc(getTeam(state.homeTeam).regionLabel) + "ゆかり</span>" : "") +
           (showUnqualified ? '<span class="badge unqualified">規定未到達</span>' : "") +
         "</div>" +
@@ -2110,6 +2323,106 @@
     );
   }
 
+  // 「本日の先発」対戦カード（api/lineup.js取得分＝NPB公式サイトで確定した本日のスタメンから
+  // 抜き出した先発投手）。ホーム球団・今日の実際の対戦相手、両方の「今日・発表済み」の
+  // 先発が揃っている場合のみ表示する（試合前日の予告段階では出ない。その代わり確度が高い）。
+  function renderStarterCard() {
+    if (!TODAY_STARTER_HOME || !TODAY_STARTER_AWAY) return "";
+    var game = nextGameFor(state.homeTeam);
+    if (!game || !game.opponent) return "";
+    var homeTc = teamColor(state.homeTeam);
+    var awayTc = teamColor(game.opponent);
+
+    function sideHtml(teamName, tc, info) {
+      var statsLine = "";
+      var cs = info.player && info.player.currentStats;
+      if (cs && cs.wins != null && cs.losses != null) {
+        statsLine = '<p class="starter-record">' + cs.wins + "勝" + cs.losses + "敗" +
+          (cs.eraDisplay ? '<span class="starter-era">防御率' + esc(cs.eraDisplay) + "</span>" : "") +
+        "</p>";
+      }
+      return (
+        '<div class="starter-team" style="background:' + tc.bg + ";color:" + tc.fg + ';">' +
+          '<span class="starter-team-name">' + esc(teamName) + "</span>" +
+          '<p class="starter-pitcher">' + esc(info.pitcherName) + "</p>" +
+          statsLine +
+        "</div>"
+      );
+    }
+
+    var meta = game.venue
+      ? '<p class="starter-meta">' + icon("mapPin", 10) + esc(game.dateDisplay + "・" + game.venue) + "</p>"
+      : "";
+
+    return (
+      '<section class="home-section">' +
+        '<p class="section-label">' + icon("clipboard", 13) + "本日の先発（NPB公式サイトの確定スタメンより）</p>" +
+        '<div class="starter-card">' +
+          sideHtml(state.homeTeam, homeTc, TODAY_STARTER_HOME) +
+          '<span class="starter-vs">VS</span>' +
+          sideHtml(game.opponent, awayTc, TODAY_STARTER_AWAY) +
+        "</div>" +
+        meta +
+      "</section>"
+    );
+  }
+
+  // リーグ順位表・チーム成績（api/standings.js取得分）。セ・パ両リーグを表示し、
+  // ホーム球団の行を強調する。横幅が狭い端末でも列が潰れないよう、テーブルは横スクロール可にしてある。
+  function renderStandingsSection() {
+    if (!STANDINGS_DATA || !STANDINGS_DATA.leagues) return "";
+    var leagues = [
+      { key: "central", label: "セントラル・リーグ", teams: STANDINGS_DATA.leagues.central },
+      { key: "pacific", label: "パシフィック・リーグ", teams: STANDINGS_DATA.leagues.pacific },
+    ];
+
+    function fmtPct(v) { return v == null ? "―" : v.toFixed(3).replace(/^0/, ""); }
+    function fmtGb(v) { return v == null ? "―" : (v === 0 ? "首位" : v.toFixed(1)); }
+
+    var blocks = leagues.map(function (lg) {
+      if (!lg.teams || !lg.teams.length) return "";
+      var rows = lg.teams.map(function (t) {
+        var isHome = t.team === state.homeTeam;
+        var tc = teamColor(t.team);
+        return (
+          '<div class="standings-row' + (isHome ? " standings-row-home" : "") + '">' +
+            '<span class="st-rank">' + t.rank + "</span>" +
+            '<span class="st-team"><span class="st-team-dot" style="background:' + tc.bg + ';"></span>' + esc(t.team) + "</span>" +
+            '<span class="st-num">' + (t.wins != null ? t.wins : "―") + "</span>" +
+            '<span class="st-num">' + (t.losses != null ? t.losses : "―") + "</span>" +
+            '<span class="st-num">' + (t.draws != null ? t.draws : "―") + "</span>" +
+            '<span class="st-num">' + fmtPct(t.winPct) + "</span>" +
+            '<span class="st-num">' + fmtGb(t.gamesBehind) + "</span>" +
+            '<span class="st-num">' + (t.teamAvg != null ? fmtPct(t.teamAvg) : "―") + "</span>" +
+            '<span class="st-num">' + (t.teamEra != null ? t.teamEra.toFixed(2) : "―") + "</span>" +
+          "</div>"
+        );
+      }).join("");
+      return (
+        '<div class="standings-block">' +
+          '<p class="standings-league-label">' + esc(lg.label) + "</p>" +
+          '<div class="standings-table">' +
+            '<div class="standings-row standings-head">' +
+              '<span class="st-rank">順位</span><span class="st-team">チーム</span>' +
+              '<span class="st-num">勝</span><span class="st-num">敗</span><span class="st-num">分</span>' +
+              '<span class="st-num">勝率</span><span class="st-num">差</span>' +
+              '<span class="st-num">打率</span><span class="st-num">防御率</span>' +
+            "</div>" +
+            rows +
+          "</div>" +
+        "</div>"
+      );
+    }).join("");
+
+    if (!blocks) return "";
+    return (
+      '<section class="home-section">' +
+        '<p class="section-label">' + icon("trophy", 13) + "リーグ順位表・チーム成績</p>" +
+        blocks +
+      "</section>"
+    );
+  }
+
   function renderHome() {
     var game = nextGameFor(state.homeTeam);
     var homeIds = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam; }).map(function (p) { return p.id; });
@@ -2123,8 +2436,21 @@
       var countdownText = days > 0 ? "あと" + days + "日" : (days === 0 ? "本日開催！" : "開催済み");
       var homeAwayLabel = game.home ? "本拠地開催" : "ビジター";
       heroTop = '<p class="hero-eyebrow">NEXT GAME</p><p class="hero-matchup">' + esc(state.homeTeam) + ' <span class="vs">vs</span> ' + esc(game.opponent) + "</p>";
+      // 天気は「この試合の球場・日付」向けに取得できたデータの場合のみ表示する（球団切り替え直後や
+      // 日程更新直後は取得中でまだ無いこともあるが、その場合は単に非表示になるだけでよい）
+      var weatherKeyForGame = game.venue && game.date ? (game.venue + "|" + game.date) : null;
+      var weatherPill = "";
+      if (weatherKeyForGame && WEATHER_KEY === weatherKeyForGame && WEATHER_DATA) {
+        if (WEATHER_DATA.isIndoor) {
+          weatherPill = '<span class="hero-weather">🏟️ 屋内球場</span>';
+        } else if (WEATHER_DATA.success && WEATHER_DATA.daily) {
+          weatherPill = '<span class="hero-weather">' + WEATHER_DATA.daily.icon + " " +
+            Math.round(WEATHER_DATA.daily.tempMax) + "/" + Math.round(WEATHER_DATA.daily.tempMin) + "℃ 降水" + WEATHER_DATA.daily.precipProbMax + "%</span>";
+        }
+      }
       heroMeta = '<div class="hero-meta"><span class="hero-date">' + esc(game.dateDisplay) + "</span><span class=\"hero-countdown\">" + esc(countdownText) + "</span>" +
         (game.venue ? '<span class="hero-venue">' + icon("mapPin", 10) + esc(homeAwayLabel) + "・" + esc(game.venue) + "</span>" : "") +
+        weatherPill +
         '<button class="hero-date" data-action="fetch-schedule" style="cursor:pointer;border:none;"' + (state.scheduleFetching ? " disabled" : "") + ">" +
           icon("refresh", 10, state.scheduleFetching ? "spin-icon" : "") + (state.scheduleFetching ? "取得中…" : "日程を更新") +
         "</button>" +
@@ -2136,10 +2462,21 @@
       heroLead = "応援球団を選ぶと、その球団の選手と対戦相手選手のつながりや小話をチェックできます。";
     }
 
+    // 「見どころ」はホーム球団の公式サイトからの自動取得のため、今のホーム球団向けに取得できた
+    // 内容がある場合のみ表示する（非対応球団や取得失敗の場合は自然に非表示になる）
+    var highlightsBlock = (HIGHLIGHTS_TEAM === state.homeTeam && HIGHLIGHTS_TEXT)
+      ? '<div class="hero-highlights">' +
+          '<p class="hero-highlights-label">' + icon("sparkles", 11) + "見どころ</p>" +
+          '<p class="hero-highlights-text">' + esc(HIGHLIGHTS_TEXT) + "</p>" +
+          '<p class="hero-highlights-source">' + esc(state.homeTeam) + "公式サイトより自動取得</p>" +
+        "</div>"
+      : "";
+
     var hero =
       '<div class="hero-card">' +
         heroTop + heroMeta +
         '<p class="hero-lead">' + heroLead + "</p>" +
+        highlightsBlock +
         '<div class="hero-cta-row">' +
           '<button class="cta-btn cta-primary" data-action="goto-roster" data-tags="home">' +
             icon("grid", 17) +
@@ -2152,6 +2489,8 @@
         "</div>" +
       "</div>";
 
+    var starterCard = renderStarterCard();
+    var standingsSection = renderStandingsSection();
     var lineupSection = renderLineupHomeSection();
 
     var triviaPlayers = computeHomeTrivia();
@@ -2208,7 +2547,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</section>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + lineupSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + starterCard + standingsSection + lineupSection + trivia + leaders + news + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -2853,6 +3192,30 @@
         "</div></section>";
     }
 
+    // 代表歴・オールスター選出歴は以前からデータ自体は保持していたが、詳細画面のどこにも
+    // 表示されていなかった（フィルタタグの判定にしか使われていなかった）。実績が豊富な
+    // 選手ほど「情報が薄い」印象につながっていたため、受賞歴と同じ見せ方で追加する。
+    var nationalTeamBlock = "";
+    if (p.nationalTeamHistory && p.nationalTeamHistory.length) {
+      nationalTeamBlock =
+        '<section><p class="section-label">' + icon("trophy", 13) + "代表歴</p><div class=\"panel award-panel\">" +
+          '<div class="award-chip-row">' +
+            p.nationalTeamHistory.map(function (n) {
+              return '<span class="award-chip"><span class="award-year">' + esc(n.year) + "</span>" + esc(n.competition) + "</span>";
+            }).join("") +
+          "</div>" +
+        "</div></section>";
+    }
+    var allStarBlock = "";
+    if (p.allStarYears && p.allStarYears.length) {
+      allStarBlock =
+        '<section><p class="section-label">' + icon("trophy", 13) + "オールスター選出（" + p.allStarYears.length + "回）</p><div class=\"panel award-panel\">" +
+          '<div class="award-chip-row">' +
+            p.allStarYears.map(function (y) { return '<span class="award-chip" style="padding:5px 11px;">' + esc(y) + "年</span>"; }).join("") +
+          "</div>" +
+        "</div></section>";
+    }
+
     var dataNoteBlock = p.dataNote
       ? '<section><div class="info-note-panel">' + icon("info", 14) + '<p>' + esc(p.dataNote) + "</p></div></section>"
       : "";
@@ -2869,7 +3232,7 @@
     var basicPane =
       "<section><p class=\"section-label\">今季 ＆ 前年成績比較</p>" + careerNote + statTable + "</section>" +
       similarLegendHintHtml(p) +
-      salaryPanelHtml(p) + awardsPanelHtml(p) + vsBlock + infoGrid + timeline + posChain + dataNoteBlock;
+      salaryPanelHtml(p) + awardsPanelHtml(p) + nationalTeamBlock + allStarBlock + vsBlock + infoGrid + timeline + posChain + dataNoteBlock;
 
     var otherPane = episodes + song + connectionsHtml(p);
 
@@ -3043,6 +3406,25 @@
     // ホーム球団に依存する絞り込みタグ・球団フィルタが無効化されていないか確認
     if (state.teamFilter !== "all" && TEAM_NAMES.indexOf(state.teamFilter) === -1) state.teamFilter = "all";
     resetLineupForCurrentTeams();
+    // 「見どころ」もホーム球団に紐づくデータなので、切り替えたら新しいホーム球団向けに
+    // 取得し直す。前の球団の内容が一瞬でも出ないよう、いったん表示をクリアしておく
+    // （非対応の球団に切り替えた場合はapi/highlights.js側でsuccess:falseが返り、
+    // そのまま非表示になる）。
+    if (HIGHLIGHTS_TEAM !== name) {
+      HIGHLIGHTS_TEXT = null;
+      HIGHLIGHTS_GAME_DATE = null;
+      HIGHLIGHTS_TEAM = null;
+    }
+    maybeRefreshHighlights(name);
+    // 「本日の先発」対戦カード・次の試合会場の天気も同じくホーム球団に紐づくデータなので、
+    // 切り替えたら前の球団のぶんが一瞬でも出ないようクリアしてから取得し直す。
+    TODAY_STARTER_HOME = null;
+    TODAY_STARTER_AWAY = null;
+    TODAY_STARTER_KEY = null;
+    maybeRefreshTodayStarter();
+    WEATHER_DATA = null;
+    WEATHER_KEY = null;
+    maybeRefreshWeather(name);
   }
   function setOpponentTeam(name) {
     if (name === state.opponentTeam || name === state.homeTeam) return;
@@ -3293,12 +3675,46 @@
   function boot() {
     var homeTeamName = loadHomeTeam();
     var homeTeamId = TEAM_ID_MAP[homeTeamName] || TEAM_ID_MAP[DEFAULT_HOME_TEAM];
+    // 「見どころ」は前回取得できたぶんがあれば、通信を待たずまず即表示する
+    // （新鮮さの判定・裏側での再取得は maybeRefreshHighlights に任せる。ただし今のホーム球団と
+    // 違う球団向けのキャッシュだった場合は、一瞬でも違う球団の内容を出さないよう使わない）
+    var cachedHighlights = cacheRead("highlights");
+    if (cachedHighlights && cachedHighlights.d && cachedHighlights.d.highlights && cachedHighlights.d.team === homeTeamName) {
+      HIGHLIGHTS_TEXT = cachedHighlights.d.highlights;
+      HIGHLIGHTS_GAME_DATE = cachedHighlights.d.gameDate || null;
+      HIGHLIGHTS_TEAM = homeTeamName;
+    }
+    // 順位表・予告先発も同じく、前回取得できたぶんがあれば通信を待たずまず即表示する
+    var cachedStandings = cacheRead("standings");
+    if (cachedStandings && cachedStandings.d && cachedStandings.d.success) {
+      STANDINGS_DATA = cachedStandings.d;
+    }
     Promise.all([loadTeamPlayers(homeTeamId), loadRelations(), loadSchedule(), loadNews()])
       .then(function (results) {
         mergeTeamPlayers(results[0]);
         RELATIONS = results[1] || [];
         TEAM_NEXT_GAMES = results[2] || [];
         NEWS = results[3] || [];
+        // 天気・「本日の先発」は「次の試合の球場・日付・対戦相手」が分かって初めてキャッシュキーを
+        // 判定できるため、TEAM_NEXT_GAMES が埋まったこのタイミングで確認する
+        var earlyGame = nextGameFor(homeTeamName);
+        if (earlyGame && earlyGame.venue && earlyGame.date) {
+          var earlyKey = earlyGame.venue + "|" + earlyGame.date;
+          var cachedWeather = cacheRead("weather");
+          if (cachedWeather && cachedWeather.d && cachedWeather.d.key === earlyKey) {
+            WEATHER_DATA = cachedWeather.d.data;
+            WEATHER_KEY = earlyKey;
+          }
+        }
+        if (earlyGame && earlyGame.opponent) {
+          var earlyStarterKey = homeTeamName + "|" + earlyGame.opponent + "|" + earlyGame.date;
+          var cachedStarter = cacheRead("todayStarter");
+          if (cachedStarter && cachedStarter.d && cachedStarter.d.key === earlyStarterKey) {
+            TODAY_STARTER_HOME = cachedStarter.d.home;
+            TODAY_STARTER_AWAY = cachedStarter.d.away;
+            TODAY_STARTER_KEY = earlyStarterKey;
+          }
+        }
         if (opponentTeamNeedsRecompute) {
           // 日程データが揃ったので、対戦相手の自動選択をやり直す
           // （起動直後は本日の実際の対戦カードを正しく選べていない可能性があるため）
@@ -3328,6 +3744,12 @@
         // 上書きできないか試みる（前回の自動更新から6時間未満ならスキップされる）。
         // PLAYERSの読み込みを待つ必要は無いためここで呼ぶ（体感速度を優先）。
         maybeRefreshSchedule();
+        // 「見どころ」の自動更新チェック（対応球団かどうかはapi/highlights.js側で判定される）
+        maybeRefreshHighlights(homeTeamName);
+        // 順位表・本日の先発・次の試合会場の天気も同様に、起動のたびに（間隔が空いていれば）自動更新
+        maybeRefreshStandings();
+        maybeRefreshTodayStarter();
+        maybeRefreshWeather(homeTeamName);
       });
   }
   boot();

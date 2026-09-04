@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v28"; // 対戦相手（オリックス固定になっていた不具合）も日程の自動更新に追従するように修正
+const CACHE_VERSION = "v35"; // 予告先発（ファンサイト頼み）を廃止し、NPB公式の確定スタメンから取得する「本日の先発」対戦カードに置き換え
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 
