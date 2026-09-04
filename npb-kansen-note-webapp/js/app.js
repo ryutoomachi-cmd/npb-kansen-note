@@ -9,6 +9,7 @@
   var LEGENDS = null; // レジェンド機能用データ（起動直後の描画をブロックしないよう、boot()後にバックグラウンドで取得）
   var legendsLoadFailed = false;
   var STATS_LAST_UPDATED = null; // 今季成績（打率・本塁打など）をapi/stats.jsで自動更新した最新日時（表示用）
+  var SCHEDULE_LAST_UPDATED = null; // 試合日程をapi/schedule.jsで自動更新した最新日時（表示用）
   var legendsLoadPromise = null;
 
   /* ===================== Icons (hand-drawn, minimal) ===================== */
@@ -431,6 +432,62 @@
       return " 打率・本塁打などの今季成績はNPB公式サイトから自動更新されます（" + (d.getMonth() + 1) + "/" + d.getDate() + "更新）。";
     }
     return " 打率・本塁打などの今季成績はNPB公式サイトから自動更新されます。";
+  }
+
+  /* ===================== 試合日程（NEXT GAME）の自動更新 =====================
+     以前は「日程を更新」ボタンを自分で押さない限り、data/schedule.json（GitHubへの
+     反映が必要な静的ファイル）の内容がそのまま表示され続けていた。このファイルは
+     試合が進むたびに古くなっていくため、「本日開催のはずなのに実際には試合が無い」
+     （つまりホーム画面のNEXT GAMEカードと、本日のスタメン取得の結果が食い違う）と
+     いった不整合が起きうる。今季成績の自動更新（refreshLiveStatsNow）と全く同じ
+     考え方で、アプリ起動のたびに（前回の自動更新から一定時間が経っている場合のみ）
+     api/schedule.jsを12球団ぶん叩き、NPB公式サイトの実際の日程でTEAM_NEXT_GAMESを
+     その場で上書きする。GitHubへの反映もボタン操作も不要。 */
+  var SCHEDULE_REFRESH_INTERVAL_MS = 6 * 60 * 60 * 1000; // 6時間：試合日は日々変わるため、成績より短めの間隔にしている
+  var scheduleAutoRefreshing = false;
+
+  function refreshScheduleNow() {
+    if (scheduleAutoRefreshing) return;
+    scheduleAutoRefreshing = true;
+    var totalApplied = 0;
+    var fetches = TEAM_NAMES.map(function (teamName) {
+      return fetch("/api/schedule?team=" + encodeURIComponent(teamName))
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (!data || !data.success || !data.game) return;
+          var idx = -1;
+          for (var i = 0; i < TEAM_NEXT_GAMES.length; i++) {
+            if (TEAM_NEXT_GAMES[i].teamName === teamName) { idx = i; break; }
+          }
+          if (idx !== -1) TEAM_NEXT_GAMES[idx] = data.game; else TEAM_NEXT_GAMES.push(data.game);
+          totalApplied++;
+        })
+        .catch(function () { /* 1球団分の取得失敗は無視し、他球団の更新は続ける（npb.jp側の一時的な不調等） */ });
+    });
+    Promise.all(fetches).then(function () {
+      scheduleAutoRefreshing = false;
+      cacheWrite("scheduleLiveAttempt", { done: true });
+      if (totalApplied > 0) {
+        cacheWrite("schedule", TEAM_NEXT_GAMES);
+        SCHEDULE_LAST_UPDATED = new Date();
+        // 日程データが変わった可能性があるため、対戦相手の自動選択（実際の次の試合の相手）も
+        // 併せてやり直す。ユーザーが既に手動で対戦相手を選び直している場合は上書きしない。
+        if (!loadOpponentTeam()) {
+          var recomputed = computeDefaultOpponent(state.homeTeam);
+          if (recomputed !== state.opponentTeam) {
+            state.opponentTeam = recomputed;
+            state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
+          }
+        }
+      }
+      render();
+    });
+  }
+
+  function maybeRefreshSchedule() {
+    var cached = cacheRead("scheduleLiveAttempt");
+    if (cached && (Date.now() - cached.t) < SCHEDULE_REFRESH_INTERVAL_MS) return; // 前回の試行から間もない場合はスキップ
+    refreshScheduleNow();
   }
 
   /* ===================== ホーム球団・対戦相手の永続化 ===================== */
@@ -2195,17 +2252,26 @@
     }
     var relList = related.map(function (r) {
       var tc = teamColor(r.player.currentTeamName);
+      // 注意：このカード自体がクリック可能な要素（つながり先選手の詳細を開く）なので、
+      // 説明文中の選手名を linkifyMentions で <button> リンクにすると、クリック可能要素の
+      // 入れ子（invalid nesting）になりブラウザがカードのHTML構造を壊してしまう
+      // （カード内で選手名が出た瞬間に外側の要素が閉じられ、以降のテキストがカード外に
+      // はみ出して表示される不具合が実際に発生した）。そのため<button>ではなく<div>＋
+      // data-action属性（クリックはイベント委譲で処理されるためタグ種類は問わない）を使う。
+      // また selfId には p.id（このカードを表示している選手自身）を渡し、説明文中で
+      // 自分自身の名前が出てきても「自分自身の詳細ページへのリンク」という無意味なリンクには
+      // しないようにしている。
       return (
-        '<button class="rel-card" data-action="open-detail" data-id="' + r.player.id + '">' +
+        '<div class="rel-card" role="button" tabindex="0" data-action="open-detail" data-id="' + r.player.id + '">' +
           avatarHtml(r.player, 36) +
           '<span class="rel-card-body">' +
             kanaHtml(r.player, "kana-inline") +
             '<span style="font-size:13px;font-weight:800;">' + esc(r.player.name) + '</span> ' +
             '<span class="rel-team-pill" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(r.player.currentTeamName) + " #" + r.player.number + "</span><br>" +
             '<span class="rel-type-pill" style="background:' + RELATION_COLORS[r.relation.type] + '">' + RELATION_LABELS[r.relation.type] + "</span>" +
-            '<p class="rel-desc">' + linkifyMentions(r.relation.description, null) + "</p>" +
+            '<p class="rel-desc">' + linkifyMentions(r.relation.description, p.id) + "</p>" +
           "</span>" +
-        "</button>"
+        "</div>"
       );
     }).join("");
     return (
@@ -3226,6 +3292,12 @@
         // レジェンドデータも初回描画をブロックせず裏で取得しておく（選手詳細の「似た成績の
         // レジェンド」ヒントを、レジェンドタブを開く前から使えるようにするため）
         ensureLegendsLoaded().then(function () { render(); }).catch(function () { /* 失敗時はレジェンドタブ内の再読み込みボタンに任せる */ });
+        // 試合日程（NEXT GAME）の自動更新チェック。data/schedule.json（静的ファイル）は
+        // 選手データ等と一緒に一括取得済みだが、これはGitHubへの反映タイミング次第で
+        // 古くなっている場合があるため、起動直後にNPB公式サイトの実際の日程で
+        // 上書きできないか試みる（前回の自動更新から6時間未満ならスキップされる）。
+        // PLAYERSの読み込みを待つ必要は無いためここで呼ぶ（体感速度を優先）。
+        maybeRefreshSchedule();
       });
   }
   boot();
