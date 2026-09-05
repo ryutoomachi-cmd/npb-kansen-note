@@ -2507,6 +2507,144 @@
     );
   }
 
+  /* ===================== 「本日の観戦モード」オーバーレイ =====================
+     球場で片手に持ちながら使う想定で、今まで別々の場所に散らばっていた「本日の先発」
+     「本日のスタメン」「今日の注目対決／豆知識」「リーグ順位」を1画面にまとめたもの。
+     新しいデータは持たず、既存のrenderStarterCard・todaysRelationMatchups・
+     lineupStatHighlights・STANDINGS_DATA をそのまま使い回して組み立てるだけなので、
+     裏側の取得処理には手を加えていない（表示をひとまとめにするだけの機能）。 */
+  function watchModeRecordRowHtml() {
+    if (!STANDINGS_DATA || !STANDINGS_DATA.leagues) return "";
+    var all = (STANDINGS_DATA.leagues.central || []).concat(STANDINGS_DATA.leagues.pacific || []);
+    function find(teamName) {
+      for (var i = 0; i < all.length; i++) if (all[i].team === teamName) return all[i];
+      return null;
+    }
+    var h = find(state.homeTeam), o = find(state.opponentTeam);
+    if (!h && !o) return "";
+    function sideText(t) {
+      if (!t) return "";
+      var rec = (t.wins != null ? t.wins : "―") + "勝" + (t.losses != null ? t.losses : "―") + "敗" +
+        (t.draws != null ? t.draws : "―") + "分";
+      return '<span class="watch-record-stat">' + esc(rec) + "（" + t.rank + "位）</span>";
+    }
+    return (
+      '<div class="watch-record-row">' +
+        '<span class="watch-record-side"><span class="watch-record-team">' + esc(state.homeTeam) + "</span>" + sideText(h) + "</span>" +
+        '<span class="watch-record-vs">VS</span>' +
+        '<span class="watch-record-side watch-record-right"><span class="watch-record-team">' + esc(state.opponentTeam) + "</span>" + sideText(o) + "</span>" +
+      "</div>"
+    );
+  }
+
+  function watchModeRowHtml(entry, teamName, tagMap) {
+    var p = entry.p;
+    var tc = teamColor(teamName);
+    var tags = [];
+    var oppId = tagMap.matchup[p.id];
+    if (oppId) {
+      var opp = byId(oppId);
+      if (opp) tags.push('<span class="watch-tag watch-tag-hot">' + icon("sparkles", 9) + esc(opp.name) + "と実在のつながり</span>");
+    }
+    if (tagMap.killerIds.indexOf(p.id) !== -1) {
+      tags.push('<span class="watch-tag watch-tag-warn">' + icon("alertTriangle", 9) + "楽天キラー</span>");
+    }
+    if (p.cheerSongNote || p.walkupSong) {
+      tags.push('<span class="watch-tag">' + icon("music", 9) + "応援・登場曲</span>");
+    }
+    if (!tags.length && p.episodes && p.episodes.length) {
+      tags.push('<span class="watch-tag">' + icon("sparkles", 9) + "小話あり</span>");
+    }
+    var statLine = "";
+    if (p.currentStats) {
+      if (isPitcher(p) && p.currentStats.wins != null) {
+        statLine = p.currentStats.wins + "勝" + p.currentStats.losses + "敗" + (p.currentStats.eraDisplay ? "・防御率" + p.currentStats.eraDisplay : "");
+      } else if (!isPitcher(p) && p.currentStats.avgDisplay) {
+        statLine = "打率" + p.currentStats.avgDisplay + (p.currentStats.hr != null ? "・本塁打" + p.currentStats.hr : "");
+      }
+    }
+    return (
+      '<button class="watch-row" data-action="open-detail" data-id="' + p.id + '">' +
+        '<span class="watch-row-label">' + esc(entry.label) + "</span>" +
+        avatarHtml(p, 34) +
+        '<span class="watch-row-body">' +
+          '<span class="watch-row-nm">' + esc(p.name) + ' <span class="rel-team-pill" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(teamName) + "</span></span>" +
+          (statLine ? '<span class="watch-row-stat">' + esc(statLine) + "</span>" : "") +
+          (tags.length ? '<span class="watch-row-tags">' + tags.join("") + "</span>" : "") +
+        "</span>" +
+        icon("arrowRight", 14, "watch-row-arrow") +
+      "</button>"
+    );
+  }
+
+  function watchModeOrderedList(side) {
+    var L = state.lineup[side];
+    var list = [];
+    L.batters.forEach(function (id, i) {
+      if (!id) return;
+      var p = byId(id);
+      if (p) list.push({ p: p, label: (i + 1) + "番" });
+    });
+    if (L.pitcher) {
+      var pp = byId(L.pitcher);
+      if (pp) list.push({ p: pp, label: "投手" });
+    }
+    return list;
+  }
+
+  function watchModeOverlayHtml() {
+    var homeCount = lineupFilledCount("home"), oppCount = lineupFilledCount("opponent");
+    var starterCard = renderStarterCard();
+    var recordRow = watchModeRecordRowHtml();
+
+    var body;
+    if (!homeCount && !oppCount) {
+      body =
+        '<p class="network-intro">両チームのスタメンを登録すると、今日実際に出場する20人をこの画面だけでまとめてチェックできます（豆知識・実在のつながり・今季成績つき）。</p>' +
+        '<button class="lineup-cta-card" data-action="open-lineup">' +
+          icon("clipboard", 20) +
+          '<span class="cta-text"><span class="cta-title">本日のスタメンを登録</span><span class="cta-sub">両チームの打順を登録する</span></span>' +
+          icon("arrowRight", 16, "lineup-cta-arrow") +
+        "</button>";
+    } else {
+      var matchupMap = {};
+      todaysRelationMatchups().forEach(function (r) {
+        matchupMap[r.fromPlayerId] = r.toPlayerId;
+        matchupMap[r.toPlayerId] = r.fromPlayerId;
+      });
+      var killerIds = state.homeTeam === "楽天"
+        ? watchModeOrderedList("opponent").map(function (e) { return e.p; }).filter(isRakutenKiller).map(function (p) { return p.id; })
+        : [];
+      var tagMap = { matchup: matchupMap, killerIds: killerIds };
+
+      var homeList = watchModeOrderedList("home");
+      var oppList = watchModeOrderedList("opponent");
+      var homeHtml = homeList.length
+        ? '<p class="watch-side-label">' + icon("grid", 12) + esc(state.homeTeam) + "（" + homeCount + "/10人登録）</p>" +
+          homeList.map(function (e) { return watchModeRowHtml(e, state.homeTeam, tagMap); }).join("")
+        : "";
+      var oppHtml = oppList.length
+        ? '<p class="watch-side-label">' + icon("grid", 12) + esc(state.opponentTeam) + "（" + oppCount + "/10人登録）</p>" +
+          oppList.map(function (e) { return watchModeRowHtml(e, state.opponentTeam, tagMap); }).join("")
+        : "";
+      var editLink =
+        '<button class="lineup-edit-link" data-action="open-lineup" style="margin-bottom:10px;">' + icon("clipboard", 12) + "スタメンを編集</button>";
+      body = editLink + homeHtml + oppHtml;
+    }
+
+    return (
+      '<div class="sheet-header">' +
+        '<div class="who"><span class="sheet-icon-badge">' + icon("sparkles", 20) + "</span><span>" +
+          '<p class="sub">' + esc(state.homeTeam) + " vs " + esc(state.opponentTeam) + '</p><p class="nm">本日の観戦モード</p>' +
+        "</span></div>" +
+        '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
+      "</div>" +
+      '<div class="sheet-body">' +
+        recordRow + starterCard + body +
+      "</div>"
+    );
+  }
+
   function renderHome() {
     var game = nextGameFor(state.homeTeam);
     var homeIds = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam; }).map(function (p) { return p.id; });
@@ -2576,6 +2714,15 @@
     var starterCard = renderStarterCard();
     var standingsSection = renderStandingsSection();
     var lineupSection = renderLineupHomeSection();
+    var watchModeCta =
+      '<section class="home-section">' +
+        '<button class="watch-mode-cta" data-action="open-watch-mode">' +
+          '<span class="watch-mode-cta-icon">' + icon("sparkles", 20) + "</span>" +
+          '<span class="watch-mode-cta-text"><span class="watch-mode-cta-title">本日の観戦モードを開く</span>' +
+          '<span class="watch-mode-cta-sub">先発・スタメン・注目対決・順位を1画面にまとめて表示</span></span>' +
+          icon("arrowRight", 18, "watch-mode-cta-arrow") +
+        "</button>" +
+      "</section>";
 
     var triviaPlayers = computeHomeTrivia();
     var trivia = !triviaPlayers.length ? "" :
@@ -2631,7 +2778,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</section>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -3581,6 +3728,15 @@
       });
       var sheetEl2 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl2) sheetEl2.scrollTop = 0;
+    } else if (state.overlay.type === "watch-mode") {
+      els.overlayRoot.innerHTML =
+        '<div class="overlay-scrim"><div class="sheet">' + watchModeOverlayHtml() + "</div></div>";
+      var scrimElW = els.overlayRoot.querySelector(".overlay-scrim");
+      scrimElW.addEventListener("click", function (e) {
+        if (e.target === scrimElW) { state.overlay = null; render(); }
+      });
+      var sheetElW = els.overlayRoot.querySelector(".sheet");
+      if (sheetElW) sheetElW.scrollTop = 0;
     } else if (state.overlay.type === "lineup") {
       els.overlayRoot.innerHTML =
         '<div class="overlay-scrim"><div class="sheet">' + lineupOverlayHtml() + "</div></div>";
@@ -3831,6 +3987,9 @@
       renderOverlay();
     } else if (action === "open-connections") {
       state.overlay = { type: "connections" };
+      renderOverlay();
+    } else if (action === "open-watch-mode") {
+      state.overlay = { type: "watch-mode" };
       renderOverlay();
     } else if (action === "open-lineup") {
       state.overlay = { type: "lineup" };
