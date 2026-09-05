@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v38"; // 成長ページに複数年の成績推移（折れ線＋年度別表）を追加。楽天40選手分の実際の過去シーズン成績（NPB公式データ）を新規収録
+const CACHE_VERSION = "v39"; // 不具合修正：試合日を過ぎた「開催済み」の日程データがいつまでもNEXT GAME/対戦相手に残り続け、リロードのたびに古い対戦カード（例：オリックス戦）が表示され続ける不具合を修正
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

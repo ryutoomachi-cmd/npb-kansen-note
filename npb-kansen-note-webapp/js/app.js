@@ -96,9 +96,23 @@
 
   // 各球団の直近の試合情報（TEAM_NEXT_GAMES は data.js 内の実データ。各球団公式サイト等を
   // 突き合わせて確認したもので、架空の日程は含みません。週1回、自動で更新されます）
+  //
+  // 日程の自動更新（refreshScheduleNow）が何らかの理由で失敗・未実行のままだと、
+  // data/schedule.json（静的ファイル）に入っている「試合日をとっくに過ぎてしまった
+  // 古いカード」がいつまでも残ってしまう。これをそのまま「次の試合」として返し続けると、
+  // ホーム画面のNEXT GAMEや対戦相手の自動選択（computeDefaultOpponent）が、実際にはもう
+  // 終わった対戦カード（例：3日前に開催済みの対戦相手）に固定されたままになり、リロードの
+  // たびに同じ（実際にはもう終わっている）相手が表示され続けるという不具合の原因になる。
+  // そのため、試合日が既に過ぎているデータは呼び出し側からは「次の試合が分からない」
+  // （＝null）として扱い、ホーム画面・対戦相手の自動選択の両方が正しくフォールバックできる
+  // ようにする。
   function nextGameFor(teamName) {
     for (var i = 0; i < TEAM_NEXT_GAMES.length; i++) {
-      if (TEAM_NEXT_GAMES[i].teamName === teamName) return TEAM_NEXT_GAMES[i];
+      var g = TEAM_NEXT_GAMES[i];
+      if (g.teamName === teamName) {
+        if (g.date && daysUntil(g.date) < 0) return null;
+        return g;
+      }
     }
     return null;
   }
@@ -3669,12 +3683,19 @@
     maybeRefreshWeather(name);
   }
   function setOpponentTeam(name) {
-    if (name === state.opponentTeam || name === state.homeTeam) return;
+    if (name === state.homeTeam) return;
+    var changed = name !== state.opponentTeam;
     state.opponentTeam = name;
     saveOpponentTeam(name);
     // これは設定画面からのユーザーの明示的な選択なので「手動」フラグを立てる。
     // 以後は日程の自動更新（NEXT GAME）が対戦相手を勝手に上書きしないようにする。
+    // ※ 値が自動選択の結果と偶然同じ（＝クリックしても表示上は何も変わらない）場合でも
+    //   必ずこのフラグを立てる。ここを「値が変わった時だけ」にしてしまうと、自動選択が
+    //   たまたまユーザーの選びたい球団と一致しているタイミングで選び直しても手動固定されず、
+    //   後で日程が進んだ際に無言でまた自動選択に戻ってしまう（＝せっかくの選択が黙って
+    //   無視される）ため。
     saveOpponentIsManual(true);
+    if (!changed) return;
     resetLineupForCurrentTeams();
   }
 
