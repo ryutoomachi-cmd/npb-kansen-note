@@ -112,7 +112,53 @@
     "dataNote": "出身中学情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 34000,
     "salaryNote": "推定3億4000万円（2026年、日本経済新聞・北海道新聞報道）",
-    "photoEmoji": "🦅"
+    "photoEmoji": "🦅",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 23,
+        "wins": 10,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.9,
+        "eraDisplay": "2.90",
+        "strikeouts": 141,
+        "inningsPitched": 146
+      },
+      {
+        "season": "2022",
+        "games": 26,
+        "wins": 10,
+        "losses": 9,
+        "saves": 1,
+        "era": 2.95,
+        "eraDisplay": "2.95",
+        "strikeouts": 112,
+        "inningsPitched": 155.67
+      },
+      {
+        "season": "2023",
+        "games": 24,
+        "wins": 7,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.46,
+        "eraDisplay": "3.46",
+        "strikeouts": 134,
+        "inningsPitched": 153.33
+      },
+      {
+        "season": "2024",
+        "games": 26,
+        "wins": 14,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.65,
+        "eraDisplay": "2.65",
+        "strikeouts": 161,
+        "inningsPitched": 176.33
+      }
+    ]
   },
   {
     "id": "o2",
@@ -184,7 +230,108 @@
     ],
     "salaryManYen": 30000,
     "salaryNote": "推定3億円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🍽️"
+    "photoEmoji": "🍽️",
+    "statsHistory": [
+      {
+        "season": "2016",
+        "games": 30,
+        "wins": 7,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.45,
+        "eraDisplay": "3.45",
+        "strikeouts": 64,
+        "inningsPitched": 91.33
+      },
+      {
+        "season": "2017",
+        "games": 21,
+        "wins": 6,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.53,
+        "eraDisplay": "3.53",
+        "strikeouts": 99,
+        "inningsPitched": 120
+      },
+      {
+        "season": "2018",
+        "games": 26,
+        "wins": 5,
+        "losses": 8,
+        "saves": 0,
+        "era": 4.53,
+        "eraDisplay": "4.53",
+        "strikeouts": 82,
+        "inningsPitched": 113.33
+      },
+      {
+        "season": "2019",
+        "games": 26,
+        "wins": 5,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.52,
+        "eraDisplay": "3.52",
+        "strikeouts": 70,
+        "inningsPitched": 92
+      },
+      {
+        "season": "2020",
+        "games": 28,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.26,
+        "eraDisplay": "3.26",
+        "strikeouts": 51,
+        "inningsPitched": 58
+      },
+      {
+        "season": "2021",
+        "games": 25,
+        "wins": 6,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.42,
+        "eraDisplay": "3.42",
+        "strikeouts": 102,
+        "inningsPitched": 150
+      },
+      {
+        "season": "2022",
+        "games": 22,
+        "wins": 8,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.01,
+        "eraDisplay": "2.01",
+        "strikeouts": 98,
+        "inningsPitched": 147.67
+      },
+      {
+        "season": "2023",
+        "games": 24,
+        "wins": 7,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.87,
+        "eraDisplay": "2.87",
+        "strikeouts": 83,
+        "inningsPitched": 163.33
+      },
+      {
+        "season": "2024",
+        "games": 27,
+        "wins": 10,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.7,
+        "eraDisplay": "2.70",
+        "strikeouts": 103,
+        "inningsPitched": 166.67
+      }
+    ]
   },
   {
     "id": "o3",
@@ -275,7 +422,42 @@
     },
     "salaryManYen": 9500,
     "salaryNote": "推定9500万円（2026年、日本経済新聞・北海道新聞報道）",
-    "photoEmoji": "🧮"
+    "photoEmoji": "🧮",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 55,
+        "wins": 3,
+        "losses": 5,
+        "saves": 9,
+        "era": 3.51,
+        "eraDisplay": "3.51",
+        "strikeouts": 58,
+        "inningsPitched": 51.33
+      },
+      {
+        "season": "2023",
+        "games": 14,
+        "wins": 6,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.41,
+        "eraDisplay": "3.41",
+        "strikeouts": 58,
+        "inningsPitched": 66
+      },
+      {
+        "season": "2024",
+        "games": 14,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.31,
+        "eraDisplay": "2.31",
+        "strikeouts": 87,
+        "inningsPitched": 81.67
+      }
+    ]
   },
   {
     "id": "o4",
@@ -348,7 +530,20 @@
     "dataNote": "出身シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 3400,
     "salaryNote": "推定3400万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🧊"
+    "photoEmoji": "🧊",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 21,
+        "wins": 1,
+        "losses": 3,
+        "saves": 8,
+        "era": 4.09,
+        "eraDisplay": "4.09",
+        "strikeouts": 20,
+        "inningsPitched": 22
+      }
+    ]
   },
   {
     "id": "o5",
@@ -433,7 +628,59 @@
     ],
     "salaryManYen": 19500,
     "salaryNote": "推定1億9500万円（2026年、中日スポーツ報道）",
-    "photoEmoji": "💪"
+    "photoEmoji": "💪",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 2,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 49,
+        "avg": 0.198,
+        "avgDisplay": ".198",
+        "hr": 5,
+        "rbi": 13,
+        "ops": 0.638,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 100,
+        "avg": 0.203,
+        "avgDisplay": ".203",
+        "hr": 14,
+        "rbi": 40,
+        "ops": 0.629,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 141,
+        "avg": 0.265,
+        "avgDisplay": ".265",
+        "hr": 25,
+        "rbi": 74,
+        "ops": 0.788,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 136,
+        "avg": 0.252,
+        "avgDisplay": ".252",
+        "hr": 18,
+        "rbi": 60,
+        "ops": 0.735,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "o6",
@@ -502,7 +749,19 @@
     ],
     "salaryManYen": 45000,
     "salaryNote": "推定4億5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌴"
+    "photoEmoji": "🌴",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 103,
+        "avg": 0.29,
+        "avgDisplay": ".290",
+        "hr": 25,
+        "rbi": 65,
+        "ops": 0.912,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "o7",
@@ -592,7 +851,69 @@
     },
     "salaryManYen": 13000,
     "salaryNote": "推定1億3000万円（2026年、日本経済新聞・中日スポーツ報道：入団9年目で初の億超え）",
-    "photoEmoji": "⭐"
+    "photoEmoji": "⭐",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 53,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 7,
+        "rbi": 18,
+        "ops": 0.665,
+        "stolenBases": 0
+      },
+      {
+        "season": "2019",
+        "games": 81,
+        "avg": 0.204,
+        "avgDisplay": ".204",
+        "hr": 7,
+        "rbi": 33,
+        "ops": 0.61,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 96,
+        "avg": 0.19,
+        "avgDisplay": ".190",
+        "hr": 7,
+        "rbi": 22,
+        "ops": 0.623,
+        "stolenBases": 2
+      },
+      {
+        "season": "2022",
+        "games": 129,
+        "avg": 0.219,
+        "avgDisplay": ".219",
+        "hr": 18,
+        "rbi": 55,
+        "ops": 0.734,
+        "stolenBases": 4
+      },
+      {
+        "season": "2023",
+        "games": 99,
+        "avg": 0.244,
+        "avgDisplay": ".244",
+        "hr": 10,
+        "rbi": 41,
+        "ops": 0.734,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 89,
+        "avg": 0.3,
+        "avgDisplay": ".300",
+        "hr": 15,
+        "rbi": 51,
+        "ops": 0.898,
+        "stolenBases": 1
+      }
+    ]
   },
   {
     "id": "o8",
@@ -678,7 +999,59 @@
     },
     "salaryManYen": 11000,
     "salaryNote": "推定1億1000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌲"
+    "photoEmoji": "🌲",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 30,
+        "avg": 0.156,
+        "avgDisplay": ".156",
+        "hr": 0,
+        "rbi": 4,
+        "ops": 0.47,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 9,
+        "avg": 0.462,
+        "avgDisplay": ".462",
+        "hr": 0,
+        "rbi": 3,
+        "ops": 1.072,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 33,
+        "avg": 0.19,
+        "avgDisplay": ".190",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.506,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 56,
+        "avg": 0.253,
+        "avgDisplay": ".253",
+        "hr": 3,
+        "rbi": 19,
+        "ops": 0.647,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 127,
+        "avg": 0.256,
+        "avgDisplay": ".256",
+        "hr": 12,
+        "rbi": 49,
+        "ops": 0.691,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "o12",
@@ -732,7 +1105,109 @@
     "dataNote": "出身中学・シニア/ボーイズ、2025年成績は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 2800,
     "salaryNote": "推定2800万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🤝"
+    "photoEmoji": "🤝",
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 46,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 0,
+        "rbi": 10,
+        "ops": 0.683,
+        "stolenBases": 4
+      },
+      {
+        "season": "2016",
+        "games": 52,
+        "avg": 0.191,
+        "avgDisplay": ".191",
+        "hr": 1,
+        "rbi": 9,
+        "ops": 0.492,
+        "stolenBases": 2
+      },
+      {
+        "season": "2017",
+        "games": 19,
+        "avg": 0.167,
+        "avgDisplay": ".167",
+        "hr": 0,
+        "rbi": 3,
+        "ops": 0.443,
+        "stolenBases": 1
+      },
+      {
+        "season": "2018",
+        "games": 31,
+        "avg": 0.239,
+        "avgDisplay": ".239",
+        "hr": 3,
+        "rbi": 7,
+        "ops": 0.732,
+        "stolenBases": 1
+      },
+      {
+        "season": "2019",
+        "games": 13,
+        "avg": 0.207,
+        "avgDisplay": ".207",
+        "hr": 0,
+        "rbi": 1,
+        "ops": 0.578,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 42,
+        "avg": 0.19,
+        "avgDisplay": ".190",
+        "hr": 0,
+        "rbi": 1,
+        "ops": 0.454,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 128,
+        "avg": 0.251,
+        "avgDisplay": ".251",
+        "hr": 5,
+        "rbi": 31,
+        "ops": 0.646,
+        "stolenBases": 8
+      },
+      {
+        "season": "2022",
+        "games": 75,
+        "avg": 0.232,
+        "avgDisplay": ".232",
+        "hr": 4,
+        "rbi": 15,
+        "ops": 0.624,
+        "stolenBases": 12
+      },
+      {
+        "season": "2023",
+        "games": 13,
+        "avg": 0.222,
+        "avgDisplay": ".222",
+        "hr": 0,
+        "rbi": 4,
+        "ops": 0.604,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 49,
+        "avg": 0.275,
+        "avgDisplay": ".275",
+        "hr": 1,
+        "rbi": 11,
+        "ops": 0.694,
+        "stolenBases": 4
+      }
+    ]
   },
   {
     "id": "o13",
@@ -793,7 +1268,97 @@
     "dataNote": "出身中学、2025年成績は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 60000,
     "salaryNote": "推定6億円（2026年、日刊スポーツ報道：4年24億円規模契約の平均値）",
-    "photoEmoji": "🎓"
+    "photoEmoji": "🎓",
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 18,
+        "wins": 8,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.79,
+        "eraDisplay": "4.79",
+        "strikeouts": 81,
+        "inningsPitched": 103.33
+      },
+      {
+        "season": "2016",
+        "games": 22,
+        "wins": 11,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.94,
+        "eraDisplay": "2.94",
+        "strikeouts": 103,
+        "inningsPitched": 156
+      },
+      {
+        "season": "2017",
+        "games": 25,
+        "wins": 10,
+        "losses": 13,
+        "saves": 0,
+        "era": 4.74,
+        "eraDisplay": "4.74",
+        "strikeouts": 88,
+        "inningsPitched": 169
+      },
+      {
+        "season": "2018",
+        "games": 20,
+        "wins": 8,
+        "losses": 5,
+        "saves": 2,
+        "era": 4.55,
+        "eraDisplay": "4.55",
+        "strikeouts": 87,
+        "inningsPitched": 110.67
+      },
+      {
+        "season": "2019",
+        "games": 24,
+        "wins": 15,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.46,
+        "eraDisplay": "2.46",
+        "strikeouts": 161,
+        "inningsPitched": 164.33
+      },
+      {
+        "season": "2020",
+        "games": 20,
+        "wins": 8,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.46,
+        "eraDisplay": "3.46",
+        "strikeouts": 106,
+        "inningsPitched": 132.67
+      },
+      {
+        "season": "2023",
+        "games": 17,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.31,
+        "eraDisplay": "2.31",
+        "strikeouts": 74,
+        "inningsPitched": 120.67
+      },
+      {
+        "season": "2024",
+        "games": 26,
+        "wins": 14,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.36,
+        "eraDisplay": "2.36",
+        "strikeouts": 137,
+        "inningsPitched": 182.67
+      }
+    ]
   },
   {
     "id": "o14",
@@ -847,7 +1412,108 @@
     "dataNote": "出身中学、2025年成績は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 4900,
     "salaryNote": "推定4900万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🎓"
+    "photoEmoji": "🎓",
+    "statsHistory": [
+      {
+        "season": "2016",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 1,
+        "inningsPitched": 1
+      },
+      {
+        "season": "2017",
+        "games": 9,
+        "wins": 1,
+        "losses": 5,
+        "saves": 0,
+        "era": 6.23,
+        "eraDisplay": "6.23",
+        "strikeouts": 29,
+        "inningsPitched": 34.67
+      },
+      {
+        "season": "2018",
+        "games": 10,
+        "wins": 4,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.13,
+        "eraDisplay": "3.13",
+        "strikeouts": 24,
+        "inningsPitched": 37.33
+      },
+      {
+        "season": "2019",
+        "games": 13,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 5.56,
+        "eraDisplay": "5.56",
+        "strikeouts": 30,
+        "inningsPitched": 45.33
+      },
+      {
+        "season": "2020",
+        "games": 7,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.46,
+        "eraDisplay": "4.46",
+        "strikeouts": 28,
+        "inningsPitched": 34.33
+      },
+      {
+        "season": "2021",
+        "games": 11,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.97,
+        "eraDisplay": "3.97",
+        "strikeouts": 11,
+        "inningsPitched": 11.33
+      },
+      {
+        "season": "2022",
+        "games": 25,
+        "wins": 3,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.19,
+        "eraDisplay": "3.19",
+        "strikeouts": 59,
+        "inningsPitched": 73.33
+      },
+      {
+        "season": "2023",
+        "games": 19,
+        "wins": 4,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.75,
+        "eraDisplay": "2.75",
+        "strikeouts": 74,
+        "inningsPitched": 101.33
+      },
+      {
+        "season": "2024",
+        "games": 7,
+        "wins": 0,
+        "losses": 5,
+        "saves": 0,
+        "era": 9.24,
+        "eraDisplay": "9.24",
+        "strikeouts": 13,
+        "inningsPitched": 25.33
+      }
+    ]
   },
   {
     "id": "o15",
@@ -905,7 +1571,127 @@
     "dataNote": "出身中学、2025年成績は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 2000,
     "salaryNote": "推定2000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🎓"
+    "photoEmoji": "🎓",
+    "statsHistory": [
+      {
+        "season": "2012",
+        "games": 71,
+        "avg": 0.239,
+        "avgDisplay": ".239",
+        "hr": 2,
+        "rbi": 13,
+        "stolenBases": 7
+      },
+      {
+        "season": "2013",
+        "games": 85,
+        "avg": 0.278,
+        "avgDisplay": ".278",
+        "hr": 2,
+        "rbi": 26,
+        "stolenBases": 22
+      },
+      {
+        "season": "2014",
+        "games": 143,
+        "avg": 0.265,
+        "avgDisplay": ".265",
+        "hr": 8,
+        "rbi": 57,
+        "stolenBases": 43
+      },
+      {
+        "season": "2015",
+        "games": 125,
+        "avg": 0.276,
+        "avgDisplay": ".276",
+        "hr": 5,
+        "rbi": 35,
+        "stolenBases": 30
+      },
+      {
+        "season": "2016",
+        "games": 138,
+        "avg": 0.314,
+        "avgDisplay": ".314",
+        "hr": 5,
+        "rbi": 43,
+        "stolenBases": 41
+      },
+      {
+        "season": "2017",
+        "games": 138,
+        "avg": 0.296,
+        "avgDisplay": ".296",
+        "hr": 9,
+        "rbi": 44,
+        "stolenBases": 39
+      },
+      {
+        "season": "2018",
+        "games": 140,
+        "avg": 0.278,
+        "avgDisplay": ".278",
+        "hr": 10,
+        "rbi": 48,
+        "stolenBases": 44
+      },
+      {
+        "season": "2019",
+        "games": 142,
+        "avg": 0.288,
+        "avgDisplay": ".288",
+        "hr": 5,
+        "rbi": 41,
+        "stolenBases": 19
+      },
+      {
+        "season": "2020",
+        "games": 115,
+        "avg": 0.306,
+        "avgDisplay": ".306",
+        "hr": 5,
+        "rbi": 39,
+        "stolenBases": 42
+      },
+      {
+        "season": "2021",
+        "games": 130,
+        "avg": 0.233,
+        "avgDisplay": ".233",
+        "hr": 3,
+        "rbi": 35,
+        "stolenBases": 24
+      },
+      {
+        "season": "2022",
+        "games": 108,
+        "avg": 0.218,
+        "avgDisplay": ".218",
+        "hr": 7,
+        "rbi": 37,
+        "stolenBases": 19,
+        "ops": 0.683
+      },
+      {
+        "season": "2023",
+        "games": 35,
+        "avg": 0.181,
+        "avgDisplay": ".181",
+        "hr": 1,
+        "rbi": 4,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 113,
+        "avg": 0.26,
+        "avgDisplay": ".260",
+        "hr": 1,
+        "rbi": 24,
+        "stolenBases": 10
+      }
+    ]
   },
   {
     "id": "o16",
@@ -960,7 +1746,27 @@
     ],
     "salaryManYen": 730,
     "salaryNote": "推定730万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🏝️"
+    "photoEmoji": "🏝️",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 4,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 1,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "o17",
@@ -1023,7 +1829,36 @@
     ],
     "salaryManYen": 5000,
     "salaryNote": "推定5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌀"
+    "photoEmoji": "🌀",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 21,
+        "avg": 0.122,
+        "avgDisplay": ".122",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 1
+      },
+      {
+        "season": "2023",
+        "games": 31,
+        "avg": 0.161,
+        "avgDisplay": ".161",
+        "hr": 0,
+        "rbi": 6,
+        "stolenBases": 1
+      },
+      {
+        "season": "2024",
+        "games": 105,
+        "avg": 0.22,
+        "avgDisplay": ".220",
+        "hr": 7,
+        "rbi": 37,
+        "stolenBases": 9
+      }
+    ]
   },
   {
     "id": "o18",
@@ -1079,7 +1914,27 @@
     ],
     "salaryManYen": 2500,
     "salaryNote": "推定2500万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🎋"
+    "photoEmoji": "🎋",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 65,
+        "avg": 0.243,
+        "avgDisplay": ".243",
+        "hr": 2,
+        "rbi": 15,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 90,
+        "avg": 0.18,
+        "avgDisplay": ".180",
+        "hr": 0,
+        "rbi": 7,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "o19",
@@ -1146,7 +2001,54 @@
     ],
     "salaryManYen": 5000,
     "salaryNote": "推定5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🧢"
+    "photoEmoji": "🧢",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 4,
+        "avg": 0.429,
+        "avgDisplay": ".429",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 1
+      },
+      {
+        "season": "2021",
+        "games": 3,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 14,
+        "avg": 0.111,
+        "avgDisplay": ".111",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 10,
+        "avg": 0.258,
+        "avgDisplay": ".258",
+        "hr": 2,
+        "rbi": 9,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 109,
+        "avg": 0.277,
+        "avgDisplay": ".277",
+        "hr": 3,
+        "rbi": 30,
+        "stolenBases": 10
+      }
+    ]
   },
   {
     "id": "o20",
@@ -1210,7 +2112,27 @@
     ],
     "salaryManYen": 1200,
     "salaryNote": "推定1200万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🔰"
+    "photoEmoji": "🔰",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 1,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 10,
+        "avg": 0.192,
+        "avgDisplay": ".192",
+        "hr": 0,
+        "rbi": 2,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "o21",
@@ -1274,7 +2196,45 @@
     ],
     "salaryManYen": 1600,
     "salaryNote": "推定1600万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🦌"
+    "photoEmoji": "🦌",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 13,
+        "avg": 0.071,
+        "avgDisplay": ".071",
+        "hr": 1,
+        "rbi": 2,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 94,
+        "avg": 0.227,
+        "avgDisplay": ".227",
+        "hr": 10,
+        "rbi": 39,
+        "stolenBases": 4
+      },
+      {
+        "season": "2023",
+        "games": 28,
+        "avg": 0.197,
+        "avgDisplay": ".197",
+        "hr": 0,
+        "rbi": 1,
+        "stolenBases": 3
+      },
+      {
+        "season": "2024",
+        "games": 6,
+        "avg": 0.211,
+        "avgDisplay": ".211",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "o22",
@@ -1345,7 +2305,119 @@
     ],
     "salaryManYen": 25000,
     "salaryNote": "推定2億5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🍀"
+    "photoEmoji": "🍀",
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 17,
+        "wins": 3,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.53,
+        "eraDisplay": "4.53",
+        "strikeouts": 35,
+        "inningsPitched": 57.2
+      },
+      {
+        "season": "2016",
+        "games": 17,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.67,
+        "eraDisplay": "3.67",
+        "strikeouts": 37,
+        "inningsPitched": 61.1
+      },
+      {
+        "season": "2017",
+        "games": 15,
+        "wins": 2,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.4,
+        "eraDisplay": "4.40",
+        "strikeouts": 21,
+        "inningsPitched": 45.0
+      },
+      {
+        "season": "2018",
+        "games": 7,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.58,
+        "eraDisplay": "4.58",
+        "strikeouts": 9,
+        "inningsPitched": 17.2
+      },
+      {
+        "season": "2019",
+        "games": 36,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 37,
+        "inningsPitched": 54.0
+      },
+      {
+        "season": "2020",
+        "games": 15,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 46,
+        "inningsPitched": 84.0
+      },
+      {
+        "season": "2021",
+        "games": 22,
+        "wins": 8,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.56,
+        "eraDisplay": "3.56",
+        "strikeouts": 75,
+        "inningsPitched": 116.1
+      },
+      {
+        "season": "2022",
+        "games": 24,
+        "wins": 5,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.45,
+        "eraDisplay": "3.45",
+        "strikeouts": 91,
+        "inningsPitched": 114.2
+      },
+      {
+        "season": "2023",
+        "games": 23,
+        "wins": 11,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.25,
+        "eraDisplay": "3.25",
+        "strikeouts": 80,
+        "inningsPitched": 130.1
+      },
+      {
+        "season": "2024",
+        "games": 24,
+        "wins": 10,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.17,
+        "eraDisplay": "3.17",
+        "strikeouts": 74,
+        "inningsPitched": 147.2
+      }
+    ]
   },
   {
     "id": "o23",
@@ -1408,7 +2480,86 @@
     ],
     "salaryManYen": 6600,
     "salaryNote": "推定6600万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌟"
+    "photoEmoji": "🌟",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 24,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.59,
+        "eraDisplay": "2.59",
+        "strikeouts": 12,
+        "inningsPitched": 24.1
+      },
+      {
+        "season": "2018",
+        "games": 40,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.13,
+        "eraDisplay": "4.13",
+        "strikeouts": 40,
+        "inningsPitched": 48.0
+      },
+      {
+        "season": "2019",
+        "games": 65,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.61,
+        "eraDisplay": "2.61",
+        "strikeouts": 34,
+        "inningsPitched": 62.0
+      },
+      {
+        "season": "2020",
+        "games": 49,
+        "wins": 4,
+        "losses": 4,
+        "saves": 1,
+        "era": 3.46,
+        "eraDisplay": "3.46",
+        "strikeouts": 29,
+        "inningsPitched": 41.2
+      },
+      {
+        "season": "2021",
+        "games": 50,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.16,
+        "eraDisplay": "3.16",
+        "strikeouts": 23,
+        "inningsPitched": 42.2
+      },
+      {
+        "season": "2022",
+        "games": 50,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.35,
+        "eraDisplay": "3.35",
+        "strikeouts": 16,
+        "inningsPitched": 37.2
+      },
+      {
+        "season": "2023",
+        "games": 50,
+        "wins": 0,
+        "losses": 2,
+        "saves": 2,
+        "era": 2.63,
+        "eraDisplay": "2.63",
+        "strikeouts": 21,
+        "inningsPitched": 37.2
+      }
+    ]
   },
   {
     "id": "o24",
@@ -1472,7 +2623,31 @@
     ],
     "salaryManYen": 4200,
     "salaryNote": "推定4200万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🐎"
+    "photoEmoji": "🐎",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 0,
+        "inningsPitched": 3.0
+      },
+      {
+        "season": "2024",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 4,
+        "inningsPitched": 5.0
+      }
+    ]
   },
   {
     "id": "o25",
@@ -1534,7 +2709,31 @@
     ],
     "salaryManYen": 770,
     "salaryNote": "推定770万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌱"
+    "photoEmoji": "🌱",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 0,
+        "inningsPitched": 1.0
+      },
+      {
+        "season": "2024",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 1,
+        "inningsPitched": 6.0
+      }
+    ]
   },
   {
     "id": "nipponham-101",
@@ -1610,7 +2809,64 @@
       "2019年に膝の手術と左腹斜筋の損傷が重なり一軍登板ゼロに終わった池田は、同年10月に戦力外通告を受けたが、11月に育成選手として再契約。2020年の二軍で結果を残して支配下復帰を果たすと、2021年2月には横尾俊建との交換トレードで日本ハムへ移籍した。移籍後の同年4月13日、西武戦で挙げた勝利は実にプロ初勝利から1094日ぶりの白星だった。",
       "幼少期は素潜りで貝を採るのが得意だったという池田は、趣味のギターとピアノも披露しており、試合前にはブルーノ・マーズの楽曲を聴いてリラックスするという。2021年オフからは球速アップに取り組み、タレントの武井壮からアドバイスを受けながら2年間で平均球速を4km/h伸ばした。"
     ],
-    "photoEmoji": "🎸"
+    "photoEmoji": "🎸",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 15,
+        "wins": 1,
+        "losses": 5,
+        "saves": 0,
+        "era": 5.91,
+        "eraDisplay": "5.91",
+        "strikeouts": 24,
+        "inningsPitched": 42.2
+      },
+      {
+        "season": "2021",
+        "games": 18,
+        "wins": 3,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.94,
+        "eraDisplay": "3.94",
+        "strikeouts": 52,
+        "inningsPitched": 82.1
+      },
+      {
+        "season": "2022",
+        "games": 4,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.31,
+        "eraDisplay": "3.31",
+        "strikeouts": 11,
+        "inningsPitched": 16.1
+      },
+      {
+        "season": "2023",
+        "games": 51,
+        "wins": 1,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.86,
+        "eraDisplay": "2.86",
+        "strikeouts": 45,
+        "inningsPitched": 50.1
+      },
+      {
+        "season": "2024",
+        "games": 29,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.8,
+        "eraDisplay": "3.80",
+        "strikeouts": 22,
+        "inningsPitched": 23.2
+      }
+    ]
   },
   {
     "id": "nipponham-102",
@@ -1683,7 +2939,75 @@
     ],
     "salaryManYen": 2900,
     "salaryNote": "推定2900万円（2025年、2024年12月の契約更改情報に基づく）",
-    "photoEmoji": "🔥"
+    "photoEmoji": "🔥",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 4,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 7.88,
+        "eraDisplay": "7.88",
+        "strikeouts": 2,
+        "inningsPitched": 6.0
+      },
+      {
+        "season": "2020",
+        "games": 3,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 7.5,
+        "eraDisplay": "7.50",
+        "strikeouts": 5,
+        "inningsPitched": 6.0
+      },
+      {
+        "season": "2021",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.5,
+        "eraDisplay": "1.50",
+        "strikeouts": 5,
+        "inningsPitched": 6.0
+      },
+      {
+        "season": "2022",
+        "games": 2,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.6,
+        "eraDisplay": "3.60",
+        "strikeouts": 7,
+        "inningsPitched": 10.0
+      },
+      {
+        "season": "2023",
+        "games": 5,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.16,
+        "eraDisplay": "2.16",
+        "strikeouts": 5,
+        "inningsPitched": 8.1
+      },
+      {
+        "season": "2024",
+        "games": 43,
+        "wins": 1,
+        "losses": 1,
+        "saves": 1,
+        "era": 3.89,
+        "eraDisplay": "3.89",
+        "strikeouts": 34,
+        "inningsPitched": 41.2
+      }
+    ]
   },
   {
     "id": "nipponham-103",
@@ -1761,7 +3085,31 @@
     ],
     "salaryManYen": 3600,
     "salaryNote": "推定3600万円（2025年、2024年12月5日の契約更改情報に基づく。前年から3倍増）",
-    "photoEmoji": "🌺"
+    "photoEmoji": "🌺",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 4,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 1.8,
+        "eraDisplay": "1.80",
+        "strikeouts": 23,
+        "inningsPitched": 25.0
+      },
+      {
+        "season": "2024",
+        "games": 29,
+        "wins": 7,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.38,
+        "eraDisplay": "2.38",
+        "strikeouts": 98,
+        "inningsPitched": 136.0
+      }
+    ]
   },
   {
     "id": "nipponham-104",
@@ -1836,7 +3184,64 @@
       "JFE西日本では2018年11月の社会人野球日本選手権で2試合連続完封を記録するなど圧巻の投球を披露し、2019年ドラフトでオリックスと競合の末に日本ハムが交渉権を獲得した。",
       "2021年に開幕からわずか2先発でリリーフへ配置転換された河野は、18試合連続無失点を記録するなど適性を開花させた。2024年には開幕から15試合連続無失点、球宴では3者連続奪三振を披露するなど躍進し、リーグ最多34ホールドポイントで自身初のタイトルとなる最優秀中継ぎ投手を獲得。ポストシーズンのCSファーストステージでは3連投すべて無失点と抜群の安定感を見せた。"
     ],
-    "photoEmoji": "🥇"
+    "photoEmoji": "🥇",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 12,
+        "wins": 3,
+        "losses": 5,
+        "saves": 0,
+        "era": 5.07,
+        "eraDisplay": "5.07",
+        "strikeouts": 43,
+        "inningsPitched": 60.1
+      },
+      {
+        "season": "2021",
+        "games": 40,
+        "wins": 3,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.99,
+        "eraDisplay": "2.99",
+        "strikeouts": 68,
+        "inningsPitched": 90.1
+      },
+      {
+        "season": "2022",
+        "games": 21,
+        "wins": 0,
+        "losses": 2,
+        "saves": 1,
+        "era": 4.41,
+        "eraDisplay": "4.41",
+        "strikeouts": 25,
+        "inningsPitched": 34.2
+      },
+      {
+        "season": "2023",
+        "games": 50,
+        "wins": 1,
+        "losses": 4,
+        "saves": 0,
+        "era": 1.7,
+        "eraDisplay": "1.70",
+        "strikeouts": 35,
+        "inningsPitched": 42.1
+      },
+      {
+        "season": "2024",
+        "games": 52,
+        "wins": 1,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.13,
+        "eraDisplay": "2.13",
+        "strikeouts": 33,
+        "inningsPitched": 42.1
+      }
+    ]
   },
   {
     "id": "nipponham-105",
@@ -1912,7 +3317,20 @@
       "東洋大学では4年春に5勝・防御率0.82の圧巻の投球で投手四冠を獲得し、チームの5季ぶり1部昇格に貢献。2023年8月28日のU18代表との強化試合では158km/hを計測し、当時のアマチュア最速記録を更新した。",
       "2023年ドラフトで日本ハムとロッテが競合した末に交渉権を獲得した細野は、2024年7月にフレッシュオールスターゲームへの出場を「左肩上腕二頭筋長頭腱炎、左肩甲帯機能不全」を理由に辞退するなど、体のケアを優先しながらキャリアを積んでいる。力感のないフォームから繰り出す最速158km/hのストレートが最大の武器だ。"
     ],
-    "photoEmoji": "⚡"
+    "photoEmoji": "⚡",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 9,
+        "inningsPitched": 9.1
+      }
+    ]
   },
   {
     "id": "nipponham-106",
@@ -2125,7 +3543,97 @@
       "2018年9月19日の西武戦を境にリリーフへ配置転換されると持ち味を発揮し、2021年には自己最多60試合に登板してリーグ最多42ホールドポイントを記録、初タイトルとなる最優秀中継ぎ投手を獲得した。しかし2022年の新型コロナウイルス感染をきっかけに左肩痛を抱え、2023〜2025年は苦しいシーズンが続いた。新庄剛志監督からは「ストライクを投げないといけない、とボールを押す動作を繰り返している」と技術的な課題を指摘されたこともある。2026年は33試合に登板し防御率3.16と、復調の兆しを見せている。"
     ],
     "photoEmoji": "⚓",
-    "dataNote": "広島新庄高校時代の甲子園出場について、2年生夏・3年生夏に出場・登板したことは本人のプロフィール資料で確認できましたが、対戦相手校名・具体的な回戦・相手校の主力選手については、今回アクセスできた資料（日本語版ウィキペディア、NPB公式サイト、英語版ウィキペディア、および全国高等学校野球選手権大会・広島大会関連のウィキペディア記事）のいずれにも記載がなく特定できませんでした。生年月日と学年から2年生夏は2015年（第97回大会）、3年生夏は2016年（第98回大会）に相当すると推定されますが、これは出典に明記された記載ではなく学年からの推定です。今後より詳細な一次資料（高野連記録・当時の新聞記事等）が参照できれば追記が望まれます。"
+    "dataNote": "広島新庄高校時代の甲子園出場について、2年生夏・3年生夏に出場・登板したことは本人のプロフィール資料で確認できましたが、対戦相手校名・具体的な回戦・相手校の主力選手については、今回アクセスできた資料（日本語版ウィキペディア、NPB公式サイト、英語版ウィキペディア、および全国高等学校野球選手権大会・広島大会関連のウィキペディア記事）のいずれにも記載がなく特定できませんでした。生年月日と学年から2年生夏は2015年（第97回大会）、3年生夏は2016年（第98回大会）に相当すると推定されますが、これは出典に明記された記載ではなく学年からの推定です。今後より詳細な一次資料（高野連記録・当時の新聞記事等）が参照できれば追記が望まれます。",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 4,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.38,
+        "eraDisplay": "3.38",
+        "strikeouts": 7,
+        "inningsPitched": 8.0
+      },
+      {
+        "season": "2018",
+        "games": 10,
+        "wins": 2,
+        "losses": 3,
+        "saves": 1,
+        "era": 5.86,
+        "eraDisplay": "5.86",
+        "strikeouts": 28,
+        "inningsPitched": 35.1
+      },
+      {
+        "season": "2019",
+        "games": 53,
+        "wins": 4,
+        "losses": 4,
+        "saves": 1,
+        "era": 5.22,
+        "eraDisplay": "5.22",
+        "strikeouts": 61,
+        "inningsPitched": 60.1
+      },
+      {
+        "season": "2020",
+        "games": 45,
+        "wins": 2,
+        "losses": 1,
+        "saves": 1,
+        "era": 4.19,
+        "eraDisplay": "4.19",
+        "strikeouts": 45,
+        "inningsPitched": 38.2
+      },
+      {
+        "season": "2021",
+        "games": 60,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.36,
+        "eraDisplay": "2.36",
+        "strikeouts": 56,
+        "inningsPitched": 53.1
+      },
+      {
+        "season": "2022",
+        "games": 41,
+        "wins": 1,
+        "losses": 5,
+        "saves": 5,
+        "era": 5.82,
+        "eraDisplay": "5.82",
+        "strikeouts": 34,
+        "inningsPitched": 34.0
+      },
+      {
+        "season": "2023",
+        "games": 5,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 9.0,
+        "eraDisplay": "9.00",
+        "strikeouts": 3,
+        "inningsPitched": 4.0
+      },
+      {
+        "season": "2024",
+        "games": 10,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 8.64,
+        "eraDisplay": "8.64",
+        "strikeouts": 14,
+        "inningsPitched": 8.1
+      }
+    ]
   },
   {
     "id": "nipponham-109",
@@ -2283,7 +3791,86 @@
       "2023年の阪神日本一にリリーフ陣の一角として貢献した島本は、2025年も16試合に登板し防御率1.88という安定感を示していたが、2026年に北海道日本ハムへ移籍。新天地でも35試合に登板し防御率1.84（2026年9月時点）と、ベテランらしい安定した投球を続けている。"
     ],
     "photoEmoji": "🧭",
-    "dataNote": "2025年のlastSeasonStatsは阪神タイガース在籍時の成績です。2025年オフから2026年にかけて北海道日本ハムへ移籍した具体的な経緯（トレード、現役ドラフト、自由契約からの再契約など）については、今回参照できた資料（日本語版ウィキペディア等、2024年12月時点の更新が最新）では確認できませんでした。"
+    "dataNote": "2025年のlastSeasonStatsは阪神タイガース在籍時の成績です。2025年オフから2026年にかけて北海道日本ハムへ移籍した具体的な経緯（トレード、現役ドラフト、自由契約からの再契約など）については、今回参照できた資料（日本語版ウィキペディア等、2024年12月時点の更新が最新）では確認できませんでした。",
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 18,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 8.84,
+        "eraDisplay": "8.84",
+        "strikeouts": 12,
+        "inningsPitched": 18.1
+      },
+      {
+        "season": "2016",
+        "games": 23,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.65,
+        "eraDisplay": "3.65",
+        "strikeouts": 24,
+        "inningsPitched": 24.2
+      },
+      {
+        "season": "2018",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 9.0,
+        "eraDisplay": "9.00",
+        "strikeouts": 2,
+        "inningsPitched": 2.0
+      },
+      {
+        "season": "2019",
+        "games": 63,
+        "wins": 4,
+        "losses": 0,
+        "saves": 1,
+        "era": 1.67,
+        "eraDisplay": "1.67",
+        "strikeouts": 60,
+        "inningsPitched": 59.1
+      },
+      {
+        "season": "2022",
+        "games": 15,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.57,
+        "eraDisplay": "2.57",
+        "strikeouts": 11,
+        "inningsPitched": 14.0
+      },
+      {
+        "season": "2023",
+        "games": 35,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 1.69,
+        "eraDisplay": "1.69",
+        "strikeouts": 20,
+        "inningsPitched": 26.2
+      },
+      {
+        "season": "2024",
+        "games": 33,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.81,
+        "eraDisplay": "2.81",
+        "strikeouts": 10,
+        "inningsPitched": 25.2
+      }
+    ]
   },
   {
     "id": "nipponham-111",
@@ -2370,7 +3957,141 @@
       "慶應義塾大学理工学部出身という異色の経歴を持つ福谷は、成績はオールAで卒業論文のテーマは画像工学を応用した『投球動作における球の出所の見づらさの定量化』。2017年オフには自らTrackman社を訪ねて投球データの解析を学ぶなど、理論派として知られる。",
       "2014年に自己最多72試合に登板し11セーブ・防御率1.81という好成績で中日の守護神格として台頭した福谷は、2019年から先発転向を模索したが右肩痛などに見舞われた。2020年8月11日の広島戦で1173日ぶりとなる先発勝利を挙げるなど苦労を重ね、2024年12月に北海道日本ハムへの移籍が発表された。"
     ],
-    "photoEmoji": "🔬"
+    "photoEmoji": "🔬",
+    "statsHistory": [
+      {
+        "season": "2013",
+        "games": 9,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 7.36,
+        "eraDisplay": "7.36",
+        "strikeouts": 4,
+        "inningsPitched": 7.1
+      },
+      {
+        "season": "2014",
+        "games": 72,
+        "wins": 2,
+        "losses": 4,
+        "saves": 11,
+        "era": 1.81,
+        "eraDisplay": "1.81",
+        "strikeouts": 72,
+        "inningsPitched": 74.2
+      },
+      {
+        "season": "2015",
+        "games": 42,
+        "wins": 3,
+        "losses": 4,
+        "saves": 19,
+        "era": 4.05,
+        "eraDisplay": "4.05",
+        "strikeouts": 25,
+        "inningsPitched": 40.0
+      },
+      {
+        "season": "2016",
+        "games": 41,
+        "wins": 1,
+        "losses": 2,
+        "saves": 8,
+        "era": 4.05,
+        "eraDisplay": "4.05",
+        "strikeouts": 23,
+        "inningsPitched": 40.0
+      },
+      {
+        "season": "2017",
+        "games": 25,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 5.74,
+        "eraDisplay": "5.74",
+        "strikeouts": 26,
+        "inningsPitched": 26.2
+      },
+      {
+        "season": "2018",
+        "games": 29,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 5.0,
+        "eraDisplay": "5.00",
+        "strikeouts": 28,
+        "inningsPitched": 27.0
+      },
+      {
+        "season": "2019",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.5,
+        "eraDisplay": "1.50",
+        "strikeouts": 6,
+        "inningsPitched": 6.0
+      },
+      {
+        "season": "2020",
+        "games": 14,
+        "wins": 8,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.64,
+        "eraDisplay": "2.64",
+        "strikeouts": 72,
+        "inningsPitched": 92.0
+      },
+      {
+        "season": "2021",
+        "games": 18,
+        "wins": 5,
+        "losses": 10,
+        "saves": 0,
+        "era": 4.53,
+        "eraDisplay": "4.53",
+        "strikeouts": 73,
+        "inningsPitched": 103.1
+      },
+      {
+        "season": "2022",
+        "games": 5,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 9.0,
+        "eraDisplay": "9.00",
+        "strikeouts": 14,
+        "inningsPitched": 23.0
+      },
+      {
+        "season": "2023",
+        "games": 14,
+        "wins": 3,
+        "losses": 4,
+        "saves": 0,
+        "era": 5.17,
+        "eraDisplay": "5.17",
+        "strikeouts": 36,
+        "inningsPitched": 54.0
+      },
+      {
+        "season": "2024",
+        "games": 8,
+        "wins": 3,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.72,
+        "eraDisplay": "3.72",
+        "strikeouts": 16,
+        "inningsPitched": 29.0
+      }
+    ]
   },
   {
     "id": "nipponham-112",
@@ -2451,7 +4172,20 @@
       "青森県八戸市出身の福島は、八戸西高校入学当初は遊撃手だったが、監督やコーチに投手としての素材を見出され本格的に投手へ転向。2年秋からエースとして東北大会ベスト8に進出し、2021年春の第93回選抜高等学校野球大会に21世紀枠で出場を果たした。初戦となった沖縄県・具志川商業高校戦では5回を投げ5失点で降板し、チームは延長11回3-8で敗れたが、190cmの長身右腕として日本ハムから育成ドラフト1位指名を受けた。",
       "2024年3月14日に支配下登録された福島は、4月17日のソフトバンク戦でプロ初登板・初先発を果たすと、6月2日のDeNA戦でプロ初勝利。2025年には8試合の先発で5勝0敗・防御率2.25というハイレベルな成績を残し、故郷・青森の期待を背負う本格派右腕として存在感を高めている。"
     ],
-    "photoEmoji": "🌱"
+    "photoEmoji": "🌱",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 12,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.54,
+        "eraDisplay": "3.54",
+        "strikeouts": 35,
+        "inningsPitched": 61.0
+      }
+    ]
   },
   {
     "id": "nipponham-113",
@@ -2531,7 +4265,64 @@
       "山形県東根市出身の齋藤は、桐蔭横浜大学時代に制球難を克服し4年春にMVPを獲得。Honda硬式野球部を経て2018年ドラフト4位で阪神に入団したが一軍定着はならず、2022年10月に2対2トレードで日本ハムへ移籍した。",
       "2023年2月に右膝前十字靱帯断裂という大怪我を負い長期離脱を強いられた齋藤だが、2024年に復帰すると10月5日の楽天戦でプロ初セーブを記録。新庄監督から田中正義との『Wストッパー』指名を受けた2025年は47試合登板・防御率1.35という自己最高のシーズンを送り、SNS上での愛称も『さいこう ゆきや』から『さいきょう ゆきや』へと変化した。"
     ],
-    "photoEmoji": "🔥"
+    "photoEmoji": "🔥",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 2,
+        "inningsPitched": 2.0
+      },
+      {
+        "season": "2020",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 7.71,
+        "eraDisplay": "7.71",
+        "strikeouts": 11,
+        "inningsPitched": 7.0
+      },
+      {
+        "season": "2021",
+        "games": 19,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.63,
+        "eraDisplay": "4.63",
+        "strikeouts": 26,
+        "inningsPitched": 23.1
+      },
+      {
+        "season": "2022",
+        "games": 20,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 5.01,
+        "eraDisplay": "5.01",
+        "strikeouts": 27,
+        "inningsPitched": 23.1
+      },
+      {
+        "season": "2024",
+        "games": 25,
+        "wins": 1,
+        "losses": 1,
+        "saves": 1,
+        "era": 1.71,
+        "eraDisplay": "1.71",
+        "strikeouts": 25,
+        "inningsPitched": 26.1
+      }
+    ]
   },
   {
     "id": "nipponham-114",
@@ -2596,7 +4387,42 @@
       "2023年に50試合登板・防御率3.40という結果を残しながらも2024年は一軍出場ゼロで育成契約に降格するなど浮き沈みを経験した菊地は、2025年に一軍へ復帰し防御率1.80と立て直した。2025年オフに北海道日本ハムファイターズへ加入し、2026年は新天地の一軍ブルペンで登板している。"
     ],
     "dataNote": "読売ジャイアンツから北海道日本ハムファイターズへの移籍の具体的な方法（自由契約・トレード等）や日付は公開情報から確認できなかったため、2025年シーズンは巨人の一軍で7試合登板していたこと（NPB公式記録）と、2026年時点でNPB公式サイトの日本ハム支配下選手一覧に背番号55として掲載されていることのみを事実として記載しています。",
-    "photoEmoji": "🏝️"
+    "photoEmoji": "🏝️",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 16,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 5.6,
+        "eraDisplay": "5.60",
+        "strikeouts": 21,
+        "inningsPitched": 17.2
+      },
+      {
+        "season": "2023",
+        "games": 50,
+        "wins": 4,
+        "losses": 4,
+        "saves": 1,
+        "era": 3.4,
+        "eraDisplay": "3.40",
+        "strikeouts": 55,
+        "inningsPitched": 47.2
+      },
+      {
+        "season": "2025",
+        "games": 7,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 1.8,
+        "eraDisplay": "1.80",
+        "strikeouts": 16,
+        "inningsPitched": 10.0
+      }
+    ]
   },
   {
     "id": "nipponham-115",
@@ -2732,7 +4558,97 @@
       "兵庫県宝塚市出身の山本は、公立の西宮高校から1975年以来2人目となる公立校からのドラフト指名を受け、2017年に中日ドラゴンズ入りした。167cmという小柄な体格について、中田宗男スカウト部長（当時）は『短所だと思っていた身長の低さが、逆に長所だと気付きました』と振り返っている。",
       "2023年6月19日、捕手・郡司裕也とともに中日から日本ハムへ移籍する4選手が絡むトレードが成立した山本は、同じ167cmの谷元圭介投手に弟子入りして低いリリースポイントを生かす投球術を磨き、2024年は36試合登板・6勝0敗・防御率1.82の好成績でセットアッパーとして躍動した。"
     ],
-    "photoEmoji": "🐿️"
+    "photoEmoji": "🐿️",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 3,
+        "inningsPitched": 2.0
+      },
+      {
+        "season": "2019",
+        "games": 9,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.98,
+        "eraDisplay": "2.98",
+        "strikeouts": 27,
+        "inningsPitched": 45.1
+      },
+      {
+        "season": "2020",
+        "games": 9,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 5.59,
+        "eraDisplay": "5.59",
+        "strikeouts": 25,
+        "inningsPitched": 29.0
+      },
+      {
+        "season": "2021",
+        "games": 9,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 6.43,
+        "eraDisplay": "6.43",
+        "strikeouts": 12,
+        "inningsPitched": 14.0
+      },
+      {
+        "season": "2022",
+        "games": 30,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.6,
+        "eraDisplay": "3.60",
+        "strikeouts": 19,
+        "inningsPitched": 30.0
+      },
+      {
+        "season": "2023",
+        "games": 14,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 5.54,
+        "eraDisplay": "5.54",
+        "strikeouts": 11,
+        "inningsPitched": 13.0
+      },
+      {
+        "season": "2023",
+        "games": 26,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.5,
+        "eraDisplay": "1.50",
+        "strikeouts": 19,
+        "inningsPitched": 24.0
+      },
+      {
+        "season": "2024",
+        "games": 36,
+        "wins": 6,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.82,
+        "eraDisplay": "1.82",
+        "strikeouts": 30,
+        "inningsPitched": 39.2
+      }
+    ]
   },
   {
     "id": "nipponham-117",
@@ -2818,7 +4734,31 @@
       "埼玉県桶川市出身の松岡は、桶川西高校3年春に内野手から投手へ転向したが甲子園には届かず、独立リーグの埼玉武蔵ヒートベアーズでサイドスローに転向して覚醒。2019年ドラフトでは独立リーグ出身選手として最高位となる西武からの3位指名を受けた。",
       "西武では右肘の手術もあり一軍定着はならなかった松岡は、2022年12月9日の現役ドラフトで日本ハムへ移籍。2023年10月には戦力外通告を受け育成選手として再契約するという苦しい時期を経験したが、二軍で結果を残し2025年シーズン開幕前に支配下選手への復帰を果たした。"
     ],
-    "photoEmoji": "🎢"
+    "photoEmoji": "🎢",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 13.5,
+        "eraDisplay": "13.50",
+        "strikeouts": 0,
+        "inningsPitched": 2.0
+      },
+      {
+        "season": "2021",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 11.25,
+        "eraDisplay": "11.25",
+        "strikeouts": 1,
+        "inningsPitched": 4.0
+      }
+    ]
   },
   {
     "id": "nipponham-118",
@@ -2872,7 +4812,20 @@
       "千葉県八千代市出身の清宮は、軟式野球出身ながら八千代松陰高校で急成長し、最速161km/hのストレートを武器に楽天から2018年育成ドラフト1位指名を受けた。2019年は極度の制球難で二軍出場すらできず、2021年にはトミー・ジョン手術を経験するなど苦難の時代を過ごした。",
       "2023年にイースタン・リーグ最多の22セーブを挙げて復活した清宮は、2024年4月に支配下登録され一軍デビューを果たしたが、同年10月に戦力外通告を受けるという浮き沈みを経験。同年11月の12球団合同トライアウトで154km/hを計測し、日本ハムと育成選手契約を結んだ。理想の投手像に守護神ライデル・マルティネスを掲げる同選手は、2026年7月に支配下登録を勝ち取った。"
     ],
-    "photoEmoji": "🐯"
+    "photoEmoji": "🐯",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 3,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 12.0,
+        "eraDisplay": "12.00",
+        "strikeouts": 1,
+        "inningsPitched": 3.0
+      }
+    ]
   },
   {
     "id": "nipponham-119",
@@ -3028,7 +4981,75 @@
       "神奈川県横浜市鶴見区出身の田中は、創価高校1年冬に右肩を痛めて投手から野手へ転向し、3年夏は『4番・センター』として本塁打を放つなど二刀流で活躍した。創価大学で投手転向を本格化させると評価が急上昇し、2016年ドラフトでは5球団競合の末ソフトバンクへ入団した。",
       "契約金1億円で鳴り物入りの入団を果たしながら一軍で7年間未勝利という長いトンネルを経験した田中は、2023年1月に近藤健介の人的補償で日本ハムへ移籍すると一変。同年に25セーブを挙げて一軍初勝利も記録すると、2025年には49試合登板・13セーブ・防御率1.32という自己最高の成績で守護神の座を確立した。"
     ],
-    "photoEmoji": "🔒"
+    "photoEmoji": "🔒",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 10,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 8.56,
+        "eraDisplay": "8.56",
+        "strikeouts": 15,
+        "inningsPitched": 13.2
+      },
+      {
+        "season": "2019",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 0,
+        "inningsPitched": 0.2
+      },
+      {
+        "season": "2021",
+        "games": 18,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.16,
+        "eraDisplay": "2.16",
+        "strikeouts": 14,
+        "inningsPitched": 16.2
+      },
+      {
+        "season": "2022",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 6,
+        "inningsPitched": 5.0
+      },
+      {
+        "season": "2023",
+        "games": 47,
+        "wins": 2,
+        "losses": 3,
+        "saves": 25,
+        "era": 3.5,
+        "eraDisplay": "3.50",
+        "strikeouts": 46,
+        "inningsPitched": 46.1
+      },
+      {
+        "season": "2024",
+        "games": 53,
+        "wins": 4,
+        "losses": 4,
+        "saves": 20,
+        "era": 2.17,
+        "eraDisplay": "2.17",
+        "strikeouts": 47,
+        "inningsPitched": 49.2
+      }
+    ]
   },
   {
     "id": "nipponham-121",
@@ -3144,6 +5165,195 @@
         "year": "2019",
         "title": "最優秀中継ぎ投手"
       }
+    ],
+    "statsHistory": [
+      {
+        "season": "2008",
+        "games": 50,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.37,
+        "eraDisplay": "4.37",
+        "strikeouts": 25,
+        "inningsPitched": 45.1
+      },
+      {
+        "season": "2009",
+        "games": 58,
+        "wins": 7,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.89,
+        "eraDisplay": "2.89",
+        "strikeouts": 55,
+        "inningsPitched": 46.2
+      },
+      {
+        "season": "2010",
+        "games": 61,
+        "wins": 2,
+        "losses": 1,
+        "saves": 1,
+        "era": 1.7,
+        "eraDisplay": "1.70",
+        "strikeouts": 49,
+        "inningsPitched": 47.2
+      },
+      {
+        "season": "2011",
+        "games": 61,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.21,
+        "eraDisplay": "2.21",
+        "strikeouts": 56,
+        "inningsPitched": 53.0
+      },
+      {
+        "season": "2012",
+        "games": 66,
+        "wins": 2,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.25,
+        "eraDisplay": "2.25",
+        "strikeouts": 56,
+        "inningsPitched": 60.0
+      },
+      {
+        "season": "2013",
+        "games": 57,
+        "wins": 3,
+        "losses": 1,
+        "saves": 0,
+        "era": 1.74,
+        "eraDisplay": "1.74",
+        "strikeouts": 39,
+        "inningsPitched": 46.2
+      },
+      {
+        "season": "2014",
+        "games": 62,
+        "wins": 1,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.16,
+        "eraDisplay": "2.16",
+        "strikeouts": 46,
+        "inningsPitched": 50.0
+      },
+      {
+        "season": "2015",
+        "games": 50,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.7,
+        "eraDisplay": "2.70",
+        "strikeouts": 30,
+        "inningsPitched": 40.0
+      },
+      {
+        "season": "2016",
+        "games": 58,
+        "wins": 3,
+        "losses": 1,
+        "saves": 2,
+        "era": 1.52,
+        "eraDisplay": "1.52",
+        "strikeouts": 36,
+        "inningsPitched": 47.1
+      },
+      {
+        "season": "2017",
+        "games": 51,
+        "wins": 4,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.32,
+        "eraDisplay": "3.32",
+        "strikeouts": 24,
+        "inningsPitched": 40.2
+      },
+      {
+        "season": "2018",
+        "games": 55,
+        "wins": 4,
+        "losses": 3,
+        "saves": 0,
+        "era": 1.8,
+        "eraDisplay": "1.80",
+        "strikeouts": 39,
+        "inningsPitched": 45.0
+      },
+      {
+        "season": "2019",
+        "games": 55,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 1.71,
+        "eraDisplay": "1.71",
+        "strikeouts": 51,
+        "inningsPitched": 47.1
+      },
+      {
+        "season": "2020",
+        "games": 50,
+        "wins": 2,
+        "losses": 1,
+        "saves": 8,
+        "era": 2.05,
+        "eraDisplay": "2.05",
+        "strikeouts": 53,
+        "inningsPitched": 48.1
+      },
+      {
+        "season": "2021",
+        "games": 50,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.65,
+        "eraDisplay": "3.65",
+        "strikeouts": 49,
+        "inningsPitched": 44.1
+      },
+      {
+        "season": "2022",
+        "games": 24,
+        "wins": 0,
+        "losses": 3,
+        "saves": 1,
+        "era": 5.66,
+        "eraDisplay": "5.66",
+        "strikeouts": 14,
+        "inningsPitched": 20.2
+      },
+      {
+        "season": "2023",
+        "games": 31,
+        "wins": 1,
+        "losses": 3,
+        "saves": 1,
+        "era": 2.66,
+        "eraDisplay": "2.66",
+        "strikeouts": 24,
+        "inningsPitched": 23.2
+      },
+      {
+        "season": "2024",
+        "games": 30,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.1,
+        "eraDisplay": "2.10",
+        "strikeouts": 24,
+        "inningsPitched": 25.2
+      }
     ]
   },
   {
@@ -3248,7 +5458,109 @@
       "山口県周防大島町（旧・東和町）出身の清水優心は、「島に信号は2つか3つしかなかった。実家から最寄りのコンビニまで5キロ」という自然豊かな環境で育ち、「あの島で育たなかったら、どこかで道を外してプロ野球選手になれてない」と地元での経験を振り返っている。九州国際大学付属高校では4番・捕手として2014年夏の甲子園に出場したが、1回戦で東海大四高校（現・東海大札幌高校）に1-6で敗れた。",
       "後輩思いの性格でも知られ、若手時代に周囲から誤解を受けることもあった経験から、清宮幸太郎に生活態度について助言したこともある。強肩を武器に本塁から二塁への送球1.78秒、遠投115メートルを記録した実績を持つが、近年は進藤勇也や梅林優貴ら若手捕手陣との出場機会争いが続いている。"
     ],
-    "photoEmoji": "🏝️"
+    "photoEmoji": "🏝️",
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 1,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2016",
+        "games": 5,
+        "avg": 0.25,
+        "avgDisplay": ".250",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.5,
+        "stolenBases": 0
+      },
+      {
+        "season": "2017",
+        "games": 61,
+        "avg": 0.198,
+        "avgDisplay": ".198",
+        "hr": 1,
+        "rbi": 10,
+        "ops": 0.492,
+        "stolenBases": 0
+      },
+      {
+        "season": "2018",
+        "games": 86,
+        "avg": 0.215,
+        "avgDisplay": ".215",
+        "hr": 7,
+        "rbi": 21,
+        "ops": 0.643,
+        "stolenBases": 0
+      },
+      {
+        "season": "2019",
+        "games": 98,
+        "avg": 0.259,
+        "avgDisplay": ".259",
+        "hr": 5,
+        "rbi": 24,
+        "ops": 0.687,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 69,
+        "avg": 0.193,
+        "avgDisplay": ".193",
+        "hr": 3,
+        "rbi": 16,
+        "ops": 0.545,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 100,
+        "avg": 0.206,
+        "avgDisplay": ".206",
+        "hr": 4,
+        "rbi": 18,
+        "ops": 0.584,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 30,
+        "avg": 0.194,
+        "avgDisplay": ".194",
+        "hr": 0,
+        "rbi": 3,
+        "ops": 0.429,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 32,
+        "avg": 0.26,
+        "avgDisplay": ".260",
+        "hr": 0,
+        "rbi": 5,
+        "ops": 0.595,
+        "stolenBases": 1
+      },
+      {
+        "season": "2024",
+        "games": 12,
+        "avg": 0.143,
+        "avgDisplay": ".143",
+        "hr": 0,
+        "rbi": 1,
+        "ops": 0.357,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "nipponham-124",
@@ -3316,7 +5628,19 @@
       "筑陽学園高校で同学年の西舘昂汰投手とバッテリーを組んだ進藤勇也は、2019年春夏連続で甲子園に出場。夏の第101回大会では1回戦で作新学院と対戦し、3-5の延長10回の末に敗れた。上武大学では3年時にキャプテンとして全日本大学野球選手権準優勝に貢献し、2023年ドラフトで北海道日本ハムから2位指名を受けた。",
       "2024年6月18日の阪神戦で、同じくその年のドラフト1位ルーキーだった細野晴希投手とバッテリーを組んでプロ初先発出場を果たした進藤は、投手・捕手ともにデビュー戦で組む新人バッテリーとして球団78年ぶりの快挙を達成。同年のフレッシュオールスターゲームでも優秀選手賞を受賞するなど、若手捕手として着実に地位を築きつつある。"
     ],
-    "photoEmoji": "🧤"
+    "photoEmoji": "🧤",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 2,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "nipponham-125",
@@ -3390,7 +5714,39 @@
       "広島文化学園大学時代の梅林優貴はストイックそのもので、「4年間で遊びに行ったことはほとんどない」というほど、平日は学校からグラウンドで2時間半練習し、さらにジムで90分トレーニングする日々を送っていた。高速バスやガソリンスタンドでのアルバイトも掛け持ちし、その経験が「人見知りをなくし、人間的に成長させた」と振り返っている。4年秋に一気に才能が開花し、同大学初のプロ野球選手として2019年ドラフト6位で北海道日本ハム入りを果たした。",
       "2023年10月に戦力外通告を受けながらも育成選手として再契約し、2024年に支配下復帰を果たした梅林は、強肩（遠投110m、二塁送球1.8秒）を武器にする苦労人。2025年1月に来日していた元メジャーリーガーのムーキー・ベッツとは、練習場の手配がきっかけで友人関係となり、3日間にわたって共に練習し打撃指導を受けるという貴重な経験をした。"
     ],
-    "photoEmoji": "🚀"
+    "photoEmoji": "🚀",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 22,
+        "avg": 0.104,
+        "avgDisplay": ".104",
+        "hr": 0,
+        "rbi": 3,
+        "ops": 0.247,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 7,
+        "avg": 0.5,
+        "avgDisplay": ".500",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 1.0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 3,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "nipponham-126",
@@ -3455,7 +5811,59 @@
     "salaryManYen": 25000,
     "salaryNote": "2024年から結んだ4年契約で年俸2億5000万円（推定、スポーツ紙報道）。",
     "dataNote": "本名はアリエル・マルティネス（Ariel Martínez）、出身はキューバ・マタンサス。既存データの出身地が不明表記だったため、Wikipedia・NPB公式サイトの記載に基づき補記しました。",
-    "photoEmoji": "🇨🇺"
+    "photoEmoji": "🇨🇺",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 39,
+        "avg": 0.295,
+        "avgDisplay": ".295",
+        "hr": 2,
+        "rbi": 13,
+        "ops": 0.806,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 48,
+        "avg": 0.244,
+        "avgDisplay": ".244",
+        "hr": 2,
+        "rbi": 7,
+        "ops": 0.657,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 82,
+        "avg": 0.276,
+        "avgDisplay": ".276",
+        "hr": 8,
+        "rbi": 24,
+        "ops": 0.787,
+        "stolenBases": 1
+      },
+      {
+        "season": "2023",
+        "games": 119,
+        "avg": 0.246,
+        "avgDisplay": ".246",
+        "hr": 15,
+        "rbi": 66,
+        "ops": 0.763,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 126,
+        "avg": 0.234,
+        "avgDisplay": ".234",
+        "hr": 13,
+        "rbi": 57,
+        "ops": 0.741,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "nipponham-127",
@@ -3529,7 +5937,39 @@
       "倉敷商業高校1年夏に第94回全国高校野球選手権大会（2012年）にベンチ入りした上川畑大悟は、チームが準々決勝で明徳義塾に1-4で敗れるのを経験した。日本大学では侍ジャパン大学代表にも選ばれ、社会人・NTT東日本では1年目からショートのレギュラーを獲得しながらもドラフト指名漏れを経験するなど、遠回りをしながら2021年ドラフト9位で北海道日本ハム入りした。",
       "167cmと小柄な体格ながら、2022年5月24日の一軍昇格初戦でプロ初安打・初盗塁を記録すると、同年80試合に出場し打率.291をマーク。2023年6月16日の中日戦ではトリックプレーを決行し、新庄剛志監督から「あのプレーはキャンプから練習してきました」と明かされる場面もあった。ファンからは「神川畑」の愛称で親しまれている。ドラフト直後の2021年12月に結婚し、ルーキーながら鎌ヶ谷の選手寮に入寮して妻とは別居生活を送った。"
     ],
-    "photoEmoji": "💍"
+    "photoEmoji": "💍",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 80,
+        "avg": 0.291,
+        "avgDisplay": ".291",
+        "hr": 2,
+        "rbi": 17,
+        "ops": 0.716,
+        "stolenBases": 8
+      },
+      {
+        "season": "2023",
+        "games": 108,
+        "avg": 0.212,
+        "avgDisplay": ".212",
+        "hr": 0,
+        "rbi": 18,
+        "ops": 0.54,
+        "stolenBases": 3
+      },
+      {
+        "season": "2024",
+        "games": 106,
+        "avg": 0.248,
+        "avgDisplay": ".248",
+        "hr": 1,
+        "rbi": 16,
+        "ops": 0.612,
+        "stolenBases": 5
+      }
+    ]
   },
   {
     "id": "nipponham-128",
@@ -3616,7 +6056,59 @@
     ],
     "salaryManYen": 4800,
     "salaryNote": "推定4800万円（2023年契約更改時点、スポーツ紙推定年俸）。2024年以降の更改額は確認できず。",
-    "photoEmoji": "🇺🇸"
+    "photoEmoji": "🇺🇸",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 21,
+        "avg": 0.257,
+        "avgDisplay": ".257",
+        "hr": 3,
+        "rbi": 18,
+        "ops": 0.749,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 99,
+        "avg": 0.267,
+        "avgDisplay": ".267",
+        "hr": 7,
+        "rbi": 37,
+        "ops": 0.664,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 93,
+        "avg": 0.279,
+        "avgDisplay": ".279",
+        "hr": 6,
+        "rbi": 36,
+        "ops": 0.724,
+        "stolenBases": 3
+      },
+      {
+        "season": "2023",
+        "games": 125,
+        "avg": 0.236,
+        "avgDisplay": ".236",
+        "hr": 13,
+        "rbi": 43,
+        "ops": 0.692,
+        "stolenBases": 4
+      },
+      {
+        "season": "2024",
+        "games": 56,
+        "avg": 0.21,
+        "avgDisplay": ".210",
+        "hr": 2,
+        "rbi": 9,
+        "ops": 0.565,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "nipponham-129",
@@ -3749,7 +6241,139 @@
       "福岡工業高校時代、NPB球団からの評価は1球団の調査書のみと低かった中島卓也だが、2008年ドラフト5位で北海道日本ハム入りし、同校から直接プロ入りした初めての選手となった。2015年には打率.264・34盗塁で盗塁王を獲得しベストナインにも初選出されたが、同年出演したテレビ番組『水曜日のダウンタウン』では、アマチュア時代に公式戦で本塁打を1本も打ったことがないと明かしている。",
       "2017年7月30日、福岡ヤフオク!ドームで武田翔太から放った一発は、自身の通算2287打席目での初本塁打となり、NPBで本塁打を1本でも記録した選手の中では初打席から最も多くの打席を要した記録だった。犠打・盗塁を武器にする堅実な内野手として、2022年に通算250犠打（史上21人目）、2023年に通算200盗塁（史上79人目）を達成し、2024年にはOB田中賢介の球団記録を超える通算204盗塁を記録するなど、長く一軍に貢献し続けている。"
     ],
-    "photoEmoji": "🏃"
+    "photoEmoji": "🏃",
+    "statsHistory": [
+      {
+        "season": "2011",
+        "games": 8,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 1
+      },
+      {
+        "season": "2012",
+        "games": 105,
+        "avg": 0.114,
+        "avgDisplay": ".114",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.241,
+        "stolenBases": 2
+      },
+      {
+        "season": "2013",
+        "games": 127,
+        "avg": 0.238,
+        "avgDisplay": ".238",
+        "hr": 0,
+        "rbi": 8,
+        "ops": 0.565,
+        "stolenBases": 23
+      },
+      {
+        "season": "2014",
+        "games": 126,
+        "avg": 0.259,
+        "avgDisplay": ".259",
+        "hr": 0,
+        "rbi": 32,
+        "ops": 0.631,
+        "stolenBases": 28
+      },
+      {
+        "season": "2015",
+        "games": 143,
+        "avg": 0.264,
+        "avgDisplay": ".264",
+        "hr": 0,
+        "rbi": 39,
+        "ops": 0.637,
+        "stolenBases": 34
+      },
+      {
+        "season": "2016",
+        "games": 143,
+        "avg": 0.243,
+        "avgDisplay": ".243",
+        "hr": 0,
+        "rbi": 28,
+        "ops": 0.601,
+        "stolenBases": 23
+      },
+      {
+        "season": "2017",
+        "games": 91,
+        "avg": 0.208,
+        "avgDisplay": ".208",
+        "hr": 1,
+        "rbi": 13,
+        "ops": 0.505,
+        "stolenBases": 11
+      },
+      {
+        "season": "2018",
+        "games": 132,
+        "avg": 0.261,
+        "avgDisplay": ".261",
+        "hr": 1,
+        "rbi": 23,
+        "ops": 0.633,
+        "stolenBases": 29
+      },
+      {
+        "season": "2019",
+        "games": 120,
+        "avg": 0.22,
+        "avgDisplay": ".220",
+        "hr": 0,
+        "rbi": 16,
+        "ops": 0.522,
+        "stolenBases": 12
+      },
+      {
+        "season": "2020",
+        "games": 88,
+        "avg": 0.201,
+        "avgDisplay": ".201",
+        "hr": 0,
+        "rbi": 8,
+        "ops": 0.531,
+        "stolenBases": 11
+      },
+      {
+        "season": "2021",
+        "games": 67,
+        "avg": 0.186,
+        "avgDisplay": ".186",
+        "hr": 0,
+        "rbi": 1,
+        "ops": 0.461,
+        "stolenBases": 7
+      },
+      {
+        "season": "2022",
+        "games": 68,
+        "avg": 0.223,
+        "avgDisplay": ".223",
+        "hr": 0,
+        "rbi": 8,
+        "ops": 0.544,
+        "stolenBases": 17
+      },
+      {
+        "season": "2023",
+        "games": 17,
+        "avg": 0.207,
+        "avgDisplay": ".207",
+        "hr": 0,
+        "rbi": 2,
+        "ops": 0.465,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "nipponham-131",
@@ -3949,7 +6573,49 @@
       "京都市で保津川下りの船客に酒や食べ物を販売する水上売店「琴ヶ瀬茶屋」を営む家庭に生まれた細川は、小学2年で野球を始め、京都東山ボーイズ時代には日本代表として出場した世界大会で優勝を経験した。智辯学園和歌山高では2年時に春夏連続で甲子園に出場し、夏の第101回選手権2回戦の明徳義塾戦では決勝点となる3点本塁打を放つ活躍を見せたが、チームは3回戦で敗れた。同年秋には中堅手から遊撃手へ転向し、主将としてチームを牽引した。",
       "2020年ドラフト4位で北海道日本ハムに入団した細川は、プロ1年目の2021年10月18日、楽天戦で「8番・遊撃手」としてプロ初出場・初先発を果たし、第2打席で西口直人からプロ初安打を放った。矢沢永吉の大ファンで登場曲にも起用しており、若手時代にはイチローから直接指導を受けた経験も持つ。"
     ],
-    "photoEmoji": "⛵"
+    "photoEmoji": "⛵",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 9,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.431,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 20,
+        "avg": 0.171,
+        "avgDisplay": ".171",
+        "hr": 0,
+        "rbi": 2,
+        "ops": 0.537,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 60,
+        "avg": 0.216,
+        "avgDisplay": ".216",
+        "hr": 1,
+        "rbi": 10,
+        "ops": 0.589,
+        "stolenBases": 1
+      },
+      {
+        "season": "2024",
+        "games": 51,
+        "avg": 0.222,
+        "avgDisplay": ".222",
+        "hr": 0,
+        "rbi": 5,
+        "ops": 0.508,
+        "stolenBases": 3
+      }
+    ]
   },
   {
     "id": "nipponham-134",
@@ -4074,7 +6740,19 @@
       "岐阜第一高校で2年時から投打の二刀流としてエースと4番を兼任し、高校通算27本塁打を記録した阪口は、甲子園出場こそかなわなかったものの、秋季東海大会でベスト4に進出するなど地元屈指の好素材として評価された。2021年にプロ志望届を提出した際には投手を封印し「野手一本でプレーする」ことを宣言、同年のドラフト会議で北海道日本ハムファイターズから4位指名を受けてプロ入りした。",
       "2022年7月10日、福岡ソフトバンク戦で「9番・指名打者」としてプロ初出場を飾った阪口は、50m6秒6・遠投105mという高校時代の身体能力測定値が示す通り、鋭いスイングから広角に長打を放てる強打者候補として、一軍定着を目指し力をつけている段階にある。"
     ],
-    "photoEmoji": "💪"
+    "photoEmoji": "💪",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 3,
+        "avg": 0.167,
+        "avgDisplay": ".167",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.334,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "nipponham-136",
@@ -4142,7 +6820,19 @@
       "東京都日野市でそば屋を営む両親のもとに生まれた宮崎は、そばアレルギーのため家業を継げず、両親からは「プロ野球選手になってくれ」と期待されて育った。小学1年時に漫画『MAJOR』の主人公・茂野吾郎に憧れて調布リトルリーグで野球を始め、調布リトルシニアでは2学年上に清宮幸太郎がいた。",
       "山梨学院高では控えの時期が長く高校通算本塁打4本にとどまったが、臨時コーチの小倉清一郎に潜在能力を見出され、山梨学院大学では3年秋に打率.600・5本塁打・19打点という驚異的な成績を残し評価が急上昇。2023年ドラフト3位で北海道日本ハムに入団すると、2024年5月31日の横浜DeNA戦でプロ初打席から東克樹の球をバットを折りながら右前に運びプロ初安打を記録した。50m5秒9の俊足と強肩を武器に、大学球界一の韋駄天とも評された。"
     ],
-    "photoEmoji": "🍜"
+    "photoEmoji": "🍜",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 4,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.533,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "nipponham-137",
@@ -4271,7 +6961,49 @@
       "埼玉県行田市出身の五十幡は、中学3年時の全日本中学陸上競技選手権で100m10秒92・200m21秒81を記録し、後に日本記録を樹立するサニブラウン・アブデル・ハキームを抑えて両種目で優勝。「サニブラウンに勝った男」としてメディアに取り上げられた快足の持ち主である。小学3年時に亡くなった実母との間で「プロ野球選手になる」という約束を交わしていたといい、その約束を胸にプレーを続けている。",
       "中央大学で東都リーグのベストナインを2度受賞した五十幡は、2020年ドラフト2位で北海道日本ハムに入団。2022年に腰椎椎間板ヘルニアの手術でシーズンの大半を離脱する苦しい時期を乗り越え、2023年にはリーグ5位の17盗塁を記録した。50m最速5秒6の俊足は名手・荒木雅博をして「あの速さは異次元。群を抜いている」と言わしめるほどで、2025年には118試合に出場し自己最多の25盗塁をマークしている。"
     ],
-    "photoEmoji": "⚡"
+    "photoEmoji": "⚡",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 27,
+        "avg": 0.225,
+        "avgDisplay": ".225",
+        "hr": 1,
+        "rbi": 5,
+        "ops": 0.569,
+        "stolenBases": 9
+      },
+      {
+        "season": "2022",
+        "games": 6,
+        "avg": 0.286,
+        "avgDisplay": ".286",
+        "hr": 0,
+        "rbi": 1,
+        "ops": 0.661,
+        "stolenBases": 3
+      },
+      {
+        "season": "2023",
+        "games": 70,
+        "avg": 0.228,
+        "avgDisplay": ".228",
+        "hr": 0,
+        "rbi": 6,
+        "ops": 0.52,
+        "stolenBases": 17
+      },
+      {
+        "season": "2024",
+        "games": 94,
+        "avg": 0.161,
+        "avgDisplay": ".161",
+        "hr": 0,
+        "rbi": 3,
+        "ops": 0.406,
+        "stolenBases": 18
+      }
+    ]
   },
   {
     "id": "nipponham-139",
@@ -4345,7 +7077,19 @@
     ],
     "salaryManYen": 2700,
     "salaryNote": "推定2700万円（2024年12月更改、前年560万円から382%増）",
-    "photoEmoji": "🔥"
+    "photoEmoji": "🔥",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 97,
+        "avg": 0.287,
+        "avgDisplay": ".287",
+        "hr": 9,
+        "rbi": 39,
+        "ops": 0.778,
+        "stolenBases": 4
+      }
+    ]
   },
   {
     "id": "nipponham-140",
@@ -4421,6 +7165,28 @@
     "salaryManYen": 1500,
     "salaryNote": "推定1500万円（2023年11月、現状維持での契約更改）",
     "dataNote": "サッカー経験については、Wikipedia・NPB公式など確認できた一次情報源に言及がなく、5歳から少年野球（町田リトル）でプレーしてきたことが確認できました。「サッカーから野球へ転向」という情報の裏付けは取れなかったため、本フラグメントには記載していません。",
-    "photoEmoji": "⚔️"
+    "photoEmoji": "⚔️",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 37,
+        "avg": 0.177,
+        "avgDisplay": ".177",
+        "hr": 1,
+        "rbi": 4,
+        "ops": 0.495,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 28,
+        "avg": 0.111,
+        "avgDisplay": ".111",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.222,
+        "stolenBases": 0
+      }
+    ]
   }
 ]

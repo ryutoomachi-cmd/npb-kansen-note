@@ -20,15 +20,13 @@
   var TODAY_STARTER_KEY = null; // 上記がどの対戦カード向けに取得したものか（"ホーム球団|相手球団|日付"）
   var WEATHER_DATA = null; // 次の試合会場の天気（api/weather.jsで自動取得）
   var WEATHER_KEY = null; // 上記がどの球場・日付向けに取得したものか（"球場名|YYYY-MM-DD"）
-  // 「成長ページ」機能は、まず楽天・日本ハムの選手だけでプレビュー公開する（ユーザーが実物を見てから
-  // 他球団への展開を判断したいとのことなので、対応球団はこの配列を増やすだけで拡大できる）。
-  var GROWTH_PAGE_TEAMS = ["楽天", "日本ハム"];
-
   /* ===================== Icons (hand-drawn, minimal) ===================== */
   var ICONS = {
     search: '<circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>',
     x: '<line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/>',
     chevronLeft: '<polyline points="15 6 9 12 15 18"/>',
+    chevronDown: '<polyline points="6 9 12 15 18 9"/>',
+    chevronUp: '<polyline points="18 15 12 9 6 15"/>',
     sort: '<polyline points="7 4 7 20"/><polyline points="4 7 7 4 10 7"/><polyline points="17 20 17 4"/><polyline points="14 17 17 20 20 17"/>',
     mapPin: '<path d="M12 21s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.4"/>',
     alertTriangle: '<path d="M12 3 L22 20 L2 20 Z" stroke-linejoin="round"/><line x1="12" y1="9.5" x2="12" y2="14.5"/><circle cx="12" cy="17.3" r="0.9" fill="currentColor" stroke="none"/>',
@@ -1502,6 +1500,7 @@
     rosterView: "players", // players | legends（名鑑タブ内の切替：現役選手一覧 / レジェンド一覧）
     overlay: null, // { type: 'detail'|'connections'|'lineup'|'filters'|'settings'|'legend-detail', playerId?, legendId? }
     detailTab: "basic", // basic | other (選手詳細シート内のタブ)
+    statsHistoryOpen: false, // 選手詳細シートの「過去のデータを見る」トグルが開いているか
     homeTeam: initHomeTeam,
     opponentTeam: initOpponentTeam,
     lineup: null, // 下で loadLineup() により初期化
@@ -2600,53 +2599,14 @@
     ];
   }
 
-  /* ===================== 成長ページ（楽天・日本ハムでプレビュー公開中） ===================== */
-  // 今季と前年の主要指標を「良化/悪化どちら向きか」込みで比較できる形に整える。
-  // 前年データが無い（ルーキー等）場合はnullを返し、呼び出し側で「比較データなし」を出し分ける。
-  function growthStatCards(p) {
-    if (!p.currentStats || !p.lastSeasonStats) return null;
-    var pitcher = isPitcher(p);
-    var cur = p.currentStats, last = p.lastSeasonStats;
-    if (pitcher) {
-      return [
-        { label: "防御率", cur: cur.eraDisplay, last: last.eraDisplay, curNum: cur.era, lastNum: last.era, lowerBetter: true },
-        { label: "勝利", cur: cur.wins != null ? cur.wins + "勝" : null, last: last.wins != null ? last.wins + "勝" : null, curNum: cur.wins, lastNum: last.wins, lowerBetter: false },
-        { label: "奪三振", cur: cur.strikeouts != null ? cur.strikeouts + "個" : null, last: last.strikeouts != null ? last.strikeouts + "個" : null, curNum: cur.strikeouts, lastNum: last.strikeouts, lowerBetter: false },
-        { label: "登板数", cur: cur.games != null ? cur.games + "試合" : null, last: last.games != null ? last.games + "試合" : null, curNum: cur.games, lastNum: last.games, lowerBetter: false }
-      ];
-    }
-    return [
-      { label: "打率", cur: cur.avgDisplay, last: last.avgDisplay, curNum: cur.avg, lastNum: last.avg, lowerBetter: false },
-      { label: "本塁打", cur: cur.hr != null ? cur.hr + "本" : null, last: last.hr != null ? last.hr + "本" : null, curNum: cur.hr, lastNum: last.hr, lowerBetter: false },
-      { label: "打点", cur: cur.rbi != null ? cur.rbi + "打点" : null, last: last.rbi != null ? last.rbi + "打点" : null, curNum: cur.rbi, lastNum: last.rbi, lowerBetter: false },
-      { label: "試合数", cur: cur.games != null ? cur.games + "試合" : null, last: last.games != null ? last.games + "試合" : null, curNum: cur.games, lastNum: last.games, lowerBetter: false }
-    ];
-  }
-  // 各カードの「良化/悪化/変化なし」を判定（表示の色分け・見出し選定の両方で使う）
-  function growthCardDirection(c) {
-    if (c.curNum == null || c.lastNum == null || c.curNum === c.lastNum) return "flat";
-    var better = c.lowerBetter ? c.curNum < c.lastNum : c.curNum > c.lastNum;
-    return better ? "up" : "down";
-  }
-  // 実データから「一番伸びた指標」を1つ選んで見出し文にする（新しい分析や誇張は加えず、
-  // 数字の変化をそのまま短い日本語にするだけ＝捏造ゼロ）。伸びた指標が無ければnull。
-  function growthHeadline(p) {
-    var cards = growthStatCards(p);
-    if (!cards) return null;
-    var best = null;
-    cards.forEach(function (c) {
-      if (growthCardDirection(c) !== "up") return;
-      // 防御率・打率は小数のため、絶対差だけでは「打点+5」等と比較できない。見出し選定用に
-      // ざっくり同じスケールへ寄せるための重み付け（表示自体には使わない）。
-      var diff = Math.abs(c.curNum - c.lastNum);
-      var weight = (c.label === "防御率" || c.label === "打率") ? diff * 100 : diff;
-      if (!best || weight > best.weight) best = { c: c, weight: weight };
-    });
-    if (!best) return null;
-    return best.c.label + "が" + best.c.last + "→" + best.c.cur + "に向上";
-  }
-  // statsHistory（過去シーズン。今のところ楽天の選手のみ実データを保有）＋lastSeasonStats＋currentStats を
-  // 時系列順に1本につなげる。season文字列が重複した場合は新しい方（currentStats側）を優先する。
+  /* ===================== 過去のデータ（年度別成績。今のところ楽天の選手のみ実データを保有） =====================
+     以前は「成長ページ」という別画面を用意していたが、中身のほとんど（成長ストーリー＝
+     「その他」タブの成長軌跡タイムラインと同一、今季/前年比較＝基本情報タブの成績表と同一）が
+     既存表示の重複になってしまっていた。本当に新しい情報は複数年ぶんの年度別成績だけだったため、
+     別画面を作らず、既存の「今季 ＆ 前年成績比較」表のすぐ下に開閉トグルを1つ置き、
+     数値だけをシンプルに追加表示する形に変更した。 */
+  // statsHistory（過去シーズン）＋lastSeasonStats＋currentStats を時系列順に1本につなげる。
+  // season文字列が重複した場合は新しい方（currentStats側）を優先する。
   function combinedStatsTimeline(p) {
     var bySeasson = {};
     (p.statsHistory || []).forEach(function (s) { if (s && s.season) bySeasson[s.season] = s; });
@@ -2655,162 +2615,73 @@
     var seasons = Object.keys(bySeasson).sort(function (a, b) { return parseInt(a, 10) - parseInt(b, 10); });
     return seasons.map(function (s) { return bySeasson[s]; });
   }
-  // 折れ線（スパークライン）用に、指定した1指標だけを{season, value}の配列に整形する。
-  // 値が無いシーズンはグラフ上では飛ばす（線が変な位置に落ちるのを防ぐ）。
-  function sparklineSeries(timeline, field) {
-    return timeline
-      .map(function (s) { return { season: s.season, value: s[field] }; })
-      .filter(function (pt) { return pt.value != null; });
+  // 各シーズンの「節目コメント」。新しい評価や創作は加えず、既に選手データに実在する項目
+  // （その年の受賞歴・オールスター選出）と、掲載シーズン内だけで比較した「自己ベスト」
+  // （同一選手の実数値どうしを比べているだけ＝捏造なし）の3種類だけを対象にする。
+  // 該当が無いシーズンは何も表示しない（＝本当の節目だけにコメントが付く）。
+  function seasonMilestoneNote(p, season, timeline, mainField, lowerBetter) {
+    var notes = [];
+    var yearAwards = (p.awards || []).filter(function (a) { return a.year === season; }).map(function (a) { return a.title; });
+    if (yearAwards.length) notes.push(yearAwards.join("・"));
+    if ((p.allStarYears || []).indexOf(season) !== -1) notes.push("オールスター選出");
+
+    var values = timeline.map(function (s) { return s[mainField]; }).filter(function (v) { return v != null; });
+    if (values.length >= 3) {
+      var bestVal = lowerBetter ? Math.min.apply(null, values) : Math.max.apply(null, values);
+      var tie = values.filter(function (v) { return v === bestVal; }).length > 1;
+      var thisSeason = timeline.filter(function (s) { return s.season === season; })[0];
+      if (!tie && thisSeason && thisSeason[mainField] === bestVal) {
+        notes.push(lowerBetter ? "自己ベストの防御率" : (mainField === "avg" ? "自己最高打率" : "自己ベスト"));
+      }
+    }
+    return notes.join("・");
   }
-  // SVKの折れ線グラフ本体。lowerBetterな指標（防御率など）は「下向きに良くなる」と直感に反するため、
-  // 縦軸を反転させて「良くなるほど上に伸びる」見た目に統一している。
-  function growthSparklineSvg(points, lowerBetter) {
-    if (points.length < 2) return "";
-    var w = 300, h = 76, padX = 6, padY = 10;
-    var values = points.map(function (p) { return p.value; });
-    var min = Math.min.apply(null, values), max = Math.max.apply(null, values);
-    if (min === max) { min -= 1; max += 1; }
-    var stepX = (w - padX * 2) / (points.length - 1);
-    var coords = points.map(function (pt, i) {
-      var x = padX + i * stepX;
-      var ratio = (pt.value - min) / (max - min);
-      if (lowerBetter) ratio = 1 - ratio;
-      var y = h - padY - ratio * (h - padY * 2);
-      return { x: x, y: y };
-    });
-    var pathD = coords.map(function (c, i) { return (i === 0 ? "M" : "L") + c.x.toFixed(1) + "," + c.y.toFixed(1); }).join(" ");
-    var dots = coords.map(function (c, i) {
-      var isLast = i === coords.length - 1;
-      return '<circle cx="' + c.x.toFixed(1) + '" cy="' + c.y.toFixed(1) + '" r="' + (isLast ? 4.5 : 2.4) + '" fill="' + (isLast ? "var(--growth-up)" : "var(--ink-faint)") + '" ' + (isLast ? '' : 'opacity="0.55"') + "/>";
-    }).join("");
-    return (
-      '<svg viewBox="0 0 ' + w + " " + h + '" class="growth-spark" preserveAspectRatio="none" role="img" aria-hidden="true">' +
-        '<path d="' + pathD + '" fill="none" stroke="var(--growth-up)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>' +
-        dots +
-      "</svg>"
-    );
-  }
-  // 「ここまでの歩み」セクション：投手なら防御率、野手なら打率を主指標として折れ線で見せ、
-  // その下に年度別の主要成績を一覧できる簡易テーブルを添える。統計は全て実データ
-  // （statsHistory＋lastSeasonStats＋currentStats）で、新しい創作は一切加えていない。
-  function renderGrowthTrendSection(p) {
+  // 「過去のデータを見る」トグル＋年度別成績表（数値＋節目シーズンのコメント）。statsHistoryが
+  // 無い選手（今のところ楽天以外）では何も出さない。
+  function statsHistoryToggleHtml(p) {
     var timeline = combinedStatsTimeline(p);
-    if (timeline.length < 2) return ""; // 比較できるシーズンが1つ以下なら折れ線は出さない（今季＆前年カードのみで十分）
+    if (!p.statsHistory || !p.statsHistory.length || timeline.length < 2) return "";
+    var open = !!state.statsHistoryOpen;
     var pitcher = isPitcher(p);
     var mainField = pitcher ? "era" : "avg";
-    var mainLabel = pitcher ? "防御率" : "打率";
-    var mainDisplayField = pitcher ? "eraDisplay" : "avgDisplay";
-    var series = sparklineSeries(timeline, mainField);
-    var sparkHtml = series.length >= 2
-      ? '<div class="growth-spark-wrap">' +
-          growthSparklineSvg(series, pitcher) +
-          '<div class="growth-spark-labels"><span>' + esc(series[0].season) + "年</span><span>" + esc(series[series.length - 1].season) + "年</span></div>" +
-        "</div>"
-      : "";
-
     var rows = pitcher
       ? [["防御率", "eraDisplay"], ["勝-敗", null], ["奪三振", "strikeouts"]]
       : [["打率", "avgDisplay"], ["本塁打", "hr"], ["打点", "rbi"]];
-    var seasonTableHtml =
-      '<div class="growth-season-table">' +
-        '<div class="growth-season-row growth-season-head">' +
-          '<span class="growth-season-yr">年度</span>' +
-          rows.map(function (r) { return '<span>' + esc(r[0]) + "</span>"; }).join("") +
-        "</div>" +
-        timeline.map(function (s) {
-          return (
-            '<div class="growth-season-row">' +
-              '<span class="growth-season-yr">' + esc(s.season) + "</span>" +
-              rows.map(function (r) {
-                if (r[1] == null) {
-                  var v = (s.wins != null && s.losses != null) ? (s.wins + "-" + s.losses) : "-";
-                  return "<span>" + esc(v) + "</span>";
-                }
-                var val = s[r[1]];
-                return "<span>" + esc(val != null ? String(val) : "-") + "</span>";
-              }).join("") +
-            "</div>"
-          );
-        }).join("") +
-      "</div>";
-
-    return (
-      '<section><p class="section-label">' + icon("trendingUp", 13) + "ここまでの歩み（" + esc(timeline[0].season) + "年〜" + esc(timeline[timeline.length - 1].season) + "年）" + "</p>" +
-        sparkHtml +
-        seasonTableHtml +
-      "</section>"
-    );
-  }
-  function renderGrowthPage(p) {
-    var tc = teamColor(p.currentTeamName);
-    var cards = growthStatCards(p);
-    var headline = growthHeadline(p);
-
-    var statCardsHtml;
-    if (cards) {
-      var visibleCards = cards.filter(function (c) { return c.cur != null || c.last != null; });
-      statCardsHtml = visibleCards.length
-        ? '<div class="growth-stat-grid">' +
-            visibleCards.map(function (c) {
-              var dir = growthCardDirection(c);
-              return (
-                '<div class="growth-stat-card growth-dir-' + dir + '">' +
-                  '<p class="growth-stat-label">' + esc(c.label) + "</p>" +
-                  '<div class="growth-stat-row">' +
-                    '<span class="growth-stat-last">' + esc(c.last != null ? String(c.last) : "-") + "</span>" +
-                    icon("arrowRight", 12, "growth-stat-arrow") +
-                    '<span class="growth-stat-cur">' + esc(c.cur != null ? String(c.cur) : "-") + "</span>" +
-                  "</div>" +
-                "</div>"
-              );
-            }).join("") +
-          "</div>"
-        : '<p class="empty-state" style="padding:10px 0;">比較できる項目がまだありません。</p>';
-    } else {
-      statCardsHtml = '<p class="empty-state" style="padding:10px 0;">前年のシーズン成績データがまだ無いため、今季との比較はできません（プロ1年目の選手など）。今季の成績は基本情報タブでご確認いただけます。</p>';
-    }
-
-    // 成長の軌跡：もともとの成長タイムライン（高校〜プロ入りまでの実話）の続きとして、
-    // 「現在地」＝今季ここまでの実際の成績を最後の1章として追加する。新しい創作は加えず、
-    // 既存データ（currentStats）をそのまま文章にしているだけ。
-    var journeyItems = (p.growthTimeline || []).slice();
-    if (p.currentStats && p.currentStats.season) {
-      var cs = p.currentStats;
-      var statLine = isPitcher(p)
-        ? [cs.eraDisplay ? "防御率" + cs.eraDisplay : "", (cs.wins != null && cs.losses != null) ? cs.wins + "勝" + cs.losses + "敗" : "", cs.strikeouts != null ? cs.strikeouts + "奪三振" : ""].filter(Boolean).join("・")
-        : [cs.avgDisplay ? "打率" + cs.avgDisplay : "", cs.hr != null ? "本塁打" + cs.hr + "本" : "", cs.rbi != null ? cs.rbi + "打点" : ""].filter(Boolean).join("・");
-      journeyItems.push({
-        period: cs.season + "年（現在地）",
-        title: p.currentTeamName + "で" + (p.detailedPosition || p.position || "") + "として奮闘中",
-        description: statLine || "今季の成績は今後のデータ更新をお待ちください。"
-      });
-    }
-    var journeyHtml = journeyItems.length
-      ? '<ol class="timeline growth-journey">' +
-          journeyItems.map(function (t, i) {
+    var tableHtml = "";
+    if (open) {
+      tableHtml =
+        '<div class="stats-history-table">' +
+          '<div class="stats-history-row stats-history-head">' +
+            '<span class="stats-history-yr">年度</span>' +
+            rows.map(function (r) { return "<span>" + esc(r[0]) + "</span>"; }).join("") +
+          "</div>" +
+          timeline.map(function (s) {
+            var note = seasonMilestoneNote(p, s.season, timeline, mainField, pitcher);
             return (
-              "<li" + (i === journeyItems.length - 1 ? ' class="growth-journey-now"' : "") + ">" +
-                '<p class="period">' + esc(t.period) + "</p>" +
-                '<p class="title">' + esc(t.title) + "</p>" +
-                '<p class="desc">' + linkifyMentions(t.description, p.id) + "</p>" +
-              "</li>"
+              '<div class="stats-history-season">' +
+                '<div class="stats-history-row">' +
+                  '<span class="stats-history-yr">' + esc(s.season) + "</span>" +
+                  rows.map(function (r) {
+                    if (r[1] == null) {
+                      var v = (s.wins != null && s.losses != null) ? (s.wins + "-" + s.losses) : "-";
+                      return "<span>" + esc(v) + "</span>";
+                    }
+                    var val = s[r[1]];
+                    return "<span>" + esc(val != null ? String(val) : "-") + "</span>";
+                  }).join("") +
+                "</div>" +
+                (note ? '<p class="stats-history-note">' + icon("sparkles", 10) + esc(note) + "</p>" : "") +
+              "</div>"
             );
           }).join("") +
-        "</ol>"
-      : '<p class="empty-state" style="padding:10px 0;">この選手の成長軌跡データは今後のアップデートで追加予定です。</p>';
-
+        "</div>";
+    }
     return (
-      '<div class="sheet-header">' +
-        '<div class="who">' + avatarHtml(p, 46) + "<span><p class=\"sub\">" + esc(p.currentTeamName) + " #" + p.number + " ・ " + esc(p.detailedPosition) + "</p>" + kanaHtml(p, "kana-detail") + '<p class="nm">' + esc(p.name) + "</p></span></div>" +
-        '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
-      "</div>" +
-      '<div class="sheet-body">' +
-        '<p class="growth-page-label">' + icon("trendingUp", 13) + "成長ページ" + "</p>" +
-        (headline ? '<div class="growth-headline" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + icon("trendingUp", 16) + "<span>" + esc(headline) + "</span></div>" : "") +
-        renderGrowthTrendSection(p) +
-        '<section><p class="section-label">' + icon("trophy", 13) + "今季 ＆ 前年の変化" + "</p>" + statCardsHtml + "</section>" +
-        '<section><p class="section-label">' + icon("sparkles", 13) + "成長ストーリー" + "</p>" + journeyHtml + "</section>" +
-      "</div>"
+      '<button class="stats-history-toggle" data-action="toggle-stats-history" data-id="' + p.id + '">' +
+        "<span>" + esc(timeline[0].season) + "年〜" + esc(timeline[timeline.length - 1].season) + "年の過去のデータを" + (open ? "閉じる" : "見る") + "</span>" +
+        icon(open ? "chevronUp" : "chevronDown", 15) +
+      "</button>" +
+      tableHtml
     );
   }
 
@@ -3461,21 +3332,8 @@
         '<button class="detail-tab-btn' + (tab === "other" ? " active" : "") + '" data-action="set-detail-tab" data-key="other">その他（小話・つながり）</button>' +
       "</div>";
 
-    // 成長ページはまず楽天・日本ハムの選手だけでプレビュー公開（GROWTH_PAGE_TEAMS参照）。
-    var growthCta = GROWTH_PAGE_TEAMS.indexOf(p.currentTeamName) !== -1
-      ? '<button class="growth-cta-card" data-action="open-growth" data-id="' + p.id + '">' +
-          icon("trendingUp", 20) +
-          '<span class="cta-text">' +
-            '<span class="cta-title">成長ページを見る</span>' +
-            '<span class="cta-sub">高校時代からの軌跡と、今季ここまでの変化をまとめました</span>' +
-          "</span>" +
-          icon("arrowRight", 16, "lineup-cta-arrow") +
-        "</button>"
-      : "";
-
     var basicPane =
-      "<section><p class=\"section-label\">今季 ＆ 前年成績比較</p>" + careerNote + statTable + "</section>" +
-      growthCta +
+      "<section><p class=\"section-label\">今季 ＆ 前年成績比較</p>" + careerNote + statTable + statsHistoryToggleHtml(p) + "</section>" +
       similarLegendHintHtml(p) +
       salaryPanelHtml(p) + awardsPanelHtml(p) + nationalTeamBlock + allStarBlock + vsBlock + infoGrid + timeline + posChain + dataNoteBlock;
 
@@ -3558,17 +3416,6 @@
       });
       var sheetEl = els.overlayRoot.querySelector(".sheet");
       if (sheetEl) sheetEl.scrollTop = 0;
-    } else if (state.overlay.type === "growth") {
-      var pGrowth = byId(state.overlay.playerId);
-      if (!pGrowth) { state.overlay = null; els.overlayRoot.innerHTML = ""; return; }
-      els.overlayRoot.innerHTML =
-        '<div class="overlay-scrim"><div class="sheet">' + renderGrowthPage(pGrowth) + "</div></div>";
-      var scrimElG = els.overlayRoot.querySelector(".overlay-scrim");
-      scrimElG.addEventListener("click", function (e) {
-        if (e.target === scrimElG) { state.overlay = null; render(); }
-      });
-      var sheetElG = els.overlayRoot.querySelector(".sheet");
-      if (sheetElG) sheetElG.scrollTop = 0;
     } else if (state.overlay.type === "connections") {
       els.overlayRoot.innerHTML =
         '<div class="overlay-scrim"><div class="sheet">' + connectionsOverlayHtml() + "</div></div>";
@@ -3813,13 +3660,15 @@
     } else if (action === "open-detail") {
       state.overlay = { type: "detail", playerId: id };
       state.detailTab = "basic";
+      state.statsHistoryOpen = false;
       renderOverlay();
-    } else if (action === "open-growth") {
-      state.overlay = { type: "growth", playerId: id };
+    } else if (action === "toggle-stats-history") {
+      state.statsHistoryOpen = !state.statsHistoryOpen;
       renderOverlay();
     } else if (action === "open-detail-tab") {
       state.overlay = { type: "detail", playerId: id };
       state.detailTab = key === "other" ? "other" : "basic";
+      state.statsHistoryOpen = false;
       renderOverlay();
     } else if (action === "set-detail-tab") {
       state.detailTab = key === "other" ? "other" : "basic";
