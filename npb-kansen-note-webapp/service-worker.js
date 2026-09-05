@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v36"; // 甲子園エピソードの詳細化（46選手）＋「本日のスタメン登録」をホーム画面のリーグ順位表より上に移動
+const CACHE_VERSION = "v38"; // 成長ページに複数年の成績推移（折れ線＋年度別表）を追加。楽天40選手分の実際の過去シーズン成績（NPB公式データ）を新規収録
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

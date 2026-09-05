@@ -108,7 +108,207 @@
     },
     "salaryManYen": 18000,
     "salaryNote": "推定1億8000万円（2026年、日本経済新聞ほか報道）",
-    "photoEmoji": "🎯"
+    "photoEmoji": "🎯",
+    "statsHistory": [
+      {
+        "season": "2007",
+        "games": 24,
+        "wins": 11,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.4,
+        "eraDisplay": "3.40",
+        "strikeouts": 142,
+        "inningsPitched": 156.1
+      },
+      {
+        "season": "2008",
+        "games": 26,
+        "wins": 12,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.42,
+        "eraDisplay": "3.42",
+        "strikeouts": 138,
+        "inningsPitched": 168.1
+      },
+      {
+        "season": "2009",
+        "games": 26,
+        "wins": 13,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.26,
+        "eraDisplay": "3.26",
+        "strikeouts": 138,
+        "inningsPitched": 179.2
+      },
+      {
+        "season": "2010",
+        "games": 19,
+        "wins": 10,
+        "losses": 6,
+        "saves": 1,
+        "era": 3.25,
+        "eraDisplay": "3.25",
+        "strikeouts": 110,
+        "inningsPitched": 113.2
+      },
+      {
+        "season": "2011",
+        "games": 21,
+        "wins": 8,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.8,
+        "eraDisplay": "3.80",
+        "strikeouts": 106,
+        "inningsPitched": 135.0
+      },
+      {
+        "season": "2012",
+        "games": 26,
+        "wins": 11,
+        "losses": 12,
+        "saves": 0,
+        "era": 2.45,
+        "eraDisplay": "2.45",
+        "strikeouts": 150,
+        "inningsPitched": 187.2
+      },
+      {
+        "season": "2013",
+        "games": 26,
+        "wins": 11,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.08,
+        "eraDisplay": "3.08",
+        "strikeouts": 138,
+        "inningsPitched": 178.1
+      },
+      {
+        "season": "2014",
+        "games": 23,
+        "wins": 13,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.51,
+        "eraDisplay": "2.51",
+        "strikeouts": 126,
+        "inningsPitched": 161.1
+      },
+      {
+        "season": "2015",
+        "games": 16,
+        "wins": 5,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.02,
+        "eraDisplay": "3.02",
+        "strikeouts": 91,
+        "inningsPitched": 110.1
+      },
+      {
+        "season": "2016",
+        "games": 19,
+        "wins": 9,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.49,
+        "eraDisplay": "2.49",
+        "strikeouts": 104,
+        "inningsPitched": 130.1
+      },
+      {
+        "season": "2017",
+        "games": 26,
+        "wins": 8,
+        "losses": 10,
+        "saves": 0,
+        "era": 2.76,
+        "eraDisplay": "2.76",
+        "strikeouts": 189,
+        "inningsPitched": 176.1
+      },
+      {
+        "season": "2018",
+        "games": 23,
+        "wins": 11,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.72,
+        "eraDisplay": "2.72",
+        "strikeouts": 159,
+        "inningsPitched": 159.0
+      },
+      {
+        "season": "2019",
+        "games": 15,
+        "wins": 3,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.56,
+        "eraDisplay": "3.56",
+        "strikeouts": 86,
+        "inningsPitched": 93.2
+      },
+      {
+        "season": "2020",
+        "games": 11,
+        "wins": 7,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.21,
+        "eraDisplay": "3.21",
+        "strikeouts": 70,
+        "inningsPitched": 67.1
+      },
+      {
+        "season": "2021",
+        "games": 25,
+        "wins": 9,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.44,
+        "eraDisplay": "3.44",
+        "strikeouts": 131,
+        "inningsPitched": 149.0
+      },
+      {
+        "season": "2022",
+        "games": 22,
+        "wins": 8,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.19,
+        "eraDisplay": "3.19",
+        "strikeouts": 118,
+        "inningsPitched": 141.0
+      },
+      {
+        "season": "2023",
+        "games": 20,
+        "wins": 9,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.07,
+        "eraDisplay": "3.07",
+        "strikeouts": 76,
+        "inningsPitched": 120.1
+      },
+      {
+        "season": "2024",
+        "games": 22,
+        "wins": 6,
+        "losses": 11,
+        "saves": 0,
+        "era": 2.83,
+        "eraDisplay": "2.83",
+        "strikeouts": 73,
+        "inningsPitched": 143.1
+      }
+    ]
   },
   {
     "id": "e2",
@@ -190,7 +390,53 @@
     "dataNote": "出身中学・シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 6000,
     "salaryNote": "推定6000万円（2026年、日本経済新聞報道）",
-    "photoEmoji": "🌊"
+    "photoEmoji": "🌊",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 24,
+        "wins": 9,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 127,
+        "inningsPitched": 137.2
+      },
+      {
+        "season": "2022",
+        "games": 19,
+        "wins": 5,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 86,
+        "inningsPitched": 107.1
+      },
+      {
+        "season": "2023",
+        "games": 17,
+        "wins": 6,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.44,
+        "eraDisplay": "3.44",
+        "strikeouts": 78,
+        "inningsPitched": 96.2
+      },
+      {
+        "season": "2024",
+        "games": 25,
+        "wins": 11,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.54,
+        "eraDisplay": "2.54",
+        "strikeouts": 160,
+        "inningsPitched": 170.1
+      }
+    ]
   },
   {
     "id": "e3",
@@ -268,7 +514,31 @@
     "dataNote": "出身中学・シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 4000,
     "salaryNote": "推定4000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "📘"
+    "photoEmoji": "📘",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 19,
+        "wins": 5,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.36,
+        "eraDisplay": "3.36",
+        "strikeouts": 93,
+        "inningsPitched": 109.2
+      },
+      {
+        "season": "2024",
+        "games": 7,
+        "wins": 1,
+        "losses": 4,
+        "saves": 0,
+        "era": 6.98,
+        "eraDisplay": "6.98",
+        "strikeouts": 26,
+        "inningsPitched": 29.2
+      }
+    ]
   },
   {
     "id": "e4",
@@ -349,7 +619,84 @@
     "dataNote": "出身中学・シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 8000,
     "salaryNote": "推定8000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🔒"
+    "photoEmoji": "🔒",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 8,
+        "wins": 3,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.28,
+        "eraDisplay": "2.28",
+        "strikeouts": 44,
+        "inningsPitched": 43.1
+      },
+      {
+        "season": "2018",
+        "games": 14,
+        "wins": 4,
+        "losses": 7,
+        "saves": 0,
+        "era": 4.43,
+        "eraDisplay": "4.43",
+        "strikeouts": 68,
+        "inningsPitched": 81.1
+      },
+      {
+        "season": "2019",
+        "games": 3,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 10.38,
+        "eraDisplay": "10.38",
+        "strikeouts": 6,
+        "inningsPitched": 8.2
+      },
+      {
+        "season": "2020",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "strikeouts": 0,
+        "inningsPitched": 0.0
+      },
+      {
+        "season": "2022",
+        "games": 8,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.97,
+        "eraDisplay": "3.97",
+        "strikeouts": 17,
+        "inningsPitched": 22.2
+      },
+      {
+        "season": "2023",
+        "games": 11,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.44,
+        "eraDisplay": "4.44",
+        "strikeouts": 42,
+        "inningsPitched": 50.2
+      },
+      {
+        "season": "2024",
+        "games": 47,
+        "wins": 0,
+        "losses": 1,
+        "saves": 1,
+        "era": 1.75,
+        "eraDisplay": "1.75",
+        "strikeouts": 58,
+        "inningsPitched": 46.1
+      }
+    ]
   },
   {
     "id": "e5",
@@ -425,7 +772,31 @@
     },
     "salaryManYen": 4400,
     "salaryNote": "推定4400万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🐉"
+    "photoEmoji": "🐉",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 53,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.28,
+        "eraDisplay": "2.28",
+        "strikeouts": 35,
+        "inningsPitched": 55.1
+      },
+      {
+        "season": "2024",
+        "games": 20,
+        "wins": 6,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.58,
+        "eraDisplay": "3.58",
+        "strikeouts": 45,
+        "inningsPitched": 110.2
+      }
+    ]
   },
   {
     "id": "e6",
@@ -594,7 +965,159 @@
     },
     "salaryManYen": 50000,
     "salaryNote": "推定5億円（2026年、共同通信・日本経済新聞報道）",
-    "photoEmoji": "👑"
+    "photoEmoji": "👑",
+    "statsHistory": [
+      {
+        "season": "2010",
+        "games": 30,
+        "avg": 0.262,
+        "avgDisplay": ".262",
+        "hr": 2,
+        "rbi": 9,
+        "ops": 0.884,
+        "stolenBases": 2
+      },
+      {
+        "season": "2011",
+        "games": 137,
+        "avg": 0.268,
+        "avgDisplay": ".268",
+        "hr": 9,
+        "rbi": 45,
+        "ops": 0.709,
+        "stolenBases": 7
+      },
+      {
+        "season": "2012",
+        "games": 114,
+        "avg": 0.245,
+        "avgDisplay": ".245",
+        "hr": 7,
+        "rbi": 37,
+        "ops": 0.683,
+        "stolenBases": 13
+      },
+      {
+        "season": "2013",
+        "games": 144,
+        "avg": 0.317,
+        "avgDisplay": ".317",
+        "hr": 27,
+        "rbi": 110,
+        "ops": 0.943,
+        "stolenBases": 14
+      },
+      {
+        "season": "2014",
+        "games": 118,
+        "avg": 0.273,
+        "avgDisplay": ".273",
+        "hr": 14,
+        "rbi": 55,
+        "ops": 0.761,
+        "stolenBases": 3
+      },
+      {
+        "season": "2015",
+        "games": 141,
+        "avg": 0.27,
+        "avgDisplay": ".270",
+        "hr": 13,
+        "rbi": 81,
+        "ops": 0.747,
+        "stolenBases": 12
+      },
+      {
+        "season": "2016",
+        "games": 143,
+        "avg": 0.309,
+        "avgDisplay": ".309",
+        "hr": 24,
+        "rbi": 82,
+        "ops": 0.867,
+        "stolenBases": 8
+      },
+      {
+        "season": "2017",
+        "games": 143,
+        "avg": 0.291,
+        "avgDisplay": ".291",
+        "hr": 19,
+        "rbi": 99,
+        "ops": 0.799,
+        "stolenBases": 5
+      },
+      {
+        "season": "2018",
+        "games": 143,
+        "avg": 0.31,
+        "avgDisplay": ".310",
+        "hr": 32,
+        "rbi": 127,
+        "ops": 0.91,
+        "stolenBases": 4
+      },
+      {
+        "season": "2019",
+        "games": 143,
+        "avg": 0.263,
+        "avgDisplay": ".263",
+        "hr": 33,
+        "rbi": 92,
+        "ops": 0.878,
+        "stolenBases": 1
+      },
+      {
+        "season": "2020",
+        "games": 120,
+        "avg": 0.28,
+        "avgDisplay": ".280",
+        "hr": 32,
+        "rbi": 104,
+        "ops": 0.969,
+        "stolenBases": 1
+      },
+      {
+        "season": "2021",
+        "games": 143,
+        "avg": 0.269,
+        "avgDisplay": ".269",
+        "hr": 18,
+        "rbi": 67,
+        "ops": 0.817,
+        "stolenBases": 1
+      },
+      {
+        "season": "2022",
+        "games": 143,
+        "avg": 0.252,
+        "avgDisplay": ".252",
+        "hr": 27,
+        "rbi": 86,
+        "ops": 0.801,
+        "stolenBases": 4
+      },
+      {
+        "season": "2023",
+        "games": 143,
+        "avg": 0.274,
+        "avgDisplay": ".274",
+        "hr": 26,
+        "rbi": 78,
+        "ops": 0.829,
+        "stolenBases": 2
+      },
+      {
+        "season": "2024",
+        "games": 143,
+        "avg": 0.253,
+        "avgDisplay": ".253",
+        "hr": 14,
+        "rbi": 60,
+        "ops": 0.728,
+        "stolenBases": 1
+      }
+    ]
   },
   {
     "id": "e7",
@@ -700,7 +1223,69 @@
       "artist": "GENIC"
     },
     "salaryNote": "1億円を突破した模様と報じられているが具体的な金額は非公表（2025年更改時点）",
-    "photoEmoji": "🥇"
+    "photoEmoji": "🥇",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 124,
+        "avg": 0.229,
+        "avgDisplay": ".229",
+        "hr": 4,
+        "rbi": 25,
+        "ops": 0.639,
+        "stolenBases": 13
+      },
+      {
+        "season": "2020",
+        "games": 104,
+        "avg": 0.223,
+        "avgDisplay": ".223",
+        "hr": 8,
+        "rbi": 28,
+        "ops": 0.664,
+        "stolenBases": 11
+      },
+      {
+        "season": "2021",
+        "games": 130,
+        "avg": 0.225,
+        "avgDisplay": ".225",
+        "hr": 10,
+        "rbi": 32,
+        "ops": 0.671,
+        "stolenBases": 6
+      },
+      {
+        "season": "2022",
+        "games": 120,
+        "avg": 0.271,
+        "avgDisplay": ".271",
+        "hr": 11,
+        "rbi": 35,
+        "ops": 0.755,
+        "stolenBases": 12
+      },
+      {
+        "season": "2023",
+        "games": 133,
+        "avg": 0.263,
+        "avgDisplay": ".263",
+        "hr": 9,
+        "rbi": 43,
+        "ops": 0.726,
+        "stolenBases": 13
+      },
+      {
+        "season": "2024",
+        "games": 143,
+        "avg": 0.294,
+        "avgDisplay": ".294",
+        "hr": 7,
+        "rbi": 58,
+        "ops": 0.772,
+        "stolenBases": 20
+      }
+    ]
   },
   {
     "id": "e8",
@@ -851,7 +1436,69 @@
     "dataNote": "登場曲は打席ごとに複数曲をローテーションしており、球団公式サイトでは個別に公開されていません。出身中学・シニア/ボーイズ情報も今回のリサーチでは確認できませんでした。",
     "salaryManYen": 8700,
     "salaryNote": "推定8700万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🧤"
+    "photoEmoji": "🧤",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 55,
+        "avg": 0.219,
+        "avgDisplay": ".219",
+        "hr": 1,
+        "rbi": 6,
+        "ops": 0.55,
+        "stolenBases": 1
+      },
+      {
+        "season": "2020",
+        "games": 67,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 2,
+        "rbi": 16,
+        "ops": 0.624,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 107,
+        "avg": 0.188,
+        "avgDisplay": ".188",
+        "hr": 4,
+        "rbi": 23,
+        "ops": 0.515,
+        "stolenBases": 1
+      },
+      {
+        "season": "2022",
+        "games": 71,
+        "avg": 0.214,
+        "avgDisplay": ".214",
+        "hr": 3,
+        "rbi": 18,
+        "ops": 0.629,
+        "stolenBases": 1
+      },
+      {
+        "season": "2023",
+        "games": 104,
+        "avg": 0.243,
+        "avgDisplay": ".243",
+        "hr": 3,
+        "rbi": 14,
+        "ops": 0.686,
+        "stolenBases": 1
+      },
+      {
+        "season": "2024",
+        "games": 94,
+        "avg": 0.196,
+        "avgDisplay": ".196",
+        "hr": 2,
+        "rbi": 23,
+        "ops": 0.535,
+        "stolenBases": 2
+      }
+    ]
   },
   {
     "id": "e10",
@@ -929,7 +1576,59 @@
     },
     "salaryManYen": 3300,
     "salaryNote": "推定3300万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌅"
+    "photoEmoji": "🌅",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 10,
+        "avg": 0.143,
+        "avgDisplay": ".143",
+        "hr": 0,
+        "rbi": 2,
+        "ops": 0.378,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 34,
+        "avg": 0.187,
+        "avgDisplay": ".187",
+        "hr": 1,
+        "rbi": 8,
+        "ops": 0.481,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 17,
+        "avg": 0.222,
+        "avgDisplay": ".222",
+        "hr": 0,
+        "rbi": 2,
+        "ops": 0.566,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 9,
+        "avg": 0.091,
+        "avgDisplay": ".091",
+        "hr": 1,
+        "rbi": 2,
+        "ops": 0.314,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 22,
+        "avg": 0.232,
+        "avgDisplay": ".232",
+        "hr": 1,
+        "rbi": 8,
+        "ops": 0.587,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e11",
@@ -1019,7 +1718,81 @@
     },
     "salaryManYen": 12500,
     "salaryNote": "推定1億2500万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🛡️"
+    "photoEmoji": "🛡️",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 1,
+        "avg": 0.5,
+        "avgDisplay": ".500",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2018",
+        "games": 28,
+        "avg": 0.114,
+        "avgDisplay": ".114",
+        "hr": 0,
+        "rbi": 2,
+        "stolenBases": 0
+      },
+      {
+        "season": "2019",
+        "games": 49,
+        "avg": 0.083,
+        "avgDisplay": ".083",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 3,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 79,
+        "avg": 0.15,
+        "avgDisplay": ".150",
+        "hr": 1,
+        "rbi": 4,
+        "stolenBases": 4
+      },
+      {
+        "season": "2022",
+        "games": 47,
+        "avg": 0.188,
+        "avgDisplay": ".188",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 98,
+        "avg": 0.256,
+        "avgDisplay": ".256",
+        "hr": 2,
+        "rbi": 32,
+        "stolenBases": 11
+      },
+      {
+        "season": "2024",
+        "games": 139,
+        "avg": 0.241,
+        "avgDisplay": ".241",
+        "hr": 6,
+        "rbi": 50,
+        "stolenBases": 5
+      }
+    ]
   },
   {
     "id": "e12",
@@ -1168,7 +1941,97 @@
     "dataNote": "2025年はMLB（タイガース）に所属していたためNPB成績なし。出身中学・シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 20000,
     "salaryNote": "推定2億円（2026年、中日スポーツ報道：2年4億円契約の平均値）",
-    "photoEmoji": "✈️"
+    "photoEmoji": "✈️",
+    "statsHistory": [
+      {
+        "season": "2008",
+        "games": 19,
+        "wins": 9,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.2,
+        "eraDisplay": "3.20",
+        "strikeouts": 55,
+        "inningsPitched": 109.2
+      },
+      {
+        "season": "2009",
+        "games": 29,
+        "wins": 8,
+        "losses": 14,
+        "saves": 0,
+        "era": 3.36,
+        "eraDisplay": "3.36",
+        "strikeouts": 147,
+        "inningsPitched": 193.0
+      },
+      {
+        "season": "2010",
+        "games": 28,
+        "wins": 15,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.21,
+        "eraDisplay": "2.21",
+        "strikeouts": 174,
+        "inningsPitched": 215.2
+      },
+      {
+        "season": "2011",
+        "games": 31,
+        "wins": 10,
+        "losses": 12,
+        "saves": 0,
+        "era": 2.46,
+        "eraDisplay": "2.46",
+        "strikeouts": 192,
+        "inningsPitched": 216.0
+      },
+      {
+        "season": "2012",
+        "games": 29,
+        "wins": 14,
+        "losses": 7,
+        "saves": 0,
+        "era": 1.53,
+        "eraDisplay": "1.53",
+        "strikeouts": 171,
+        "inningsPitched": 206.1
+      },
+      {
+        "season": "2013",
+        "games": 26,
+        "wins": 15,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.1,
+        "eraDisplay": "2.10",
+        "strikeouts": 158,
+        "inningsPitched": 175.2
+      },
+      {
+        "season": "2014",
+        "games": 27,
+        "wins": 11,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.6,
+        "eraDisplay": "2.60",
+        "strikeouts": 161,
+        "inningsPitched": 187.0
+      },
+      {
+        "season": "2015",
+        "games": 29,
+        "wins": 15,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.09,
+        "eraDisplay": "2.09",
+        "strikeouts": 175,
+        "inningsPitched": 206.1
+      }
+    ]
   },
   {
     "id": "e13",
@@ -1264,7 +2127,126 @@
     "salaryManYen": 12800,
     "salaryNote": "推定1億2800万円（2026年、スポーツ紙推定年俸集計）",
     "photoEmoji": "🏆",
-    "birthDate": "1989-08-18"
+    "birthDate": "1989-08-18",
+    "statsHistory": [
+      {
+        "season": "2012",
+        "games": 62,
+        "avg": 0.274,
+        "avgDisplay": ".274",
+        "hr": 0,
+        "rbi": 11,
+        "stolenBases": 0
+      },
+      {
+        "season": "2013",
+        "games": 144,
+        "avg": 0.264,
+        "avgDisplay": ".264",
+        "hr": 5,
+        "rbi": 50,
+        "stolenBases": 2
+      },
+      {
+        "season": "2014",
+        "games": 144,
+        "avg": 0.287,
+        "avgDisplay": ".287",
+        "hr": 3,
+        "rbi": 43,
+        "stolenBases": 7
+      },
+      {
+        "season": "2015",
+        "games": 142,
+        "avg": 0.263,
+        "avgDisplay": ".263",
+        "hr": 6,
+        "rbi": 50,
+        "stolenBases": 1
+      },
+      {
+        "season": "2016",
+        "games": 143,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 6,
+        "rbi": 61,
+        "stolenBases": 3
+      },
+      {
+        "season": "2017",
+        "games": 143,
+        "avg": 0.26,
+        "avgDisplay": ".260",
+        "hr": 11,
+        "rbi": 52,
+        "stolenBases": 6
+      },
+      {
+        "season": "2018",
+        "games": 143,
+        "avg": 0.266,
+        "avgDisplay": ".266",
+        "hr": 8,
+        "rbi": 49,
+        "stolenBases": 8
+      },
+      {
+        "season": "2019",
+        "games": 140,
+        "avg": 0.288,
+        "avgDisplay": ".288",
+        "hr": 15,
+        "rbi": 68,
+        "stolenBases": 3
+      },
+      {
+        "season": "2020",
+        "games": 120,
+        "avg": 0.295,
+        "avgDisplay": ".295",
+        "hr": 4,
+        "rbi": 55,
+        "stolenBases": 1
+      },
+      {
+        "season": "2021",
+        "games": 143,
+        "avg": 0.277,
+        "avgDisplay": ".277",
+        "hr": 10,
+        "rbi": 53,
+        "stolenBases": 3
+      },
+      {
+        "season": "2022",
+        "games": 125,
+        "avg": 0.257,
+        "avgDisplay": ".257",
+        "hr": 5,
+        "rbi": 35,
+        "stolenBases": 4
+      },
+      {
+        "season": "2023",
+        "games": 101,
+        "avg": 0.244,
+        "avgDisplay": ".244",
+        "hr": 5,
+        "rbi": 27,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 123,
+        "avg": 0.266,
+        "avgDisplay": ".266",
+        "hr": 4,
+        "rbi": 41,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e14",
@@ -1322,7 +2304,97 @@
     "salaryManYen": 8000,
     "salaryNote": "推定8000万円（2026年、スポーツ紙推定年俸集計）",
     "photoEmoji": "🩹",
-    "birthDate": "1993-01-02"
+    "birthDate": "1993-01-02",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 19,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.13,
+        "eraDisplay": "3.13",
+        "strikeouts": 48,
+        "inningsPitched": 74.2
+      },
+      {
+        "season": "2018",
+        "games": 15,
+        "wins": 2,
+        "losses": 6,
+        "saves": 0,
+        "era": 5.59,
+        "eraDisplay": "5.59",
+        "strikeouts": 55,
+        "inningsPitched": 83.2
+      },
+      {
+        "season": "2019",
+        "games": 54,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.37,
+        "eraDisplay": "4.37",
+        "strikeouts": 60,
+        "inningsPitched": 57.2
+      },
+      {
+        "season": "2020",
+        "games": 46,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.65,
+        "eraDisplay": "3.65",
+        "strikeouts": 34,
+        "inningsPitched": 44.1
+      },
+      {
+        "season": "2021",
+        "games": 54,
+        "wins": 4,
+        "losses": 3,
+        "saves": 3,
+        "era": 2.28,
+        "eraDisplay": "2.28",
+        "strikeouts": 44,
+        "inningsPitched": 51.1
+      },
+      {
+        "season": "2022",
+        "games": 34,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.31,
+        "eraDisplay": "3.31",
+        "strikeouts": 32,
+        "inningsPitched": 32.2
+      },
+      {
+        "season": "2023",
+        "games": 47,
+        "wins": 5,
+        "losses": 3,
+        "saves": 1,
+        "era": 2.98,
+        "eraDisplay": "2.98",
+        "strikeouts": 30,
+        "inningsPitched": 42.1
+      },
+      {
+        "season": "2024",
+        "games": 49,
+        "wins": 2,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.33,
+        "eraDisplay": "2.33",
+        "strikeouts": 29,
+        "inningsPitched": 46.1
+      }
+    ]
   },
   {
     "id": "e15",
@@ -1377,7 +2449,18 @@
     "dataNote": "出身中学・シニア/ボーイズ情報は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 580,
     "salaryNote": "推定580万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌲"
+    "photoEmoji": "🌲",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 5,
+        "avg": 0.417,
+        "avgDisplay": ".417",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e16",
@@ -1492,7 +2575,63 @@
     "dataNote": "出身中学・シニア/ボーイズ、2025年成績は今回のリサーチでは確認できませんでした。",
     "salaryManYen": 2800,
     "salaryNote": "推定2800万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🤝"
+    "photoEmoji": "🤝",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 77,
+        "avg": 0.225,
+        "avgDisplay": ".225",
+        "hr": 1,
+        "rbi": 26,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 35,
+        "avg": 0.235,
+        "avgDisplay": ".235",
+        "hr": 0,
+        "rbi": 12,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 45,
+        "avg": 0.273,
+        "avgDisplay": ".273",
+        "hr": 1,
+        "rbi": 7,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 60,
+        "avg": 0.242,
+        "avgDisplay": ".242",
+        "hr": 1,
+        "rbi": 17,
+        "stolenBases": 2
+      },
+      {
+        "season": "2023",
+        "games": 25,
+        "avg": 0.143,
+        "avgDisplay": ".143",
+        "hr": 0,
+        "rbi": 3,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 47,
+        "avg": 0.25,
+        "avgDisplay": ".250",
+        "hr": 0,
+        "rbi": 11,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e18",
@@ -1570,7 +2709,108 @@
     "salaryManYen": 3400,
     "salaryNote": "推定3400万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "出身中学の表記は資料により食い違いがあり確定できませんでした。少年野球チームの情報も確認できていません。",
-    "photoEmoji": "🧱"
+    "photoEmoji": "🧱",
+    "statsHistory": [
+      {
+        "season": "2016",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 1,
+        "inningsPitched": 2.0
+      },
+      {
+        "season": "2017",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 10.38,
+        "eraDisplay": "10.38",
+        "strikeouts": 2,
+        "inningsPitched": 4.1
+      },
+      {
+        "season": "2018",
+        "games": 72,
+        "wins": 4,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.38,
+        "eraDisplay": "3.38",
+        "strikeouts": 53,
+        "inningsPitched": 66.2
+      },
+      {
+        "season": "2019",
+        "games": 30,
+        "wins": 3,
+        "losses": 1,
+        "saves": 0,
+        "era": 6.0,
+        "eraDisplay": "6.00",
+        "strikeouts": 23,
+        "inningsPitched": 36.0
+      },
+      {
+        "season": "2020",
+        "games": 6,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 6.0,
+        "eraDisplay": "6.00",
+        "strikeouts": 2,
+        "inningsPitched": 6.0
+      },
+      {
+        "season": "2021",
+        "games": 7,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 7.94,
+        "eraDisplay": "7.94",
+        "strikeouts": 3,
+        "inningsPitched": 5.2
+      },
+      {
+        "season": "2022",
+        "games": 39,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.43,
+        "eraDisplay": "2.43",
+        "strikeouts": 30,
+        "inningsPitched": 29.2
+      },
+      {
+        "season": "2023",
+        "games": 51,
+        "wins": 1,
+        "losses": 5,
+        "saves": 1,
+        "era": 2.56,
+        "eraDisplay": "2.56",
+        "strikeouts": 32,
+        "inningsPitched": 38.2
+      },
+      {
+        "season": "2024",
+        "games": 13,
+        "wins": 2,
+        "losses": 0,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 12,
+        "inningsPitched": 12.0
+      }
+    ]
   },
   {
     "id": "e19",
@@ -1640,7 +2880,18 @@
     ],
     "salaryManYen": 3700,
     "salaryNote": "推定3700万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🍀"
+    "photoEmoji": "🍀",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 37,
+        "avg": 0.228,
+        "avgDisplay": ".228",
+        "hr": 1,
+        "rbi": 10,
+        "stolenBases": 1
+      }
+    ]
   },
   {
     "id": "e20",
@@ -1761,7 +3012,36 @@
     "salaryManYen": 1300,
     "salaryNote": "推定1300万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "2025年単年成績は今回のリサーチでは切り分けて確認できませんでした（通算表からの推定のみ）。",
-    "photoEmoji": "🔰"
+    "photoEmoji": "🔰",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 5,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 1,
+        "rbi": 1,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 53,
+        "avg": 0.218,
+        "avgDisplay": ".218",
+        "hr": 3,
+        "rbi": 7,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 34,
+        "avg": 0.262,
+        "avgDisplay": ".262",
+        "hr": 2,
+        "rbi": 9,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e22",
@@ -1845,7 +3125,54 @@
     ],
     "salaryManYen": 8500,
     "salaryNote": "推定8500万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌀"
+    "photoEmoji": "🌀",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 112,
+        "avg": 0.288,
+        "avgDisplay": ".288",
+        "hr": 3,
+        "rbi": 31,
+        "stolenBases": 17
+      },
+      {
+        "season": "2021",
+        "games": 121,
+        "avg": 0.248,
+        "avgDisplay": ".248",
+        "hr": 3,
+        "rbi": 21,
+        "stolenBases": 5
+      },
+      {
+        "season": "2022",
+        "games": 118,
+        "avg": 0.267,
+        "avgDisplay": ".267",
+        "hr": 2,
+        "rbi": 29,
+        "stolenBases": 21
+      },
+      {
+        "season": "2023",
+        "games": 134,
+        "avg": 0.258,
+        "avgDisplay": ".258",
+        "hr": 5,
+        "rbi": 37,
+        "stolenBases": 36
+      },
+      {
+        "season": "2024",
+        "games": 134,
+        "avg": 0.229,
+        "avgDisplay": ".229",
+        "hr": 3,
+        "rbi": 23,
+        "stolenBases": 29
+      }
+    ]
   },
   {
     "id": "e23",
@@ -1906,7 +3233,18 @@
     "salaryManYen": 800,
     "salaryNote": "推定800万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "npb.jp公式記録に2025年シーズンの1軍出場データが見当たらず、2025年は1軍出場なしだった可能性がありますが断定はできていません。",
-    "photoEmoji": "🥥"
+    "photoEmoji": "🥥",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 18,
+        "avg": 0.143,
+        "avgDisplay": ".143",
+        "hr": 0,
+        "rbi": 3,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e24",
@@ -2002,7 +3340,153 @@
     ],
     "salaryManYen": 5000,
     "salaryNote": "推定5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🧢"
+    "photoEmoji": "🧢",
+    "statsHistory": [
+      {
+        "season": "2008",
+        "games": 1,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2010",
+        "games": 2,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2011",
+        "games": 66,
+        "avg": 0.156,
+        "avgDisplay": ".156",
+        "hr": 2,
+        "rbi": 11,
+        "stolenBases": 3
+      },
+      {
+        "season": "2012",
+        "games": 66,
+        "avg": 0.205,
+        "avgDisplay": ".205",
+        "hr": 0,
+        "rbi": 10,
+        "stolenBases": 0
+      },
+      {
+        "season": "2013",
+        "games": 137,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 3,
+        "rbi": 40,
+        "stolenBases": 4
+      },
+      {
+        "season": "2014",
+        "games": 137,
+        "avg": 0.257,
+        "avgDisplay": ".257",
+        "hr": 3,
+        "rbi": 48,
+        "stolenBases": 0
+      },
+      {
+        "season": "2015",
+        "games": 104,
+        "avg": 0.271,
+        "avgDisplay": ".271",
+        "hr": 1,
+        "rbi": 28,
+        "stolenBases": 0
+      },
+      {
+        "season": "2016",
+        "games": 80,
+        "avg": 0.241,
+        "avgDisplay": ".241",
+        "hr": 3,
+        "rbi": 15,
+        "stolenBases": 1
+      },
+      {
+        "season": "2017",
+        "games": 103,
+        "avg": 0.189,
+        "avgDisplay": ".189",
+        "hr": 5,
+        "rbi": 23,
+        "stolenBases": 0
+      },
+      {
+        "season": "2018",
+        "games": 54,
+        "avg": 0.177,
+        "avgDisplay": ".177",
+        "hr": 1,
+        "rbi": 11,
+        "stolenBases": 1
+      },
+      {
+        "season": "2019",
+        "games": 84,
+        "avg": 0.254,
+        "avgDisplay": ".254",
+        "hr": 8,
+        "rbi": 27,
+        "stolenBases": 5
+      },
+      {
+        "season": "2020",
+        "games": 30,
+        "avg": 0.216,
+        "avgDisplay": ".216",
+        "hr": 0,
+        "rbi": 6,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 53,
+        "avg": 0.213,
+        "avgDisplay": ".213",
+        "hr": 2,
+        "rbi": 13,
+        "stolenBases": 1
+      },
+      {
+        "season": "2022",
+        "games": 40,
+        "avg": 0.277,
+        "avgDisplay": ".277",
+        "hr": 0,
+        "rbi": 8,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 61,
+        "avg": 0.225,
+        "avgDisplay": ".225",
+        "hr": 1,
+        "rbi": 8,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 39,
+        "avg": 0.205,
+        "avgDisplay": ".205",
+        "hr": 1,
+        "rbi": 14,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "e25",
@@ -2067,7 +3551,45 @@
     ],
     "salaryManYen": 2700,
     "salaryNote": "推定2700万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🍁"
+    "photoEmoji": "🍁",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 25,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 1
+      },
+      {
+        "season": "2022",
+        "games": 48,
+        "avg": 0.129,
+        "avgDisplay": ".129",
+        "hr": 1,
+        "rbi": 2,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 41,
+        "avg": 0.167,
+        "avgDisplay": ".167",
+        "hr": 1,
+        "rbi": 2,
+        "stolenBases": 3
+      },
+      {
+        "season": "2024",
+        "games": 44,
+        "avg": 0.19,
+        "avgDisplay": ".190",
+        "hr": 0,
+        "rbi": 6,
+        "stolenBases": 3
+      }
+    ]
   },
   {
     "id": "e26",
@@ -2129,7 +3651,64 @@
     ],
     "salaryManYen": 4000,
     "salaryNote": "推定4000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🌀"
+    "photoEmoji": "🌀",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 8,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.4,
+        "eraDisplay": "3.40",
+        "strikeouts": 29,
+        "inningsPitched": 45.0
+      },
+      {
+        "season": "2021",
+        "games": 20,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.21,
+        "eraDisplay": "3.21",
+        "strikeouts": 75,
+        "inningsPitched": 103.2
+      },
+      {
+        "season": "2022",
+        "games": 15,
+        "wins": 2,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.62,
+        "eraDisplay": "4.62",
+        "strikeouts": 42,
+        "inningsPitched": 78.0
+      },
+      {
+        "season": "2023",
+        "games": 8,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.83,
+        "eraDisplay": "3.83",
+        "strikeouts": 18,
+        "inningsPitched": 42.1
+      },
+      {
+        "season": "2024",
+        "games": 12,
+        "wins": 4,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.16,
+        "eraDisplay": "4.16",
+        "strikeouts": 26,
+        "inningsPitched": 71.1
+      }
+    ]
   },
   {
     "id": "e27",
@@ -2192,7 +3771,42 @@
     ],
     "salaryManYen": 3700,
     "salaryNote": "推定3700万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🧭"
+    "photoEmoji": "🧭",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 24,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.66,
+        "eraDisplay": "2.66",
+        "strikeouts": 15,
+        "inningsPitched": 23.2
+      },
+      {
+        "season": "2023",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 81.0,
+        "eraDisplay": "81.00",
+        "strikeouts": 0,
+        "inningsPitched": 0.1
+      },
+      {
+        "season": "2024",
+        "games": 18,
+        "wins": 1,
+        "losses": 2,
+        "saves": 1,
+        "era": 7.5,
+        "eraDisplay": "7.50",
+        "strikeouts": 13,
+        "inningsPitched": 18.0
+      }
+    ]
   },
   {
     "id": "rakuten-101",
@@ -2263,7 +3877,54 @@
     "salaryManYen": 1600,
     "salaryNote": "推定1600万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "出身中学・シニア/ボーイズは京都市立向島東中学校／京都南山城ボーイズと確認できましたが、球団公式サイトには明記がなく高校野球専門メディア等の報道に基づく情報です。年俸は推定年俸集計サイトの数値を採用しました。",
-    "photoEmoji": "🧤"
+    "photoEmoji": "🧤",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 4,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 1
+      },
+      {
+        "season": "2019",
+        "games": 4,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 18,
+        "avg": 0.174,
+        "avgDisplay": ".174",
+        "hr": 0,
+        "rbi": 1,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 1,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 68,
+        "avg": 0.171,
+        "avgDisplay": ".171",
+        "hr": 4,
+        "rbi": 13,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "rakuten-102",
@@ -2350,7 +4011,63 @@
     "salaryManYen": 1900,
     "salaryNote": "推定1900万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "出身中学校の正式名称は確認できませんでした（三重県四日市市内で「四日市トップエースボーイズ」所属、東克樹投手の1学年後輩という情報のみ確認）。",
-    "photoEmoji": "🚲"
+    "photoEmoji": "🚲",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 21,
+        "avg": 0.288,
+        "avgDisplay": ".288",
+        "hr": 4,
+        "rbi": 7,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 5,
+        "avg": 0.286,
+        "avgDisplay": ".286",
+        "hr": 0,
+        "rbi": 1,
+        "stolenBases": 0
+      },
+      {
+        "season": "2021",
+        "games": 3,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 10,
+        "avg": 0.048,
+        "avgDisplay": ".048",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 87,
+        "avg": 0.245,
+        "avgDisplay": ".245",
+        "hr": 5,
+        "rbi": 16,
+        "stolenBases": 3
+      },
+      {
+        "season": "2024",
+        "games": 44,
+        "avg": 0.261,
+        "avgDisplay": ".261",
+        "hr": 2,
+        "rbi": 10,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "rakuten-103",
@@ -2428,7 +4145,63 @@
     "salaryManYen": 6000,
     "salaryNote": "推定6000万円（2026年、日刊スポーツ・スポーツ報知など2025年11月27日付報道。600万円減での契約更改）",
     "dataNote": "年俸は契約更改時の複数スポーツ紙報道に基づく推定額です。",
-    "photoEmoji": "🏃"
+    "photoEmoji": "🏃",
+    "statsHistory": [
+      {
+        "season": "2019",
+        "games": 22,
+        "avg": 0.172,
+        "avgDisplay": ".172",
+        "hr": 1,
+        "rbi": 4,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 58,
+        "avg": 0.295,
+        "avgDisplay": ".295",
+        "hr": 4,
+        "rbi": 12,
+        "stolenBases": 8
+      },
+      {
+        "season": "2021",
+        "games": 38,
+        "avg": 0.182,
+        "avgDisplay": ".182",
+        "hr": 2,
+        "rbi": 6,
+        "stolenBases": 1
+      },
+      {
+        "season": "2022",
+        "games": 10,
+        "avg": 0.167,
+        "avgDisplay": ".167",
+        "hr": 1,
+        "rbi": 2,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 120,
+        "avg": 0.262,
+        "avgDisplay": ".262",
+        "hr": 10,
+        "rbi": 49,
+        "stolenBases": 13
+      },
+      {
+        "season": "2024",
+        "games": 143,
+        "avg": 0.257,
+        "avgDisplay": ".257",
+        "hr": 7,
+        "rbi": 49,
+        "stolenBases": 32
+      }
+    ]
   },
   {
     "id": "rakuten-104",
@@ -2570,7 +4343,19 @@
       "2026年8月15日、ファームで打率.373と結果を残して1軍に再昇格。同月13日のオリックス戦を含め一塁・左翼で先発出場を重ね、移籍2年目でのレギュラー争いに名乗りを上げている。"
     ],
     "dataNote": "既存データの「2022年ドラフト4位」はドラフト会議の実施年（2021年10月）と入団年（2022年）が混同されていたとみられるため、「2021年ドラフト4位」に修正しました。年俸（2025年・2026年の推定額）は確認できませんでした。",
-    "photoEmoji": "🦸"
+    "photoEmoji": "🦸",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 4,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "rakuten-106",
@@ -2801,7 +4586,69 @@
       "artist": "藤井風"
     },
     "dataNote": "2026年の推定年俸は確認できませんでした。出身中学は東海大学付属翔洋高等学校中等部（学校の野球部）に在籍しており、地域のシニア/ボーイズクラブへの所属は確認できませんでした。",
-    "photoEmoji": "🐢"
+    "photoEmoji": "🐢",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 12,
+        "avg": 0.174,
+        "avgDisplay": ".174",
+        "hr": 0,
+        "rbi": 2,
+        "ops": 0.469,
+        "stolenBases": 1
+      },
+      {
+        "season": "2019",
+        "games": 65,
+        "avg": 0.156,
+        "avgDisplay": ".156",
+        "hr": 0,
+        "rbi": 13,
+        "ops": 0.407,
+        "stolenBases": 0
+      },
+      {
+        "season": "2020",
+        "games": 10,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2022",
+        "games": 5,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      },
+      {
+        "season": "2023",
+        "games": 3,
+        "avg": 0.5,
+        "avgDisplay": ".500",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 1.167,
+        "stolenBases": 0
+      },
+      {
+        "season": "2024",
+        "games": 4,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.0,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "rakuten-109",
@@ -2888,7 +4735,39 @@
       "artist": "ROSÉ"
     },
     "dataNote": "出身中学の正式な学校名は確認できませんでした（中学時代は「若松ダイナマイトクラブ」に所属していたことのみ確認）。甲子園出場の記録は確認できませんでした。2026年の推定年俸も確認できませんでした。",
-    "photoEmoji": "🎮"
+    "photoEmoji": "🎮",
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 44,
+        "avg": 0.105,
+        "avgDisplay": ".105",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.316,
+        "stolenBases": 4
+      },
+      {
+        "season": "2022",
+        "games": 43,
+        "avg": 0.25,
+        "avgDisplay": ".250",
+        "hr": 1,
+        "rbi": 9,
+        "ops": 0.698,
+        "stolenBases": 1
+      },
+      {
+        "season": "2024",
+        "games": 7,
+        "avg": 0.2,
+        "avgDisplay": ".200",
+        "hr": 0,
+        "rbi": 0,
+        "ops": 0.4,
+        "stolenBases": 0
+      }
+    ]
   },
   {
     "id": "rakuten-110",
@@ -3691,7 +5570,20 @@
     "salaryManYen": 3950,
     "salaryNote": "推定3950万円（2026年、スポーツ紙推定年俸集計）",
     "dataNote": "出身地は球団公式サイトに基づき「神奈川県横浜市保土ケ谷区」に補完しました（従来は「神奈川県」のみの記載）。",
-    "photoEmoji": "🦴"
+    "photoEmoji": "🦴",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 15,
+        "wins": 5,
+        "losses": 8,
+        "saves": 0,
+        "era": 4.32,
+        "eraDisplay": "4.32",
+        "strikeouts": 58,
+        "inningsPitched": 83.33
+      }
+    ]
   },
   {
     "id": "rakuten-122",
@@ -3772,7 +5664,31 @@
       "2025年10月29日に楽天から戦力外通告を受けた柴田は「1度クビになって、ショックと言うか『ああ、一回野球人生が終わってしまうかもしれないんだな』と思いました」と振り返る。しかしわずか16日後の11月14日に支配下契約での再契約が発表され、「またチャンスをいただけたことに感謝したいです」「また来年も楽天で野球ができるんだっていう喜びはすごく感じていましたね」と喜びを語った。",
       "日本体育大学時代に右肘を故障し公式戦登板のないまま4年時にトミー・ジョン手術を受けたが、日本通運1年目のリハビリを経て2021年8月のオープン戦で156km/hをマークして復活をアピール。同年10月のドラフト会議でヤクルトから3位指名を受けた。"
     ],
-    "photoEmoji": "🔥"
+    "photoEmoji": "🔥",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 9.0,
+        "eraDisplay": "9.00",
+        "strikeouts": 2,
+        "inningsPitched": 1
+      },
+      {
+        "season": "2024",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 2,
+        "inningsPitched": 2
+      }
+    ]
   },
   {
     "id": "rakuten-123",
@@ -3850,7 +5766,64 @@
     ],
     "salaryManYen": 8800,
     "salaryNote": "推定8800万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🛡️"
+    "photoEmoji": "🛡️",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 13.5,
+        "eraDisplay": "13.50",
+        "strikeouts": 1,
+        "inningsPitched": 1.33
+      },
+      {
+        "season": "2021",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 5,
+        "inningsPitched": 4.33
+      },
+      {
+        "season": "2022",
+        "games": 38,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.03,
+        "eraDisplay": "4.03",
+        "strikeouts": 35,
+        "inningsPitched": 38
+      },
+      {
+        "season": "2023",
+        "games": 61,
+        "wins": 1,
+        "losses": 1,
+        "saves": 1,
+        "era": 3.3,
+        "eraDisplay": "3.30",
+        "strikeouts": 47,
+        "inningsPitched": 43.67
+      },
+      {
+        "season": "2024",
+        "games": 49,
+        "wins": 2,
+        "losses": 0,
+        "saves": 1,
+        "era": 1.66,
+        "eraDisplay": "1.66",
+        "strikeouts": 48,
+        "inningsPitched": 48.67
+      }
+    ]
   },
   {
     "id": "rakuten-124",
@@ -3926,7 +5899,97 @@
     ],
     "salaryManYen": 10000,
     "salaryNote": "推定1億円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🇹🇼"
+    "photoEmoji": "🇹🇼",
+    "statsHistory": [
+      {
+        "season": "2017",
+        "games": 5,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 6,
+        "inningsPitched": 4.67
+      },
+      {
+        "season": "2018",
+        "games": 40,
+        "wins": 5,
+        "losses": 3,
+        "saves": 0,
+        "era": 1.73,
+        "eraDisplay": "1.73",
+        "strikeouts": 38,
+        "inningsPitched": 41.67
+      },
+      {
+        "season": "2019",
+        "games": 48,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.18,
+        "eraDisplay": "2.18",
+        "strikeouts": 40,
+        "inningsPitched": 45.33
+      },
+      {
+        "season": "2020",
+        "games": 38,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 6.94,
+        "eraDisplay": "6.94",
+        "strikeouts": 29,
+        "inningsPitched": 36.33
+      },
+      {
+        "season": "2021",
+        "games": 63,
+        "wins": 3,
+        "losses": 3,
+        "saves": 7,
+        "era": 2.23,
+        "eraDisplay": "2.23",
+        "strikeouts": 49,
+        "inningsPitched": 60.67
+      },
+      {
+        "season": "2022",
+        "games": 54,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.61,
+        "eraDisplay": "2.61",
+        "strikeouts": 38,
+        "inningsPitched": 51.67
+      },
+      {
+        "season": "2023",
+        "games": 49,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.89,
+        "eraDisplay": "2.89",
+        "strikeouts": 35,
+        "inningsPitched": 46.67
+      },
+      {
+        "season": "2024",
+        "games": 41,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.18,
+        "eraDisplay": "3.18",
+        "strikeouts": 22,
+        "inningsPitched": 39.67
+      }
+    ]
   },
   {
     "id": "rakuten-125",
@@ -4070,7 +6133,31 @@
     ],
     "salaryManYen": 1300,
     "salaryNote": "推定1300万円（2026年、楽天移籍後、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🎸"
+    "photoEmoji": "🎸",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 30,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 5.51,
+        "eraDisplay": "5.51",
+        "strikeouts": 41,
+        "inningsPitched": 32.67
+      },
+      {
+        "season": "2024",
+        "games": 3,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 4,
+        "inningsPitched": 4
+      }
+    ]
   },
   {
     "id": "rakuten-127",
@@ -4148,7 +6235,64 @@
     ],
     "salaryManYen": 1500,
     "salaryNote": "推定1500万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🩹"
+    "photoEmoji": "🩹",
+    "statsHistory": [
+      {
+        "season": "2020",
+        "games": 33,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.19,
+        "eraDisplay": "4.19",
+        "strikeouts": 24,
+        "inningsPitched": 34.33
+      },
+      {
+        "season": "2021",
+        "games": 11,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 5.06,
+        "eraDisplay": "5.06",
+        "strikeouts": 7,
+        "inningsPitched": 10.67
+      },
+      {
+        "season": "2022",
+        "games": 11,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 7,
+        "inningsPitched": 12
+      },
+      {
+        "season": "2023",
+        "games": 7,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.86,
+        "eraDisplay": "1.86",
+        "strikeouts": 7,
+        "inningsPitched": 9.67
+      },
+      {
+        "season": "2024",
+        "games": 14,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 6.85,
+        "eraDisplay": "6.85",
+        "strikeouts": 14,
+        "inningsPitched": 23.67
+      }
+    ]
   },
   {
     "id": "rakuten-128",
@@ -4308,7 +6452,53 @@
     ],
     "salaryManYen": 5000,
     "salaryNote": "推定5000万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🥷"
+    "photoEmoji": "🥷",
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.35,
+        "eraDisplay": "2.35",
+        "strikeouts": 3,
+        "inningsPitched": 7.67
+      },
+      {
+        "season": "2021",
+        "games": 33,
+        "wins": 5,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.28,
+        "eraDisplay": "3.28",
+        "strikeouts": 55,
+        "inningsPitched": 57.67
+      },
+      {
+        "season": "2022",
+        "games": 61,
+        "wins": 4,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.26,
+        "eraDisplay": "2.26",
+        "strikeouts": 59,
+        "inningsPitched": 55.67
+      },
+      {
+        "season": "2023",
+        "games": 26,
+        "wins": 0,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.56,
+        "eraDisplay": "4.56",
+        "strikeouts": 18,
+        "inningsPitched": 23.67
+      }
+    ]
   },
   {
     "id": "rakuten-130",
@@ -4383,7 +6573,20 @@
       "東海大学菅生高校では2年秋の東京都大会で4試合連続完投勝利を挙げて優勝、3年春の第95回センバツでは沖縄尚学相手に初戦を完封し2年ぶりの8強進出に貢献した。最速151km/hの直球を武器に2023年ドラフト会議で楽天から3位指名を受けた。",
       "2025年10月3日の埼玉西武戦、4対6とビハインドの9回表にチーム6番手として今季初の一軍マウンドに上がった日當は、渡部聖弥、児玉亮涼から連続三振を奪うなど三者凡退に抑えた。直後の9回裏に宗山塁のサヨナラ打などで7対6の逆転サヨナラ勝ちとなり、高卒2年目にしてプロ初勝利を記録した。"
     ],
-    "photoEmoji": "🔥"
+    "photoEmoji": "🔥",
+    "statsHistory": [
+      {
+        "season": "2024",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 1,
+        "inningsPitched": 1
+      }
+    ]
   },
   {
     "id": "rakuten-131",
@@ -4477,7 +6680,20 @@
     },
     "salaryManYen": 4700,
     "salaryNote": "推定4700万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "😄"
+    "photoEmoji": "😄",
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 4,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.38,
+        "eraDisplay": "3.38",
+        "strikeouts": 10,
+        "inningsPitched": 18.67
+      }
+    ]
   },
   {
     "id": "rakuten-132",
@@ -4701,6 +6917,30 @@
     ],
     "salaryManYen": 3600,
     "salaryNote": "推定3600万円（2026年、スポーツ紙推定年俸集計）",
-    "photoEmoji": "🛹"
+    "photoEmoji": "🛹",
+    "statsHistory": [
+      {
+        "season": "2023",
+        "games": 51,
+        "wins": 8,
+        "losses": 3,
+        "saves": 1,
+        "era": 2.4,
+        "eraDisplay": "2.40",
+        "strikeouts": 41,
+        "inningsPitched": 48.67
+      },
+      {
+        "season": "2024",
+        "games": 49,
+        "wins": 7,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.04,
+        "eraDisplay": "3.04",
+        "strikeouts": 41,
+        "inningsPitched": 47.33
+      }
+    ]
   }
 ]
