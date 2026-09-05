@@ -14,6 +14,7 @@
   var HIGHLIGHTS_GAME_DATE = null; // 上記「見どころ」がどの試合日のものか（YYYY-MM-DD）
   var HIGHLIGHTS_TEAM = null; // 上記「見どころ」がどの球団向けに取得したものか（球団切り替え時の一瞬の表示ズレ防止用）
   var legendsLoadPromise = null;
+  var swAutoReloadPending = false; // Service Worker自動更新→自動リロードを二重に走らせないためのフラグ
   var STANDINGS_DATA = null; // リーグ順位表・チーム成績（api/standings.jsで自動取得。リーグ全体のため球団非依存）
   var TODAY_STARTER_HOME = null; // 本日の実際の先発投手（ホーム球団側）。api/lineup.jsの確定スタメンから取得（{pitcherName, player}）
   var TODAY_STARTER_AWAY = null; // 本日の実際の先発投手（対戦相手側。今日の実際の対戦相手のぶん）
@@ -323,35 +324,44 @@
     forceCodeUpdateCheck();
   }
 
-  // 更新ボタンが押されたタイミングで、Service Workerに新しいバージョン（＝新しい
-  // CACHE_VERSION）が無いか確認する。見つかった場合、そのService Workerは
-  // install時に自動でskipWaiting()するようになっているので、まもなく有効化されて
-  // このページの「controllerchange」イベントが発火する。それを合図に、ユーザーが
-  // 何もしなくてもアプリ本体（JS/CSS）が最新の状態でページが再読み込みされる。
-  // ＝データだけでなく、コードの更新も更新ボタン1つで即座に反映されるようにする。
+  // Service Workerに新しいバージョン（＝新しいCACHE_VERSION）が無いか確認する。
+  // 見つかった場合、そのService Workerはinstall時に自動でskipWaiting()するように
+  // なっているので、まもなく有効化されてこのページの「controllerchange」イベントが
+  // 発火する。それを合図に、ユーザーが何もしなくてもアプリ本体（JS/CSS）とデータの
+  // 両方が最新の状態でページが再読み込みされる。
   //
-  // リスナーはこの1回の更新チェックのためだけに一時的に付け、既定時間（20秒）以内に
-  // 変化がなければ自動的に外す。そうしないと、ブラウザが自分のタイミングで行う
-  // バックグラウンドのService Worker更新チェック（更新ボタンとは無関係に発生しうる）
-  // まで拾ってしまい、ユーザーが何か入力中の画面が予期せず再読み込みされてしまう
-  // おそれがあるため。
+  // このリスナーはページ読み込み時に一度だけ、恒久的に登録する（以前は更新ボタンが
+  // 押された時だけ一時的に登録していたが、それだと「（ボタンを押さず）ただリロード
+  // しただけでは新しいバージョンがいつまでも反映されない」という不具合になっていた。
+  // ブラウザは既にこのページを制御しているService Workerを使い続け、新しい
+  // バージョンの確認・反映もブラウザ自身の裏側のタイミング任せになるため、明示的に
+  // ページを開くたび＝リロードのたびに更新確認を行わない限り、ヘッダーの「更新」
+  // ボタンを押さないと永久に古いコード・古いデータキャッシュのままになってしまう）。
+  function watchForServiceWorkerUpdates() {
+    if (!("serviceWorker" in navigator)) return;
+    // 「初回インストールでこのページを初めて制御し始めた」場合と「既存のService Workerが
+    // 新しいバージョンに入れ替わった」場合の両方でcontrollerchangeは発火する。前者
+    // （初回訪問）まで毎回リロードしてしまうと、初めて開いた人にまで無意味な
+    // 「新しいバージョンを読み込んでいます」の再読み込みが走ってしまうため、
+    // 「この時点で既に何らかのService Workerに制御されていたか」を先に記録しておき、
+    // 本当の意味での“更新”の時だけ自動リロードする。
+    var hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (!hadController || swAutoReloadPending) return;
+      swAutoReloadPending = true;
+      showToast("アプリの新しいバージョンを読み込んでいます…", 1500);
+      setTimeout(function () { window.location.reload(); }, 400);
+    });
+  }
+
+  // Service Workerに対して「今すぐ新しいバージョンが無いか確認して」と明示的に要求する。
+  // ページを開いた直後（boot）と、ヘッダーの更新ボタンを押した時の両方で呼ぶ。
+  // 新しいバージョンが見つかった場合の実際の反映（自動リロード）は上のwatchForServiceWorkerUpdates
+  // が担当するので、ここでは確認のトリガーを引くだけでよい。
   function forceCodeUpdateCheck() {
     if (!("serviceWorker" in navigator) || !navigator.serviceWorker.getRegistration) return;
     navigator.serviceWorker.getRegistration().then(function (reg) {
-      if (!reg) return;
-      var handled = false;
-      function onControllerChange() {
-        if (handled) return;
-        handled = true;
-        navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
-        showToast("アプリの新しいバージョンを読み込んでいます…", 1500);
-        setTimeout(function () { window.location.reload(); }, 400);
-      }
-      navigator.serviceWorker.addEventListener("controllerchange", onControllerChange);
-      setTimeout(function () {
-        if (!handled) navigator.serviceWorker.removeEventListener("controllerchange", onControllerChange);
-      }, 20000);
-      reg.update().catch(function () {});
+      if (reg) reg.update().catch(function () {});
     }).catch(function () {});
   }
 
@@ -1177,7 +1187,34 @@
 
     var bySurname = teamPlayers.filter(function (p) { return p.name && p.name.split(/[\s　]+/)[0] === scraped; });
     if (bySurname.length === 1) return { player: bySurname[0], reason: "ok" };
-    if (bySurname.length > 1) return { player: null, reason: "ambiguous-surname:" + bySurname.length }; // 同姓が複数：自動判定はせず未反映にする
+    // scraped自体が苗字とちょうど同じ（＝公式スタメン表が今回は苗字だけを表示した）場合の同姓衝突。
+    // 下の「苗字＋名前の頭文字」による解消はscrapedに苗字以上の文字が無いと働かないため、
+    // ここは本当に見分ける材料が無いケース＝自動判定を諦めるのが正しい。
+    if (bySurname.length > 1) return { player: null, reason: "ambiguous-surname:" + bySurname.length };
+
+    // 同姓の選手が同じ球団に複数いる場合、NPB公式のスタメン表では見分けるために苗字の後ろへ
+    // 名前の頭文字を1文字足して表示することがある（例：「清宮」が2人いれば「清宮幸」「清宮虎」）。
+    // 上のbySurnameは完全一致のみを見ているため、この「苗字＋1文字」形式では0件になってしまう。
+    // そこで、対象球団に同姓の選手が複数いて、scrapedがその苗字で始まっている場合に限り、
+    // 続く文字が名前（苗字の次の部分）の先頭と一致する選手を探す。1人だけに絞れた時のみ確定する
+    // （絞り込めない・0人・2人以上ならこれまで通り自動判定しない）。
+    var surnameGroups = {};
+    teamPlayers.forEach(function (p) {
+      if (!p.name) return;
+      var parts = p.name.split(/[\s　]+/);
+      var sn = parts[0];
+      if (!surnameGroups[sn]) surnameGroups[sn] = [];
+      surnameGroups[sn].push({ player: p, given: parts[1] || "" });
+    });
+    for (var sn in surnameGroups) {
+      var group = surnameGroups[sn];
+      if (group.length < 2) continue; // 同姓衝突が無ければ対象外（通常のbySurname/loose判定に任せる）
+      if (scraped.indexOf(sn) !== 0) continue; // scrapedがこの苗字から始まっていない
+      var extra = scraped.slice(sn.length);
+      if (!extra) continue;
+      var disambiguated = group.filter(function (g) { return g.given.indexOf(extra) === 0; });
+      if (disambiguated.length === 1) return { player: disambiguated[0].player, reason: "ok-surname-plus-initial" };
+    }
 
     var byFullName = teamPlayers.filter(function (p) { return p.name && p.name.replace(/[\s　]/g, "") === scraped; });
     if (byFullName.length === 1) return { player: byFullName[0], reason: "ok-fullname" };
@@ -1501,6 +1538,7 @@
     overlay: null, // { type: 'detail'|'connections'|'lineup'|'filters'|'settings'|'legend-detail', playerId?, legendId? }
     detailTab: "basic", // basic | other (選手詳細シート内のタブ)
     statsHistoryOpen: false, // 選手詳細シートの「過去のデータを見る」トグルが開いているか
+    legendStatsHistoryOpen: false, // レジェンド詳細シートの「過去のデータを見る」トグルが開いているか（選手側とは独立）
     homeTeam: initHomeTeam,
     opponentTeam: initOpponentTeam,
     lineup: null, // 下で loadLineup() により初期化
@@ -2200,7 +2238,7 @@
           (leg.activeYears ? '<span class="badge" style="background:var(--bg-sunken);color:var(--ink-dim);">' + esc(leg.activeYears) + "</span>" : "") +
         "</div>" +
         legendInfoGrid +
-        '<section><p class="section-label">自己ベストシーズン成績</p>' + statTable + "</section>" +
+        '<section><p class="section-label">自己ベストシーズン成績</p>' + statTable + legendStatsHistoryToggleHtml(leg) + "</section>" +
         battingExtra +
         legendTimeline +
         teamHistoryHtml +
@@ -2636,8 +2674,27 @@
     }
     return notes.join("・");
   }
+  // シーズンの出場/登板試合数が「その選手にしては少ない」と言える目安。フルシーズンの目安を
+  // 投手は20試合、野手は80試合とし、その半分未満なら「少ない」とみなして注記の対象にする
+  // （NPBは143試合制。これはあくまで注記を出す/出さないの足切り値であり、statsHistory自体の
+  // 数値には一切手を加えない）。
+  var LOW_GAMES_THRESHOLD = { pitcher: 10, batter: 40 };
+  // シーズンの試合数が少ない理由（故障／調整など）。既に選手データに実在する情報からのみ
+  // 導出し、裏付けの無い理由は書かない＝該当データが無いシーズンは何も表示しない。
+  // s.gamesNote（例:"右肘の手術によりシーズンの大半を離脱"）に理由が入っていればそれを使う。
+  function lowGamesNote(p, s, pitcher) {
+    if (s.games == null) return "";
+    var threshold = pitcher ? LOW_GAMES_THRESHOLD.pitcher : LOW_GAMES_THRESHOLD.batter;
+    if (s.games >= threshold) return "";
+    return s.gamesNote || "";
+  }
+  // そのシーズンがどの球団時代のものか。statsHistory側にteamが無い場合（今季・前年成績側の
+  // データにはteamを持たせていない）は選手の現在の所属球団として扱う。
+  function seasonTeamLabel(p, s) {
+    return s.team || p.currentTeamName || "";
+  }
   // 「過去のデータを見る」トグル＋年度別成績表（数値＋節目シーズンのコメント）。statsHistoryが
-  // 無い選手（今のところ楽天以外）では何も出さない。
+  // 無い選手（今のところ楽天・日本ハム・巨人・阪神の一部選手のみ）では何も出さない。
   function statsHistoryToggleHtml(p) {
     var timeline = combinedStatsTimeline(p);
     if (!p.statsHistory || !p.statsHistory.length || timeline.length < 2) return "";
@@ -2657,6 +2714,12 @@
           "</div>" +
           timeline.map(function (s) {
             var note = seasonMilestoneNote(p, s.season, timeline, mainField, pitcher);
+            var gamesNote = lowGamesNote(p, s, pitcher);
+            var metaBits = [];
+            if (s.games != null) metaBits.push((pitcher ? "登板" : "出場") + s.games + "試合");
+            if (!pitcher && s.ops != null) metaBits.push("OPS " + s.ops.toFixed(3));
+            var teamLabel = seasonTeamLabel(p, s);
+            if (teamLabel) metaBits.push(teamLabel);
             return (
               '<div class="stats-history-season">' +
                 '<div class="stats-history-row">' +
@@ -2670,6 +2733,8 @@
                     return "<span>" + esc(val != null ? String(val) : "-") + "</span>";
                   }).join("") +
                 "</div>" +
+                (metaBits.length ? '<p class="stats-history-meta">' + esc(metaBits.join(" ・ ")) + "</p>" : "") +
+                (gamesNote ? '<p class="stats-history-note stats-history-note-caution">' + icon("info", 10) + esc(gamesNote) + "</p>" : "") +
                 (note ? '<p class="stats-history-note">' + icon("sparkles", 10) + esc(note) + "</p>" : "") +
               "</div>"
             );
@@ -2678,6 +2743,68 @@
     }
     return (
       '<button class="stats-history-toggle" data-action="toggle-stats-history" data-id="' + p.id + '">' +
+        "<span>" + esc(timeline[0].season) + "年〜" + esc(timeline[timeline.length - 1].season) + "年の過去のデータを" + (open ? "閉じる" : "見る") + "</span>" +
+        icon(open ? "chevronUp" : "chevronDown", 15) +
+      "</button>" +
+      tableHtml
+    );
+  }
+
+  // レジェンド版の「過去のデータ」トグル＋年度別成績表。現役選手用のstatsHistoryToggleHtmlと
+  // ほぼ同じ仕組みだが、(a) 投手判定がleg.isPitcher（現役選手のposition文字列ではない）、
+  // (b) 開閉状態を別のstate.legendStatsHistoryOpenで管理（選手詳細シートのトグルと混線させない）、
+  // という2点だけが異なる。combinedStatsTimeline/lowGamesNote/seasonTeamLabel/seasonMilestoneNoteは
+  // どれも「statsHistory配列＋任意フィールド」だけを見る作りなので、レジェンドのデータ（
+  // lastSeasonStats/currentStatsを持たずstatsHistoryのみ）にもそのまま使える。
+  // statsHistoryが調査済みのレジェンド（一部）でのみ表示され、未調査のレジェンドでは何も出さない。
+  function legendStatsHistoryToggleHtml(leg) {
+    var timeline = combinedStatsTimeline(leg);
+    if (!leg.statsHistory || !leg.statsHistory.length || timeline.length < 2) return "";
+    var open = !!state.legendStatsHistoryOpen;
+    var pitcher = !!leg.isPitcher;
+    var mainField = pitcher ? "era" : "avg";
+    var rows = pitcher
+      ? [["防御率", "eraDisplay"], ["勝-敗", null], ["奪三振", "strikeouts"]]
+      : [["打率", "avgDisplay"], ["本塁打", "hr"], ["打点", "rbi"]];
+    var tableHtml = "";
+    if (open) {
+      tableHtml =
+        '<div class="stats-history-table">' +
+          '<div class="stats-history-row stats-history-head">' +
+            '<span class="stats-history-yr">年度</span>' +
+            rows.map(function (r) { return "<span>" + esc(r[0]) + "</span>"; }).join("") +
+          "</div>" +
+          timeline.map(function (s) {
+            var note = seasonMilestoneNote(leg, s.season, timeline, mainField, pitcher);
+            var gamesNote = lowGamesNote(leg, s, pitcher);
+            var metaBits = [];
+            if (s.games != null) metaBits.push((pitcher ? "登板" : "出場") + s.games + "試合");
+            if (!pitcher && s.ops != null) metaBits.push("OPS " + s.ops.toFixed(3));
+            var teamLabel = seasonTeamLabel(leg, s);
+            if (teamLabel) metaBits.push(teamLabel);
+            return (
+              '<div class="stats-history-season">' +
+                '<div class="stats-history-row">' +
+                  '<span class="stats-history-yr">' + esc(s.season) + "</span>" +
+                  rows.map(function (r) {
+                    if (r[1] == null) {
+                      var v = (s.wins != null && s.losses != null) ? (s.wins + "-" + s.losses) : "-";
+                      return "<span>" + esc(v) + "</span>";
+                    }
+                    var val = s[r[1]];
+                    return "<span>" + esc(val != null ? String(val) : "-") + "</span>";
+                  }).join("") +
+                "</div>" +
+                (metaBits.length ? '<p class="stats-history-meta">' + esc(metaBits.join(" ・ ")) + "</p>" : "") +
+                (gamesNote ? '<p class="stats-history-note stats-history-note-caution">' + icon("info", 10) + esc(gamesNote) + "</p>" : "") +
+                (note ? '<p class="stats-history-note">' + icon("sparkles", 10) + esc(note) + "</p>" : "") +
+              "</div>"
+            );
+          }).join("") +
+        "</div>";
+    }
+    return (
+      '<button class="stats-history-toggle" data-action="toggle-legend-stats-history" data-id="' + leg.id + '">' +
         "<span>" + esc(timeline[0].season) + "年〜" + esc(timeline[timeline.length - 1].season) + "年の過去のデータを" + (open ? "閉じる" : "見る") + "</span>" +
         icon(open ? "chevronUp" : "chevronDown", 15) +
       "</button>" +
@@ -3762,6 +3889,10 @@
       state.legendComparePlayerId = null;
       state.legendComparePickerOpen = false;
       state.legendComparePickerQuery = "";
+      state.legendStatsHistoryOpen = false;
+      renderOverlay();
+    } else if (action === "toggle-legend-stats-history") {
+      state.legendStatsHistoryOpen = !state.legendStatsHistoryOpen;
       renderOverlay();
     } else if (action === "set-legend-category") {
       state.legendCategoryFilter = key;
@@ -3788,6 +3919,10 @@
      ホーム球団ぶんのデータ＋共通データ（つながり・日程・ニュース）の取得を待ってから初回描画。
      残り11球団は裏で取得し、揃い次第マージして再描画する（loadRemainingTeamsInBackground）。 */
   function boot() {
+    // 「リロードしても最新版にならない」を防ぐため、起動のたびに必ずService Workerの
+    // 更新確認を行う（詳細はforceCodeUpdateCheck / watchForServiceWorkerUpdatesのコメント参照）。
+    watchForServiceWorkerUpdates();
+    forceCodeUpdateCheck();
     var homeTeamName = loadHomeTeam();
     var homeTeamId = TEAM_ID_MAP[homeTeamName] || TEAM_ID_MAP[DEFAULT_HOME_TEAM];
     // 「見どころ」は前回取得できたぶんがあれば、通信を待たずまず即表示する

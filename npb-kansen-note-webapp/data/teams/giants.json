@@ -79,7 +79,8 @@
         "era": 2.08,
         "eraDisplay": "2.08",
         "strikeouts": 11,
-        "inningsPitched": 8.2
+        "inningsPitched": 8.2,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -90,7 +91,8 @@
         "era": 2.76,
         "eraDisplay": "2.76",
         "strikeouts": 106,
-        "inningsPitched": 107.2
+        "inningsPitched": 107.2,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -101,7 +103,8 @@
         "era": 4.27,
         "eraDisplay": "4.27",
         "strikeouts": 138,
-        "inningsPitched": 151.2
+        "inningsPitched": 151.2,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -112,7 +115,8 @@
         "era": 2.62,
         "eraDisplay": "2.62",
         "strikeouts": 154,
-        "inningsPitched": 171.2
+        "inningsPitched": 171.2,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -123,7 +127,8 @@
         "era": 2.38,
         "eraDisplay": "2.38",
         "strikeouts": 141,
-        "inningsPitched": 170.0
+        "inningsPitched": 170.0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -134,7 +139,8 @@
         "era": 1.95,
         "eraDisplay": "1.95",
         "strikeouts": 156,
-        "inningsPitched": 180.0
+        "inningsPitched": 180.0,
+        "team": "巨人"
       }
     ]
   },
@@ -213,7 +219,8 @@
         "era": 6.0,
         "eraDisplay": "6.00",
         "strikeouts": 27,
-        "inningsPitched": 28.0
+        "inningsPitched": 28.0,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -224,7 +231,8 @@
         "era": 10.95,
         "eraDisplay": "10.95",
         "strikeouts": 11,
-        "inningsPitched": 12.1
+        "inningsPitched": 12.1,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -235,7 +243,8 @@
         "era": 2.76,
         "eraDisplay": "2.76",
         "strikeouts": 99,
-        "inningsPitched": 101.0
+        "inningsPitched": 101.0,
+        "team": "巨人"
       }
     ]
   },
@@ -312,7 +321,8 @@
         "era": 3.14,
         "eraDisplay": "3.14",
         "strikeouts": 55,
-        "inningsPitched": 97.1
+        "inningsPitched": 97.1,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -323,7 +333,8 @@
         "era": 2.72,
         "eraDisplay": "2.72",
         "strikeouts": 106,
-        "inningsPitched": 149.0
+        "inningsPitched": 149.0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -334,7 +345,8 @@
         "era": 2.81,
         "eraDisplay": "2.81",
         "strikeouts": 103,
-        "inningsPitched": 147.1
+        "inningsPitched": 147.1,
+        "team": "巨人"
       }
     ]
   },
@@ -452,7 +464,8 @@
         "era": 3.36,
         "eraDisplay": "3.36",
         "strikeouts": 58,
-        "inningsPitched": 72.1
+        "inningsPitched": 72.1,
+        "team": "中日"
       },
       {
         "season": "2017",
@@ -463,7 +476,8 @@
         "era": 4.84,
         "eraDisplay": "4.84",
         "strikeouts": 105,
-        "inningsPitched": 119.0
+        "inningsPitched": 119.0,
+        "team": "中日"
       },
       {
         "season": "2018",
@@ -474,7 +488,8 @@
         "era": 4.11,
         "eraDisplay": "4.11",
         "strikeouts": 73,
-        "inningsPitched": 107.1
+        "inningsPitched": 107.1,
+        "team": "中日"
       },
       {
         "season": "2019",
@@ -485,7 +500,9 @@
         "era": 2.56,
         "eraDisplay": "2.56",
         "strikeouts": 32,
-        "inningsPitched": 38.2
+        "inningsPitched": 38.2,
+        "team": "中日",
+        "gamesNote": "左肘手術からの回復途上に左肩痛を発症し、復帰が大幅に遅れた"
       },
       {
         "season": "2020",
@@ -496,7 +513,8 @@
         "era": 7.11,
         "eraDisplay": "7.11",
         "strikeouts": 16,
-        "inningsPitched": 19.0
+        "inningsPitched": 19.0,
+        "team": "中日"
       },
       {
         "season": "2021",
@@ -507,7 +525,8 @@
         "era": 3.64,
         "eraDisplay": "3.64",
         "strikeouts": 115,
-        "inningsPitched": 143.1
+        "inningsPitched": 143.1,
+        "team": "中日"
       },
       {
         "season": "2022",
@@ -518,7 +537,8 @@
         "era": 2.76,
         "eraDisplay": "2.76",
         "strikeouts": 142,
-        "inningsPitched": 146.2
+        "inningsPitched": 146.2,
+        "team": "中日"
       },
       {
         "season": "2023",
@@ -529,7 +549,8 @@
         "era": 3.59,
         "eraDisplay": "3.59",
         "strikeouts": 134,
-        "inningsPitched": 160.2
+        "inningsPitched": 160.2,
+        "team": "中日"
       },
       {
         "season": "2024",
@@ -540,7 +561,8 @@
         "era": 3.12,
         "eraDisplay": "3.12",
         "strikeouts": 82,
-        "inningsPitched": 144.1
+        "inningsPitched": 144.1,
+        "team": "中日"
       }
     ]
   },
@@ -618,7 +640,8 @@
         "era": 2.05,
         "eraDisplay": "2.05",
         "strikeouts": 60,
-        "inningsPitched": 57.0
+        "inningsPitched": 57.0,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -629,7 +652,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 34,
-        "inningsPitched": 26.0
+        "inningsPitched": 26.0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -640,7 +664,8 @@
         "era": 0.88,
         "eraDisplay": "0.88",
         "strikeouts": 54,
-        "inningsPitched": 41.0
+        "inningsPitched": 41.0,
+        "team": "巨人"
       }
     ]
   },
@@ -713,7 +738,8 @@
         "era": 9.0,
         "eraDisplay": "9.00",
         "strikeouts": 1,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -724,7 +750,8 @@
         "era": 4.82,
         "eraDisplay": "4.82",
         "strikeouts": 8,
-        "inningsPitched": 18.2
+        "inningsPitched": 18.2,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -735,7 +762,8 @@
         "era": 5.4,
         "eraDisplay": "5.40",
         "strikeouts": 4,
-        "inningsPitched": 8.1
+        "inningsPitched": 8.1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -746,7 +774,8 @@
         "era": 11.25,
         "eraDisplay": "11.25",
         "strikeouts": 2,
-        "inningsPitched": 4.0
+        "inningsPitched": 4.0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -824,7 +853,8 @@
         "era": 6.65,
         "eraDisplay": "6.65",
         "strikeouts": 14,
-        "inningsPitched": 21.2
+        "inningsPitched": 21.2,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -835,7 +865,8 @@
         "era": 2.66,
         "eraDisplay": "2.66",
         "strikeouts": 48,
-        "inningsPitched": 40.2
+        "inningsPitched": 40.2,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -846,7 +877,8 @@
         "era": 1.13,
         "eraDisplay": "1.13",
         "strikeouts": 49,
-        "inningsPitched": 40.0
+        "inningsPitched": 40.0,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -857,7 +889,8 @@
         "era": 2.06,
         "eraDisplay": "2.06",
         "strikeouts": 59,
-        "inningsPitched": 48.0
+        "inningsPitched": 48.0,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -868,7 +901,8 @@
         "era": 0.97,
         "eraDisplay": "0.97",
         "strikeouts": 62,
-        "inningsPitched": 55.2
+        "inningsPitched": 55.2,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -879,7 +913,8 @@
         "era": 0.39,
         "eraDisplay": "0.39",
         "strikeouts": 62,
-        "inningsPitched": 46.2
+        "inningsPitched": 46.2,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -890,7 +925,8 @@
         "era": 1.09,
         "eraDisplay": "1.09",
         "strikeouts": 59,
-        "inningsPitched": 58.0
+        "inningsPitched": 58.0,
+        "team": "巨人"
       }
     ]
   },
@@ -976,7 +1012,8 @@
         "hr": 4,
         "rbi": 17,
         "ops": 0.715,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -986,7 +1023,8 @@
         "hr": 6,
         "rbi": 30,
         "ops": 0.718,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -996,7 +1034,8 @@
         "hr": 9,
         "rbi": 41,
         "ops": 0.751,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -1006,7 +1045,8 @@
         "hr": 11,
         "rbi": 37,
         "ops": 0.66,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -1016,7 +1056,8 @@
         "hr": 13,
         "rbi": 43,
         "ops": 0.755,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -1026,7 +1067,8 @@
         "hr": 16,
         "rbi": 55,
         "ops": 0.787,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -1036,7 +1078,8 @@
         "hr": 3,
         "rbi": 27,
         "ops": 0.676,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       }
     ]
   },
@@ -1109,7 +1152,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -1119,7 +1163,8 @@
         "hr": 1,
         "rbi": 5,
         "ops": 0.782,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -1129,7 +1174,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.523,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -1139,7 +1185,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.573,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -1149,7 +1196,8 @@
         "hr": 2,
         "rbi": 3,
         "ops": 0.65,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -1159,7 +1207,8 @@
         "hr": 4,
         "rbi": 26,
         "ops": 0.618,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人"
       }
     ]
   },
@@ -1382,7 +1431,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.667,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       },
       {
         "season": "2008",
@@ -1392,7 +1442,8 @@
         "hr": 8,
         "rbi": 43,
         "ops": 0.65,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "巨人"
       },
       {
         "season": "2009",
@@ -1402,7 +1453,8 @@
         "hr": 18,
         "rbi": 62,
         "ops": 0.823,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "巨人"
       },
       {
         "season": "2010",
@@ -1412,7 +1464,8 @@
         "hr": 31,
         "rbi": 85,
         "ops": 0.836,
-        "stolenBases": 14
+        "stolenBases": 14,
+        "team": "巨人"
       },
       {
         "season": "2011",
@@ -1422,7 +1475,8 @@
         "hr": 16,
         "rbi": 59,
         "ops": 0.714,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "巨人"
       },
       {
         "season": "2012",
@@ -1432,7 +1486,8 @@
         "hr": 14,
         "rbi": 69,
         "ops": 0.815,
-        "stolenBases": 16
+        "stolenBases": 16,
+        "team": "巨人"
       },
       {
         "season": "2013",
@@ -1442,7 +1497,8 @@
         "hr": 12,
         "rbi": 54,
         "ops": 0.728,
-        "stolenBases": 24
+        "stolenBases": 24,
+        "team": "巨人"
       },
       {
         "season": "2014",
@@ -1452,7 +1508,8 @@
         "hr": 16,
         "rbi": 61,
         "ops": 0.764,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "巨人"
       },
       {
         "season": "2015",
@@ -1462,7 +1519,8 @@
         "hr": 12,
         "rbi": 68,
         "ops": 0.754,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "巨人"
       },
       {
         "season": "2016",
@@ -1472,7 +1530,8 @@
         "hr": 23,
         "rbi": 75,
         "ops": 0.988,
-        "stolenBases": 13
+        "stolenBases": 13,
+        "team": "巨人"
       },
       {
         "season": "2017",
@@ -1482,7 +1541,8 @@
         "hr": 15,
         "rbi": 61,
         "ops": 0.802,
-        "stolenBases": 14
+        "stolenBases": 14,
+        "team": "巨人"
       },
       {
         "season": "2018",
@@ -1492,7 +1552,8 @@
         "hr": 18,
         "rbi": 67,
         "ops": 0.962,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -1502,7 +1563,8 @@
         "hr": 40,
         "rbi": 94,
         "ops": 0.971,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -1512,7 +1574,8 @@
         "hr": 19,
         "rbi": 65,
         "ops": 0.879,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -1522,7 +1585,8 @@
         "hr": 19,
         "rbi": 46,
         "ops": 0.826,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -1532,7 +1596,8 @@
         "hr": 5,
         "rbi": 33,
         "ops": 0.759,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -1542,7 +1607,8 @@
         "hr": 22,
         "rbi": 60,
         "ops": 0.884,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -1552,7 +1618,8 @@
         "hr": 7,
         "rbi": 34,
         "ops": 0.613,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       }
     ]
   },
@@ -1637,7 +1704,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.545,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       },
       {
         "season": "2018",
@@ -1647,7 +1715,8 @@
         "hr": 4,
         "rbi": 29,
         "ops": 0.665,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -1657,7 +1726,9 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.846,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人",
+        "gamesNote": "春季キャンプから続く腰痛が悪化し4月に登録抹消、長期離脱となった"
       },
       {
         "season": "2020",
@@ -1667,7 +1738,8 @@
         "hr": 8,
         "rbi": 32,
         "ops": 0.734,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -1677,7 +1749,8 @@
         "hr": 5,
         "rbi": 25,
         "ops": 0.683,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -1687,7 +1760,8 @@
         "hr": 7,
         "rbi": 31,
         "ops": 0.708,
-        "stolenBases": 16
+        "stolenBases": 16,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -1697,7 +1771,8 @@
         "hr": 7,
         "rbi": 36,
         "ops": 0.676,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -1707,7 +1782,8 @@
         "hr": 5,
         "rbi": 46,
         "ops": 0.718,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "巨人"
       }
     ]
   },
@@ -1784,7 +1860,8 @@
         "hr": 1,
         "rbi": 9,
         "ops": 0.549,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       }
     ]
   },
@@ -2121,7 +2198,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.385,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "広島"
       },
       {
         "season": "2011",
@@ -2131,7 +2209,8 @@
         "hr": 9,
         "rbi": 50,
         "ops": 0.678,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "広島"
       },
       {
         "season": "2012",
@@ -2141,7 +2220,8 @@
         "hr": 4,
         "rbi": 22,
         "ops": 0.707,
-        "stolenBases": 14
+        "stolenBases": 14,
+        "team": "広島"
       },
       {
         "season": "2013",
@@ -2151,7 +2231,8 @@
         "hr": 14,
         "rbi": 58,
         "ops": 0.801,
-        "stolenBases": 29
+        "stolenBases": 29,
+        "team": "広島"
       },
       {
         "season": "2014",
@@ -2161,7 +2242,8 @@
         "hr": 19,
         "rbi": 67,
         "ops": 0.91,
-        "stolenBases": 26
+        "stolenBases": 26,
+        "team": "広島"
       },
       {
         "season": "2015",
@@ -2171,7 +2253,8 @@
         "hr": 19,
         "rbi": 63,
         "ops": 0.774,
-        "stolenBases": 15
+        "stolenBases": 15,
+        "team": "広島"
       },
       {
         "season": "2016",
@@ -2181,7 +2264,8 @@
         "hr": 20,
         "rbi": 90,
         "ops": 0.87,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "広島"
       },
       {
         "season": "2017",
@@ -2191,7 +2275,8 @@
         "hr": 23,
         "rbi": 92,
         "ops": 0.903,
-        "stolenBases": 13
+        "stolenBases": 13,
+        "team": "広島"
       },
       {
         "season": "2018",
@@ -2201,7 +2286,8 @@
         "hr": 39,
         "rbi": 97,
         "ops": 1.096,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "広島"
       },
       {
         "season": "2019",
@@ -2211,7 +2297,8 @@
         "hr": 27,
         "rbi": 89,
         "ops": 0.884,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -2221,7 +2308,8 @@
         "hr": 27,
         "rbi": 77,
         "ops": 0.928,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -2231,7 +2319,8 @@
         "hr": 23,
         "rbi": 55,
         "ops": 0.86,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -2241,7 +2330,8 @@
         "hr": 27,
         "rbi": 65,
         "ops": 0.859,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -2251,7 +2341,8 @@
         "hr": 18,
         "rbi": 47,
         "ops": 0.729,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -2261,7 +2352,8 @@
         "hr": 14,
         "rbi": 45,
         "ops": 0.756,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "巨人"
       }
     ]
   },
@@ -2344,7 +2436,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2015",
@@ -2354,7 +2447,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.523,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -2364,7 +2458,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.524,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -2374,7 +2469,8 @@
         "hr": 5,
         "rbi": 33,
         "ops": 0.667,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -2384,7 +2480,8 @@
         "hr": 1,
         "rbi": 9,
         "ops": 0.563,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -2394,7 +2491,9 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.667,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "gamesNote": "7月に右変形性肘関節症と診断されて手術を受け、シーズンを棒に振った"
       },
       {
         "season": "2020",
@@ -2404,7 +2503,8 @@
         "hr": 1,
         "rbi": 11,
         "ops": 0.533,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -2414,7 +2514,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.616,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -2424,7 +2525,8 @@
         "hr": 3,
         "rbi": 44,
         "ops": 0.836,
-        "stolenBases": 21
+        "stolenBases": 21,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -2434,7 +2536,8 @@
         "hr": 3,
         "rbi": 30,
         "ops": 0.665,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -2444,7 +2547,8 @@
         "hr": 1,
         "rbi": 19,
         "ops": 0.568,
-        "stolenBases": 20
+        "stolenBases": 20,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2517,7 +2621,8 @@
         "hr": 0,
         "rbi": 6,
         "ops": 0.554,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人"
       }
     ]
   },
@@ -2603,7 +2708,8 @@
         "era": 4.04,
         "eraDisplay": "4.04",
         "strikeouts": 52,
-        "inningsPitched": 78
+        "inningsPitched": 78,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -2614,7 +2720,8 @@
         "era": 3.39,
         "eraDisplay": "3.39",
         "strikeouts": 64,
-        "inningsPitched": 69
+        "inningsPitched": 69,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -2625,7 +2732,8 @@
         "era": 3.12,
         "eraDisplay": "3.12",
         "strikeouts": 43,
-        "inningsPitched": 75
+        "inningsPitched": 75,
+        "team": "巨人"
       }
     ]
   },
@@ -2775,7 +2883,8 @@
         "era": 1.96,
         "eraDisplay": "1.96",
         "strikeouts": 18,
-        "inningsPitched": 18.1
+        "inningsPitched": 18.1,
+        "team": "ソフトバンク"
       },
       {
         "season": "2020",
@@ -2786,7 +2895,8 @@
         "era": 2.08,
         "eraDisplay": "2.08",
         "strikeouts": 28,
-        "inningsPitched": 34.2
+        "inningsPitched": 34.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2021",
@@ -2797,7 +2907,8 @@
         "era": 2.73,
         "eraDisplay": "2.73",
         "strikeouts": 30,
-        "inningsPitched": 26.1
+        "inningsPitched": 26.1,
+        "team": "ソフトバンク"
       },
       {
         "season": "2022",
@@ -2808,7 +2919,8 @@
         "era": 3.72,
         "eraDisplay": "3.72",
         "strikeouts": 25,
-        "inningsPitched": 29.0
+        "inningsPitched": 29.0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2023",
@@ -2819,7 +2931,9 @@
         "era": 16.88,
         "eraDisplay": "16.88",
         "strikeouts": 2,
-        "inningsPitched": 2.2
+        "inningsPitched": 2.2,
+        "team": "ソフトバンク",
+        "gamesNote": "右人差し指の蜂窩織炎で離脱、復帰後も制球難が続き3試合で二軍降格となった"
       },
       {
         "season": "2024",
@@ -2830,7 +2944,8 @@
         "era": 1.93,
         "eraDisplay": "1.93",
         "strikeouts": 30,
-        "inningsPitched": 37.1
+        "inningsPitched": 37.1,
+        "team": "巨人"
       }
     ]
   },
@@ -2916,7 +3031,8 @@
         "era": 8.44,
         "eraDisplay": "8.44",
         "strikeouts": 3,
-        "inningsPitched": 5.1
+        "inningsPitched": 5.1,
+        "team": "DeNA"
       },
       {
         "season": "2023",
@@ -2927,7 +3043,8 @@
         "era": 1.97,
         "eraDisplay": "1.97",
         "strikeouts": 34,
-        "inningsPitched": 32.0
+        "inningsPitched": 32.0,
+        "team": "DeNA"
       },
       {
         "season": "2024",
@@ -2938,7 +3055,8 @@
         "era": 1.93,
         "eraDisplay": "1.93",
         "strikeouts": 8,
-        "inningsPitched": 14.0
+        "inningsPitched": 14.0,
+        "team": "DeNA"
       }
     ]
   },
@@ -3031,7 +3149,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 1,
-        "inningsPitched": 1.0
+        "inningsPitched": 1.0,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -3042,7 +3161,8 @@
         "era": 5.71,
         "eraDisplay": "5.71",
         "strikeouts": 6,
-        "inningsPitched": 17.1
+        "inningsPitched": 17.1,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -3053,7 +3173,8 @@
         "era": 16.2,
         "eraDisplay": "16.20",
         "strikeouts": 0,
-        "inningsPitched": 3.1
+        "inningsPitched": 3.1,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -3064,7 +3185,8 @@
         "era": 3.38,
         "eraDisplay": "3.38",
         "strikeouts": 4,
-        "inningsPitched": 5.1
+        "inningsPitched": 5.1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -3075,7 +3197,8 @@
         "era": 2.35,
         "eraDisplay": "2.35",
         "strikeouts": 6,
-        "inningsPitched": 7.2
+        "inningsPitched": 7.2,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -3086,7 +3209,8 @@
         "era": 3.09,
         "eraDisplay": "3.09",
         "strikeouts": 11,
-        "inningsPitched": 11.2
+        "inningsPitched": 11.2,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -3097,7 +3221,8 @@
         "era": 3.18,
         "eraDisplay": "3.18",
         "strikeouts": 6,
-        "inningsPitched": 11.1
+        "inningsPitched": 11.1,
+        "team": "日本ハム"
       }
     ]
   },
@@ -3180,7 +3305,8 @@
         "era": 5.4,
         "eraDisplay": "5.40",
         "strikeouts": 15,
-        "inningsPitched": 16.2
+        "inningsPitched": 16.2,
+        "team": "巨人"
       }
     ]
   },
@@ -3271,7 +3397,8 @@
         "era": 1.03,
         "eraDisplay": "1.03",
         "strikeouts": 48,
-        "inningsPitched": 43.2
+        "inningsPitched": 43.2,
+        "team": "巨人"
       },
       {
         "season": "2018",
@@ -3282,7 +3409,8 @@
         "era": 2.44,
         "eraDisplay": "2.44",
         "strikeouts": 53,
-        "inningsPitched": 48.0
+        "inningsPitched": 48.0,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -3293,7 +3421,8 @@
         "era": 2.3,
         "eraDisplay": "2.30",
         "strikeouts": 41,
-        "inningsPitched": 31.1
+        "inningsPitched": 31.1,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -3304,7 +3433,8 @@
         "era": 1.93,
         "eraDisplay": "1.93",
         "strikeouts": 37,
-        "inningsPitched": 37.1
+        "inningsPitched": 37.1,
+        "team": "楽天→巨人"
       },
       {
         "season": "2021",
@@ -3315,7 +3445,8 @@
         "era": 3.69,
         "eraDisplay": "3.69",
         "strikeouts": 47,
-        "inningsPitched": 39.0
+        "inningsPitched": 39.0,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -3326,7 +3457,8 @@
         "era": 2.14,
         "eraDisplay": "2.14",
         "strikeouts": 44,
-        "inningsPitched": 46.1
+        "inningsPitched": 46.1,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -3337,7 +3469,8 @@
         "era": 4.19,
         "eraDisplay": "4.19",
         "strikeouts": 49,
-        "inningsPitched": 43.0
+        "inningsPitched": 43.0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -3348,7 +3481,8 @@
         "era": 2.04,
         "eraDisplay": "2.04",
         "strikeouts": 29,
-        "inningsPitched": 35.1
+        "inningsPitched": 35.1,
+        "team": "巨人"
       }
     ]
   },
@@ -3449,7 +3583,8 @@
         "era": 3.82,
         "eraDisplay": "3.82",
         "strikeouts": 196,
-        "inningsPitched": 186.1
+        "inningsPitched": 186.1,
+        "team": "楽天"
       },
       {
         "season": "2008",
@@ -3460,7 +3595,8 @@
         "era": 3.49,
         "eraDisplay": "3.49",
         "strikeouts": 159,
-        "inningsPitched": 172.2
+        "inningsPitched": 172.2,
+        "team": "楽天"
       },
       {
         "season": "2009",
@@ -3471,7 +3607,8 @@
         "era": 2.33,
         "eraDisplay": "2.33",
         "strikeouts": 171,
-        "inningsPitched": 189.2
+        "inningsPitched": 189.2,
+        "team": "楽天"
       },
       {
         "season": "2010",
@@ -3482,7 +3619,8 @@
         "era": 2.5,
         "eraDisplay": "2.50",
         "strikeouts": 119,
-        "inningsPitched": 155.0
+        "inningsPitched": 155.0,
+        "team": "楽天"
       },
       {
         "season": "2011",
@@ -3493,7 +3631,8 @@
         "era": 1.27,
         "eraDisplay": "1.27",
         "strikeouts": 241,
-        "inningsPitched": 226.1
+        "inningsPitched": 226.1,
+        "team": "楽天"
       },
       {
         "season": "2012",
@@ -3504,7 +3643,8 @@
         "era": 1.87,
         "eraDisplay": "1.87",
         "strikeouts": 169,
-        "inningsPitched": 173.0
+        "inningsPitched": 173.0,
+        "team": "楽天"
       },
       {
         "season": "2013",
@@ -3515,7 +3655,8 @@
         "era": 1.27,
         "eraDisplay": "1.27",
         "strikeouts": 183,
-        "inningsPitched": 212.0
+        "inningsPitched": 212.0,
+        "team": "楽天"
       },
       {
         "season": "2021",
@@ -3526,7 +3667,8 @@
         "era": 3.01,
         "eraDisplay": "3.01",
         "strikeouts": 126,
-        "inningsPitched": 155.2
+        "inningsPitched": 155.2,
+        "team": "楽天"
       },
       {
         "season": "2022",
@@ -3537,7 +3679,8 @@
         "era": 3.31,
         "eraDisplay": "3.31",
         "strikeouts": 126,
-        "inningsPitched": 163.0
+        "inningsPitched": 163.0,
+        "team": "楽天"
       },
       {
         "season": "2023",
@@ -3548,7 +3691,8 @@
         "era": 4.91,
         "eraDisplay": "4.91",
         "strikeouts": 81,
-        "inningsPitched": 139.1
+        "inningsPitched": 139.1,
+        "team": "楽天"
       },
       {
         "season": "2024",
@@ -3559,7 +3703,9 @@
         "era": 7.2,
         "eraDisplay": "7.20",
         "strikeouts": 1,
-        "inningsPitched": 5.0
+        "inningsPitched": 5.0,
+        "team": "楽天",
+        "gamesNote": "前年に受けた右肘手術の影響で状態が上がらず、シーズンのほぼ全てを二軍調整に費やした"
       }
     ]
   },
@@ -3720,7 +3866,8 @@
         "era": 13.5,
         "eraDisplay": "13.50",
         "strikeouts": 2,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "巨人"
       },
       {
         "season": "2017",
@@ -3731,7 +3878,8 @@
         "era": 4.32,
         "eraDisplay": "4.32",
         "strikeouts": 19,
-        "inningsPitched": 25.0
+        "inningsPitched": 25.0,
+        "team": "巨人"
       },
       {
         "season": "2018",
@@ -3742,7 +3890,8 @@
         "era": 5.02,
         "eraDisplay": "5.02",
         "strikeouts": 31,
-        "inningsPitched": 37.2
+        "inningsPitched": 37.2,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -3753,7 +3902,8 @@
         "era": 2.37,
         "eraDisplay": "2.37",
         "strikeouts": 74,
-        "inningsPitched": 64.2
+        "inningsPitched": 64.2,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -3764,7 +3914,8 @@
         "era": 1.0,
         "eraDisplay": "1.00",
         "strikeouts": 26,
-        "inningsPitched": 36.0
+        "inningsPitched": 36.0,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -3775,7 +3926,8 @@
         "era": 2.47,
         "eraDisplay": "2.47",
         "strikeouts": 49,
-        "inningsPitched": 54.2
+        "inningsPitched": 54.2,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -3786,7 +3938,8 @@
         "era": 2.08,
         "eraDisplay": "2.08",
         "strikeouts": 38,
-        "inningsPitched": 43.1
+        "inningsPitched": 43.1,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -3797,7 +3950,9 @@
         "era": 8.76,
         "eraDisplay": "8.76",
         "strikeouts": 7,
-        "inningsPitched": 12.1
+        "inningsPitched": 12.1,
+        "team": "巨人",
+        "gamesNote": "左膝痛により出場が15試合にとどまった"
       }
     ]
   },
@@ -3880,7 +4035,8 @@
         "era": 3.82,
         "eraDisplay": "3.82",
         "strikeouts": 25,
-        "inningsPitched": 30.2
+        "inningsPitched": 30.2,
+        "team": "巨人"
       }
     ]
   },
@@ -3996,7 +4152,8 @@
         "era": 3.34,
         "eraDisplay": "3.34",
         "strikeouts": 134,
-        "inningsPitched": 170.0
+        "inningsPitched": 170.0,
+        "team": "楽天"
       },
       {
         "season": "2014",
@@ -4007,7 +4164,8 @@
         "era": 3.02,
         "eraDisplay": "3.02",
         "strikeouts": 204,
-        "inningsPitched": 202.2
+        "inningsPitched": 202.2,
+        "team": "楽天"
       },
       {
         "season": "2015",
@@ -4018,7 +4176,8 @@
         "era": 2.91,
         "eraDisplay": "2.91",
         "strikeouts": 215,
-        "inningsPitched": 194.2
+        "inningsPitched": 194.2,
+        "team": "楽天"
       },
       {
         "season": "2016",
@@ -4029,7 +4188,8 @@
         "era": 2.91,
         "eraDisplay": "2.91",
         "strikeouts": 216,
-        "inningsPitched": 195.0
+        "inningsPitched": 195.0,
+        "team": "楽天"
       },
       {
         "season": "2017",
@@ -4040,7 +4200,8 @@
         "era": 2.57,
         "eraDisplay": "2.57",
         "strikeouts": 222,
-        "inningsPitched": 185.2
+        "inningsPitched": 185.2,
+        "team": "楽天"
       },
       {
         "season": "2018",
@@ -4051,7 +4212,8 @@
         "era": 3.69,
         "eraDisplay": "3.69",
         "strikeouts": 187,
-        "inningsPitched": 180.1
+        "inningsPitched": 180.1,
+        "team": "楽天"
       },
       {
         "season": "2019",
@@ -4062,7 +4224,9 @@
         "era": 2.78,
         "eraDisplay": "2.78",
         "strikeouts": 67,
-        "inningsPitched": 68.0
+        "inningsPitched": 68.0,
+        "team": "楽天",
+        "gamesNote": "右肘の慢性的な損傷が判明し3月に関節鏡手術を受け、長期離脱した"
       },
       {
         "season": "2020",
@@ -4073,7 +4237,8 @@
         "era": 3.96,
         "eraDisplay": "3.96",
         "strikeouts": 105,
-        "inningsPitched": 109.0
+        "inningsPitched": 109.0,
+        "team": "楽天"
       },
       {
         "season": "2021",
@@ -4084,7 +4249,8 @@
         "era": 3.17,
         "eraDisplay": "3.17",
         "strikeouts": 152,
-        "inningsPitched": 144.2
+        "inningsPitched": 144.2,
+        "team": "楽天"
       },
       {
         "season": "2022",
@@ -4095,7 +4261,8 @@
         "era": 3.53,
         "eraDisplay": "3.53",
         "strikeouts": 104,
-        "inningsPitched": 125.0
+        "inningsPitched": 125.0,
+        "team": "楽天"
       },
       {
         "season": "2023",
@@ -4106,7 +4273,8 @@
         "era": 2.61,
         "eraDisplay": "2.61",
         "strikeouts": 111,
-        "inningsPitched": 155.0
+        "inningsPitched": 155.0,
+        "team": "楽天"
       },
       {
         "season": "2024",
@@ -4117,7 +4285,8 @@
         "era": 3.46,
         "eraDisplay": "3.46",
         "strikeouts": 44,
-        "inningsPitched": 52.0
+        "inningsPitched": 52.0,
+        "team": "楽天"
       }
     ]
   },
@@ -4257,7 +4426,8 @@
         "era": 1.69,
         "eraDisplay": "1.69",
         "strikeouts": 21,
-        "inningsPitched": 21.33
+        "inningsPitched": 21.33,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -4268,7 +4438,8 @@
         "era": 2.44,
         "eraDisplay": "2.44",
         "strikeouts": 63,
-        "inningsPitched": 51.67
+        "inningsPitched": 51.67,
+        "team": "巨人"
       }
     ]
   },
@@ -4352,7 +4523,8 @@
         "era": 2.7,
         "eraDisplay": "2.70",
         "strikeouts": 33,
-        "inningsPitched": 30
+        "inningsPitched": 30,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -4363,7 +4535,8 @@
         "era": 2.37,
         "eraDisplay": "2.37",
         "strikeouts": 23,
-        "inningsPitched": 38
+        "inningsPitched": 38,
+        "team": "巨人"
       }
     ]
   },
@@ -4447,7 +4620,8 @@
         "era": 14.4,
         "eraDisplay": "14.40",
         "strikeouts": 5,
-        "inningsPitched": 5
+        "inningsPitched": 5,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -4458,7 +4632,8 @@
         "era": 4.32,
         "eraDisplay": "4.32",
         "strikeouts": 39,
-        "inningsPitched": 50
+        "inningsPitched": 50,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -4469,7 +4644,8 @@
         "era": 3.95,
         "eraDisplay": "3.95",
         "strikeouts": 8,
-        "inningsPitched": 13.67
+        "inningsPitched": 13.67,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -4480,7 +4656,8 @@
         "era": 2.16,
         "eraDisplay": "2.16",
         "strikeouts": 22,
-        "inningsPitched": 33.33
+        "inningsPitched": 33.33,
+        "team": "巨人"
       }
     ]
   },
@@ -4563,7 +4740,8 @@
         "era": 6.29,
         "eraDisplay": "6.29",
         "strikeouts": 24,
-        "inningsPitched": 34.33
+        "inningsPitched": 34.33,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -4574,7 +4752,8 @@
         "era": 8.1,
         "eraDisplay": "8.10",
         "strikeouts": 5,
-        "inningsPitched": 3.33
+        "inningsPitched": 3.33,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -4585,7 +4764,8 @@
         "era": 2.45,
         "eraDisplay": "2.45",
         "strikeouts": 30,
-        "inningsPitched": 51.33
+        "inningsPitched": 51.33,
+        "team": "巨人"
       }
     ]
   },
@@ -4724,7 +4904,8 @@
         "era": 6.1,
         "eraDisplay": "6.10",
         "strikeouts": 7,
-        "inningsPitched": 10.33
+        "inningsPitched": 10.33,
+        "team": "巨人"
       }
     ]
   },
@@ -5111,7 +5292,8 @@
         "era": 1.59,
         "eraDisplay": "1.59",
         "strikeouts": 2,
-        "inningsPitched": 5.2
+        "inningsPitched": 5.2,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -5122,7 +5304,8 @@
         "era": 3.38,
         "eraDisplay": "3.38",
         "strikeouts": 9,
-        "inningsPitched": 8.0
+        "inningsPitched": 8.0,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -5133,7 +5316,8 @@
         "era": 15.0,
         "eraDisplay": "15.00",
         "strikeouts": 0,
-        "inningsPitched": 3.0
+        "inningsPitched": 3.0,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -5144,7 +5328,8 @@
         "era": 3.95,
         "eraDisplay": "3.95",
         "strikeouts": 46,
-        "inningsPitched": 84.1
+        "inningsPitched": 84.1,
+        "team": "巨人"
       }
     ]
   },
@@ -5234,14 +5419,16 @@
         "games": 1,
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2015",
         "games": 1,
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2016",
@@ -5250,7 +5437,9 @@
         "avgDisplay": ".167",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.619
       },
       {
         "season": "2017",
@@ -5259,7 +5448,9 @@
         "avgDisplay": ".232",
         "hr": 5,
         "rbi": 18,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "ソフトバンク",
+        "ops": 0.695
       },
       {
         "season": "2018",
@@ -5268,7 +5459,9 @@
         "avgDisplay": ".213",
         "hr": 7,
         "rbi": 37,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "ソフトバンク",
+        "ops": 0.602
       },
       {
         "season": "2019",
@@ -5277,7 +5470,9 @@
         "avgDisplay": ".260",
         "hr": 11,
         "rbi": 43,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "ソフトバンク",
+        "ops": 0.733
       },
       {
         "season": "2020",
@@ -5286,7 +5481,9 @@
         "avgDisplay": ".211",
         "hr": 11,
         "rbi": 33,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "ソフトバンク",
+        "ops": 0.694
       },
       {
         "season": "2021",
@@ -5295,7 +5492,9 @@
         "avgDisplay": ".227",
         "hr": 12,
         "rbi": 44,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "ソフトバンク",
+        "ops": 0.658
       },
       {
         "season": "2022",
@@ -5304,7 +5503,9 @@
         "avgDisplay": ".180",
         "hr": 1,
         "rbi": 27,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "ソフトバンク",
+        "ops": 0.498
       },
       {
         "season": "2023",
@@ -5313,7 +5514,9 @@
         "avgDisplay": ".202",
         "hr": 10,
         "rbi": 44,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.602
       },
       {
         "season": "2024",
@@ -5322,7 +5525,9 @@
         "avgDisplay": ".256",
         "hr": 5,
         "rbi": 43,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "ソフトバンク",
+        "ops": 0.69
       }
     ]
   },
@@ -5419,7 +5624,9 @@
         "avgDisplay": ".255",
         "hr": 2,
         "rbi": 14,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.678
       },
       {
         "season": "2015",
@@ -5428,7 +5635,9 @@
         "avgDisplay": ".226",
         "hr": 2,
         "rbi": 13,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人",
+        "ops": 0.605
       },
       {
         "season": "2016",
@@ -5437,7 +5646,9 @@
         "avgDisplay": ".204",
         "hr": 4,
         "rbi": 35,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人",
+        "ops": 0.544
       },
       {
         "season": "2017",
@@ -5446,7 +5657,9 @@
         "avgDisplay": ".206",
         "hr": 2,
         "rbi": 27,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人",
+        "ops": 0.542
       },
       {
         "season": "2018",
@@ -5455,7 +5668,9 @@
         "avgDisplay": ".219",
         "hr": 2,
         "rbi": 26,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.575
       },
       {
         "season": "2019",
@@ -5464,7 +5679,9 @@
         "avgDisplay": ".244",
         "hr": 2,
         "rbi": 19,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人",
+        "ops": 0.58
       },
       {
         "season": "2020",
@@ -5473,7 +5690,10 @@
         "avgDisplay": ".056",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.206,
+        "gamesNote": "左手首骨折などの故障が続き出場わずか10試合にとどまった"
       },
       {
         "season": "2021",
@@ -5482,7 +5702,9 @@
         "avgDisplay": ".093",
         "hr": 1,
         "rbi": 3,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人",
+        "ops": 0.277
       },
       {
         "season": "2022",
@@ -5491,7 +5713,9 @@
         "avgDisplay": ".148",
         "hr": 0,
         "rbi": 5,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.362
       },
       {
         "season": "2023",
@@ -5500,7 +5724,9 @@
         "avgDisplay": ".125",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.25
       },
       {
         "season": "2024",
@@ -5509,7 +5735,9 @@
         "avgDisplay": ".152",
         "hr": 1,
         "rbi": 8,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人",
+        "ops": 0.442
       }
     ]
   },
@@ -5584,7 +5812,9 @@
         "avgDisplay": ".182",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.455
       },
       {
         "season": "2023",
@@ -5593,7 +5823,9 @@
         "avgDisplay": ".143",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.286
       },
       {
         "season": "2024",
@@ -5602,7 +5834,9 @@
         "avgDisplay": ".333",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.667
       }
     ]
   },
@@ -5675,7 +5909,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.0
       },
       {
         "season": "2019",
@@ -5684,7 +5920,9 @@
         "avgDisplay": ".250",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.5
       },
       {
         "season": "2020",
@@ -5693,7 +5931,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.143
       },
       {
         "season": "2021",
@@ -5702,7 +5942,9 @@
         "avgDisplay": ".188",
         "hr": 0,
         "rbi": 4,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.495
       },
       {
         "season": "2022",
@@ -5711,7 +5953,9 @@
         "avgDisplay": ".125",
         "hr": 2,
         "rbi": 6,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.447
       },
       {
         "season": "2023",
@@ -5720,7 +5964,9 @@
         "avgDisplay": ".267",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.6
       }
     ]
   },
@@ -5794,7 +6040,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人",
+        "ops": 0.125
       },
       {
         "season": "2021",
@@ -5803,7 +6051,9 @@
         "avgDisplay": ".385",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人",
+        "ops": 0.846
       },
       {
         "season": "2022",
@@ -5812,7 +6062,9 @@
         "avgDisplay": ".100",
         "hr": 1,
         "rbi": 3,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "巨人",
+        "ops": 0.439
       },
       {
         "season": "2024",
@@ -5821,7 +6073,9 @@
         "avgDisplay": ".167",
         "hr": 0,
         "rbi": 2,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.333
       }
     ]
   },
@@ -5905,7 +6159,9 @@
         "avgDisplay": ".200",
         "hr": 0,
         "rbi": 6,
-        "stolenBases": 15
+        "stolenBases": 15,
+        "team": "巨人",
+        "ops": 0.606
       },
       {
         "season": "2020",
@@ -5914,7 +6170,9 @@
         "avgDisplay": ".297",
         "hr": 0,
         "rbi": 2,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "巨人",
+        "ops": 0.81
       },
       {
         "season": "2021",
@@ -5923,7 +6181,9 @@
         "avgDisplay": ".136",
         "hr": 1,
         "rbi": 2,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "巨人",
+        "ops": 0.527
       },
       {
         "season": "2022",
@@ -5932,7 +6192,9 @@
         "avgDisplay": ".150",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "巨人",
+        "ops": 0.39
       },
       {
         "season": "2023",
@@ -5941,7 +6203,9 @@
         "avgDisplay": ".300",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "巨人",
+        "ops": 0.764
       },
       {
         "season": "2024",
@@ -5950,7 +6214,9 @@
         "avgDisplay": ".200",
         "hr": 0,
         "rbi": 4,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "巨人",
+        "ops": 0.526
       }
     ]
   },
@@ -6037,7 +6303,9 @@
         "avgDisplay": ".263",
         "hr": 3,
         "rbi": 21,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "巨人",
+        "ops": 0.638
       },
       {
         "season": "2024",
@@ -6046,7 +6314,9 @@
         "avgDisplay": ".243",
         "hr": 0,
         "rbi": 21,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "巨人",
+        "ops": 0.593
       }
     ]
   },
@@ -6238,7 +6508,9 @@
         "avgDisplay": ".181",
         "hr": 7,
         "rbi": 20,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.652
       },
       {
         "season": "2022",
@@ -6247,7 +6519,9 @@
         "avgDisplay": ".159",
         "hr": 3,
         "rbi": 5,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.56
       },
       {
         "season": "2023",
@@ -6256,7 +6530,9 @@
         "avgDisplay": ".115",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.287
       },
       {
         "season": "2024",
@@ -6265,7 +6541,9 @@
         "avgDisplay": ".226",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.595
       }
     ]
   },
@@ -6411,7 +6689,9 @@
         "avgDisplay": ".250",
         "hr": 5,
         "rbi": 16,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "巨人",
+        "ops": 0.718
       },
       {
         "season": "2024",
@@ -6420,7 +6700,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.167
       }
     ]
   },
@@ -6609,7 +6891,9 @@
         "avgDisplay": ".063",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.125
       },
       {
         "season": "2024",
@@ -6618,7 +6902,9 @@
         "avgDisplay": ".215",
         "hr": 2,
         "rbi": 12,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.607
       }
     ]
   },
@@ -6764,7 +7050,9 @@
         "avgDisplay": ".095",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.232
       },
       {
         "season": "2023",
@@ -6773,7 +7061,9 @@
         "avgDisplay": ".167",
         "hr": 1,
         "rbi": 2,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.466
       },
       {
         "season": "2024",
@@ -6782,7 +7072,9 @@
         "avgDisplay": ".143",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人",
+        "ops": 0.476
       }
     ]
   },
@@ -6908,7 +7200,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.44,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -6918,7 +7211,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.566,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -6928,7 +7222,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.761,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       }
     ]
   },
@@ -7062,7 +7357,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 0.618,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -7072,7 +7368,8 @@
         "hr": 3,
         "rbi": 18,
         "ops": 0.686,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "巨人"
       }
     ]
   },
@@ -7141,7 +7438,8 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "巨人"
       }
     ]
   },

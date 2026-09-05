@@ -123,7 +123,8 @@
         "era": 2.9,
         "eraDisplay": "2.90",
         "strikeouts": 141,
-        "inningsPitched": 146
+        "inningsPitched": 146,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -134,7 +135,8 @@
         "era": 2.95,
         "eraDisplay": "2.95",
         "strikeouts": 112,
-        "inningsPitched": 155.67
+        "inningsPitched": 155.67,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -145,7 +147,8 @@
         "era": 3.46,
         "eraDisplay": "3.46",
         "strikeouts": 134,
-        "inningsPitched": 153.33
+        "inningsPitched": 153.33,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -156,7 +159,8 @@
         "era": 2.65,
         "eraDisplay": "2.65",
         "strikeouts": 161,
-        "inningsPitched": 176.33
+        "inningsPitched": 176.33,
+        "team": "日本ハム"
       }
     ]
   },
@@ -241,7 +245,8 @@
         "era": 3.45,
         "eraDisplay": "3.45",
         "strikeouts": 64,
-        "inningsPitched": 91.33
+        "inningsPitched": 91.33,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -252,7 +257,8 @@
         "era": 3.53,
         "eraDisplay": "3.53",
         "strikeouts": 99,
-        "inningsPitched": 120
+        "inningsPitched": 120,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -263,7 +269,8 @@
         "era": 4.53,
         "eraDisplay": "4.53",
         "strikeouts": 82,
-        "inningsPitched": 113.33
+        "inningsPitched": 113.33,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -274,7 +281,8 @@
         "era": 3.52,
         "eraDisplay": "3.52",
         "strikeouts": 70,
-        "inningsPitched": 92
+        "inningsPitched": 92,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -285,7 +293,8 @@
         "era": 3.26,
         "eraDisplay": "3.26",
         "strikeouts": 51,
-        "inningsPitched": 58
+        "inningsPitched": 58,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -296,7 +305,8 @@
         "era": 3.42,
         "eraDisplay": "3.42",
         "strikeouts": 102,
-        "inningsPitched": 150
+        "inningsPitched": 150,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -307,7 +317,8 @@
         "era": 2.01,
         "eraDisplay": "2.01",
         "strikeouts": 98,
-        "inningsPitched": 147.67
+        "inningsPitched": 147.67,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -318,7 +329,8 @@
         "era": 2.87,
         "eraDisplay": "2.87",
         "strikeouts": 83,
-        "inningsPitched": 163.33
+        "inningsPitched": 163.33,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -329,7 +341,8 @@
         "era": 2.7,
         "eraDisplay": "2.70",
         "strikeouts": 103,
-        "inningsPitched": 166.67
+        "inningsPitched": 166.67,
+        "team": "日本ハム"
       }
     ]
   },
@@ -433,7 +446,8 @@
         "era": 3.51,
         "eraDisplay": "3.51",
         "strikeouts": 58,
-        "inningsPitched": 51.33
+        "inningsPitched": 51.33,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -444,7 +458,8 @@
         "era": 3.41,
         "eraDisplay": "3.41",
         "strikeouts": 58,
-        "inningsPitched": 66
+        "inningsPitched": 66,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -455,7 +470,8 @@
         "era": 2.31,
         "eraDisplay": "2.31",
         "strikeouts": 87,
-        "inningsPitched": 81.67
+        "inningsPitched": 81.67,
+        "team": "日本ハム"
       }
     ]
   },
@@ -541,7 +557,8 @@
         "era": 4.09,
         "eraDisplay": "4.09",
         "strikeouts": 20,
-        "inningsPitched": 22
+        "inningsPitched": 22,
+        "team": "日本ハム"
       }
     ]
   },
@@ -638,7 +655,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -648,7 +666,8 @@
         "hr": 5,
         "rbi": 13,
         "ops": 0.638,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -658,7 +677,8 @@
         "hr": 14,
         "rbi": 40,
         "ops": 0.629,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -668,7 +688,8 @@
         "hr": 25,
         "rbi": 74,
         "ops": 0.788,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -678,7 +699,8 @@
         "hr": 18,
         "rbi": 60,
         "ops": 0.735,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -759,7 +781,8 @@
         "hr": 25,
         "rbi": 65,
         "ops": 0.912,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -861,7 +884,8 @@
         "hr": 7,
         "rbi": 18,
         "ops": 0.665,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -871,7 +895,8 @@
         "hr": 7,
         "rbi": 33,
         "ops": 0.61,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -881,7 +906,8 @@
         "hr": 7,
         "rbi": 22,
         "ops": 0.623,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -891,7 +917,8 @@
         "hr": 18,
         "rbi": 55,
         "ops": 0.734,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -901,7 +928,8 @@
         "hr": 10,
         "rbi": 41,
         "ops": 0.734,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -911,7 +939,8 @@
         "hr": 15,
         "rbi": 51,
         "ops": 0.898,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       }
     ]
   },
@@ -1009,7 +1038,8 @@
         "hr": 0,
         "rbi": 4,
         "ops": 0.47,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "中日"
       },
       {
         "season": "2021",
@@ -1019,7 +1049,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 1.072,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "中日"
       },
       {
         "season": "2022",
@@ -1029,7 +1060,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.506,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "中日"
       },
       {
         "season": "2023",
@@ -1039,7 +1071,8 @@
         "hr": 3,
         "rbi": 19,
         "ops": 0.647,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "中日→日本ハム"
       },
       {
         "season": "2024",
@@ -1049,7 +1082,8 @@
         "hr": 12,
         "rbi": 49,
         "ops": 0.691,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -1115,7 +1149,8 @@
         "hr": 0,
         "rbi": 10,
         "ops": 0.683,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -1125,7 +1160,8 @@
         "hr": 1,
         "rbi": 9,
         "ops": 0.492,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -1135,7 +1171,9 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.443,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "gamesNote": "腰痛(椎間板ヘルニア)が再発して出場が激減し、シーズン終了後に内視鏡手術を受けた"
       },
       {
         "season": "2018",
@@ -1145,7 +1183,8 @@
         "hr": 3,
         "rbi": 7,
         "ops": 0.732,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -1155,7 +1194,9 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.578,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "gamesNote": "自打球による右すね骨挫傷と、復帰直後の右肘回内筋肉離れで2度にわたり離脱した"
       },
       {
         "season": "2020",
@@ -1165,7 +1206,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.454,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -1175,7 +1217,8 @@
         "hr": 5,
         "rbi": 31,
         "ops": 0.646,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -1185,7 +1228,8 @@
         "hr": 4,
         "rbi": 15,
         "ops": 0.624,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -1195,7 +1239,9 @@
         "hr": 0,
         "rbi": 4,
         "ops": 0.604,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "gamesNote": "開幕前に左足を骨折して出遅れ、5月末に実戦復帰したが7月末に登録抹消された"
       },
       {
         "season": "2024",
@@ -1205,7 +1251,8 @@
         "hr": 1,
         "rbi": 11,
         "ops": 0.694,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム"
       }
     ]
   },
@@ -1279,7 +1326,8 @@
         "era": 4.79,
         "eraDisplay": "4.79",
         "strikeouts": 81,
-        "inningsPitched": 103.33
+        "inningsPitched": 103.33,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -1290,7 +1338,8 @@
         "era": 2.94,
         "eraDisplay": "2.94",
         "strikeouts": 103,
-        "inningsPitched": 156
+        "inningsPitched": 156,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -1301,7 +1350,8 @@
         "era": 4.74,
         "eraDisplay": "4.74",
         "strikeouts": 88,
-        "inningsPitched": 169
+        "inningsPitched": 169,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -1312,7 +1362,8 @@
         "era": 4.55,
         "eraDisplay": "4.55",
         "strikeouts": 87,
-        "inningsPitched": 110.67
+        "inningsPitched": 110.67,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -1323,7 +1374,8 @@
         "era": 2.46,
         "eraDisplay": "2.46",
         "strikeouts": 161,
-        "inningsPitched": 164.33
+        "inningsPitched": 164.33,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -1334,7 +1386,8 @@
         "era": 3.46,
         "eraDisplay": "3.46",
         "strikeouts": 106,
-        "inningsPitched": 132.67
+        "inningsPitched": 132.67,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -1345,7 +1398,8 @@
         "era": 2.31,
         "eraDisplay": "2.31",
         "strikeouts": 74,
-        "inningsPitched": 120.67
+        "inningsPitched": 120.67,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -1356,7 +1410,8 @@
         "era": 2.36,
         "eraDisplay": "2.36",
         "strikeouts": 137,
-        "inningsPitched": 182.67
+        "inningsPitched": 182.67,
+        "team": "日本ハム"
       }
     ]
   },
@@ -1423,7 +1478,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 1,
-        "inningsPitched": 1
+        "inningsPitched": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -1434,7 +1490,8 @@
         "era": 6.23,
         "eraDisplay": "6.23",
         "strikeouts": 29,
-        "inningsPitched": 34.67
+        "inningsPitched": 34.67,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -1445,7 +1502,8 @@
         "era": 3.13,
         "eraDisplay": "3.13",
         "strikeouts": 24,
-        "inningsPitched": 37.33
+        "inningsPitched": 37.33,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -1456,7 +1514,8 @@
         "era": 5.56,
         "eraDisplay": "5.56",
         "strikeouts": 30,
-        "inningsPitched": 45.33
+        "inningsPitched": 45.33,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -1467,7 +1526,8 @@
         "era": 4.46,
         "eraDisplay": "4.46",
         "strikeouts": 28,
-        "inningsPitched": 34.33
+        "inningsPitched": 34.33,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -1478,7 +1538,8 @@
         "era": 3.97,
         "eraDisplay": "3.97",
         "strikeouts": 11,
-        "inningsPitched": 11.33
+        "inningsPitched": 11.33,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -1489,7 +1550,8 @@
         "era": 3.19,
         "eraDisplay": "3.19",
         "strikeouts": 59,
-        "inningsPitched": 73.33
+        "inningsPitched": 73.33,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -1500,7 +1562,8 @@
         "era": 2.75,
         "eraDisplay": "2.75",
         "strikeouts": 74,
-        "inningsPitched": 101.33
+        "inningsPitched": 101.33,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -1511,7 +1574,8 @@
         "era": 9.24,
         "eraDisplay": "9.24",
         "strikeouts": 13,
-        "inningsPitched": 25.33
+        "inningsPitched": 25.33,
+        "team": "日本ハム"
       }
     ]
   },
@@ -1580,7 +1644,9 @@
         "avgDisplay": ".239",
         "hr": 2,
         "rbi": 13,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "日本ハム",
+        "ops": 0.654
       },
       {
         "season": "2013",
@@ -1589,7 +1655,9 @@
         "avgDisplay": ".278",
         "hr": 2,
         "rbi": 26,
-        "stolenBases": 22
+        "stolenBases": 22,
+        "team": "日本ハム",
+        "ops": 0.729
       },
       {
         "season": "2014",
@@ -1598,7 +1666,9 @@
         "avgDisplay": ".265",
         "hr": 8,
         "rbi": 57,
-        "stolenBases": 43
+        "stolenBases": 43,
+        "team": "日本ハム",
+        "ops": 0.732
       },
       {
         "season": "2015",
@@ -1607,7 +1677,9 @@
         "avgDisplay": ".276",
         "hr": 5,
         "rbi": 35,
-        "stolenBases": 30
+        "stolenBases": 30,
+        "team": "日本ハム",
+        "ops": 0.759
       },
       {
         "season": "2016",
@@ -1616,7 +1688,9 @@
         "avgDisplay": ".314",
         "hr": 5,
         "rbi": 43,
-        "stolenBases": 41
+        "stolenBases": 41,
+        "team": "日本ハム",
+        "ops": 0.802
       },
       {
         "season": "2017",
@@ -1625,7 +1699,9 @@
         "avgDisplay": ".296",
         "hr": 9,
         "rbi": 44,
-        "stolenBases": 39
+        "stolenBases": 39,
+        "team": "日本ハム",
+        "ops": 0.794
       },
       {
         "season": "2018",
@@ -1634,7 +1710,9 @@
         "avgDisplay": ".278",
         "hr": 10,
         "rbi": 48,
-        "stolenBases": 44
+        "stolenBases": 44,
+        "team": "日本ハム",
+        "ops": 0.796
       },
       {
         "season": "2019",
@@ -1643,7 +1721,9 @@
         "avgDisplay": ".288",
         "hr": 5,
         "rbi": 41,
-        "stolenBases": 19
+        "stolenBases": 19,
+        "team": "日本ハム",
+        "ops": 0.779
       },
       {
         "season": "2020",
@@ -1652,7 +1732,9 @@
         "avgDisplay": ".306",
         "hr": 5,
         "rbi": 39,
-        "stolenBases": 42
+        "stolenBases": 42,
+        "team": "日本ハム",
+        "ops": 0.825
       },
       {
         "season": "2021",
@@ -1661,7 +1743,9 @@
         "avgDisplay": ".233",
         "hr": 3,
         "rbi": 35,
-        "stolenBases": 24
+        "stolenBases": 24,
+        "team": "日本ハム",
+        "ops": 0.68
       },
       {
         "season": "2022",
@@ -1671,7 +1755,8 @@
         "hr": 7,
         "rbi": 37,
         "stolenBases": 19,
-        "ops": 0.683
+        "ops": 0.683,
+        "team": "楽天"
       },
       {
         "season": "2023",
@@ -1680,7 +1765,9 @@
         "avgDisplay": ".181",
         "hr": 1,
         "rbi": 4,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "楽天",
+        "ops": 0.563
       },
       {
         "season": "2024",
@@ -1689,7 +1776,9 @@
         "avgDisplay": ".260",
         "hr": 1,
         "rbi": 24,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "ヤクルト",
+        "ops": 0.675
       }
     ]
   },
@@ -1755,7 +1844,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.0
       },
       {
         "season": "2023",
@@ -1764,7 +1855,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.0
       }
     ]
   },
@@ -1838,7 +1931,9 @@
         "avgDisplay": ".122",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.334
       },
       {
         "season": "2023",
@@ -1847,7 +1942,9 @@
         "avgDisplay": ".161",
         "hr": 0,
         "rbi": 6,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.481
       },
       {
         "season": "2024",
@@ -1856,7 +1953,9 @@
         "avgDisplay": ".220",
         "hr": 7,
         "rbi": 37,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "日本ハム",
+        "ops": 0.606
       }
     ]
   },
@@ -1923,7 +2022,9 @@
         "avgDisplay": ".243",
         "hr": 2,
         "rbi": 15,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム",
+        "ops": 0.65
       },
       {
         "season": "2024",
@@ -1932,7 +2033,9 @@
         "avgDisplay": ".180",
         "hr": 0,
         "rbi": 7,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム",
+        "ops": 0.399
       }
     ]
   },
@@ -2010,7 +2113,9 @@
         "avgDisplay": ".429",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム",
+        "ops": 0.857
       },
       {
         "season": "2021",
@@ -2019,7 +2124,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.0
       },
       {
         "season": "2022",
@@ -2028,7 +2135,9 @@
         "avgDisplay": ".111",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.325
       },
       {
         "season": "2023",
@@ -2037,7 +2146,9 @@
         "avgDisplay": ".258",
         "hr": 2,
         "rbi": 9,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム",
+        "ops": 0.742
       },
       {
         "season": "2024",
@@ -2046,7 +2157,9 @@
         "avgDisplay": ".277",
         "hr": 3,
         "rbi": 30,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "日本ハム",
+        "ops": 0.693
       }
     ]
   },
@@ -2121,7 +2234,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.0
       },
       {
         "season": "2024",
@@ -2130,7 +2245,9 @@
         "avgDisplay": ".192",
         "hr": 0,
         "rbi": 2,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ソフトバンク",
+        "ops": 0.377
       }
     ]
   },
@@ -2205,7 +2322,9 @@
         "avgDisplay": ".071",
         "hr": 1,
         "rbi": 2,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.312
       },
       {
         "season": "2022",
@@ -2214,7 +2333,9 @@
         "avgDisplay": ".227",
         "hr": 10,
         "rbi": 39,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム",
+        "ops": 0.679
       },
       {
         "season": "2023",
@@ -2223,7 +2344,9 @@
         "avgDisplay": ".197",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "日本ハム",
+        "ops": 0.503
       },
       {
         "season": "2024",
@@ -2232,7 +2355,9 @@
         "avgDisplay": ".211",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.474
       }
     ]
   },
@@ -2316,7 +2441,8 @@
         "era": 4.53,
         "eraDisplay": "4.53",
         "strikeouts": 35,
-        "inningsPitched": 57.2
+        "inningsPitched": 57.2,
+        "team": "オリックス"
       },
       {
         "season": "2016",
@@ -2327,7 +2453,8 @@
         "era": 3.67,
         "eraDisplay": "3.67",
         "strikeouts": 37,
-        "inningsPitched": 61.1
+        "inningsPitched": 61.1,
+        "team": "オリックス"
       },
       {
         "season": "2017",
@@ -2338,7 +2465,8 @@
         "era": 4.4,
         "eraDisplay": "4.40",
         "strikeouts": 21,
-        "inningsPitched": 45.0
+        "inningsPitched": 45.0,
+        "team": "オリックス"
       },
       {
         "season": "2018",
@@ -2349,7 +2477,9 @@
         "era": 4.58,
         "eraDisplay": "4.58",
         "strikeouts": 9,
-        "inningsPitched": 17.2
+        "inningsPitched": 17.2,
+        "team": "オリックス",
+        "gamesNote": "中継ぎでの登板が結果を残せず、一軍昇格と登録抹消を繰り返した"
       },
       {
         "season": "2019",
@@ -2360,7 +2490,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 37,
-        "inningsPitched": 54.0
+        "inningsPitched": 54.0,
+        "team": "オリックス"
       },
       {
         "season": "2020",
@@ -2371,7 +2502,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 46,
-        "inningsPitched": 84.0
+        "inningsPitched": 84.0,
+        "team": "オリックス"
       },
       {
         "season": "2021",
@@ -2382,7 +2514,8 @@
         "era": 3.56,
         "eraDisplay": "3.56",
         "strikeouts": 75,
-        "inningsPitched": 116.1
+        "inningsPitched": 116.1,
+        "team": "オリックス"
       },
       {
         "season": "2022",
@@ -2393,7 +2526,8 @@
         "era": 3.45,
         "eraDisplay": "3.45",
         "strikeouts": 91,
-        "inningsPitched": 114.2
+        "inningsPitched": 114.2,
+        "team": "オリックス"
       },
       {
         "season": "2023",
@@ -2404,7 +2538,8 @@
         "era": 3.25,
         "eraDisplay": "3.25",
         "strikeouts": 80,
-        "inningsPitched": 130.1
+        "inningsPitched": 130.1,
+        "team": "オリックス"
       },
       {
         "season": "2024",
@@ -2415,7 +2550,8 @@
         "era": 3.17,
         "eraDisplay": "3.17",
         "strikeouts": 74,
-        "inningsPitched": 147.2
+        "inningsPitched": 147.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2491,7 +2627,8 @@
         "era": 2.59,
         "eraDisplay": "2.59",
         "strikeouts": 12,
-        "inningsPitched": 24.1
+        "inningsPitched": 24.1,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -2502,7 +2639,8 @@
         "era": 4.13,
         "eraDisplay": "4.13",
         "strikeouts": 40,
-        "inningsPitched": 48.0
+        "inningsPitched": 48.0,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -2513,7 +2651,8 @@
         "era": 2.61,
         "eraDisplay": "2.61",
         "strikeouts": 34,
-        "inningsPitched": 62.0
+        "inningsPitched": 62.0,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -2524,7 +2663,8 @@
         "era": 3.46,
         "eraDisplay": "3.46",
         "strikeouts": 29,
-        "inningsPitched": 41.2
+        "inningsPitched": 41.2,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -2535,7 +2675,8 @@
         "era": 3.16,
         "eraDisplay": "3.16",
         "strikeouts": 23,
-        "inningsPitched": 42.2
+        "inningsPitched": 42.2,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -2546,7 +2687,8 @@
         "era": 3.35,
         "eraDisplay": "3.35",
         "strikeouts": 16,
-        "inningsPitched": 37.2
+        "inningsPitched": 37.2,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -2557,7 +2699,8 @@
         "era": 2.63,
         "eraDisplay": "2.63",
         "strikeouts": 21,
-        "inningsPitched": 37.2
+        "inningsPitched": 37.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2634,7 +2777,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 0,
-        "inningsPitched": 3.0
+        "inningsPitched": 3.0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -2645,7 +2789,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 4,
-        "inningsPitched": 5.0
+        "inningsPitched": 5.0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2720,7 +2865,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 0,
-        "inningsPitched": 1.0
+        "inningsPitched": 1.0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -2731,7 +2877,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 1,
-        "inningsPitched": 6.0
+        "inningsPitched": 6.0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2820,7 +2967,8 @@
         "era": 5.91,
         "eraDisplay": "5.91",
         "strikeouts": 24,
-        "inningsPitched": 42.2
+        "inningsPitched": 42.2,
+        "team": "楽天"
       },
       {
         "season": "2021",
@@ -2831,7 +2979,8 @@
         "era": 3.94,
         "eraDisplay": "3.94",
         "strikeouts": 52,
-        "inningsPitched": 82.1
+        "inningsPitched": 82.1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -2842,7 +2991,9 @@
         "era": 3.31,
         "eraDisplay": "3.31",
         "strikeouts": 11,
-        "inningsPitched": 16.1
+        "inningsPitched": 16.1,
+        "team": "日本ハム",
+        "gamesNote": "開幕から二軍で先発調整が続き、7月に新型コロナウイルス陽性で離脱してそのままシーズンを終えた"
       },
       {
         "season": "2023",
@@ -2853,7 +3004,8 @@
         "era": 2.86,
         "eraDisplay": "2.86",
         "strikeouts": 45,
-        "inningsPitched": 50.1
+        "inningsPitched": 50.1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -2864,7 +3016,8 @@
         "era": 3.8,
         "eraDisplay": "3.80",
         "strikeouts": 22,
-        "inningsPitched": 23.2
+        "inningsPitched": 23.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -2950,7 +3103,8 @@
         "era": 7.88,
         "eraDisplay": "7.88",
         "strikeouts": 2,
-        "inningsPitched": 6.0
+        "inningsPitched": 6.0,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -2961,7 +3115,8 @@
         "era": 7.5,
         "eraDisplay": "7.50",
         "strikeouts": 5,
-        "inningsPitched": 6.0
+        "inningsPitched": 6.0,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -2972,7 +3127,8 @@
         "era": 1.5,
         "eraDisplay": "1.50",
         "strikeouts": 5,
-        "inningsPitched": 6.0
+        "inningsPitched": 6.0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -2983,7 +3139,8 @@
         "era": 3.6,
         "eraDisplay": "3.60",
         "strikeouts": 7,
-        "inningsPitched": 10.0
+        "inningsPitched": 10.0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -2994,7 +3151,8 @@
         "era": 2.16,
         "eraDisplay": "2.16",
         "strikeouts": 5,
-        "inningsPitched": 8.1
+        "inningsPitched": 8.1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -3005,7 +3163,8 @@
         "era": 3.89,
         "eraDisplay": "3.89",
         "strikeouts": 34,
-        "inningsPitched": 41.2
+        "inningsPitched": 41.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -3096,7 +3255,8 @@
         "era": 1.8,
         "eraDisplay": "1.80",
         "strikeouts": 23,
-        "inningsPitched": 25.0
+        "inningsPitched": 25.0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -3107,7 +3267,8 @@
         "era": 2.38,
         "eraDisplay": "2.38",
         "strikeouts": 98,
-        "inningsPitched": 136.0
+        "inningsPitched": 136.0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -3195,7 +3356,8 @@
         "era": 5.07,
         "eraDisplay": "5.07",
         "strikeouts": 43,
-        "inningsPitched": 60.1
+        "inningsPitched": 60.1,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -3206,7 +3368,8 @@
         "era": 2.99,
         "eraDisplay": "2.99",
         "strikeouts": 68,
-        "inningsPitched": 90.1
+        "inningsPitched": 90.1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -3217,7 +3380,8 @@
         "era": 4.41,
         "eraDisplay": "4.41",
         "strikeouts": 25,
-        "inningsPitched": 34.2
+        "inningsPitched": 34.2,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -3228,7 +3392,8 @@
         "era": 1.7,
         "eraDisplay": "1.70",
         "strikeouts": 35,
-        "inningsPitched": 42.1
+        "inningsPitched": 42.1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -3239,7 +3404,8 @@
         "era": 2.13,
         "eraDisplay": "2.13",
         "strikeouts": 33,
-        "inningsPitched": 42.1
+        "inningsPitched": 42.1,
+        "team": "日本ハム"
       }
     ]
   },
@@ -3328,7 +3494,8 @@
         "era": 3.86,
         "eraDisplay": "3.86",
         "strikeouts": 9,
-        "inningsPitched": 9.1
+        "inningsPitched": 9.1,
+        "team": "日本ハム"
       }
     ]
   },
@@ -3554,7 +3721,8 @@
         "era": 3.38,
         "eraDisplay": "3.38",
         "strikeouts": 7,
-        "inningsPitched": 8.0
+        "inningsPitched": 8.0,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -3565,7 +3733,9 @@
         "era": 5.86,
         "eraDisplay": "5.86",
         "strikeouts": 28,
-        "inningsPitched": 35.1
+        "inningsPitched": 35.1,
+        "team": "日本ハム",
+        "gamesNote": "6月に一軍昇格したが左太もも肉離れで登板機会のないまま翌日に登録抹消された"
       },
       {
         "season": "2019",
@@ -3576,7 +3746,8 @@
         "era": 5.22,
         "eraDisplay": "5.22",
         "strikeouts": 61,
-        "inningsPitched": 60.1
+        "inningsPitched": 60.1,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -3587,7 +3758,8 @@
         "era": 4.19,
         "eraDisplay": "4.19",
         "strikeouts": 45,
-        "inningsPitched": 38.2
+        "inningsPitched": 38.2,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -3598,7 +3770,8 @@
         "era": 2.36,
         "eraDisplay": "2.36",
         "strikeouts": 56,
-        "inningsPitched": 53.1
+        "inningsPitched": 53.1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -3609,7 +3782,8 @@
         "era": 5.82,
         "eraDisplay": "5.82",
         "strikeouts": 34,
-        "inningsPitched": 34.0
+        "inningsPitched": 34.0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -3620,7 +3794,9 @@
         "era": 9.0,
         "eraDisplay": "9.00",
         "strikeouts": 3,
-        "inningsPitched": 4.0
+        "inningsPitched": 4.0,
+        "team": "日本ハム",
+        "gamesNote": "左肩をかばって調子が上がらず登録抹消、投球フォーム再構築中に右脇腹も痛めた"
       },
       {
         "season": "2024",
@@ -3631,7 +3807,9 @@
         "era": 8.64,
         "eraDisplay": "8.64",
         "strikeouts": 14,
-        "inningsPitched": 8.1
+        "inningsPitched": 8.1,
+        "team": "日本ハム",
+        "gamesNote": "5月に一軍で本塁打を浴びて登録抹消となり、シーズンの大半を二軍で過ごした"
       }
     ]
   },
@@ -3802,7 +3980,8 @@
         "era": 8.84,
         "eraDisplay": "8.84",
         "strikeouts": 12,
-        "inningsPitched": 18.1
+        "inningsPitched": 18.1,
+        "team": "阪神"
       },
       {
         "season": "2016",
@@ -3813,7 +3992,8 @@
         "era": 3.65,
         "eraDisplay": "3.65",
         "strikeouts": 24,
-        "inningsPitched": 24.2
+        "inningsPitched": 24.2,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -3824,7 +4004,9 @@
         "era": 9.0,
         "eraDisplay": "9.00",
         "strikeouts": 2,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "阪神",
+        "gamesNote": "能見篤史が中継ぎに転向した影響で出場機会を得られず、一軍登板は1試合にとどまった"
       },
       {
         "season": "2019",
@@ -3835,7 +4017,8 @@
         "era": 1.67,
         "eraDisplay": "1.67",
         "strikeouts": 60,
-        "inningsPitched": 59.1
+        "inningsPitched": 59.1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -3846,7 +4029,8 @@
         "era": 2.57,
         "eraDisplay": "2.57",
         "strikeouts": 11,
-        "inningsPitched": 14.0
+        "inningsPitched": 14.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -3857,7 +4041,8 @@
         "era": 1.69,
         "eraDisplay": "1.69",
         "strikeouts": 20,
-        "inningsPitched": 26.2
+        "inningsPitched": 26.2,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -3868,7 +4053,8 @@
         "era": 2.81,
         "eraDisplay": "2.81",
         "strikeouts": 10,
-        "inningsPitched": 25.2
+        "inningsPitched": 25.2,
+        "team": "阪神"
       }
     ]
   },
@@ -3968,7 +4154,8 @@
         "era": 7.36,
         "eraDisplay": "7.36",
         "strikeouts": 4,
-        "inningsPitched": 7.1
+        "inningsPitched": 7.1,
+        "team": "中日"
       },
       {
         "season": "2014",
@@ -3979,7 +4166,8 @@
         "era": 1.81,
         "eraDisplay": "1.81",
         "strikeouts": 72,
-        "inningsPitched": 74.2
+        "inningsPitched": 74.2,
+        "team": "中日"
       },
       {
         "season": "2015",
@@ -3990,7 +4178,8 @@
         "era": 4.05,
         "eraDisplay": "4.05",
         "strikeouts": 25,
-        "inningsPitched": 40.0
+        "inningsPitched": 40.0,
+        "team": "中日"
       },
       {
         "season": "2016",
@@ -4001,7 +4190,8 @@
         "era": 4.05,
         "eraDisplay": "4.05",
         "strikeouts": 23,
-        "inningsPitched": 40.0
+        "inningsPitched": 40.0,
+        "team": "中日"
       },
       {
         "season": "2017",
@@ -4012,7 +4202,8 @@
         "era": 5.74,
         "eraDisplay": "5.74",
         "strikeouts": 26,
-        "inningsPitched": 26.2
+        "inningsPitched": 26.2,
+        "team": "中日"
       },
       {
         "season": "2018",
@@ -4023,7 +4214,8 @@
         "era": 5.0,
         "eraDisplay": "5.00",
         "strikeouts": 28,
-        "inningsPitched": 27.0
+        "inningsPitched": 27.0,
+        "team": "中日"
       },
       {
         "season": "2019",
@@ -4034,7 +4226,9 @@
         "era": 1.5,
         "eraDisplay": "1.50",
         "strikeouts": 6,
-        "inningsPitched": 6.0
+        "inningsPitched": 6.0,
+        "team": "中日",
+        "gamesNote": "先発転向を模索する中で右肩痛や腰椎椎間板ヘルニアに見舞われた"
       },
       {
         "season": "2020",
@@ -4045,7 +4239,8 @@
         "era": 2.64,
         "eraDisplay": "2.64",
         "strikeouts": 72,
-        "inningsPitched": 92.0
+        "inningsPitched": 92.0,
+        "team": "中日"
       },
       {
         "season": "2021",
@@ -4056,7 +4251,8 @@
         "era": 4.53,
         "eraDisplay": "4.53",
         "strikeouts": 73,
-        "inningsPitched": 103.1
+        "inningsPitched": 103.1,
+        "team": "中日"
       },
       {
         "season": "2022",
@@ -4067,7 +4263,9 @@
         "era": 9.0,
         "eraDisplay": "9.00",
         "strikeouts": 14,
-        "inningsPitched": 23.0
+        "inningsPitched": 23.0,
+        "team": "中日",
+        "gamesNote": "2月の春季キャンプ中に左足首を捻挫して出遅れた"
       },
       {
         "season": "2023",
@@ -4078,7 +4276,8 @@
         "era": 5.17,
         "eraDisplay": "5.17",
         "strikeouts": 36,
-        "inningsPitched": 54.0
+        "inningsPitched": 54.0,
+        "team": "中日"
       },
       {
         "season": "2024",
@@ -4089,7 +4288,9 @@
         "era": 3.72,
         "eraDisplay": "3.72",
         "strikeouts": 16,
-        "inningsPitched": 29.0
+        "inningsPitched": 29.0,
+        "team": "中日",
+        "gamesNote": "シーズンの大半を二軍で調整し、8月下旬に先発として一軍復帰した(前回の一軍勝利から458日ぶり)"
       }
     ]
   },
@@ -4183,7 +4384,8 @@
         "era": 3.54,
         "eraDisplay": "3.54",
         "strikeouts": 35,
-        "inningsPitched": 61.0
+        "inningsPitched": 61.0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -4276,7 +4478,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 2,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -4287,7 +4490,9 @@
         "era": 7.71,
         "eraDisplay": "7.71",
         "strikeouts": 11,
-        "inningsPitched": 7.0
+        "inningsPitched": 7.0,
+        "team": "阪神",
+        "gamesNote": "新型コロナで変則日程となった中、開幕から二軍で調整が続き一軍定着に至らなかった"
       },
       {
         "season": "2021",
@@ -4298,7 +4503,8 @@
         "era": 4.63,
         "eraDisplay": "4.63",
         "strikeouts": 26,
-        "inningsPitched": 23.1
+        "inningsPitched": 23.1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -4309,7 +4515,8 @@
         "era": 5.01,
         "eraDisplay": "5.01",
         "strikeouts": 27,
-        "inningsPitched": 23.1
+        "inningsPitched": 23.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -4320,7 +4527,8 @@
         "era": 1.71,
         "eraDisplay": "1.71",
         "strikeouts": 25,
-        "inningsPitched": 26.1
+        "inningsPitched": 26.1,
+        "team": "日本ハム"
       }
     ]
   },
@@ -4398,7 +4606,8 @@
         "era": 5.6,
         "eraDisplay": "5.60",
         "strikeouts": 21,
-        "inningsPitched": 17.2
+        "inningsPitched": 17.2,
+        "team": "巨人"
       },
       {
         "season": "2023",
@@ -4409,7 +4618,8 @@
         "era": 3.4,
         "eraDisplay": "3.40",
         "strikeouts": 55,
-        "inningsPitched": 47.2
+        "inningsPitched": 47.2,
+        "team": "巨人"
       },
       {
         "season": "2025",
@@ -4420,7 +4630,8 @@
         "era": 1.8,
         "eraDisplay": "1.80",
         "strikeouts": 16,
-        "inningsPitched": 10.0
+        "inningsPitched": 10.0,
+        "team": "巨人"
       }
     ]
   },
@@ -4569,7 +4780,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 3,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "中日"
       },
       {
         "season": "2019",
@@ -4580,7 +4792,8 @@
         "era": 2.98,
         "eraDisplay": "2.98",
         "strikeouts": 27,
-        "inningsPitched": 45.1
+        "inningsPitched": 45.1,
+        "team": "中日"
       },
       {
         "season": "2020",
@@ -4591,7 +4804,8 @@
         "era": 5.59,
         "eraDisplay": "5.59",
         "strikeouts": 25,
-        "inningsPitched": 29.0
+        "inningsPitched": 29.0,
+        "team": "中日"
       },
       {
         "season": "2021",
@@ -4602,7 +4816,8 @@
         "era": 6.43,
         "eraDisplay": "6.43",
         "strikeouts": 12,
-        "inningsPitched": 14.0
+        "inningsPitched": 14.0,
+        "team": "中日"
       },
       {
         "season": "2022",
@@ -4613,7 +4828,8 @@
         "era": 3.6,
         "eraDisplay": "3.60",
         "strikeouts": 19,
-        "inningsPitched": 30.0
+        "inningsPitched": 30.0,
+        "team": "中日"
       },
       {
         "season": "2023",
@@ -4624,7 +4840,8 @@
         "era": 5.54,
         "eraDisplay": "5.54",
         "strikeouts": 11,
-        "inningsPitched": 13.0
+        "inningsPitched": 13.0,
+        "team": "中日"
       },
       {
         "season": "2023",
@@ -4635,7 +4852,8 @@
         "era": 1.5,
         "eraDisplay": "1.50",
         "strikeouts": 19,
-        "inningsPitched": 24.0
+        "inningsPitched": 24.0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -4646,7 +4864,8 @@
         "era": 1.82,
         "eraDisplay": "1.82",
         "strikeouts": 30,
-        "inningsPitched": 39.2
+        "inningsPitched": 39.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -4745,7 +4964,8 @@
         "era": 13.5,
         "eraDisplay": "13.50",
         "strikeouts": 0,
-        "inningsPitched": 2.0
+        "inningsPitched": 2.0,
+        "team": "西武"
       },
       {
         "season": "2021",
@@ -4756,7 +4976,8 @@
         "era": 11.25,
         "eraDisplay": "11.25",
         "strikeouts": 1,
-        "inningsPitched": 4.0
+        "inningsPitched": 4.0,
+        "team": "西武"
       }
     ]
   },
@@ -4823,7 +5044,8 @@
         "era": 12.0,
         "eraDisplay": "12.00",
         "strikeouts": 1,
-        "inningsPitched": 3.0
+        "inningsPitched": 3.0,
+        "team": "楽天"
       }
     ]
   },
@@ -4992,7 +5214,8 @@
         "era": 8.56,
         "eraDisplay": "8.56",
         "strikeouts": 15,
-        "inningsPitched": 13.2
+        "inningsPitched": 13.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2019",
@@ -5003,7 +5226,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 0,
-        "inningsPitched": 0.2
+        "inningsPitched": 0.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2021",
@@ -5014,7 +5238,8 @@
         "era": 2.16,
         "eraDisplay": "2.16",
         "strikeouts": 14,
-        "inningsPitched": 16.2
+        "inningsPitched": 16.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2022",
@@ -5025,7 +5250,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 6,
-        "inningsPitched": 5.0
+        "inningsPitched": 5.0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2023",
@@ -5036,7 +5262,8 @@
         "era": 3.5,
         "eraDisplay": "3.50",
         "strikeouts": 46,
-        "inningsPitched": 46.1
+        "inningsPitched": 46.1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5047,7 +5274,8 @@
         "era": 2.17,
         "eraDisplay": "2.17",
         "strikeouts": 47,
-        "inningsPitched": 49.2
+        "inningsPitched": 49.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -5083,14 +5311,14 @@
     "isTohokuConnection": false,
     "lastSeasonStats": {
       "season": "2025",
-      "inningsPitched": 44.33,
+      "inningsPitched": 19.67,
       "games": 31,
-      "era": 3.65,
-      "eraDisplay": "3.65",
+      "era": 3.2,
+      "eraDisplay": "3.20",
       "wins": 1,
-      "losses": 2,
+      "losses": 1,
       "saves": 0,
-      "strikeouts": 49
+      "strikeouts": 14
     },
     "careerSummary": "兵庫県尼崎市出身、関西学院大学からドラフト3位で入団した生え抜きの左腕セットアッパー。スリークォーターから投げるキレのあるストレートとスライダーを武器に、2008年のプロ入りから北海道日本ハム一筋でブルペンを支え続け、通算ホールド数・通算ホールドポイント数ともにNPB歴代1位の記録保持者となった。国内FA・海外FA権をいずれも行使せず、生涯一球団を貫いている。",
     "growthTimeline": [
@@ -5176,7 +5404,8 @@
         "era": 4.37,
         "eraDisplay": "4.37",
         "strikeouts": 25,
-        "inningsPitched": 45.1
+        "inningsPitched": 45.1,
+        "team": "日本ハム"
       },
       {
         "season": "2009",
@@ -5187,7 +5416,8 @@
         "era": 2.89,
         "eraDisplay": "2.89",
         "strikeouts": 55,
-        "inningsPitched": 46.2
+        "inningsPitched": 46.2,
+        "team": "日本ハム"
       },
       {
         "season": "2010",
@@ -5198,7 +5428,8 @@
         "era": 1.7,
         "eraDisplay": "1.70",
         "strikeouts": 49,
-        "inningsPitched": 47.2
+        "inningsPitched": 47.2,
+        "team": "日本ハム"
       },
       {
         "season": "2011",
@@ -5209,7 +5440,8 @@
         "era": 2.21,
         "eraDisplay": "2.21",
         "strikeouts": 56,
-        "inningsPitched": 53.0
+        "inningsPitched": 53.0,
+        "team": "日本ハム"
       },
       {
         "season": "2012",
@@ -5220,7 +5452,8 @@
         "era": 2.25,
         "eraDisplay": "2.25",
         "strikeouts": 56,
-        "inningsPitched": 60.0
+        "inningsPitched": 60.0,
+        "team": "日本ハム"
       },
       {
         "season": "2013",
@@ -5231,7 +5464,8 @@
         "era": 1.74,
         "eraDisplay": "1.74",
         "strikeouts": 39,
-        "inningsPitched": 46.2
+        "inningsPitched": 46.2,
+        "team": "日本ハム"
       },
       {
         "season": "2014",
@@ -5242,7 +5476,8 @@
         "era": 2.16,
         "eraDisplay": "2.16",
         "strikeouts": 46,
-        "inningsPitched": 50.0
+        "inningsPitched": 50.0,
+        "team": "日本ハム"
       },
       {
         "season": "2015",
@@ -5253,7 +5488,8 @@
         "era": 2.7,
         "eraDisplay": "2.70",
         "strikeouts": 30,
-        "inningsPitched": 40.0
+        "inningsPitched": 40.0,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -5264,7 +5500,8 @@
         "era": 1.52,
         "eraDisplay": "1.52",
         "strikeouts": 36,
-        "inningsPitched": 47.1
+        "inningsPitched": 47.1,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -5275,7 +5512,8 @@
         "era": 3.32,
         "eraDisplay": "3.32",
         "strikeouts": 24,
-        "inningsPitched": 40.2
+        "inningsPitched": 40.2,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -5286,7 +5524,8 @@
         "era": 1.8,
         "eraDisplay": "1.80",
         "strikeouts": 39,
-        "inningsPitched": 45.0
+        "inningsPitched": 45.0,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -5297,7 +5536,8 @@
         "era": 1.71,
         "eraDisplay": "1.71",
         "strikeouts": 51,
-        "inningsPitched": 47.1
+        "inningsPitched": 47.1,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -5308,7 +5548,8 @@
         "era": 2.05,
         "eraDisplay": "2.05",
         "strikeouts": 53,
-        "inningsPitched": 48.1
+        "inningsPitched": 48.1,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -5319,7 +5560,8 @@
         "era": 3.65,
         "eraDisplay": "3.65",
         "strikeouts": 49,
-        "inningsPitched": 44.1
+        "inningsPitched": 44.1,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -5330,7 +5572,9 @@
         "era": 5.66,
         "eraDisplay": "5.66",
         "strikeouts": 14,
-        "inningsPitched": 20.2
+        "inningsPitched": 20.2,
+        "team": "日本ハム",
+        "gamesNote": "新庄剛志監督から無期限の二軍再調整を告げられ、自身のパ・リーグ記録だった連続50試合登板も途絶えた"
       },
       {
         "season": "2023",
@@ -5341,7 +5585,8 @@
         "era": 2.66,
         "eraDisplay": "2.66",
         "strikeouts": 24,
-        "inningsPitched": 23.2
+        "inningsPitched": 23.2,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5352,7 +5597,8 @@
         "era": 2.1,
         "eraDisplay": "2.10",
         "strikeouts": 24,
-        "inningsPitched": 25.2
+        "inningsPitched": 25.2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -5468,7 +5714,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -5478,7 +5725,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.5,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -5488,7 +5736,8 @@
         "hr": 1,
         "rbi": 10,
         "ops": 0.492,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -5498,7 +5747,8 @@
         "hr": 7,
         "rbi": 21,
         "ops": 0.643,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -5508,7 +5758,8 @@
         "hr": 5,
         "rbi": 24,
         "ops": 0.687,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -5518,7 +5769,8 @@
         "hr": 3,
         "rbi": 16,
         "ops": 0.545,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -5528,7 +5780,8 @@
         "hr": 4,
         "rbi": 18,
         "ops": 0.584,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -5538,7 +5791,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.429,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -5548,7 +5802,8 @@
         "hr": 0,
         "rbi": 5,
         "ops": 0.595,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5558,7 +5813,9 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.357,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "gamesNote": "一軍の捕手登録が異例の5人体制となり、5月末の昇格後も出場機会が限られた"
       }
     ]
   },
@@ -5638,7 +5895,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -5724,7 +5982,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.247,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -5734,7 +5993,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 1.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5744,7 +6004,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -5821,7 +6082,8 @@
         "hr": 2,
         "rbi": 13,
         "ops": 0.806,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "中日"
       },
       {
         "season": "2021",
@@ -5831,7 +6093,8 @@
         "hr": 2,
         "rbi": 7,
         "ops": 0.657,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "中日"
       },
       {
         "season": "2022",
@@ -5841,7 +6104,8 @@
         "hr": 8,
         "rbi": 24,
         "ops": 0.787,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "中日"
       },
       {
         "season": "2023",
@@ -5851,7 +6115,8 @@
         "hr": 15,
         "rbi": 66,
         "ops": 0.763,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5861,7 +6126,8 @@
         "hr": 13,
         "rbi": 57,
         "ops": 0.741,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -5947,7 +6213,8 @@
         "hr": 2,
         "rbi": 17,
         "ops": 0.716,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -5957,7 +6224,8 @@
         "hr": 0,
         "rbi": 18,
         "ops": 0.54,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -5967,7 +6235,8 @@
         "hr": 1,
         "rbi": 16,
         "ops": 0.612,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "日本ハム"
       }
     ]
   },
@@ -6066,7 +6335,8 @@
         "hr": 3,
         "rbi": 18,
         "ops": 0.749,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -6076,7 +6346,8 @@
         "hr": 7,
         "rbi": 37,
         "ops": 0.664,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -6086,7 +6357,8 @@
         "hr": 6,
         "rbi": 36,
         "ops": 0.724,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -6096,7 +6368,8 @@
         "hr": 13,
         "rbi": 43,
         "ops": 0.692,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -6106,7 +6379,8 @@
         "hr": 2,
         "rbi": 9,
         "ops": 0.565,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       }
     ]
   },
@@ -6251,7 +6525,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2012",
@@ -6261,7 +6536,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.241,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2013",
@@ -6271,7 +6547,8 @@
         "hr": 0,
         "rbi": 8,
         "ops": 0.565,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "日本ハム"
       },
       {
         "season": "2014",
@@ -6281,7 +6558,8 @@
         "hr": 0,
         "rbi": 32,
         "ops": 0.631,
-        "stolenBases": 28
+        "stolenBases": 28,
+        "team": "日本ハム"
       },
       {
         "season": "2015",
@@ -6291,7 +6569,8 @@
         "hr": 0,
         "rbi": 39,
         "ops": 0.637,
-        "stolenBases": 34
+        "stolenBases": 34,
+        "team": "日本ハム"
       },
       {
         "season": "2016",
@@ -6301,7 +6580,8 @@
         "hr": 0,
         "rbi": 28,
         "ops": 0.601,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "日本ハム"
       },
       {
         "season": "2017",
@@ -6311,7 +6591,8 @@
         "hr": 1,
         "rbi": 13,
         "ops": 0.505,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "日本ハム"
       },
       {
         "season": "2018",
@@ -6321,7 +6602,8 @@
         "hr": 1,
         "rbi": 23,
         "ops": 0.633,
-        "stolenBases": 29
+        "stolenBases": 29,
+        "team": "日本ハム"
       },
       {
         "season": "2019",
@@ -6331,7 +6613,8 @@
         "hr": 0,
         "rbi": 16,
         "ops": 0.522,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "日本ハム"
       },
       {
         "season": "2020",
@@ -6341,7 +6624,8 @@
         "hr": 0,
         "rbi": 8,
         "ops": 0.531,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "日本ハム"
       },
       {
         "season": "2021",
@@ -6351,7 +6635,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.461,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -6361,7 +6646,8 @@
         "hr": 0,
         "rbi": 8,
         "ops": 0.544,
-        "stolenBases": 17
+        "stolenBases": 17,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -6371,7 +6657,9 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.465,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム",
+        "gamesNote": "左内腹斜筋の肉離れで5月に登録抹消され、復帰は9月までずれ込んだ"
       }
     ]
   },
@@ -6583,7 +6871,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.431,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -6593,7 +6882,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.537,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       },
       {
         "season": "2023",
@@ -6603,7 +6893,8 @@
         "hr": 1,
         "rbi": 10,
         "ops": 0.589,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -6613,7 +6904,8 @@
         "hr": 0,
         "rbi": 5,
         "ops": 0.508,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "日本ハム"
       }
     ]
   },
@@ -6750,7 +7042,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.334,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -6830,7 +7123,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.533,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   },
@@ -6971,7 +7265,8 @@
         "hr": 1,
         "rbi": 5,
         "ops": 0.569,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "日本ハム"
       },
       {
         "season": "2022",
@@ -6981,7 +7276,9 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.661,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "日本ハム",
+        "gamesNote": "腰椎椎間板ヘルニアの手術を受け、シーズンの大部分を離脱した"
       },
       {
         "season": "2023",
@@ -6991,7 +7288,8 @@
         "hr": 0,
         "rbi": 6,
         "ops": 0.52,
-        "stolenBases": 17
+        "stolenBases": 17,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -7001,7 +7299,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.406,
-        "stolenBases": 18
+        "stolenBases": 18,
+        "team": "日本ハム"
       }
     ]
   },
@@ -7087,7 +7386,8 @@
         "hr": 9,
         "rbi": 39,
         "ops": 0.778,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "日本ハム"
       }
     ]
   },
@@ -7126,7 +7426,7 @@
       "games": 86,
       "avg": 0.247,
       "avgDisplay": ".247",
-      "hr": 3,
+      "hr": 1,
       "rbi": 18,
       "stolenBases": 11
     },
@@ -7175,7 +7475,8 @@
         "hr": 1,
         "rbi": 4,
         "ops": 0.495,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "日本ハム"
       },
       {
         "season": "2024",
@@ -7185,7 +7486,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.222,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム"
       }
     ]
   }

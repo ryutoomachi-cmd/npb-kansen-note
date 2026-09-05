@@ -186,7 +186,8 @@
         "hr": 9,
         "rbi": 42,
         "ops": 0.688,
-        "stolenBases": 36
+        "stolenBases": 36,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -196,7 +197,8 @@
         "hr": 9,
         "rbi": 45,
         "ops": 0.76,
-        "stolenBases": 31
+        "stolenBases": 31,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -206,7 +208,8 @@
         "hr": 10,
         "rbi": 50,
         "ops": 0.795,
-        "stolenBases": 24
+        "stolenBases": 24,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -216,7 +219,8 @@
         "hr": 3,
         "rbi": 34,
         "ops": 0.704,
-        "stolenBases": 30
+        "stolenBases": 30,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -226,7 +230,8 @@
         "hr": 8,
         "rbi": 54,
         "ops": 0.808,
-        "stolenBases": 28
+        "stolenBases": 28,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -236,7 +241,8 @@
         "hr": 6,
         "rbi": 45,
         "ops": 0.728,
-        "stolenBases": 19
+        "stolenBases": 19,
+        "team": "阪神"
       }
     ]
   },
@@ -312,7 +318,8 @@
         "era": 16.88,
         "eraDisplay": "16.88",
         "strikeouts": 10,
-        "inningsPitched": 5.1
+        "inningsPitched": 5.1,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -323,7 +330,8 @@
         "era": 1.75,
         "eraDisplay": "1.75",
         "strikeouts": 137,
-        "inningsPitched": 144.1
+        "inningsPitched": 144.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -334,7 +342,8 @@
         "era": 2.58,
         "eraDisplay": "2.58",
         "strikeouts": 130,
-        "inningsPitched": 153.2
+        "inningsPitched": 153.2,
+        "team": "阪神"
       }
     ]
   },
@@ -414,7 +423,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 3,
-        "inningsPitched": 2.2
+        "inningsPitched": 2.2,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -425,7 +435,8 @@
         "era": 4.61,
         "eraDisplay": "4.61",
         "strikeouts": 85,
-        "inningsPitched": 82.0
+        "inningsPitched": 82.0,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -436,7 +447,8 @@
         "era": 4.7,
         "eraDisplay": "4.70",
         "strikeouts": 14,
-        "inningsPitched": 15.1
+        "inningsPitched": 15.1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -447,7 +459,8 @@
         "era": 1.53,
         "eraDisplay": "1.53",
         "strikeouts": 43,
-        "inningsPitched": 47.0
+        "inningsPitched": 47.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -458,7 +471,8 @@
         "era": 1.82,
         "eraDisplay": "1.82",
         "strikeouts": 107,
-        "inningsPitched": 118.2
+        "inningsPitched": 118.2,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -469,7 +483,8 @@
         "era": 1.83,
         "eraDisplay": "1.83",
         "strikeouts": 137,
-        "inningsPitched": 167.2
+        "inningsPitched": 167.2,
+        "team": "阪神"
       }
     ]
   },
@@ -544,7 +559,8 @@
         "era": 3.63,
         "eraDisplay": "3.63",
         "strikeouts": 27,
-        "inningsPitched": 34.2
+        "inningsPitched": 34.2,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -555,7 +571,8 @@
         "era": 3.78,
         "eraDisplay": "3.78",
         "strikeouts": 125,
-        "inningsPitched": 109.2
+        "inningsPitched": 109.2,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -566,7 +583,8 @@
         "era": 2.49,
         "eraDisplay": "2.49",
         "strikeouts": 75,
-        "inningsPitched": 76.0
+        "inningsPitched": 76.0,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -577,7 +595,8 @@
         "era": 1.65,
         "eraDisplay": "1.65",
         "strikeouts": 55,
-        "inningsPitched": 49.0
+        "inningsPitched": 49.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -588,7 +607,8 @@
         "era": 1.52,
         "eraDisplay": "1.52",
         "strikeouts": 28,
-        "inningsPitched": 29.2
+        "inningsPitched": 29.2,
+        "team": "阪神"
       }
     ]
   },
@@ -664,7 +684,8 @@
         "era": 3.88,
         "eraDisplay": "3.88",
         "strikeouts": 36,
-        "inningsPitched": 48.2
+        "inningsPitched": 48.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2019",
@@ -675,7 +696,8 @@
         "era": 3.82,
         "eraDisplay": "3.82",
         "strikeouts": 72,
-        "inningsPitched": 106.0
+        "inningsPitched": 106.0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2020",
@@ -686,7 +708,8 @@
         "era": 2.3,
         "eraDisplay": "2.30",
         "strikeouts": 8,
-        "inningsPitched": 15.2
+        "inningsPitched": 15.2,
+        "team": "ソフトバンク"
       },
       {
         "season": "2021",
@@ -697,7 +720,8 @@
         "era": 15.75,
         "eraDisplay": "15.75",
         "strikeouts": 1,
-        "inningsPitched": 4.0
+        "inningsPitched": 4.0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2022",
@@ -708,7 +732,8 @@
         "era": 6.43,
         "eraDisplay": "6.43",
         "strikeouts": 5,
-        "inningsPitched": 7.0
+        "inningsPitched": 7.0,
+        "team": "ソフトバンク"
       },
       {
         "season": "2023",
@@ -719,7 +744,8 @@
         "era": 2.26,
         "eraDisplay": "2.26",
         "strikeouts": 82,
-        "inningsPitched": 131.2
+        "inningsPitched": 131.2,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -730,7 +756,8 @@
         "era": 2.8,
         "eraDisplay": "2.80",
         "strikeouts": 91,
-        "inningsPitched": 144.2
+        "inningsPitched": 144.2,
+        "team": "阪神"
       }
     ]
   },
@@ -858,7 +885,8 @@
         "era": 3.5,
         "eraDisplay": "3.50",
         "strikeouts": 76,
-        "inningsPitched": 90.0
+        "inningsPitched": 90.0,
+        "team": "阪神"
       },
       {
         "season": "2015",
@@ -869,7 +897,9 @@
         "era": 3.51,
         "eraDisplay": "3.51",
         "strikeouts": 57,
-        "inningsPitched": 77.0
+        "inningsPitched": 77.0,
+        "team": "阪神",
+        "gamesNote": "先発投手として起用され3勝10敗と苦戦した（救援転向前のため登板数は先発回数相当）"
       },
       {
         "season": "2016",
@@ -880,7 +910,9 @@
         "era": 3.63,
         "eraDisplay": "3.63",
         "strikeouts": 59,
-        "inningsPitched": 74.1
+        "inningsPitched": 74.1,
+        "team": "阪神",
+        "gamesNote": "9月に左腕救援陣の故障をきっかけに中継ぎへ転向するまで先発起用だったため登板数が少なかった"
       },
       {
         "season": "2017",
@@ -891,7 +923,8 @@
         "era": 2.39,
         "eraDisplay": "2.39",
         "strikeouts": 88,
-        "inningsPitched": 71.2
+        "inningsPitched": 71.2,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -902,7 +935,8 @@
         "era": 4.94,
         "eraDisplay": "4.94",
         "strikeouts": 70,
-        "inningsPitched": 62.0
+        "inningsPitched": 62.0,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -913,7 +947,8 @@
         "era": 1.01,
         "eraDisplay": "1.01",
         "strikeouts": 58,
-        "inningsPitched": 53.2
+        "inningsPitched": 53.2,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -924,7 +959,8 @@
         "era": 1.82,
         "eraDisplay": "1.82",
         "strikeouts": 37,
-        "inningsPitched": 39.2
+        "inningsPitched": 39.2,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -935,7 +971,8 @@
         "era": 2.65,
         "eraDisplay": "2.65",
         "strikeouts": 51,
-        "inningsPitched": 57.2
+        "inningsPitched": 57.2,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -946,7 +983,8 @@
         "era": 1.96,
         "eraDisplay": "1.96",
         "strikeouts": 44,
-        "inningsPitched": 55.0
+        "inningsPitched": 55.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -957,7 +995,8 @@
         "era": 1.77,
         "eraDisplay": "1.77",
         "strikeouts": 62,
-        "inningsPitched": 56.0
+        "inningsPitched": 56.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -968,7 +1007,8 @@
         "era": 2.2,
         "eraDisplay": "2.20",
         "strikeouts": 46,
-        "inningsPitched": 57.1
+        "inningsPitched": 57.1,
+        "team": "阪神"
       }
     ]
   },
@@ -1149,7 +1189,8 @@
         "era": 2.12,
         "eraDisplay": "2.12",
         "strikeouts": 36,
-        "inningsPitched": 34.0
+        "inningsPitched": 34.0,
+        "team": "阪神"
       },
       {
         "season": "2017",
@@ -1160,7 +1201,8 @@
         "era": 2.71,
         "eraDisplay": "2.71",
         "strikeouts": 85,
-        "inningsPitched": 63.0
+        "inningsPitched": 63.0,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -1171,7 +1213,8 @@
         "era": 2.85,
         "eraDisplay": "2.85",
         "strikeouts": 56,
-        "inningsPitched": 53.2
+        "inningsPitched": 53.2,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -1182,7 +1225,8 @@
         "era": 2.11,
         "eraDisplay": "2.11",
         "strikeouts": 50,
-        "inningsPitched": 55.1
+        "inningsPitched": 55.1,
+        "team": "阪神"
       }
     ]
   },
@@ -1262,7 +1306,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 0.621,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2017",
@@ -1272,7 +1317,8 @@
         "hr": 2,
         "rbi": 17,
         "ops": 0.686,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -1282,7 +1328,9 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.481,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "gamesNote": "梅野隆太郎が開幕から正捕手に定着し、シーズンの大半を二軍で過ごした"
       },
       {
         "season": "2019",
@@ -1292,7 +1340,9 @@
         "hr": 2,
         "rbi": 3,
         "ops": 0.52,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "gamesNote": "梅野に次ぐ第二捕手の座を長坂拳弥・岡﨑太一らと争い、一軍と二軍を往復した"
       },
       {
         "season": "2020",
@@ -1302,7 +1352,8 @@
         "hr": 0,
         "rbi": 4,
         "ops": 0.597,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -1312,7 +1363,8 @@
         "hr": 1,
         "rbi": 6,
         "ops": 0.531,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -1322,7 +1374,8 @@
         "hr": 0,
         "rbi": 6,
         "ops": 0.498,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -1332,7 +1385,8 @@
         "hr": 0,
         "rbi": 21,
         "ops": 0.543,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -1342,7 +1396,8 @@
         "hr": 0,
         "rbi": 12,
         "ops": 0.512,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -1482,7 +1537,8 @@
         "hr": 7,
         "rbi": 21,
         "ops": 0.581,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2015",
@@ -1492,7 +1548,8 @@
         "hr": 4,
         "rbi": 18,
         "ops": 0.682,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2016",
@@ -1502,7 +1559,9 @@
         "hr": 0,
         "rbi": 4,
         "ops": 0.324,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神",
+        "gamesNote": "打撃・守備で精彩を欠き、育成出身から支配下復帰した原口文仁の台頭もあって一軍と二軍を往復した"
       },
       {
         "season": "2017",
@@ -1512,7 +1571,8 @@
         "hr": 2,
         "rbi": 33,
         "ops": 0.548,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -1522,7 +1582,8 @@
         "hr": 8,
         "rbi": 47,
         "ops": 0.724,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -1532,7 +1593,8 @@
         "hr": 9,
         "rbi": 59,
         "ops": 0.719,
-        "stolenBases": 14
+        "stolenBases": 14,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -1542,7 +1604,8 @@
         "hr": 7,
         "rbi": 29,
         "ops": 0.722,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -1552,7 +1615,8 @@
         "hr": 3,
         "rbi": 33,
         "ops": 0.603,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -1562,7 +1626,8 @@
         "hr": 4,
         "rbi": 25,
         "ops": 0.58,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -1572,7 +1637,8 @@
         "hr": 1,
         "rbi": 19,
         "ops": 0.514,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -1582,7 +1648,8 @@
         "hr": 0,
         "rbi": 15,
         "ops": 0.532,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -1667,7 +1734,8 @@
         "hr": 24,
         "rbi": 64,
         "ops": 0.75,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -1677,7 +1745,8 @@
         "hr": 20,
         "rbi": 84,
         "ops": 0.798,
-        "stolenBases": 11
+        "stolenBases": 11,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -1687,7 +1756,8 @@
         "hr": 24,
         "rbi": 92,
         "ops": 0.837,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -1697,7 +1767,8 @@
         "hr": 16,
         "rbi": 70,
         "ops": 0.766,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -1781,7 +1852,8 @@
         "hr": 7,
         "rbi": 38,
         "ops": 0.723,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -1791,7 +1863,8 @@
         "hr": 11,
         "rbi": 48,
         "ops": 0.773,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -1801,7 +1874,8 @@
         "hr": 14,
         "rbi": 76,
         "ops": 0.713,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -1811,7 +1885,8 @@
         "hr": 28,
         "rbi": 85,
         "ops": 0.917,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -1821,7 +1896,8 @@
         "hr": 21,
         "rbi": 71,
         "ops": 0.766,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -1831,7 +1907,8 @@
         "hr": 23,
         "rbi": 87,
         "ops": 0.827,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -1841,7 +1918,8 @@
         "hr": 19,
         "rbi": 78,
         "ops": 0.859,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -1851,7 +1929,8 @@
         "hr": 14,
         "rbi": 68,
         "ops": 0.721,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -2006,7 +2085,8 @@
         "hr": 1,
         "rbi": 36,
         "ops": 0.649,
-        "stolenBases": 30
+        "stolenBases": 30,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -2016,7 +2096,8 @@
         "hr": 6,
         "rbi": 25,
         "ops": 0.647,
-        "stolenBases": 23
+        "stolenBases": 23,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -2026,7 +2107,8 @@
         "hr": 2,
         "rbi": 40,
         "ops": 0.692,
-        "stolenBases": 20
+        "stolenBases": 20,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2036,7 +2118,8 @@
         "hr": 1,
         "rbi": 32,
         "ops": 0.579,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "阪神"
       }
     ]
   },
@@ -2107,7 +2190,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.453,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       }
     ]
   },
@@ -2241,7 +2325,8 @@
         "hr": 10,
         "rbi": 41,
         "ops": 0.691,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2251,7 +2336,8 @@
         "hr": 16,
         "rbi": 73,
         "ops": 0.804,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -2325,7 +2411,8 @@
         "hr": 0,
         "rbi": 7,
         "ops": 0.676,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2335,7 +2422,8 @@
         "hr": 4,
         "rbi": 42,
         "ops": 0.698,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -2479,7 +2567,8 @@
         "era": 6.23,
         "eraDisplay": "6.23",
         "strikeouts": 16,
-        "inningsPitched": 17.1
+        "inningsPitched": 17.1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -2490,7 +2579,8 @@
         "era": 0.75,
         "eraDisplay": "0.75",
         "strikeouts": 24,
-        "inningsPitched": 24.0
+        "inningsPitched": 24.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -2501,7 +2591,8 @@
         "era": 1.35,
         "eraDisplay": "1.35",
         "strikeouts": 29,
-        "inningsPitched": 40.0
+        "inningsPitched": 40.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2512,7 +2603,8 @@
         "era": 1.48,
         "eraDisplay": "1.48",
         "strikeouts": 58,
-        "inningsPitched": 48.2
+        "inningsPitched": 48.2,
+        "team": "阪神"
       }
     ]
   },
@@ -2595,7 +2687,8 @@
         "era": 2.44,
         "eraDisplay": "2.44",
         "strikeouts": 79,
-        "inningsPitched": 140.1
+        "inningsPitched": 140.1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -2606,7 +2699,8 @@
         "era": 2.63,
         "eraDisplay": "2.63",
         "strikeouts": 92,
-        "inningsPitched": 136.2
+        "inningsPitched": 136.2,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -2617,7 +2711,8 @@
         "era": 2.39,
         "eraDisplay": "2.39",
         "strikeouts": 91,
-        "inningsPitched": 146.2
+        "inningsPitched": 146.2,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2628,7 +2723,8 @@
         "era": 4.62,
         "eraDisplay": "4.62",
         "strikeouts": 33,
-        "inningsPitched": 74.0
+        "inningsPitched": 74.0,
+        "team": "阪神"
       }
     ]
   },
@@ -2845,7 +2941,8 @@
         "era": 4.6,
         "eraDisplay": "4.60",
         "strikeouts": 21,
-        "inningsPitched": 29.1
+        "inningsPitched": 29.1,
+        "team": "阪神"
       },
       {
         "season": "2015",
@@ -2856,7 +2953,9 @@
         "era": 4.35,
         "eraDisplay": "4.35",
         "strikeouts": 11,
-        "inningsPitched": 20.2
+        "inningsPitched": 20.2,
+        "team": "阪神",
+        "gamesNote": "同期の岩崎優と先発6番手の座を争って敗れ、開幕を二軍で迎えた"
       },
       {
         "season": "2016",
@@ -2867,7 +2966,8 @@
         "era": 2.9,
         "eraDisplay": "2.90",
         "strikeouts": 156,
-        "inningsPitched": 158.1
+        "inningsPitched": 158.1,
+        "team": "阪神"
       },
       {
         "season": "2017",
@@ -2878,7 +2978,8 @@
         "era": 4.96,
         "eraDisplay": "4.96",
         "strikeouts": 93,
-        "inningsPitched": 98.0
+        "inningsPitched": 98.0,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -2889,7 +2990,8 @@
         "era": 3.48,
         "eraDisplay": "3.48",
         "strikeouts": 122,
-        "inningsPitched": 132.0
+        "inningsPitched": 132.0,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -2900,7 +3002,9 @@
         "era": 4.02,
         "eraDisplay": "4.02",
         "strikeouts": 33,
-        "inningsPitched": 40.1
+        "inningsPitched": 40.1,
+        "team": "阪神",
+        "gamesNote": "インフルエンザ感染や右脇腹の肉離れ、背中の張りなど故障が重なり離脱した"
       },
       {
         "season": "2020",
@@ -2911,7 +3015,8 @@
         "era": 3.3,
         "eraDisplay": "3.30",
         "strikeouts": 63,
-        "inningsPitched": 71.0
+        "inningsPitched": 71.0,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -2922,7 +3027,8 @@
         "era": 4.66,
         "eraDisplay": "4.66",
         "strikeouts": 33,
-        "inningsPitched": 38.2
+        "inningsPitched": 38.2,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -2933,7 +3039,8 @@
         "era": 2.57,
         "eraDisplay": "2.57",
         "strikeouts": 38,
-        "inningsPitched": 42.0
+        "inningsPitched": 42.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -2944,7 +3051,8 @@
         "era": 2.7,
         "eraDisplay": "2.70",
         "strikeouts": 30,
-        "inningsPitched": 43.1
+        "inningsPitched": 43.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -2955,7 +3063,9 @@
         "era": 5.4,
         "eraDisplay": "5.40",
         "strikeouts": 2,
-        "inningsPitched": 1.2
+        "inningsPitched": 1.2,
+        "team": "阪神",
+        "gamesNote": "開幕から一軍に定着できず大半をファームで調整し、7月30日に昇格するも8月9日に抹消された"
       }
     ]
   },
@@ -3050,7 +3160,8 @@
         "era": 1.29,
         "eraDisplay": "1.29",
         "strikeouts": 6,
-        "inningsPitched": 7.0
+        "inningsPitched": 7.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -3061,7 +3172,8 @@
         "era": 2.84,
         "eraDisplay": "2.84",
         "strikeouts": 24,
-        "inningsPitched": 38.0
+        "inningsPitched": 38.0,
+        "team": "阪神"
       }
     ]
   },
@@ -3150,7 +3262,8 @@
         "era": 3.69,
         "eraDisplay": "3.69",
         "strikeouts": 38,
-        "inningsPitched": 43.2
+        "inningsPitched": 43.2,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -3161,7 +3274,9 @@
         "era": 9.0,
         "eraDisplay": "9.00",
         "strikeouts": 0,
-        "inningsPitched": 1.0
+        "inningsPitched": 1.0,
+        "team": "阪神",
+        "gamesNote": "3月に脇腹を痛めて長期離脱し、一軍登板は1試合にとどまった"
       },
       {
         "season": "2023",
@@ -3172,7 +3287,8 @@
         "era": 2.23,
         "eraDisplay": "2.23",
         "strikeouts": 40,
-        "inningsPitched": 36.1
+        "inningsPitched": 36.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -3183,7 +3299,9 @@
         "era": 2.76,
         "eraDisplay": "2.76",
         "strikeouts": 23,
-        "inningsPitched": 29.1
+        "inningsPitched": 29.1,
+        "team": "阪神",
+        "gamesNote": "先発転向を試みたが制球に苦しみ中継ぎに戻ったため、登板数が減少した"
       }
     ]
   },
@@ -3353,7 +3471,8 @@
         "era": 5.02,
         "eraDisplay": "5.02",
         "strikeouts": 16,
-        "inningsPitched": 14.1
+        "inningsPitched": 14.1,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -3364,7 +3483,8 @@
         "era": 1.79,
         "eraDisplay": "1.79",
         "strikeouts": 40,
-        "inningsPitched": 40.1
+        "inningsPitched": 40.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -3375,7 +3495,8 @@
         "era": 1.79,
         "eraDisplay": "1.79",
         "strikeouts": 60,
-        "inningsPitched": 65.1
+        "inningsPitched": 65.1,
+        "team": "阪神"
       }
     ]
   },
@@ -3831,7 +3952,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 10,
-        "inningsPitched": 5.0
+        "inningsPitched": 5.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -3842,7 +3964,8 @@
         "era": 0.76,
         "eraDisplay": "0.76",
         "strikeouts": 22,
-        "inningsPitched": 35.2
+        "inningsPitched": 35.2,
+        "team": "阪神"
       }
     ]
   },
@@ -3935,7 +4058,8 @@
         "era": 0.0,
         "eraDisplay": "0.00",
         "strikeouts": 2,
-        "inningsPitched": 4.2
+        "inningsPitched": 4.2,
+        "team": "オリックス"
       },
       {
         "season": "2010",
@@ -3946,7 +4070,8 @@
         "era": 3.41,
         "eraDisplay": "3.41",
         "strikeouts": 31,
-        "inningsPitched": 31.2
+        "inningsPitched": 31.2,
+        "team": "オリックス"
       },
       {
         "season": "2011",
@@ -3957,7 +4082,8 @@
         "era": 3.03,
         "eraDisplay": "3.03",
         "strikeouts": 106,
-        "inningsPitched": 130.2
+        "inningsPitched": 130.2,
+        "team": "オリックス"
       },
       {
         "season": "2012",
@@ -3968,7 +4094,8 @@
         "era": 2.78,
         "eraDisplay": "2.78",
         "strikeouts": 87,
-        "inningsPitched": 123.0
+        "inningsPitched": 123.0,
+        "team": "オリックス"
       },
       {
         "season": "2013",
@@ -3979,7 +4106,8 @@
         "era": 3.63,
         "eraDisplay": "3.63",
         "strikeouts": 137,
-        "inningsPitched": 166.0
+        "inningsPitched": 166.0,
+        "team": "オリックス"
       },
       {
         "season": "2014",
@@ -3990,7 +4118,8 @@
         "era": 3.29,
         "eraDisplay": "3.29",
         "strikeouts": 119,
-        "inningsPitched": 156.0
+        "inningsPitched": 156.0,
+        "team": "オリックス"
       },
       {
         "season": "2015",
@@ -4001,7 +4130,8 @@
         "era": 2.38,
         "eraDisplay": "2.38",
         "strikeouts": 143,
-        "inningsPitched": 162.2
+        "inningsPitched": 162.2,
+        "team": "オリックス"
       },
       {
         "season": "2016",
@@ -4012,7 +4142,8 @@
         "era": 4.14,
         "eraDisplay": "4.14",
         "strikeouts": 108,
-        "inningsPitched": 165.1
+        "inningsPitched": 165.1,
+        "team": "オリックス"
       },
       {
         "season": "2017",
@@ -4023,7 +4154,8 @@
         "era": 3.44,
         "eraDisplay": "3.44",
         "strikeouts": 88,
-        "inningsPitched": 117.2
+        "inningsPitched": 117.2,
+        "team": "オリックス"
       },
       {
         "season": "2018",
@@ -4034,7 +4166,8 @@
         "era": 3.6,
         "eraDisplay": "3.60",
         "strikeouts": 119,
-        "inningsPitched": 162.1
+        "inningsPitched": 162.1,
+        "team": "オリックス"
       },
       {
         "season": "2019",
@@ -4045,7 +4178,8 @@
         "era": 2.92,
         "eraDisplay": "2.92",
         "strikeouts": 112,
-        "inningsPitched": 172.1
+        "inningsPitched": 172.1,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -4056,7 +4190,8 @@
         "era": 2.26,
         "eraDisplay": "2.26",
         "strikeouts": 115,
-        "inningsPitched": 147.2
+        "inningsPitched": 147.2,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -4067,7 +4202,8 @@
         "era": 3.76,
         "eraDisplay": "3.76",
         "strikeouts": 95,
-        "inningsPitched": 143.2
+        "inningsPitched": 143.2,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -4078,7 +4214,8 @@
         "era": 2.18,
         "eraDisplay": "2.18",
         "strikeouts": 93,
-        "inningsPitched": 148.1
+        "inningsPitched": 148.1,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -4089,7 +4226,8 @@
         "era": 3.57,
         "eraDisplay": "3.57",
         "strikeouts": 56,
-        "inningsPitched": 108.1
+        "inningsPitched": 108.1,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -4100,7 +4238,8 @@
         "era": 2.24,
         "eraDisplay": "2.24",
         "strikeouts": 71,
-        "inningsPitched": 124.2
+        "inningsPitched": 124.2,
+        "team": "阪神"
       }
     ]
   },
@@ -4191,7 +4330,8 @@
         "era": 2.99,
         "eraDisplay": "2.99",
         "strikeouts": 72,
-        "inningsPitched": 72.1
+        "inningsPitched": 72.1,
+        "team": "巨人"
       },
       {
         "season": "2018",
@@ -4202,7 +4342,8 @@
         "era": 2.79,
         "eraDisplay": "2.79",
         "strikeouts": 10,
-        "inningsPitched": 9.2
+        "inningsPitched": 9.2,
+        "team": "巨人"
       },
       {
         "season": "2019",
@@ -4213,7 +4354,8 @@
         "era": 6.89,
         "eraDisplay": "6.89",
         "strikeouts": 14,
-        "inningsPitched": 15.2
+        "inningsPitched": 15.2,
+        "team": "巨人"
       },
       {
         "season": "2020",
@@ -4224,7 +4366,8 @@
         "era": 2.88,
         "eraDisplay": "2.88",
         "strikeouts": 49,
-        "inningsPitched": 65.2
+        "inningsPitched": 65.2,
+        "team": "巨人"
       },
       {
         "season": "2021",
@@ -4235,7 +4378,8 @@
         "era": 3.07,
         "eraDisplay": "3.07",
         "strikeouts": 97,
-        "inningsPitched": 96.2
+        "inningsPitched": 96.2,
+        "team": "巨人"
       },
       {
         "season": "2022",
@@ -4246,7 +4390,8 @@
         "era": 3.14,
         "eraDisplay": "3.14",
         "strikeouts": 22,
-        "inningsPitched": 28.2
+        "inningsPitched": 28.2,
+        "team": "巨人"
       },
       {
         "season": "2024",
@@ -4257,7 +4402,8 @@
         "era": 3.0,
         "eraDisplay": "3.00",
         "strikeouts": 3,
-        "inningsPitched": 3.0
+        "inningsPitched": 3.0,
+        "team": "巨人"
       }
     ]
   },
@@ -4467,7 +4613,8 @@
         "era": 3.38,
         "eraDisplay": "3.38",
         "strikeouts": 5,
-        "inningsPitched": 8.0
+        "inningsPitched": 8.0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -4478,7 +4625,8 @@
         "era": 4.5,
         "eraDisplay": "4.50",
         "strikeouts": 8,
-        "inningsPitched": 12.0
+        "inningsPitched": 12.0,
+        "team": "阪神"
       }
     ]
   },
@@ -4569,7 +4717,8 @@
         "era": 18.0,
         "eraDisplay": "18.00",
         "strikeouts": 2,
-        "inningsPitched": 3.0
+        "inningsPitched": 3.0,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -4580,7 +4729,8 @@
         "era": 1.09,
         "eraDisplay": "1.09",
         "strikeouts": 67,
-        "inningsPitched": 58.0
+        "inningsPitched": 58.0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -4591,7 +4741,8 @@
         "era": 4.4,
         "eraDisplay": "4.40",
         "strikeouts": 15,
-        "inningsPitched": 14.1
+        "inningsPitched": 14.1,
+        "team": "阪神"
       }
     ]
   },
@@ -4721,7 +4872,8 @@
         "era": 5.4,
         "eraDisplay": "5.40",
         "strikeouts": 3,
-        "inningsPitched": 3.1
+        "inningsPitched": 3.1,
+        "team": "阪神"
       }
     ]
   },
@@ -4801,7 +4953,9 @@
         "avgDisplay": ".250",
         "hr": 1,
         "rbi": 2,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.669
       },
       {
         "season": "2014",
@@ -4810,7 +4964,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.0
       },
       {
         "season": "2015",
@@ -4819,7 +4975,9 @@
         "avgDisplay": ".273",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.652
       },
       {
         "season": "2016",
@@ -4828,7 +4986,9 @@
         "avgDisplay": ".242",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.528
       },
       {
         "season": "2017",
@@ -4837,7 +4997,10 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.0,
+        "gamesNote": "4月15日に山崎勝己との入れ替えで二軍落ちとなり、出場機会が減った"
       },
       {
         "season": "2018",
@@ -4846,7 +5009,9 @@
         "avgDisplay": ".274",
         "hr": 1,
         "rbi": 17,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.701
       },
       {
         "season": "2019",
@@ -4855,7 +5020,9 @@
         "avgDisplay": ".164",
         "hr": 1,
         "rbi": 9,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.491
       },
       {
         "season": "2020",
@@ -4864,7 +5031,9 @@
         "avgDisplay": ".259",
         "hr": 6,
         "rbi": 23,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.693
       },
       {
         "season": "2021",
@@ -4873,7 +5042,9 @@
         "avgDisplay": ".218",
         "hr": 4,
         "rbi": 25,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "オリックス",
+        "ops": 0.592
       },
       {
         "season": "2022",
@@ -4882,7 +5053,9 @@
         "avgDisplay": ".229",
         "hr": 3,
         "rbi": 21,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "オリックス",
+        "ops": 0.615
       },
       {
         "season": "2023",
@@ -4891,7 +5064,9 @@
         "avgDisplay": ".201",
         "hr": 3,
         "rbi": 12,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.503
       },
       {
         "season": "2024",
@@ -4900,7 +5075,9 @@
         "avgDisplay": ".242",
         "hr": 0,
         "rbi": 21,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "日本ハム",
+        "ops": 0.54
       }
     ]
   },
@@ -4985,7 +5162,9 @@
         "avgDisplay": "1.000",
         "hr": 0,
         "rbi": 1,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "ops": 2.0
       },
       {
         "season": "2023",
@@ -4994,7 +5173,9 @@
         "avgDisplay": ".333",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "ops": 0.667
       },
       {
         "season": "2024",
@@ -5003,7 +5184,9 @@
         "avgDisplay": ".000",
         "hr": 0,
         "rbi": 0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "ops": 0.0
       }
     ]
   },
@@ -5089,7 +5272,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -5099,7 +5283,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.375,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -5109,7 +5294,8 @@
         "hr": 1,
         "rbi": 1,
         "ops": 5.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -5119,7 +5305,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 1.4,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -5129,7 +5316,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.425,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -5139,7 +5327,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.444,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -5149,7 +5338,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -5354,7 +5544,8 @@
         "hr": 3,
         "rbi": 17,
         "ops": 0.654,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "ヤクルト"
       },
       {
         "season": "2022",
@@ -5364,7 +5555,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 0.518,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       },
       {
         "season": "2023",
@@ -5374,7 +5566,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.38,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       },
       {
         "season": "2024",
@@ -5384,7 +5577,8 @@
         "hr": 1,
         "rbi": 7,
         "ops": 0.383,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "西武"
       }
     ]
   },
@@ -5464,7 +5658,8 @@
         "hr": 4,
         "rbi": 32,
         "ops": 0.657,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -5474,7 +5669,8 @@
         "hr": 3,
         "rbi": 25,
         "ops": 0.661,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -5484,7 +5680,8 @@
         "hr": 1,
         "rbi": 15,
         "ops": 0.588,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -5494,7 +5691,9 @@
         "hr": 1,
         "rbi": 6,
         "ops": 0.533,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神",
+        "gamesNote": "左足首の捻挫で登録抹消となり、出場が41試合にとどまった"
       },
       {
         "season": "2023",
@@ -5504,7 +5703,8 @@
         "hr": 1,
         "rbi": 41,
         "ops": 0.653,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -5514,7 +5714,8 @@
         "hr": 1,
         "rbi": 35,
         "ops": 0.55,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       }
     ]
   },
@@ -5604,7 +5805,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.564,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -5614,7 +5816,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.791,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -5624,7 +5827,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -5634,7 +5838,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.308,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -5644,7 +5849,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.833,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -5654,7 +5860,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.25,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       }
     ]
   },
@@ -5833,7 +6040,8 @@
         "hr": 1,
         "rbi": 24,
         "ops": 0.72,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2018",
@@ -5843,7 +6051,8 @@
         "hr": 1,
         "rbi": 35,
         "ops": 0.752,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -5853,7 +6062,8 @@
         "hr": 2,
         "rbi": 45,
         "ops": 0.689,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -5863,7 +6073,8 @@
         "hr": 3,
         "rbi": 20,
         "ops": 0.733,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -5873,7 +6084,8 @@
         "hr": 2,
         "rbi": 30,
         "ops": 0.698,
-        "stolenBases": 6
+        "stolenBases": 6,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -5883,7 +6095,8 @@
         "hr": 3,
         "rbi": 36,
         "ops": 0.606,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -5893,7 +6106,8 @@
         "hr": 0,
         "rbi": 5,
         "ops": 0.587,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -5903,7 +6117,8 @@
         "hr": 0,
         "rbi": 9,
         "ops": 0.547,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -5985,7 +6200,8 @@
         "hr": 0,
         "rbi": 7,
         "ops": 0.516,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -5995,7 +6211,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.711,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -6005,7 +6222,8 @@
         "hr": 1,
         "rbi": 5,
         "ops": 0.454,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -6015,7 +6233,8 @@
         "hr": 0,
         "rbi": 8,
         "ops": 0.67,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -6025,7 +6244,8 @@
         "hr": 1,
         "rbi": 9,
         "ops": 0.623,
-        "stolenBases": 2
+        "stolenBases": 2,
+        "team": "阪神"
       }
     ]
   },
@@ -6172,7 +6392,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2017",
@@ -6182,7 +6403,9 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.594,
-        "stolenBases": 1
+        "stolenBases": 1,
+        "team": "阪神",
+        "gamesNote": "キャンプ終了後に二軍スタートとなり、一軍初出場は8月30日までずれ込んだ"
       },
       {
         "season": "2018",
@@ -6192,7 +6415,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.486,
-        "stolenBases": 19
+        "stolenBases": 19,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -6202,7 +6426,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 0.619,
-        "stolenBases": 12
+        "stolenBases": 12,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -6212,7 +6437,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.537,
-        "stolenBases": 9
+        "stolenBases": 9,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -6222,7 +6448,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.762,
-        "stolenBases": 10
+        "stolenBases": 10,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -6232,7 +6459,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.607,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -6242,7 +6470,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.5,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -6252,7 +6481,8 @@
         "hr": 0,
         "rbi": 3,
         "ops": 0.728,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "阪神"
       }
     ]
   },
@@ -6334,7 +6564,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.0,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       },
       {
         "season": "2020",
@@ -6344,7 +6575,8 @@
         "hr": 3,
         "rbi": 7,
         "ops": 0.568,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       },
       {
         "season": "2022",
@@ -6354,7 +6586,8 @@
         "hr": 6,
         "rbi": 14,
         "ops": 0.621,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       },
       {
         "season": "2023",
@@ -6364,7 +6597,8 @@
         "hr": 5,
         "rbi": 22,
         "ops": 0.651,
-        "stolenBases": 4
+        "stolenBases": 4,
+        "team": "ヤクルト"
       },
       {
         "season": "2024",
@@ -6374,7 +6608,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.188,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "ヤクルト"
       }
     ]
   },
@@ -6565,7 +6800,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.508,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2019",
@@ -6575,7 +6811,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.9,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2020",
@@ -6585,7 +6822,8 @@
         "hr": 0,
         "rbi": 1,
         "ops": 0.476,
-        "stolenBases": 3
+        "stolenBases": 3,
+        "team": "阪神"
       },
       {
         "season": "2021",
@@ -6595,7 +6833,8 @@
         "hr": 0,
         "rbi": 9,
         "ops": 0.579,
-        "stolenBases": 8
+        "stolenBases": 8,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -6605,7 +6844,8 @@
         "hr": 0,
         "rbi": 17,
         "ops": 0.602,
-        "stolenBases": 21
+        "stolenBases": 21,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -6615,7 +6855,8 @@
         "hr": 1,
         "rbi": 6,
         "ops": 0.408,
-        "stolenBases": 7
+        "stolenBases": 7,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -6625,7 +6866,8 @@
         "hr": 0,
         "rbi": 2,
         "ops": 0.663,
-        "stolenBases": 5
+        "stolenBases": 5,
+        "team": "阪神"
       }
     ]
   },
@@ -6717,7 +6959,8 @@
         "hr": 1,
         "rbi": 2,
         "ops": 0.501,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2022",
@@ -6727,7 +6970,8 @@
         "hr": 1,
         "rbi": 7,
         "ops": 0.429,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2023",
@@ -6737,7 +6981,8 @@
         "hr": 0,
         "rbi": 11,
         "ops": 0.829,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       },
       {
         "season": "2024",
@@ -6747,7 +6992,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.401,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
@@ -6827,7 +7073,8 @@
         "hr": 0,
         "rbi": 0,
         "ops": 0.125,
-        "stolenBases": 0
+        "stolenBases": 0,
+        "team": "阪神"
       }
     ]
   },
