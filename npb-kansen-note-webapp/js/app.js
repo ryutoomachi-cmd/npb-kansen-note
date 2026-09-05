@@ -416,18 +416,47 @@
     return (s || "").replace(/[\s　]/g, "");
   }
 
+  // 外国人選手はNPB公式サイトの成績表では常に「姓のみ」（スペース無しの一語、例:「マッカスカー」
+  // 「レイノルズ」）で表記される。一方アプリ側の選手名は、選手によって表記ゆれがある：
+  //   (a)「ファーストネーム・姓」（例:「カーソン・マッカスカー」）
+  //   (b)「アルファベット1文字＋ピリオド＋姓」（例:「S.レイノルズ」）
+  //   (c) 姓のみ（例:「アブレウ」）… これは元々そのまま一致する
+  // (a)(b)のような選手は、フルネーム完全一致だけを見ていた頃は今季成績（本塁打数など）が
+  // 実際の試合結果が進んでも永遠に自動更新されない不具合があった。
+  function foreignSurnameFallback(name) {
+    if (!name) return null;
+    var dotIdx = name.lastIndexOf("・");
+    if (dotIdx !== -1) return name.slice(dotIdx + 1); // (a)
+    if (/^[A-Za-z]\./.test(name)) return name.slice(2); // (b)
+    return null;
+  }
+
+  // フルネーム一致を優先しつつ、見つからない場合は上記の姓だけでも探す。ただし同じ球団に
+  // 姓だけ同じ外国人選手が複数いる場合は取り違えのリスクがあるため、その時だけ自動更新を諦める
+  // （スタメン自動判定の同姓問題と同じ考え方）。
   function applyLiveStatsResult(teamName, players) {
     if (!players) return 0;
     var applied = 0;
-    for (var i = 0; i < PLAYERS.length; i++) {
-      var p = PLAYERS[i];
-      if (p.currentTeamName !== teamName) continue;
+    var teamPlayers = PLAYERS.filter(function (p) { return p.currentTeamName === teamName; });
+
+    var surnameCounts = {};
+    teamPlayers.forEach(function (p) {
+      var surname = foreignSurnameFallback(p.name);
+      if (!surname) return;
+      surnameCounts[surname] = (surnameCounts[surname] || 0) + 1;
+    });
+
+    teamPlayers.forEach(function (p) {
       var key = stripSpacesForMatch(p.name);
       var found = players[key];
-      if (!found) continue;
+      if (!found) {
+        var surname = foreignSurnameFallback(p.name);
+        if (surname && surnameCounts[surname] === 1) found = players[surname];
+      }
+      if (!found) return;
       p.currentStats = Object.assign({}, p.currentStats || {}, found);
       applied++;
-    }
+    });
     return applied;
   }
 

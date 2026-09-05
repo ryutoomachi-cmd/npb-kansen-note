@@ -81,11 +81,26 @@ function parseAvgLike(raw) {
 }
 
 // 見出しラベルを手がかりに、球団ごとの行を抽出する（api/stats.js の extractStatsTable と同じ考え方）。
+//
+// 【重要】std_c/std_p.html（順位表）のページには、シーズン全体の成績表（ページ上部）とは別に、
+// その下に「交流戦」だけの成績表がもう1つ載っている。この交流戦表も見出しが
+// 「試合・勝利・敗北・引分・勝率」とほぼ同じ（「差」列が無いだけ）なので、見出しラベルの
+// 一致数だけで判定すると交流戦表まで「成績表」だと誤認識してしまう。以前の実装は
+// $("table").each でページ内の全<table>を素通りし、後から出てきた表のデータで
+// 同じ球団名のresultsを無条件に上書きしていたため、最終的に交流戦だけの少ない試合数
+// （例：18試合14勝4敗）がシーズン成績として表示されてしまっていた
+// （「リーグ順位がめちゃくちゃ昔の情報に見える」「14勝4敗のような記録になる」という不具合の
+// 実際の原因。古いキャッシュの問題ではなく、この誤ったテーブルを都度正しく取得し続けていた
+// ために起きていた）。NPB公式サイトの各ページでは、シーズン全体の成績表が必ずページの最初に
+// 来る作り（交流戦だけの内訳などの補足表は必ずその後に続く）になっているため、「最初に見出し
+// 行が見つかり、実際に1球団以上のデータが取れた表」だけを採用し、それ以降の<table>は見ない、
+// という方式に変更する。
 function extractTeamTable($, wantedLabels) {
   const results = {};
   const debugInfo = { headerFound: false };
-  $("table").each((_, table) => {
-    const $table = $(table);
+  const tables = $("table").toArray();
+  for (let t = 0; t < tables.length; t++) {
+    const $table = $(tables[t]);
     let headerRow = null;
     let headerCells = null;
     $table.find("tr").each((__, tr) => {
@@ -94,13 +109,12 @@ function extractTeamTable($, wantedLabels) {
       const matchCount = cells.filter((c) => wantedLabels.indexOf(c) !== -1).length;
       if (matchCount >= 2) { headerRow = tr; headerCells = cells; }
     });
-    if (!headerRow) return;
-    debugInfo.headerFound = true;
-    debugInfo.headerCells = headerCells;
+    if (!headerRow) continue;
 
     const colIndex = {};
     headerCells.forEach((label, idx) => { if (wantedLabels.indexOf(label) !== -1) colIndex[label] = idx; });
 
+    const tableResults = {};
     $table.find("tr").each((__, tr) => {
       if (tr === headerRow) return;
       const cells = $(tr).find("th,td").map((___, c) => $(c).text().trim()).get();
@@ -120,9 +134,17 @@ function extractTeamTable($, wantedLabels) {
         if (raw === undefined) return;
         out[label] = raw;
       });
-      if (Object.keys(out).length) results[teamName] = out;
+      if (Object.keys(out).length) tableResults[teamName] = out;
     });
-  });
+
+    if (Object.keys(tableResults).length) {
+      // 最初に球団データが取れた表だけを採用し、以降の表（交流戦だけの内訳表など）は無視する
+      debugInfo.headerFound = true;
+      debugInfo.headerCells = headerCells;
+      Object.assign(results, tableResults);
+      break;
+    }
+  }
   return { results, debugInfo };
 }
 

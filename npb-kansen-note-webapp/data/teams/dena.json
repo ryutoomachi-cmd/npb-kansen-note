@@ -1264,7 +1264,7 @@
     "nameKana": "かつまた あつし",
     "number": 28,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "左翼手",
     "throwsBats": "右投左打",
     "birthDate": "2000-05-22",
     "height": 180,
@@ -4197,7 +4197,7 @@
     "name": "神里 和毅",
     "number": 8,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "中堅手",
     "birthDate": "1994-01-17",
     "draftInfo": "2017年ドラフト2位（横浜DeNAベイスターズ）",
     "roots": {
@@ -4349,7 +4349,7 @@
     "name": "梶原 昂希",
     "number": 58,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "中堅手",
     "birthDate": "1999-09-19",
     "draftInfo": "2021年ドラフト6位（横浜DeNAベイスターズ）",
     "roots": {
@@ -4417,7 +4417,7 @@
     "nameKana": "えびな たつお",
     "number": 61,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "中堅手",
     "birthDate": "1997-09-20",
     "draftInfo": "2019年ドラフト6位（横浜DeNAベイスターズ）",
     "roots": {
@@ -4501,7 +4501,7 @@
     "name": "関根 大気",
     "number": 63,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "中堅手",
     "birthDate": "1995-06-28",
     "draftInfo": "2013年ドラフト5位（横浜DeNAベイスターズ）",
     "roots": {
@@ -4574,7 +4574,7 @@
     "name": "J.エンカーナシオン",
     "number": 69,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "birthDate": "1997-10-22",
     "roots": {
       "hometown": "ドミニカ共和国"
@@ -4622,7 +4622,7 @@
     "name": "C.ヒュンメル",
     "number": 99,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "birthDate": "1994-11-28",
     "roots": {
       "hometown": "アメリカ合衆国",

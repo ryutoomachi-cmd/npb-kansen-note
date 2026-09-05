@@ -1174,7 +1174,7 @@
     "nameKana": "たつみ りょうすけ",
     "number": 8,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "中堅手",
     "birthDate": "1996-12-27",
     "draftInfo": "2018年ドラフト1位（東北楽天ゴールデンイーグルス、抽選獲得。阪神・巨人・ソフトバンクと競合）",
     "roots": {
@@ -2974,7 +2974,7 @@
     "nameKana": "なかしま だいすけ",
     "number": 32,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "birthDate": "2001-06-04",
     "height": 180,
     "weight": 78,
@@ -3057,7 +3057,7 @@
     "nameKana": "かーそん・まっかすかー",
     "number": 34,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "左翼手",
     "birthDate": "1998-05-22",
     "height": 203,
     "weight": 113,
@@ -3073,12 +3073,13 @@
     "isTohokuConnection": false,
     "currentStats": {
       "season": "2026",
-      "plateAppearances": 305,
-      "games": 78,
-      "avg": 0.26,
-      "avgDisplay": ".260",
-      "hr": 20,
-      "rbi": 56
+      "plateAppearances": 317,
+      "games": 81,
+      "avg": 0.27,
+      "avgDisplay": ".270",
+      "hr": 21,
+      "rbi": 59,
+      "stolenBases": 0
     },
     "lastSeasonStats": {
       "season": "2025"
@@ -3704,7 +3705,7 @@
     "nameKana": "さとう なおき",
     "number": 38,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "birthDate": "1998-09-03",
     "height": 178,
     "weight": 85,
@@ -4167,8 +4168,8 @@
     "name": "伊藤 裕季也",
     "nameKana": "いとう ゆきや",
     "number": 39,
-    "position": "外野手",
-    "detailedPosition": "外野手",
+    "position": "内野手",
+    "detailedPosition": "内野手（外野兼任）",
     "throwsBats": "右投右打",
     "birthDate": "1996-08-30",
     "height": 181,
@@ -4323,7 +4324,7 @@
     "nameKana": "おごう ゆうや",
     "number": 51,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "throwsBats": "右投左打",
     "birthDate": "1996-08-03",
     "height": 178,
@@ -5044,8 +5045,8 @@
     "name": "陽 柏翔",
     "nameKana": "よう ぼうしゃん",
     "number": 75,
-    "position": "外野手",
-    "detailedPosition": "外野手",
+    "position": "内野手",
+    "detailedPosition": "内野手",
     "throwsBats": "右投左打",
     "birthDate": "2005-01-23",
     "height": 174,
@@ -5077,7 +5078,7 @@
       "hr": 0,
       "rbi": 0
     },
-    "careerSummary": "台湾出身。明秀学園日立高校でプレー後、独立リーグ・茨城アストロプラネッツを経て2024年ドラフト6位で楽天入り。指名時は内野手だったが、現在は外野手として起用されている。",
+    "careerSummary": "台湾出身。明秀学園日立高校でプレー後、独立リーグ・茨城アストロプラネッツを経て2024年ドラフト6位で楽天入り。指名時から一貫して内野手であり、NPB公式の2026年度選手一覧でも内野手に分類されている（一時外野での起用が伝えられたこともあったが、現在の公式区分は内野手）。",
     "growthTimeline": [
       {
         "period": "高校時代（明秀学園日立高）",
@@ -5107,9 +5108,9 @@
         "reason": "茨城アストロプラネッツ在籍時は内野手として指名を受けた。"
       },
       {
-        "period": "プロ入り後",
-        "position": "外野手",
-        "reason": "入団後は外野手として起用されている（転向の詳細な経緯は確認できず）。"
+        "period": "現在（2026年時点）",
+        "position": "内野手",
+        "reason": "NPB公式の2026年度選手一覧でも内野手として登録されている。過去に外野での起用が伝えられたこともあったが、正式な区分は内野手のまま。"
       }
     ],
     "episodes": [
@@ -5130,7 +5131,7 @@
     "nameKana": "よしの そうし",
     "number": 78,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "左翼手",
     "throwsBats": "右投右打",
     "birthDate": "2003-10-27",
     "height": 186,
@@ -5212,7 +5213,7 @@
     "nameKana": "よしのう つばさ",
     "number": 36,
     "position": "外野手",
-    "detailedPosition": "外野手",
+    "detailedPosition": "右翼手",
     "throwsBats": "右投左打",
     "birthDate": "2002-08-16",
     "height": 180,
