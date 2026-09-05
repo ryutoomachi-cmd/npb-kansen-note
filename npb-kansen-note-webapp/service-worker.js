@@ -10,7 +10,7 @@
 //      電波が悪くネットワーク取得が失敗しても、キャッシュ応答は既に返し終えているため
 //      画面表示には影響しない。
 
-const CACHE_VERSION = "v35"; // 予告先発（ファンサイト頼み）を廃止し、NPB公式の確定スタメンから取得する「本日の先発」対戦カードに置き換え
+const CACHE_VERSION = "v36"; // 甲子園エピソードの詳細化（46選手）＋「本日のスタメン登録」をホーム画面のリーグ順位表より上に移動
 const SHELL_CACHE = "nsn-shell-" + CACHE_VERSION;
 const DATA_CACHE = "nsn-data-" + CACHE_VERSION;
 

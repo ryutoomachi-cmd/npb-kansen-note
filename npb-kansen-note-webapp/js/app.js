@@ -2547,7 +2547,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</section>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + starterCard + standingsSection + lineupSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
