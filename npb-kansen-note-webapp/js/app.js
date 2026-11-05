@@ -2800,8 +2800,10 @@
 
     var starterCard = renderStarterCard();
     var standingsSection = renderStandingsSection();
-    var lineupSection = renderLineupHomeSection();
-    var watchModeCta =
+    // 「観戦モード」と「スタメン登録」は試合当日だけ使うものなので、試合の日以外は出さない
+    var isGameDay = !!(game && game.date && daysUntil(game.date) === 0);
+    var lineupSection = isGameDay ? renderLineupHomeSection() : "";
+    var watchModeCta = !isGameDay ? "" :
       '<section class="home-section">' +
         '<button class="watch-mode-cta" data-action="open-watch-mode">' +
           '<span class="watch-mode-cta-icon">' + icon("sparkles", 20) + "</span>" +
