@@ -436,6 +436,11 @@
   // （スタメン自動判定の同姓問題と同じ考え方）。
   function applyLiveStatsResult(teamName, players) {
     if (!players) return 0;
+    // NPB公式の成績表では、左打ち（投手は左投げ）の選手名の頭に「*」、両打ちに「+」が付いている。
+    // そのままだと名前が一致せず、その選手の成績だけ自動更新されなかったため、記号を外してから照合する。
+    var cleaned = {};
+    Object.keys(players).forEach(function (k) { cleaned[k.replace(/^[*＊+＋]+/, "")] = players[k]; });
+    players = cleaned;
     var applied = 0;
     var teamPlayers = PLAYERS.filter(function (p) { return p.currentTeamName === teamName; });
 
@@ -468,7 +473,10 @@
       return fetch("/api/stats?team=" + encodeURIComponent(teamName))
         .then(function (res) { return res.json(); })
         .then(function (data) {
-          if (data && data.success) totalApplied += applyLiveStatsResult(teamName, data.players);
+          if (data && data.success) {
+            totalApplied += applyLiveStatsResult(teamName, data.players);
+            cacheWrite("liveStatsData_" + (TEAM_ID_MAP[teamName] || teamName), data.players);
+          }
         })
         .catch(function () { /* 1球団分の取得失敗は無視し、他の球団の更新は続ける */ });
     });
@@ -476,7 +484,7 @@
       statsRefreshing = false;
       // 「試みた」ことは成否によらず必ず記録する（npb.jp側の障害等で毎回全滅する場合に、
       // 起動のたびに12球団ぶん無駄打ちし続けないようにするため）
-      cacheWrite("liveStatsAttempt", { done: true });
+      cacheWrite("liveStatsAttempt_v2", { done: true });
       // 一方、ユーザーに見せる「最終更新」表示は、実際に1件以上のデータが反映できた
       // 場合のみ更新する（全滅していたら「更新済み」と偽って見せないため）
       if (totalApplied > 0) {
@@ -488,8 +496,18 @@
   }
 
   function maybeRefreshLiveStats() {
-    var cached = cacheRead("liveStatsAttempt");
-    if (cached && (Date.now() - cached.t) < STATS_REFRESH_INTERVAL_MS) return; // 前回の試行から間もない場合はスキップ
+    var cached = cacheRead("liveStatsAttempt_v2");
+    if (cached && (Date.now() - cached.t) < STATS_REFRESH_INTERVAL_MS) {
+      // 取り直しは不要でも、前回取得した最新成績をそのまま当て直す
+      // （以前は当て直していなかったため、アプリを開き直すと名鑑の古い成績に戻っていた）
+      var appliedFromCache = 0;
+      TEAM_NAMES.forEach(function (teamName) {
+        var c = cacheRead("liveStatsData_" + (TEAM_ID_MAP[teamName] || teamName));
+        if (c && c.d) appliedFromCache += applyLiveStatsResult(teamName, c.d);
+      });
+      if (appliedFromCache > 0) render();
+      return;
+    }
     refreshLiveStatsNow();
   }
 
@@ -3550,25 +3568,52 @@
     }
     return hit;
   }
-  // その選手と同じ高校・大学・社会人出身の、名鑑に載っている他の選手
-  function playerSchoolMatesHtml(p) {
-    if (!p) return "";
-    var idx = schoolIndex(), r = p.roots || {}, html = "";
-    ["highSchool", "university", "social"].forEach(function (k) {
-      if (!r[k]) return;
-      var list = (idx[normSchool(r[k])] || []).filter(function (m) { return m.id !== p.id; });
-      if (!list.length) return;
-      var shown = list.slice(0, 6);
-      html += '<div class="draft-mates"><span class="draft-mates-label">' + icon("users", 11) + esc(String(r[k]).replace(/（[^）]*）/g, "")) + "の先輩・後輩</span>" +
-        '<span class="draft-mates-list">' + shown.map(function (m) {
-          var tc = teamColor(m.currentTeamName);
-          return '<button class="draft-mate" data-action="open-detail" data-id="' + m.id + '">' + esc(m.name) +
-            ' <span class="draft-mate-team" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(m.currentTeamName) + "</span></button>";
-        }).join("") + (list.length > shown.length ? '<span class="draft-mate-more">ほか' + (list.length - shown.length) + "人</span>" : "") +
-        "</span></div>";
-    });
-    return html;
+  // 移籍・去就ページ用：どんな選手か（紹介文・守備位置・年齢）と、今季・昨季の成績
+  function isPitcherStats(st) { return st && (st.era != null || st.inningsPitched != null || st.wins != null); }
+  function statsCells(st) {
+    if (!st) return null;
+    var v = function (x) { return x == null || x === "" ? "-" : x; };
+    if (isPitcherStats(st)) {
+      return [v(st.games), v(st.wins) + "-" + v(st.losses), v(st.saves), v(st.eraDisplay || st.era), v(st.inningsPitched), v(st.strikeouts)];
+    }
+    return [v(st.games), v(st.plateAppearances), v(st.avgDisplay || st.avg), v(st.hr), v(st.rbi), v(st.stolenBases)];
   }
+  function transferPlayerProfileHtml(p) {
+    if (!p) return "";
+    var age = "";
+    if (p.birthDate) {
+      var b = new Date(p.birthDate + "T00:00:00+09:00"), n = new Date();
+      var a = n.getFullYear() - b.getFullYear() - ((n.getMonth() < b.getMonth() || (n.getMonth() === b.getMonth() && n.getDate() < b.getDate())) ? 1 : 0);
+      if (a > 0 && a < 60) age = a + "歳";
+    }
+    var meta = [p.detailedPosition || p.position, age].filter(Boolean).join("・");
+    var rows = [p.currentStats, p.lastSeasonStats].filter(function (st) { return st && st.season; });
+    var pitcher = isPitcherStats(rows[0] || rows[1]);
+    var heads = pitcher ? ["試合", "勝-敗", "S", "防御率", "投球回", "奪三振"] : ["試合", "打席", "打率", "本塁打", "打点", "盗塁"];
+    var table = rows.length
+      ? '<table class="tr-stats"><thead><tr><th></th>' + heads.map(function (h) { return "<th>" + h + "</th>"; }).join("") + "</tr></thead><tbody>" +
+          rows.map(function (st) {
+            return "<tr><th>" + esc(st.season) + "</th>" + statsCells(st).map(function (c) { return "<td>" + esc(String(c)) + "</td>"; }).join("") + "</tr>";
+          }).join("") + "</tbody></table>"
+      : "";
+    var titles = (p.awards || []).slice(-3).map(function (aw) { return aw.year + " " + aw.title; });
+    return (
+      '<div class="tr-profile">' +
+        (meta ? '<p class="tr-meta">' + esc(meta) + (p.draftInfo ? "／" + esc(p.draftInfo.replace(/（[^）]*）/g, "")) : "") + "</p>" : "") +
+        (p.careerSummary ? '<p class="tr-summary">' + esc(p.careerSummary) + "</p>" : "") +
+        table +
+        (titles.length ? '<p class="tr-titles">' + icon("trophy", 11) + esc(titles.join("、")) + "</p>" : "") +
+      "</div>"
+    );
+  }
+  // 一覧の行に出す、ひとこと成績（今季）
+  function shortStatsText(p) {
+    var st = p && (p.currentStats && p.currentStats.games ? p.currentStats : p.lastSeasonStats);
+    if (!st || !st.games) return "";
+    if (isPitcherStats(st)) return st.season + "年 " + st.games + "試合 " + (st.wins || 0) + "勝" + (st.losses || 0) + "敗" + (st.saves ? st.saves + "S" : "") + " 防御率" + (st.eraDisplay || st.era || "-");
+    return st.season + "年 " + st.games + "試合 打率" + (st.avgDisplay || st.avg || "-") + " " + (st.hr || 0) + "本 " + (st.rbi || 0) + "打点";
+  }
+
   function transferDateLabel(d) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || ""); return m ? (+m[2]) + "/" + (+m[3]) : ""; }
   function sourcesHtml(list) {
     if (!list || !list.length) return "";
@@ -3595,7 +3640,7 @@
         '<p class="draft-name">' + transferNameHtml(it, true) + ' <span class="draft-pos">' + esc(it.position || "") + "</span></p>" +
         (it.title ? '<p class="tr-title">' + esc(it.title) + "</p>" : "") +
         (it.detail ? '<p class="tr-detail">' + esc(it.detail) + "</p>" : "") +
-        playerSchoolMatesHtml(findPlayerByName(it.name, it.team) || (it.from ? findPlayerByName(it.name, it.from) : null)) +
+        transferPlayerProfileHtml(findPlayerByName(it.name, it.team) || (it.from ? findPlayerByName(it.name, it.from) : null)) +
         sourcesHtml(it.sources) +
       "</div>"
     );
@@ -3610,6 +3655,7 @@
         transferNameHtml(it, false) +
         '<span class="tr-pos">' + esc(it.position || "") + "</span>" +
         (it.type !== "release" && it.type !== "retire" ? '<span class="tr-badge ' + ty.cls + '">' + ty.label + "</span>" : "") +
+        (function () { var t = shortStatsText(findPlayerByName(it.name, it.team)); return t ? '<span class="tr-short">' + esc(t) + "</span>" : ""; })() +
       "</div>";
     }).join("") + "</div>";
   }
