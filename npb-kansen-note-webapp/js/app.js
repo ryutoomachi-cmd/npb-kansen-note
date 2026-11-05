@@ -773,6 +773,24 @@
   function saveHomeTeam(name) {
     try { if (window.localStorage) localStorage.setItem(HOME_TEAM_KEY, name); } catch (e) { /* ignore */ }
   }
+
+  // 「12球団まんべんなく」モード（特定の応援球団を持たない、野球全般が好きな人向けの表示）。
+  // ONのあいだも state.homeTeam には直前の応援球団を保持しておき、OFFに戻したらその球団に復帰する。
+  var ALL_TEAMS_MODE_KEY = "npbAllTeamsMode_v1";
+  var ALL_TEAMS_THEME = { color: "#1E2D4F", ink: "#FFFFFF" };
+  function loadAllTeamsMode() {
+    try { return window.localStorage ? localStorage.getItem(ALL_TEAMS_MODE_KEY) === "1" : false; } catch (e) { return false; }
+  }
+  function saveAllTeamsMode(on) {
+    try {
+      if (!window.localStorage) return;
+      if (on) localStorage.setItem(ALL_TEAMS_MODE_KEY, "1");
+      else localStorage.removeItem(ALL_TEAMS_MODE_KEY);
+    } catch (e) { /* ignore */ }
+  }
+  function isAllTeamsMode() { return !!(state && state.allTeams); }
+  // 楽天キラー関連の表示は「楽天を応援球団に選んでいる時」だけ出す
+  function homeIsRakuten() { return !isAllTeamsMode() && state.homeTeam === "楽天"; }
   function loadOpponentTeam() {
     try {
       var v = window.localStorage ? localStorage.getItem(OPPONENT_TEAM_KEY) : null;
@@ -826,8 +844,16 @@
   }
 
   function applyHomeTheme(teamName) {
-    var t = getTeam(teamName);
     var root = document.documentElement;
+    if (isAllTeamsMode()) {
+      root.style.setProperty("--team-color", ALL_TEAMS_THEME.color);
+      root.style.setProperty("--team-ink", ALL_TEAMS_THEME.ink);
+      document.title = "NPB観戦ノート";
+      var metaDescAll = document.querySelector('meta[name="description"]');
+      if (metaDescAll) metaDescAll.setAttribute("content", "NPB12球団の選手名鑑と人脈ネットワーク。実在選手の実際の記録・エピソードのみを掲載。");
+      return;
+    }
+    var t = getTeam(teamName);
     root.style.setProperty("--team-color", t.color);
     root.style.setProperty("--team-ink", t.ink);
     document.title = t.fullName + "観戦ノート";
@@ -907,6 +933,7 @@
 
   // ホーム球団の「地元ゆかり」判定：出身地に球団の地域キーワードが含まれるか
   function isLocalConnection(p, homeTeam) {
+    if (isAllTeamsMode()) return false;
     var t = getTeam(homeTeam);
     var hometown = (p.roots && p.roots.hometown) || "";
     if (!hometown || hometown === "情報未確認") return false;
@@ -966,15 +993,17 @@
   }
 
   var FILTER_GROUP_ORDER = ["対戦", "注目ポイント", "経歴", "つながり"];
+  // まんべんなくモードでは、応援球団に依存するタグ（対戦カード・ホーム球団・地元ゆかり・楽天キラー）は出さない
+  var TEAM_DEPENDENT_TAGS = ["matchup", "home", "opponent", "local", "killer"];
   function buildFilterTags(homeTeam, opponentTeam) {
     var home = getTeam(homeTeam);
-    var tags = [
+    var tags = isAllTeamsMode() ? [] : [
       { key: "matchup", label: "⚾" + homeTeam + " vs " + opponentTeam, group: "対戦" },
       { key: "home", label: "#" + homeTeam + "の選手", group: "対戦" },
       { key: "opponent", label: "#" + opponentTeam + "の選手", group: "対戦" },
       { key: "local", label: "#" + home.regionLabel + "ゆかり", group: "注目ポイント" }
     ];
-    if (homeTeam === "楽天") tags.push({ key: "killer", label: "#対楽天3割超（楽天キラー）", group: "注目ポイント" });
+    if (homeTeam === "楽天" && !isAllTeamsMode()) tags.push({ key: "killer", label: "#対楽天3割超（楽天キラー）", group: "注目ポイント" });
     tags.push(
       { key: "qualified", label: "#規定到達（今季）", group: "注目ポイント" },
       { key: "draft1", label: "#ドラフト1位", group: "経歴" },
@@ -1426,7 +1455,7 @@
     var oppPlayers = lineupStarterIds("opponent").map(byId).filter(Boolean);
     var out = [];
 
-    if (state.homeTeam === "楽天") {
+    if (homeIsRakuten()) {
       oppPlayers.forEach(function (p) {
         if (isRakutenKiller(p) && p.vsRakutenData) {
           out.push({
@@ -1557,7 +1586,7 @@
 
   var state = {
     query: "",
-    activeTags: ["matchup"],
+    activeTags: loadAllTeamsMode() ? [] : ["matchup"],
     teamFilter: "all",
     viewMode: "all", // all | batter | pitcher
     batterSort: "avg",
@@ -1568,6 +1597,7 @@
     detailTab: "basic", // basic | other (選手詳細シート内のタブ)
     statsHistoryOpen: false, // 選手詳細シートの「過去のデータを見る」トグルが開いているか
     legendStatsHistoryOpen: false, // レジェンド詳細シートの「過去のデータを見る」トグルが開いているか（選手側とは独立）
+    allTeams: loadAllTeamsMode(), // true = 12球団まんべんなく（推し球団なし）
     homeTeam: initHomeTeam,
     opponentTeam: initOpponentTeam,
     lineup: null, // 下で loadLineup() により初期化
@@ -1588,16 +1618,34 @@
   state.lineup = loadLineup(state.homeTeam, state.opponentTeam);
   applyHomeTheme(state.homeTeam);
 
+  /* ===================== ロゴ（ヘッダーのエンブレム） =====================
+     画像ファイルではなくインラインSVG（約1KB）。球団カラー（--team-color）で自動的に塗り分けられる。 */
+  var BRAND_EMBLEM_SVG =
+    '<svg class="brand-emblem" viewBox="0 0 48 48" width="38" height="38" aria-hidden="true">' +
+      '<circle cx="24" cy="24" r="22.5" fill="var(--team-color)"/>' +
+      '<circle cx="24" cy="24" r="22.5" fill="none" stroke="#E3B85B" stroke-width="1.6"/>' +
+      '<circle cx="24" cy="24" r="19" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="0.8"/>' +
+      '<circle cx="24" cy="24" r="12.5" fill="#FFFFFF"/>' +
+      '<path d="M16.6 14.4c2.9 2.6 4.3 5.9 4.3 9.6s-1.4 7-4.3 9.6M31.4 14.4c-2.9 2.6-4.3 5.9-4.3 9.6s1.4 7 4.3 9.6" fill="none" stroke="var(--team-color)" stroke-width="1.1" stroke-linecap="round"/>' +
+      '<path d="M16.6 14.4c2.9 2.6 4.3 5.9 4.3 9.6s-1.4 7-4.3 9.6M31.4 14.4c-2.9 2.6-4.3 5.9-4.3 9.6s1.4 7 4.3 9.6" fill="none" stroke="var(--team-color)" stroke-width="3.2" stroke-dasharray="0.9 2.1" stroke-linecap="round" opacity="0.9"/>' +
+    "</svg>";
+
   /* ===================== DOM refs (created once) ===================== */
   var app = document.getElementById("app");
   app.innerHTML =
     '<header class="app-header">' +
-      '<div class="brand-row">' +
-        '<div><p class="brand-eyebrow" id="brand-eyebrow">SCOUT NOTE</p><h1 class="brand-title" id="brand-title">観戦ノート</h1></div>' +
+      '<div class="brand-bar">' +
+        '<div class="brand-lockup">' +
+          BRAND_EMBLEM_SVG +
+          '<div class="brand-text">' +
+            '<p class="brand-wordmark" id="brand-eyebrow">KANSEN<span>NOTE</span></p>' +
+            '<h1 class="brand-title" id="brand-title">観戦ノート</h1>' +
+          "</div>" +
+        "</div>" +
         '<div class="header-actions">' +
+          '<span class="count-pill" id="count-pill">0名</span>' +
           '<button class="settings-btn" id="refresh-btn" data-action="refresh-data" aria-label="最新データに更新">' + icon("refresh", 16) + "</button>" +
           '<button class="settings-btn" id="settings-btn" data-action="open-settings" aria-label="設定・ホーム球団の変更">' + icon("settings", 17) + "</button>" +
-          '<span class="count-pill" id="count-pill">0名</span>' +
         "</div>" +
       "</div>" +
       '<div class="matchup-banner" id="matchup-banner">' +
@@ -1664,9 +1712,12 @@
   }
 
   function renderBrand() {
+    if (isAllTeamsMode()) {
+      els.brandTitle.textContent = "NPB 12球団";
+      return;
+    }
     var t = getTeam(state.homeTeam);
-    els.brandEyebrow.textContent = t.emoji + " SCOUT NOTE";
-    els.brandTitle.textContent = t.fullName + "観戦ノート";
+    els.brandTitle.textContent = t.fullName;
     els.matchupBannerTxt.innerHTML = "<b>" + esc(state.homeTeam) + " vs " + esc(state.opponentTeam) + "</b><br>この対戦カードの選手同士のつながりを表示中";
   }
 
@@ -1743,7 +1794,7 @@
     });
     var groupsHtml = FILTER_GROUP_ORDER.filter(function (g) { return grouped[g]; }).map(function (g, i) {
       // 「対戦」グループの先頭に対戦相手ピッカーを差し込む
-      return (i === 0 ? opponentPickerHtml() : "") + filterGroupHtml(g, grouped[g]);
+      return (i === 0 && !isAllTeamsMode() ? opponentPickerHtml() : "") + filterGroupHtml(g, grouped[g]);
     }).join("");
 
     var n = activeFilterCount();
@@ -1811,8 +1862,10 @@
   }
 
   function syncHeaderVisibility() {
-    els.matchupBanner.style.display = state.tab === "home" ? "none" : "flex";
+    els.matchupBanner.style.display = (state.tab === "home" || isAllTeamsMode()) ? "none" : "flex";
     els.rosterControls.style.display = state.tab === "roster" ? "block" : "none";
+    els.countPill.style.display = state.tab === "roster" ? "" : "none";
+    document.body.setAttribute("data-tab", state.tab);
   }
 
   /* ===================== Render: player card ===================== */
@@ -1841,7 +1894,7 @@
   }
 
   function playerCardHtml(p) {
-    var killer = state.homeTeam === "楽天" && isRakutenKiller(p);
+    var killer = homeIsRakuten() && isRakutenKiller(p);
     var stats = statStrip(p);
     var tc = teamColor(p.currentTeamName);
     var sortKey = isPitcher(p) ? state.pitcherSort : state.batterSort;
@@ -2355,9 +2408,25 @@
   // 実データに基づく「今日の一押しトリビア」：小話が確認できているホーム球団の選手から、
   // つながり件数の多い順に選出（球団固有のキャッチコピーは用意せず、実際の小話をそのまま見せる）
   function computeHomeTrivia() {
+    if (isAllTeamsMode()) return computeAllTeamsTrivia();
     var list = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam && p.episodes && p.episodes.length; });
     list.sort(function (a, b) { return relationsFor(b.id).length - relationsFor(a.id).length || a.number - b.number; });
     return list.slice(0, 4);
+  }
+
+  // まんべんなくモード用：日付をもとに毎日違う4球団を選び、各球団から小話のある選手を1人ずつ出す
+  // （同じ日なら何度開いても同じ顔ぶれ。12球団が3日で一巡する）
+  function computeAllTeamsTrivia() {
+    var dayIndex = Math.floor(Date.now() / 86400000);
+    var picks = [];
+    for (var i = 0; i < 4; i++) {
+      var team = TEAM_NAMES[(dayIndex * 4 + i) % TEAM_NAMES.length];
+      var cands = PLAYERS.filter(function (p) { return p.currentTeamName === team && p.episodes && p.episodes.length; });
+      if (!cands.length) continue;
+      cands.sort(function (a, b) { return a.number - b.number; });
+      picks.push(cands[dayIndex % cands.length]);
+    }
+    return picks;
   }
 
   // ニュース1件分のカード。見出し・本文中の選手名は自動でリンク化されます
@@ -2382,6 +2451,21 @@
   // ニュースに切り替わる（＝スコープの状態自体は保持したまま、中身が追従する）。
   function newsSectionHtml() {
     function byDateDesc(a, b) { return a.date > b.date ? -1 : a.date < b.date ? 1 : 0; }
+    if (isAllTeamsMode()) {
+      var seen = {};
+      var perTeam = NEWS.slice().sort(byDateDesc).filter(function (n) {
+        if (seen[n.teamName]) return false;
+        seen[n.teamName] = true;
+        return true;
+      });
+      if (!perTeam.length) return "";
+      return (
+        '<section class="home-section">' +
+          '<p class="section-label">' + icon("clipboard", 13) + "12球団の最新ニュース（各球団1件ずつ）</p>" +
+          '<div class="news-list">' + perTeam.map(newsCardHtml).join("") + "</div>" +
+        "</section>"
+      );
+    }
     var scope = state.newsScope === "all" ? "all" : "team";
     var list;
     if (scope === "team") {
@@ -2466,7 +2550,7 @@
     var blocks = leagues.map(function (lg) {
       if (!lg.teams || !lg.teams.length) return "";
       var rows = lg.teams.map(function (t) {
-        var isHome = t.team === state.homeTeam;
+        var isHome = !isAllTeamsMode() && t.team === state.homeTeam;
         var tc = teamColor(t.team);
         return (
           '<div class="standings-row' + (isHome ? " standings-row-home" : "") + '">' +
@@ -2612,7 +2696,7 @@
         matchupMap[r.fromPlayerId] = r.toPlayerId;
         matchupMap[r.toPlayerId] = r.fromPlayerId;
       });
-      var killerIds = state.homeTeam === "楽天"
+      var killerIds = homeIsRakuten()
         ? watchModeOrderedList("opponent").map(function (e) { return e.p; }).filter(isRakutenKiller).map(function (p) { return p.id; })
         : [];
       var tagMap = { matchup: matchupMap, killerIds: killerIds };
@@ -2646,6 +2730,7 @@
   }
 
   function renderHome() {
+    if (isAllTeamsMode()) { renderHomeAllTeams(); return; }
     var game = nextGameFor(state.homeTeam);
     var homeIds = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam; }).map(function (p) { return p.id; });
     var homeRelationsCount = RELATIONS.filter(function (r) {
@@ -2749,7 +2834,7 @@
 
     var leaders =
       '<section class="home-section">' +
-        '<p class="section-label">' + icon("trophy", 13) + "今季（2026年）成績リーダーズ（NPB全体・規定到達者）</p>" +
+        '<p class="section-label">' + icon("trophy", 13) + "2026年 成績リーダーズ（規定到達者）</p>" +
         homeLeaderRow("打率", "trophy", "avg", 3, false, function (v) { return v.toFixed(3).replace(/^0/, ""); }) +
         homeLeaderRow("防御率", "trophy", "era", 3, true, function (v) { return v.toFixed(2); }) +
         homeLeaderRow("本塁打", "trophy", "hr", 3, false, function (v) { return v + "本"; }) +
@@ -2760,7 +2845,7 @@
     var quickLinkItems = [
       '<button class="quick-link-card" data-action="goto-roster" data-tags="local">' + icon("mapPin", 16) + "<span>" + esc(getTeam(state.homeTeam).regionLabel) + "ゆかりの選手</span></button>"
     ];
-    if (state.homeTeam === "楽天") {
+    if (homeIsRakuten()) {
       quickLinkItems.push('<button class="quick-link-card" data-action="goto-roster" data-tags="killer">' + icon("alertTriangle", 16) + "<span>楽天キラーを警戒</span></button>");
     }
     quickLinkItems.push('<button class="quick-link-card" data-action="goto-roster" data-tags="school">' + icon("users", 16) + "<span>学校の先輩後輩</span></button>");
@@ -2770,15 +2855,105 @@
       "</section>";
 
     var footer =
-      '<section class="home-section home-footnote">' +
-        '<p><strong>データについて：</strong>' + esc(DATA_AS_OF) + "。NPB公式記録・球団公式サイト・報道をもとに、実在の選手の実際の記録・エピソードのみを掲載しています（架空の設定は含みません）。未確認の項目は「情報未確認」と表示しています。" +
+      '<details class="home-section home-footnote">' +
+        '<summary>' + icon("clipboard", 12) + "データについて</summary>" +
+        '<p>' + esc(DATA_AS_OF) + "。NPB公式記録・球団公式サイト・報道をもとに、実在の選手の実際の記録・エピソードのみを掲載しています（架空の設定は含みません）。未確認の項目は「情報未確認」と表示しています。" +
         "アイコンはすべて選手を模したイラスト表現で、実際の顔写真ではありません。全12球団" + PLAYERS.length + "名を掲載しています（直近1年以内に一軍出場実績のある選手を中心に収録。育成選手や出場実績のない選手など、支配下選手全員を完全網羅するものではありません）。" +
         "「対戦相手（つながり表示用）」は、ホーム球団の実際の次の試合の相手を自動で表示しています。設定から別の球団に変更して、つながりを探すこともできます。" +
-        "試合日程・今季成績・ニュースは週1回、自動で調べ直して更新しています。通信量を抑えるため端末内に最大6時間キャッシュしているので、それより早く最新化したいときは右上の" + icon("refresh", 11) + "更新ボタンをタップしてください。" + "</p>" +
+        "今季成績・順位は自動で、ニュースは毎朝、自動で調べ直して更新しています。通信量を抑えるため端末内に最大6時間キャッシュしているので、それより早く最新化したいときは右上の" + icon("refresh", 11) + "更新ボタンをタップしてください。" + "</p>" +
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
-      "</section>";
+      "</details>";
 
     els.main.innerHTML = '<div class="home-wrap">' + hero + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.countPill.textContent = PLAYERS.length + "名";
+  }
+
+  // ホーム画面（12球団まんべんなくモード）。特定の球団に寄せず、全体の情報を同じ重みで並べる
+  function renderHomeAllTeams() {
+    var crossTeamCount = RELATIONS.filter(function (r) {
+      var a = byId(r.fromPlayerId), b = byId(r.toPlayerId);
+      return a && b && a.currentTeamName !== b.currentTeamName;
+    }).length;
+
+    function leagueRow(lg, label) {
+      return (
+        '<div class="all-teams-league">' +
+          '<span class="all-teams-league-label">' + label + "</span>" +
+          '<span class="all-teams-chips">' +
+            TEAMS.filter(function (t) { return t.league === lg; }).map(function (t) {
+              return '<button class="all-teams-chip" data-action="goto-team" data-key="' + esc(t.name) + '" style="background:' + t.color + ";color:" + t.ink + ';">' + esc(t.name) + "</button>";
+            }).join("") +
+          "</span>" +
+        "</div>"
+      );
+    }
+
+    var hero =
+      '<div class="hero-card">' +
+        '<p class="hero-eyebrow">ALL 12 TEAMS</p>' +
+        '<p class="hero-matchup">プロ野球 12球団</p>' +
+        '<p class="hero-lead">特定の球団にしぼらず、12球団の選手・ニュース・つながりを同じように表示しています。球団名をタップすると、その球団の選手一覧を開きます。</p>' +
+        leagueRow("パ", "パ") + leagueRow("セ", "セ") +
+        '<div class="hero-cta-row">' +
+          '<button class="cta-btn cta-primary" data-action="goto-roster" data-tags="">' +
+            icon("grid", 17) +
+            '<span class="cta-text"><span class="cta-title">全選手を見る</span><span class="cta-sub">12球団' + PLAYERS.length + "名の名鑑</span></span>" +
+          "</button>" +
+          '<button class="cta-btn cta-outline" data-action="open-connections">' +
+            icon("network", 17) +
+            '<span class="cta-text"><span class="cta-title">つながり一覧を見る</span><span class="cta-sub">球団をまたぐつながり' + crossTeamCount + "件</span></span>" +
+          "</button>" +
+        "</div>" +
+      "</div>";
+
+    var triviaPlayers = computeHomeTrivia();
+    var trivia = !triviaPlayers.length ? "" :
+      '<section class="home-section">' +
+        '<p class="section-label">' + icon("sparkles", 13) + "今日の一押しトリビア（日替わりで4球団）</p>" +
+        '<div class="trivia-list">' +
+          triviaPlayers.map(function (p) {
+            var ep = (p.episodes && p.episodes[0]) || "";
+            var tc = teamColor(p.currentTeamName);
+            return (
+              '<button class="trivia-card" data-action="open-detail" data-id="' + p.id + '">' +
+                avatarHtml(p, 38) +
+                '<span class="trivia-body">' +
+                  kanaHtml(p, "kana-inline") +
+                  '<span class="trivia-names"><b>' + esc(p.name) + '</b> <span class="trivia-team-pill" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(p.currentTeamName) + "</span></span>" +
+                  '<span class="trivia-ep">' + esc(ep.length > 54 ? ep.slice(0, 54) + "…" : ep) + "</span>" +
+                "</span>" +
+                icon("arrowRight", 15, "trivia-arrow") +
+              "</button>"
+            );
+          }).join("") +
+        "</div>" +
+      "</section>";
+
+    var leaders =
+      '<section class="home-section">' +
+        '<p class="section-label">' + icon("trophy", 13) + "2026年 成績リーダーズ（規定到達者）</p>" +
+        homeLeaderRow("打率", "trophy", "avg", 3, false, function (v) { return v.toFixed(3).replace(/^0/, ""); }) +
+        homeLeaderRow("防御率", "trophy", "era", 3, true, function (v) { return v.toFixed(2); }) +
+        homeLeaderRow("本塁打", "trophy", "hr", 3, false, function (v) { return v + "本"; }) +
+      "</section>";
+
+    var quickLinks =
+      '<section class="home-section">' +
+        '<div class="quick-link-row">' +
+          '<button class="quick-link-card" data-action="goto-roster" data-tags="school">' + icon("users", 16) + "<span>学校の先輩後輩</span></button>" +
+          '<button class="quick-link-card" data-action="goto-roster" data-tags="offseason">' + icon("users", 16) + "<span>自主トレ仲間</span></button>" +
+        "</div>" +
+      "</section>";
+
+    var footer =
+      '<details class="home-section home-footnote">' +
+        '<summary>' + icon("clipboard", 12) + "データについて</summary>" +
+        '<p>' + esc(DATA_AS_OF) + "。NPB公式記録・球団公式サイト・報道をもとに、実在の選手の実際の記録・エピソードのみを掲載しています（架空の設定は含みません）。" +
+        "アイコンはすべて選手を模したイラスト表現で、実際の顔写真ではありません。今季成績・順位は自動で更新しています。</p>" +
+        '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を選ぶ表示に切り替えられます。</p>' +
+      "</details>";
+
+    els.main.innerHTML = '<div class="home-wrap">' + hero + renderStandingsSection() + newsSectionHtml() + trivia + leaders + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -3116,6 +3291,26 @@
   }
 
   function connectionsOverlayHtml() {
+    if (isAllTeamsMode()) {
+      var cross = RELATIONS.filter(function (r) {
+        var a = byId(r.fromPlayerId), b = byId(r.toPlayerId);
+        return a && b && a.currentTeamName !== b.currentTeamName;
+      });
+      return (
+        '<div class="sheet-header">' +
+          '<div class="who"><span class="sheet-icon-badge">' + icon("network", 20) + "</span><span>" +
+            '<p class="sub">12球団の選手同士</p><p class="nm">つながり一覧</p>' +
+          "</span></div>" +
+          '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
+        "</div>" +
+        '<div class="sheet-body">' +
+          '<p class="network-intro">学校の先輩後輩・自主トレ仲間など、違う球団の選手同士で実際に確認できているつながりです。カードをタップすると、その選手の詳細ページを開きます。</p>' +
+          (cross.length
+            ? '<section><p class="section-label">' + icon("network", 13) + "球団をまたぐつながり（" + cross.length + "件）</p>" + cross.map(relationPairCardHtml).join("") + "</section>"
+            : '<p class="empty-state" style="padding:24px 0;">現時点で確認できているつながりはありません。</p>') +
+        "</div>"
+      );
+    }
     var homeIds = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam; }).map(function (p) { return p.id; });
     var homeRelations = RELATIONS.filter(function (r) {
       return homeIds.indexOf(r.fromPlayerId) !== -1 || homeIds.indexOf(r.toPlayerId) !== -1;
@@ -3497,12 +3692,20 @@
         '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
       "</div>" +
       '<div class="sheet-body">' +
-        '<p class="settings-intro">ホーム球団を選ぶと、アプリ全体の配色がその球団カラーに変わります。名鑑の「#ホーム球団の選手」絞り込みや、他球団選手とのつながり表示にも使われます。</p>' +
-        '<div class="settings-section-label"><span class="lbl">ホーム球団</span><span class="cur">現在: ' + esc(state.homeTeam) + "</span></div>" +
-        teamPickListHtml("set-home-team", state.homeTeam, null) +
+        '<p class="settings-intro">ホーム球団を選ぶと、アプリ全体の配色がその球団カラーに変わります。名鑑の「#ホーム球団の選手」絞り込みや、他球団選手とのつながり表示にも使われます。特定の球団がない場合は「12球団まんべんなく」を選んでください。</p>' +
+        '<div class="settings-section-label"><span class="lbl">ホーム球団</span><span class="cur">現在: ' + (isAllTeamsMode() ? "12球団まんべんなく" : esc(state.homeTeam)) + "</span></div>" +
+        '<div class="team-pick-list">' +
+          '<button class="team-pick-row' + (isAllTeamsMode() ? " active" : "") + '" style="--team-pick-color:' + ALL_TEAMS_THEME.color + ';" data-action="set-home-team" data-key="__all__">' +
+            '<span class="team-pick-swatch" style="background:' + ALL_TEAMS_THEME.color + ";color:" + ALL_TEAMS_THEME.ink + ';">⚾</span>' +
+            '<span class="team-pick-name">12球団まんべんなく<span class="team-pick-sub">推し球団なし・全体の情報を均等に表示</span></span>' +
+            (isAllTeamsMode() ? '<span class="team-pick-check">' + icon("check", 18) + "</span>" : "") +
+          "</button>" +
+        "</div>" +
+        teamPickListHtml("set-home-team", isAllTeamsMode() ? null : state.homeTeam, null) +
+        (isAllTeamsMode() ? "" :
         '<div class="settings-section-label"><span class="lbl">対戦相手（つながり表示用）</span><span class="cur">現在: ' + esc(state.opponentTeam) + "</span></div>" +
         teamPickListHtml("set-opponent", state.opponentTeam, state.homeTeam) +
-        '<p class="settings-note">対戦相手は、ホーム球団の実際の次の試合の相手（NEXT GAME）を自動で選んでいます。ここから別の球団に変更すると、その組み合わせでつながりやスタメン登録を確認できます（ホーム球団を切り替えると、また実際の次の試合の相手に戻ります）。</p>' +
+        '<p class="settings-note">対戦相手は、ホーム球団の実際の次の試合の相手（NEXT GAME）を自動で選んでいます。ここから別の球団に変更すると、その組み合わせでつながりやスタメン登録を確認できます（ホーム球団を切り替えると、また実際の次の試合の相手に戻ります）。</p>') +
       "</div>"
     );
   }
@@ -3527,7 +3730,7 @@
 
     var badges = '<span class="badge" style="background:' + tc.bg + ";color:" + tc.fg + ';font-size:11px;padding:4px 9px;">' + esc(p.currentTeamName) + "</span>";
     if (isLocalConnection(p, state.homeTeam)) badges += '<span class="badge tohoku" style="font-size:11px;padding:4px 9px;">' + icon("mapPin", 11) + esc(getTeam(state.homeTeam).regionLabel) + "ゆかり</span>";
-    if (state.homeTeam === "楽天" && p.vsRakutenData && p.vsRakutenData.isKiller) badges += '<span class="badge killer" style="font-size:11px;padding:4px 9px;">' + icon("alertTriangle", 11) + "楽天キラー</span>";
+    if (homeIsRakuten() && p.vsRakutenData && p.vsRakutenData.isKiller) badges += '<span class="badge killer" style="font-size:11px;padding:4px 9px;">' + icon("alertTriangle", 11) + "楽天キラー</span>";
 
     var vsBlock = "";
     if (p.vsRakutenData) {
@@ -3841,6 +4044,16 @@
     WEATHER_KEY = null;
     maybeRefreshWeather(name);
   }
+  function setAllTeamsMode(on) {
+    state.allTeams = !!on;
+    saveAllTeamsMode(state.allTeams);
+    if (state.allTeams) {
+      state.activeTags = state.activeTags.filter(function (k) { return TEAM_DEPENDENT_TAGS.indexOf(k) === -1; });
+    } else if (!state.activeTags.length) {
+      state.activeTags = ["matchup"];
+    }
+    applyHomeTheme(state.homeTeam);
+  }
   function setOpponentTeam(name) {
     if (name === state.homeTeam) return;
     var changed = name !== state.opponentTeam;
@@ -3944,8 +4157,22 @@
       refreshSettingsIfOpen();
       if (state.tab === "home") renderHome(); else { renderRoster(); showFilterToast(currentRosterList().length); }
     } else if (action === "set-home-team") {
-      setHomeTeam(key);
+      if (key === "__all__") {
+        setAllTeamsMode(true);
+      } else {
+        if (isAllTeamsMode()) setAllTeamsMode(false);
+        setHomeTeam(key);
+      }
       render();
+    } else if (action === "goto-team") {
+      // まんべんなくモードのホーム画面：球団名タップでその球団の選手一覧へ
+      state.tab = "roster";
+      state.rosterView = "players";
+      state.activeTags = [];
+      state.teamFilter = TEAM_NAMES.indexOf(key) !== -1 ? key : "all";
+      state.viewMode = "all";
+      render();
+      window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
     } else if (action === "open-filters") {
       state.overlay = { type: "filters" };
       renderOverlay();
