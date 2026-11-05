@@ -1049,3 +1049,23 @@
   .draft-card p, .draft-pick p, .draft-org-group p { margin: 0; }
   .draft-row-text { font-size: 13px; line-height: 1.6; color: var(--ink); }
   .draft-pick .draft-row li { font-size: 12.5px; }
+
+  /* ===================== オフの移籍・去就（期間限定） ===================== */
+  .tr-badge { font-size: 10.5px; font-weight: 800; border-radius: 6px; padding: 2px 7px; background: var(--bg-sunken); color: var(--ink-dim); }
+  .tr-badge.mlb { background: var(--sky-bg); color: var(--sky); }
+  .tr-badge.fa { background: var(--gold-bg); color: var(--gold); }
+  .tr-badge.out { background: var(--amber-bg); color: var(--amber); }
+  .tr-badge.retire { background: var(--bg-sunken); color: var(--ink-dim); }
+  .tr-name { display: inline-flex; align-items: center; gap: 3px; border: none; background: none; padding: 0; font: inherit; color: var(--ink); font-weight: 800; cursor: pointer; text-align: left; }
+  .tr-name.big { font-size: 20px; font-weight: 900; }
+  .tr-name svg { color: var(--crimson-text); }
+  .tr-name.plain { cursor: default; }
+  .tr-ikusei { font-size: 9.5px; font-weight: 800; color: var(--ink-faint); border: 1px solid var(--line-strong); border-radius: 4px; padding: 0 4px; margin-left: 4px; }
+  .tr-title { font-size: 14px; font-weight: 800; color: var(--ink); margin: 0; }
+  .tr-detail { font-size: 13px; line-height: 1.6; color: var(--ink-dim); margin: 0; }
+  .tr-note { font-size: 11.5px; color: var(--ink-faint); line-height: 1.6; margin: 0 0 6px; }
+  .tr-rows { background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 14px; padding: 2px 12px; margin-bottom: 6px; }
+  .tr-row { display: flex; align-items: center; gap: 7px; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 14px; flex-wrap: wrap; }
+  .tr-row:last-child { border-bottom: none; }
+  .tr-date { font-size: 11px; color: var(--ink-faint); width: 36px; flex-shrink: 0; }
+  .tr-pos { font-size: 11px; color: var(--ink-dim); }

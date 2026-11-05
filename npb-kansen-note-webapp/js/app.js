@@ -2879,7 +2879,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</details>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + draftBannerHtml() + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + transferBannerHtml() + draftBannerHtml() + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -2968,7 +2968,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を選ぶ表示に切り替えられます。</p>' +
       "</details>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + draftBannerHtml() + renderStandingsSection() + newsSectionHtml() + trivia + leaders + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + transferBannerHtml() + draftBannerHtml() + renderStandingsSection() + newsSectionHtml() + trivia + leaders + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -3503,6 +3503,156 @@
     }
     var foot = '<p class="draft-sources">指名一覧の出典：<a href="' + esc(DRAFT_DATA.source) + '" target="_blank" rel="noopener noreferrer">NPB公式サイト</a>。「先輩」は、このアプリに載っている現役選手の出身校から自動で探しています。</p>';
     return header + '<div class="sheet-body">' + chips + intro + body + foot + "</div>";
+  }
+
+  /* ===================== オフの移籍・去就（期間限定） =====================
+     data/transfers2026.json … メジャー挑戦・FA宣言・戦力外・自由契約・退団・引退（すべて出典つき）。
+     中身は手で（または毎朝の自動更新で）書き足す。TRANSFER_SHOW_UNTIL を過ぎたら入口は自動で消える。 */
+  var TRANSFER_SHOW_UNTIL = "2027-03-31";
+  var TRANSFER_DATA = null, TRANSFER_LOADING = false;
+  function ensureTransferData() {
+    if (TRANSFER_DATA || TRANSFER_LOADING) return;
+    TRANSFER_LOADING = true;
+    fetchWithCache("transfers2026", "data/transfers2026.json").then(function (d) {
+      TRANSFER_DATA = d; TRANSFER_LOADING = false;
+      if (state.overlay && state.overlay.type === "transfers") renderOverlay();
+    }).catch(function () {
+      TRANSFER_LOADING = false;
+      if (state.overlay && state.overlay.type === "transfers") renderOverlay();
+    });
+  }
+  var TRANSFER_TYPES = {
+    mlb: { label: "メジャー挑戦", cls: "mlb" },
+    fa: { label: "FA宣言", cls: "fa" },
+    release: { label: "戦力外", cls: "out" },
+    free: { label: "自由契約", cls: "out" },
+    leave: { label: "退団", cls: "out" },
+    retire: { label: "現役引退", cls: "retire" }
+  };
+  function normPersonName(n) {
+    return String(n || "").replace(/[\s　]/g, "").replace(/[．.・･]/g, "").replace(/[Ａ-Ｚａ-ｚ]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); })
+      .replace(/髙/g, "高").replace(/﨑/g, "崎");
+  }
+  // 名鑑に載っている選手なら、その選手を返す（同じ球団を優先）
+  function findPlayerByName(name, team) {
+    var key = normPersonName(name), hit = null;
+    for (var i = 0; i < PLAYERS.length; i++) {
+      if (normPersonName(PLAYERS[i].name) !== key) continue;
+      if (PLAYERS[i].currentTeamName === team) return PLAYERS[i];
+      if (!hit) hit = PLAYERS[i];
+    }
+    return hit;
+  }
+  // その選手と同じ高校・大学・社会人出身の、名鑑に載っている他の選手
+  function playerSchoolMatesHtml(p) {
+    if (!p) return "";
+    var idx = schoolIndex(), r = p.roots || {}, html = "";
+    ["highSchool", "university", "social"].forEach(function (k) {
+      if (!r[k]) return;
+      var list = (idx[normSchool(r[k])] || []).filter(function (m) { return m.id !== p.id; });
+      if (!list.length) return;
+      var shown = list.slice(0, 6);
+      html += '<div class="draft-mates"><span class="draft-mates-label">' + icon("users", 11) + esc(String(r[k]).replace(/（[^）]*）/g, "")) + "の先輩・後輩</span>" +
+        '<span class="draft-mates-list">' + shown.map(function (m) {
+          var tc = teamColor(m.currentTeamName);
+          return '<button class="draft-mate" data-action="open-detail" data-id="' + m.id + '">' + esc(m.name) +
+            ' <span class="draft-mate-team" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(m.currentTeamName) + "</span></button>";
+        }).join("") + (list.length > shown.length ? '<span class="draft-mate-more">ほか' + (list.length - shown.length) + "人</span>" : "") +
+        "</span></div>";
+    });
+    return html;
+  }
+  function transferDateLabel(d) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || ""); return m ? (+m[2]) + "/" + (+m[3]) : ""; }
+  function sourcesHtml(list) {
+    if (!list || !list.length) return "";
+    return '<p class="draft-sources">出典：' + list.map(function (src) {
+      return '<a href="' + esc(src[1]) + '" target="_blank" rel="noopener noreferrer">' + esc(src[0]) + "</a>";
+    }).join("・") + "</p>";
+  }
+  function transferNameHtml(it, big) {
+    var p = findPlayerByName(it.name, it.team);
+    var label = esc(it.name) + (it.ikusei ? '<span class="tr-ikusei">育成</span>' : "");
+    return p ? '<button class="tr-name' + (big ? " big" : "") + '" data-action="open-detail" data-id="' + p.id + '">' + label + icon("arrowRight", big ? 14 : 11) + "</button>"
+             : '<span class="tr-name' + (big ? " big" : "") + ' plain">' + label + "</span>";
+  }
+  function transferCardHtml(it) {
+    var tc = teamColor(it.team), ty = TRANSFER_TYPES[it.type] || { label: "", cls: "" };
+    return (
+      '<div class="draft-card">' +
+        '<div class="draft-card-head">' +
+          '<span class="draft-round" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(it.team) + "</span>" +
+          '<span class="tr-badge ' + ty.cls + '">' + ty.label + "</span>" +
+          '<span class="draft-lottery">' + transferDateLabel(it.date) + "</span>" +
+        "</div>" +
+        '<p class="draft-name">' + transferNameHtml(it, true) + ' <span class="draft-pos">' + esc(it.position || "") + "</span></p>" +
+        (it.title ? '<p class="tr-title">' + esc(it.title) + "</p>" : "") +
+        (it.detail ? '<p class="tr-detail">' + esc(it.detail) + "</p>" : "") +
+        playerSchoolMatesHtml(findPlayerByName(it.name, it.team)) +
+        sourcesHtml(it.sources) +
+      "</div>"
+    );
+  }
+  function transferRowsHtml(list, showTeam) {
+    return '<div class="tr-rows">' + list.map(function (it) {
+      var ty = TRANSFER_TYPES[it.type] || { label: "", cls: "" };
+      var tc = teamColor(it.team);
+      return '<div class="tr-row">' +
+        '<span class="tr-date">' + transferDateLabel(it.date) + "</span>" +
+        (showTeam ? '<span class="draft-mate-team" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(it.team) + "</span>" : "") +
+        transferNameHtml(it, false) +
+        '<span class="tr-pos">' + esc(it.position || "") + "</span>" +
+        (it.type !== "release" && it.type !== "retire" ? '<span class="tr-badge ' + ty.cls + '">' + ty.label + "</span>" : "") +
+      "</div>";
+    }).join("") + "</div>";
+  }
+  function transferBannerHtml() {
+    if (daysUntil(TRANSFER_SHOW_UNTIL) < 0) return "";
+    return (
+      '<section class="home-section">' +
+        '<button class="watch-mode-cta" data-action="open-transfers">' +
+          '<span class="watch-mode-cta-icon">' + icon("refresh", 20) + "</span>" +
+          '<span class="watch-mode-cta-text"><span class="watch-mode-cta-title">2026 オフの移籍・去就</span>' +
+          '<span class="watch-mode-cta-sub">メジャー挑戦・FA宣言・戦力外・引退を球団ごとに</span></span>' +
+          icon("arrowRight", 18, "watch-mode-cta-arrow") +
+        "</button>" +
+      "</section>"
+    );
+  }
+  function transfersOverlayHtml() {
+    var header =
+      '<div class="sheet-header">' +
+        '<div class="who"><span class="sheet-icon-badge">' + icon("refresh", 20) + "</span><span>" +
+          '<p class="sub">期間限定</p><p class="nm">2026 オフの移籍・去就</p>' +
+        "</span></div>" +
+        '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
+      "</div>";
+    if (!TRANSFER_DATA) {
+      ensureTransferData();
+      return header + '<div class="sheet-body"><p class="empty-state" style="padding:24px 0;">' + (TRANSFER_LOADING ? "読み込み中…" : "移籍情報を読み込めませんでした。電波のよい所でもう一度開いてください。") + "</p></div>";
+    }
+    var sel = state.transferTeam || (isAllTeamsMode() ? "all" : state.homeTeam);
+    if (sel !== "all" && TEAM_NAMES.indexOf(sel) === -1) sel = "all";
+    var chips = '<div class="draft-chips">' + ["all"].concat(TEAM_NAMES).map(function (t) {
+      var on = t === sel, st = "";
+      if (on && t !== "all") { var c = teamColor(t); st = ' style="background:' + c.bg + ";color:" + c.fg + ";border-color:" + c.bg + ';"'; }
+      return '<button class="draft-chip' + (on ? " active" : "") + '" data-action="set-transfer-team" data-key="' + esc(t) + '"' + st + ">" + (t === "all" ? "12球団" : esc(t)) + "</button>";
+    }).join("") + "</div>";
+    var items = TRANSFER_DATA.items.filter(function (it) { return sel === "all" || it.team === sel; });
+    var big = items.filter(function (it) { return it.type === "mlb" || it.type === "fa"; });
+    var outs = items.filter(function (it) { return it.type === "release" || it.type === "free" || it.type === "leave"; });
+    var rets = items.filter(function (it) { return it.type === "retire"; });
+    var body = "";
+    var mlb = big.filter(function (it) { return it.type === "mlb"; }), fa = big.filter(function (it) { return it.type === "fa"; });
+    if (mlb.length) body += '<section><p class="section-label">' + icon("sparkles", 13) + "メジャー挑戦（" + mlb.length + "人）</p>" + mlb.map(transferCardHtml).join("") + "</section>";
+    if (fa.length) body += '<section><p class="section-label">' + icon("users", 13) + "FA宣言（" + fa.length + "人）</p>" + fa.map(transferCardHtml).join("") + "</section>";
+    if (outs.length) body += '<section><p class="section-label">' + icon("grid", 13) + "戦力外・自由契約・退団（" + outs.length + "人）</p>" +
+      '<p class="tr-note">戦力外・自由契約には、育成選手として結び直す予定の選手もふくまれます。「育成」は育成選手です。</p>' +
+      transferRowsHtml(outs, sel === "all") + sourcesHtml([["ベースボールチャンネル（12球団一覧）", "https://www.baseballchannel.jp/npb/291604/"]]) + "</section>";
+    if (rets.length) body += '<section><p class="section-label">' + icon("trophy", 13) + "現役引退（" + rets.length + "人）</p>" +
+      transferRowsHtml(rets, sel === "all") + sourcesHtml([["ベースボールチャンネル（12球団一覧）", "https://www.baseballchannel.jp/npb/291604/"]]) + "</section>";
+    if (!body) body = '<p class="empty-state" style="padding:24px 0;">' + esc(sel) + "の移籍・去就の発表は、まだありません。</p>";
+    var intro = '<p class="network-intro">' + transferDateLabel(TRANSFER_DATA.updatedAt) + "時点で発表・報道されている動きです。FA宣言の期限は11月9日、11月11日から他球団と交渉できます。名鑑に載っている選手は、名前をタップすると詳しく見られます。</p>";
+    return header + '<div class="sheet-body">' + chips + intro + body + "</div>";
   }
 
   function connectionsOverlayHtml() {
@@ -4132,7 +4282,7 @@
   var OVERLAY_HISTORY = [];
   function overlaySnapshot() {
     var sh = els.overlayRoot.querySelector(".sheet");
-    return { overlay: state.overlay, detailTab: state.detailTab, draftTeam: state.draftTeam, scrollTop: sh ? sh.scrollTop : 0 };
+    return { overlay: state.overlay, detailTab: state.detailTab, draftTeam: state.draftTeam, transferTeam: state.transferTeam, scrollTop: sh ? sh.scrollTop : 0 };
   }
   function openOverlayFrom(newOverlay) {
     if (!state.overlay) OVERLAY_HISTORY = [];
@@ -4147,6 +4297,7 @@
       state.overlay = prev.overlay;
       state.detailTab = prev.detailTab;
       state.draftTeam = prev.draftTeam;
+      state.transferTeam = prev.transferTeam;
       state.statsHistoryOpen = false;
       render();
       var sh = els.overlayRoot.querySelector(".sheet");
@@ -4219,6 +4370,13 @@
       });
       var sheetEl2 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl2) sheetEl2.scrollTop = 0;
+    } else if (state.overlay.type === "transfers") {
+      els.overlayRoot.innerHTML =
+        '<div class="overlay-scrim"><div class="sheet">' + transfersOverlayHtml() + "</div></div>";
+      var scrimElT = els.overlayRoot.querySelector(".overlay-scrim");
+      scrimElT.addEventListener("click", function (e) {
+        if (e.target === scrimElT) { closeOverlay(); }
+      });
     } else if (state.overlay.type === "draft") {
       els.overlayRoot.innerHTML =
         '<div class="overlay-scrim"><div class="sheet">' + draftOverlayHtml() + "</div></div>";
@@ -4510,6 +4668,16 @@
     } else if (action === "open-connections") {
       state.overlay = { type: "connections" };
       renderOverlay();
+    } else if (action === "open-transfers") {
+      state.overlay = { type: "transfers" };
+      renderOverlay();
+      var sheetT = els.overlayRoot.querySelector(".sheet");
+      if (sheetT) sheetT.scrollTop = 0;
+    } else if (action === "set-transfer-team") {
+      state.transferTeam = key;
+      renderOverlay();
+      var sheetT2 = els.overlayRoot.querySelector(".sheet");
+      if (sheetT2) sheetT2.scrollTop = 0;
     } else if (action === "open-draft") {
       state.overlay = { type: "draft" };
       renderOverlay();
