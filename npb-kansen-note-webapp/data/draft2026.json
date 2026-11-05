@@ -43,7 +43,32 @@
    "name": "仲井 慎",
    "position": "投手",
    "org": "駒澤大学",
-   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+   "src": "https://npb.jp/draft/2026/draftlist_b.html",
+   "profile": {
+    "path": "下関国際高 → 駒澤大",
+    "highSchool": "下関国際高（山口）",
+    "koshien": "3年夏（2022年）は下関国際の遊撃手。救援でも5試合に登板し、準々決勝で大阪桐蔭を抑えるなど準優勝に貢献。",
+    "teamComment": [
+     "癖のないフォームから常時150キロを超えるストレートの球威が最大の武器。"
+    ],
+    "extra": [
+     "駒澤大で投手に専念し、最速158キロ"
+    ],
+    "sources": [
+     [
+      "オリックスの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/buffaloes/297893/"
+     ],
+     [
+      "神戸新聞",
+      "https://www.kobe-np.co.jp/news/sports/202610/0020957208.shtml"
+     ],
+     [
+      "スポーツナビ",
+      "https://sports.yahoo.co.jp/column/detail/2026041600001-spnavi?p=2"
+     ]
+    ]
+   }
   },
   {
    "team": "オリックス",
@@ -52,7 +77,28 @@
    "name": "春山 陽登",
    "position": "外野手",
    "org": "大阪商業大学",
-   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+   "src": "https://npb.jp/draft/2026/draftlist_b.html",
+   "profile": {
+    "path": "敦賀気比高 → 大阪商業大",
+    "highSchool": "敦賀気比高（福井）",
+    "koshien": "3年時に春夏連続で甲子園出場。春は無安打だったが、夏は10打数4安打。高校通算17本塁打。",
+    "teamComment": [
+     "関西六大学野球リーグ本塁打記録を塗り替え新記録を樹立するなど、アマチュア球界トップクラスの右の長距離砲。"
+    ],
+    "extra": [
+     "大阪商業大で関西六大学リーグの通算本塁打記録を更新"
+    ],
+    "sources": [
+     [
+      "オリックスの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/buffaloes/297893/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18858"
+     ]
+    ]
+   }
   },
   {
    "team": "オリックス",
@@ -61,7 +107,28 @@
    "name": "近藤 琉唯斗",
    "position": "投手",
    "org": "小樽双葉高",
-   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+   "src": "https://npb.jp/draft/2026/draftlist_b.html",
+   "profile": {
+    "path": "小樽双葉高（北海道）",
+    "koshien": "甲子園出場なし。3年夏の南北海道大会は3試合18回で23奪三振。",
+    "teamComment": [
+     "最速152キロの力強いストレートを投げ込む本格派右腕。"
+    ],
+    "extra": [
+     "小樽双葉高から初めてのドラフト指名",
+     "184センチ・最速152キロの右腕。目標は「佐々木朗希投手を超える選手」"
+    ],
+    "sources": [
+     [
+      "オリックスの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/buffaloes/297893/"
+     ],
+     [
+      "北海道新聞",
+      "https://www.hokkaido-np.co.jp/article/1394748/"
+     ]
+    ]
+   }
   },
   {
    "team": "オリックス",
@@ -70,7 +137,25 @@
    "name": "野村 亮輔",
    "position": "投手",
    "org": "佛教大学",
-   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+   "src": "https://npb.jp/draft/2026/draftlist_b.html",
+   "profile": {
+    "path": "綾羽高 → 佛教大",
+    "highSchool": "綾羽高（滋賀）",
+    "koshien": "綾羽高で2年春に滋賀県大会優勝。",
+    "teamComment": [
+     "MAX152キロのストレートとチェンジアップの緩急が武器。"
+    ],
+    "sources": [
+     [
+      "オリックスの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/buffaloes/297893/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/293221/"
+     ]
+    ]
+   }
   },
   {
    "team": "オリックス",
@@ -172,7 +257,25 @@
    "name": "西野 啓也",
    "position": "捕手",
    "org": "立命館大学",
-   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+   "src": "https://npb.jp/draft/2026/draftlist_c.html",
+   "profile": {
+    "path": "高知高 → 立命館大",
+    "highSchool": "高知高（高知）",
+    "koshien": "高知高で正捕手としてセンバツに出場。最後の夏は高知大会準優勝で、甲子園に届かなかった。",
+    "teamComment": [
+     "肩の強さと思い切りの良い打撃が魅力の将来性の高い捕手。"
+    ],
+    "sources": [
+     [
+      "広島の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/carp/297867/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/286678/"
+     ]
+    ]
+   }
   },
   {
    "team": "広島",
@@ -181,7 +284,25 @@
    "name": "野原 元気",
    "position": "投手",
    "org": "京都産業大学",
-   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+   "src": "https://npb.jp/draft/2026/draftlist_c.html",
+   "profile": {
+    "path": "塔南高 → 京都産業大",
+    "highSchool": "塔南高（京都）",
+    "koshien": "塔南高でプロ志望届を出したが指名漏れ。同じ経験をした北山亘基（日本ハム）にならって京都産業大へ。",
+    "teamComment": [
+     "伸びのあるストレートや縦に割れるカーブとカットボール・チェンジアップをコントロール良く投げ分ける投手。"
+    ],
+    "sources": [
+     [
+      "広島の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/carp/297867/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/293227/"
+     ]
+    ]
+   }
   },
   {
    "team": "広島",
@@ -190,7 +311,32 @@
    "name": "𠮷川 凌平",
    "position": "投手",
    "org": "千葉商科大学",
-   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+   "src": "https://npb.jp/draft/2026/draftlist_c.html",
+   "profile": {
+    "path": "習志野高 → 千葉商科大",
+    "highSchool": "習志野高（千葉）",
+    "koshien": "習志野高ではけがに悩まされ、チームの3番手投手だった。",
+    "teamComment": [
+     "将来性の高い投手。"
+    ],
+    "extra": [
+     "千葉商科大で最速156キロまで伸びた。同大からのドラフト指名は29年ぶり"
+    ],
+    "sources": [
+     [
+      "広島の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/carp/297867/"
+     ],
+     [
+      "千葉商科大（共同通信PRワイヤー）",
+      "https://kyodonewsprwire.jp/release/202610218371"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/12681"
+     ]
+    ]
+   }
   },
   {
    "team": "広島",
@@ -199,7 +345,25 @@
    "name": "光弘 帆高",
    "position": "内野手",
    "org": "明治大学",
-   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+   "src": "https://npb.jp/draft/2026/draftlist_c.html",
+   "profile": {
+    "path": "履正社高 → 明治大",
+    "highSchool": "履正社高（大阪）",
+    "koshien": "履正社では1年秋からベンチ入りし、リードオフマン。2022年にU18日本代表。",
+    "teamComment": [
+     "派手さはないが、攻守ともバランスが良く、対応能力の高い選手。"
+    ],
+    "sources": [
+     [
+      "広島の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/carp/297867/"
+     ],
+     [
+      "高校野球ドットコム（選手名鑑）",
+      "https://www.hb-nippon.com/players/19813"
+     ]
+    ]
+   }
   },
   {
    "team": "広島",
@@ -274,7 +438,28 @@
    "name": "柴﨑 聖人",
    "position": "外野手",
    "org": "王子",
-   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+   "src": "https://npb.jp/draft/2026/draftlist_d.html",
+   "profile": {
+    "path": "岐阜第一高 → 大阪経済大 → 王子",
+    "highSchool": "岐阜第一高（岐阜）",
+    "teamComment": [
+     "都市対抗野球本戦で8試合3HR、長打力に期待の外野手。"
+    ],
+    "extra": [
+     "岐阜第一高で投手から外野手に転向",
+     "大阪経済大で関西六大学リーグ通算100安打。王子では1年目に都市対抗優勝"
+    ],
+    "sources": [
+     [
+      "中日の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/dragons/297865/"
+     ],
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/871709?page=3"
+     ]
+    ]
+   }
   },
   {
    "team": "中日",
@@ -283,7 +468,29 @@
    "name": "前嶋 藍",
    "position": "捕手",
    "org": "亜細亜大学",
-   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+   "src": "https://npb.jp/draft/2026/draftlist_d.html",
+   "profile": {
+    "path": "横浜隼人高 → 亜細亜大",
+    "highSchool": "横浜隼人高（神奈川）",
+    "koshien": "横浜隼人高では1年秋から正捕手。",
+    "teamComment": [
+     "強肩と安定した送球が魅力。",
+     "打撃でも長打力が期待できる捕手。"
+    ],
+    "extra": [
+     "亜細亜大で1年春にリーグ戦デビュー。大学日本代表にも選ばれた"
+    ],
+    "sources": [
+     [
+      "中日の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/dragons/297865/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/286677/"
+     ]
+    ]
+   }
   },
   {
    "team": "中日",
@@ -292,7 +499,31 @@
    "name": "鈴木 悠悟",
    "position": "投手",
    "org": "中京高",
-   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+   "src": "https://npb.jp/draft/2026/draftlist_d.html",
+   "profile": {
+    "path": "中京高（岐阜）",
+    "koshien": "3年夏、岐阜大会決勝で完投し先制打も放って、中京を7年ぶりの夏の甲子園へ。甲子園は1回戦で霞ケ浦に敗れた。",
+    "teamComment": [
+     "高い野球センスを活かして次世代のショート候補。"
+    ],
+    "extra": [
+     "投手として最速148キロ。プロでは野手としてスタートする見通し"
+    ],
+    "sources": [
+     [
+      "中日の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/dragons/297865/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18746"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/291193/"
+     ]
+    ]
+   }
   },
   {
    "team": "中日",
@@ -301,7 +532,26 @@
    "name": "西田 櫂吏",
    "position": "投手",
    "org": "京都国際高",
-   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+   "src": "https://npb.jp/draft/2026/draftlist_d.html",
+   "profile": {
+    "path": "京都国際高（京都）",
+    "koshien": "3年夏は京都大会準々決勝で敗れ、京都国際の3年連続の甲子園出場はならなかった。",
+    "teamComment": [
+     "スピンの効いたストレートが持ち味。",
+     "スライダーのキレ、チェンジアップの抜けも良く変化球の質も高い。",
+     "将来性豊かな投手。"
+    ],
+    "sources": [
+     [
+      "中日の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/dragons/297865/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2026/07/24/0020626185.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "中日",
@@ -367,7 +617,28 @@
    "name": "保西 雅則",
    "position": "内野手",
    "org": "日本航空石川高",
-   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+   "src": "https://npb.jp/draft/2026/draftlist_db.html",
+   "profile": {
+    "path": "日本航空石川高（石川）",
+    "teamComment": [
+     "超高校級の恵まれた体格の内野手で、高校生離れした長打力を持つスラッガー。",
+     "投手としても150km/hを超える強肩で、スローイングの精度の高さも備わっている。",
+     "将来は日本球界を代表するバッターに成り得る素材。"
+    ],
+    "extra": [
+     "190センチの大型選手。投手として最速150キロ超、打者として高校通算15本塁打の二刀流候補だったが、DeNAは内野手として指名"
+    ],
+    "sources": [
+     [
+      "DeNAの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/baystars/297859/"
+     ],
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/710643/"
+     ]
+    ]
+   }
   },
   {
    "team": "DeNA",
@@ -376,7 +647,26 @@
    "name": "杉本 寛斎",
    "position": "外野手",
    "org": "ブリティッシュ コロンビア大学",
-   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+   "src": "https://npb.jp/draft/2026/draftlist_db.html",
+   "profile": {
+    "path": "カナダの高校 → ヤバパイカレッジ（米国） → ブリティッシュコロンビア大（カナダ）",
+    "koshien": "中学卒業後にカナダへ留学。「カナダの大谷」と呼ばれる。",
+    "teamComment": [
+     "高校から単身でカナダへ渡り、大きく成長した選手。",
+     "スピードとパワー共にNPBでもトップクラスの高いフィジカルレベル。",
+     "パワーを生かした打撃と、投げても150km/hを超える強肩を生かし、外野手として将来中軸を打てるスラッガーへの成長を期待。"
+    ],
+    "sources": [
+     [
+      "DeNAの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/baystars/297859/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/298887/6/"
+     ]
+    ]
+   }
   },
   {
    "team": "DeNA",
@@ -385,7 +675,27 @@
    "name": "小金井 凌生",
    "position": "投手",
    "org": "青森大学",
-   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+   "src": "https://npb.jp/draft/2026/draftlist_db.html",
+   "profile": {
+    "path": "日体大荏原高 → 青森大",
+    "highSchool": "日本体育大学荏原高（東京）",
+    "koshien": "日体大荏原高ではエースとして3年夏の東東京大会で準優勝。",
+    "teamComment": [
+     "190cmを超える長身のサイドスローの投手。",
+     "右打者のインサイドをえぐるツーシームに、切れ味鋭いスライダーが武器。",
+     "将来、先発ローテーションを狙える逸材。"
+    ],
+    "sources": [
+     [
+      "DeNAの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/baystars/297859/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/293203/"
+     ]
+    ]
+   }
   },
   {
    "team": "DeNA",
@@ -394,7 +704,29 @@
    "name": "木口 永翔",
    "position": "投手",
    "org": "上武大学",
-   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+   "src": "https://npb.jp/draft/2026/draftlist_db.html",
+   "profile": {
+    "path": "筑陽学園高 → 上武大",
+    "highSchool": "筑陽学園高（福岡）",
+    "teamComment": [
+     "体格に恵まれた大型のパワーピッチャー。",
+     "スピン量の豊富な切れのあるストレートで、奪三振力も高い。",
+     "マウンド上ではクールな雰囲気だが、熱いハートを持つ人間性も魅力。"
+    ],
+    "extra": [
+     "4年春に1失点完投・14奪三振。巨人スカウト「真っすぐで押す投球も緩急を使ったゲームメークもできる」"
+    ],
+    "sources": [
+     [
+      "DeNAの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/baystars/297859/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2026/04/05/0020206769.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "DeNA",
@@ -451,7 +783,26 @@
    "name": "岡田 啓吾",
    "position": "内野手",
    "org": "明治大学",
-   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+   "src": "https://npb.jp/draft/2026/draftlist_e.html",
+   "profile": {
+    "path": "前橋育英高 → 明治大",
+    "highSchool": "前橋育英高（群馬）",
+    "koshien": "前橋育英高で2年春から二塁のレギュラー。夏の甲子園に出場したが、京都国際高に敗れた。",
+    "teamComment": [
+     "俊足、巧打、韋駄天の内野手。",
+     "宗山、岡田の明治大学の二遊間も。"
+    ],
+    "sources": [
+     [
+      "楽天の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/eagles/297895/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/286625/"
+     ]
+    ]
+   }
   },
   {
    "team": "楽天",
@@ -460,7 +811,28 @@
    "name": "樋口 新",
    "position": "投手",
    "org": "王子",
-   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+   "src": "https://npb.jp/draft/2026/draftlist_e.html",
+   "profile": {
+    "path": "千葉経大付高 → 愛知工業大 → 王子",
+    "highSchool": "千葉経済大学附属高（千葉）",
+    "teamComment": [
+     "どの球種でもストライクが取れ、試合を作る能力が高い即戦力左腕。"
+    ],
+    "extra": [
+     "愛知工業大では同期の中村優斗（現・ヤクルト）と先発2本柱",
+     "王子では1年目に防御率1.25で最優秀防御率賞"
+    ],
+    "sources": [
+     [
+      "楽天の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/eagles/297895/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/11203"
+     ]
+    ]
+   }
   },
   {
    "team": "楽天",
@@ -469,7 +841,28 @@
    "name": "萩原 義輝",
    "position": "捕手",
    "org": "東芝",
-   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+   "src": "https://npb.jp/draft/2026/draftlist_e.html",
+   "profile": {
+    "path": "東海大相模高 → 流通経済大 → 東芝",
+    "highSchool": "東海大学付属相模高（神奈川）",
+    "teamComment": [
+     "社会人、大学生の中でスローイング、ブロッキングと守備型のNo.1捕手。",
+     "楽天イーグルスに必要な捕手。"
+    ],
+    "extra": [
+     "流通経済大では1年秋から正捕手。大学4年時は指名漏れを経験し、東芝で再挑戦"
+    ],
+    "sources": [
+     [
+      "楽天の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/eagles/297895/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/237661/"
+     ]
+    ]
+   }
   },
   {
    "team": "楽天",
@@ -478,7 +871,28 @@
    "name": "高 義博",
    "position": "内野手",
    "org": "オイシックス新潟アルビレックス・ベースボール・クラブ",
-   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+   "src": "https://npb.jp/draft/2026/draftlist_e.html",
+   "profile": {
+    "path": "関西創価高 → BC新潟 → オイシックス",
+    "highSchool": "関西創価高（大阪）",
+    "teamComment": [
+     "走攻守三拍子揃った選手。",
+     "ファームで盗塁王を獲得したリードオフマン。"
+    ],
+    "extra": [
+     "2026年はオイシックスのキャプテン"
+    ],
+    "sources": [
+     [
+      "楽天の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/eagles/297895/"
+     ],
+     [
+      "球歴.com",
+      "https://www.kyureki.com/syakai/1388/3579/"
+     ]
+    ]
+   }
   },
   {
    "team": "楽天",
@@ -562,7 +976,26 @@
    "name": "牟禮 翔",
    "position": "外野手",
    "org": "九州国際大学付属高",
-   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+   "src": "https://npb.jp/draft/2026/draftlist_f.html",
+   "profile": {
+    "path": "九州国際大付高",
+    "koshien": "主に1番センター。2年秋の明治神宮大会で日本一。",
+    "teamComment": [
+     "無駄のないスイングから広角に長打を放つ強打の外野手。",
+     "2年秋の明治神宮大会ではバックスクリーンに特大の一発を放つなど日本一に貢献した。",
+     "遠投100メートル超と身体能力に優れ、攻守にスター性を感じさせる。"
+    ],
+    "sources": [
+     [
+      "日本ハムの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/fighters/297891/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/10142"
+     ]
+    ]
+   }
   },
   {
    "team": "日本ハム",
@@ -571,7 +1004,33 @@
    "name": "末吉 良丞",
    "position": "投手",
    "org": "沖縄尚学高",
-   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+   "src": "https://npb.jp/draft/2026/draftlist_f.html",
+   "profile": {
+    "path": "沖縄尚学高",
+    "koshien": "2年夏（2025年）の甲子園で沖縄尚学を優勝に導いた左腕。1回戦の金足農戦で完封、仙台育英戦は11回完投。",
+    "teamComment": [
+     "強靭な下半身を土台に150キロ超の速球を繰り出す本格派左腕。",
+     "昨夏の甲子園では優勝投手に輝き、世代を代表する存在となった。",
+     "最終学年はベストパフォーマンスを発揮できなかったが、実力は折り紙付き。"
+    ],
+    "extra": [
+     "今年は左ひじの不調に悩まされた時期もあった"
+    ],
+    "sources": [
+     [
+      "日本ハムの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/fighters/297891/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/7829"
+     ],
+     [
+      "琉球新報",
+      "https://ryukyushimpo.jp/news/entry-5572722.html"
+     ]
+    ]
+   }
   },
   {
    "team": "日本ハム",
@@ -580,7 +1039,29 @@
    "name": "加藤 宇",
    "position": "投手",
    "org": "明星大学",
-   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+   "src": "https://npb.jp/draft/2026/draftlist_f.html",
+   "profile": {
+    "path": "堀越高 → 明星大",
+    "highSchool": "堀越高（東京）",
+    "teamComment": [
+     "首都大学野球連盟2部リーグでプレーする逸材。",
+     "セットポジションから投げ込む150キロ台の速球は威力にあふれている。",
+     "制球力も安定しており、左打者の内角に食い込むスライダーは切れ味抜群だ。"
+    ],
+    "extra": [
+     "高校時代はひざのけがもありプロ志望届を出さず明星大へ。最速157キロ"
+    ],
+    "sources": [
+     [
+      "日本ハムの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/fighters/297891/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18218"
+     ]
+    ]
+   }
   },
   {
    "team": "日本ハム",
@@ -589,7 +1070,21 @@
    "name": "岡本 翔斗",
    "position": "投手",
    "org": "香里丘高",
-   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+   "src": "https://npb.jp/draft/2026/draftlist_f.html",
+   "profile": {
+    "path": "香里丘高（大阪）",
+    "koshien": "甲子園出場なし。3年春・夏の大阪府大会で、強豪私学を相手に安定して2桁奪三振。",
+    "teamComment": [
+     "細身の体から140キロ台後半の速球を繰り出す“大阪公立校の星”。",
+     "バランス良い投球フォーム、しなやかな腕の振りは美しさを感じさせる。"
+    ],
+    "sources": [
+     [
+      "日本ハムの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/fighters/297891/"
+     ]
+    ]
+   }
   },
   {
    "team": "日本ハム",
@@ -673,7 +1168,33 @@
    "name": "平田 玲翔",
    "position": "投手",
    "org": "大分商業高",
-   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+   "src": "https://npb.jp/draft/2026/draftlist_g.html",
+   "profile": {
+    "path": "大分商業高（大分）",
+    "koshien": "主将・エースとして3年夏の甲子園に出場。1回戦の日本文理戦で151キロを記録し、大分商に29年ぶりの甲子園勝利。2回戦で英明に敗れた。",
+    "teamComment": [
+     "最速152キロのスピードボールが魅力の本格派右腕。",
+     "打撃センスもあり、二刀流での可能性を秘めた将来性豊かな好素材。",
+     "恵まれた体格で100メートルを11秒１で走る。"
+    ],
+    "extra": [
+     "大分大会は17回2/3で防御率0.51、打っても打率.476"
+    ],
+    "sources": [
+     [
+      "巨人の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/giants/297832/"
+     ],
+     [
+      "スポーツナビ",
+      "https://sports.yahoo.co.jp/official/detail/2026081000065-spnaviow"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/297083/"
+     ]
+    ]
+   }
   },
   {
    "team": "巨人",
@@ -682,7 +1203,33 @@
    "name": "池田 聖摩",
    "position": "内野手",
    "org": "横浜高",
-   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+   "src": "https://npb.jp/draft/2026/draftlist_g.html",
+   "profile": {
+    "path": "横浜高（神奈川）",
+    "koshien": "2年春（2025年）のセンバツで遊撃手として全5試合にスタメン出場し、打率3割で優勝に貢献。3年春のセンバツは初戦で神村学園に敗れた。",
+    "teamComment": [
+     "走攻守バランスが取れた遊撃手。",
+     "肩が強く、球際の強さも魅力で守備力の高さは高校生NO.1。",
+     "安定した守備力を武器に将来のレギュラー候補として期待。"
+    ],
+    "extra": [
+     "熊本県出身。中学時代はU15日本代表"
+    ],
+    "sources": [
+     [
+      "巨人の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/giants/297832/"
+     ],
+     [
+      "熊本日日新聞",
+      "https://kumanichi.com/articles/2049481"
+     ],
+     [
+      "スポルティバ",
+      "https://sportiva.shueisha.co.jp/clm/baseball/hs_other/2026/03/21/post_27/"
+     ]
+    ]
+   }
   },
   {
    "team": "巨人",
@@ -691,7 +1238,33 @@
    "name": "杉本 真滉",
    "position": "投手",
    "org": "智辯学園高",
-   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+   "src": "https://npb.jp/draft/2026/draftlist_g.html",
+   "profile": {
+    "path": "智辯学園高（奈良）",
+    "koshien": "3年春（2026年）のセンバツで準優勝。1回戦で花巻東を3安打完封。決勝は大阪桐蔭に敗れたが、大阪桐蔭の西谷監督は「大会ナンバーワンピッチャー」と評した。",
+    "teamComment": [
+     "対角線上に投げ込む140キロ台後半のストレートは威力・角度ともに十分で、スライダーのキレも申し分ない。",
+     "近い将来、投手陣の中心を担う活躍が期待できる。",
+     "好物の寿司を100貫近く平らげたこともある大食家。"
+    ],
+    "extra": [
+     "最速149キロの速球とスライダーを持つ左腕"
+    ],
+    "sources": [
+     [
+      "巨人の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/giants/297832/"
+     ],
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/869907"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/12114?page=2"
+     ]
+    ]
+   }
   },
   {
    "team": "巨人",
@@ -700,7 +1273,20 @@
    "name": "伊藤 櫂人",
    "position": "内野手",
    "org": "中央大学",
-   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+   "src": "https://npb.jp/draft/2026/draftlist_g.html",
+   "profile": {
+    "path": "中央大",
+    "teamComment": [
+     "大学通算2ケタ本塁打を記録する一方で、ミート力も高く広角に打てる。",
+     "サードのポジションでは安定した守備力で、攻守にわたりチームを引っ張る中心選手。"
+    ],
+    "sources": [
+     [
+      "巨人の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/giants/297832/"
+     ]
+    ]
+   }
   },
   {
    "team": "巨人",
@@ -793,7 +1379,34 @@
    "name": "有馬 伽久",
    "position": "投手",
    "org": "立命館大学",
-   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+   "src": "https://npb.jp/draft/2026/draftlist_h.html",
+   "profile": {
+    "path": "愛工大名電高 → 立命館大",
+    "highSchool": "愛知工業大学名電高（愛知）",
+    "koshien": "愛工大名電高のエースとして3年夏の甲子園でベスト8。",
+    "teamComment": [
+     "最速151キロ左腕。",
+     "特にストレートの強さとツーシーム、スライダーを駆使し、ピッチトンネルできる投球は魅力。",
+     "昨年の明治神宮大会では10者連続奪三振で53年ぶりの大会記録を更新。"
+    ],
+    "extra": [
+     "大学3年秋の明治神宮大会で大会新記録の10者連続奪三振"
+    ],
+    "sources": [
+     [
+      "ソフトバンクの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/hawks/297888/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/297815/"
+     ],
+     [
+      "立命館大学",
+      "https://www.ritsumei.ac.jp/news/detail/?id=4641"
+     ]
+    ]
+   }
   },
   {
    "team": "ソフトバンク",
@@ -802,7 +1415,34 @@
    "name": "渡辺 和大",
    "position": "投手",
    "org": "慶應義塾大学",
-   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+   "src": "https://npb.jp/draft/2026/draftlist_h.html",
+   "profile": {
+    "path": "高松商高 → 慶應義塾大",
+    "highSchool": "高松商業高（香川）",
+    "koshien": "高松商高で2年夏・3年夏に甲子園出場。3年夏はエースとして、浅野翔吾（現・巨人）とともにベスト8。",
+    "teamComment": [
+     "今年注目の左腕。",
+     "MAX151キロのストレートに打者の手元で消えるスライダー、チェンジアップで空振りを量産。",
+     "良い時は手がつけられないほどハイペースでアウトを重ねる。"
+    ],
+    "extra": [
+     "慶應義塾大で東京六大学の最優秀防御率に2度輝いた左腕"
+    ],
+    "sources": [
+     [
+      "ソフトバンクの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/hawks/297888/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18564"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/297631/"
+     ]
+    ]
+   }
   },
   {
    "team": "ソフトバンク",
@@ -811,7 +1451,28 @@
    "name": "藤森 康淳",
    "position": "外野手",
    "org": "法政大学",
-   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+   "src": "https://npb.jp/draft/2026/draftlist_h.html",
+   "profile": {
+    "path": "天理高 → 法政大",
+    "highSchool": "天理高（奈良）",
+    "koshien": "天理高からU18日本代表に選ばれた。",
+    "teamComment": [
+     "東京六大学で100安打間近のコンタクト能力に長けた当て感の良いアベレージヒッター。"
+    ],
+    "extra": [
+     "法政大で3年秋に首位打者"
+    ],
+    "sources": [
+     [
+      "ソフトバンクの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/hawks/297888/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18858?page=2"
+     ]
+    ]
+   }
   },
   {
    "team": "ソフトバンク",
@@ -820,7 +1481,29 @@
    "name": "猪俣 駿太",
    "position": "投手",
    "org": "東北福祉大学",
-   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+   "src": "https://npb.jp/draft/2026/draftlist_h.html",
+   "profile": {
+    "path": "明秀日立高 → 東北福祉大",
+    "highSchool": "明秀学園日立高（茨城）",
+    "koshien": "明秀日立のエースとして3年時に春夏連続で甲子園出場。",
+    "teamComment": [
+     "185センチ92キロと恵まれた体格から投げ下ろす角度のあるストレートとスプリットが武器の本格派右腕。",
+     "MAX155キロの球威あるストレートと豊富な変化球で奪三振率も高く、完投能力もある即戦力投手。"
+    ],
+    "extra": [
+     "最速155キロ。4年春は5勝0敗・防御率1.09"
+    ],
+    "sources": [
+     [
+      "ソフトバンクの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/hawks/297888/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/10406"
+     ]
+    ]
+   }
   },
   {
    "team": "ソフトバンク",
@@ -1026,7 +1709,32 @@
    "name": "柿本 晟弥",
    "position": "投手",
    "org": "パナソニック",
-   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+   "src": "https://npb.jp/draft/2026/draftlist_l.html",
+   "profile": {
+    "path": "東洋大姫路高 → 東洋大 → パナソニック",
+    "highSchool": "東洋大学附属姫路高（兵庫）",
+    "teamComment": [
+     "バランスの良い投球フォームから140km/h中盤のキレのあるストレートに加え、スライダー、カットボール、スプリットと、どの球種もレベルが高く、先発・中継ぎどちらも対応できる即戦力投手です。"
+    ],
+    "extra": [
+     "東洋大4年で指名漏れを経験し、社会人で力をつけた",
+     "パナソニック野球部は2026年シーズンで休部。同部最後のドラフト指名に"
+    ],
+    "sources": [
+     [
+      "西武の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/lions/297898/"
+     ],
+     [
+      "パナソニック",
+      "https://news.panasonic.com/jp/topics/206932"
+     ],
+     [
+      "神戸新聞",
+      "https://www.kobe-np.co.jp/news/sports/202610/0020957206.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "西武",
@@ -1035,7 +1743,32 @@
    "name": "沢山 優介",
    "position": "投手",
    "org": "ヤマハ",
-   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+   "src": "https://npb.jp/draft/2026/draftlist_l.html",
+   "profile": {
+    "path": "掛川西高 → ヤマハ",
+    "highSchool": "掛川西高（静岡）",
+    "koshien": "掛川西高で2021年春の東海大会優勝に貢献。最後の夏は甲子園を逃し、プロ志望届は出さずヤマハへ。",
+    "teamComment": [
+     "本格派左腕で投げっぷりが良く、フォークやチェンジアップで三振を取る投手です。"
+    ],
+    "extra": [
+     "最速152キロの左腕。今春のWBCにブラジル代表として出場"
+    ],
+    "sources": [
+     [
+      "西武の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/lions/297898/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/12155"
+     ],
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/872408"
+     ]
+    ]
+   }
   },
   {
    "team": "西武",
@@ -1044,7 +1777,32 @@
    "name": "田中 諒",
    "position": "捕手",
    "org": "日本大学第三高",
-   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+   "src": "https://npb.jp/draft/2026/draftlist_l.html",
+   "profile": {
+    "path": "日本大学第三高（東京）",
+    "koshien": "2年夏（2025年）の甲子園で4番を打ち、1大会2本塁打。日大三の準優勝に貢献。",
+    "teamComment": [
+     "長距離打者特有の打球角度と高いヘッドスピードが魅力の右の強打者です。",
+     "打てる捕手として期待しています。"
+    ],
+    "extra": [
+     "高校通算30本塁打の強打の捕手"
+    ],
+    "sources": [
+     [
+      "西武の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/lions/297898/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2025/08/19/0019367530.shtml"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18345"
+     ]
+    ]
+   }
   },
   {
    "team": "西武",
@@ -1053,7 +1811,29 @@
    "name": "中津 大和",
    "position": "外野手",
    "org": "日本生命",
-   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+   "src": "https://npb.jp/draft/2026/draftlist_l.html",
+   "profile": {
+    "path": "小松大谷高 → 法政大 → 日本生命",
+    "highSchool": "小松大谷高（石川）",
+    "koshien": "小松大谷高では遊撃手。",
+    "teamComment": [
+     "走・攻・守の三拍子揃ったアグレッシブなプレースタイルが魅力の即戦力外野手です。"
+    ],
+    "extra": [
+     "法政大で外野に転向。大学卒業時は指名漏れ",
+     "日本生命で1年目から「1番・中堅」に定着"
+    ],
+    "sources": [
+     [
+      "西武の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/lions/297898/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/etc/293317/"
+     ]
+    ]
+   }
   },
   {
    "team": "西武",
@@ -1119,7 +1899,32 @@
    "name": "前田 侑大",
    "position": "投手",
    "org": "高岡第一高",
-   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+   "src": "https://npb.jp/draft/2026/draftlist_m.html",
+   "profile": {
+    "path": "高岡第一高（富山）",
+    "koshien": "甲子園出場なし。3年夏の富山大会3回戦でノーヒットノーラン・20奪三振。準決勝で高岡商に敗れた。",
+    "teamComment": [
+     "高校No.1左腕。",
+     "ストレートの強さは大学生を入れてもトップクラスで将来の先発ローテーションとして期待しています。"
+    ],
+    "extra": [
+     "最速156キロの左腕。U18日本代表"
+    ],
+    "sources": [
+     [
+      "ロッテの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/marines/297900/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2026/07/24/0020626180.shtml"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/17293"
+     ]
+    ]
+   }
   },
   {
    "team": "ロッテ",
@@ -1128,7 +1933,31 @@
    "name": "長屋 竣大",
    "position": "投手",
    "org": "ENEOS",
-   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+   "src": "https://npb.jp/draft/2026/draftlist_m.html",
+   "profile": {
+    "path": "浜松開誠館高 → 立命館大 → ENEOS",
+    "highSchool": "浜松開誠館高（静岡）",
+    "koshien": "浜松開誠館高で下級生からエース。",
+    "teamComment": [
+     "躍動感あふれる投球フォームと、最速150キロ超の力強いストレートが最大の魅力の本格派右腕。",
+     " 柔軟性と身体の強さを生かした鋭い腕の振りから、高めへ伸び上がるような球質の良いストレートを安定して投げ込む。",
+     " 多彩な変化球も操り、特にチェンジアップ、フォークの精度は高い。"
+    ],
+    "extra": [
+     "立命館大4年春に右ひじを痛めトミー・ジョン手術。4年秋は学生コーチ",
+     "ENEOS2年目の今年、都市対抗で自己最速154キロを出して評価を上げた"
+    ],
+    "sources": [
+     [
+      "ロッテの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/marines/297900/"
+     ],
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/711577/"
+     ]
+    ]
+   }
   },
   {
    "team": "ロッテ",
@@ -1137,7 +1966,26 @@
    "name": "黒田 義信",
    "position": "外野手",
    "org": "東日本国際大学",
-   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+   "src": "https://npb.jp/draft/2026/draftlist_m.html",
+   "profile": {
+    "path": "九州国際大付高 → 東日本国際大",
+    "highSchool": "九州国際大学付属高（福岡）",
+    "koshien": "九州国際大付高で3年時に春夏連続で甲子園出場。U18日本代表にも選ばれた。高校時代にプロ志望届を出したが指名はなかった。",
+    "teamComment": [
+     "走攻守3拍子揃った選手。",
+     "左右に打ち分けられる技術と長打力もあり将来一軍でレギュラーを取れるポテンシャルを持っている選手。"
+    ],
+    "sources": [
+     [
+      "ロッテの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/marines/297900/"
+     ],
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/711508/"
+     ]
+    ]
+   }
   },
   {
    "team": "ロッテ",
@@ -1146,7 +1994,27 @@
    "name": "新城 楓雅",
    "position": "投手",
    "org": "奈良大学附属高",
-   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+   "src": "https://npb.jp/draft/2026/draftlist_m.html",
+   "profile": {
+    "path": "奈良大学附属高（奈良）",
+    "koshien": "3年夏の奈良大会で最速150キロ。",
+    "teamComment": [
+     "190cmを超える長身からMAX148キロの角度のあるボールを投げる投手 コントロールも良く変化球も器用に投げることができ、スケールの大きさや伸びしろを感じ、将来的には一軍で先発ローテーションを任せられる投手。"
+    ],
+    "extra": [
+     "190センチの長身から角度のあるボール。ロッテは将来の先発ローテーション候補と評価"
+    ],
+    "sources": [
+     [
+      "ロッテの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/marines/297900/"
+     ],
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/711391/"
+     ]
+    ]
+   }
   },
   {
    "team": "ロッテ",
@@ -1221,7 +2089,29 @@
    "name": "佐藤 悠太",
    "position": "外野手",
    "org": "東北福祉大学",
-   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+   "src": "https://npb.jp/draft/2026/draftlist_s.html",
+   "profile": {
+    "path": "報徳学園高 → 東北福祉大",
+    "highSchool": "報徳学園高（兵庫）",
+    "koshien": "報徳学園には投手で入学したが、右ひじ痛からイップスになり2年秋に野手へ。高校時代は無名だった。榊原七斗（阪神1位）と同学年。",
+    "teamComment": [
+     "長打力が魅力の大型外野手。",
+     "走攻守にパワーを持ち合わせた将来性高い主砲候補。"
+    ],
+    "extra": [
+     "東北福祉大で大学選手権の準決勝で2ランを含む4安打3打点（2025年）"
+    ],
+    "sources": [
+     [
+      "ヤクルトの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/swallows/297886/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2025/06/15/0019109307.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "ヤクルト",
@@ -1230,7 +2120,34 @@
    "name": "福原 聖矢",
    "position": "捕手",
    "org": "明治大学",
-   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+   "src": "https://npb.jp/draft/2026/draftlist_s.html",
+   "profile": {
+    "path": "東海大菅生高 → 明治大",
+    "highSchool": "東海大学菅生高（東京）",
+    "koshien": "東海大菅生で2年時に正捕手として春夏連続で甲子園出場。夏は大阪桐蔭との雨の中の試合に敗れた。鈴木泰成（ソフトバンク1位）と同じ東海大菅生出身。",
+    "teamComment": [
+     "俊敏なフットワークと正確なスローイングが魅力の捕手。",
+     "素早い握り替えから流れるように送球へつなげる守備力に加え、脚力を生かした走塁も持ち味。",
+     "安定した身体操作能力と高いリーダーシップを備え、攻守でチームを支える存在として期待される。"
+    ],
+    "extra": [
+     "明治大では主将。「打てる捕手」として評価を上げた"
+    ],
+    "sources": [
+     [
+      "ヤクルトの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/swallows/297886/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2026/05/08/0020330103.shtml"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/opinion-d/2025/12/22/0019839312.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "ヤクルト",
@@ -1239,7 +2156,26 @@
    "name": "高田 瑛大",
    "position": "内野手",
    "org": "都城高",
-   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+   "src": "https://npb.jp/draft/2026/draftlist_s.html",
+   "profile": {
+    "path": "都城高（宮崎）",
+    "koshien": "U18日本代表候補の強化合宿で守備をアピールした遊撃手。",
+    "teamComment": [
+     "走攻守のバランスに優れ、軽快なフットワークと正確なスローイングが光る遊撃手。",
+     "今春のU18代表候補強化合宿でも高い守備力を示した。",
+     "打撃では高いミート力で広角に打ち分け、今後のフィジカル強化により、攻撃的な遊撃手への成長が期待される。"
+    ],
+    "sources": [
+     [
+      "ヤクルトの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/swallows/297886/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/12465"
+     ]
+    ]
+   }
   },
   {
    "team": "ヤクルト",
@@ -1248,7 +2184,31 @@
    "name": "川平 真也",
    "position": "投手",
    "org": "茨城アストロプラネッツ",
-   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+   "src": "https://npb.jp/draft/2026/draftlist_s.html",
+   "profile": {
+    "path": "日本ウェルネス高 → 日本ウェルネススポーツ大（中退） → 茨城アストロプラネッツ",
+    "highSchool": "日本ウェルネス高（沖縄）",
+    "koshien": "日本ウェルネス高では投手と外野手。",
+    "teamComment": [
+     "最速154キロを誇る本格派右腕。",
+     "ストレートを中心に投げ込んで行くリリーバータイプで、フォーク、カットの精度の高さも魅力である。",
+     "体のサイズ、強さもあり、将来的にはクローザー候補として期待できる。"
+    ],
+    "extra": [
+     "独立リーグ3年目でプロ入り。最速154キロ",
+     "今季は先発から8月に中継ぎへ。「クローザー候補」と期待"
+    ],
+    "sources": [
+     [
+      "ヤクルトの球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/swallows/297886/"
+     ],
+     [
+      "琉球新報",
+      "https://ryukyushimpo.jp/sports/entry-5573338.html"
+     ]
+    ]
+   }
   },
   {
    "team": "ヤクルト",
@@ -1332,7 +2292,28 @@
    "name": "馬場 拓海",
    "position": "投手",
    "org": "日本体育大学",
-   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+   "src": "https://npb.jp/draft/2026/draftlist_t.html",
+   "profile": {
+    "path": "福岡大大濠高 → 日本体育大",
+    "highSchool": "福岡大学附属大濠高（福岡）",
+    "teamComment": [
+     "サイドハンドの変則フォームから放たれるストレートは最速150km/hを超え、多彩な変化球を操る。",
+     "経験豊かで、投球術を兼ね備えた、ゲームメイク能力の高い投手。"
+    ],
+    "extra": [
+     "3年秋に首都大学リーグの最優秀投手。今夏は大学日本代表"
+    ],
+    "sources": [
+     [
+      "阪神の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/tigers/297855/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18496"
+     ]
+    ]
+   }
   },
   {
    "team": "阪神",
@@ -1341,7 +2322,33 @@
    "name": "常深 颯大",
    "position": "投手",
    "org": "大阪経済大学",
-   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+   "src": "https://npb.jp/draft/2026/draftlist_t.html",
+   "profile": {
+    "path": "明石商高 → 大阪経済大",
+    "highSchool": "明石商業高（兵庫）",
+    "teamComment": [
+     "総合力で勝負する即戦力左腕。",
+     "腕の振りが良く、バランスの良いフォームから、真っ直ぐと変化球を正確に投げ込むコントロールが武器。",
+     "ゲームメイクに長けた選手で、即戦力としての働きが期待できる。"
+    ],
+    "extra": [
+     "関西六大学リーグ通算18勝。目標は1年目の新人王"
+    ],
+    "sources": [
+     [
+      "阪神の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/tigers/297855/"
+     ],
+     [
+      "神戸新聞",
+      "https://www.kobe-np.co.jp/news/sports/202610/0020957204.shtml"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/tigers/2026/10/27/0020972416.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "阪神",
@@ -1350,7 +2357,29 @@
    "name": "相羽 寛太",
    "position": "内野手",
    "org": "ヤマハ",
-   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+   "src": "https://npb.jp/draft/2026/draftlist_t.html",
+   "profile": {
+    "path": "静岡高 → ヤマハ",
+    "highSchool": "静岡高（静岡）",
+    "koshien": "静岡高時代から守備に定評があった。",
+    "teamComment": [
+     "勝負強い打撃で広角に安打を量産できる強打の内野手。",
+     "フットワークが軽く、強肩でスローイングも安定しており、社会人トップクラスの守備力を誇る。"
+    ],
+    "extra": [
+     "ヤマハで1年目から遊撃手。昨年は指名漏れを経験"
+    ],
+    "sources": [
+     [
+      "阪神の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/tigers/297855/"
+     ],
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/872408"
+     ]
+    ]
+   }
   },
   {
    "team": "阪神",
@@ -1359,7 +2388,30 @@
    "name": "的場 吏玖",
    "position": "投手",
    "org": "天理大学",
-   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+   "src": "https://npb.jp/draft/2026/draftlist_t.html",
+   "profile": {
+    "path": "大阪電通大高 → 天理大",
+    "highSchool": "大阪電気通信大学高（大阪）",
+    "koshien": "3年春の大阪府大会で、センバツ王者の大阪桐蔭を相手に8回3失点の好投。",
+    "teamComment": [
+     "長身から放たれるストレートには角度があり、多彩な変化球が武器。",
+     "バランスの良いフォームから両サイドに投げ切れる制球力があり、完成度が高い。",
+     "先発ローテーションの一角として期待できる選手。"
+    ],
+    "extra": [
+     "2年春に5戦5勝で阪神大学リーグMVP"
+    ],
+    "sources": [
+     [
+      "阪神の球団コメント（ベースボールチャンネル）",
+      "https://www.baseballchannel.jp/npb/tigers/297855/"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/tigers/2026/11/03/0020995162.shtml"
+     ]
+    ]
+   }
   },
   {
    "team": "阪神",

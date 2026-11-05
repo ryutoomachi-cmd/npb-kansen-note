@@ -1047,3 +1047,5 @@
   .draft-org-count { font-size: 11px; color: var(--gold); margin-left: 4px; }
   .draft-org-members { font-size: 12px; color: var(--ink-dim); line-height: 1.6; margin-top: 2px; }
   .draft-card p, .draft-pick p, .draft-org-group p { margin: 0; }
+  .draft-row-text { font-size: 13px; line-height: 1.6; color: var(--ink); }
+  .draft-pick .draft-row li { font-size: 12.5px; }

@@ -3315,7 +3315,7 @@
   function ensureDraftData() {
     if (DRAFT_DATA || DRAFT_LOADING) return;
     DRAFT_LOADING = true;
-    fetchWithCache("draft2026", "data/draft2026.json").then(function (d) {
+    fetchWithCache("draft2026_v2", "data/draft2026.json").then(function (d) {
       DRAFT_DATA = d; DRAFT_LOADING = false;
       if (state.overlay && state.overlay.type === "draft") renderOverlay();
     }).catch(function () {
@@ -3368,7 +3368,7 @@
         '<button class="watch-mode-cta" data-action="open-draft">' +
           '<span class="watch-mode-cta-icon">' + icon("users", 20) + "</span>" +
           '<span class="watch-mode-cta-text"><span class="watch-mode-cta-title">2026 ドラフト特集</span>' +
-          '<span class="watch-mode-cta-sub">指名された127人と、出身校でつながる現役選手・甲子園での活躍・評価ポイント</span></span>' +
+          '<span class="watch-mode-cta-sub">指名された127人と、出身校でつながる現役選手。5位までは甲子園での活躍・評価ポイントも</span></span>' +
           icon("arrowRight", 18, "watch-mode-cta-arrow") +
         "</button>" +
       "</section>"
@@ -3419,13 +3419,28 @@
     );
   }
 
+  // 2位以下の選手の紹介（甲子園・高校時代／球団の評価／そのほかの話題／出典）
+  function draftPickDetailHtml(pr) {
+    if (!pr) return "";
+    var notes = (pr.teamComment || []).concat(pr.extra || []);
+    return (
+      (pr.koshien ? '<span class="draft-row"><span class="draft-row-label">甲子園・高校時代</span><span class="draft-row-text">' + esc(pr.koshien) + "</span></span>" : "") +
+      (notes.length ? '<span class="draft-row"><span class="draft-row-label">評価されたポイント</span><ul>' +
+        notes.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul></span>" : "") +
+      (pr.sources && pr.sources.length ? '<span class="draft-sources">出典：' + pr.sources.map(function (src) {
+        return '<a href="' + esc(src[1]) + '" target="_blank" rel="noopener noreferrer">' + esc(src[0]) + "</a>";
+      }).join("・") + "</span>" : "")
+    );
+  }
+
   function draftPickRowHtml(pick) {
     return (
       '<div class="draft-pick">' +
         '<span class="draft-pick-round">' + pick.round + "位</span>" +
         '<span class="draft-pick-body">' +
           '<span class="draft-pick-name">' + esc(pick.name) + ' <span class="draft-pos">' + esc(pick.position) + "</span></span>" +
-          '<span class="draft-pick-org">' + esc(pick.org) + "</span>" +
+          '<span class="draft-pick-org">' + esc(pick.profile && pick.profile.path ? pick.profile.path : pick.org) + "</span>" +
+          draftPickDetailHtml(pick.profile) +
           draftMatesHtml(pick) +
         "</span>" +
       "</div>"
