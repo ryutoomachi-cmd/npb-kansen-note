@@ -2411,13 +2411,24 @@
     if (isAllTeamsMode()) return computeAllTeamsTrivia();
     var list = PLAYERS.filter(function (p) { return p.currentTeamName === state.homeTeam && p.episodes && p.episodes.length; });
     list.sort(function (a, b) { return relationsFor(b.id).length - relationsFor(a.id).length || a.number - b.number; });
-    return list.slice(0, 4);
+    // 毎日（日本時間の0時）ちがう4人に入れ替わるようにする。同じ日なら何度開いても同じ顔ぶれ
+    var n = list.length;
+    if (n <= 4) return list;
+    var start = (jstDayIndex() * 4) % n;
+    var picks = [];
+    for (var i = 0; i < 4; i++) picks.push(list[(start + i) % n]);
+    return picks;
+  }
+
+  // 日本時間での「今日が何日目か」を表す数字（日付が変わると1増える）
+  function jstDayIndex() {
+    return Math.floor((Date.now() + 9 * 3600000) / 86400000);
   }
 
   // まんべんなくモード用：日付をもとに毎日違う4球団を選び、各球団から小話のある選手を1人ずつ出す
   // （同じ日なら何度開いても同じ顔ぶれ。12球団が3日で一巡する）
   function computeAllTeamsTrivia() {
-    var dayIndex = Math.floor(Date.now() / 86400000);
+    var dayIndex = jstDayIndex();
     var picks = [];
     for (var i = 0; i < 4; i++) {
       var team = TEAM_NAMES[(dayIndex * 4 + i) % TEAM_NAMES.length];
