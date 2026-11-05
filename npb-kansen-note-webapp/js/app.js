@@ -4124,7 +4124,80 @@
     return formatBirthDateDisplay(leg.birthDate) + (age != null ? "（満" + age + "歳）" : "");
   }
 
+  /* ===================== 画面（シート）の「戻る」 =====================
+     ドラフト特集やつながり一覧などから選手ページを開いたとき、閉じたら元の画面
+     （同じスクロール位置）に戻れるよう、開いてきた順番を覚えておく。
+     スマホの「戻る」操作（iPhoneの左端スワイプ・Androidの戻るボタン）でも同じように戻れるよう、
+     ブラウザの履歴とも連動させる。 */
+  var OVERLAY_HISTORY = [];
+  function overlaySnapshot() {
+    var sh = els.overlayRoot.querySelector(".sheet");
+    return { overlay: state.overlay, detailTab: state.detailTab, draftTeam: state.draftTeam, scrollTop: sh ? sh.scrollTop : 0 };
+  }
+  function openOverlayFrom(newOverlay) {
+    if (!state.overlay) OVERLAY_HISTORY = [];
+    else if (JSON.stringify(state.overlay) !== JSON.stringify(newOverlay)) OVERLAY_HISTORY.push(overlaySnapshot());
+    state.overlay = newOverlay;
+  }
+  function closeOverlay() {
+    state.lineupPicker = null;
+    state.legendComparePickerOpen = false;
+    var prev = OVERLAY_HISTORY.pop();
+    if (prev) {
+      state.overlay = prev.overlay;
+      state.detailTab = prev.detailTab;
+      state.draftTeam = prev.draftTeam;
+      state.statsHistoryOpen = false;
+      render();
+      var sh = els.overlayRoot.querySelector(".sheet");
+      if (sh) sh.scrollTop = prev.scrollTop;
+    } else {
+      state.overlay = null;
+      render();
+    }
+  }
+  var NAV_DEPTH = 0, NAV_IGNORE_POP = 0, NAV_SUPPRESS = false;
+  function overlayDepth() { return state.overlay ? OVERLAY_HISTORY.length + 1 : 0; }
+  function syncBrowserHistory() {
+    if (NAV_SUPPRESS) return;
+    var want = overlayDepth();
+    try {
+      while (NAV_DEPTH < want) { NAV_DEPTH++; history.pushState({ nsnDepth: NAV_DEPTH }, ""); }
+      if (NAV_DEPTH > want) { NAV_IGNORE_POP++; history.go(want - NAV_DEPTH); NAV_DEPTH = want; }
+    } catch (e) { /* 履歴が使えない環境では、画面内の「戻る」だけで動く */ }
+  }
+  try { if ("scrollRestoration" in history) history.scrollRestoration = "manual"; } catch (e) {}
+  window.addEventListener("popstate", function (e) {
+    if (NAV_IGNORE_POP > 0) { NAV_IGNORE_POP--; return; }
+    var depth = (e.state && e.state.nsnDepth) || 0;
+    if (depth > overlayDepth()) {
+      // 「進む」操作などで、今ない画面の履歴に来てしまった場合は元に戻す
+      NAV_IGNORE_POP++;
+      try { history.go(overlayDepth() - depth); } catch (err) {}
+      NAV_DEPTH = overlayDepth();
+      return;
+    }
+    NAV_DEPTH = depth;
+    NAV_SUPPRESS = true;
+    while (overlayDepth() > depth) closeOverlay();
+    NAV_SUPPRESS = false;
+  });
+
   function renderOverlay() {
+    renderOverlayInner();
+    if (!state.overlay) OVERLAY_HISTORY = [];
+    if (OVERLAY_HISTORY.length) {
+      // 前の画面がある時は、右上の「×」を「戻る」にする
+      var btns = els.overlayRoot.querySelectorAll('.sheet-close[data-action="close-overlay"]');
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].innerHTML = icon("chevronLeft", 20);
+        btns[i].setAttribute("aria-label", "前の画面に戻る");
+      }
+    }
+    syncBrowserHistory();
+  }
+
+  function renderOverlayInner() {
     if (!state.overlay) { els.overlayRoot.innerHTML = ""; return; }
     if (state.overlay.type === "detail") {
       var p = byId(state.overlay.playerId);
@@ -4133,7 +4206,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + detailHtml(p) + "</div></div>";
       var scrimEl = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl.addEventListener("click", function (e) {
-        if (e.target === scrimEl) { state.overlay = null; render(); }
+        if (e.target === scrimEl) { closeOverlay(); }
       });
       var sheetEl = els.overlayRoot.querySelector(".sheet");
       if (sheetEl) sheetEl.scrollTop = 0;
@@ -4142,7 +4215,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + connectionsOverlayHtml() + "</div></div>";
       var scrimEl2 = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl2.addEventListener("click", function (e) {
-        if (e.target === scrimEl2) { state.overlay = null; render(); }
+        if (e.target === scrimEl2) { closeOverlay(); }
       });
       var sheetEl2 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl2) sheetEl2.scrollTop = 0;
@@ -4151,14 +4224,14 @@
         '<div class="overlay-scrim"><div class="sheet">' + draftOverlayHtml() + "</div></div>";
       var scrimElD = els.overlayRoot.querySelector(".overlay-scrim");
       scrimElD.addEventListener("click", function (e) {
-        if (e.target === scrimElD) { state.overlay = null; render(); }
+        if (e.target === scrimElD) { closeOverlay(); }
       });
     } else if (state.overlay.type === "watch-mode") {
       els.overlayRoot.innerHTML =
         '<div class="overlay-scrim"><div class="sheet">' + watchModeOverlayHtml() + "</div></div>";
       var scrimElW = els.overlayRoot.querySelector(".overlay-scrim");
       scrimElW.addEventListener("click", function (e) {
-        if (e.target === scrimElW) { state.overlay = null; render(); }
+        if (e.target === scrimElW) { closeOverlay(); }
       });
       var sheetElW = els.overlayRoot.querySelector(".sheet");
       if (sheetElW) sheetElW.scrollTop = 0;
@@ -4167,7 +4240,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + lineupOverlayHtml() + "</div></div>";
       var scrimEl3 = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl3.addEventListener("click", function (e) {
-        if (e.target === scrimEl3) { state.overlay = null; state.lineupPicker = null; render(); }
+        if (e.target === scrimEl3) { closeOverlay(); }
       });
       var sheetEl3 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl3) sheetEl3.scrollTop = 0;
@@ -4183,7 +4256,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + filterSheetHtml() + "</div></div>";
       var scrimEl4 = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl4.addEventListener("click", function (e) {
-        if (e.target === scrimEl4) { state.overlay = null; render(); }
+        if (e.target === scrimEl4) { closeOverlay(); }
       });
       var sheetEl4 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl4) sheetEl4.scrollTop = 0;
@@ -4192,7 +4265,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + settingsHtml() + "</div></div>";
       var scrimEl5 = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl5.addEventListener("click", function (e) {
-        if (e.target === scrimEl5) { state.overlay = null; render(); }
+        if (e.target === scrimEl5) { closeOverlay(); }
       });
       var sheetEl5 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl5) sheetEl5.scrollTop = 0;
@@ -4203,7 +4276,7 @@
         '<div class="overlay-scrim"><div class="sheet">' + legendDetailHtml(leg) + "</div></div>";
       var scrimEl6 = els.overlayRoot.querySelector(".overlay-scrim");
       scrimEl6.addEventListener("click", function (e) {
-        if (e.target === scrimEl6) { state.overlay = null; state.legendComparePickerOpen = false; render(); }
+        if (e.target === scrimEl6) { closeOverlay(); }
       });
       var sheetEl6 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl6) sheetEl6.scrollTop = 0;
@@ -4419,7 +4492,7 @@
       renderSortRow();
       renderRoster();
     } else if (action === "open-detail") {
-      state.overlay = { type: "detail", playerId: id };
+      openOverlayFrom({ type: "detail", playerId: id });
       state.detailTab = "basic";
       state.statsHistoryOpen = false;
       renderOverlay();
@@ -4427,7 +4500,7 @@
       state.statsHistoryOpen = !state.statsHistoryOpen;
       renderOverlay();
     } else if (action === "open-detail-tab") {
-      state.overlay = { type: "detail", playerId: id };
+      openOverlayFrom({ type: "detail", playerId: id });
       state.detailTab = key === "other" ? "other" : "basic";
       state.statsHistoryOpen = false;
       renderOverlay();
@@ -4515,10 +4588,7 @@
       state.lineupPicker = null;
       renderOverlay();
     } else if (action === "close-overlay") {
-      state.overlay = null;
-      state.lineupPicker = null;
-      state.legendComparePickerOpen = false;
-      render();
+      closeOverlay();
     } else if (action === "goto-roster") {
       state.tab = "roster";
       state.rosterView = "players";
@@ -4532,7 +4602,7 @@
       render();
       window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
     } else if (action === "open-legend-detail") {
-      state.overlay = { type: "legend-detail", legendId: id };
+      openOverlayFrom({ type: "legend-detail", legendId: id });
       state.legendComparePlayerId = null;
       state.legendComparePickerOpen = false;
       state.legendComparePickerQuery = "";
