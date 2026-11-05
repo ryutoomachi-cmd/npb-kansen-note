@@ -1069,3 +1069,5 @@
   .tr-row:last-child { border-bottom: none; }
   .tr-date { font-size: 11px; color: var(--ink-faint); width: 36px; flex-shrink: 0; }
   .tr-pos { font-size: 11px; color: var(--ink-dim); }
+  .tr-badge.move { background: color-mix(in srgb, var(--team-color) 14%, transparent); color: var(--crimson-text); }
+  .draft-card-head svg { color: var(--ink-faint); }

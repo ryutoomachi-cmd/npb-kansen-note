@@ -3513,7 +3513,12 @@
   function ensureTransferData() {
     if (TRANSFER_DATA || TRANSFER_LOADING) return;
     TRANSFER_LOADING = true;
-    fetchWithCache("transfers2026", "data/transfers2026.json").then(function (d) {
+    // 新しい動きがすぐ見られるよう、開くたびに最新版を取りに行く（電波がない時だけ前回の内容を使う）
+    forceFetchJson("data/transfers2026.json").then(function (d) {
+      cacheWrite("transfers2026", d); return d;
+    }).catch(function (err) {
+      var c = cacheRead("transfers2026"); if (c) return c.d; throw err;
+    }).then(function (d) {
       TRANSFER_DATA = d; TRANSFER_LOADING = false;
       if (state.overlay && state.overlay.type === "transfers") renderOverlay();
     }).catch(function () {
@@ -3523,6 +3528,8 @@
   }
   var TRANSFER_TYPES = {
     mlb: { label: "メジャー挑戦", cls: "mlb" },
+    move: { label: "移籍決定", cls: "move" },
+    stay: { label: "残留", cls: "retire" },
     fa: { label: "FA宣言", cls: "fa" },
     release: { label: "戦力外", cls: "out" },
     free: { label: "自由契約", cls: "out" },
@@ -3570,7 +3577,7 @@
     }).join("・") + "</p>";
   }
   function transferNameHtml(it, big) {
-    var p = findPlayerByName(it.name, it.team);
+    var p = findPlayerByName(it.name, it.team) || (it.from ? findPlayerByName(it.name, it.from) : null);
     var label = esc(it.name) + (it.ikusei ? '<span class="tr-ikusei">育成</span>' : "");
     return p ? '<button class="tr-name' + (big ? " big" : "") + '" data-action="open-detail" data-id="' + p.id + '">' + label + icon("arrowRight", big ? 14 : 11) + "</button>"
              : '<span class="tr-name' + (big ? " big" : "") + ' plain">' + label + "</span>";
@@ -3580,14 +3587,15 @@
     return (
       '<div class="draft-card">' +
         '<div class="draft-card-head">' +
+          (it.from ? '<span class="draft-round" style="background:' + teamColor(it.from).bg + ";color:" + teamColor(it.from).fg + ';">' + esc(it.from) + "</span>" + icon("arrowRight", 12) : "") +
           '<span class="draft-round" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(it.team) + "</span>" +
-          '<span class="tr-badge ' + ty.cls + '">' + ty.label + "</span>" +
+          '<span class="tr-badge ' + ty.cls + '">' + esc(it.kind || ty.label) + "</span>" +
           '<span class="draft-lottery">' + transferDateLabel(it.date) + "</span>" +
         "</div>" +
         '<p class="draft-name">' + transferNameHtml(it, true) + ' <span class="draft-pos">' + esc(it.position || "") + "</span></p>" +
         (it.title ? '<p class="tr-title">' + esc(it.title) + "</p>" : "") +
         (it.detail ? '<p class="tr-detail">' + esc(it.detail) + "</p>" : "") +
-        playerSchoolMatesHtml(findPlayerByName(it.name, it.team)) +
+        playerSchoolMatesHtml(findPlayerByName(it.name, it.team) || (it.from ? findPlayerByName(it.name, it.from) : null)) +
         sourcesHtml(it.sources) +
       "</div>"
     );
@@ -3612,7 +3620,7 @@
         '<button class="watch-mode-cta" data-action="open-transfers">' +
           '<span class="watch-mode-cta-icon">' + icon("refresh", 20) + "</span>" +
           '<span class="watch-mode-cta-text"><span class="watch-mode-cta-title">2026 オフの移籍・去就</span>' +
-          '<span class="watch-mode-cta-sub">メジャー挑戦・FA宣言・戦力外・引退を球団ごとに</span></span>' +
+          '<span class="watch-mode-cta-sub">移籍・メジャー挑戦・FA宣言・戦力外・引退を球団ごとに</span></span>' +
           icon("arrowRight", 18, "watch-mode-cta-arrow") +
         "</button>" +
       "</section>"
@@ -3637,21 +3645,25 @@
       if (on && t !== "all") { var c = teamColor(t); st = ' style="background:' + c.bg + ";color:" + c.fg + ";border-color:" + c.bg + ';"'; }
       return '<button class="draft-chip' + (on ? " active" : "") + '" data-action="set-transfer-team" data-key="' + esc(t) + '"' + st + ">" + (t === "all" ? "12球団" : esc(t)) + "</button>";
     }).join("") + "</div>";
-    var items = TRANSFER_DATA.items.filter(function (it) { return sel === "all" || it.team === sel; });
+    var items = TRANSFER_DATA.items.filter(function (it) { return sel === "all" || it.team === sel || it.from === sel; });
     var big = items.filter(function (it) { return it.type === "mlb" || it.type === "fa"; });
+    var moves = items.filter(function (it) { return it.type === "move"; });
+    var stays = items.filter(function (it) { return it.type === "stay"; });
     var outs = items.filter(function (it) { return it.type === "release" || it.type === "free" || it.type === "leave"; });
     var rets = items.filter(function (it) { return it.type === "retire"; });
     var body = "";
     var mlb = big.filter(function (it) { return it.type === "mlb"; }), fa = big.filter(function (it) { return it.type === "fa"; });
+    if (moves.length) body += '<section><p class="section-label">' + icon("refresh", 13) + "移籍決定（" + moves.length + "人）</p>" + moves.map(transferCardHtml).join("") + "</section>";
     if (mlb.length) body += '<section><p class="section-label">' + icon("sparkles", 13) + "メジャー挑戦（" + mlb.length + "人）</p>" + mlb.map(transferCardHtml).join("") + "</section>";
     if (fa.length) body += '<section><p class="section-label">' + icon("users", 13) + "FA宣言（" + fa.length + "人）</p>" + fa.map(transferCardHtml).join("") + "</section>";
+    if (stays.length) body += '<section><p class="section-label">' + icon("mapPin", 13) + "残留（" + stays.length + "人）</p>" + stays.map(transferCardHtml).join("") + "</section>";
     if (outs.length) body += '<section><p class="section-label">' + icon("grid", 13) + "戦力外・自由契約・退団（" + outs.length + "人）</p>" +
       '<p class="tr-note">戦力外・自由契約には、育成選手として結び直す予定の選手もふくまれます。「育成」は育成選手です。</p>' +
       transferRowsHtml(outs, sel === "all") + sourcesHtml([["ベースボールチャンネル（12球団一覧）", "https://www.baseballchannel.jp/npb/291604/"]]) + "</section>";
     if (rets.length) body += '<section><p class="section-label">' + icon("trophy", 13) + "現役引退（" + rets.length + "人）</p>" +
       transferRowsHtml(rets, sel === "all") + sourcesHtml([["ベースボールチャンネル（12球団一覧）", "https://www.baseballchannel.jp/npb/291604/"]]) + "</section>";
     if (!body) body = '<p class="empty-state" style="padding:24px 0;">' + esc(sel) + "の移籍・去就の発表は、まだありません。</p>";
-    var intro = '<p class="network-intro">' + transferDateLabel(TRANSFER_DATA.updatedAt) + "時点で発表・報道されている動きです。FA宣言の期限は11月9日、11月11日から他球団と交渉できます。名鑑に載っている選手は、名前をタップすると詳しく見られます。</p>";
+    var intro = '<p class="network-intro">' + transferDateLabel(TRANSFER_DATA.updatedAt) + "時点で発表・報道されている動きです。" + (daysUntil("2026-11-11") >= 0 ? "FA宣言の期限は11月9日、11月11日から他球団と交渉できます。" : "") + "名鑑に載っている選手は、名前をタップすると詳しく見られます。</p>";
     return header + '<div class="sheet-body">' + chips + intro + body + "</div>";
   }
 
@@ -4669,6 +4681,7 @@
       state.overlay = { type: "connections" };
       renderOverlay();
     } else if (action === "open-transfers") {
+      if (TRANSFER_DATA) { TRANSFER_DATA = null; }
       state.overlay = { type: "transfers" };
       renderOverlay();
       var sheetT = els.overlayRoot.querySelector(".sheet");
