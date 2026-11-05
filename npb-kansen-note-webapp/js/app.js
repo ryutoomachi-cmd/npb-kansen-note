@@ -2764,9 +2764,11 @@
         "</div>";
       heroLead = "実際の試合日程です。選手同士のつながりや小話は下のボタンからチェックできます。";
     } else {
-      heroTop = '<p class="hero-eyebrow">FEATURED MATCHUP</p><p class="hero-matchup">' + esc(state.homeTeam) + ' <span class="vs">vs</span> ' + esc(state.opponentTeam) + "</p>";
-      heroMeta = '<div class="hero-meta"><button class="hero-date" data-action="open-settings" style="cursor:pointer;border:none;">' + icon("network", 11) + " 対戦相手を変更</button></div>";
-      heroLead = "応援球団を選ぶと、その球団の選手と対戦相手選手のつながりや小話をチェックできます。";
+      // 試合の予定がないとき（シーズンオフなど）は、対戦カードや「対戦相手を変更」は出さず、
+      // 応援球団の名前だけを大きく表示する
+      heroTop = '<p class="hero-eyebrow">MY TEAM</p><p class="hero-matchup">' + esc(state.homeTeam) + "</p>";
+      heroMeta = "";
+      heroLead = "次の試合の予定はまだありません。選手名鑑や、他球団とのつながり・小話をチェックできます。";
     }
 
     // 「見どころ」はホーム球団の公式サイトからの自動取得のため、今のホーム球団向けに取得できた
