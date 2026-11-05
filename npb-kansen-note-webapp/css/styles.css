@@ -1001,3 +1001,49 @@
   .home-footnote[open] summary::after { content: "－"; }
   .home-footnote p { padding: 0 13px; }
   .home-footnote p:last-child { padding-bottom: 12px; }
+
+  /* ===================== ドラフト特集（期間限定） ===================== */
+  .draft-chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin: 0 -16px; padding-left: 16px; padding-right: 16px; scrollbar-width: none; }
+  .draft-chips::-webkit-scrollbar { display: none; }
+  .draft-chip {
+    flex-shrink: 0; border: 1px solid var(--line-strong); background: var(--bg-elevated); color: var(--ink);
+    border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 700; cursor: pointer; font-family: inherit;
+  }
+  .draft-chip.active { background: var(--black); color: var(--black-ink); border-color: var(--black); }
+  .draft-card {
+    background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 16px; padding: 14px 15px;
+    box-shadow: var(--shadow); margin-bottom: 12px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .draft-card-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .draft-round { font-size: 11px; font-weight: 800; border-radius: 6px; padding: 3px 8px; }
+  .draft-lottery { font-size: 11px; color: var(--ink-faint); }
+  .draft-name { font-size: 20px; font-weight: 900; color: var(--ink); line-height: 1.2; }
+  .draft-pos { font-size: 11px; font-weight: 700; color: var(--ink-dim); background: var(--bg-sunken); border-radius: 5px; padding: 2px 6px; vertical-align: middle; }
+  .draft-path { font-size: 12px; color: var(--ink-dim); display: flex; align-items: center; gap: 4px; }
+  .draft-row { display: flex; flex-direction: column; gap: 3px; }
+  .draft-row-label { font-size: 10.5px; font-weight: 800; color: var(--gold); letter-spacing: 0.04em; }
+  .draft-row p, .draft-row li { font-size: 13px; line-height: 1.6; color: var(--ink); }
+  .draft-row ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 2px; }
+  .draft-mates { display: flex; flex-direction: column; gap: 4px; background: var(--bg-sunken); border-radius: 10px; padding: 7px 9px; }
+  .draft-mates-label { font-size: 10.5px; font-weight: 800; color: var(--ink-dim); display: flex; align-items: center; gap: 4px; }
+  .draft-mates-list { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+  .draft-mate {
+    border: 1px solid var(--line-strong); background: var(--bg-elevated); color: var(--ink); border-radius: 999px;
+    padding: 3px 8px 3px 9px; font-size: 12px; font-weight: 700; cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: 4px;
+  }
+  .draft-mate-team { font-size: 9.5px; border-radius: 4px; padding: 1px 4px; font-weight: 800; }
+  .draft-mate-more { font-size: 11px; color: var(--ink-faint); }
+  .draft-sources { font-size: 10.5px; color: var(--ink-faint); line-height: 1.6; }
+  .draft-sources a { color: var(--sky); }
+  .draft-pick { display: flex; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+  .draft-pick:last-child { border-bottom: none; }
+  .draft-pick-round { flex-shrink: 0; width: 34px; font-family: var(--font-display); font-size: 20px; line-height: 1.1; color: var(--crimson-text); font-weight: 600; }
+  .draft-pick-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+  .draft-pick-name { font-size: 15px; font-weight: 800; color: var(--ink); }
+  .draft-pick-org { font-size: 12px; color: var(--ink-dim); }
+  .draft-org-group { padding: 9px 0; border-bottom: 1px solid var(--line); }
+  .draft-org-group:last-child { border-bottom: none; }
+  .draft-org-name { font-size: 13.5px; font-weight: 800; color: var(--ink); }
+  .draft-org-count { font-size: 11px; color: var(--gold); margin-left: 4px; }
+  .draft-org-members { font-size: 12px; color: var(--ink-dim); line-height: 1.6; margin-top: 2px; }
+  .draft-card p, .draft-pick p, .draft-org-group p { margin: 0; }

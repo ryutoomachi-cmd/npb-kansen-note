@@ -1,0 +1,1401 @@
+{
+ "year": 2026,
+ "date": "2026-10-22",
+ "dateDisplay": "2026年10月22日",
+ "showUntil": "2027-03-31",
+ "summary": "支配下76人・育成51人の計127人が指名",
+ "source": "https://npb.jp/draft/2026/",
+ "picks": [
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 1,
+   "name": "角田 楓斗",
+   "position": "投手",
+   "org": "富士大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html",
+   "profile": {
+    "highSchool": "東奥義塾高（青森）",
+    "path": "東奥義塾高 → 富士大",
+    "koshien": "甲子園出場なし。2年秋にエースとして東北大会に出場。",
+    "points": [
+     "入学時143キロだった直球を、富士大で約10キロ伸ばして最速153キロに",
+     "本人いわく強みは「三振を多く取れるところ」",
+     "オリックス福良GM「今年の投手で一番評価している」と即戦力の先発候補に"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "熊本日日新聞",
+      "https://kumanichi.com/articles/2051057"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/17257"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 2,
+   "name": "仲井 慎",
+   "position": "投手",
+   "org": "駒澤大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 3,
+   "name": "春山 陽登",
+   "position": "外野手",
+   "org": "大阪商業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 4,
+   "name": "近藤 琉唯斗",
+   "position": "投手",
+   "org": "小樽双葉高",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 5,
+   "name": "野村 亮輔",
+   "position": "投手",
+   "org": "佛教大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "支配下",
+   "round": 6,
+   "name": "千葉 汐凱",
+   "position": "投手",
+   "org": "Honda",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 1,
+   "name": "黒川 凌大",
+   "position": "投手",
+   "org": "花咲徳栄高",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 2,
+   "name": "井尻 琉斗",
+   "position": "捕手",
+   "org": "仙台大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 3,
+   "name": "吉田 健吾",
+   "position": "捕手",
+   "org": "栃木ゴールデンブレーブス",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 4,
+   "name": "河田 ハウエルエバン盛児",
+   "position": "内野手",
+   "org": "上武大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 5,
+   "name": "若藤 季柊",
+   "position": "内野手",
+   "org": "同朋大学",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "オリックス",
+   "kind": "育成",
+   "round": 6,
+   "name": "菅原 大奨",
+   "position": "外野手",
+   "org": "鮮ど市場",
+   "src": "https://npb.jp/draft/2026/draftlist_b.html"
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 1,
+   "name": "山里 宝",
+   "position": "内野手",
+   "org": "亜細亜大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html",
+   "profile": {
+    "highSchool": "神戸国際大学附属高（兵庫）",
+    "path": "神戸国際大付高 → 亜細亜大",
+    "koshien": "2年時（2021年）に春夏連続で甲子園出場。夏はベスト8。",
+    "points": [
+     "堅実な二遊間（二塁・遊撃）の守備",
+     "主将として今秋の東都大学リーグで亜細亜大を9季ぶりの優勝に導く",
+     "174センチと小柄ながらリーグ通算10本塁打のパンチ力"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/710424/"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/297671/"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 2,
+   "name": "西野 啓也",
+   "position": "捕手",
+   "org": "立命館大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 3,
+   "name": "野原 元気",
+   "position": "投手",
+   "org": "京都産業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 4,
+   "name": "𠮷川 凌平",
+   "position": "投手",
+   "org": "千葉商科大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 5,
+   "name": "光弘 帆高",
+   "position": "内野手",
+   "org": "明治大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "支配下",
+   "round": 6,
+   "name": "森 煌誠",
+   "position": "投手",
+   "org": "NTT東日本",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "育成",
+   "round": 1,
+   "name": "車谷 仁",
+   "position": "内野手",
+   "org": "茨城アストロプラネッツ",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "育成",
+   "round": 2,
+   "name": "田代 旭",
+   "position": "捕手",
+   "org": "筑波大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "広島",
+   "kind": "育成",
+   "round": 3,
+   "name": "皆吉 海翔",
+   "position": "内野手",
+   "org": "長崎国際大学",
+   "src": "https://npb.jp/draft/2026/draftlist_c.html"
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 1,
+   "name": "宮原 廉",
+   "position": "投手",
+   "org": "近畿大学",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html",
+   "profile": {
+    "highSchool": "崇徳高（広島）",
+    "path": "崇徳高 → 近畿大",
+    "koshien": "甲子園出場なし。エースとして3年春の広島大会で準優勝。",
+    "points": [
+     "最速156キロの本格派右腕",
+     "150キロ台の力強い直球と鋭いフォークが武器",
+     "先発・中継ぎどちらでも即戦力との見方"
+    ],
+    "lottery": "ロッテと競合し、抽選で中日が交渉権",
+    "sources": [
+     [
+      "北海道新聞（近畿大発表）",
+      "https://www.hokkaido-np.co.jp/article/1396829/"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/17059"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 2,
+   "name": "柴﨑 聖人",
+   "position": "外野手",
+   "org": "王子",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 3,
+   "name": "前嶋 藍",
+   "position": "捕手",
+   "org": "亜細亜大学",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 4,
+   "name": "鈴木 悠悟",
+   "position": "投手",
+   "org": "中京高",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 5,
+   "name": "西田 櫂吏",
+   "position": "投手",
+   "org": "京都国際高",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "支配下",
+   "round": 6,
+   "name": "清水 智裕",
+   "position": "捕手",
+   "org": "ヤマハ",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "育成",
+   "round": 1,
+   "name": "内藤 崚",
+   "position": "投手",
+   "org": "上田西高",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "中日",
+   "kind": "育成",
+   "round": 2,
+   "name": "中西 佳虎",
+   "position": "外野手",
+   "org": "大阪桐蔭高",
+   "src": "https://npb.jp/draft/2026/draftlist_d.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 1,
+   "name": "星野 世那",
+   "position": "投手",
+   "org": "大阪商業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html",
+   "profile": {
+    "highSchool": "近江高（滋賀）",
+    "path": "近江高 → 大阪商業大",
+    "koshien": "近江高では山田陽翔（現・西武）の控え投手。",
+    "points": [
+     "大商大で球速を伸ばし最速151キロの左腕に",
+     "4年春に4勝を挙げてリーグ優勝、リーグMVP",
+     "元プロの高木豊さん「即戦力で使える。チェンジアップがすごく良い」"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/872425"
+     ],
+     [
+      "BASEBALL KING",
+      "https://baseballking.jp/ns/710422/"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 2,
+   "name": "保西 雅則",
+   "position": "内野手",
+   "org": "日本航空石川高",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 3,
+   "name": "杉本 寛斎",
+   "position": "外野手",
+   "org": "ブリティッシュ コロンビア大学",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 4,
+   "name": "小金井 凌生",
+   "position": "投手",
+   "org": "青森大学",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 5,
+   "name": "木口 永翔",
+   "position": "投手",
+   "org": "上武大学",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 6,
+   "name": "神里 陸",
+   "position": "捕手",
+   "org": "ENEOS",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "DeNA",
+   "kind": "支配下",
+   "round": 7,
+   "name": "坂口 渉",
+   "position": "外野手",
+   "org": "Honda",
+   "src": "https://npb.jp/draft/2026/draftlist_db.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 1,
+   "name": "渡部 海",
+   "position": "捕手",
+   "org": "青山学院大学",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html",
+   "profile": {
+    "highSchool": "智辯学園和歌山高（和歌山）",
+    "path": "智弁和歌山高 → 青山学院大",
+    "koshien": "2年夏（2021年）にレギュラー捕手として甲子園優勝。中西聖輝（現・中日）ら5人の投手をリードした。",
+    "points": [
+     "「学生屈指」と言われる捕手。1年春から正捕手",
+     "青山学院大の東都リーグ6連覇を支える",
+     "強肩と打撃も武器（大学リーグ通算11本塁打）"
+    ],
+    "lottery": "中日と競合し、抽選で楽天が交渉権",
+    "sources": [
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/872418"
+     ],
+     [
+      "SPREAD",
+      "https://spread-sports.jp/archives/401031"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 2,
+   "name": "岡田 啓吾",
+   "position": "内野手",
+   "org": "明治大学",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 3,
+   "name": "樋口 新",
+   "position": "投手",
+   "org": "王子",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 4,
+   "name": "萩原 義輝",
+   "position": "捕手",
+   "org": "東芝",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 5,
+   "name": "高 義博",
+   "position": "内野手",
+   "org": "オイシックス新潟アルビレックス・ベースボール・クラブ",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "支配下",
+   "round": 6,
+   "name": "渡邉 都斗",
+   "position": "投手",
+   "org": "高知ファイティングドッグス",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "育成",
+   "round": 1,
+   "name": "根本 剛希",
+   "position": "外野手",
+   "org": "富山GRNサンダーバーズ",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "育成",
+   "round": 2,
+   "name": "藤原 佑",
+   "position": "外野手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "育成",
+   "round": 3,
+   "name": "金 韓根",
+   "position": "投手",
+   "org": "茨城アストロプラネッツ",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "楽天",
+   "kind": "育成",
+   "round": 4,
+   "name": "寺井 広大",
+   "position": "内野手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_e.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "支配下",
+   "round": 1,
+   "name": "菰田 陽生",
+   "position": "投手",
+   "org": "山梨学院高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html",
+   "profile": {
+    "highSchool": "山梨学院高（山梨）",
+    "path": "山梨学院高",
+    "koshien": "2025年夏の甲子園でベスト4。2026年春のセンバツでは初戦の長崎日大戦で本塁打（その後、左手首のけがで離脱）。",
+    "points": [
+     "195センチの大型二刀流",
+     "投手として最速152キロ、打者として高校通算39本塁打",
+     "プロでも二刀流を続けたい意向"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18557"
+     ],
+     [
+      "SPREAD",
+      "https://spread-sports.jp/archives/401012"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "日本ハム",
+   "kind": "支配下",
+   "round": 2,
+   "name": "牟禮 翔",
+   "position": "外野手",
+   "org": "九州国際大学付属高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "支配下",
+   "round": 3,
+   "name": "末吉 良丞",
+   "position": "投手",
+   "org": "沖縄尚学高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "支配下",
+   "round": 4,
+   "name": "加藤 宇",
+   "position": "投手",
+   "org": "明星大学",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "支配下",
+   "round": 5,
+   "name": "岡本 翔斗",
+   "position": "投手",
+   "org": "香里丘高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "育成",
+   "round": 1,
+   "name": "岡田 光平",
+   "position": "外野手",
+   "org": "大阪工業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "育成",
+   "round": 2,
+   "name": "藤井 悠貴",
+   "position": "投手",
+   "org": "新宮高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "育成",
+   "round": 3,
+   "name": "半杭 奏太",
+   "position": "内野手",
+   "org": "東京農業大學第二高",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "育成",
+   "round": 4,
+   "name": "小島 慎也",
+   "position": "内野手",
+   "org": "東北福祉大学",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "日本ハム",
+   "kind": "育成",
+   "round": 5,
+   "name": "今津 慶介",
+   "position": "内野手",
+   "org": "慶應義塾大学",
+   "src": "https://npb.jp/draft/2026/draftlist_f.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 1,
+   "name": "織田 翔希",
+   "position": "投手",
+   "org": "横浜高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html",
+   "profile": {
+    "highSchool": "横浜高（神奈川）",
+    "path": "横浜高",
+    "koshien": "2年春（2025年）のセンバツで優勝。3年夏の甲子園・日南学園戦で156キロを計測。",
+    "points": [
+     "最速157キロ。150キロ台の直球にスライダーやカーブを交える",
+     "日米の球団から注目された高校生右腕",
+     "ドラフト前に米球界への挑戦を表明。巨人が単独で1位指名し、入団するかは今後の交渉次第（10月末時点）"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18555"
+     ],
+     [
+      "カナロコ（神奈川新聞）",
+      "https://www.kanaloco.jp/sports/baseball/hsbaseball/article-1317499.html"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 2,
+   "name": "平田 玲翔",
+   "position": "投手",
+   "org": "大分商業高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 3,
+   "name": "池田 聖摩",
+   "position": "内野手",
+   "org": "横浜高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 4,
+   "name": "杉本 真滉",
+   "position": "投手",
+   "org": "智辯学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 5,
+   "name": "伊藤 櫂人",
+   "position": "内野手",
+   "org": "中央大学",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "支配下",
+   "round": 6,
+   "name": "松平 快聖",
+   "position": "投手",
+   "org": "神奈川大学",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "育成",
+   "round": 1,
+   "name": "谷渕 瑛仁",
+   "position": "捕手",
+   "org": "大阪桐蔭高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "育成",
+   "round": 2,
+   "name": "柳井 球汰",
+   "position": "内野手",
+   "org": "宇部工業高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "育成",
+   "round": 3,
+   "name": "嶋 武仁",
+   "position": "外野手",
+   "org": "北越高",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "育成",
+   "round": 4,
+   "name": "松田 陸斗",
+   "position": "内野手",
+   "org": "マツゲン箕島",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "巨人",
+   "kind": "育成",
+   "round": 5,
+   "name": "関 蓮太郎",
+   "position": "捕手",
+   "org": "川崎市立向丘中学校",
+   "src": "https://npb.jp/draft/2026/draftlist_g.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 1,
+   "name": "鈴木 泰成",
+   "position": "投手",
+   "org": "青山学院大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html",
+   "profile": {
+    "highSchool": "東海大学菅生高（東京）",
+    "path": "東海大菅生高 → 青山学院大",
+    "koshien": "2年春（2021年）のセンバツで2試合に先発し、ベスト8に貢献。その後、右ひじの手術を乗り越えた。",
+    "points": [
+     "今年の大学生投手で「ナンバーワン」と評された右腕。最速155キロ",
+     "大学通算15勝。東都リーグ6連覇・大学日本一に貢献し、4年春は最優秀投手",
+     "187センチの長身から投げる伸びのある直球に、スライダー・フォーク・カーブ"
+    ],
+    "lottery": "ロッテと競合し、抽選でソフトバンクが交渉権",
+    "sources": [
+     [
+      "Number Web",
+      "https://number.bunshun.jp/articles/-/872443"
+     ],
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/17216"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 2,
+   "name": "有馬 伽久",
+   "position": "投手",
+   "org": "立命館大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 3,
+   "name": "渡辺 和大",
+   "position": "投手",
+   "org": "慶應義塾大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 4,
+   "name": "藤森 康淳",
+   "position": "外野手",
+   "org": "法政大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 5,
+   "name": "猪俣 駿太",
+   "position": "投手",
+   "org": "東北福祉大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 6,
+   "name": "小坪 碧人",
+   "position": "投手",
+   "org": "柳川高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 7,
+   "name": "中川 大雅",
+   "position": "内野手",
+   "org": "至学館大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 8,
+   "name": "深見 一騎",
+   "position": "投手",
+   "org": "国立台湾体育運動大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "支配下",
+   "round": 9,
+   "name": "佐藤 幻瑛",
+   "position": "投手",
+   "org": "ペンシルベニア州立大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 1,
+   "name": "丹羽 涼介",
+   "position": "投手",
+   "org": "市立和歌山高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 2,
+   "name": "管田 彪翔",
+   "position": "投手",
+   "org": "敦賀気比高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 3,
+   "name": "杉本 幸基",
+   "position": "投手",
+   "org": "KTウィズ",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 4,
+   "name": "田本 聖貴",
+   "position": "投手",
+   "org": "駒澤大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 5,
+   "name": "亀田 優次郎",
+   "position": "投手",
+   "org": "山村学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 6,
+   "name": "木下 瑛二",
+   "position": "投手",
+   "org": "高川学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 7,
+   "name": "辻村 大我",
+   "position": "外野手",
+   "org": "東北福祉大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 8,
+   "name": "村山 勇太",
+   "position": "投手",
+   "org": "関西国際大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 9,
+   "name": "長山 武蔵",
+   "position": "内野手",
+   "org": "日本ウェルネス沖縄高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 10,
+   "name": "根鈴 風大",
+   "position": "内野手",
+   "org": "フレズノシティカレッジ",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 11,
+   "name": "神谷 虎之介",
+   "position": "外野手",
+   "org": "千葉スカイセイラーズ",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 12,
+   "name": "鶴川内 陽",
+   "position": "投手",
+   "org": "大阪商業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 13,
+   "name": "松林 幸紀",
+   "position": "投手",
+   "org": "大阪商業大学",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 14,
+   "name": "村雲 脩吾",
+   "position": "捕手",
+   "org": "敦賀気比高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "ソフトバンク",
+   "kind": "育成",
+   "round": 15,
+   "name": "平山 護",
+   "position": "捕手",
+   "org": "東筑高",
+   "src": "https://npb.jp/draft/2026/draftlist_h.html"
+  },
+  {
+   "team": "西武",
+   "kind": "支配下",
+   "round": 1,
+   "name": "川尻 啓人",
+   "position": "投手",
+   "org": "亜細亜大学",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html",
+   "profile": {
+    "highSchool": "高岡商業高（富山）",
+    "path": "高岡商高 → 亜細亜大",
+    "koshien": "3年夏にエースとして甲子園に出場。",
+    "points": [
+     "最速158キロの剛腕。大学3年まではリーグ戦未勝利から4年で急成長",
+     "今秋の國學院大戦でノーヒットノーランを達成",
+     "西武・西口監督「今年ナンバーワンの剛球投手」。開幕ローテーション入りに期待"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/lions/298083/"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "西武",
+   "kind": "支配下",
+   "round": 2,
+   "name": "柿本 晟弥",
+   "position": "投手",
+   "org": "パナソニック",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "支配下",
+   "round": 3,
+   "name": "沢山 優介",
+   "position": "投手",
+   "org": "ヤマハ",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "支配下",
+   "round": 4,
+   "name": "田中 諒",
+   "position": "捕手",
+   "org": "日本大学第三高",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "支配下",
+   "round": 5,
+   "name": "中津 大和",
+   "position": "外野手",
+   "org": "日本生命",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "育成",
+   "round": 1,
+   "name": "三浦 遼大",
+   "position": "投手",
+   "org": "茨城アストロプラネッツ",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "育成",
+   "round": 2,
+   "name": "川島 謙心",
+   "position": "投手",
+   "org": "龍谷大学付属平安高",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "西武",
+   "kind": "育成",
+   "round": 3,
+   "name": "後藤 幸樹",
+   "position": "捕手",
+   "org": "沼津商業高",
+   "src": "https://npb.jp/draft/2026/draftlist_l.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 1,
+   "name": "米沢 友翔",
+   "position": "投手",
+   "org": "関西大学",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html",
+   "profile": {
+    "highSchool": "金沢高（石川）",
+    "path": "金沢高 → 関西大",
+    "koshien": "甲子園出場なし。高校時代は全国的には無名だった。",
+    "points": [
+     "4年春の全日本大学選手権で関西大を54年ぶりの優勝に導きMVP（3勝・防御率0.72）",
+     "空振りを奪えるキレのある直球が最大の武器の左腕",
+     "フォームが関西大の先輩・金丸夢斗（中日）に似ていると言われる"
+    ],
+    "lottery": "鈴木泰成・宮原廉の抽選を外したあとの1位",
+    "sources": [
+     [
+      "スポーツナビ",
+      "https://sports.yahoo.co.jp/column/detail/2026050700003-spnavi"
+     ],
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/marines/297900/"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 2,
+   "name": "前田 侑大",
+   "position": "投手",
+   "org": "高岡第一高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 3,
+   "name": "長屋 竣大",
+   "position": "投手",
+   "org": "ENEOS",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 4,
+   "name": "黒田 義信",
+   "position": "外野手",
+   "org": "東日本国際大学",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 5,
+   "name": "新城 楓雅",
+   "position": "投手",
+   "org": "奈良大学附属高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "支配下",
+   "round": 6,
+   "name": "田中 皐晴",
+   "position": "外野手",
+   "org": "日南学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "育成",
+   "round": 1,
+   "name": "若藤 芽空",
+   "position": "内野手",
+   "org": "高川学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "育成",
+   "round": 2,
+   "name": "佐々木 十央真",
+   "position": "投手",
+   "org": "花巻東高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ロッテ",
+   "kind": "育成",
+   "round": 3,
+   "name": "内田 心温",
+   "position": "内野手",
+   "org": "関根学園高",
+   "src": "https://npb.jp/draft/2026/draftlist_m.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 1,
+   "name": "藤澤 涼介",
+   "position": "外野手",
+   "org": "東京ガス",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html",
+   "profile": {
+    "highSchool": "佐野日本大学高（栃木）",
+    "path": "佐野日大高 → 横浜国立大 → 東京ガス",
+    "koshien": "",
+    "points": [
+     "一般受験で横浜国立大へ進み、大学3年秋に打点王・ベストナイン",
+     "東京ガスで1年目から外野のレギュラー。都市対抗予選では4試合3本塁打",
+     "身体能力が高く、勝負強い打撃と広い守備範囲が持ち味"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "ベースボールチャンネル",
+      "https://www.baseballchannel.jp/npb/swallows/297886/"
+     ],
+     [
+      "ベースボールチャンネル（コラム）",
+      "https://www.baseballchannel.jp/npb/298646/"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 2,
+   "name": "佐藤 悠太",
+   "position": "外野手",
+   "org": "東北福祉大学",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 3,
+   "name": "福原 聖矢",
+   "position": "捕手",
+   "org": "明治大学",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 4,
+   "name": "高田 瑛大",
+   "position": "内野手",
+   "org": "都城高",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 5,
+   "name": "川平 真也",
+   "position": "投手",
+   "org": "茨城アストロプラネッツ",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 6,
+   "name": "石澤 大和",
+   "position": "投手",
+   "org": "日本製鉄室蘭シャークス",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "支配下",
+   "round": 7,
+   "name": "渡邊 隼輔",
+   "position": "内野手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "育成",
+   "round": 1,
+   "name": "西野 日向",
+   "position": "内野手",
+   "org": "愛媛マンダリンパイレーツ",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "育成",
+   "round": 2,
+   "name": "髙橋 将大",
+   "position": "投手",
+   "org": "創価高",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "ヤクルト",
+   "kind": "育成",
+   "round": 3,
+   "name": "尾﨑 完太",
+   "position": "投手",
+   "org": "セガサミー",
+   "src": "https://npb.jp/draft/2026/draftlist_s.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 1,
+   "name": "榊原 七斗",
+   "position": "外野手",
+   "org": "明治大学",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html",
+   "profile": {
+    "highSchool": "報徳学園高（兵庫）",
+    "path": "報徳学園高 → 明治大",
+    "koshien": "高校時代はエース兼外野手の二刀流（最速144キロ）。",
+    "points": [
+     "50メートル5秒9の俊足に、大学通算12本塁打のパンチ力",
+     "3年秋に打率.390でベストナイン。大学日本代表でも大会MVP",
+     "目標は同じ兵庫出身の阪神・近本光司"
+    ],
+    "lottery": "単独指名",
+    "sources": [
+     [
+      "高校野球ドットコム",
+      "https://www.hb-nippon.com/articles/18559"
+     ],
+     [
+      "デイリースポーツ",
+      "https://www.daily.co.jp/baseball/2026/02/05/0019985432.shtml"
+     ]
+    ]
+   }
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 2,
+   "name": "馬場 拓海",
+   "position": "投手",
+   "org": "日本体育大学",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 3,
+   "name": "常深 颯大",
+   "position": "投手",
+   "org": "大阪経済大学",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 4,
+   "name": "相羽 寛太",
+   "position": "内野手",
+   "org": "ヤマハ",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 5,
+   "name": "的場 吏玖",
+   "position": "投手",
+   "org": "天理大学",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 6,
+   "name": "越川 海翔",
+   "position": "捕手",
+   "org": "東京ガス",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "支配下",
+   "round": 7,
+   "name": "石井 康輝",
+   "position": "投手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "育成",
+   "round": 1,
+   "name": "山下 健信",
+   "position": "投手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  },
+  {
+   "team": "阪神",
+   "kind": "育成",
+   "round": 2,
+   "name": "荒木 誠也",
+   "position": "投手",
+   "org": "徳島インディゴソックス",
+   "src": "https://npb.jp/draft/2026/draftlist_t.html"
+  }
+ ]
+}

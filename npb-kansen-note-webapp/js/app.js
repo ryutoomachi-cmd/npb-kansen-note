@@ -2879,7 +2879,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を切り替えられます。</p>' +
       "</details>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + draftBannerHtml() + watchModeCta + starterCard + lineupSection + standingsSection + trivia + leaders + news + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -2968,7 +2968,7 @@
         '<p>右上の' + icon("settings", 11) + '設定ボタンから、いつでも応援球団を選ぶ表示に切り替えられます。</p>' +
       "</details>";
 
-    els.main.innerHTML = '<div class="home-wrap">' + hero + renderStandingsSection() + newsSectionHtml() + trivia + leaders + quickLinks + footer + "</div>";
+    els.main.innerHTML = '<div class="home-wrap">' + hero + draftBannerHtml() + renderStandingsSection() + newsSectionHtml() + trivia + leaders + quickLinks + footer + "</div>";
     els.countPill.textContent = PLAYERS.length + "名";
   }
 
@@ -3303,6 +3303,191 @@
         "</div>" +
       "</button>"
     );
+  }
+
+  /* ===================== ドラフト特集（期間限定） =====================
+     data/draft2026.json … NPB公式サイトの指名選手一覧（全127人）＋1位12人のくわしい紹介（出典つき）。
+     DRAFT_SHOW_UNTIL を過ぎたら、ホームの入口は自動的に出なくなる。 */
+  var DRAFT_SHOW_UNTIL = "2027-03-31";
+  var DRAFT_DATA = null;
+  var DRAFT_LOADING = false;
+  function isDraftSeason() { return daysUntil(DRAFT_SHOW_UNTIL) >= 0; }
+  function ensureDraftData() {
+    if (DRAFT_DATA || DRAFT_LOADING) return;
+    DRAFT_LOADING = true;
+    fetchWithCache("draft2026", "data/draft2026.json").then(function (d) {
+      DRAFT_DATA = d; DRAFT_LOADING = false;
+      if (state.overlay && state.overlay.type === "draft") renderOverlay();
+    }).catch(function () {
+      DRAFT_LOADING = false;
+      if (state.overlay && state.overlay.type === "draft") renderOverlay();
+    });
+  }
+
+  // 学校名の書き方の違い（「高等学校」と「高」、「大学付属」と「大付」、旧字体など）をそろえて比べる
+  function normSchool(s) {
+    if (!s) return "";
+    s = String(s).replace(/（[^）]*）|\([^)]*\)/g, "").replace(/[\s　]/g, "");
+    s = s.replace(/辯/g, "弁").replace(/﨑/g, "崎").replace(/髙/g, "高").replace(/𠮷/g, "吉").replace(/ヶ/g, "ケ");
+    s = s.replace(/^(?:[^\s]{1,3}[都道府県]立|[^\s]{1,4}市立|私立)/, "");
+    s = s.replace(/高等学校$/, "高").replace(/高校$/, "高");
+    if (/高$/.test(s)) s = s.replace(/大学(?:付属|附属)/, "大付").replace(/大学/, "大");
+    return s;
+  }
+  var SCHOOL_INDEX = null, SCHOOL_INDEX_SIZE = -1;
+  function schoolIndex() {
+    if (SCHOOL_INDEX && SCHOOL_INDEX_SIZE === PLAYERS.length) return SCHOOL_INDEX;
+    SCHOOL_INDEX = {}; SCHOOL_INDEX_SIZE = PLAYERS.length;
+    PLAYERS.forEach(function (p) {
+      var r = p.roots || {};
+      ["highSchool", "university", "social"].forEach(function (k) {
+        var n = normSchool(r[k]);
+        if (!n) return;
+        (SCHOOL_INDEX[n] = SCHOOL_INDEX[n] || []).push(p);
+      });
+    });
+    return SCHOOL_INDEX;
+  }
+  // 指名選手と同じ学校・チーム出身の現役選手（所属先＋1位選手は出身高校も）
+  function draftSchoolMates(pick) {
+    var idx = schoolIndex();
+    var groups = [];
+    var schools = [pick.org];
+    if (pick.profile && pick.profile.highSchool) schools.push(pick.profile.highSchool);
+    schools.forEach(function (sc) {
+      var list = idx[normSchool(sc)];
+      if (list && list.length) groups.push({ school: sc.replace(/（[^）]*）/g, ""), players: list });
+    });
+    return groups;
+  }
+
+  function draftBannerHtml() {
+    if (!isDraftSeason()) return "";
+    return (
+      '<section class="home-section">' +
+        '<button class="watch-mode-cta" data-action="open-draft">' +
+          '<span class="watch-mode-cta-icon">' + icon("users", 20) + "</span>" +
+          '<span class="watch-mode-cta-text"><span class="watch-mode-cta-title">2026 ドラフト特集</span>' +
+          '<span class="watch-mode-cta-sub">指名された127人と、出身校でつながる現役選手・甲子園での活躍・評価ポイント</span></span>' +
+          icon("arrowRight", 18, "watch-mode-cta-arrow") +
+        "</button>" +
+      "</section>"
+    );
+  }
+
+  function draftMatesHtml(pick) {
+    var groups = draftSchoolMates(pick);
+    if (!groups.length) return "";
+    return groups.map(function (g) {
+      var shown = g.players.slice(0, 6);
+      return (
+        '<div class="draft-mates">' +
+          '<span class="draft-mates-label">' + icon("users", 11) + esc(g.school) + "の先輩</span>" +
+          '<span class="draft-mates-list">' +
+            shown.map(function (m) {
+              var tc = teamColor(m.currentTeamName);
+              return '<button class="draft-mate" data-action="open-detail" data-id="' + m.id + '">' + esc(m.name) +
+                ' <span class="draft-mate-team" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(m.currentTeamName) + "</span></button>";
+            }).join("") +
+            (g.players.length > shown.length ? '<span class="draft-mate-more">ほか' + (g.players.length - shown.length) + "人</span>" : "") +
+          "</span>" +
+        "</div>"
+      );
+    }).join("");
+  }
+
+  function draftProfileCardHtml(pick) {
+    var pr = pick.profile;
+    var tc = teamColor(pick.team);
+    return (
+      '<div class="draft-card draft-card-top">' +
+        '<div class="draft-card-head">' +
+          '<span class="draft-round" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(pick.team) + " 1位</span>" +
+          '<span class="draft-lottery">' + esc(pr.lottery || "") + "</span>" +
+        "</div>" +
+        '<p class="draft-name">' + esc(pick.name) + ' <span class="draft-pos">' + esc(pick.position) + "</span></p>" +
+        '<p class="draft-path">' + icon("mapPin", 11) + esc(pr.path) + "</p>" +
+        (pr.koshien ? '<div class="draft-row"><span class="draft-row-label">甲子園・高校時代</span><p>' + esc(pr.koshien) + "</p></div>" : "") +
+        '<div class="draft-row"><span class="draft-row-label">評価されたポイント</span><ul>' +
+          pr.points.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") +
+        "</ul></div>" +
+        draftMatesHtml(pick) +
+        '<p class="draft-sources">出典：' + pr.sources.map(function (src) {
+          return '<a href="' + esc(src[1]) + '" target="_blank" rel="noopener noreferrer">' + esc(src[0]) + "</a>";
+        }).join("・") + "</p>" +
+      "</div>"
+    );
+  }
+
+  function draftPickRowHtml(pick) {
+    return (
+      '<div class="draft-pick">' +
+        '<span class="draft-pick-round">' + pick.round + "位</span>" +
+        '<span class="draft-pick-body">' +
+          '<span class="draft-pick-name">' + esc(pick.name) + ' <span class="draft-pos">' + esc(pick.position) + "</span></span>" +
+          '<span class="draft-pick-org">' + esc(pick.org) + "</span>" +
+          draftMatesHtml(pick) +
+        "</span>" +
+      "</div>"
+    );
+  }
+
+  function draftOverlayHtml() {
+    var header =
+      '<div class="sheet-header">' +
+        '<div class="who"><span class="sheet-icon-badge">' + icon("users", 20) + "</span><span>" +
+          '<p class="sub">期間限定</p><p class="nm">2026 ドラフト特集</p>' +
+        "</span></div>" +
+        '<button class="sheet-close" data-action="close-overlay" aria-label="閉じる">' + icon("x", 18) + "</button>" +
+      "</div>";
+    if (!DRAFT_DATA) {
+      ensureDraftData();
+      return header + '<div class="sheet-body"><p class="empty-state" style="padding:24px 0;">' + (DRAFT_LOADING ? "読み込み中…" : "ドラフト情報を読み込めませんでした。電波のよい所でもう一度開いてください。") + "</p></div>";
+    }
+    var picks = DRAFT_DATA.picks;
+    var sel = state.draftTeam || (isAllTeamsMode() ? "all" : state.homeTeam);
+    if (sel !== "all" && TEAM_NAMES.indexOf(sel) === -1) sel = "all";
+
+    var chips = '<div class="draft-chips">' +
+      ["all"].concat(TEAM_NAMES).map(function (t) {
+        var on = t === sel;
+        var st = "";
+        if (on && t !== "all") { var c = teamColor(t); st = ' style="background:' + c.bg + ";color:" + c.fg + ";border-color:" + c.bg + ';"'; }
+        return '<button class="draft-chip' + (on ? " active" : "") + '" data-action="set-draft-team" data-key="' + esc(t) + '"' + st + ">" + (t === "all" ? "12球団" : esc(t)) + "</button>";
+      }).join("") + "</div>";
+
+    var intro = '<p class="network-intro">' + esc(DRAFT_DATA.dateDisplay) + "のドラフト会議で、" + esc(DRAFT_DATA.summary) + "されました。出身校が同じ現役選手は、名前をタップすると詳しく見られます。</p>";
+
+    var body = "";
+    if (sel === "all") {
+      var firsts = picks.filter(function (p) { return p.kind === "支配下" && p.round === 1; });
+      body += '<section><p class="section-label">' + icon("sparkles", 13) + "1位指名の12人</p>" + firsts.map(draftProfileCardHtml).join("") + "</section>";
+      // 同じ学校・チームから複数人が指名されたところ
+      var byOrg = {};
+      picks.forEach(function (p) { var k = normSchool(p.org); (byOrg[k] = byOrg[k] || []).push(p); });
+      var multi = Object.keys(byOrg).filter(function (k) { return byOrg[k].length >= 2; })
+        .sort(function (a, b) { return byOrg[b].length - byOrg[a].length; });
+      if (multi.length) {
+        body += '<section><p class="section-label">' + icon("network", 13) + "同じ学校・チームから複数指名</p>" +
+          multi.map(function (k) {
+            var list = byOrg[k];
+            return '<div class="draft-org-group"><p class="draft-org-name">' + esc(list[0].org) + ' <span class="draft-org-count">' + list.length + "人</span></p>" +
+              '<p class="draft-org-members">' + list.map(function (p) {
+                return esc(p.name) + "（" + esc(p.team) + (p.kind === "育成" ? "育成" : "") + p.round + "位）";
+              }).join("、") + "</p></div>";
+          }).join("") + "</section>";
+      }
+    } else {
+      var mine = picks.filter(function (p) { return p.team === sel; });
+      var first = mine.filter(function (p) { return p.kind === "支配下" && p.round === 1 && p.profile; })[0];
+      if (first) body += '<section><p class="section-label">' + icon("sparkles", 13) + esc(sel) + "の1位</p>" + draftProfileCardHtml(first) + "</section>";
+      var reg = mine.filter(function (p) { return p.kind === "支配下" && p !== first; });
+      var dev = mine.filter(function (p) { return p.kind === "育成"; });
+      if (reg.length) body += '<section><p class="section-label">' + icon("grid", 13) + "支配下の指名（" + (reg.length + (first ? 1 : 0)) + "人）</p>" + reg.map(draftPickRowHtml).join("") + "</section>";
+      if (dev.length) body += '<section><p class="section-label">' + icon("grid", 13) + "育成の指名（" + dev.length + "人）</p>" + dev.map(draftPickRowHtml).join("") + "</section>";
+    }
+    var foot = '<p class="draft-sources">指名一覧の出典：<a href="' + esc(DRAFT_DATA.source) + '" target="_blank" rel="noopener noreferrer">NPB公式サイト</a>。「先輩」は、このアプリに載っている現役選手の出身校から自動で探しています。</p>';
+    return header + '<div class="sheet-body">' + chips + intro + body + foot + "</div>";
   }
 
   function connectionsOverlayHtml() {
@@ -3946,6 +4131,13 @@
       });
       var sheetEl2 = els.overlayRoot.querySelector(".sheet");
       if (sheetEl2) sheetEl2.scrollTop = 0;
+    } else if (state.overlay.type === "draft") {
+      els.overlayRoot.innerHTML =
+        '<div class="overlay-scrim"><div class="sheet">' + draftOverlayHtml() + "</div></div>";
+      var scrimElD = els.overlayRoot.querySelector(".overlay-scrim");
+      scrimElD.addEventListener("click", function (e) {
+        if (e.target === scrimElD) { state.overlay = null; render(); }
+      });
     } else if (state.overlay.type === "watch-mode") {
       els.overlayRoot.innerHTML =
         '<div class="overlay-scrim"><div class="sheet">' + watchModeOverlayHtml() + "</div></div>";
@@ -4230,6 +4422,16 @@
     } else if (action === "open-connections") {
       state.overlay = { type: "connections" };
       renderOverlay();
+    } else if (action === "open-draft") {
+      state.overlay = { type: "draft" };
+      renderOverlay();
+      var sheetD = els.overlayRoot.querySelector(".sheet");
+      if (sheetD) sheetD.scrollTop = 0;
+    } else if (action === "set-draft-team") {
+      state.draftTeam = key;
+      renderOverlay();
+      var sheetD2 = els.overlayRoot.querySelector(".sheet");
+      if (sheetD2) sheetD2.scrollTop = 0;
     } else if (action === "open-watch-mode") {
       state.overlay = { type: "watch-mode" };
       renderOverlay();
