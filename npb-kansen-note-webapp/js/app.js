@@ -199,7 +199,7 @@
     if (LEGENDS) return Promise.resolve(LEGENDS);
     if (!legendsLoadPromise) {
       legendsLoadFailed = false;
-      legendsLoadPromise = fetchWithCache("legends", "data/legends.json").then(function (list) {
+      legendsLoadPromise = fetchWithCache("legends_v2", "data/legends.json").then(function (list) {
         LEGENDS = list || [];
         return LEGENDS;
       }).catch(function (err) {
@@ -270,7 +270,7 @@
       forceFetchJson("data/relations.json").then(function (d) { cacheWrite("relations", d); return d; }),
       forceFetchJson("data/schedule.json").then(function (d) { cacheWrite("schedule", d); return d; }),
       forceFetchJson("data/news.json").then(function (d) { cacheWrite("news", d); return d; }),
-      forceFetchJson("data/legends.json").then(function (d) { cacheWrite("legends", d); return d; })
+      forceFetchJson("data/legends.json").then(function (d) { cacheWrite("legends_v2", d); return d; })
         .catch(function () { return null; }) // レジェンドが無くても致命的ではないので個別に握りつぶす
     ];
 
