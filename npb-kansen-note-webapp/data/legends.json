@@ -4829,7 +4829,8 @@
     ],
     "sourceUrls": [
       "https://npb.jp/bis/players/11513862.html",
-      "https://ja.wikipedia.org/wiki/桑田真澄"
+      "https://ja.wikipedia.org/wiki/桑田真澄",
+      "https://www.mlb.com/player/506555"
     ],
     "teamHistory": [
       {
@@ -4841,6 +4842,11 @@
         "team": "ピッツバーグ・パイレーツ",
         "years": "2007",
         "highlight": "2006年12月にマイナー契約で入団。春季キャンプで右足首靱帯を断裂する怪我を負いながらリハビリの末に復帰し、6月10日のヤンキースタジアムでメジャーデビュー(39歳70日は当時の日本人選手最年長デビュー記録)。主に敗戦処理・中継ぎで19試合に登板したが0勝1敗、防御率9.43(21回、奪三振12)に終わり、8月14日に戦力外通告を受けMLBでの挑戦を終えた。"
+      },
+      {
+        "team": "ピッツバーグ・パイレーツ（MLB）",
+        "years": "2007",
+        "highlight": "メジャーで19試合に登板し、0勝1敗・12奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1968-04-01",
@@ -5150,6 +5156,18 @@
         "strikeouts": 12,
         "inningsPitched": 21.0,
         "team": "パイレーツ"
+      },
+      {
+        "season": "2007",
+        "games": 19,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 9.43,
+        "eraDisplay": "9.43",
+        "strikeouts": 12,
+        "inningsPitched": 21.0,
+        "team": "パイレーツ(MLB)"
       }
     ]
   },
@@ -7934,7 +7952,8 @@
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/大谷翔平",
       "https://npb.jp/bis/players/01305137.html",
-      "https://baseballdata.jp/2016/playerP/1200087.html"
+      "https://baseballdata.jp/2016/playerP/1200087.html",
+      "https://www.mlb.com/player/660271"
     ],
     "teamHistory": [
       {
@@ -7951,6 +7970,16 @@
         "team": "ロサンゼルス・ドジャース",
         "years": "2024-現在",
         "highlight": "投手復帰前の2024年、打率.310・54本塁打・130打点・59盗塁でMLB史上初の「50本塁打-50盗塁」を達成し本塁打王・打点王(アジア人初)を獲得、3年連続3度目となる満票MVPを受賞してドジャースのワールドシリーズ制覇(自身初の世界一)に貢献した。2025年6月には投手として二刀流を再開し、自己最多となる55本塁打を放ちながらナ・リーグMVPを4年連続・自身通算4度目の満票で受賞、ドジャースは2年連続でワールドシリーズを制覇した。"
+      },
+      {
+        "team": "ロサンゼルス・エンゼルス（MLB）",
+        "years": "2018-2023",
+        "highlight": "メジャーで86試合に登板し、38勝19敗・608奪三振（MLB公式記録）。打者としては171本塁打・437打点（MLB公式記録）。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2024-2026",
+        "highlight": "メジャーで28試合に登板し、9勝3敗・157奪三振（MLB公式記録）。打者としては139本塁打・313打点（MLB公式記録）。"
       }
     ],
     "birthDate": "1994-07-05",
@@ -8063,6 +8092,161 @@
         "strikeouts": 29,
         "inningsPitched": 25.1,
         "team": "日本ハム"
+      },
+      {
+        "season": "2018",
+        "games": 10,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.31,
+        "eraDisplay": "3.31",
+        "strikeouts": 63,
+        "inningsPitched": 51.2,
+        "team": "エンゼルス(MLB)",
+        "batGames": 114,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 22,
+        "rbi": 61,
+        "stolenBases": 10,
+        "ops": 0.925
+      },
+      {
+        "season": "2019",
+        "team": "エンゼルス(MLB)",
+        "batGames": 106,
+        "avg": 0.286,
+        "avgDisplay": ".286",
+        "hr": 18,
+        "rbi": 62,
+        "stolenBases": 12,
+        "ops": 0.848
+      },
+      {
+        "season": "2020",
+        "games": 2,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 37.8,
+        "eraDisplay": "37.80",
+        "strikeouts": 3,
+        "inningsPitched": 1.2,
+        "team": "エンゼルス(MLB)",
+        "batGames": 46,
+        "avg": 0.19,
+        "avgDisplay": ".190",
+        "hr": 7,
+        "rbi": 24,
+        "stolenBases": 7,
+        "ops": 0.657
+      },
+      {
+        "season": "2021",
+        "games": 23,
+        "wins": 9,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.18,
+        "eraDisplay": "3.18",
+        "strikeouts": 156,
+        "inningsPitched": 130.1,
+        "team": "エンゼルス(MLB)",
+        "batGames": 158,
+        "avg": 0.257,
+        "avgDisplay": ".257",
+        "hr": 46,
+        "rbi": 100,
+        "stolenBases": 26,
+        "ops": 0.964
+      },
+      {
+        "season": "2022",
+        "games": 28,
+        "wins": 15,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.33,
+        "eraDisplay": "2.33",
+        "strikeouts": 219,
+        "inningsPitched": 166.0,
+        "team": "エンゼルス(MLB)",
+        "batGames": 157,
+        "avg": 0.273,
+        "avgDisplay": ".273",
+        "hr": 34,
+        "rbi": 95,
+        "stolenBases": 11,
+        "ops": 0.875
+      },
+      {
+        "season": "2023",
+        "games": 23,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.14,
+        "eraDisplay": "3.14",
+        "strikeouts": 167,
+        "inningsPitched": 132.0,
+        "team": "エンゼルス(MLB)",
+        "batGames": 135,
+        "avg": 0.304,
+        "avgDisplay": ".304",
+        "hr": 44,
+        "rbi": 95,
+        "stolenBases": 20,
+        "ops": 1.066
+      },
+      {
+        "season": "2024",
+        "team": "ドジャース(MLB)",
+        "batGames": 159,
+        "avg": 0.31,
+        "avgDisplay": ".310",
+        "hr": 54,
+        "rbi": 130,
+        "stolenBases": 59,
+        "ops": 1.036
+      },
+      {
+        "season": "2025",
+        "games": 14,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.87,
+        "eraDisplay": "2.87",
+        "strikeouts": 62,
+        "inningsPitched": 47.0,
+        "team": "ドジャース(MLB)",
+        "batGames": 158,
+        "avg": 0.282,
+        "avgDisplay": ".282",
+        "hr": 55,
+        "rbi": 102,
+        "stolenBases": 20,
+        "ops": 1.014
+      },
+      {
+        "season": "2026",
+        "games": 14,
+        "wins": 8,
+        "losses": 2,
+        "saves": 0,
+        "era": 1.79,
+        "eraDisplay": "1.79",
+        "strikeouts": 95,
+        "inningsPitched": 85.2,
+        "team": "ドジャース(MLB)",
+        "batGames": 139,
+        "avg": 0.275,
+        "avgDisplay": ".275",
+        "hr": 30,
+        "rbi": 81,
+        "stolenBases": 11,
+        "ops": 0.889
       }
     ]
   },
@@ -8096,7 +8280,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/ダルビッシュ有",
-      "https://npb.jp/bis/players/61965110.html"
+      "https://npb.jp/bis/players/61965110.html",
+      "https://www.mlb.com/player/506433"
     ],
     "teamHistory": [
       {
@@ -8123,6 +8308,26 @@
         "team": "サンディエゴ・パドレス",
         "years": "2021-現在",
         "highlight": "2021年に開幕投手を務め、自身5度目のオールスターにも選出。2023年に6年総額1億800万ドル(全球団への拒否権付き)で契約延長に合意し、2024年5月19日にはNPB・MLB通算200勝(史上3人目、先発投手としての勝利による達成は日本人初)、9月22日には日本人選手初となるMLB単独通算2000奪三振を達成した。そして2025年7月31日、日米通算204勝に到達して黒田博樹(203勝)・野茂英雄(201勝)を抜き、日本人選手史上単独最多の通算勝利数保持者となった。"
+      },
+      {
+        "team": "テキサス・レンジャーズ（MLB）",
+        "years": "2012-2014・2016-2017",
+        "highlight": "メジャーで122試合に登板し、52勝39敗・960奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2017",
+        "highlight": "メジャーで9試合に登板し、4勝3敗・61奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "シカゴ・カブス（MLB）",
+        "years": "2018-2020",
+        "highlight": "メジャーで51試合に登板し、15勝14敗・371奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "サンディエゴ・パドレス（MLB）",
+        "years": "2021-2025",
+        "highlight": "メジャーで115試合に登板し、44勝37敗・683奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1986-08-16",
@@ -8254,6 +8459,174 @@
         "strikeouts": 276,
         "inningsPitched": 232.0,
         "team": "日本ハム"
+      },
+      {
+        "season": "2012",
+        "games": 29,
+        "wins": 16,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.9,
+        "eraDisplay": "3.90",
+        "strikeouts": 221,
+        "inningsPitched": 191.1,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 32,
+        "wins": 13,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.83,
+        "eraDisplay": "2.83",
+        "strikeouts": 277,
+        "inningsPitched": 209.2,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 22,
+        "wins": 10,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.06,
+        "eraDisplay": "3.06",
+        "strikeouts": 182,
+        "inningsPitched": 144.1,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 17,
+        "wins": 7,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.41,
+        "eraDisplay": "3.41",
+        "strikeouts": 132,
+        "inningsPitched": 100.1,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 22,
+        "wins": 6,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.01,
+        "eraDisplay": "4.01",
+        "strikeouts": 148,
+        "inningsPitched": 137.0,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 9,
+        "wins": 4,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.44,
+        "eraDisplay": "3.44",
+        "strikeouts": 61,
+        "inningsPitched": 49.2,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 8,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.95,
+        "eraDisplay": "4.95",
+        "strikeouts": 49,
+        "inningsPitched": 40.0,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2019",
+        "games": 31,
+        "wins": 6,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.98,
+        "eraDisplay": "3.98",
+        "strikeouts": 229,
+        "inningsPitched": 178.2,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2020",
+        "games": 12,
+        "wins": 8,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.01,
+        "eraDisplay": "2.01",
+        "strikeouts": 93,
+        "inningsPitched": 76.0,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 30,
+        "wins": 8,
+        "losses": 11,
+        "saves": 0,
+        "era": 4.22,
+        "eraDisplay": "4.22",
+        "strikeouts": 199,
+        "inningsPitched": 166.1,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2022",
+        "games": 30,
+        "wins": 16,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.1,
+        "eraDisplay": "3.10",
+        "strikeouts": 197,
+        "inningsPitched": 194.2,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 24,
+        "wins": 8,
+        "losses": 10,
+        "saves": 0,
+        "era": 4.56,
+        "eraDisplay": "4.56",
+        "strikeouts": 141,
+        "inningsPitched": 136.1,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 16,
+        "wins": 7,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.31,
+        "eraDisplay": "3.31",
+        "strikeouts": 78,
+        "inningsPitched": 81.2,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 15,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 5.38,
+        "eraDisplay": "5.38",
+        "strikeouts": 68,
+        "inningsPitched": 72.0,
+        "team": "パドレス(MLB)"
       }
     ]
   },
@@ -8287,7 +8660,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/田中将大",
-      "https://npb.jp/bis/players/11215114.html"
+      "https://npb.jp/bis/players/11215114.html",
+      "https://www.mlb.com/player/547888"
     ],
     "teamHistory": [
       {
@@ -8309,6 +8683,11 @@
         "team": "読売ジャイアンツ",
         "years": "2024-",
         "highlight": "2024年12月に巨人へ入団(背番号11)。2025年9月30日、NPB通算122勝・MLB通算78勝で日米通算200勝を達成し、野茂英雄・黒田博樹・ダルビッシュ有に続く日本人投手史上4人目の到達となった。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "2014-2020",
+        "highlight": "メジャーで174試合に登板し、78勝46敗・991奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1988-11-01",
@@ -8442,6 +8821,90 @@
         "team": "楽天"
       },
       {
+        "season": "2014",
+        "games": 20,
+        "wins": 13,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.77,
+        "eraDisplay": "2.77",
+        "strikeouts": 141,
+        "inningsPitched": 136.1,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 24,
+        "wins": 12,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.51,
+        "eraDisplay": "3.51",
+        "strikeouts": 139,
+        "inningsPitched": 154.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 31,
+        "wins": 14,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.07,
+        "eraDisplay": "3.07",
+        "strikeouts": 165,
+        "inningsPitched": 199.2,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 30,
+        "wins": 13,
+        "losses": 12,
+        "saves": 0,
+        "era": 4.74,
+        "eraDisplay": "4.74",
+        "strikeouts": 194,
+        "inningsPitched": 178.1,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 27,
+        "wins": 12,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.75,
+        "eraDisplay": "3.75",
+        "strikeouts": 159,
+        "inningsPitched": 156.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2019",
+        "games": 32,
+        "wins": 11,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.45,
+        "eraDisplay": "4.45",
+        "strikeouts": 149,
+        "inningsPitched": 182.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2020",
+        "games": 10,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.56,
+        "eraDisplay": "3.56",
+        "strikeouts": 44,
+        "inningsPitched": 48.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
         "season": "2021",
         "games": 23,
         "wins": 4,
@@ -8521,7 +8984,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/イチロー",
-      "https://npb.jp/bis/players/11913885.html"
+      "https://npb.jp/bis/players/11913885.html",
+      "https://www.mlb.com/player/400085"
     ],
     "teamHistory": [
       {
@@ -8548,6 +9012,21 @@
         "team": "シアトル・マリナーズ(復帰)",
         "years": "2018-2019",
         "highlight": "2018年にマリナーズへ復帰し、2019年3月20日・21日に東京ドームで行われたアスレチックス戦に出場。3月21日の試合を最後に現役引退し、日米通じて活躍したマリナーズの一員として競技人生を終えた。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2001-2012・2018-2019",
+        "highlight": "メジャーで1861試合に出場し、99本塁打・633打点・438盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "2012-2014",
+        "highlight": "メジャーで360試合に出場し、13本塁打・84打点・49盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "マイアミ・マーリンズ（MLB）",
+        "years": "2015-2017",
+        "highlight": "メジャーで432試合に出場し、5本塁打・63打点・22盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1973-10-22",
@@ -8704,6 +9183,226 @@
         "stolenBases": 21,
         "ops": 0.999,
         "team": "オリックス"
+      },
+      {
+        "season": "2001",
+        "games": 157,
+        "avg": 0.35,
+        "avgDisplay": ".350",
+        "hr": 8,
+        "rbi": 69,
+        "stolenBases": 56,
+        "ops": 0.838,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2002",
+        "games": 157,
+        "avg": 0.321,
+        "avgDisplay": ".321",
+        "hr": 8,
+        "rbi": 51,
+        "stolenBases": 31,
+        "ops": 0.813,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2003",
+        "games": 159,
+        "avg": 0.312,
+        "avgDisplay": ".312",
+        "hr": 13,
+        "rbi": 62,
+        "stolenBases": 34,
+        "ops": 0.788,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2004",
+        "games": 161,
+        "avg": 0.372,
+        "avgDisplay": ".372",
+        "hr": 8,
+        "rbi": 60,
+        "stolenBases": 36,
+        "ops": 0.869,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2005",
+        "games": 162,
+        "avg": 0.303,
+        "avgDisplay": ".303",
+        "hr": 15,
+        "rbi": 68,
+        "stolenBases": 33,
+        "ops": 0.786,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2006",
+        "games": 161,
+        "avg": 0.322,
+        "avgDisplay": ".322",
+        "hr": 9,
+        "rbi": 49,
+        "stolenBases": 45,
+        "ops": 0.786,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2007",
+        "games": 161,
+        "avg": 0.351,
+        "avgDisplay": ".351",
+        "hr": 6,
+        "rbi": 68,
+        "stolenBases": 37,
+        "ops": 0.827,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2008",
+        "games": 162,
+        "avg": 0.31,
+        "avgDisplay": ".310",
+        "hr": 6,
+        "rbi": 42,
+        "stolenBases": 43,
+        "ops": 0.747,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 146,
+        "avg": 0.352,
+        "avgDisplay": ".352",
+        "hr": 11,
+        "rbi": 46,
+        "stolenBases": 26,
+        "ops": 0.851,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 162,
+        "avg": 0.315,
+        "avgDisplay": ".315",
+        "hr": 6,
+        "rbi": 43,
+        "stolenBases": 42,
+        "ops": 0.753,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 161,
+        "avg": 0.272,
+        "avgDisplay": ".272",
+        "hr": 5,
+        "rbi": 47,
+        "stolenBases": 40,
+        "ops": 0.645,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 95,
+        "avg": 0.261,
+        "avgDisplay": ".261",
+        "hr": 4,
+        "rbi": 28,
+        "stolenBases": 15,
+        "ops": 0.641,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 67,
+        "avg": 0.322,
+        "avgDisplay": ".322",
+        "hr": 5,
+        "rbi": 27,
+        "stolenBases": 14,
+        "ops": 0.794,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 150,
+        "avg": 0.262,
+        "avgDisplay": ".262",
+        "hr": 7,
+        "rbi": 35,
+        "stolenBases": 20,
+        "ops": 0.639,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 143,
+        "avg": 0.284,
+        "avgDisplay": ".284",
+        "hr": 1,
+        "rbi": 22,
+        "stolenBases": 15,
+        "ops": 0.664,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 153,
+        "avg": 0.229,
+        "avgDisplay": ".229",
+        "hr": 1,
+        "rbi": 21,
+        "stolenBases": 11,
+        "ops": 0.561,
+        "team": "マーリンズ(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 143,
+        "avg": 0.291,
+        "avgDisplay": ".291",
+        "hr": 1,
+        "rbi": 22,
+        "stolenBases": 10,
+        "ops": 0.73,
+        "team": "マーリンズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 136,
+        "avg": 0.255,
+        "avgDisplay": ".255",
+        "hr": 3,
+        "rbi": 20,
+        "stolenBases": 1,
+        "ops": 0.65,
+        "team": "マーリンズ(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 15,
+        "avg": 0.205,
+        "avgDisplay": ".205",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0,
+        "ops": 0.46,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2019",
+        "games": 2,
+        "avg": 0.0,
+        "avgDisplay": ".000",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0,
+        "ops": 0.167,
+        "team": "マリナーズ(MLB)"
       }
     ]
   },
@@ -8732,7 +9431,8 @@
       "MVP1回"
     ],
     "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/松井秀喜"
+      "https://ja.wikipedia.org/wiki/松井秀喜",
+      "https://www.mlb.com/player/425686"
     ],
     "teamHistory": [
       {
@@ -8759,6 +9459,26 @@
         "team": "タンパベイ・レイズ",
         "years": "2012",
         "highlight": "マイナー契約で入団したが目立った出場機会は得られず、同年7月22日に現役引退を表明した。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "2003-2009",
+        "highlight": "メジャーで916試合に出場し、140本塁打・597打点・12盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ロサンゼルス・エンゼルス（MLB）",
+        "years": "2010",
+        "highlight": "メジャーで145試合に出場し、21本塁打・84打点・0盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "オークランド・アスレチックス（MLB）",
+        "years": "2011",
+        "highlight": "メジャーで141試合に出場し、12本塁打・72打点・1盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "タンパベイ・レイズ（MLB）",
+        "years": "2012",
+        "highlight": "メジャーで34試合に出場し、2本塁打・7打点・0盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1974-06-12",
@@ -8911,6 +9631,116 @@
         "stolenBases": 3,
         "ops": 1.153,
         "team": "巨人"
+      },
+      {
+        "season": "2003",
+        "games": 163,
+        "avg": 0.287,
+        "avgDisplay": ".287",
+        "hr": 16,
+        "rbi": 106,
+        "stolenBases": 2,
+        "ops": 0.788,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2004",
+        "games": 162,
+        "avg": 0.298,
+        "avgDisplay": ".298",
+        "hr": 31,
+        "rbi": 108,
+        "stolenBases": 3,
+        "ops": 0.912,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2005",
+        "games": 162,
+        "avg": 0.305,
+        "avgDisplay": ".305",
+        "hr": 23,
+        "rbi": 116,
+        "stolenBases": 2,
+        "ops": 0.863,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2006",
+        "games": 51,
+        "avg": 0.302,
+        "avgDisplay": ".302",
+        "hr": 8,
+        "rbi": 29,
+        "stolenBases": 1,
+        "ops": 0.887,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2007",
+        "games": 143,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 25,
+        "rbi": 103,
+        "stolenBases": 4,
+        "ops": 0.855,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2008",
+        "games": 93,
+        "avg": 0.294,
+        "avgDisplay": ".294",
+        "hr": 9,
+        "rbi": 45,
+        "stolenBases": 0,
+        "ops": 0.794,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 142,
+        "avg": 0.274,
+        "avgDisplay": ".274",
+        "hr": 28,
+        "rbi": 90,
+        "stolenBases": 0,
+        "ops": 0.876,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 145,
+        "avg": 0.274,
+        "avgDisplay": ".274",
+        "hr": 21,
+        "rbi": 84,
+        "stolenBases": 0,
+        "ops": 0.82,
+        "team": "エンゼルス(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 141,
+        "avg": 0.251,
+        "avgDisplay": ".251",
+        "hr": 12,
+        "rbi": 72,
+        "stolenBases": 1,
+        "ops": 0.696,
+        "team": "アスレチックス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 34,
+        "avg": 0.147,
+        "avgDisplay": ".147",
+        "hr": 2,
+        "rbi": 7,
+        "stolenBases": 0,
+        "ops": 0.435,
+        "team": "レイズ(MLB)"
       }
     ]
   },
@@ -8946,7 +9776,8 @@
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/松坂大輔",
       "https://nanjpride.blog.jp/archives/5649244.html",
-      "https://rove-gyrf.hatenablog.com/entry/2023/04/16/131253"
+      "https://rove-gyrf.hatenablog.com/entry/2023/04/16/131253",
+      "https://www.mlb.com/player/493137"
     ],
     "teamHistory": [
       {
@@ -8983,6 +9814,16 @@
         "team": "埼玉西武ライオンズ(復帰)",
         "years": "2020-2021",
         "highlight": "古巣に復帰したが、2020年7月に頸椎の内視鏡手術を受けるなど右肩の状態が回復せず、一軍登板のないまま2021年10月19日、メットライフドームでの引退試合を経て現役を引退した。"
+      },
+      {
+        "team": "ボストン・レッドソックス（MLB）",
+        "years": "2007-2012",
+        "highlight": "メジャーで117試合に登板し、50勝37敗・609奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2013-2014",
+        "highlight": "メジャーで41試合に登板し、6勝6敗・1セーブ・111奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1980-09-13",
@@ -9126,6 +9967,102 @@
         "strikeouts": 200,
         "inningsPitched": 186.1,
         "team": "西武"
+      },
+      {
+        "season": "2007",
+        "games": 32,
+        "wins": 15,
+        "losses": 12,
+        "saves": 0,
+        "era": 4.4,
+        "eraDisplay": "4.40",
+        "strikeouts": 201,
+        "inningsPitched": 204.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2008",
+        "games": 29,
+        "wins": 18,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.9,
+        "eraDisplay": "2.90",
+        "strikeouts": 154,
+        "inningsPitched": 167.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 12,
+        "wins": 4,
+        "losses": 6,
+        "saves": 0,
+        "era": 5.76,
+        "eraDisplay": "5.76",
+        "strikeouts": 54,
+        "inningsPitched": 59.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 25,
+        "wins": 9,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.69,
+        "eraDisplay": "4.69",
+        "strikeouts": 133,
+        "inningsPitched": 153.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 8,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "era": 5.3,
+        "eraDisplay": "5.30",
+        "strikeouts": 26,
+        "inningsPitched": 37.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 11,
+        "wins": 1,
+        "losses": 7,
+        "saves": 0,
+        "era": 8.28,
+        "eraDisplay": "8.28",
+        "strikeouts": 41,
+        "inningsPitched": 45.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 7,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.42,
+        "eraDisplay": "4.42",
+        "strikeouts": 33,
+        "inningsPitched": 38.2,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 34,
+        "wins": 3,
+        "losses": 3,
+        "saves": 1,
+        "era": 3.89,
+        "eraDisplay": "3.89",
+        "strikeouts": 78,
+        "inningsPitched": 83.1,
+        "team": "メッツ(MLB)"
       }
     ]
   },
@@ -9158,7 +10095,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/黒田博樹",
-      "https://npb.jp/bis/players/21523884.html"
+      "https://npb.jp/bis/players/21523884.html",
+      "https://www.mlb.com/player/493133"
     ],
     "teamHistory": [
       {
@@ -9180,6 +10118,16 @@
         "team": "広島東洋カープ(復帰)",
         "years": "2015-2016",
         "highlight": "2014年12月、ドジャースやパドレスから合計1800万ドル規模とされるメジャー球団からのオファーを断り、推定年俸4億円(出来高込み)で古巣広島に復帰。40歳を前にしてなお第一線の実力を示し、2015年は11勝8敗・防御率2.55を記録した。2016年7月23日の阪神戦でNPB・MLB通算200勝を達成し、9月にはチームの25年ぶりリーグ優勝に貢献して同年限りで現役引退。背番号「15」は山本浩二、衣笠祥雄に続く球団史上3人目の永久欠番に制定された。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2008-2011",
+        "highlight": "メジャーで115試合に登板し、41勝46敗・523奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "2012-2014",
+        "highlight": "メジャーで97試合に登板し、38勝33敗・463奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1975-02-10",
@@ -9359,6 +10307,90 @@
         "strikeouts": 123,
         "inningsPitched": 179.2,
         "team": "広島"
+      },
+      {
+        "season": "2008",
+        "games": 31,
+        "wins": 9,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.73,
+        "eraDisplay": "3.73",
+        "strikeouts": 116,
+        "inningsPitched": 183.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 21,
+        "wins": 8,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.76,
+        "eraDisplay": "3.76",
+        "strikeouts": 87,
+        "inningsPitched": 117.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 31,
+        "wins": 11,
+        "losses": 13,
+        "saves": 0,
+        "era": 3.39,
+        "eraDisplay": "3.39",
+        "strikeouts": 159,
+        "inningsPitched": 196.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 32,
+        "wins": 13,
+        "losses": 16,
+        "saves": 0,
+        "era": 3.07,
+        "eraDisplay": "3.07",
+        "strikeouts": 161,
+        "inningsPitched": 202.0,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 33,
+        "wins": 16,
+        "losses": 11,
+        "saves": 0,
+        "era": 3.32,
+        "eraDisplay": "3.32",
+        "strikeouts": 167,
+        "inningsPitched": 219.2,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 32,
+        "wins": 11,
+        "losses": 13,
+        "saves": 0,
+        "era": 3.31,
+        "eraDisplay": "3.31",
+        "strikeouts": 150,
+        "inningsPitched": 201.1,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 32,
+        "wins": 11,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.71,
+        "eraDisplay": "3.71",
+        "strikeouts": 146,
+        "inningsPitched": 199.0,
+        "team": "ヤンキース(MLB)"
       }
     ]
   },
@@ -9391,7 +10423,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/岩隈久志",
-      "https://npb.jp/bis/players/01105111.html"
+      "https://npb.jp/bis/players/01105111.html",
+      "https://www.mlb.com/player/547874"
     ],
     "teamHistory": [
       {
@@ -9413,6 +10446,11 @@
         "team": "読売ジャイアンツ",
         "years": "2019-2020",
         "highlight": "2018年12月に巨人へ入団したが右肩の状態が上がらず、二軍でも登板機会は限定的で一軍登板は一度もなかった。2020年10月にシート打撃で右肩を脱臼したことを機に現役引退を決断し、同月19日に引退が発表された。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2012-2017",
+        "highlight": "メジャーで150試合に登板し、63勝39敗・2セーブ・714奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1981-04-12",
@@ -9592,6 +10630,78 @@
         "strikeouts": 90,
         "inningsPitched": 119.0,
         "team": "楽天"
+      },
+      {
+        "season": "2012",
+        "games": 30,
+        "wins": 9,
+        "losses": 5,
+        "saves": 2,
+        "era": 3.16,
+        "eraDisplay": "3.16",
+        "strikeouts": 101,
+        "inningsPitched": 125.1,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 33,
+        "wins": 14,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.66,
+        "eraDisplay": "2.66",
+        "strikeouts": 185,
+        "inningsPitched": 219.2,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 28,
+        "wins": 15,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.52,
+        "eraDisplay": "3.52",
+        "strikeouts": 154,
+        "inningsPitched": 179.0,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 20,
+        "wins": 9,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.54,
+        "eraDisplay": "3.54",
+        "strikeouts": 111,
+        "inningsPitched": 129.2,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 33,
+        "wins": 16,
+        "losses": 12,
+        "saves": 0,
+        "era": 4.12,
+        "eraDisplay": "4.12",
+        "strikeouts": 147,
+        "inningsPitched": 199.0,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 6,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 4.35,
+        "eraDisplay": "4.35",
+        "strikeouts": 16,
+        "inningsPitched": 31.0,
+        "team": "マリナーズ(MLB)"
       }
     ]
   },
@@ -9626,7 +10736,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/上原浩治",
-      "https://npb.jp/bis/players/11313888.html"
+      "https://npb.jp/bis/players/11313888.html",
+      "https://www.mlb.com/player/493157"
     ],
     "teamHistory": [
       {
@@ -9658,6 +10769,26 @@
         "team": "読売ジャイアンツ(復帰)",
         "years": "2018-2019",
         "highlight": "9年ぶりに巨人へ復帰(背番号11)。2018年7月20日に「100勝100セーブ100ホールド」を日本人として初めて達成し、2019年5月20日に現役引退を表明した。"
+      },
+      {
+        "team": "ボルチモア・オリオールズ（MLB）",
+        "years": "2009-2011",
+        "highlight": "メジャーで98試合に登板し、4勝7敗・13セーブ・165奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "テキサス・レンジャーズ（MLB）",
+        "years": "2011-2012",
+        "highlight": "メジャーで59試合に登板し、1勝2敗・1セーブ・66奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ボストン・レッドソックス（MLB）",
+        "years": "2013-2016",
+        "highlight": "メジャーで230試合に登板し、14勝13敗・79セーブ・291奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "シカゴ・カブス（MLB）",
+        "years": "2017",
+        "highlight": "メジャーで49試合に登板し、3勝4敗・2セーブ・50奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1975-04-03",
@@ -9840,6 +10971,126 @@
         "strikeouts": 72,
         "inningsPitched": 89.2,
         "team": "巨人"
+      },
+      {
+        "season": "2009",
+        "games": 12,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.05,
+        "eraDisplay": "4.05",
+        "strikeouts": 48,
+        "inningsPitched": 66.2,
+        "team": "オリオールズ(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 43,
+        "wins": 1,
+        "losses": 2,
+        "saves": 13,
+        "era": 2.86,
+        "eraDisplay": "2.86",
+        "strikeouts": 55,
+        "inningsPitched": 44.0,
+        "team": "オリオールズ(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 43,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 1.72,
+        "eraDisplay": "1.72",
+        "strikeouts": 62,
+        "inningsPitched": 47.0,
+        "team": "オリオールズ(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 22,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 4.0,
+        "eraDisplay": "4.00",
+        "strikeouts": 23,
+        "inningsPitched": 18.0,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 37,
+        "wins": 0,
+        "losses": 0,
+        "saves": 1,
+        "era": 1.75,
+        "eraDisplay": "1.75",
+        "strikeouts": 43,
+        "inningsPitched": 36.0,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 73,
+        "wins": 4,
+        "losses": 1,
+        "saves": 21,
+        "era": 1.09,
+        "eraDisplay": "1.09",
+        "strikeouts": 101,
+        "inningsPitched": 74.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 64,
+        "wins": 6,
+        "losses": 5,
+        "saves": 26,
+        "era": 2.52,
+        "eraDisplay": "2.52",
+        "strikeouts": 80,
+        "inningsPitched": 64.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 43,
+        "wins": 2,
+        "losses": 4,
+        "saves": 25,
+        "era": 2.23,
+        "eraDisplay": "2.23",
+        "strikeouts": 47,
+        "inningsPitched": 40.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 50,
+        "wins": 2,
+        "losses": 3,
+        "saves": 7,
+        "era": 3.45,
+        "eraDisplay": "3.45",
+        "strikeouts": 63,
+        "inningsPitched": 47.0,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 49,
+        "wins": 3,
+        "losses": 4,
+        "saves": 2,
+        "era": 3.98,
+        "eraDisplay": "3.98",
+        "strikeouts": 50,
+        "inningsPitched": 43.0,
+        "team": "カブス(MLB)"
       }
     ]
   },
@@ -9874,7 +11125,8 @@
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/前田健太",
       "https://npb.jp/bis/players/51655114.html",
-      "https://npb.jp/news/detail/20151026_01.html"
+      "https://npb.jp/news/detail/20151026_01.html",
+      "https://www.mlb.com/player/628317"
     ],
     "teamHistory": [
       {
@@ -9901,6 +11153,21 @@
         "team": "東北楽天ゴールデンイーグルス",
         "years": "2026-",
         "highlight": "2025年11月に2年契約で入団合意し11年ぶりにNPB復帰(この時点で日米通算165勝)。2026年6月25日の西武戦で7回3安打無失点と好投し、広島時代の2015年10月以来3919日ぶりとなる日本球界での勝利を挙げると、8月12日のオリックス戦でNPB通算100勝を達成(史上145人目)。現役最終章として日米通算200勝到達を目標に掲げている。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2016-2019",
+        "highlight": "メジャーで137試合に登板し、47勝35敗・6セーブ・641奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ミネソタ・ツインズ（MLB）",
+        "years": "2020-2021・2023",
+        "highlight": "メジャーで53試合に登板し、18勝14敗・310奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "デトロイト・タイガース（MLB）",
+        "years": "2024-2025",
+        "highlight": "メジャーで36試合に登板し、3勝7敗・104奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1988-04-11",
@@ -10070,6 +11337,114 @@
         "strikeouts": 175,
         "inningsPitched": 206.1,
         "team": "広島"
+      },
+      {
+        "season": "2016",
+        "games": 32,
+        "wins": 16,
+        "losses": 11,
+        "saves": 0,
+        "era": 3.48,
+        "eraDisplay": "3.48",
+        "strikeouts": 179,
+        "inningsPitched": 175.2,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 29,
+        "wins": 13,
+        "losses": 6,
+        "saves": 1,
+        "era": 4.22,
+        "eraDisplay": "4.22",
+        "strikeouts": 140,
+        "inningsPitched": 134.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 39,
+        "wins": 8,
+        "losses": 10,
+        "saves": 2,
+        "era": 3.81,
+        "eraDisplay": "3.81",
+        "strikeouts": 153,
+        "inningsPitched": 125.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2019",
+        "games": 37,
+        "wins": 10,
+        "losses": 8,
+        "saves": 3,
+        "era": 4.04,
+        "eraDisplay": "4.04",
+        "strikeouts": 169,
+        "inningsPitched": 153.2,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2020",
+        "games": 11,
+        "wins": 6,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.7,
+        "eraDisplay": "2.70",
+        "strikeouts": 80,
+        "inningsPitched": 66.2,
+        "team": "ツインズ(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 21,
+        "wins": 6,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.66,
+        "eraDisplay": "4.66",
+        "strikeouts": 113,
+        "inningsPitched": 106.1,
+        "team": "ツインズ(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 21,
+        "wins": 6,
+        "losses": 8,
+        "saves": 0,
+        "era": 4.23,
+        "eraDisplay": "4.23",
+        "strikeouts": 117,
+        "inningsPitched": 104.1,
+        "team": "ツインズ(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 29,
+        "wins": 3,
+        "losses": 7,
+        "saves": 0,
+        "era": 6.09,
+        "eraDisplay": "6.09",
+        "strikeouts": 96,
+        "inningsPitched": 112.1,
+        "team": "タイガース(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 7,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 7.88,
+        "eraDisplay": "7.88",
+        "strikeouts": 8,
+        "inningsPitched": 8.0,
+        "team": "タイガース(MLB)"
       }
     ]
   },
@@ -10101,7 +11476,8 @@
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/城島健司",
       "https://npb.jp/bis/players/31733880.html",
-      "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11168276626"
+      "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11168276626",
+      "https://www.mlb.com/player/492706"
     ],
     "teamHistory": [
       {
@@ -10118,6 +11494,11 @@
         "team": "阪神タイガース",
         "years": "2010-2012",
         "highlight": "移籍1年目の2010年に全試合出場で打率.303・28本塁打を記録し、セ・リーグ捕手最多安打を更新。ゴールデングラブ賞を受賞し、捕手としてセ・パ両リーグでの受賞は史上初の快挙となった。その後は故障が相次ぎ出場機会が減少し、2012年9月に現役引退した。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2006-2009",
+        "highlight": "メジャーで462試合に出場し、48本塁打・198打点・7盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1976-06-08",
@@ -10292,6 +11673,50 @@
         "stolenBases": 3,
         "ops": 0.938,
         "team": "ソフトバンク"
+      },
+      {
+        "season": "2006",
+        "games": 144,
+        "avg": 0.291,
+        "avgDisplay": ".291",
+        "hr": 18,
+        "rbi": 76,
+        "stolenBases": 3,
+        "ops": 0.783,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2007",
+        "games": 135,
+        "avg": 0.287,
+        "avgDisplay": ".287",
+        "hr": 14,
+        "rbi": 61,
+        "stolenBases": 0,
+        "ops": 0.755,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2008",
+        "games": 112,
+        "avg": 0.227,
+        "avgDisplay": ".227",
+        "hr": 7,
+        "rbi": 39,
+        "stolenBases": 2,
+        "ops": 0.609,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 71,
+        "avg": 0.247,
+        "avgDisplay": ".247",
+        "hr": 9,
+        "rbi": 22,
+        "stolenBases": 2,
+        "ops": 0.702,
+        "team": "マリナーズ(MLB)"
       }
     ]
   },
@@ -10324,7 +11749,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/青木宣親",
-      "https://king-gear.com/articles/1881"
+      "https://king-gear.com/articles/1881",
+      "https://www.mlb.com/player/493114"
     ],
     "teamHistory": [
       {
@@ -10371,6 +11797,41 @@
         "team": "東京ヤクルトスワローズ(2次)",
         "years": "2018-2024",
         "highlight": "2019年にNPB通算1500安打を史上最速の1156試合で達成。2020年には38歳9カ月で外野手最年長のゴールデングラブ賞を受賞し、2021年には日本人選手史上4人目の日米通算2500安打を達成してチームの日本一にも貢献した。2024年シーズン限りで現役を引退し、最終的な日米通算安打数は2730本(NPB1956安打、MLB774安打)に達した。"
+      },
+      {
+        "team": "ミルウォーキー・ブルワーズ（MLB）",
+        "years": "2012-2013",
+        "highlight": "メジャーで306試合に出場し、18本塁打・87打点・50盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "カンザスシティ・ロイヤルズ（MLB）",
+        "years": "2014",
+        "highlight": "メジャーで132試合に出場し、1本塁打・43打点・17盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "サンフランシスコ・ジャイアンツ（MLB）",
+        "years": "2015",
+        "highlight": "メジャーで93試合に出場し、5本塁打・26打点・14盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2016",
+        "highlight": "メジャーで118試合に出場し、4本塁打・28打点・7盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ヒューストン・アストロズ（MLB）",
+        "years": "2017",
+        "highlight": "メジャーで71試合に出場し、2本塁打・19打点・5盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "トロント・ブルージェイズ（MLB）",
+        "years": "2017",
+        "highlight": "メジャーで12試合に出場し、3本塁打・8打点・0盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2017",
+        "highlight": "メジャーで27試合に出場し、0本塁打・8打点・5盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1982-01-05",
@@ -10515,6 +11976,94 @@
         "rbi": 44,
         "stolenBases": 8,
         "team": "ヤクルト"
+      },
+      {
+        "season": "2012",
+        "games": 151,
+        "avg": 0.288,
+        "avgDisplay": ".288",
+        "hr": 10,
+        "rbi": 50,
+        "stolenBases": 30,
+        "ops": 0.788,
+        "team": "ブルワーズ(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 155,
+        "avg": 0.286,
+        "avgDisplay": ".286",
+        "hr": 8,
+        "rbi": 37,
+        "stolenBases": 20,
+        "ops": 0.726,
+        "team": "ブルワーズ(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 132,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 1,
+        "rbi": 43,
+        "stolenBases": 17,
+        "ops": 0.709,
+        "team": "ロイヤルズ(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 93,
+        "avg": 0.287,
+        "avgDisplay": ".287",
+        "hr": 5,
+        "rbi": 26,
+        "stolenBases": 14,
+        "ops": 0.733,
+        "team": "ジャイアンツ(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 118,
+        "avg": 0.283,
+        "avgDisplay": ".283",
+        "hr": 4,
+        "rbi": 28,
+        "stolenBases": 7,
+        "ops": 0.737,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 71,
+        "avg": 0.272,
+        "avgDisplay": ".272",
+        "hr": 2,
+        "rbi": 19,
+        "stolenBases": 5,
+        "ops": 0.694,
+        "team": "アストロズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 12,
+        "avg": 0.281,
+        "avgDisplay": ".281",
+        "hr": 3,
+        "rbi": 8,
+        "stolenBases": 0,
+        "ops": 0.888,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 27,
+        "avg": 0.284,
+        "avgDisplay": ".284",
+        "hr": 0,
+        "rbi": 8,
+        "stolenBases": 5,
+        "ops": 0.744,
+        "team": "メッツ(MLB)"
       }
     ]
   },
@@ -10545,7 +12094,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/秋山翔吾",
-      "https://nf3.sakura.ne.jp/2015/Pacific/L/f/55_stat.htm"
+      "https://nf3.sakura.ne.jp/2015/Pacific/L/f/55_stat.htm",
+      "https://www.mlb.com/player/673451"
     ],
     "teamHistory": [
       {
@@ -10562,6 +12112,11 @@
         "team": "広島東洋カープ",
         "years": "2022-",
         "highlight": "3年総額5億円規模で加入し、まもなく日米通算1500安打を達成。2024年は138試合に出場し打率.289・158安打を記録し、セ・リーグ移籍後初、そしてセ・パ両リーグでの受賞は史上10人目となるゴールデングラブ賞を受賞した。"
+      },
+      {
+        "team": "シンシナティ・レッズ（MLB）",
+        "years": "2020-2021",
+        "highlight": "メジャーで142試合に出場し、0本塁打・21打点・9盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1988-04-16",
@@ -10714,6 +12269,28 @@
         "stolenBases": 12,
         "ops": 0.863,
         "team": "西武"
+      },
+      {
+        "season": "2020",
+        "games": 54,
+        "avg": 0.245,
+        "avgDisplay": ".245",
+        "hr": 0,
+        "rbi": 9,
+        "stolenBases": 7,
+        "ops": 0.654,
+        "team": "レッズ(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 88,
+        "avg": 0.204,
+        "avgDisplay": ".204",
+        "hr": 0,
+        "rbi": 12,
+        "stolenBases": 2,
+        "ops": 0.535,
+        "team": "レッズ(MLB)"
       }
     ]
   },
@@ -10744,7 +12321,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/筒香嘉智",
-      "https://baseballdata.jp/2016/playerB/1000002.html"
+      "https://baseballdata.jp/2016/playerB/1000002.html",
+      "https://www.mlb.com/player/660294"
     ],
     "teamHistory": [
       {
@@ -10771,6 +12349,21 @@
         "team": "横浜DeNAベイスターズ(2次)",
         "years": "2024-",
         "highlight": "2024年4月に3年契約で復帰。1673日ぶりとなる5月6日の復帰戦では8回に逆転3点本塁打を放つ劇的な帰還を果たし、日本シリーズでは有原航平から先制本塁打と走者一掃の適時二塁打を放って球団26年ぶりの日本一に貢献、優秀選手賞を受賞した。2025年は打率.228・20本塁打・43打点を記録した。"
+      },
+      {
+        "team": "タンパベイ・レイズ（MLB）",
+        "years": "2020-2021",
+        "highlight": "メジャーで77試合に出場し、8本塁打・29打点・0盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2021",
+        "highlight": "メジャーで12試合に出場し、0本塁打・2打点・0盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "ピッツバーグ・パイレーツ（MLB）",
+        "years": "2021-2022",
+        "highlight": "メジャーで93試合に出場し、10本塁打・44打点・0盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1991-11-26",
@@ -10935,6 +12528,61 @@
         "stolenBases": 0,
         "ops": 0.899,
         "team": "DeNA"
+      },
+      {
+        "season": "2020",
+        "games": 51,
+        "avg": 0.197,
+        "avgDisplay": ".197",
+        "hr": 8,
+        "rbi": 24,
+        "stolenBases": 0,
+        "ops": 0.709,
+        "team": "レイズ(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 26,
+        "avg": 0.167,
+        "avgDisplay": ".167",
+        "hr": 0,
+        "rbi": 5,
+        "stolenBases": 0,
+        "ops": 0.462,
+        "team": "レイズ(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 12,
+        "avg": 0.12,
+        "avgDisplay": ".120",
+        "hr": 0,
+        "rbi": 2,
+        "stolenBases": 0,
+        "ops": 0.41,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 43,
+        "avg": 0.268,
+        "avgDisplay": ".268",
+        "hr": 8,
+        "rbi": 25,
+        "stolenBases": 0,
+        "ops": 0.882,
+        "team": "パイレーツ(MLB)"
+      },
+      {
+        "season": "2022",
+        "games": 50,
+        "avg": 0.171,
+        "avgDisplay": ".171",
+        "hr": 2,
+        "rbi": 19,
+        "stolenBases": 0,
+        "ops": 0.478,
+        "team": "パイレーツ(MLB)"
       }
     ]
   },
@@ -10965,7 +12613,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/鈴木誠也",
-      "https://npb.jp/bis/players/81785137.html"
+      "https://npb.jp/bis/players/81785137.html",
+      "https://www.mlb.com/player/673548"
     ],
     "teamHistory": [
       {
@@ -10977,6 +12626,11 @@
         "team": "シカゴ・カブス",
         "years": "2022-",
         "highlight": "日本人野手史上最高額となる5年総額8500万ドルで移籍。2023年に日本人右打者初となるシーズン20本塁打(打率.285)を達成し、2025年には自己最多の打率.245・32本塁打・103打点を記録して右打者の日本人野手史上初となる30本塁打・100打点を同時に達成、カブス通算100本塁打にも到達した。2026年に5年契約の最終年を迎えている。"
+      },
+      {
+        "team": "シカゴ・カブス（MLB）",
+        "years": "2022-2026",
+        "highlight": "メジャーで675試合に出場し、113本塁打・382打点・39盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1994-08-18",
@@ -11134,6 +12788,61 @@
         "stolenBases": 9,
         "ops": 1.072,
         "team": "広島"
+      },
+      {
+        "season": "2022",
+        "games": 111,
+        "avg": 0.262,
+        "avgDisplay": ".262",
+        "hr": 14,
+        "rbi": 46,
+        "stolenBases": 9,
+        "ops": 0.769,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 138,
+        "avg": 0.285,
+        "avgDisplay": ".285",
+        "hr": 20,
+        "rbi": 74,
+        "stolenBases": 6,
+        "ops": 0.842,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 132,
+        "avg": 0.283,
+        "avgDisplay": ".283",
+        "hr": 21,
+        "rbi": 73,
+        "stolenBases": 16,
+        "ops": 0.848,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 151,
+        "avg": 0.245,
+        "avgDisplay": ".245",
+        "hr": 32,
+        "rbi": 103,
+        "stolenBases": 5,
+        "ops": 0.804,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 143,
+        "avg": 0.27,
+        "avgDisplay": ".270",
+        "hr": 26,
+        "rbi": 86,
+        "stolenBases": 3,
+        "ops": 0.841,
+        "team": "カブス(MLB)"
       }
     ]
   },
@@ -11164,7 +12873,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/吉田正尚",
-      "https://npb.jp/bis/players/63165132.html"
+      "https://npb.jp/bis/players/63165132.html",
+      "https://www.mlb.com/player/807799"
     ],
     "teamHistory": [
       {
@@ -11176,6 +12886,11 @@
         "team": "ボストン・レッドソックス",
         "years": "2023-",
         "highlight": "5年契約(総額9000万ドル)で加入し、2023年は打率.289・15本塁打・72打点でメジャー1年目からの打率リーグトップ10入り(2001年イチロー以来)を果たし、8月に日米通算1000安打を達成した。2024年は打率.280、2025年は右肩手術の影響で55試合出場にとどまり、2026年も8月に負傷離脱するなど故障に苦しみながらも、負傷前の打率.333など高いポテンシャルを見せ続けている。"
+      },
+      {
+        "team": "ボストン・レッドソックス（MLB）",
+        "years": "2023-2026",
+        "highlight": "メジャーで390試合に出場し、34本塁打・182打点・15盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1993-07-15",
@@ -11312,6 +13027,50 @@
         "stolenBases": 4,
         "ops": 1.008,
         "team": "オリックス"
+      },
+      {
+        "season": "2023",
+        "games": 140,
+        "avg": 0.289,
+        "avgDisplay": ".289",
+        "hr": 15,
+        "rbi": 72,
+        "stolenBases": 8,
+        "ops": 0.783,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 108,
+        "avg": 0.28,
+        "avgDisplay": ".280",
+        "hr": 10,
+        "rbi": 56,
+        "stolenBases": 2,
+        "ops": 0.764,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 55,
+        "avg": 0.266,
+        "avgDisplay": ".266",
+        "hr": 4,
+        "rbi": 26,
+        "stolenBases": 3,
+        "ops": 0.695,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 87,
+        "avg": 0.274,
+        "avgDisplay": ".274",
+        "hr": 5,
+        "rbi": 28,
+        "stolenBases": 2,
+        "ops": 0.746,
+        "team": "レッドソックス(MLB)"
       }
     ]
   },
@@ -11344,7 +13103,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/千賀滉大",
-      "https://npb.jp/bis/players/01005133.html"
+      "https://npb.jp/bis/players/01005133.html",
+      "https://www.mlb.com/player/673540"
     ],
     "teamHistory": [
       {
@@ -11356,6 +13116,11 @@
         "team": "ニューヨーク・メッツ",
         "years": "2023-",
         "highlight": "2022年12月に5年7500万ドルで契約し、育成ドラフト出身選手として史上初のメジャーリーガーとなった。2023年は12勝7敗・防御率2.98・202奪三振でナ・リーグ新人王投票2位、サイ・ヤング賞投票7位に加えメッツの新人投手として57年ぶりとなるオールスターにも選出された。2024年は故障で登板がわずか1試合にとどまったが日米通算100勝は達成。2025年は22試合で7勝6敗・防御率3.02と復調し、2026年は腰の負傷に見舞われながらも8月にクローザーへ転向すると月間防御率1.74と再び存在感を示している。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2023-2026",
+        "highlight": "メジャーで83試合に登板し、20勝22敗・8セーブ・395奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1993-01-30",
@@ -11552,6 +13317,54 @@
         "strikeouts": 156,
         "inningsPitched": 144,
         "team": "ソフトバンク"
+      },
+      {
+        "season": "2023",
+        "games": 29,
+        "wins": 12,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.98,
+        "eraDisplay": "2.98",
+        "strikeouts": 202,
+        "inningsPitched": 166.1,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "era": 3.38,
+        "eraDisplay": "3.38",
+        "strikeouts": 9,
+        "inningsPitched": 5.1,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 22,
+        "wins": 7,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.02,
+        "eraDisplay": "3.02",
+        "strikeouts": 109,
+        "inningsPitched": 113.1,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 31,
+        "wins": 0,
+        "losses": 9,
+        "saves": 8,
+        "era": 7.34,
+        "eraDisplay": "7.34",
+        "strikeouts": 75,
+        "inningsPitched": 61.1,
+        "team": "メッツ(MLB)"
       }
     ]
   },
@@ -11582,7 +13395,8 @@
       "MVP2回"
     ],
     "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/山本由伸"
+      "https://ja.wikipedia.org/wiki/山本由伸",
+      "https://www.mlb.com/player/808967"
     ],
     "teamHistory": [
       {
@@ -11594,6 +13408,11 @@
         "team": "ロサンゼルス・ドジャース",
         "years": "2024-",
         "highlight": "12年3億2500万ドル(当時投手史上最高額)の契約で2024年に加入し、右肩の負傷を乗り越え加入1年目からワールドシリーズ制覇に貢献(26歳での世界一は日本人投手最年少)。2025年はレギュラーシーズン12勝8敗・防御率2.49・201奪三振(被打率.183はメジャー全体最低)を記録しサイ・ヤング賞投票3位。ワールドシリーズでは中0日のリリーフ登板を含む3試合で3勝・防御率1.02の快投を見せ(2001年のランディ・ジョンソン以来のシリーズ3勝)、2009年の松井秀喜以来日本人史上2人目のワールドシリーズMVPに輝きチームの連覇に貢献した。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2024-2026",
+        "highlight": "メジャーで76試合に登板し、33勝19敗・488奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1998-08-17",
@@ -11737,6 +13556,42 @@
         "strikeouts": 169,
         "inningsPitched": 164.0,
         "team": "オリックス"
+      },
+      {
+        "season": "2024",
+        "games": 18,
+        "wins": 7,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.0,
+        "eraDisplay": "3.00",
+        "strikeouts": 105,
+        "inningsPitched": 90.0,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 30,
+        "wins": 12,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.49,
+        "eraDisplay": "2.49",
+        "strikeouts": 201,
+        "inningsPitched": 173.2,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 28,
+        "wins": 14,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.53,
+        "eraDisplay": "2.53",
+        "strikeouts": 182,
+        "inningsPitched": 185.0,
+        "team": "ドジャース(MLB)"
       }
     ]
   },
@@ -11766,7 +13621,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/今永昇太",
-      "https://npb.jp/bis/players/01305132.html"
+      "https://npb.jp/bis/players/01305132.html",
+      "https://www.mlb.com/player/684007"
     ],
     "teamHistory": [
       {
@@ -11778,6 +13634,11 @@
         "team": "シカゴ・カブス",
         "years": "2024-",
         "highlight": "2024年1月にポスティングで4年総額5300万ドル(約77億円、日本人選手渡米時歴代5位)で契約しメジャーデビュー。ルーキーながら15勝3敗・防御率2.91・174奪三振の好成績で7月にオールスターに選出され、日本人新人投手としては1995年の野茂英雄以来29年ぶりの快挙となった。9月5日には継投によるノーヒットノーランにも貢献し、11月にはメジャー1年目の投手として史上初となるオールMLBチーム(セカンドチーム)にも選出、新人王投票4位・サイ・ヤング賞投票5位の評価を受けた。2025年は離脱を経験しながらも9勝8敗・防御率3.73でチームのポストシーズン進出に貢献し、同年11月には単年2202万5000ドル(約34億円)のクオリファイング・オファーを受諾。日本人選手として史上初のQO受諾で2026年もカブスに残留した。"
+      },
+      {
+        "team": "シカゴ・カブス（MLB）",
+        "years": "2024-2026",
+        "highlight": "メジャーで86試合に登板し、35勝21敗・465奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1993-09-01",
@@ -11931,6 +13792,42 @@
         "strikeouts": 174,
         "inningsPitched": 148.0,
         "team": "DeNA"
+      },
+      {
+        "season": "2024",
+        "games": 29,
+        "wins": 15,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.91,
+        "eraDisplay": "2.91",
+        "strikeouts": 174,
+        "inningsPitched": 173.1,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 25,
+        "wins": 9,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.73,
+        "eraDisplay": "3.73",
+        "strikeouts": 117,
+        "inningsPitched": 144.2,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 32,
+        "wins": 11,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.77,
+        "eraDisplay": "3.77",
+        "strikeouts": 174,
+        "inningsPitched": 174.1,
+        "team": "カブス(MLB)"
       }
     ]
   },
@@ -11961,7 +13858,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/菊池雄星",
-      "https://npb.jp/bis/players/51755131.html"
+      "https://npb.jp/bis/players/51755131.html",
+      "https://www.mlb.com/player/579328"
     ],
     "teamHistory": [
       {
@@ -11988,6 +13886,26 @@
         "team": "ロサンゼルス・エンゼルス",
         "years": "2025-",
         "highlight": "3年総額6300万ドルで加入。2025年に開幕投手を務め、今永昇太・山本由伸と共に同一シーズンで日本人投手3人がそれぞれ開幕投手を務めるメジャー史上初の一角を担った。7勝11敗ながら防御率3.99・174奪三振で自身2度目のオールスターに選出された。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2019-2021",
+        "highlight": "メジャーで70試合に登板し、15勝24敗・326奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "トロント・ブルージェイズ（MLB）",
+        "years": "2022-2024",
+        "highlight": "メジャーで86試合に登板し、21勝22敗・1セーブ・435奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ヒューストン・アストロズ（MLB）",
+        "years": "2024",
+        "highlight": "メジャーで10試合に登板し、5勝1敗・76奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ロサンゼルス・エンゼルス（MLB）",
+        "years": "2025-2026",
+        "highlight": "メジャーで47試合に登板し、8勝18敗・241奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1991-06-17",
@@ -12136,6 +14054,114 @@
         "strikeouts": 153,
         "inningsPitched": 163.2,
         "team": "西武"
+      },
+      {
+        "season": "2019",
+        "games": 32,
+        "wins": 6,
+        "losses": 11,
+        "saves": 0,
+        "era": 5.46,
+        "eraDisplay": "5.46",
+        "strikeouts": 116,
+        "inningsPitched": 161.2,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2020",
+        "games": 9,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 5.17,
+        "eraDisplay": "5.17",
+        "strikeouts": 47,
+        "inningsPitched": 47.0,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2021",
+        "games": 29,
+        "wins": 7,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.41,
+        "eraDisplay": "4.41",
+        "strikeouts": 163,
+        "inningsPitched": 157.0,
+        "team": "マリナーズ(MLB)"
+      },
+      {
+        "season": "2022",
+        "games": 32,
+        "wins": 6,
+        "losses": 7,
+        "saves": 1,
+        "era": 5.19,
+        "eraDisplay": "5.19",
+        "strikeouts": 124,
+        "inningsPitched": 100.2,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 32,
+        "wins": 11,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 181,
+        "inningsPitched": 167.2,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 22,
+        "wins": 4,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.75,
+        "eraDisplay": "4.75",
+        "strikeouts": 130,
+        "inningsPitched": 115.2,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2024",
+        "games": 10,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.7,
+        "eraDisplay": "2.70",
+        "strikeouts": 76,
+        "inningsPitched": 60.0,
+        "team": "アストロズ(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 33,
+        "wins": 7,
+        "losses": 11,
+        "saves": 0,
+        "era": 3.99,
+        "eraDisplay": "3.99",
+        "strikeouts": 174,
+        "inningsPitched": 178.1,
+        "team": "エンゼルス(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 14,
+        "wins": 1,
+        "losses": 7,
+        "saves": 0,
+        "era": 4.92,
+        "eraDisplay": "4.92",
+        "strikeouts": 67,
+        "inningsPitched": 67.2,
+        "team": "エンゼルス(MLB)"
       }
     ]
   },
@@ -12167,7 +14193,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/藤浪晋太郎",
-      "https://npb.jp/bis/players/41045137.html"
+      "https://npb.jp/bis/players/41045137.html",
+      "https://www.mlb.com/player/660261"
     ],
     "teamHistory": [
       {
@@ -12199,6 +14226,16 @@
         "team": "横浜DeNAベイスターズ",
         "years": "2025-",
         "highlight": "2025年7月に3年ぶりの日本球界復帰を果たし背番号27を着用。復帰戦では最速156km/hを計測し剛速球健在をアピールした。復帰後の2025年は6試合に登板し1勝・防御率4.09だった。"
+      },
+      {
+        "team": "オークランド・アスレチックス（MLB）",
+        "years": "2023",
+        "highlight": "メジャーで34試合に登板し、5勝8敗・51奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "ボルチモア・オリオールズ（MLB）",
+        "years": "2023",
+        "highlight": "メジャーで30試合に登板し、2勝0敗・2セーブ・32奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1994-04-12",
@@ -12371,6 +14408,30 @@
         "strikeouts": 65,
         "inningsPitched": 66.2,
         "team": "阪神"
+      },
+      {
+        "season": "2023",
+        "games": 34,
+        "wins": 5,
+        "losses": 8,
+        "saves": 0,
+        "era": 8.57,
+        "eraDisplay": "8.57",
+        "strikeouts": 51,
+        "inningsPitched": 49.1,
+        "team": "アスレチックス(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 30,
+        "wins": 2,
+        "losses": 0,
+        "saves": 2,
+        "era": 4.85,
+        "eraDisplay": "4.85",
+        "strikeouts": 32,
+        "inningsPitched": 29.2,
+        "team": "オリオールズ(MLB)"
       }
     ]
   },
@@ -12402,7 +14463,8 @@
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/平野佳寿",
       "https://npb.jp/bis/players/81285112.html",
-      "https://pacificleague.com/news/2026/8/10053595"
+      "https://pacificleague.com/news/2026/8/10053595",
+      "https://www.mlb.com/player/673633"
     ],
     "teamHistory": [
       {
@@ -12424,6 +14486,16 @@
         "team": "オリックス・バファローズ",
         "years": "2021-2026",
         "highlight": "2021年にパ・リーグ25年ぶりの優勝に貢献し29セーブをマーク。2022年に日米通算200セーブを日本人6人目の快挙で達成、2023年には日米通算250セーブを記録して日本プロ野球名球会入りの資格を得た。2026年8月9日に今シーズン限りでの現役引退を発表し、最終的に日米通算258セーブという記録を残して9月25日に京セラドーム大阪で引退セレモニーを迎える。"
+      },
+      {
+        "team": "アリゾナ・ダイヤモンドバックス（MLB）",
+        "years": "2018-2019",
+        "highlight": "メジャーで137試合に登板し、9勝8敗・4セーブ・120奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "シアトル・マリナーズ（MLB）",
+        "years": "2020",
+        "highlight": "メジャーで13試合に登板し、0勝1敗・4セーブ・11奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1984-03-08",
@@ -12625,6 +14697,42 @@
         "team": "オリックス"
       },
       {
+        "season": "2018",
+        "games": 75,
+        "wins": 4,
+        "losses": 3,
+        "saves": 3,
+        "era": 2.44,
+        "eraDisplay": "2.44",
+        "strikeouts": 59,
+        "inningsPitched": 66.1,
+        "team": "ダイヤモンドバックス(MLB)"
+      },
+      {
+        "season": "2019",
+        "games": 62,
+        "wins": 5,
+        "losses": 5,
+        "saves": 1,
+        "era": 4.75,
+        "eraDisplay": "4.75",
+        "strikeouts": 61,
+        "inningsPitched": 53.0,
+        "team": "ダイヤモンドバックス(MLB)"
+      },
+      {
+        "season": "2020",
+        "games": 13,
+        "wins": 0,
+        "losses": 1,
+        "saves": 4,
+        "era": 5.84,
+        "eraDisplay": "5.84",
+        "strikeouts": 11,
+        "inningsPitched": 12.1,
+        "team": "マリナーズ(MLB)"
+      },
+      {
         "season": "2021",
         "games": 46,
         "wins": 1,
@@ -12724,7 +14832,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/新庄剛志",
-      "https://npb.jp/bis/players/01903881.html"
+      "https://npb.jp/bis/players/01903881.html",
+      "https://www.mlb.com/player/400101"
     ],
     "teamHistory": [
       {
@@ -12751,6 +14860,16 @@
         "team": "北海道日本ハムファイターズ",
         "years": "2004-2006",
         "highlight": "日本球界に復帰し、2004年のオールスターゲームでは球宴史上初となる延長タイブレークでの単独本盗による決勝点でMVPを獲得。NPB通算1000安打・1000試合出場を達成し、派手なパフォーマンスで球団の人気を押し上げた。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2001・2003",
+        "highlight": "メジャーで185試合に出場し、11本塁打・63打点・4盗塁（MLB公式記録）。"
+      },
+      {
+        "team": "サンフランシスコ・ジャイアンツ（MLB）",
+        "years": "2002",
+        "highlight": "メジャーで118試合に出場し、9本塁打・37打点・5盗塁（MLB公式記録）。"
       }
     ],
     "birthDate": "1972-01-28",
@@ -12920,6 +15039,39 @@
         "team": "阪神"
       },
       {
+        "season": "2001",
+        "games": 123,
+        "avg": 0.268,
+        "avgDisplay": ".268",
+        "hr": 10,
+        "rbi": 56,
+        "stolenBases": 4,
+        "ops": 0.725,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2002",
+        "games": 118,
+        "avg": 0.238,
+        "avgDisplay": ".238",
+        "hr": 9,
+        "rbi": 37,
+        "stolenBases": 5,
+        "ops": 0.664,
+        "team": "ジャイアンツ(MLB)"
+      },
+      {
+        "season": "2003",
+        "games": 62,
+        "avg": 0.193,
+        "avgDisplay": ".193",
+        "hr": 1,
+        "rbi": 7,
+        "stolenBases": 0,
+        "ops": 0.484,
+        "team": "メッツ(MLB)"
+      },
+      {
         "season": "2004",
         "games": 123,
         "avg": 0.298,
@@ -12982,7 +15134,8 @@
     ],
     "sourceUrls": [
       "https://ja.wikipedia.org/wiki/伊良部秀輝",
-      "https://npb.jp/bis/players/21223866.html"
+      "https://npb.jp/bis/players/21223866.html",
+      "https://www.mlb.com/player/116400"
     ],
     "teamHistory": [
       {
@@ -13009,6 +15162,21 @@
         "team": "阪神タイガース",
         "years": "2003-2004",
         "highlight": "2003年、7年ぶりのNPB復帰1年目から前半戦9勝2敗と好投し、18年ぶりのリーグ優勝に貢献。7年ぶりのオールスター出場も果たしたが、2004年は制球難に苦しみシーズン途中で戦力外となった。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "1997-1999",
+        "highlight": "メジャーで74試合に登板し、29勝20敗・315奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "モントリオール・エクスポズ（MLB）",
+        "years": "2000-2001",
+        "highlight": "メジャーで14試合に登板し、2勝7敗・60奪三振（MLB公式記録）。"
+      },
+      {
+        "team": "テキサス・レンジャーズ（MLB）",
+        "years": "2002",
+        "highlight": "メジャーで38試合に登板し、3勝8敗・16セーブ・30奪三振（MLB公式記録）。"
       }
     ],
     "birthDate": "1969-05-05",
@@ -13185,6 +15353,78 @@
         "strikeouts": 167,
         "inningsPitched": 157.1,
         "team": "ロッテ"
+      },
+      {
+        "season": "1997",
+        "games": 13,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 7.09,
+        "eraDisplay": "7.09",
+        "strikeouts": 56,
+        "inningsPitched": 53.1,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "1998",
+        "games": 29,
+        "wins": 13,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.06,
+        "eraDisplay": "4.06",
+        "strikeouts": 126,
+        "inningsPitched": 173.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "1999",
+        "games": 32,
+        "wins": 11,
+        "losses": 7,
+        "saves": 0,
+        "era": 4.84,
+        "eraDisplay": "4.84",
+        "strikeouts": 133,
+        "inningsPitched": 169.1,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2000",
+        "games": 11,
+        "wins": 2,
+        "losses": 5,
+        "saves": 0,
+        "era": 7.24,
+        "eraDisplay": "7.24",
+        "strikeouts": 42,
+        "inningsPitched": 54.2,
+        "team": "エクスポズ(MLB)"
+      },
+      {
+        "season": "2001",
+        "games": 3,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 4.86,
+        "eraDisplay": "4.86",
+        "strikeouts": 18,
+        "inningsPitched": 16.2,
+        "team": "エクスポズ(MLB)"
+      },
+      {
+        "season": "2002",
+        "games": 38,
+        "wins": 3,
+        "losses": 8,
+        "saves": 16,
+        "era": 5.74,
+        "eraDisplay": "5.74",
+        "strikeouts": 30,
+        "inningsPitched": 47.0,
+        "team": "レンジャーズ(MLB)"
       }
     ]
   },

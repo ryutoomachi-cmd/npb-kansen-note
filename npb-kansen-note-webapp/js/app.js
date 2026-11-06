@@ -199,7 +199,7 @@
     if (LEGENDS) return Promise.resolve(LEGENDS);
     if (!legendsLoadPromise) {
       legendsLoadFailed = false;
-      legendsLoadPromise = fetchWithCache("legends_v2", "data/legends.json").then(function (list) {
+      legendsLoadPromise = fetchWithCache("legends_v3", "data/legends.json").then(function (list) {
         LEGENDS = list || [];
         return LEGENDS;
       }).catch(function (err) {
@@ -270,7 +270,7 @@
       forceFetchJson("data/relations.json").then(function (d) { cacheWrite("relations", d); return d; }),
       forceFetchJson("data/schedule.json").then(function (d) { cacheWrite("schedule", d); return d; }),
       forceFetchJson("data/news.json").then(function (d) { cacheWrite("news", d); return d; }),
-      forceFetchJson("data/legends.json").then(function (d) { cacheWrite("legends_v2", d); return d; })
+      forceFetchJson("data/legends.json").then(function (d) { cacheWrite("legends_v3", d); return d; })
         .catch(function () { return null; }) // レジェンドが無くても致命的ではないので個別に握りつぶす
     ];
 
@@ -3141,6 +3141,8 @@
             var metaBits = [];
             if (s.games != null) metaBits.push((pitcher ? "登板" : "出場") + s.games + "試合");
             if (!pitcher && s.ops != null) metaBits.push("OPS " + s.ops.toFixed(3));
+            // 二刀流（大谷翔平など）：投手の行に打者の成績もある年は、それも添える
+            if (pitcher && s.batGames != null) metaBits.push("打者：打率" + (s.avgDisplay || "-") + "・" + s.hr + "本塁打・" + (s.rbi != null ? s.rbi : "-") + "打点");
             var teamLabel = seasonTeamLabel(p, s);
             if (teamLabel) metaBits.push(teamLabel);
             return (
@@ -3203,6 +3205,8 @@
             var metaBits = [];
             if (s.games != null) metaBits.push((pitcher ? "登板" : "出場") + s.games + "試合");
             if (!pitcher && s.ops != null) metaBits.push("OPS " + s.ops.toFixed(3));
+            // 二刀流（大谷翔平など）：投手の行に打者の成績もある年は、それも添える
+            if (pitcher && s.batGames != null) metaBits.push("打者：打率" + (s.avgDisplay || "-") + "・" + s.hr + "本塁打・" + (s.rbi != null ? s.rbi : "-") + "打点");
             var teamLabel = seasonTeamLabel(leg, s);
             if (teamLabel) metaBits.push(teamLabel);
             return (
