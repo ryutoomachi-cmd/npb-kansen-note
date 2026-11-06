@@ -9612,7 +9612,7 @@
       "losses": 4,
       "saves": 0,
       "strikeouts": 179,
-      "inningsPitched": "197.2",
+      "inningsPitched": 197.2,
       "games": 25
     },
     "careerHighlight": "新人ながら「サンデー上原」と呼ばれた1999年に20勝4敗・防御率2.09を記録し、新人王・最多勝・最優秀防御率など投手四冠に輝き沢村賞も受賞した。2009年にオリオールズへ移籍し、渡米後はレッドソックスの守護神として世界一に貢献した。",
@@ -25061,6 +25061,2325 @@
       "https://npb.jp/bis/players/61963888.html",
       "https://www.baseball-reference.com/players/f/fukudko01.shtml",
       "https://ja.wikipedia.org/wiki/福留孝介"
+    ]
+  },
+  {
+    "id": "legend-kobayashi-masahide",
+    "name": "小林雅英",
+    "nameKana": "こばやし まさひで",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "抑え",
+    "peakTeam": "千葉ロッテマリーンズ",
+    "activeYears": "1999-2011",
+    "birthDate": "1974-05-24",
+    "bestSeason": {
+      "year": "2002",
+      "era": 0.83,
+      "eraDisplay": "0.83",
+      "wins": 2,
+      "losses": 1,
+      "saves": 37,
+      "strikeouts": 41,
+      "inningsPitched": 43.1,
+      "games": 43
+    },
+    "careerHighlight": "ロッテの守護神として2001年から2007年まで日本プロ野球史上初の7年連続20セーブを記録し、2002年には33試合連続セーブポイントのプロ野球新記録を樹立した。2005年には最多セーブ投手となり、31年ぶりのリーグ優勝と日本一で胴上げ投手を務めた。2008年からはインディアンスでメジャーに挑戦した。",
+    "titles": [
+      "最多セーブ投手(2005)",
+      "セ・パ交流戦MVP(2006)",
+      "月間MVP2回(2001年6月、2002年7月)",
+      "オールスターゲーム出場5回",
+      "アテネ五輪 銅メダル(2004・日本代表)"
+    ],
+    "teamHistory": [
+      {
+        "team": "千葉ロッテマリーンズ",
+        "years": "1999-2007",
+        "highlight": "1998年ドラフト1位で入団。2000年途中から抑えに定着し11勝14セーブ。2002年は17試合連続セーブ(パ・リーグ記録)、33試合連続セーブポイント(プロ野球新記録)を樹立し、37セーブ・防御率0.83。2003年には日本人最速の222試合目で通算100セーブ、2006年に通算200セーブを達成した。2005年は29セーブで最多セーブ投手となり、薮田安彦・藤田宗一とともに「YFK」と呼ばれた。"
+      },
+      {
+        "team": "クリーブランド・インディアンス（MLB）",
+        "years": "2008-2009",
+        "highlight": "2007年オフにFA権を行使して2年契約で移籍。2008年4月26日のヤンキース戦でメジャー初登板・初勝利を挙げ、主に中継ぎとして57試合に登板し4勝5敗6セーブ・防御率4.53。2009年は10試合で防御率8.38と不振に陥り、7月に契約を解除された。"
+      },
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2010",
+        "highlight": "日本復帰し中継ぎとして起用され、4月3日の広島戦で復帰後初セーブ(これが現役最後のセーブ)を挙げたが、12試合・防御率5.14に終わり戦力外となった。"
+      },
+      {
+        "team": "オリックス・バファローズ",
+        "years": "2011",
+        "highlight": "12球団合同トライアウトで好投して入団。開幕一軍入りしたが6試合・防御率13.50に終わり、同年限りで現役を引退した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "高校・大学時代",
+        "title": "山梨・都留高から日体大へ",
+        "description": "山梨県大月市出身。都留高校では1年からエースを務めたが甲子園出場はならなかった。高校野球の指導者を目指して日本体育大学に進み、首都大学リーグで通算16勝7敗・防御率2.40を記録した。"
+      },
+      {
+        "period": "社会人時代",
+        "title": "東京ガスで2年、ラストチャンスでプロへ",
+        "description": "「2年で声がかからなければ野球をやめる」つもりで東京ガスに入社。2年目に都市対抗の補強選手に選ばれ、1998年のドラフト会議で千葉ロッテから1位指名を受けた。"
+      },
+      {
+        "period": "1999年〜2001年",
+        "title": "先発から守護神へ",
+        "description": "1年目は後半戦から先発で5勝。2000年は序盤の先発で3連敗した後に中継ぎへ回り、やがて抑えに固定されて11勝14セーブ。2001年にはプロ野球新記録の6日間連続セーブを挙げた。"
+      },
+      {
+        "period": "2002年〜2007年",
+        "title": "7年連続20セーブの鉄腕クローザー",
+        "description": "2002年に防御率0.83・37セーブ、33試合連続セーブポイントの新記録。2005年は最多セーブ投手として日本一に貢献し、2007年まで日本初の7年連続20セーブを続けた。"
+      },
+      {
+        "period": "2008年〜2009年",
+        "title": "インディアンスでメジャー挑戦",
+        "description": "FA権を行使してクリーブランド・インディアンスと契約。1年目は57試合に登板したが、2年目に不振で降格し、7月に契約解除となった。"
+      },
+      {
+        "period": "2010年〜引退後",
+        "title": "巨人・オリックスを経て指導者に",
+        "description": "巨人、オリックスでプレーし2011年に引退。その後はオリックスの育成・二軍投手コーチ、ロッテの一軍投手コーチを務め、解説者や社会人・大学野球のコーチとしても活動している。"
+      }
+    ],
+    "episodes": [
+      "2000年7月2日のオリックス戦で、小林が投じた2球目が暴投になり、三塁を狙った一塁走者のイチローがアウトになって攻撃が終了。直後にロッテが勝ち越したため、小林は打者と1人も対戦しないまま勝利投手になった。これはプロ野球史上初めての「打者0人での勝利投手」として記録に残っている。",
+      "2002年は5月21日から8月5日まで17試合連続セーブのパ・リーグ記録をつくり、さらに10月17日まで33試合連続でセーブポイントを挙げて、佐々木主浩の持っていた22試合連続の記録を大きく塗り替えた。この年は44試合で37セーブ、防御率0.83という抜群の成績だった。",
+      "2005年は、プレーオフ第2ステージ第5戦、阪神との日本シリーズ第4戦、そしてアジアシリーズの三星戦と、3度も胴上げ投手になった。ピンチを招きながらも最後は抑える投球から「劇場型」とも呼ばれ、本人は「どんな形でも最後に勝って試合が終わればいい」と語っている。",
+      "2011年4月27日のロッテ戦で、オリックスのリリーフとして「小林」の名前がコールされたのに、リリーフカーに乗って出てきたのは吉野誠投手だった。ブルペンでコーチが指名を間違えたためで、吉野はそのままベンチへ戻り、小林が外野のポール際から走ってマウンドへ向かうという珍しい場面になった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1999",
+        "games": 46,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.68,
+        "eraDisplay": "2.68",
+        "strikeouts": 107,
+        "inningsPitched": 124.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2000",
+        "games": 65,
+        "wins": 11,
+        "losses": 6,
+        "saves": 14,
+        "era": 2.13,
+        "eraDisplay": "2.13",
+        "strikeouts": 72,
+        "inningsPitched": 109.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2001",
+        "games": 48,
+        "wins": 0,
+        "losses": 4,
+        "saves": 33,
+        "era": 4.33,
+        "eraDisplay": "4.33",
+        "strikeouts": 47,
+        "inningsPitched": 52.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2002",
+        "games": 43,
+        "wins": 2,
+        "losses": 1,
+        "saves": 37,
+        "era": 0.83,
+        "eraDisplay": "0.83",
+        "strikeouts": 41,
+        "inningsPitched": 43.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2003",
+        "games": 44,
+        "wins": 0,
+        "losses": 2,
+        "saves": 33,
+        "era": 2.87,
+        "eraDisplay": "2.87",
+        "strikeouts": 30,
+        "inningsPitched": 47.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2004",
+        "games": 51,
+        "wins": 8,
+        "losses": 5,
+        "saves": 20,
+        "era": 3.9,
+        "eraDisplay": "3.90",
+        "strikeouts": 50,
+        "inningsPitched": 57.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2005",
+        "games": 46,
+        "wins": 2,
+        "losses": 2,
+        "saves": 29,
+        "era": 2.58,
+        "eraDisplay": "2.58",
+        "strikeouts": 33,
+        "inningsPitched": 45.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2006",
+        "games": 53,
+        "wins": 6,
+        "losses": 2,
+        "saves": 34,
+        "era": 2.68,
+        "eraDisplay": "2.68",
+        "strikeouts": 48,
+        "inningsPitched": 53.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2007",
+        "games": 49,
+        "wins": 2,
+        "losses": 7,
+        "saves": 27,
+        "era": 3.61,
+        "eraDisplay": "3.61",
+        "strikeouts": 35,
+        "inningsPitched": 47.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2008",
+        "games": 57,
+        "wins": 4,
+        "losses": 5,
+        "saves": 6,
+        "era": 4.53,
+        "eraDisplay": "4.53",
+        "strikeouts": 35,
+        "inningsPitched": 55.2,
+        "team": "インディアンス(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 10,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 8.38,
+        "eraDisplay": "8.38",
+        "strikeouts": 4,
+        "inningsPitched": 9.2,
+        "team": "インディアンス(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 12,
+        "wins": 0,
+        "losses": 0,
+        "saves": 1,
+        "era": 5.14,
+        "eraDisplay": "5.14",
+        "strikeouts": 2,
+        "inningsPitched": 14.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2011",
+        "games": 6,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 13.5,
+        "eraDisplay": "13.50",
+        "strikeouts": 0,
+        "inningsPitched": 4.2,
+        "team": "オリックス"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/61563888.html",
+      "https://www.baseball-reference.com/players/k/kobayma01.shtml",
+      "https://ja.wikipedia.org/wiki/小林雅英"
+    ]
+  },
+  {
+    "id": "legend-yabuta-yasuhiko",
+    "name": "薮田安彦",
+    "nameKana": "やぶた やすひこ",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "中継ぎ・抑え",
+    "peakTeam": "千葉ロッテマリーンズ",
+    "activeYears": "1996-2013",
+    "birthDate": "1973-06-19",
+    "bestSeason": {
+      "year": "2011",
+      "era": 1.75,
+      "eraDisplay": "1.75",
+      "wins": 1,
+      "losses": 2,
+      "saves": 31,
+      "strikeouts": 57,
+      "inningsPitched": 56.2,
+      "games": 53
+    },
+    "careerHighlight": "先発で伸び悩んだのち2004年に中継ぎへ転向して開花し、2005年は「YFK」の一角としてロッテの31年ぶりのリーグ優勝と日本一に貢献、2007年には最優秀中継ぎ投手に輝いた。2008年からロイヤルズでプレーし、ロッテ復帰後の2011年には抑えとして31セーブを挙げた。",
+    "titles": [
+      "最優秀中継ぎ投手(2007)",
+      "WBC優勝(2006・日本代表)",
+      "オールスターゲーム出場2回(2005、2007)"
+    ],
+    "teamHistory": [
+      {
+        "team": "千葉ロッテマリーンズ",
+        "years": "1996-2007",
+        "highlight": "1995年ドラフト2位(逆指名)で入団。先発として1年目に完封勝利を挙げたが勝ち越せない年が続いた。2004年に中継ぎに転向するとリーグ最多の66試合に登板し防御率2.79。2005年は小林雅英・藤田宗一と「YFK」を形成し、プレーオフと日本シリーズで計8試合を全て1イニング無失点に抑えて日本一に貢献。2007年は最優秀中継ぎ投手を獲得した。"
+      },
+      {
+        "team": "カンザスシティ・ロイヤルズ（MLB）",
+        "years": "2008-2009",
+        "highlight": "海外FA権を行使して2年契約で移籍。2008年は31試合に登板し1勝3敗・防御率4.78。2009年は開幕をAAA級オマハで迎え、8月にメジャーへ昇格して12試合に登板した。"
+      },
+      {
+        "team": "千葉ロッテマリーンズ(復帰)",
+        "years": "2010-2013",
+        "highlight": "2010年はセットアッパーとして63試合に登板し、クライマックスシリーズから日本シリーズまで7試合・10イニングで自責点0と好投して日本一に貢献。2011年は抑えとして31セーブ・防御率1.75、2012年も26セーブを挙げた。2013年は右肩痛で一軍登板がなく、同年限りで引退した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "上宮高校時代",
+        "title": "控え投手だった高校時代",
+        "description": "大阪の上宮高校では主に控え投手。1年夏に甲子園のベンチに入ったが、後輩の西浦克拓らの陰に隠れ目立つ存在ではなかった。1学年下には黒田博樹がいた。"
+      },
+      {
+        "period": "新日本製鐵広畑時代",
+        "title": "社会人で力をつけプロへ",
+        "description": "新日本製鐵広畑で球速と変化球を磨き、1995年の日本選手権では全試合に先発してベスト8。同年のドラフトで千葉ロッテを逆指名し2位で入団した。"
+      },
+      {
+        "period": "1996年〜2003年",
+        "title": "先発での苦しい日々",
+        "description": "1年目に完封勝利を挙げ、1997年には規定投球回にも到達したが、勝ち越したシーズンはなかった。2000年や2002年は数試合の登板にとどまった。"
+      },
+      {
+        "period": "2004年〜2007年",
+        "title": "中継ぎ転向で「YFK」の一角に",
+        "description": "2004年に中継ぎへ転向すると球速が150km/h近くまで上がり、リーグ最多66試合に登板。2005年は日本一、2006年はWBC優勝、2007年は最優秀中継ぎ投手と、球界を代表するリリーフになった。"
+      },
+      {
+        "period": "2008年〜2009年",
+        "title": "ロイヤルズでメジャー挑戦",
+        "description": "カンザスシティ・ロイヤルズと2年契約。メジャーとマイナーを行き来し、2年間で43試合に登板した。"
+      },
+      {
+        "period": "2010年〜引退後",
+        "title": "ロッテに戻り守護神、そして解説者へ",
+        "description": "ロッテ復帰後は2010年の日本一に貢献し、2011年からは抑えを務めた。2013年に引退し、その後は野球解説者や大学・社会人野球の指導者として活動している。"
+      }
+    ],
+    "episodes": [
+      "2006年の第1回WBCのアメリカ戦で、薮田はピンチの場面でアレックス・ロドリゲスから三振を奪った。さらにタッチアップをめぐる「誤審」があった次の回という苦しい場面でも、デレク・リーとジョニー・デイモンから三振を奪う完璧な投球を見せた。この大会では中継ぎで4試合に登板し、日本の優勝に貢献した。",
+      "2005年、小林雅英・藤田宗一とともに勝ちパターンを担い、3人の頭文字から「YFK」と呼ばれた。プレーオフと日本シリーズでは合わせて8試合に登板し、すべて1イニングを無失点に抑えて、ロッテの31年ぶりの優勝と日本一を支えた。",
+      "2010年、ロッテはリーグ3位からクライマックスシリーズを勝ち上がって日本一になった。薮田はこのポストシーズンで7試合・10イニングを投げて自責点0という見事な投球で、日本一を支えた。さらに11月13日、東京ドームでのSKワイバーンズとの日韓クラブチャンピオンシップでも2番手で登板してホールドを記録し、勝利に貢献した。",
+      "2013年10月6日、本拠地最終戦のあとに小野晋吾とともに引退セレモニーが行われた。薮田はマウンドに立ち、打席に入ったサブローを三球三振に打ち取ったあと、チームメイトに胴上げされてグラウンドを一周した。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1996",
+        "games": 18,
+        "wins": 4,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.62,
+        "eraDisplay": "3.62",
+        "strikeouts": 58,
+        "inningsPitched": 92.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "1997",
+        "games": 25,
+        "wins": 5,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.94,
+        "eraDisplay": "3.94",
+        "strikeouts": 74,
+        "inningsPitched": 146.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "1998",
+        "games": 17,
+        "wins": 2,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.84,
+        "eraDisplay": "4.84",
+        "strikeouts": 45,
+        "inningsPitched": 100.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "1999",
+        "games": 12,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.89,
+        "eraDisplay": "4.89",
+        "strikeouts": 33,
+        "inningsPitched": 57.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2000",
+        "games": 2,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 13.5,
+        "eraDisplay": "13.50",
+        "strikeouts": 3,
+        "inningsPitched": 6.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2001",
+        "games": 27,
+        "wins": 4,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.88,
+        "eraDisplay": "3.88",
+        "strikeouts": 70,
+        "inningsPitched": 97.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2002",
+        "games": 3,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 8.74,
+        "eraDisplay": "8.74",
+        "strikeouts": 8,
+        "inningsPitched": 11.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2003",
+        "games": 17,
+        "wins": 5,
+        "losses": 6,
+        "saves": 0,
+        "era": 5.9,
+        "eraDisplay": "5.90",
+        "strikeouts": 44,
+        "inningsPitched": 68.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2004",
+        "games": 66,
+        "wins": 3,
+        "losses": 4,
+        "saves": 2,
+        "era": 2.79,
+        "eraDisplay": "2.79",
+        "strikeouts": 71,
+        "inningsPitched": 77.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2005",
+        "games": 51,
+        "wins": 7,
+        "losses": 4,
+        "saves": 2,
+        "era": 3.07,
+        "eraDisplay": "3.07",
+        "strikeouts": 54,
+        "inningsPitched": 55.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2006",
+        "games": 47,
+        "wins": 4,
+        "losses": 2,
+        "saves": 1,
+        "era": 2.62,
+        "eraDisplay": "2.62",
+        "strikeouts": 48,
+        "inningsPitched": 55.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2007",
+        "games": 58,
+        "wins": 4,
+        "losses": 6,
+        "saves": 4,
+        "era": 2.73,
+        "eraDisplay": "2.73",
+        "strikeouts": 45,
+        "inningsPitched": 62.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2008",
+        "games": 31,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.78,
+        "eraDisplay": "4.78",
+        "strikeouts": 25,
+        "inningsPitched": 37.2,
+        "team": "ロイヤルズ(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 12,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "era": 13.5,
+        "eraDisplay": "13.50",
+        "strikeouts": 9,
+        "inningsPitched": 14.0,
+        "team": "ロイヤルズ(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 63,
+        "wins": 2,
+        "losses": 5,
+        "saves": 1,
+        "era": 3.15,
+        "eraDisplay": "3.15",
+        "strikeouts": 57,
+        "inningsPitched": 65.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2011",
+        "games": 53,
+        "wins": 1,
+        "losses": 2,
+        "saves": 31,
+        "era": 1.75,
+        "eraDisplay": "1.75",
+        "strikeouts": 57,
+        "inningsPitched": 56.2,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2012",
+        "games": 61,
+        "wins": 1,
+        "losses": 6,
+        "saves": 26,
+        "era": 3.34,
+        "eraDisplay": "3.34",
+        "strikeouts": 43,
+        "inningsPitched": 56.2,
+        "team": "ロッテ"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/71273882.html",
+      "https://www.baseball-reference.com/players/y/yabutya01.shtml",
+      "https://ja.wikipedia.org/wiki/薮田安彦"
+    ]
+  },
+  {
+    "id": "legend-fukumori-kazuo",
+    "name": "福盛和男",
+    "nameKana": "ふくもり かずお",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "抑え",
+    "peakTeam": "東北楽天ゴールデンイーグルス",
+    "activeYears": "1995-2010",
+    "birthDate": "1976-08-04",
+    "bestSeason": {
+      "year": "2006",
+      "era": 2.17,
+      "eraDisplay": "2.17",
+      "wins": 0,
+      "losses": 3,
+      "saves": 21,
+      "strikeouts": 55,
+      "inningsPitched": 58.0,
+      "games": 50
+    },
+    "careerHighlight": "横浜で先発・中継ぎとして活躍したのち、近鉄を経て新球団・楽天の初代クローザーとなり、球団初セーブを記録した。2008年にレンジャーズでメジャーデビューし、2009年に楽天へ復帰すると10セーブを挙げてチームの2位躍進に貢献した。",
+    "titles": [
+      "オールスターゲーム出場2回(2006、2007)"
+    ],
+    "teamHistory": [
+      {
+        "team": "横浜ベイスターズ",
+        "years": "1995-2003",
+        "highlight": "都城高校から1994年ドラフト3位で入団。1997年に権藤博コーチに見いだされて先発ローテーションに入り、プロ初勝利を挙げてチームの2位躍進に貢献した。1999年は9勝を挙げ、5月2日のヤクルト戦では12奪三振・無四球でプロ初完投勝利。2000年は抑えも務め10セーブ、2003年は自己最多の62試合に登板した。"
+      },
+      {
+        "team": "大阪近鉄バファローズ",
+        "years": "2004",
+        "highlight": "トレードで移籍し、シーズン途中から抑えを任され43試合で10セーブを挙げた。オフの分配ドラフトで楽天へ移った。"
+      },
+      {
+        "team": "東北楽天ゴールデンイーグルス",
+        "years": "2005-2007",
+        "highlight": "球団の初代クローザーとして、2005年4月13日のソフトバンク戦で球団初セーブを記録。2006年は21セーブ・防御率2.17とキャリア最高の成績で、オールスターにも初出場した。2007年オフにFA権を行使し、楽天から初めてメジャーへ移籍した選手となった。"
+      },
+      {
+        "team": "テキサス・レンジャーズ（MLB）",
+        "years": "2008-2009",
+        "highlight": "2年契約で入団し、2008年3月31日のマリナーズ戦でメジャーデビュー。メジャーでは4試合・防御率20.25に終わり、5月にメジャー契約を外れた。10月に椎間板ヘルニアの手術を受け、2009年6月に本人の希望で解雇された。"
+      },
+      {
+        "team": "東北楽天ゴールデンイーグルス(復帰)",
+        "years": "2009-2010",
+        "highlight": "入団テストを経て復帰。シーズン途中からクローザーとして7勝1敗10セーブ・防御率2.18と活躍し、チームの2位躍進に貢献した。2010年は右肘を痛め、9月に現役引退を表明した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "都城高校時代",
+        "title": "九州ナンバーワン右腕",
+        "description": "宮崎県出身。都城高校では3年連続で宮崎大会決勝に進みながら甲子園には届かなかったが、九州ナンバーワン右腕と評価され、1994年のドラフトで横浜から3位指名を受けた。"
+      },
+      {
+        "period": "1995年〜2003年",
+        "title": "横浜で先発・中継ぎ・抑えをこなす",
+        "description": "1997年に先発ローテーションに入り初勝利。1998年は右肘の手術で出遅れたが優勝目前に復帰し、日本シリーズでも登板した。その後は先発・中継ぎ・抑えとさまざまな役割を担った。"
+      },
+      {
+        "period": "2004年〜2007年",
+        "title": "近鉄、そして楽天の初代守護神",
+        "description": "2004年に近鉄へ移籍し、球団合併に伴って新球団・楽天へ。2005年に球団初セーブを挙げ、2006年には21セーブを記録した。"
+      },
+      {
+        "period": "2008年〜2009年",
+        "title": "レンジャーズでメジャー挑戦",
+        "description": "FA権を行使してテキサス・レンジャーズと契約。メジャーでは4試合の登板にとどまり、故障もあって2009年6月に退団した。"
+      },
+      {
+        "period": "2009年〜2010年",
+        "title": "楽天復帰と引退",
+        "description": "入団テストに合格して楽天に復帰し、クローザーとして活躍。2010年に右肘の手術を受けたが回復せず、9月に引退を表明した。"
+      },
+      {
+        "period": "引退後",
+        "title": "故郷・宮崎でテレビの仕事",
+        "description": "会社経営などを経て宮崎に帰郷し、テレビ宮崎の報道スタッフやスポーツキャスターとして活動した。"
+      }
+    ],
+    "episodes": [
+      "メジャーから戻った2009年、福盛は楽天の入団テストを受けて合格した。球団の引き留めを断ってメジャーに行ったことから、野村克也監督は獲得に消極的だったが、福盛が監督の泊まるホテルに出向いて入団を直接お願いした。年俸は野球協約の最低額の440万円からの再出発だった。",
+      "2009年の福盛はクローザーとして7勝1敗10セーブ・防御率2.18と活躍し、楽天の2位躍進に貢献した。オフの契約更改では年俸が5000万円に上がり、上昇率は約1036％。1995年のイチローの900％を抜く史上最高の上昇率として話題になった。",
+      "一方、2009年10月21日のクライマックスシリーズ第2ステージ初戦では、4点リードの9回裏に登板したが、日本ハムのターメル・スレッジに逆転サヨナラ満塁本塁打を浴びるなど1/3回5失点と打ち込まれ、悔しい結末となった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1995",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 4,
+        "inningsPitched": 5.0,
+        "team": "横浜"
+      },
+      {
+        "season": "1996",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 1,
+        "inningsPitched": 1.0,
+        "team": "横浜"
+      },
+      {
+        "season": "1997",
+        "games": 25,
+        "wins": 4,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.9,
+        "eraDisplay": "2.90",
+        "strikeouts": 42,
+        "inningsPitched": 71.1,
+        "team": "横浜"
+      },
+      {
+        "season": "1998",
+        "games": 3,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.89,
+        "eraDisplay": "2.89",
+        "strikeouts": 13,
+        "inningsPitched": 18.2,
+        "team": "横浜"
+      },
+      {
+        "season": "1999",
+        "games": 30,
+        "wins": 9,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.27,
+        "eraDisplay": "4.27",
+        "strikeouts": 96,
+        "inningsPitched": 132.2,
+        "team": "横浜"
+      },
+      {
+        "season": "2000",
+        "games": 40,
+        "wins": 6,
+        "losses": 6,
+        "saves": 10,
+        "era": 3.58,
+        "eraDisplay": "3.58",
+        "strikeouts": 49,
+        "inningsPitched": 88.0,
+        "team": "横浜"
+      },
+      {
+        "season": "2001",
+        "games": 5,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.48,
+        "eraDisplay": "3.48",
+        "strikeouts": 23,
+        "inningsPitched": 31.0,
+        "team": "横浜"
+      },
+      {
+        "season": "2002",
+        "games": 33,
+        "wins": 2,
+        "losses": 3,
+        "saves": 2,
+        "era": 2.96,
+        "eraDisplay": "2.96",
+        "strikeouts": 47,
+        "inningsPitched": 48.2,
+        "team": "横浜"
+      },
+      {
+        "season": "2003",
+        "games": 62,
+        "wins": 1,
+        "losses": 3,
+        "saves": 1,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 34,
+        "inningsPitched": 60.0,
+        "team": "横浜"
+      },
+      {
+        "season": "2004",
+        "games": 43,
+        "wins": 2,
+        "losses": 5,
+        "saves": 10,
+        "era": 5.18,
+        "eraDisplay": "5.18",
+        "strikeouts": 27,
+        "inningsPitched": 48.2,
+        "team": "近鉄"
+      },
+      {
+        "season": "2005",
+        "games": 49,
+        "wins": 4,
+        "losses": 3,
+        "saves": 11,
+        "era": 3.57,
+        "eraDisplay": "3.57",
+        "strikeouts": 36,
+        "inningsPitched": 63.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2006",
+        "games": 50,
+        "wins": 0,
+        "losses": 3,
+        "saves": 21,
+        "era": 2.17,
+        "eraDisplay": "2.17",
+        "strikeouts": 55,
+        "inningsPitched": 58.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2007",
+        "games": 34,
+        "wins": 4,
+        "losses": 2,
+        "saves": 17,
+        "era": 4.75,
+        "eraDisplay": "4.75",
+        "strikeouts": 33,
+        "inningsPitched": 36.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2008",
+        "games": 4,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 20.25,
+        "eraDisplay": "20.25",
+        "strikeouts": 1,
+        "inningsPitched": 4.0,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2009",
+        "games": 35,
+        "wins": 7,
+        "losses": 1,
+        "saves": 10,
+        "era": 2.18,
+        "eraDisplay": "2.18",
+        "strikeouts": 34,
+        "inningsPitched": 45.1,
+        "team": "楽天"
+      },
+      {
+        "season": "2010",
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 45.0,
+        "eraDisplay": "45.00",
+        "strikeouts": 1,
+        "inningsPitched": 1.0,
+        "team": "楽天"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/41943880.html",
+      "https://www.baseball-reference.com/players/f/fukumka01.shtml",
+      "https://www.mlb.com/player/kazuo-fukumori-506429",
+      "https://ja.wikipedia.org/wiki/福盛和男"
+    ]
+  },
+  {
+    "id": "legend-kawakami-kenshin",
+    "name": "川上憲伸",
+    "nameKana": "かわかみ けんしん",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "中日ドラゴンズ",
+    "activeYears": "1998-2015",
+    "birthDate": "1975-06-22",
+    "bestSeason": {
+      "year": "2004",
+      "era": 3.32,
+      "eraDisplay": "3.32",
+      "wins": 17,
+      "losses": 7,
+      "saves": 0,
+      "strikeouts": 176,
+      "inningsPitched": 192.1,
+      "games": 27
+    },
+    "careerHighlight": "1998年に14勝で新人王を獲得し、2002年にはノーヒットノーランを達成。2004年は17勝で最多勝・沢村賞・MVPに輝き、中日の5年ぶりのリーグ優勝を支えたエースだった。2009年からはアトランタ・ブレーブス初の日本人選手として2年間メジャーで投げた。",
+    "titles": [
+      "最優秀選手(MVP)(2004)",
+      "沢村栄治賞(2004)",
+      "最多勝2回(2004、2006)",
+      "最多奪三振(2006)",
+      "新人王(1998)",
+      "ベストナイン2回(2004、2006)",
+      "ゴールデングラブ賞3回(2004、2006、2007)",
+      "ノーヒットノーラン(2002年8月1日)",
+      "オールスターゲームMVP(1998 第1戦)"
+    ],
+    "teamHistory": [
+      {
+        "team": "中日ドラゴンズ",
+        "years": "1998-2008",
+        "highlight": "1997年ドラフト1位(逆指名)で入団。1年目に14勝6敗・防御率2.57で新人王。2002年8月1日の巨人戦でノーヒットノーランを達成し、12勝・防御率2.35。2004年は17勝7敗で最多勝・沢村賞・MVPを獲得してリーグ優勝に貢献。2006年も17勝で最多勝・最多奪三振の2冠となり、再びリーグ優勝を果たした。"
+      },
+      {
+        "team": "アトランタ・ブレーブス（MLB）",
+        "years": "2009-2011",
+        "highlight": "3年契約で入団し、ブレーブス初の日本人選手となった。2009年4月11日のナショナルズ戦で先発し、メジャー初登板初勝利。この年は32試合(先発25)で7勝12敗・防御率3.86。2010年は援護に恵まれず開幕から9連敗するなど1勝10敗。2011年は右肩痛もありメジャーでの登板はなかった。"
+      },
+      {
+        "team": "中日ドラゴンズ(復帰)",
+        "years": "2012-2015",
+        "highlight": "背番号11で復帰し、2012年3月31日の広島戦で6回無失点の勝利。2014年には球団史上最多となる7度目の開幕投手を務めた。故障が続き、2015年10月に退団を表明した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "徳島商業高校時代",
+        "title": "遊撃手からエースへ",
+        "description": "徳島市出身。中学時代までは遊撃手で、徳島商業高校2年から投手に転向。1993年夏の甲子園に4番・エースとして出場し、2回戦では最大7点差をひっくり返す逆転勝ちを経験した。"
+      },
+      {
+        "period": "明治大学時代",
+        "title": "六大学のエース、そして主将",
+        "description": "明治大学では2年秋・3年秋の東京六大学リーグ優勝や明治神宮大会連覇に貢献。4年時には投手として19年ぶりに野球部の主将を務めた。"
+      },
+      {
+        "period": "1998年",
+        "title": "大学の先輩・星野監督の中日へ",
+        "description": "大学の先輩・星野仙一が監督を務める中日を逆指名して入団。1年目から14勝を挙げて新人王に選ばれ、オールスターでもMVPを獲得した。"
+      },
+      {
+        "period": "1999年〜2001年",
+        "title": "苦しんだ3年間とカットボールの誕生",
+        "description": "難聴の手術や肩の不調で成績が落ちたが、アメリカで肩の検査を受けた際にマリアノ・リベラのカットボールを見て習得を決意。のちの代名詞となる球を身につけた。"
+      },
+      {
+        "period": "2002年〜2008年",
+        "title": "ノーヒッターと沢村賞、球界のエースへ",
+        "description": "2002年にノーヒットノーラン、2004年に沢村賞とMVP、2006年に最多勝と最多奪三振。2008年には北京五輪の日本代表にも選ばれ、オフに海外FA権を行使した。"
+      },
+      {
+        "period": "2009年〜2011年",
+        "title": "ブレーブスでメジャー挑戦",
+        "description": "アトランタ・ブレーブスと3年契約。1年目は先発とリリーフで7勝を挙げたが、2年目は1勝10敗と苦しみ、3年目はマイナーで右肩痛に悩まされた。"
+      },
+      {
+        "period": "2012年〜引退後",
+        "title": "中日復帰、そして解説者に",
+        "description": "2012年に中日へ戻り、2014年には7度目の開幕投手。2015年に退団後もリハビリを続けたが、2017年3月に現役引退を表明し、その後は野球解説者として活動している。"
+      }
+    ],
+    "episodes": [
+      "2002年8月1日の巨人戦(東京ドーム)で、4回に清水隆行に四球を与えた以外は走者を許さず、ノーヒットノーランを達成した。21世紀初のノーヒットノーランで、チームの巨人戦の連敗も9で止めた。川上は「8回になると、それまでの野球人生が走馬灯のように蘇り、1球投げるのに30分かかっているように思えた」と振り返っている。",
+      "ルーキーだった1998年、オールスターにファン投票1位で出場。2イニングの予定だったが野村克也監督の指示でもう1イニング投げ、MVPに選ばれた。本人は「特大ホームランを打った松井秀喜選手かと思ったが、野村さんの一言がなければMVPはなかった」と語っている。",
+      "1999年から2001年にかけて不調に苦しんでいた川上は、アメリカで肩の検査とリハビリをしていた時にヤンキースの守護神マリアノ・リベラのカットボールを見て「あのボールは日本に無い。投げられるようにならないかな」と考えた。帰国後に練習を重ねて身につけたカットボールが、のちに沢村賞を取るまでの大きな武器になった。",
+      "ブレーブス1年目の2009年5月13日のメッツ戦で、控えの野手を使い切ったため延長12回に川上が代打に送られた。日本人のメジャー投手が代打で起用されたのは初めてで、相手投手は同じ日本人の高橋建だった。結果は空振り三振だった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1998",
+        "games": 26,
+        "wins": 14,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.57,
+        "eraDisplay": "2.57",
+        "strikeouts": 124,
+        "inningsPitched": 161.1,
+        "team": "中日"
+      },
+      {
+        "season": "1999",
+        "games": 29,
+        "wins": 8,
+        "losses": 9,
+        "saves": 1,
+        "era": 4.44,
+        "eraDisplay": "4.44",
+        "strikeouts": 102,
+        "inningsPitched": 162.0,
+        "team": "中日"
+      },
+      {
+        "season": "2000",
+        "games": 14,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.77,
+        "eraDisplay": "4.77",
+        "strikeouts": 24,
+        "inningsPitched": 60.1,
+        "team": "中日"
+      },
+      {
+        "season": "2001",
+        "games": 26,
+        "wins": 6,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.72,
+        "eraDisplay": "3.72",
+        "strikeouts": 127,
+        "inningsPitched": 145.0,
+        "team": "中日"
+      },
+      {
+        "season": "2002",
+        "games": 27,
+        "wins": 12,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.35,
+        "eraDisplay": "2.35",
+        "strikeouts": 149,
+        "inningsPitched": 187.2,
+        "team": "中日"
+      },
+      {
+        "season": "2003",
+        "games": 8,
+        "wins": 4,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.02,
+        "eraDisplay": "3.02",
+        "strikeouts": 37,
+        "inningsPitched": 53.2,
+        "team": "中日"
+      },
+      {
+        "season": "2004",
+        "games": 27,
+        "wins": 17,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.32,
+        "eraDisplay": "3.32",
+        "strikeouts": 176,
+        "inningsPitched": 192.1,
+        "team": "中日"
+      },
+      {
+        "season": "2005",
+        "games": 25,
+        "wins": 11,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.74,
+        "eraDisplay": "3.74",
+        "strikeouts": 138,
+        "inningsPitched": 180.1,
+        "team": "中日"
+      },
+      {
+        "season": "2006",
+        "games": 29,
+        "wins": 17,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.51,
+        "eraDisplay": "2.51",
+        "strikeouts": 194,
+        "inningsPitched": 215.0,
+        "team": "中日"
+      },
+      {
+        "season": "2007",
+        "games": 26,
+        "wins": 12,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.55,
+        "eraDisplay": "3.55",
+        "strikeouts": 145,
+        "inningsPitched": 167.1,
+        "team": "中日"
+      },
+      {
+        "season": "2008",
+        "games": 20,
+        "wins": 9,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.3,
+        "eraDisplay": "2.30",
+        "strikeouts": 112,
+        "inningsPitched": 117.1,
+        "team": "中日"
+      },
+      {
+        "season": "2009",
+        "games": 32,
+        "wins": 7,
+        "losses": 12,
+        "saves": 1,
+        "era": 3.86,
+        "eraDisplay": "3.86",
+        "strikeouts": 105,
+        "inningsPitched": 156.1,
+        "team": "ブレーブス(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 18,
+        "wins": 1,
+        "losses": 10,
+        "saves": 0,
+        "era": 5.15,
+        "eraDisplay": "5.15",
+        "strikeouts": 59,
+        "inningsPitched": 87.1,
+        "team": "ブレーブス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 7,
+        "wins": 3,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.83,
+        "eraDisplay": "2.83",
+        "strikeouts": 17,
+        "inningsPitched": 28.2,
+        "team": "中日"
+      },
+      {
+        "season": "2013",
+        "games": 5,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.21,
+        "eraDisplay": "3.21",
+        "strikeouts": 12,
+        "inningsPitched": 28.0,
+        "team": "中日"
+      },
+      {
+        "season": "2014",
+        "games": 6,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "era": 4.78,
+        "eraDisplay": "4.78",
+        "strikeouts": 24,
+        "inningsPitched": 32.0,
+        "team": "中日"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/41343886.html",
+      "https://www.baseball-reference.com/players/k/kawakke01.shtml",
+      "https://www.mlb.com/player/kenshin-kawakami-499877",
+      "https://ja.wikipedia.org/wiki/川上憲伸"
+    ]
+  },
+  {
+    "id": "legend-tazawa-junichi",
+    "name": "田澤純一",
+    "nameKana": "たざわ じゅんいち",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "中継ぎ",
+    "peakTeam": "ボストン・レッドソックス",
+    "activeYears": "2009-",
+    "birthDate": "1986-06-06",
+    "bestSeason": {
+      "year": "2013",
+      "era": 3.16,
+      "eraDisplay": "3.16",
+      "wins": 5,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 72,
+      "inningsPitched": 68.1,
+      "games": 71
+    },
+    "careerHighlight": "社会人の新日本石油ENEOSから日本のプロ野球を経ずにレッドソックスとメジャー契約を結び、マイナー契約を経ずにメジャー契約した初の日本人選手となった。2013年は上原浩治とともにブルペンの柱として71試合に登板し、ワールドシリーズ制覇に貢献した。メジャー通算388試合に登板した。",
+    "titles": [
+      "ワールドシリーズ優勝(2013・MLB)",
+      "都市対抗野球 橋戸賞(2008)"
+    ],
+    "teamHistory": [
+      {
+        "team": "ボストン・レッドソックス（MLB）",
+        "years": "2009-2016",
+        "highlight": "2008年12月にメジャー契約で入団。2009年8月7日のヤンキース戦でメジャー初登板し、8月11日のタイガース戦で初先発・初勝利。2010年はトミー・ジョン手術でシーズン全休。2012年に防御率1.43と結果を出し、2013年は71試合に登板してセットアッパーとして活躍、ポストシーズンでも13試合・防御率1.23でワールドシリーズ優勝に貢献した。2014年も71試合、2015年も61試合に登板した。"
+      },
+      {
+        "team": "マイアミ・マーリンズ（MLB）",
+        "years": "2017-2018",
+        "highlight": "2年総額1200万ドルで契約。2017年は55試合に登板したが防御率5.69、2018年は22試合で防御率9.00と不振で、5月に退団した。"
+      },
+      {
+        "team": "ロサンゼルス・エンゼルス（MLB）",
+        "years": "2018",
+        "highlight": "マイナー契約を経て9月にメジャー昇格し、9試合で防御率2.25とシーズンを締めくくった。"
+      },
+      {
+        "team": "埼玉武蔵ヒートベアーズ(BCリーグ)",
+        "years": "2020",
+        "highlight": "独立リーグのルートインBCリーグで日本球界デビュー。16試合に登板し2勝0敗・防御率3.94。この年「田澤ルール」が撤廃されたが、ドラフトでの指名はなかった。"
+      },
+      {
+        "team": "味全ドラゴンズ(台湾・CPBL)",
+        "years": "2021",
+        "highlight": "台湾プロ野球で抑えを任され、リーグ2位の30セーブを記録した。"
+      },
+      {
+        "team": "埼玉武蔵ヒートベアーズ(BCリーグ・復帰)",
+        "years": "2026-",
+        "highlight": "メキシコのドゥランゴ・ジェネラルズ、社会人のENEOS(コーチ兼任)を経て、2026年2月に6年ぶりの復帰が発表された。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "横浜商大高校時代",
+        "title": "横浜商大高のエース",
+        "description": "横浜市出身。横浜商科大学高校では2年夏に甲子園のベンチ入り(登板なし)。3年夏はエースとして神奈川大会ベスト4に進んだが、涌井秀章のいた横浜高校に敗れた。"
+      },
+      {
+        "period": "新日本石油ENEOS時代",
+        "title": "都市対抗MVPのドラフト目玉",
+        "description": "高校卒業後に新日本石油へ入社。2008年の都市対抗野球では全5試合に登板して4勝、防御率1.27で大会MVPにあたる橋戸賞を受賞し、ドラフトの目玉と言われた。"
+      },
+      {
+        "period": "2008年",
+        "title": "日本のプロを経ずにメジャーへ",
+        "description": "2008年9月にメジャー挑戦を表明し、日本の12球団に指名を見送るよう求めた。12月にレッドソックスとメジャー契約を結んだ。"
+      },
+      {
+        "period": "2009年〜2016年",
+        "title": "レッドソックスのブルペンの柱",
+        "description": "1年目にメジャーデビュー。2010年にトミー・ジョン手術を受けたが復活し、2013年から3年連続60試合以上に登板。2013年には世界一を経験した。"
+      },
+      {
+        "period": "2017年〜2019年",
+        "title": "マーリンズ、エンゼルス、そしてマイナーへ",
+        "description": "マーリンズで2年、エンゼルスで短期間プレー。2018年9月30日がメジャー最後の登板となり、その後はカブス、レッズ傘下のマイナーでプレーした。"
+      },
+      {
+        "period": "2020年〜",
+        "title": "独立リーグ・台湾・メキシコを渡り歩く",
+        "description": "2020年にBCリーグの埼玉武蔵、2021年に台湾の味全、2022年にメキシコのドゥランゴでプレー。その後ENEOSに戻り、2026年には埼玉武蔵に復帰した。"
+      }
+    ],
+    "episodes": [
+      "日本のドラフト上位候補だった田澤がメジャーへ直接行ったことは「田澤問題」と呼ばれた。これを受けて、ドラフトを拒否して海外球団と契約した選手は、帰国後も一定期間NPB球団と契約できないという申し合わせ(いわゆる「田澤ルール」)が作られた。このルールは2020年9月に撤廃され、田澤もドラフトの対象になったが、指名はなかった。",
+      "2009年8月7日、ヤンキース戦の延長14回、ブルペンに残った最後の投手としてメジャー初登板。最初の打者・松井秀喜は中堅へのフライに打ち取ったが、15回にアレックス・ロドリゲスにサヨナラ本塁打を打たれ敗戦投手になった。それでも4日後の8月11日、タイガース戦の初先発で初勝利を挙げた。",
+      "2013年は、8回を田澤やクレイグ・ブレスロウ、9回を上原浩治が締める継投パターンが確立し、レッドソックスの強力なブルペンを支えた。ポストシーズンでも13試合に登板して1勝・防御率1.23と好投し、ワールドシリーズ優勝を経験。優勝パレードでは上原とともにダックボートに乗って手を振った。",
+      "2021年、台湾の味全ドラゴンズで迎えたCPBL初登板(3月17日)は、1回無失点で締めくくった。この勝利は、リーグに再加盟した味全にとって1999年以来22年ぶりの一軍での勝利だった。この年はリーグ2位の30セーブを挙げた。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2009",
+        "games": 6,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 7.46,
+        "eraDisplay": "7.46",
+        "strikeouts": 13,
+        "inningsPitched": 25.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 3,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 6.0,
+        "eraDisplay": "6.00",
+        "strikeouts": 4,
+        "inningsPitched": 3.0,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 37,
+        "wins": 1,
+        "losses": 1,
+        "saves": 1,
+        "era": 1.43,
+        "eraDisplay": "1.43",
+        "strikeouts": 45,
+        "inningsPitched": 44.0,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 71,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.16,
+        "eraDisplay": "3.16",
+        "strikeouts": 72,
+        "inningsPitched": 68.1,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 71,
+        "wins": 4,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.86,
+        "eraDisplay": "2.86",
+        "strikeouts": 64,
+        "inningsPitched": 63.0,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2015",
+        "games": 61,
+        "wins": 2,
+        "losses": 7,
+        "saves": 3,
+        "era": 4.14,
+        "eraDisplay": "4.14",
+        "strikeouts": 56,
+        "inningsPitched": 58.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2016",
+        "games": 53,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 4.17,
+        "eraDisplay": "4.17",
+        "strikeouts": 54,
+        "inningsPitched": 49.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2017",
+        "games": 55,
+        "wins": 3,
+        "losses": 5,
+        "saves": 0,
+        "era": 5.69,
+        "eraDisplay": "5.69",
+        "strikeouts": 38,
+        "inningsPitched": 55.1,
+        "team": "マーリンズ(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 22,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 9.0,
+        "eraDisplay": "9.00",
+        "strikeouts": 24,
+        "inningsPitched": 20.0,
+        "team": "マーリンズ(MLB)"
+      },
+      {
+        "season": "2018",
+        "games": 9,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 2.25,
+        "eraDisplay": "2.25",
+        "strikeouts": 4,
+        "inningsPitched": 8.0,
+        "team": "エンゼルス(MLB)"
+      }
+    ],
+    "dataNote": "NPB(日本プロ野球)の一軍公式戦には出場していないため、statsHistoryはMLBの成績のみ。2010年はトミー・ジョン手術でメジャー登板なし。BCリーグ・台湾CPBL・メキシカンリーグの成績は含めていない。",
+    "sourceUrls": [
+      "https://www.baseball-reference.com/players/t/tazawju01.shtml",
+      "https://www.mlb.com/player/junichi-tazawa-547749",
+      "https://ja.wikipedia.org/wiki/田澤純一"
+    ]
+  },
+  {
+    "id": "legend-takahashi-ken",
+    "name": "高橋建",
+    "nameKana": "たかはし けん",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発・中継ぎ",
+    "peakTeam": "広島東洋カープ",
+    "activeYears": "1995-2010",
+    "birthDate": "1969-04-16",
+    "bestSeason": {
+      "year": "2001",
+      "era": 4.27,
+      "eraDisplay": "4.27",
+      "wins": 10,
+      "losses": 8,
+      "saves": 0,
+      "strikeouts": 132,
+      "inningsPitched": 173.0,
+      "games": 30
+    },
+    "careerHighlight": "広島で15年にわたり先発・中継ぎの両方で投げ続けた左腕で、2001年に10勝を挙げ、2003年には開幕8連勝で「左腕エース」と呼ばれた。2009年に40歳でメッツに入りメジャーデビューを果たし、28試合に登板して防御率2.96を記録した。",
+    "titles": [
+      "オールスターゲーム出場4回(2000、2001、2003、2008)"
+    ],
+    "teamHistory": [
+      {
+        "team": "広島東洋カープ",
+        "years": "1995-2008",
+        "highlight": "トヨタ自動車から1994年ドラフト4位で入団。中継ぎ中心から2001年に本格的に先発へ転向し、自身初の2桁勝利(10勝)。2003年は開幕から8連勝した。膝の手術を乗り越え、2006年は中継ぎで自己最多の54試合に登板。2008年には39歳でファン投票によりオールスターに選ばれ、8勝を挙げた。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2009",
+        "highlight": "ブルージェイズとのマイナー契約を解除された後、メッツとマイナー契約。4月にメジャーへ昇格し、5月2日のフィリーズ戦で40歳にしてメジャー初登板。中継ぎとして28試合に登板し防御率2.96を記録した。"
+      },
+      {
+        "team": "広島東洋カープ(復帰)",
+        "years": "2010",
+        "highlight": "2年ぶりに広島へ復帰。4月16日・17日の中日戦で2日続けて勝利投手となったが、5月以降は不振で、9月に現役引退を表明した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "横浜高校・拓殖大学時代",
+        "title": "もとは野手だった",
+        "description": "横浜市出身。横浜高校では一塁手・外野手。拓殖大学でも野手として東都2部で通算17本塁打を放ち、4年生になってから投手として頭角を現した。"
+      },
+      {
+        "period": "トヨタ自動車時代",
+        "title": "回り道の末にプロへ",
+        "description": "トヨタ自動車では都市対抗で先発を任され、日本代表にも入った。1993年は会社の引き留めで残留し、翌1994年のドラフトで広島から4位指名を受けた。"
+      },
+      {
+        "period": "1995年〜2000年",
+        "title": "中継ぎ中心で経験を積む",
+        "description": "1年目から39試合に登板。中継ぎを中心に先発もこなし、2000年には自己最多(当時)の50試合に登板してオールスターにも初選出された。"
+      },
+      {
+        "period": "2001年〜2008年",
+        "title": "先発ローテーションの左腕",
+        "description": "2001年に先発へ転向して10勝。2003年は開幕8連勝。膝の手術を経て、2007年に先発へ復帰し、2008年には39歳でファン投票によるオールスター出場を果たした。"
+      },
+      {
+        "period": "2009年",
+        "title": "40歳のメジャーデビュー",
+        "description": "FA権を行使してメジャーへ挑戦。メッツで28試合に登板し、防御率2.96と好投した。"
+      },
+      {
+        "period": "2010年〜引退後",
+        "title": "広島で引退、指導者の道へ",
+        "description": "2010年に広島へ戻り、同年で引退。解説者を経て阪神・広島で投手コーチを務め、2026年からは韓国・起亜タイガースの二軍投手コーチを務めている。"
+      }
+    ],
+    "episodes": [
+      "2009年5月2日、フィリーズ戦で2番手として登板しメジャーデビュー。40歳でのメジャーデビューは、第二次世界大戦後ではサチェル・ペイジ(42歳)、ディオメデス・オリーボ(41歳)に次ぐ史上3番目の高齢記録だった。この試合では2回2/3を無失点に抑え、ライアン・ハワードから初奪三振を奪った。",
+      "2009年5月13日のブレーブス戦では、代打で打席に入った日本人投手の川上憲伸と対戦し、空振り三振に打ち取った。日本人のメジャー投手が代打で起用されたのはこれが初めてで、日本人投手どうしの珍しい対決になった。",
+      "2010年4月16日と17日、マツダスタジアムでの中日戦で2日続けて勝利投手になった。40歳代の投手が2日連続で勝利投手になったのは史上初めてだった。前年12月に2年ぶりの広島復帰が決まり、背番号は再び22。春のキャンプでは2日目からブルペンで投げ込むなど、先発ローテーション入りへの意気込みを見せていた。",
+      "2010年9月29日の引退試合では、長女と二女がバッテリーを務め、高橋自身が打者として立つ始球式が行われた。8点リードの8回に最後のマウンドに上がり、ホセ・カスティーヨを空振り三振に打ち取って、打者1人で現役生活を締めくくった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1995",
+        "games": 39,
+        "wins": 4,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.9,
+        "eraDisplay": "3.90",
+        "strikeouts": 54,
+        "inningsPitched": 90.0,
+        "team": "広島"
+      },
+      {
+        "season": "1996",
+        "games": 24,
+        "wins": 2,
+        "losses": 1,
+        "saves": 1,
+        "era": 4.96,
+        "eraDisplay": "4.96",
+        "strikeouts": 40,
+        "inningsPitched": 52.2,
+        "team": "広島"
+      },
+      {
+        "season": "1997",
+        "games": 34,
+        "wins": 3,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.79,
+        "eraDisplay": "4.79",
+        "strikeouts": 35,
+        "inningsPitched": 62.0,
+        "team": "広島"
+      },
+      {
+        "season": "1998",
+        "games": 41,
+        "wins": 3,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.83,
+        "eraDisplay": "3.83",
+        "strikeouts": 76,
+        "inningsPitched": 101.0,
+        "team": "広島"
+      },
+      {
+        "season": "1999",
+        "games": 36,
+        "wins": 3,
+        "losses": 7,
+        "saves": 0,
+        "era": 4.68,
+        "eraDisplay": "4.68",
+        "strikeouts": 90,
+        "inningsPitched": 102.0,
+        "team": "広島"
+      },
+      {
+        "season": "2000",
+        "games": 50,
+        "wins": 5,
+        "losses": 9,
+        "saves": 4,
+        "era": 3.93,
+        "eraDisplay": "3.93",
+        "strikeouts": 88,
+        "inningsPitched": 112.1,
+        "team": "広島"
+      },
+      {
+        "season": "2001",
+        "games": 30,
+        "wins": 10,
+        "losses": 8,
+        "saves": 0,
+        "era": 4.27,
+        "eraDisplay": "4.27",
+        "strikeouts": 132,
+        "inningsPitched": 173.0,
+        "team": "広島"
+      },
+      {
+        "season": "2002",
+        "games": 26,
+        "wins": 9,
+        "losses": 14,
+        "saves": 0,
+        "era": 3.84,
+        "eraDisplay": "3.84",
+        "strikeouts": 142,
+        "inningsPitched": 173.1,
+        "team": "広島"
+      },
+      {
+        "season": "2003",
+        "games": 24,
+        "wins": 9,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.66,
+        "eraDisplay": "3.66",
+        "strikeouts": 127,
+        "inningsPitched": 167.0,
+        "team": "広島"
+      },
+      {
+        "season": "2004",
+        "games": 18,
+        "wins": 3,
+        "losses": 10,
+        "saves": 0,
+        "era": 5.53,
+        "eraDisplay": "5.53",
+        "strikeouts": 66,
+        "inningsPitched": 96.0,
+        "team": "広島"
+      },
+      {
+        "season": "2005",
+        "games": 14,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "era": 9.45,
+        "eraDisplay": "9.45",
+        "strikeouts": 14,
+        "inningsPitched": 26.2,
+        "team": "広島"
+      },
+      {
+        "season": "2006",
+        "games": 54,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.7,
+        "eraDisplay": "4.70",
+        "strikeouts": 40,
+        "inningsPitched": 46.0,
+        "team": "広島"
+      },
+      {
+        "season": "2007",
+        "games": 22,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.7,
+        "eraDisplay": "3.70",
+        "strikeouts": 74,
+        "inningsPitched": 112.0,
+        "team": "広島"
+      },
+      {
+        "season": "2008",
+        "games": 21,
+        "wins": 8,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.5,
+        "eraDisplay": "3.50",
+        "strikeouts": 71,
+        "inningsPitched": 115.2,
+        "team": "広島"
+      },
+      {
+        "season": "2009",
+        "games": 28,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.96,
+        "eraDisplay": "2.96",
+        "strikeouts": 23,
+        "inningsPitched": 27.1,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2010",
+        "games": 26,
+        "wins": 4,
+        "losses": 5,
+        "saves": 0,
+        "era": 9.3,
+        "eraDisplay": "9.30",
+        "strikeouts": 17,
+        "inningsPitched": 30.0,
+        "team": "広島"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/71773880.html",
+      "https://www.baseball-reference.com/players/t/takahke01.shtml",
+      "https://www.mlb.com/player/ken-takahashi-548092",
+      "https://ja.wikipedia.org/wiki/高橋建"
+    ]
+  },
+  {
+    "id": "legend-takahashi-hisanori",
+    "name": "高橋尚成",
+    "nameKana": "たかはし ひさのり",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "読売ジャイアンツ",
+    "activeYears": "2000-2015",
+    "birthDate": "1975-04-02",
+    "bestSeason": {
+      "year": "2007",
+      "era": 2.75,
+      "eraDisplay": "2.75",
+      "wins": 14,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 141,
+      "inningsPitched": 186.2,
+      "games": 28
+    },
+    "careerHighlight": "巨人の左腕として1年目の日本シリーズで初登板初完封を飾り、2007年には14勝4敗・防御率2.75で最優秀防御率を獲得してリーグ優勝に貢献した。2010年にメッツでメジャーデビューし、先発と抑えの両方で10勝8セーブを挙げた。エンゼルスなどを経てDeNAで現役を終えた。",
+    "titles": [
+      "最優秀防御率(2007)",
+      "最高勝率(2007)",
+      "ベストナイン(2007)",
+      "日本シリーズ優秀選手賞(2000)",
+      "月間MVP2回(2002年5月、2007年4月)"
+    ],
+    "teamHistory": [
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2000-2009",
+        "highlight": "東芝から1999年ドラフト1位(逆指名)で入団。1年目に9勝・防御率3.18、日本シリーズ第5戦で初登板初完封を挙げ優秀選手賞。2002年は10勝で日本一に貢献。2006年は顔面骨折から復帰後に抑えで15セーブ。2007年は自己最多14勝で最優秀防御率を獲得し、2009年も10勝・防御率2.94で7年ぶりの日本一に貢献した。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2010",
+        "highlight": "マイナー契約から開幕メジャー入り。4月23日のブレーブス戦で初勝利、5月21日のヤンキース戦で初先発し6回無失点。8月からはクローザーも任され、53試合で10勝6敗8セーブ・防御率3.61。新人での2桁勝利はメッツでは25年ぶりだった。"
+      },
+      {
+        "team": "ロサンゼルス・エンゼルス（MLB）",
+        "years": "2011-2012",
+        "highlight": "2年総額800万ドルで契約。2011年はリリーフとしてチーム2位の61試合に登板し防御率3.44。2012年は42試合に登板した。"
+      },
+      {
+        "team": "ピッツバーグ・パイレーツ（MLB）",
+        "years": "2012",
+        "highlight": "8月にウェイバーで移籍し、9試合に登板した。"
+      },
+      {
+        "team": "シカゴ・カブス（MLB）",
+        "years": "2013",
+        "highlight": "開幕メジャー入りしたが3試合の登板で4月にロースターを外れ、その後ロッキーズ傘下のマイナーでプレーした。"
+      },
+      {
+        "team": "横浜DeNAベイスターズ",
+        "years": "2014-2015",
+        "highlight": "5年ぶりに日本へ戻り先発ローテーションに入ったが、勝ち星を挙げられなかった。2015年限りで引退し、10月2日の古巣・巨人戦で引退試合が行われた。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "修徳高校時代",
+        "title": "甲子園ベスト8の左腕",
+        "description": "東京・墨田区の下町育ち。修徳高校3年の1993年夏の甲子園でベスト8に進み、2試合連続完封を記録。秋の国体では優勝した。"
+      },
+      {
+        "period": "駒澤大学・東芝時代",
+        "title": "都市対抗優勝から巨人へ",
+        "description": "駒澤大学で東都リーグ通算17勝。東芝では1999年の都市対抗野球で優勝し優秀投手に選ばれ、同年のドラフトで子どもの頃から憧れていた巨人を逆指名して1位で入団した。"
+      },
+      {
+        "period": "2000年〜2006年",
+        "title": "1年目から日本シリーズ完封",
+        "description": "1年目に9勝を挙げ、日本シリーズで初登板初完封。2002年に10勝を挙げたあとは故障に苦しみ、2006年はファウルボールで頬を骨折したのち抑えに回った。"
+      },
+      {
+        "period": "2007年〜2009年",
+        "title": "最優秀防御率の左腕エース",
+        "description": "2007年に先発へ戻り14勝・防御率2.75で最優秀防御率。2009年も10勝を挙げて日本一に貢献し、オフに海外FA権を行使した。"
+      },
+      {
+        "period": "2010年〜2013年",
+        "title": "35歳でメジャーデビュー",
+        "description": "メッツで10勝8セーブと結果を残し、その後エンゼルス、パイレーツ、カブスでプレーした。"
+      },
+      {
+        "period": "2014年〜引退後",
+        "title": "DeNAで引退、解説者に",
+        "description": "2014年からDeNAでプレーし、2015年に引退。その後は野球解説者として活動し、2022年には巨人の臨時投手コーチも務めた。"
+      }
+    ],
+    "episodes": [
+      "ルーキーだった2000年、福岡ダイエーホークスとの日本シリーズ第5戦に先発し、シリーズ初登板を完封で飾った。日本シリーズの初登板初完封は史上10人目、巨人の投手では5人目の快挙で、シリーズ優秀選手賞に選ばれた。",
+      "メッツ1年目の2010年4月23日、先発の故障で急きょ登板したブレーブス戦で3回1失点に抑えてメジャー初勝利。打席でも川上憲伸からメジャー初安打を放った。初打席で初安打だったため、ベンチに戻るとチームメイトから「イチロー！イチロー！」と声がかかったと本人が振り返っている。",
+      "2010年は先発で4勝、リリーフで6勝8セーブを挙げ、合計10勝。10月1日のナショナルズ戦で2桁勝利に届き、新人での2桁勝利は日本人メジャーリーガーで4人目、メッツでは1985年のリック・アギレラ以来25年ぶりだった。",
+      "2015年10月2日、古巣・巨人との試合で打者1人限定の引退登板。先頭の立岡宗一郎を遊ゴロに打ち取ったかに見えたが、送球がそれて一塁失策となり、そこで降板した。試合後の引退セレモニーでは、巨人時代のチームメイトで同級生の高橋由伸らと抱き合った。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2000",
+        "games": 24,
+        "wins": 9,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.18,
+        "eraDisplay": "3.18",
+        "strikeouts": 102,
+        "inningsPitched": 135.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2001",
+        "games": 30,
+        "wins": 9,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.94,
+        "eraDisplay": "3.94",
+        "strikeouts": 99,
+        "inningsPitched": 134.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2002",
+        "games": 24,
+        "wins": 10,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.09,
+        "eraDisplay": "3.09",
+        "strikeouts": 145,
+        "inningsPitched": 163.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2003",
+        "games": 13,
+        "wins": 4,
+        "losses": 4,
+        "saves": 0,
+        "era": 3.84,
+        "eraDisplay": "3.84",
+        "strikeouts": 78,
+        "inningsPitched": 86.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2004",
+        "games": 16,
+        "wins": 5,
+        "losses": 10,
+        "saves": 0,
+        "era": 5.44,
+        "eraDisplay": "5.44",
+        "strikeouts": 61,
+        "inningsPitched": 91.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2005",
+        "games": 27,
+        "wins": 8,
+        "losses": 12,
+        "saves": 0,
+        "era": 4.47,
+        "eraDisplay": "4.47",
+        "strikeouts": 135,
+        "inningsPitched": 163.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2006",
+        "games": 35,
+        "wins": 2,
+        "losses": 6,
+        "saves": 15,
+        "era": 4.94,
+        "eraDisplay": "4.94",
+        "strikeouts": 51,
+        "inningsPitched": 62.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2007",
+        "games": 28,
+        "wins": 14,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.75,
+        "eraDisplay": "2.75",
+        "strikeouts": 141,
+        "inningsPitched": 186.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2008",
+        "games": 23,
+        "wins": 8,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.13,
+        "eraDisplay": "4.13",
+        "strikeouts": 94,
+        "inningsPitched": 122.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2009",
+        "games": 25,
+        "wins": 10,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.94,
+        "eraDisplay": "2.94",
+        "strikeouts": 126,
+        "inningsPitched": 144.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2010",
+        "games": 53,
+        "wins": 10,
+        "losses": 6,
+        "saves": 8,
+        "era": 3.61,
+        "eraDisplay": "3.61",
+        "strikeouts": 114,
+        "inningsPitched": 122.0,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 61,
+        "wins": 4,
+        "losses": 3,
+        "saves": 2,
+        "era": 3.44,
+        "eraDisplay": "3.44",
+        "strikeouts": 52,
+        "inningsPitched": 68.0,
+        "team": "エンゼルス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 42,
+        "wins": 0,
+        "losses": 3,
+        "saves": 0,
+        "era": 4.93,
+        "eraDisplay": "4.93",
+        "strikeouts": 41,
+        "inningsPitched": 42.0,
+        "team": "エンゼルス(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 9,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 8.64,
+        "eraDisplay": "8.64",
+        "strikeouts": 11,
+        "inningsPitched": 8.1,
+        "team": "パイレーツ(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 3,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 6.0,
+        "eraDisplay": "6.00",
+        "strikeouts": 3,
+        "inningsPitched": 3.0,
+        "team": "カブス(MLB)"
+      },
+      {
+        "season": "2014",
+        "games": 10,
+        "wins": 0,
+        "losses": 6,
+        "saves": 0,
+        "era": 5.29,
+        "eraDisplay": "5.29",
+        "strikeouts": 33,
+        "inningsPitched": 51.0,
+        "team": "DeNA"
+      },
+      {
+        "season": "2015",
+        "games": 6,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 8.64,
+        "eraDisplay": "8.64",
+        "strikeouts": 4,
+        "inningsPitched": 8.1,
+        "team": "DeNA"
+      }
+    ],
+    "sourceUrls": [
+      "https://npb.jp/bis/players/21725111.html",
+      "https://www.baseball-reference.com/players/t/takahhi01.shtml",
+      "https://ja.wikipedia.org/wiki/高橋尚成"
+    ]
+  },
+  {
+    "id": "legend-igarashi-ryota",
+    "name": "五十嵐亮太",
+    "nameKana": "いがらし りょうた",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "中継ぎ・抑え",
+    "peakTeam": "東京ヤクルトスワローズ",
+    "activeYears": "1998-2020",
+    "birthDate": "1979-05-28",
+    "bestSeason": {
+      "year": "2004",
+      "era": 2.66,
+      "eraDisplay": "2.66",
+      "wins": 5,
+      "losses": 3,
+      "saves": 37,
+      "strikeouts": 86,
+      "inningsPitched": 74.1,
+      "games": 66
+    },
+    "careerHighlight": "ヤクルトで石井弘寿とともに「ロケットボーイズ」と呼ばれた剛腕リリーバーで、2004年には当時の日本最速タイ158km/hを記録し、37セーブで最優秀救援投手に輝いた。2010年からメッツなどでメジャーに挑戦し、ソフトバンク時代には初登板から601試合連続救援登板のNPB新記録を樹立。日米通算906試合に登板した。",
+    "titles": [
+      "最優秀救援投手(2004)",
+      "月間MVP2回(2004年7月、2014年7月)",
+      "最優秀バッテリー賞(2000・捕手 古田敦也)",
+      "オールスターゲーム出場6回"
+    ],
+    "teamHistory": [
+      {
+        "team": "ヤクルトスワローズ",
+        "years": "1998-2009",
+        "highlight": "敬愛学園高から1997年ドラフト2位で入団。2000年は中継ぎだけで11勝を挙げた。2002年からは石井弘寿と「ロケットボーイズ」と呼ばれ、64試合・防御率2.08。2004年は抑えに回り、当時の日本最速タイの158km/hを記録、球団記録の37セーブで最優秀救援投手。2006年にトミー・ジョン手術を受けたが、2008年に復帰した。"
+      },
+      {
+        "team": "ニューヨーク・メッツ（MLB）",
+        "years": "2010-2011",
+        "highlight": "2年総額300万ドルで契約。2010年4月8日のマーリンズ戦でメジャー初登板を1回無失点で飾ったが、故障もあって34試合・防御率7.12。2011年は45試合に登板し4勝を挙げた。"
+      },
+      {
+        "team": "トロント・ブルージェイズ（MLB）",
+        "years": "2012",
+        "highlight": "パイレーツとのマイナー契約後、トレードで移籍。AAA級で最速99マイルを記録し5月にメジャー昇格したが、2試合の登板にとどまった。"
+      },
+      {
+        "team": "ニューヨーク・ヤンキース（MLB）",
+        "years": "2012",
+        "highlight": "ウェイバーで移籍し、6月8日には古巣メッツ戦で登板。メジャーでは2試合の登板だった。"
+      },
+      {
+        "team": "福岡ソフトバンクホークス",
+        "years": "2013-2018",
+        "highlight": "3年総額6億円で日本復帰。2014年はセットアッパーとして63試合・防御率1.52、球団記録の40ホールド(当時)を挙げ、初登板から601試合連続救援登板のNPB新記録を樹立。2015年も54試合・防御率1.38と活躍した。"
+      },
+      {
+        "team": "東京ヤクルトスワローズ(復帰)",
+        "years": "2019-2020",
+        "highlight": "古巣に戻り、2019年は救援のみで5勝。5月28日に史上7人目のNPB通算800試合登板、8月8日に日米通算900試合登板を達成した。2020年10月25日の中日戦で引退登板した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "少年・中学時代",
+        "title": "「打てない、走れない、守れない」少年",
+        "description": "北海道留萌市生まれ、札幌育ち。小学4年で千葉県へ転校。中学までは一塁手で、本人は「まるでヘボだった」と振り返っている。"
+      },
+      {
+        "period": "敬愛学園高校時代",
+        "title": "鉄砲肩を見抜かれ投手に",
+        "description": "敬愛学園高校で強い肩を見込まれて投手に転向。2年夏には140km/h近くを投げ、県内屈指の豪腕として1997年のドラフトでヤクルトから2位指名を受けた。"
+      },
+      {
+        "period": "1998年〜2005年",
+        "title": "ロケットボーイズ、そして速球王",
+        "description": "1年目にファーム日本選手権MVP。2000年に中継ぎで11勝、2002年から石井弘寿と「ロケットボーイズ」と呼ばれた。2004年には抑えとして158km/hを記録し37セーブを挙げた。"
+      },
+      {
+        "period": "2006年〜2009年",
+        "title": "トミー・ジョン手術からの復活",
+        "description": "2006年に右肘の靱帯断裂が見つかり手術。2007年はリハビリに費やしたが、2008年に復帰して157km/hを記録し、2009年はセットアッパーとして56試合に登板した。"
+      },
+      {
+        "period": "2010年〜2012年",
+        "title": "メジャー3球団でプレー",
+        "description": "メッツと契約してメジャーに挑戦。2012年はブルージェイズ、ヤンキースとチームを移りながらメジャーのマウンドに立った。"
+      },
+      {
+        "period": "2013年〜2020年",
+        "title": "ソフトバンクでの再ブレイクと古巣での引退",
+        "description": "ソフトバンクで2014年・2015年と防御率1点台の活躍。2019年にヤクルトへ戻り、2020年に引退した。"
+      }
+    ],
+    "episodes": [
+      "2004年6月3日の阪神戦で、今岡誠に対して当時の日本プロ野球最速タイとなる158km/hを記録。9月20日の阪神戦では矢野輝弘に3球連続を含む4球で158km/hを計測し、「速球王」と呼ばれた。この年は37セーブで球団のセーブ記録を更新し、最優秀救援投手に選ばれた。",
+      "2002年、ファンの公募によって、同じく速球派リリーフの石井弘寿とともに「ロケットボーイズ」という愛称が付けられた。この年は開幕からシーズン終了まで一軍に帯同し、64試合に登板して中継ぎだけで8勝・防御率2.08を記録した。",
+      "ソフトバンク時代の2014年8月8日の西武戦で、プロ初登板から601試合連続で救援登板となり、藤田宗一の持っていた600試合を抜くNPB新記録をつくった。この年は9月5日に球団新記録(当時)の40ホールドにも到達した。",
+      "2020年10月25日、神宮球場での中日戦で8回に引退登板し、先頭打者を初球で打ち取った。最後に対戦したモイセ・シエラは、2012年にブルージェイズ傘下のAAA級ラスベガスでチームメイトだった選手で、日米を渡り歩いた五十嵐らしい締めくくりになった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "1999",
+        "games": 36,
+        "wins": 6,
+        "losses": 4,
+        "saves": 1,
+        "era": 4.91,
+        "eraDisplay": "4.91",
+        "strikeouts": 59,
+        "inningsPitched": 47.2,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2000",
+        "games": 56,
+        "wins": 11,
+        "losses": 4,
+        "saves": 1,
+        "era": 3.11,
+        "eraDisplay": "3.11",
+        "strikeouts": 90,
+        "inningsPitched": 75.1,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2001",
+        "games": 41,
+        "wins": 2,
+        "losses": 3,
+        "saves": 0,
+        "era": 2.59,
+        "eraDisplay": "2.59",
+        "strikeouts": 51,
+        "inningsPitched": 41.2,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2002",
+        "games": 64,
+        "wins": 8,
+        "losses": 2,
+        "saves": 4,
+        "era": 2.08,
+        "eraDisplay": "2.08",
+        "strikeouts": 97,
+        "inningsPitched": 78.0,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2003",
+        "games": 66,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 3.89,
+        "eraDisplay": "3.89",
+        "strikeouts": 83,
+        "inningsPitched": 74.0,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2004",
+        "games": 66,
+        "wins": 5,
+        "losses": 3,
+        "saves": 37,
+        "era": 2.66,
+        "eraDisplay": "2.66",
+        "strikeouts": 86,
+        "inningsPitched": 74.1,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2005",
+        "games": 49,
+        "wins": 3,
+        "losses": 2,
+        "saves": 4,
+        "era": 3.49,
+        "eraDisplay": "3.49",
+        "strikeouts": 60,
+        "inningsPitched": 56.2,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2006",
+        "games": 29,
+        "wins": 1,
+        "losses": 2,
+        "saves": 1,
+        "era": 6.12,
+        "eraDisplay": "6.12",
+        "strikeouts": 18,
+        "inningsPitched": 25.0,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2008",
+        "games": 44,
+        "wins": 3,
+        "losses": 2,
+        "saves": 3,
+        "era": 2.47,
+        "eraDisplay": "2.47",
+        "strikeouts": 42,
+        "inningsPitched": 43.2,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2009",
+        "games": 56,
+        "wins": 3,
+        "losses": 2,
+        "saves": 3,
+        "era": 3.19,
+        "eraDisplay": "3.19",
+        "strikeouts": 44,
+        "inningsPitched": 53.2,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2010",
+        "games": 34,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 7.12,
+        "eraDisplay": "7.12",
+        "strikeouts": 25,
+        "inningsPitched": 30.1,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2011",
+        "games": 45,
+        "wins": 4,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.66,
+        "eraDisplay": "4.66",
+        "strikeouts": 42,
+        "inningsPitched": 38.2,
+        "team": "メッツ(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 36.0,
+        "eraDisplay": "36.00",
+        "strikeouts": 2,
+        "inningsPitched": 1.0,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2012",
+        "games": 2,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 12.0,
+        "eraDisplay": "12.00",
+        "strikeouts": 3,
+        "inningsPitched": 3.0,
+        "team": "ヤンキース(MLB)"
+      },
+      {
+        "season": "2013",
+        "games": 51,
+        "wins": 3,
+        "losses": 3,
+        "saves": 12,
+        "era": 2.53,
+        "eraDisplay": "2.53",
+        "strikeouts": 58,
+        "inningsPitched": 53.1,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2014",
+        "games": 63,
+        "wins": 1,
+        "losses": 3,
+        "saves": 2,
+        "era": 1.52,
+        "eraDisplay": "1.52",
+        "strikeouts": 71,
+        "inningsPitched": 59.1,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2015",
+        "games": 54,
+        "wins": 3,
+        "losses": 1,
+        "saves": 2,
+        "era": 1.38,
+        "eraDisplay": "1.38",
+        "strikeouts": 59,
+        "inningsPitched": 52.0,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2016",
+        "games": 33,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.62,
+        "eraDisplay": "3.62",
+        "strikeouts": 27,
+        "inningsPitched": 27.1,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2017",
+        "games": 46,
+        "wins": 6,
+        "losses": 0,
+        "saves": 0,
+        "era": 1.73,
+        "eraDisplay": "1.73",
+        "strikeouts": 28,
+        "inningsPitched": 41.2,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2018",
+        "games": 23,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.5,
+        "eraDisplay": "4.50",
+        "strikeouts": 14,
+        "inningsPitched": 20.0,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2019",
+        "games": 45,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.98,
+        "eraDisplay": "2.98",
+        "strikeouts": 33,
+        "inningsPitched": 42.1,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2020",
+        "games": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "era": 0.0,
+        "eraDisplay": "0.00",
+        "strikeouts": 0,
+        "inningsPitched": 0.1,
+        "team": "ヤクルト"
+      }
+    ],
+    "dataNote": "2007年はトミー・ジョン手術後のリハビリで一軍登板なし。",
+    "sourceUrls": [
+      "https://npb.jp/bis/players/91193886.html",
+      "https://www.baseball-reference.com/players/i/igarary01.shtml",
+      "https://ja.wikipedia.org/wiki/五十嵐亮太"
     ]
   }
 ]
