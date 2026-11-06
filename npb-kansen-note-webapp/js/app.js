@@ -905,7 +905,10 @@
     { key: "ops", label: "OPS順", dir: "desc" },
     { key: "rbi", label: "打点順", dir: "desc" },
     { key: "stolenBases", label: "盗塁順", dir: "desc" },
+    { key: "games", label: "試合数順", dir: "desc" },
+    { key: "pa", label: "打席数順", dir: "desc" },
     { key: "salary", label: "推定年俸順", dir: "desc" },
+    { key: "young", label: "若い順", dir: "desc" },
     { key: "number", label: "背番号順", dir: "asc" }
   ];
   var PITCHER_SORTS = [
@@ -913,8 +916,21 @@
     { key: "wins", label: "勝利数順", dir: "desc" },
     { key: "strikeouts", label: "奪三振順", dir: "desc" },
     { key: "saves", label: "セーブ順", dir: "desc" },
+    { key: "games", label: "登板数順", dir: "desc" },
+    { key: "ip", label: "投球回順", dir: "desc" },
     { key: "salary", label: "推定年俸順", dir: "desc" },
+    { key: "young", label: "若い順", dir: "desc" },
     { key: "number", label: "背番号順", dir: "asc" }
+  ];
+  // 野手・投手まとめて表示のときの並べ替え（どちらにも共通する項目）
+  var ALL_SORTS = [
+    { key: "number", label: "背番号順", dir: "asc" },
+    { key: "salary", label: "推定年俸順", dir: "desc" },
+    { key: "games", label: "出場試合数順", dir: "desc" },
+    { key: "young", label: "若い順", dir: "desc" },
+    { key: "veteran", label: "ベテラン順", dir: "asc" },
+    { key: "newcomer", label: "プロ入りが新しい順", dir: "desc" },
+    { key: "kana", label: "五十音順", dir: "asc" }
   ];
 
   // 万円単位の数値を「1億2500万円」のような読みやすい表示に変換
@@ -1103,6 +1119,14 @@
       case "strikeouts": return s.strikeouts != null ? s.strikeouts : -1;
       case "saves": return s.saves != null ? s.saves : -1;
       case "salary": return p.salaryManYen != null ? p.salaryManYen : -1;
+      case "games": return s.games != null ? s.games : -1;
+      case "pa": return s.plateAppearances != null ? s.plateAppearances : -1;
+      case "ip": return s.inningsPitched != null ? s.inningsPitched : -1;
+      // 生年月日：若い順は新しいほど上、ベテラン順は古いほど上。不明な選手はどちらでも最後に
+      case "young": var by = p.birthDate ? Date.parse(p.birthDate) : NaN; return isNaN(by) ? -1e15 : by;
+      case "veteran": var bv = p.birthDate ? Date.parse(p.birthDate) : NaN; return isNaN(bv) ? 1e15 : bv;
+      case "newcomer": var dm = /(\d{4})年/.exec(p.draftInfo || ""); return dm ? +dm[1] : -1;
+      case "kana": return p.nameKana || "ん";
       case "number": return p.number;
       default: return 0;
     }
@@ -1607,6 +1631,7 @@
     activeTags: loadAllTeamsMode() ? [] : ["matchup"],
     teamFilter: "all",
     viewMode: "all", // all | batter | pitcher
+    allSort: "number", // 野手・投手まとめて表示のときの並べ替え
     batterSort: "avg",
     pitcherSort: "era",
     tab: "home", // home | roster
@@ -1868,32 +1893,40 @@
   }
 
   function renderSortRow() {
-    if (state.viewMode === "all") {
-      els.sortRow.innerHTML = '<span class="sort-hint">背番号順に表示中。野手/投手を選ぶと成績順で並び替えできます。</span>';
-      return;
-    }
-    var opts = state.viewMode === "batter" ? BATTER_SORTS : PITCHER_SORTS;
-    var current = state.viewMode === "batter" ? state.batterSort : state.pitcherSort;
+    var opts = state.viewMode === "all" ? ALL_SORTS : state.viewMode === "batter" ? BATTER_SORTS : PITCHER_SORTS;
+    var current = state.viewMode === "all" ? state.allSort : state.viewMode === "batter" ? state.batterSort : state.pitcherSort;
     els.sortRow.innerHTML = icon("sort", 14, "sicon") + opts.map(function (o) {
       return '<button class="sort-btn' + (o.key === current ? " active" : "") + '" data-action="set-sort" data-key="' + o.key + '">' + o.label + "</button>";
     }).join("") + '<span class="sort-hint sort-hint-basis">' + SORT_BASIS_LABEL + "</span>";
   }
 
   function syncHeaderVisibility() {
-    els.matchupBanner.style.display = (state.tab === "home" || isAllTeamsMode()) ? "none" : "flex";
+    // 「楽天 vs 日本ハム」の対戦カード帯は、次の試合が決まっているときだけ出す（オフシーズンは出さない）
+    els.matchupBanner.style.display = (state.tab === "home" || isAllTeamsMode() || !nextGameFor(state.homeTeam)) ? "none" : "flex";
     els.rosterControls.style.display = state.tab === "roster" ? "block" : "none";
     els.countPill.style.display = state.tab === "roster" ? "" : "none";
     document.body.setAttribute("data-tab", state.tab);
   }
 
   /* ===================== Render: player card ===================== */
+  // 並べ替えの項目に合わせて、カードの3つ目の数字を入れ替える（何順に並んでいるか一目で分かるように）
+  function sortExtraStat(p, sortKey) {
+    var s = p.currentStats || {};
+    if (sortKey === "salary") return ["推定年俸", formatSalary(p.salaryManYen)];
+    if (sortKey === "games") return [isPitcher(p) ? "登板" : "試合", s.games != null ? String(s.games) : "-"];
+    if (sortKey === "pa") return ["打席", s.plateAppearances != null ? String(s.plateAppearances) : "-"];
+    if (sortKey === "ip") return ["投球回", s.inningsPitched != null ? String(s.inningsPitched) : "-"];
+    if (sortKey === "newcomer") { var m = /(\d{4})年/.exec(p.draftInfo || ""); return ["プロ入り", m ? m[1] + "年" : "-"]; }
+    return null;
+  }
   function statStrip(p) {
     var s = p.currentStats || {};
-    var sortKey = isPitcher(p) ? state.pitcherSort : state.batterSort;
+    var sortKey = state.viewMode === "all" ? state.allSort : (isPitcher(p) ? state.pitcherSort : state.batterSort);
+    var extra = sortExtraStat(p, sortKey);
     if (isPitcher(p)) {
       var third = ["奪三振", s.strikeouts != null ? String(s.strikeouts) : "-"];
       if (sortKey === "saves") third = ["セーブ", s.saves != null ? String(s.saves) : "-"];
-      if (sortKey === "salary") third = ["推定年俸", formatSalary(p.salaryManYen)];
+      if (extra) third = extra;
       return [
         ["防御率", s.eraDisplay || "-"],
         ["勝-敗", s.wins != null ? s.wins + "-" + (s.losses != null ? s.losses : 0) : "-"],
@@ -1903,7 +1936,7 @@
     var thirdB = ["OPS", s.ops != null ? s.ops.toFixed(3) : "-"];
     if (sortKey === "rbi") thirdB = ["打点", s.rbi != null ? String(s.rbi) : "-"];
     if (sortKey === "stolenBases") thirdB = ["盗塁", s.stolenBases != null ? String(s.stolenBases) : "-"];
-    if (sortKey === "salary") thirdB = ["推定年俸", formatSalary(p.salaryManYen)];
+    if (extra) thirdB = extra;
     return [
       ["打率", s.avgDisplay || "-"],
       ["本塁打", s.hr != null ? String(s.hr) : "-"],
@@ -1948,9 +1981,9 @@
 
     if (state.viewMode === "pitcher") return sortPlayers(list, state.pitcherSort, sortDirFor(state.pitcherSort));
     if (state.viewMode === "batter") return sortPlayers(list, state.batterSort, sortDirFor(state.batterSort));
-    return sortPlayers(list, "number", "asc");
+    return sortPlayers(list, state.allSort, sortDirFor(state.allSort));
   }
-  function sortDirFor(key) { return key === "era" || key === "number" ? "asc" : "desc"; }
+  function sortDirFor(key) { return key === "era" || key === "number" || key === "veteran" || key === "kana" ? "asc" : "desc"; }
 
   function renderRosterViewSwitch() {
     if (!els.rosterViewSwitch) return;
@@ -4731,7 +4764,7 @@
       refreshFilterSheetIfOpen();
       if (state.tab === "roster") { renderRoster(); showFilterToast(currentRosterList().length); }
     } else if (action === "set-sort") {
-      if (state.viewMode === "batter") state.batterSort = key; else if (state.viewMode === "pitcher") state.pitcherSort = key;
+      if (state.viewMode === "batter") state.batterSort = key; else if (state.viewMode === "pitcher") state.pitcherSort = key; else state.allSort = key;
       renderSortRow();
       renderRoster();
     } else if (action === "open-detail") {
