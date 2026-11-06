@@ -1654,6 +1654,7 @@
     scheduleFetching: false, // NEXT GAMEカードの「日程を更新」ボタンで取得中かどうか（二重押し防止）
     newsScope: "team", // ホーム画面「最新ニュース」の表示範囲："team"=ホーム球団のみ／"all"=全球団
     legendCategoryFilter: "all", // all | legend | overseas | faded（レジェンド一覧の絞り込み）
+    legendQuery: "", // レジェンド一覧の検索ことば
     legendComparePlayerId: null, // レジェンド詳細で「比較する選手を変える」により手動選択された現役選手ID（未選択なら自動で近い成績の選手を選ぶ）
     legendComparePickerOpen: false,
     legendComparePickerQuery: ""
@@ -2052,10 +2053,38 @@
     );
   }
 
+  // レジェンド検索用：カタカナをひらがなに、全角英数を半角に、空白を取り除いてそろえる
+  function normLegendText(t) {
+    return String(t || "").toLowerCase()
+      .replace(/[\u30a1-\u30f6]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); })
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); })
+      .replace(/[\s　・･.．]/g, "").replace(/髙/g, "高").replace(/﨑/g, "崎");
+  }
+  // 名前・読み・所属球団・守備位置・出身校（経歴）・タイトルから探す
+  function legendSearchText(l) {
+    if (l._searchText) return l._searchText;
+    var parts = [l.name, l.nameKana, l.peakTeam, l.detailedPosition, l.activeYears];
+    (l.teamHistory || []).forEach(function (t) { parts.push(t.team); });
+    (l.growthTimeline || []).forEach(function (g) { parts.push(g.period); });
+    (l.titles || []).forEach(function (t) { parts.push(t); });
+    (l.statsHistory || []).forEach(function (st) { parts.push(st.team); });
+    l._searchText = normLegendText(parts.join(" "));
+    return l._searchText;
+  }
   function currentLegendList() {
     var list = LEGENDS || [];
     if (state.legendCategoryFilter !== "all") list = list.filter(function (l) { return l.category === state.legendCategoryFilter; });
+    var words = String(state.legendQuery || "").split(/[\s　]+/).map(normLegendText).filter(Boolean);
+    if (words.length) list = list.filter(function (l) {
+      var t = legendSearchText(l);
+      return words.every(function (w) { return t.indexOf(w) !== -1; });
+    });
     return list;
+  }
+  function legendGridBodyHtml(list) {
+    return '<div class="grid">' +
+      (list.length ? list.map(legendCardHtml).join("") : '<p class="empty-state">該当するレジェンドが見つかりませんでした。</p>') +
+    "</div>";
   }
 
   function legendFilterRowHtml() {
@@ -2080,10 +2109,14 @@
     var list = currentLegendList();
     els.countPill.textContent = list.length + "名";
     els.main.innerHTML =
-      '<div style="padding:0 16px;">' + legendFilterRowHtml() + "</div>" +
-      '<div class="grid">' +
-        (list.length ? list.map(legendCardHtml).join("") : '<p class="empty-state">該当するレジェンドが見つかりませんでした。</p>') +
+      '<div style="padding:0 16px;">' +
+        '<div class="search-wrap legend-search-wrap">' +
+          icon("search", 16, "icon-search") +
+          '<input id="legend-search-input" type="search" inputmode="search" placeholder="名前・球団・出身校・タイトルで検索" autocomplete="off" value="' + esc(state.legendQuery || "") + '">' +
+        "</div>" +
+        legendFilterRowHtml() +
       "</div>" +
+      '<div id="legend-grid-body">' + legendGridBodyHtml(list) + "</div>" +
       '<p class="data-footnote">歴代の球界スター・海外へ羽ばたいた選手・かつて活躍した選手を' + LEGENDS.length + '名掲載。各選手の「自己ベストシーズン」成績はWikipedia・NPB公式記録等をもとに調査していますが、数値には誤りが含まれる可能性があります。正確な記録は球団・NPB公式の記録をご確認ください。</p>';
   }
 
@@ -4673,6 +4706,20 @@
     els.searchClear.hidden = true;
     els.searchInput.focus();
     if (state.tab === "roster") renderRoster();
+  });
+
+  var legendSearchTimer = null;
+  els.main.addEventListener("input", function (e) {
+    if (!e.target || e.target.id !== "legend-search-input") return;
+    var value = e.target.value;
+    if (legendSearchTimer) clearTimeout(legendSearchTimer);
+    legendSearchTimer = setTimeout(function () {
+      state.legendQuery = value;
+      var list = currentLegendList();
+      els.countPill.textContent = list.length + "名";
+      var body = document.getElementById("legend-grid-body");
+      if (body) body.innerHTML = legendGridBodyHtml(list);
+    }, 120);
   });
 
   els.modeSwitch.addEventListener("click", function (e) {
