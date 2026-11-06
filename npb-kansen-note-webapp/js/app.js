@@ -3614,6 +3614,28 @@
     return st.season + "年 " + st.games + "試合 打率" + (st.avgDisplay || st.avg || "-") + " " + (st.hr || 0) + "本 " + (st.rbi || 0) + "打点";
   }
 
+  /* 並び順：注目度（有名な選手・衝撃の大きさ・報道の多さ）が高い順 → 同じなら新しい順。
+     注目度は、データの importance（1〜5、自動更新が報道の扱いの大きさで付ける）と、
+     名鑑の年俸・タイトル数から計算した「知名度」の高いほうを使う。 */
+  function transferFame(it) {
+    var p = findPlayerByName(it.name, it.team) || (it.from ? findPlayerByName(it.name, it.from) : null);
+    var f = 1;
+    if (p) {
+      var sal = p.salaryManYen || 0;
+      f = sal >= 30000 ? 5 : sal >= 10000 ? 4 : sal >= 5000 ? 3 : sal >= 2000 ? 2 : 1;
+      if ((p.awards || []).length >= 3) f = Math.min(5, f + 1);
+    }
+    return Math.max(f, it.importance || 0);
+  }
+  function transferSort(a, b) {
+    return transferFame(b) - transferFame(a) || (b.date || "").localeCompare(a.date || "");
+  }
+  // 新着：自動更新で載った日（addedAt）か発表日が、3日以内のもの
+  function isNewTransfer(it) {
+    var d = it.addedAt || it.date;
+    return d ? daysUntil(String(d).slice(0, 10)) >= -3 : false;
+  }
+
   function transferDateLabel(d) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || ""); return m ? (+m[2]) + "/" + (+m[3]) : ""; }
   function sourcesHtml(list) {
     if (!list || !list.length) return "";
@@ -3636,6 +3658,7 @@
           '<span class="draft-round" style="background:' + tc.bg + ";color:" + tc.fg + ';">' + esc(it.team) + "</span>" +
           '<span class="tr-badge ' + ty.cls + '">' + esc(it.kind || ty.label) + "</span>" +
           '<span class="draft-lottery">' + transferDateLabel(it.date) + "</span>" +
+          (isNewTransfer(it) ? '<span class="tr-new">NEW</span>' : "") +
         "</div>" +
         '<p class="draft-name">' + transferNameHtml(it, true) + ' <span class="draft-pos">' + esc(it.position || "") + "</span></p>" +
         (it.title ? '<p class="tr-title">' + esc(it.title) + "</p>" : "") +
@@ -3691,13 +3714,17 @@
       if (on && t !== "all") { var c = teamColor(t); st = ' style="background:' + c.bg + ";color:" + c.fg + ";border-color:" + c.bg + ';"'; }
       return '<button class="draft-chip' + (on ? " active" : "") + '" data-action="set-transfer-team" data-key="' + esc(t) + '"' + st + ">" + (t === "all" ? "12球団" : esc(t)) + "</button>";
     }).join("") + "</div>";
-    var items = TRANSFER_DATA.items.filter(function (it) { return sel === "all" || it.team === sel || it.from === sel; });
+    var allItems = TRANSFER_DATA.items.filter(function (it) { return sel === "all" || it.team === sel || it.from === sel; });
+    // 3日以内の大きな話題（移籍決定・メジャー・FA・残留、または注目度4以上）は、いちばん上の「新着」に出す
+    var fresh = allItems.filter(function (it) { return isNewTransfer(it) && (["move", "mlb", "fa", "stay"].indexOf(it.type) !== -1 || (it.importance || 0) >= 4); }).sort(transferSort);
+    var items = allItems.filter(function (it) { return fresh.indexOf(it) === -1; }).sort(transferSort);
     var big = items.filter(function (it) { return it.type === "mlb" || it.type === "fa"; });
     var moves = items.filter(function (it) { return it.type === "move"; });
     var stays = items.filter(function (it) { return it.type === "stay"; });
     var outs = items.filter(function (it) { return it.type === "release" || it.type === "free" || it.type === "leave"; });
     var rets = items.filter(function (it) { return it.type === "retire"; });
     var body = "";
+    if (fresh.length) body += '<section><p class="section-label">' + icon("sparkles", 13) + "新着（" + fresh.length + "件）</p>" + fresh.map(transferCardHtml).join("") + "</section>";
     var mlb = big.filter(function (it) { return it.type === "mlb"; }), fa = big.filter(function (it) { return it.type === "fa"; });
     if (moves.length) body += '<section><p class="section-label">' + icon("refresh", 13) + "移籍決定（" + moves.length + "人）</p>" + moves.map(transferCardHtml).join("") + "</section>";
     if (mlb.length) body += '<section><p class="section-label">' + icon("sparkles", 13) + "メジャー挑戦（" + mlb.length + "人）</p>" + mlb.map(transferCardHtml).join("") + "</section>";
