@@ -3064,7 +3064,13 @@
   // season文字列が重複した場合は新しい方（currentStats側）を優先する。
   function combinedStatsTimeline(p) {
     var bySeasson = {};
-    (p.statsHistory || []).forEach(function (s) { if (s && s.season) bySeasson[s.season] = s; });
+    // 同じ年に2球団（NPBとMLB、シーズン途中の移籍など）の成績がある場合は、両方とも残す
+    (p.statsHistory || []).forEach(function (s) {
+      if (!s || !s.season) return;
+      var key = s.season;
+      if (bySeasson[key] && bySeasson[key].team && s.team && bySeasson[key].team !== s.team) key = s.season + "・" + s.team;
+      bySeasson[key] = s;
+    });
     if (p.lastSeasonStats && p.lastSeasonStats.season) bySeasson[p.lastSeasonStats.season] = p.lastSeasonStats;
     if (p.currentStats && p.currentStats.season) bySeasson[p.currentStats.season] = p.currentStats;
     var seasons = Object.keys(bySeasson).sort(function (a, b) { return parseInt(a, 10) - parseInt(b, 10); });
