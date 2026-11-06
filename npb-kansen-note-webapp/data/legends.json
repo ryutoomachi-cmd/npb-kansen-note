@@ -20284,5 +20284,2164 @@
       "https://www.baseball-reference.com/players/y/yamagsh01.shtml",
       "https://ja.wikipedia.org/wiki/山口俊"
     ]
+  },
+  {
+    "id": "legend-arihara-kohei",
+    "name": "有原航平",
+    "nameKana": "ありはら こうへい",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "北海道日本ハムファイターズ",
+    "activeYears": "2015-",
+    "birthDate": "1992-08-11",
+    "bestSeason": {
+      "year": "2024",
+      "era": 2.36,
+      "eraDisplay": "2.36",
+      "wins": 14,
+      "losses": 7,
+      "saves": 0,
+      "strikeouts": 137,
+      "inningsPitched": 182.2,
+      "games": 26
+    },
+    "careerHighlight": "早稲田大学から2014年ドラフト1位で日本ハムに入り、2015年に新人王、2019年に15勝で最多勝を獲得。2021・2022年はテキサス・レンジャーズでプレーし、2023年からのソフトバンクでは2024・2025年に2年連続で最多勝に輝いた。2026年に日本ハムへ復帰し、7月2日に通算100勝を達成した。",
+    "titles": [
+      "最多勝3回(2019,2024,2025)",
+      "新人王(2015)",
+      "ベストナイン1回(2024)",
+      "月間MVP5回",
+      "最優秀バッテリー賞1回(2024)"
+    ],
+    "teamHistory": [
+      {
+        "team": "北海道日本ハムファイターズ",
+        "years": "2015-2020",
+        "highlight": "1年目の2015年は8勝を挙げてパ・リーグ新人王。2016年はチーム最多の11勝でリーグ優勝・日本一に貢献し、2019年には自己最多の15勝・防御率2.46で初の最多勝を獲得した。2017年と2020年には開幕投手も務めた。"
+      },
+      {
+        "team": "テキサス・レンジャーズ（MLB）",
+        "years": "2021-2022",
+        "highlight": "ポスティングで2年契約を結び、2021年4月3日のロイヤルズ戦でメジャーデビュー。4月14日のレイズ戦でメジャー初勝利を挙げたが、同年5月に右肩の動脈瘤が見つかり手術を受けた。2年間でメジャー通算15試合・3勝7敗だった。"
+      },
+      {
+        "team": "福岡ソフトバンクホークス",
+        "years": "2023-2025",
+        "highlight": "2023年は10勝で連敗中のチームを支え、2024年は開幕投手として14勝・防御率2.36で5年ぶり2度目の最多勝、ベストナインも初受賞してリーグ優勝に貢献。2025年も14勝で2年連続の最多勝となった。"
+      },
+      {
+        "team": "北海道日本ハムファイターズ（復帰）",
+        "years": "2026-",
+        "highlight": "2025年12月に4年契約で古巣へ復帰し、背番号は74。2026年7月2日のオリックス戦で勝利投手となり、NPB史上144人目の通算100勝を達成した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "広陵高校時代",
+        "title": "センバツでベスト4",
+        "description": "広島市出身。広陵高校では2年秋にエースとなり、3年春の選抜大会では4試合に先発してチームのベスト4入りに貢献した。"
+      },
+      {
+        "period": "早稲田大学時代",
+        "title": "東京六大学の最優秀防御率",
+        "description": "3年秋のリーグ戦で防御率0.72を記録して最優秀防御率のタイトルを獲得し、4年春にはベストナインに選ばれた。大学通算19勝12敗。"
+      },
+      {
+        "period": "2014年ドラフト",
+        "title": "4球団競合の末に日本ハムへ",
+        "description": "DeNA・広島・阪神・日本ハムの4球団から1位指名を受け、抽選で日本ハムが交渉権を獲得した。"
+      },
+      {
+        "period": "2015年〜2020年",
+        "title": "新人王から最多勝投手へ",
+        "description": "2015年に新人王、2016年に日本一を経験し、2019年に15勝で最多勝。オフにポスティングでのメジャー挑戦を希望した。"
+      },
+      {
+        "period": "2021年〜2022年",
+        "title": "レンジャーズでメジャー挑戦",
+        "description": "メジャー初勝利を挙げたものの、右肩の動脈瘤の手術もあり、2年間で3勝にとどまった。"
+      },
+      {
+        "period": "2023年〜",
+        "title": "日本球界復帰後の再ブレイク",
+        "description": "ソフトバンクで3年連続2桁勝利、2度の最多勝。2026年に日本ハムへ戻り、通算100勝に到達した。"
+      }
+    ],
+    "episodes": [
+      "2024年の日本シリーズ第1戦（横浜スタジアム）で先発し、7回無失点で日本シリーズ初勝利を挙げた。さらにこの試合のシリーズ初打席、2回二死満塁の場面で先制の2点打を放った。日本シリーズで投手が勝利打点を挙げたのは、1986年に西武の工藤公康がサヨナラ打を打って以来38年ぶりのことだった。",
+      "2024年はシーズン最終盤まで日本ハムの伊藤大海と14勝で並んでいたが、10月8日の日本ハム最終戦で伊藤が敗戦投手となったため、5年ぶり2度目の最多勝が決まった。",
+      "2016年11月、同僚の斎藤佑樹と車で移動中に横転事故の現場に遭遇し、人命救助を行った。事故車に乗っていた男性は軽いけがで済んだ。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 18,
+        "wins": 8,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.79,
+        "eraDisplay": "4.79",
+        "strikeouts": 81,
+        "inningsPitched": 103.1,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2016",
+        "games": 22,
+        "wins": 11,
+        "losses": 9,
+        "saves": 0,
+        "era": 2.94,
+        "eraDisplay": "2.94",
+        "strikeouts": 103,
+        "inningsPitched": 156.0,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2017",
+        "games": 25,
+        "wins": 10,
+        "losses": 13,
+        "saves": 0,
+        "era": 4.74,
+        "eraDisplay": "4.74",
+        "strikeouts": 88,
+        "inningsPitched": 169.0,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2018",
+        "games": 20,
+        "wins": 8,
+        "losses": 5,
+        "saves": 2,
+        "era": 4.55,
+        "eraDisplay": "4.55",
+        "strikeouts": 87,
+        "inningsPitched": 110.2,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2019",
+        "games": 24,
+        "wins": 15,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.46,
+        "eraDisplay": "2.46",
+        "strikeouts": 161,
+        "inningsPitched": 164.1,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2020",
+        "games": 20,
+        "wins": 8,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.46,
+        "eraDisplay": "3.46",
+        "strikeouts": 106,
+        "inningsPitched": 132.2,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2021",
+        "games": 10,
+        "wins": 2,
+        "losses": 4,
+        "saves": 0,
+        "era": 6.64,
+        "eraDisplay": "6.64",
+        "strikeouts": 24,
+        "inningsPitched": 40.2,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2022",
+        "games": 5,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 9.45,
+        "eraDisplay": "9.45",
+        "strikeouts": 14,
+        "inningsPitched": 20.0,
+        "team": "レンジャーズ(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 17,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.31,
+        "eraDisplay": "2.31",
+        "strikeouts": 74,
+        "inningsPitched": 120.2,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2024",
+        "games": 26,
+        "wins": 14,
+        "losses": 7,
+        "saves": 0,
+        "era": 2.36,
+        "eraDisplay": "2.36",
+        "strikeouts": 137,
+        "inningsPitched": 182.2,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2025",
+        "games": 26,
+        "wins": 14,
+        "losses": 9,
+        "saves": 0,
+        "era": 3.03,
+        "eraDisplay": "3.03",
+        "strikeouts": 121,
+        "inningsPitched": 175.0,
+        "team": "ソフトバンク"
+      },
+      {
+        "season": "2026",
+        "games": 17,
+        "wins": 7,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.44,
+        "eraDisplay": "4.44",
+        "strikeouts": 67,
+        "inningsPitched": 103.1,
+        "team": "日本ハム"
+      }
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/有原航平",
+      "https://npb.jp/bis/players/51155130.html",
+      "https://www.baseball-reference.com/players/a/arihako01.shtml"
+    ]
+  },
+  {
+    "id": "legend-sawamura-hirokazu",
+    "name": "澤村拓一",
+    "nameKana": "さわむら ひろかず",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "抑え",
+    "peakTeam": "読売ジャイアンツ",
+    "activeYears": "2011-2025",
+    "birthDate": "1988-04-03",
+    "bestSeason": {
+      "year": "2011",
+      "era": 2.03,
+      "eraDisplay": "2.03",
+      "wins": 11,
+      "losses": 11,
+      "saves": 0,
+      "strikeouts": 174,
+      "inningsPitched": 200.0,
+      "games": 29
+    },
+    "careerHighlight": "中央大学から2010年ドラフト1位で巨人に入団し、1年目の2011年に11勝・防御率2.03・200投球回で新人王。その後抑えに転向し、2016年に37セーブで最多セーブを獲得した。2020年途中にロッテへ移籍し、2021・2022年はボストン・レッドソックスで計104試合に登板。2023年からロッテに戻り、2025年限りで現役を引退した。",
+    "titles": [
+      "最多セーブ1回(2016)",
+      "新人王(2011)",
+      "オールスターMVP1回(2013)"
+    ],
+    "teamHistory": [
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2011-2020",
+        "highlight": "2011年に11勝11敗・防御率2.03で新人王。セ・リーグの新人では江夏豊以来の200投球回に到達した。2012年は日本シリーズ第2戦で8回無失点の好投。2015年から抑えとなり、2016年に37セーブで最多セーブを獲得した。"
+      },
+      {
+        "team": "千葉ロッテマリーンズ",
+        "years": "2020",
+        "highlight": "2020年9月7日にトレードで移籍。移籍当日の初登板では3者連続三振で無失点に抑えた。シーズン後に海外FA権を行使した。"
+      },
+      {
+        "team": "ボストン・レッドソックス（MLB）",
+        "years": "2021-2022",
+        "highlight": "2021年4月2日の開幕戦でメジャーデビューし、1年目は55試合で5勝・防御率3.06を記録してポストシーズン進出に貢献。2022年8月にメジャー通算100試合登板を達成した。"
+      },
+      {
+        "team": "千葉ロッテマリーンズ（復帰）",
+        "years": "2023-2025",
+        "highlight": "2023年にロッテへ復帰し、中継ぎとして34試合・14ホールド。2025年限りで退団し、2026年1月に現役引退を表明した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "佐野日大高校時代",
+        "title": "3番手投手だった高校時代",
+        "description": "栃木県出身。佐野日大高校では3番手投手で、3年夏も登板機会がないまま県大会決勝で敗れた。"
+      },
+      {
+        "period": "中央大学時代",
+        "title": "最速157km/hの本格派へ",
+        "description": "2年秋に東都大学1部リーグ初先発を完封で飾ってエースに成長。4年春には当時の大学生最速となる157km/hを記録し、最優秀投手賞を受賞した。"
+      },
+      {
+        "period": "2010年ドラフト",
+        "title": "巨人から単独1位指名",
+        "description": "巨人から単独1位指名を受け、背番号15で入団した。"
+      },
+      {
+        "period": "2011年〜2014年",
+        "title": "新人王の先発投手",
+        "description": "1年目に新人王、2年目も10勝。2013年のオールスター第1戦ではMVPに輝いた。"
+      },
+      {
+        "period": "2015年〜2020年",
+        "title": "抑えとして最多セーブ",
+        "description": "2015年から抑えに転向し、2016年に37セーブで最多セーブ。2020年途中にロッテへ移籍した。"
+      },
+      {
+        "period": "2021年〜2025年",
+        "title": "メジャー挑戦とロッテ復帰",
+        "description": "レッドソックスで2年間プレーした後、2023年にロッテへ復帰。2025年限りで現役生活を終えた。"
+      }
+    ],
+    "episodes": [
+      "2020年9月にロッテへ移籍した直後の初登板では、ユニフォームの新調が間に合わず、打撃投手の背番号「106」のユニフォームを借りて登板した。この番号がポケモン「サワムラー」の図鑑番号と同じだとファンの間で話題になり、千葉県内のポケモンセンターではサワムラーのぬいぐるみが売り切れになった。",
+      "現役最後の登板は2025年9月30日の楽天戦だった。この日は同じ中央大学の先輩・美馬学の引退試合で、澤村は美馬の後を受けて2番手で登板し、0回2/3を無失点に抑えた。",
+      "2013年のオールスターゲーム第1戦で3イニングを投げてMVPを受賞。巨人の投手としては1984年の江川卓以来29年ぶりの受賞だった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2011",
+        "games": 29,
+        "wins": 11,
+        "losses": 11,
+        "saves": 0,
+        "era": 2.03,
+        "eraDisplay": "2.03",
+        "strikeouts": 174,
+        "inningsPitched": 200.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2012",
+        "games": 27,
+        "wins": 10,
+        "losses": 10,
+        "saves": 0,
+        "era": 2.86,
+        "eraDisplay": "2.86",
+        "strikeouts": 138,
+        "inningsPitched": 169.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2013",
+        "games": 34,
+        "wins": 5,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.13,
+        "eraDisplay": "3.13",
+        "strikeouts": 148,
+        "inningsPitched": 158.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2014",
+        "games": 12,
+        "wins": 5,
+        "losses": 3,
+        "saves": 0,
+        "era": 3.72,
+        "eraDisplay": "3.72",
+        "strikeouts": 66,
+        "inningsPitched": 72.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2015",
+        "games": 60,
+        "wins": 7,
+        "losses": 3,
+        "saves": 36,
+        "era": 1.32,
+        "eraDisplay": "1.32",
+        "strikeouts": 60,
+        "inningsPitched": 68.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2016",
+        "games": 63,
+        "wins": 6,
+        "losses": 4,
+        "saves": 37,
+        "era": 2.66,
+        "eraDisplay": "2.66",
+        "strikeouts": 55,
+        "inningsPitched": 64.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2018",
+        "games": 49,
+        "wins": 1,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.64,
+        "eraDisplay": "4.64",
+        "strikeouts": 54,
+        "inningsPitched": 52.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2019",
+        "games": 43,
+        "wins": 2,
+        "losses": 2,
+        "saves": 1,
+        "era": 2.61,
+        "eraDisplay": "2.61",
+        "strikeouts": 55,
+        "inningsPitched": 48.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2020",
+        "games": 13,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 6.08,
+        "eraDisplay": "6.08",
+        "strikeouts": 11,
+        "inningsPitched": 13.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2020",
+        "games": 22,
+        "wins": 0,
+        "losses": 2,
+        "saves": 1,
+        "era": 1.71,
+        "eraDisplay": "1.71",
+        "strikeouts": 29,
+        "inningsPitched": 21.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2021",
+        "games": 55,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.06,
+        "eraDisplay": "3.06",
+        "strikeouts": 61,
+        "inningsPitched": 53.0,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2022",
+        "games": 49,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.73,
+        "eraDisplay": "3.73",
+        "strikeouts": 40,
+        "inningsPitched": 50.2,
+        "team": "レッドソックス(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 34,
+        "wins": 4,
+        "losses": 3,
+        "saves": 3,
+        "era": 4.91,
+        "eraDisplay": "4.91",
+        "strikeouts": 24,
+        "inningsPitched": 33.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2024",
+        "games": 39,
+        "wins": 1,
+        "losses": 2,
+        "saves": 1,
+        "era": 3.34,
+        "eraDisplay": "3.34",
+        "strikeouts": 26,
+        "inningsPitched": 35.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2025",
+        "games": 20,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "era": 3.93,
+        "eraDisplay": "3.93",
+        "strikeouts": 10,
+        "inningsPitched": 18.1,
+        "team": "ロッテ"
+      }
+    ],
+    "dataNote": "2017年は一軍登板なし（右肩の故障）のため statsHistory に含めていない。2020年は巨人とロッテの2行に分けている。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/澤村拓一",
+      "https://npb.jp/bis/players/81985133.html",
+      "https://www.baseball-reference.com/players/s/sawamhi01.shtml"
+    ]
+  },
+  {
+    "id": "legend-matsui-yuki",
+    "name": "松井裕樹",
+    "nameKana": "まつい ゆうき",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "抑え",
+    "peakTeam": "東北楽天ゴールデンイーグルス",
+    "activeYears": "2014-",
+    "birthDate": "1995-10-30",
+    "bestSeason": {
+      "year": "2023",
+      "era": 1.57,
+      "eraDisplay": "1.57",
+      "wins": 2,
+      "losses": 3,
+      "saves": 39,
+      "strikeouts": 72,
+      "inningsPitched": 57.1,
+      "games": 59
+    },
+    "careerHighlight": "桐光学園高2年夏の甲子園で1試合22奪三振を記録し、2013年ドラフト1位で楽天へ。2015年から抑えを任され、最多セーブを3回獲得、通算200セーブを史上最年少の27歳5か月で達成した。2024年からはサンディエゴ・パドレスで中継ぎとして活躍している。",
+    "titles": [
+      "最多セーブ3回(2019,2022,2023)",
+      "月間MVP1回(2016年8月)"
+    ],
+    "teamHistory": [
+      {
+        "team": "東北楽天ゴールデンイーグルス",
+        "years": "2014-2023",
+        "highlight": "1年目は先発で126奪三振。2年目の2015年に抑えに抜擢され、33セーブ・防御率0.87。2019年に38セーブで初の最多セーブ、2022・2023年にも最多セーブを獲得した。100・150・200セーブをいずれも史上最年少で達成した。"
+      },
+      {
+        "team": "サンディエゴ・パドレス（MLB）",
+        "years": "2024-",
+        "highlight": "5年契約で移籍し、2024年3月20日のドジャースとの開幕戦でメジャーデビュー。2024年64試合、2025年61試合、2026年54試合に登板し、2026年は防御率1.83を記録した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "小・中学時代",
+        "title": "横浜ベイスターズジュニアに選ばれる",
+        "description": "横浜市出身。小学6年で横浜ベイスターズジュニアに合格し、NPB12球団ジュニアトーナメントに出場。中学では青葉緑東シニアで全国優勝を経験した。"
+      },
+      {
+        "period": "桐光学園高校時代",
+        "title": "甲子園で1試合22奪三振",
+        "description": "2年夏の甲子園1回戦・今治西戦で大会史上最多の10者連続奪三振と1試合22奪三振を記録。この大会で通算68奪三振を奪った。"
+      },
+      {
+        "period": "2013年ドラフト",
+        "title": "5球団競合の末に楽天へ",
+        "description": "楽天・中日・ソフトバンク・DeNA・日本ハムの5球団から1位指名を受け、抽選で楽天が交渉権を獲得した。"
+      },
+      {
+        "period": "2015年〜2023年",
+        "title": "楽天の守護神",
+        "description": "19歳で日本代表トップチームに史上最年少で選ばれ、抑えとして最多セーブ3回。2023年に海外FA権を行使した。"
+      },
+      {
+        "period": "2024年〜",
+        "title": "パドレスでメジャー挑戦",
+        "description": "楽天時代と同じ背番号1でパドレスに入団し、中継ぎとして3年連続50試合以上に登板している。"
+      }
+    ],
+    "episodes": [
+      "2012年夏の甲子園1回戦・今治西戦で、大会史上最多となる10者連続奪三振と1試合22奪三振を記録した。続く2回戦でも19奪三振を奪い、2試合で41奪三振として板東英二の持っていた2試合合計の記録を更新した。この大会の通算68奪三振は、左腕投手として1大会の史上最多だった。",
+      "2017年4月25日のロッテ戦で、9回に対戦した3人の打者をすべて3球三振に打ち取った。1イニングに3者連続3球三振はNPB史上17人目だったが、楽天の投手では初めてだった。",
+      "2023年4月5日の西武戦で、史上9人目の通算200セーブを達成。それまでの最年少記録だった山﨑康晃の29歳10か月を抜く、27歳5か月での達成だった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2014",
+        "games": 27,
+        "wins": 4,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.8,
+        "eraDisplay": "3.80",
+        "strikeouts": 126,
+        "inningsPitched": 116.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2015",
+        "games": 63,
+        "wins": 3,
+        "losses": 2,
+        "saves": 33,
+        "era": 0.87,
+        "eraDisplay": "0.87",
+        "strikeouts": 103,
+        "inningsPitched": 72.1,
+        "team": "楽天"
+      },
+      {
+        "season": "2016",
+        "games": 58,
+        "wins": 1,
+        "losses": 4,
+        "saves": 30,
+        "era": 3.32,
+        "eraDisplay": "3.32",
+        "strikeouts": 75,
+        "inningsPitched": 62.1,
+        "team": "楽天"
+      },
+      {
+        "season": "2017",
+        "games": 52,
+        "wins": 3,
+        "losses": 3,
+        "saves": 33,
+        "era": 1.2,
+        "eraDisplay": "1.20",
+        "strikeouts": 62,
+        "inningsPitched": 52.2,
+        "team": "楽天"
+      },
+      {
+        "season": "2018",
+        "games": 53,
+        "wins": 5,
+        "losses": 8,
+        "saves": 5,
+        "era": 3.65,
+        "eraDisplay": "3.65",
+        "strikeouts": 91,
+        "inningsPitched": 66.2,
+        "team": "楽天"
+      },
+      {
+        "season": "2019",
+        "games": 68,
+        "wins": 2,
+        "losses": 8,
+        "saves": 38,
+        "era": 1.94,
+        "eraDisplay": "1.94",
+        "strikeouts": 107,
+        "inningsPitched": 69.2,
+        "team": "楽天"
+      },
+      {
+        "season": "2020",
+        "games": 25,
+        "wins": 4,
+        "losses": 5,
+        "saves": 2,
+        "era": 3.18,
+        "eraDisplay": "3.18",
+        "strikeouts": 82,
+        "inningsPitched": 68.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2021",
+        "games": 43,
+        "wins": 0,
+        "losses": 2,
+        "saves": 24,
+        "era": 0.63,
+        "eraDisplay": "0.63",
+        "strikeouts": 59,
+        "inningsPitched": 43.0,
+        "team": "楽天"
+      },
+      {
+        "season": "2022",
+        "games": 53,
+        "wins": 1,
+        "losses": 3,
+        "saves": 32,
+        "era": 1.92,
+        "eraDisplay": "1.92",
+        "strikeouts": 83,
+        "inningsPitched": 51.2,
+        "team": "楽天"
+      },
+      {
+        "season": "2023",
+        "games": 59,
+        "wins": 2,
+        "losses": 3,
+        "saves": 39,
+        "era": 1.57,
+        "eraDisplay": "1.57",
+        "strikeouts": 72,
+        "inningsPitched": 57.1,
+        "team": "楽天"
+      },
+      {
+        "season": "2024",
+        "games": 64,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "era": 3.73,
+        "eraDisplay": "3.73",
+        "strikeouts": 69,
+        "inningsPitched": 62.2,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2025",
+        "games": 61,
+        "wins": 3,
+        "losses": 1,
+        "saves": 1,
+        "era": 3.98,
+        "eraDisplay": "3.98",
+        "strikeouts": 61,
+        "inningsPitched": 63.1,
+        "team": "パドレス(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 54,
+        "wins": 5,
+        "losses": 1,
+        "saves": 1,
+        "era": 1.83,
+        "eraDisplay": "1.83",
+        "strikeouts": 68,
+        "inningsPitched": 64.0,
+        "team": "パドレス(MLB)"
+      }
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/松井裕樹",
+      "https://npb.jp/bis/players/81285139.html",
+      "https://www.baseball-reference.com/players/m/matsuyu01.shtml"
+    ]
+  },
+  {
+    "id": "legend-sasaki-roki",
+    "name": "佐々木朗希",
+    "nameKana": "ささき ろうき",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "千葉ロッテマリーンズ",
+    "activeYears": "2020-",
+    "birthDate": "2001-11-03",
+    "bestSeason": {
+      "year": "2022",
+      "era": 2.02,
+      "eraDisplay": "2.02",
+      "wins": 9,
+      "losses": 4,
+      "saves": 0,
+      "strikeouts": 173,
+      "inningsPitched": 129.1,
+      "games": 20
+    },
+    "careerHighlight": "大船渡高校時代に「令和の怪物」と呼ばれ、2019年ドラフト1位でロッテへ。2022年4月10日のオリックス戦で、13者連続奪三振・1試合19奪三振とともに20歳5か月で史上最年少の完全試合を達成した。2025年からロサンゼルス・ドジャースでプレーし、1年目にワールドシリーズ優勝を経験した。",
+    "titles": [
+      "完全試合(2022年4月10日)",
+      "月間MVP2回(2022年3・4月,2023年3・4月)",
+      "WBC優勝(2023)",
+      "ワールドシリーズ優勝(2025・MLB)"
+    ],
+    "teamHistory": [
+      {
+        "team": "千葉ロッテマリーンズ",
+        "years": "2020-2024",
+        "highlight": "1年目は体づくりに専念し、2021年5月16日にプロ初登板。2022年4月10日に史上16人目の完全試合を達成した。2023年は防御率1.78、2024年は自身初の2桁となる10勝を挙げた。"
+      },
+      {
+        "team": "ロサンゼルス・ドジャース（MLB）",
+        "years": "2025-",
+        "highlight": "2025年3月19日に東京ドームでのカブス戦でメジャー初登板。右肩の故障で長く離脱したが、復帰後は救援に回り、ポストシーズンで抑えを務めてワールドシリーズ優勝に貢献した。2026年は26試合（23先発）で5勝5敗・123奪三振。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "小学生時代",
+        "title": "東日本大震災で被災",
+        "description": "岩手県陸前高田市出身。小学3年で野球を始めたが、2011年3月の東日本大震災の津波で父と祖父母を亡くし、大船渡市へ移った。"
+      },
+      {
+        "period": "大船渡高校時代",
+        "title": "「令和の怪物」",
+        "description": "3年春に非公式ながら163km/hを計測したとされ、3年夏の岩手大会4回戦では160km/hを記録して延長12回194球・21奪三振。決勝では故障予防のため登板を回避した。"
+      },
+      {
+        "period": "2019年ドラフト",
+        "title": "4球団競合の末にロッテへ",
+        "description": "日本ハム・ロッテ・楽天・西武の4球団から1位指名を受け、抽選でロッテが交渉権を獲得した。"
+      },
+      {
+        "period": "2022年",
+        "title": "史上最年少の完全試合",
+        "description": "4月10日のオリックス戦で完全試合。続く4月17日の日本ハム戦でも8回まで完全投球を続けた。"
+      },
+      {
+        "period": "2023年",
+        "title": "WBC世界一",
+        "description": "第5回WBCで1次ラウンドのチェコ戦（3月11日）に先発して勝利投手となり、準決勝のメキシコ戦にも先発した。"
+      },
+      {
+        "period": "2025年〜",
+        "title": "ドジャースへ",
+        "description": "ポスティングでドジャースと契約し、1年目にワールドシリーズ優勝を経験した。"
+      }
+    ],
+    "episodes": [
+      "2022年4月10日のオリックス戦で、1回二死から13者連続奪三振（日本記録）、1試合19奪三振（日本タイ記録）を記録し、1994年の槙原寛己以来28年ぶり史上16人目の完全試合を達成した。20歳5か月での達成は史上最年少、通算14試合目での達成は史上最速だった。",
+      "2019年夏の岩手大会決勝で、國保陽平監督は故障予防を理由に佐々木を投手でも打者でも出場させず、チームは敗れて甲子園出場を逃した。この判断には賛否両論が巻き起こり、高校野球の投手の起用法をめぐる議論のきっかけになった。",
+      "2023年WBCのチェコ戦は東日本大震災が起きた3月11日に行われ、佐々木が先発した。この試合で死球を当ててしまったチェコの選手に対し、佐々木は後日チームのホテルを訪れ、自分で買ったお菓子を渡して謝ったことが話題になった。",
+      "2025年のポストシーズンでは救援として起用され、フィリーズとの地区シリーズで2試合連続セーブを挙げ、第4戦では3イニングを完全に抑えた。ワールドシリーズでも2試合に登板し、ドジャースの優勝に貢献した。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2021",
+        "games": 11,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "era": 2.27,
+        "eraDisplay": "2.27",
+        "strikeouts": 68,
+        "inningsPitched": 63.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2022",
+        "games": 20,
+        "wins": 9,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.02,
+        "eraDisplay": "2.02",
+        "strikeouts": 173,
+        "inningsPitched": 129.1,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2023",
+        "games": 15,
+        "wins": 7,
+        "losses": 4,
+        "saves": 0,
+        "era": 1.78,
+        "eraDisplay": "1.78",
+        "strikeouts": 135,
+        "inningsPitched": 91.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2024",
+        "games": 18,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.35,
+        "eraDisplay": "2.35",
+        "strikeouts": 129,
+        "inningsPitched": 111.0,
+        "team": "ロッテ"
+      },
+      {
+        "season": "2025",
+        "games": 10,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 4.46,
+        "eraDisplay": "4.46",
+        "strikeouts": 28,
+        "inningsPitched": 36.1,
+        "team": "ドジャース(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 26,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.49,
+        "eraDisplay": "4.49",
+        "strikeouts": 123,
+        "inningsPitched": 122.1,
+        "team": "ドジャース(MLB)"
+      }
+    ],
+    "dataNote": "2020年は一軍・二軍とも公式戦登板なし。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/佐々木朗希",
+      "https://npb.jp/bis/players/31035151.html",
+      "https://www.baseball-reference.com/players/s/sasakro01.shtml",
+      "https://en.wikipedia.org/wiki/Roki_Sasaki"
+    ]
+  },
+  {
+    "id": "legend-sugano-tomoyuki",
+    "name": "菅野智之",
+    "nameKana": "すがの ともゆき",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "読売ジャイアンツ",
+    "activeYears": "2013-",
+    "birthDate": "1989-10-11",
+    "bestSeason": {
+      "year": "2017",
+      "era": 1.59,
+      "eraDisplay": "1.59",
+      "wins": 17,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 171,
+      "inningsPitched": 187.1,
+      "games": 25
+    },
+    "careerHighlight": "2013年から2024年まで巨人のエースとして活躍し、沢村賞2回、MVP3回、最多勝4回、最優秀防御率4回などを獲得。2018年にはクライマックスシリーズでポストシーズン史上初のノーヒットノーランを達成した。35歳で海外FA権を行使し、2025年にボルチモア・オリオールズで10勝、2026年はコロラド・ロッキーズで12勝を挙げた。",
+    "titles": [
+      "沢村賞2回(2017,2018)",
+      "MVP3回(2014,2020,2024)",
+      "最多勝4回(2017,2018,2020,2024)",
+      "最優秀防御率4回(2014,2016-2018)",
+      "最多奪三振2回(2016,2018)",
+      "最高勝率2回(2020,2024)",
+      "ベストナイン5回",
+      "ゴールデングラブ賞5回"
+    ],
+    "teamHistory": [
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2013-2024",
+        "highlight": "1年目から13勝。2017年に17勝・防御率1.59で初の沢村賞、2018年も15勝・200奪三振で2年連続の沢村賞。2020年は開幕投手から13連勝のNPB記録を作ってMVP。2024年も15勝3敗・防御率1.67で3度目のMVPに輝き、5度のリーグ優勝に貢献した。"
+      },
+      {
+        "team": "ボルチモア・オリオールズ（MLB）",
+        "years": "2025",
+        "highlight": "1年契約で入団し、35歳で迎えた2025年3月30日（現地時間）のブルージェイズ戦でメジャーデビュー。4月6日のロイヤルズ戦で初勝利を挙げ、1年目は30試合に先発して10勝10敗だった。"
+      },
+      {
+        "team": "コロラド・ロッキーズ（MLB）",
+        "years": "2026-",
+        "highlight": "2026年2月に1年契約で入団。打者有利で知られる本拠地クアーズ・フィールドで投げながら、29試合で12勝12敗を記録した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "東海大相模高校時代",
+        "title": "甲子園には届かず",
+        "description": "祖父は名将・原貢、伯父は原辰徳。1年時に右肩を痛めたが復帰し、3年夏の神奈川大会は決勝で敗れて準優勝。甲子園出場は果たせなかった。"
+      },
+      {
+        "period": "東海大学時代",
+        "title": "首都大学リーグ通算37勝4敗",
+        "description": "首都大学リーグで通算37勝4敗・防御率0.57。2010年の全日本大学野球選手権では、7回コールドながら同志社大学戦で無安打無失点を記録した。"
+      },
+      {
+        "period": "2011年〜2012年",
+        "title": "日本ハムの指名を断り浪人",
+        "description": "2011年ドラフトで日本ハムが交渉権を獲得したが入団を拒否。1年間の浪人を経て、2012年ドラフトで巨人から単独1位指名を受けた。"
+      },
+      {
+        "period": "2013年〜2024年",
+        "title": "巨人のエース",
+        "description": "沢村賞2回・MVP3回など、NPBの投手として歴代最多の計27個のタイトル・主要表彰を獲得した。2017年WBCでは日本代表のエースを務めた。"
+      },
+      {
+        "period": "2025年〜",
+        "title": "35歳でのメジャー挑戦",
+        "description": "オリオールズで1年目に10勝。2026年はロッキーズに移って12勝を挙げた。"
+      }
+    ],
+    "episodes": [
+      "2018年10月14日、クライマックスシリーズ・ファーストステージ第2戦のヤクルト戦（神宮球場）で、9回を1四球・7奪三振で無安打無失点に抑えた。NPBのポストシーズンでノーヒットノーランが記録されたのはこれが史上初めてだった。",
+      "2020年は開幕投手を務めた試合から勝ち続け、開幕から13連勝を記録した。開幕投手からのシーズン13連勝はNPBの歴代最多記録となり、この年14勝2敗でMVPに選ばれた。",
+      "35歳でメジャーに挑戦した理由について、2026年8月のインタビューで「自分のキャリアを振り返った時に後悔したくなかった」と話した。決断の前にはダルビッシュ有と前田健太に相談していたことも明かしている。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2013",
+        "games": 27,
+        "wins": 13,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.12,
+        "eraDisplay": "3.12",
+        "strikeouts": 155,
+        "inningsPitched": 176.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2014",
+        "games": 23,
+        "wins": 12,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.33,
+        "eraDisplay": "2.33",
+        "strikeouts": 122,
+        "inningsPitched": 158.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2015",
+        "games": 25,
+        "wins": 10,
+        "losses": 11,
+        "saves": 0,
+        "era": 1.91,
+        "eraDisplay": "1.91",
+        "strikeouts": 126,
+        "inningsPitched": 179.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2016",
+        "games": 26,
+        "wins": 9,
+        "losses": 6,
+        "saves": 0,
+        "era": 2.01,
+        "eraDisplay": "2.01",
+        "strikeouts": 189,
+        "inningsPitched": 183.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2017",
+        "games": 25,
+        "wins": 17,
+        "losses": 5,
+        "saves": 0,
+        "era": 1.59,
+        "eraDisplay": "1.59",
+        "strikeouts": 171,
+        "inningsPitched": 187.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2018",
+        "games": 28,
+        "wins": 15,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.14,
+        "eraDisplay": "2.14",
+        "strikeouts": 200,
+        "inningsPitched": 202.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2019",
+        "games": 22,
+        "wins": 11,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.89,
+        "eraDisplay": "3.89",
+        "strikeouts": 120,
+        "inningsPitched": 136.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2020",
+        "games": 20,
+        "wins": 14,
+        "losses": 2,
+        "saves": 0,
+        "era": 1.97,
+        "eraDisplay": "1.97",
+        "strikeouts": 131,
+        "inningsPitched": 137.1,
+        "team": "巨人"
+      },
+      {
+        "season": "2021",
+        "games": 19,
+        "wins": 6,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.19,
+        "eraDisplay": "3.19",
+        "strikeouts": 102,
+        "inningsPitched": 115.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2022",
+        "games": 23,
+        "wins": 10,
+        "losses": 7,
+        "saves": 0,
+        "era": 3.12,
+        "eraDisplay": "3.12",
+        "strikeouts": 104,
+        "inningsPitched": 147.0,
+        "team": "巨人"
+      },
+      {
+        "season": "2023",
+        "games": 14,
+        "wins": 4,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.36,
+        "eraDisplay": "3.36",
+        "strikeouts": 54,
+        "inningsPitched": 77.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2024",
+        "games": 24,
+        "wins": 15,
+        "losses": 3,
+        "saves": 0,
+        "era": 1.67,
+        "eraDisplay": "1.67",
+        "strikeouts": 111,
+        "inningsPitched": 156.2,
+        "team": "巨人"
+      },
+      {
+        "season": "2025",
+        "games": 30,
+        "wins": 10,
+        "losses": 10,
+        "saves": 0,
+        "era": 4.64,
+        "eraDisplay": "4.64",
+        "strikeouts": 106,
+        "inningsPitched": 157.0,
+        "team": "オリオールズ(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 29,
+        "wins": 12,
+        "losses": 12,
+        "saves": 0,
+        "era": 5.37,
+        "eraDisplay": "5.37",
+        "strikeouts": 96,
+        "inningsPitched": 154.1,
+        "team": "ロッキーズ(MLB)"
+      }
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/菅野智之",
+      "https://npb.jp/bis/players/41745137.html",
+      "https://www.baseball-reference.com/players/s/suganto01.shtml"
+    ]
+  },
+  {
+    "id": "legend-ogasawara-shinnosuke",
+    "name": "小笠原慎之介",
+    "nameKana": "おがさわら しんのすけ",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "中日ドラゴンズ",
+    "activeYears": "2016-",
+    "birthDate": "1997-10-08",
+    "bestSeason": {
+      "year": "2022",
+      "era": 2.76,
+      "eraDisplay": "2.76",
+      "wins": 10,
+      "losses": 8,
+      "saves": 0,
+      "strikeouts": 142,
+      "inningsPitched": 146.2,
+      "games": 22
+    },
+    "careerHighlight": "東海大相模高3年夏の甲子園決勝で勝ち越し本塁打を放って優勝投手となり、2015年ドラフト1位で中日へ。2022年に10勝・防御率2.76を記録した。2025年はワシントン・ナショナルズでメジャー23試合に登板し、2026年6月に巨人へ入団して日本球界に戻った。",
+    "titles": [
+      "月間MVP1回(2022年9・10月)",
+      "全国高校野球選手権優勝(2015)"
+    ],
+    "teamHistory": [
+      {
+        "team": "中日ドラゴンズ",
+        "years": "2016-2024",
+        "highlight": "2016年9月4日の巨人戦で7回10奪三振の好投でプロ初勝利。2018年と2023年に開幕投手を務めた。2021年から4年連続で規定投球回に到達し、2022年は10勝8敗・防御率2.76で自身初の2桁勝利を挙げた。"
+      },
+      {
+        "team": "ワシントン・ナショナルズ（MLB）",
+        "years": "2025",
+        "highlight": "ポスティングで2年契約を結んだ。マイナースタートだったが、2025年7月6日（現地時間）のレッドソックス戦でメジャーデビュー。8月のフィリーズ戦で打者1人を打ち取ってメジャー初勝利を挙げた。1年目は23試合で1勝1敗・防御率6.98。"
+      },
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2026-",
+        "highlight": "2026年はナショナルズ傘下のマイナーで開幕を迎えたが、6月17日に巨人との契約が発表された。7月19日の古巣・中日戦で6回無失点に抑え、移籍後初勝利を挙げた。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "中学時代",
+        "title": "ジャイアンツカップ優勝",
+        "description": "神奈川県藤沢市出身。湘南ボーイズで3年夏にジャイアンツカップで優勝し、U-15アジアチャレンジカップでも優勝した。"
+      },
+      {
+        "period": "東海大相模高校時代",
+        "title": "夏の甲子園優勝投手",
+        "description": "3年夏の甲子園決勝・仙台育英戦で、同点の9回に自ら勝ち越し本塁打を放って優勝。U-18ワールドカップでも準優勝に貢献した。"
+      },
+      {
+        "period": "2015年ドラフト",
+        "title": "2球団競合で中日へ",
+        "description": "中日と日本ハムから1位指名を受け、抽選で中日が交渉権を獲得した。"
+      },
+      {
+        "period": "2016年〜2024年",
+        "title": "中日の先発ローテーション",
+        "description": "左ひじの手術を乗り越え、2021年から先発の柱に。2022年に2桁勝利を挙げた。"
+      },
+      {
+        "period": "2025年〜",
+        "title": "ナショナルズを経て巨人へ",
+        "description": "2025年にメジャーデビューを果たし、2026年途中に巨人へ入団した。"
+      }
+    ],
+    "episodes": [
+      "2015年夏の甲子園決勝・仙台育英戦で、佐藤世那と投げ合う中、同点で迎えた9回表に自ら勝ち越しのソロ本塁打を放ち、東海大相模を優勝に導いた。",
+      "2025年8月のフィリーズ戦で、7回二死から救援登板してカイル・シュワーバーを三振に仕留めた直後にチームが逆転し、わずか4球・1/3回でメジャー初勝利を手にした。対戦打者1人でのMLB初勝利は日本人選手で史上3人目だった。",
+      "2022年から、アフリカのブルキナファソへ野球用具を贈るチャリティー企画「THE PROJECT11」を始め、約1200点の用具を集めて贈った。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2016",
+        "games": 15,
+        "wins": 2,
+        "losses": 6,
+        "saves": 0,
+        "era": 3.36,
+        "eraDisplay": "3.36",
+        "strikeouts": 58,
+        "inningsPitched": 72.1,
+        "team": "中日"
+      },
+      {
+        "season": "2017",
+        "games": 22,
+        "wins": 5,
+        "losses": 8,
+        "saves": 0,
+        "era": 4.84,
+        "eraDisplay": "4.84",
+        "strikeouts": 105,
+        "inningsPitched": 119.0,
+        "team": "中日"
+      },
+      {
+        "season": "2018",
+        "games": 17,
+        "wins": 5,
+        "losses": 6,
+        "saves": 0,
+        "era": 4.11,
+        "eraDisplay": "4.11",
+        "strikeouts": 73,
+        "inningsPitched": 107.1,
+        "team": "中日"
+      },
+      {
+        "season": "2019",
+        "games": 7,
+        "wins": 3,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.56,
+        "eraDisplay": "2.56",
+        "strikeouts": 32,
+        "inningsPitched": 38.2,
+        "team": "中日"
+      },
+      {
+        "season": "2020",
+        "games": 4,
+        "wins": 1,
+        "losses": 3,
+        "saves": 0,
+        "era": 7.11,
+        "eraDisplay": "7.11",
+        "strikeouts": 16,
+        "inningsPitched": 19.0,
+        "team": "中日"
+      },
+      {
+        "season": "2021",
+        "games": 25,
+        "wins": 8,
+        "losses": 10,
+        "saves": 0,
+        "era": 3.64,
+        "eraDisplay": "3.64",
+        "strikeouts": 115,
+        "inningsPitched": 143.1,
+        "team": "中日"
+      },
+      {
+        "season": "2022",
+        "games": 22,
+        "wins": 10,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.76,
+        "eraDisplay": "2.76",
+        "strikeouts": 142,
+        "inningsPitched": 146.2,
+        "team": "中日"
+      },
+      {
+        "season": "2023",
+        "games": 25,
+        "wins": 7,
+        "losses": 12,
+        "saves": 0,
+        "era": 3.59,
+        "eraDisplay": "3.59",
+        "strikeouts": 134,
+        "inningsPitched": 160.2,
+        "team": "中日"
+      },
+      {
+        "season": "2024",
+        "games": 24,
+        "wins": 5,
+        "losses": 11,
+        "saves": 0,
+        "era": 3.12,
+        "eraDisplay": "3.12",
+        "strikeouts": 82,
+        "inningsPitched": 144.1,
+        "team": "中日"
+      },
+      {
+        "season": "2025",
+        "games": 23,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "era": 6.98,
+        "eraDisplay": "6.98",
+        "strikeouts": 30,
+        "inningsPitched": 38.2,
+        "team": "ナショナルズ(MLB)"
+      },
+      {
+        "season": "2026",
+        "games": 11,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "era": 2.31,
+        "eraDisplay": "2.31",
+        "strikeouts": 54,
+        "inningsPitched": 66.1,
+        "team": "巨人"
+      }
+    ],
+    "dataNote": "2025年はMLBのみ（NPB出場なし）。MLB初勝利の日付は資料により8月14日（現地）・15日（日本時間）と分かれるため、本文では日付を省いた。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/小笠原慎之介",
+      "https://npb.jp/bis/players/71575132.html",
+      "https://www.baseball-reference.com/players/o/ogasash01.shtml"
+    ]
+  },
+  {
+    "id": "legend-imai-tatsuya",
+    "name": "今井達也",
+    "nameKana": "いまい たつや",
+    "category": "overseas",
+    "isPitcher": true,
+    "detailedPosition": "先発",
+    "peakTeam": "埼玉西武ライオンズ",
+    "activeYears": "2017-",
+    "birthDate": "1998-05-09",
+    "bestSeason": {
+      "year": "2025",
+      "era": 1.92,
+      "eraDisplay": "1.92",
+      "wins": 10,
+      "losses": 5,
+      "saves": 0,
+      "strikeouts": 178,
+      "inningsPitched": 163.2,
+      "games": 24
+    },
+    "careerHighlight": "作新学院高3年夏の甲子園で優勝投手となり、2016年ドラフト1位で西武へ。2023年から3年連続で10勝を挙げ、2024年に最多奪三振を獲得、2025年には防御率1.92と球団記録の1試合17奪三振を記録した。2026年にヒューストン・アストロズへ移籍し、メジャー1年目は23試合で6勝4敗だった。",
+    "titles": [
+      "最多奪三振1回(2024)",
+      "月間MVP2回(2023年7月,2025年5月)",
+      "全国高校野球選手権優勝(2016)"
+    ],
+    "teamHistory": [
+      {
+        "team": "埼玉西武ライオンズ",
+        "years": "2017-2025",
+        "highlight": "2018年6月13日のヤクルト戦でプロ初登板初勝利。2021年に初めて規定投球回に到達し、2023年から3年連続10勝。2024年に187奪三振で最多奪三振、2025年は防御率1.92を記録し、2024・2025年は開幕投手を務めた。"
+      },
+      {
+        "team": "ヒューストン・アストロズ（MLB）",
+        "years": "2026-",
+        "highlight": "3年契約で入団し、2026年3月29日のエンゼルス戦でメジャー初登板。4月4日のアスレチックス戦で5回2/3を無失点に抑えて初勝利を挙げた。右腕の疲労で故障者リスト入りした時期もあった。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "作新学院高校時代",
+        "title": "夏の甲子園優勝投手",
+        "description": "栃木県鹿沼市出身。3年夏の甲子園で152km/hを記録し、決勝の北海戦で9回1失点の好投で優勝。全5試合で41イニング44奪三振だった。"
+      },
+      {
+        "period": "2016年ドラフト",
+        "title": "西武から単独1位指名",
+        "description": "西武から単独1位指名を受け、岸孝之が付けていた背番号11で入団した。"
+      },
+      {
+        "period": "2018年〜2022年",
+        "title": "制球難との戦い",
+        "description": "1年目から先発を務めたが四球の多さに苦しみ、フォームの試行錯誤が続いた。2021年に初めて規定投球回に到達した。"
+      },
+      {
+        "period": "2023年〜2025年",
+        "title": "パ・リーグ屈指の右腕に",
+        "description": "鴻江寿治の自主トレで自分に合うフォームを見つけ、3年連続10勝。2024年に最多奪三振を獲得した。"
+      },
+      {
+        "period": "2026年〜",
+        "title": "アストロズでメジャー挑戦",
+        "description": "ポスティングでアストロズと契約し、メジャー初勝利を挙げた。"
+      }
+    ],
+    "episodes": [
+      "2025年6月17日のDeNA戦（横浜スタジアム）で9回2安打無四死球無失点の完封勝利を挙げ、1試合17奪三振を記録した。松坂大輔の持っていた球団記録16奪三振を塗り替えた。",
+      "2016年夏の甲子園では全5試合に登板し、決勝の北海戦を9回1失点に抑えて作新学院を優勝に導いた。大会を通して41イニングで44奪三振、防御率1.10だった。",
+      "2026年5月25日のレンジャーズ戦で6回を無安打無失点に抑え、後を受けた2投手も無安打で締めくくったため、継投によるノーヒットノーランとなった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 15,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "era": 4.81,
+        "eraDisplay": "4.81",
+        "strikeouts": 65,
+        "inningsPitched": 78.2,
+        "team": "西武"
+      },
+      {
+        "season": "2019",
+        "games": 23,
+        "wins": 7,
+        "losses": 9,
+        "saves": 0,
+        "era": 4.32,
+        "eraDisplay": "4.32",
+        "strikeouts": 105,
+        "inningsPitched": 135.1,
+        "team": "西武"
+      },
+      {
+        "season": "2020",
+        "games": 19,
+        "wins": 3,
+        "losses": 4,
+        "saves": 0,
+        "era": 6.13,
+        "eraDisplay": "6.13",
+        "strikeouts": 44,
+        "inningsPitched": 61.2,
+        "team": "西武"
+      },
+      {
+        "season": "2021",
+        "games": 25,
+        "wins": 8,
+        "losses": 8,
+        "saves": 0,
+        "era": 3.3,
+        "eraDisplay": "3.30",
+        "strikeouts": 137,
+        "inningsPitched": 158.1,
+        "team": "西武"
+      },
+      {
+        "season": "2022",
+        "games": 9,
+        "wins": 5,
+        "losses": 1,
+        "saves": 0,
+        "era": 2.41,
+        "eraDisplay": "2.41",
+        "strikeouts": 61,
+        "inningsPitched": 59.2,
+        "team": "西武"
+      },
+      {
+        "season": "2023",
+        "games": 19,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 2.3,
+        "eraDisplay": "2.30",
+        "strikeouts": 130,
+        "inningsPitched": 133.0,
+        "team": "西武"
+      },
+      {
+        "season": "2024",
+        "games": 25,
+        "wins": 10,
+        "losses": 8,
+        "saves": 0,
+        "era": 2.34,
+        "eraDisplay": "2.34",
+        "strikeouts": 187,
+        "inningsPitched": 173.1,
+        "team": "西武"
+      },
+      {
+        "season": "2025",
+        "games": 24,
+        "wins": 10,
+        "losses": 5,
+        "saves": 0,
+        "era": 1.92,
+        "eraDisplay": "1.92",
+        "strikeouts": 178,
+        "inningsPitched": 163.2,
+        "team": "西武"
+      },
+      {
+        "season": "2026",
+        "games": 23,
+        "wins": 6,
+        "losses": 4,
+        "saves": 0,
+        "era": 4.93,
+        "eraDisplay": "4.93",
+        "strikeouts": 97,
+        "inningsPitched": 76.2,
+        "team": "アストロズ(MLB)"
+      }
+    ],
+    "dataNote": "2017年は一軍登板なし。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/今井達也",
+      "https://npb.jp/bis/players/31335134.html",
+      "https://www.baseball-reference.com/players/i/imaita01.shtml"
+    ]
+  },
+  {
+    "id": "legend-murakami-munetaka",
+    "name": "村上宗隆",
+    "nameKana": "むらかみ むねたか",
+    "category": "overseas",
+    "isPitcher": false,
+    "detailedPosition": "三塁手",
+    "peakTeam": "東京ヤクルトスワローズ",
+    "activeYears": "2018-",
+    "birthDate": "2000-02-02",
+    "bestSeason": {
+      "year": "2022",
+      "avg": 0.318,
+      "avgDisplay": ".318",
+      "hr": 56,
+      "rbi": 134,
+      "stolenBases": 12,
+      "games": 141
+    },
+    "careerHighlight": "九州学院高から2017年ドラフト1位でヤクルトへ。2022年に打率.318・56本塁打・134打点で、史上最年少の22歳で三冠王に輝き、王貞治を抜く日本出身選手のシーズン最多本塁打記録を作った。本塁打王3回、MVP2回。2026年にシカゴ・ホワイトソックスへ移籍し、メジャー1年目で35本塁打を放った。",
+    "titles": [
+      "三冠王(2022)",
+      "本塁打王3回(2021,2022,2024)",
+      "打点王2回(2022,2024)",
+      "首位打者1回(2022)",
+      "最高出塁率2回(2020,2022)",
+      "MVP2回(2021,2022)",
+      "新人王(2019)",
+      "ベストナイン4回",
+      "東京五輪金メダル(2021)",
+      "WBC優勝(2023)"
+    ],
+    "teamHistory": [
+      {
+        "team": "東京ヤクルトスワローズ",
+        "years": "2018-2025",
+        "highlight": "2年目の2019年に36本塁打で新人王。2021年に39本塁打で本塁打王とMVP、日本一に貢献。2022年はNPB史上初の5打席連続本塁打や、日本出身選手最多のシーズン56本塁打を記録して三冠王と2年連続MVP。2024年にも本塁打王・打点王の二冠を獲得した。"
+      },
+      {
+        "team": "シカゴ・ホワイトソックス（MLB）",
+        "years": "2026-",
+        "highlight": "2年契約で入団し、2026年3月26日のブルワーズとの開幕戦でデビュー戦本塁打。デビューから3試合連続本塁打は日本人初で、5月にはア・リーグの月間最優秀新人に選ばれた。1年目は127試合で35本塁打、77打点を記録した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "九州学院高校時代",
+        "title": "1年夏から4番",
+        "description": "熊本市出身。1年夏の熊本大会で4番に抜擢され、初打席で満塁本塁打。同年夏の甲子園に出場した。"
+      },
+      {
+        "period": "2017年ドラフト",
+        "title": "外れ1位で3球団競合",
+        "description": "清宮幸太郎の抽選に外れたヤクルト・巨人・楽天の3球団が外れ1位で指名し、抽選でヤクルトが交渉権を獲得した。"
+      },
+      {
+        "period": "2019年〜2021年",
+        "title": "新人王からMVPへ",
+        "description": "2019年に36本塁打で新人王。2021年は39本塁打で本塁打王・MVP、東京五輪でも金メダルを獲得した。"
+      },
+      {
+        "period": "2022年",
+        "title": "史上最年少の三冠王",
+        "description": "56本塁打・134打点・打率.318で三冠王。「村神様」が新語・流行語大賞の年間大賞に選ばれた。"
+      },
+      {
+        "period": "2023年〜2025年",
+        "title": "WBC優勝と二冠",
+        "description": "2023年WBCの準決勝でサヨナラ二塁打。2024年に本塁打王・打点王を獲得し、2025年オフにポスティングでメジャー挑戦。"
+      },
+      {
+        "period": "2026年〜",
+        "title": "ホワイトソックスで1年目35本塁打",
+        "description": "デビュー戦から本塁打を量産し、日本選手のMLB1年目として初めてシーズン30本塁打に到達した。"
+      }
+    ],
+    "episodes": [
+      "2022年7月31日の阪神戦で3打席連続本塁打を放つと、8月2日の中日戦では第1打席・第2打席にも本塁打を放ち、NPB史上初の5打席連続本塁打を達成した。",
+      "2022年はシーズン最終戦の最終打席で56号本塁打を放ち、王貞治の55本を抜いて日本出身選手のシーズン最多本塁打記録を作った。打率.318・134打点とあわせて、22歳でNPB史上最年少の三冠王となった。",
+      "2023年WBCの準決勝メキシコ戦では、それまで3打席連続三振だったが、1点を追う9回裏無死一・二塁で中越えの逆転サヨナラ2点二塁打を放った。決勝のアメリカ戦でも同点本塁打を打ち、日本の優勝に貢献した。",
+      "2026年のメジャーデビュー戦で本塁打を放ち、日米両方のデビュー戦で本塁打を打った初めての日本人選手になった。さらにデビューから3試合連続で本塁打を放ったのも日本人で初めてだった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2018",
+        "games": 6,
+        "avg": 0.083,
+        "avgDisplay": ".083",
+        "hr": 1,
+        "rbi": 2,
+        "stolenBases": 0,
+        "ops": 0.547,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2019",
+        "games": 143,
+        "avg": 0.231,
+        "avgDisplay": ".231",
+        "hr": 36,
+        "rbi": 96,
+        "stolenBases": 5,
+        "ops": 0.813,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2020",
+        "games": 120,
+        "avg": 0.307,
+        "avgDisplay": ".307",
+        "hr": 28,
+        "rbi": 86,
+        "stolenBases": 11,
+        "ops": 1.012,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2021",
+        "games": 143,
+        "avg": 0.278,
+        "avgDisplay": ".278",
+        "hr": 39,
+        "rbi": 112,
+        "stolenBases": 12,
+        "ops": 0.974,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2022",
+        "games": 141,
+        "avg": 0.318,
+        "avgDisplay": ".318",
+        "hr": 56,
+        "rbi": 134,
+        "stolenBases": 12,
+        "ops": 1.168,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2023",
+        "games": 140,
+        "avg": 0.256,
+        "avgDisplay": ".256",
+        "hr": 31,
+        "rbi": 84,
+        "stolenBases": 5,
+        "ops": 0.875,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2024",
+        "games": 143,
+        "avg": 0.244,
+        "avgDisplay": ".244",
+        "hr": 33,
+        "rbi": 86,
+        "stolenBases": 10,
+        "ops": 0.851,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2025",
+        "games": 56,
+        "avg": 0.273,
+        "avgDisplay": ".273",
+        "hr": 22,
+        "rbi": 47,
+        "stolenBases": 4,
+        "ops": 1.042,
+        "team": "ヤクルト"
+      },
+      {
+        "season": "2026",
+        "games": 127,
+        "avg": 0.207,
+        "avgDisplay": ".207",
+        "hr": 35,
+        "rbi": 77,
+        "stolenBases": 1,
+        "ops": 0.825,
+        "team": "ホワイトソックス(MLB)"
+      }
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/村上宗隆",
+      "https://npb.jp/bis/players/41845136.html",
+      "https://www.baseball-reference.com/players/m/murakmu01.shtml"
+    ]
+  },
+  {
+    "id": "legend-okamoto-kazuma",
+    "name": "岡本和真",
+    "nameKana": "おかもと かずま",
+    "category": "overseas",
+    "isPitcher": false,
+    "detailedPosition": "三塁手",
+    "peakTeam": "読売ジャイアンツ",
+    "activeYears": "2015-",
+    "birthDate": "1996-06-30",
+    "bestSeason": {
+      "year": "2023",
+      "avg": 0.278,
+      "avgDisplay": ".278",
+      "hr": 41,
+      "rbi": 93,
+      "stolenBases": 0,
+      "games": 140
+    },
+    "careerHighlight": "智辯学園高から2014年ドラフト1位で巨人へ。4年目の2018年に打率.309・33本塁打・100打点でブレイクし、巨人の4番として本塁打王3回・打点王2回を獲得した。2023年WBCでは決勝で本塁打を放って世界一に貢献。2026年にトロント・ブルージェイズへ移籍し、1年目に33本塁打を記録した。",
+    "titles": [
+      "本塁打王3回(2020,2021,2023)",
+      "打点王2回(2020,2021)",
+      "ベストナイン2回(2020,2024)",
+      "ゴールデングラブ賞3回(2021,2022,2024)",
+      "WBC優勝(2023)"
+    ],
+    "teamHistory": [
+      {
+        "team": "読売ジャイアンツ",
+        "years": "2015-2025",
+        "highlight": "2018年に全143試合に出場して打率.309・33本塁打・100打点。2018年から6年連続30本塁打以上を記録し、2020・2021年に本塁打王と打点王の二冠、2023年に自己最多の41本塁打で3度目の本塁打王に輝いた。"
+      },
+      {
+        "team": "トロント・ブルージェイズ（MLB）",
+        "years": "2026-",
+        "highlight": "4年契約で入団し、2026年3月27日のアスレチックスとの開幕戦でデビュー。6月の月間最優秀新人に選ばれ、8月に球団の新人最多本塁打記録を更新。最終的に156試合で33本塁打・92打点を記録し、日本人右打者のシーズン最多本塁打を更新した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "小・中学時代",
+        "title": "投手兼内野手",
+        "description": "奈良県五條市出身。中学ではシニアリーグ日本代表の4番として全米選手権の優勝に貢献した。"
+      },
+      {
+        "period": "智辯学園高校時代",
+        "title": "高校通算73本塁打",
+        "description": "1年秋から4番。3年春の選抜大会で1試合2本塁打の大会タイ記録をつくり、高校通算73本塁打を放った。"
+      },
+      {
+        "period": "2014年ドラフト",
+        "title": "巨人から単独1位指名",
+        "description": "巨人から単独1位指名を受けて入団した。"
+      },
+      {
+        "period": "2018年〜2025年",
+        "title": "巨人の4番",
+        "description": "2018年にレギュラーとなり、本塁打王3回・打点王2回。2023年WBCでも主に一塁手として全7試合に出場した。"
+      },
+      {
+        "period": "2026年〜",
+        "title": "ブルージェイズでメジャー挑戦",
+        "description": "メジャー1年目から主力として156試合に出場し、33本塁打を放った。"
+      }
+    ],
+    "episodes": [
+      "2023年WBCでは全7試合に出場して打率.333・2本塁打・7打点。準々決勝のイタリア戦で3点本塁打を含む5打点を挙げ、決勝のアメリカ戦でも4回に追加点となる本塁打を放った。",
+      "2026年3月27日のメジャーデビュー戦で、7回にメジャー初安打を放つと、9回にも安打で出塁し、味方の安打でサヨナラのホームを踏んだ。",
+      "2026年9月13日のオリオールズ戦で32号本塁打を放ち、巨人の4番の先輩・松井秀喜のメジャーでのシーズン最多本塁打（31本）を上回った。翌日には33号を放ち、日本人右打者のシーズン最多本塁打記録を更新した。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2015",
+        "games": 17,
+        "avg": 0.214,
+        "avgDisplay": ".214",
+        "hr": 1,
+        "rbi": 4,
+        "stolenBases": 2,
+        "ops": 0.611,
+        "team": "巨人"
+      },
+      {
+        "season": "2016",
+        "games": 3,
+        "avg": 0.1,
+        "avgDisplay": ".100",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0,
+        "ops": 0.3,
+        "team": "巨人"
+      },
+      {
+        "season": "2017",
+        "games": 15,
+        "avg": 0.194,
+        "avgDisplay": ".194",
+        "hr": 0,
+        "rbi": 2,
+        "stolenBases": 0,
+        "ops": 0.512,
+        "team": "巨人"
+      },
+      {
+        "season": "2018",
+        "games": 143,
+        "avg": 0.309,
+        "avgDisplay": ".309",
+        "hr": 33,
+        "rbi": 100,
+        "stolenBases": 2,
+        "ops": 0.935,
+        "team": "巨人"
+      },
+      {
+        "season": "2019",
+        "games": 143,
+        "avg": 0.265,
+        "avgDisplay": ".265",
+        "hr": 31,
+        "rbi": 94,
+        "stolenBases": 3,
+        "ops": 0.828,
+        "team": "巨人"
+      },
+      {
+        "season": "2020",
+        "games": 118,
+        "avg": 0.275,
+        "avgDisplay": ".275",
+        "hr": 31,
+        "rbi": 97,
+        "stolenBases": 2,
+        "ops": 0.907,
+        "team": "巨人"
+      },
+      {
+        "season": "2021",
+        "games": 143,
+        "avg": 0.265,
+        "avgDisplay": ".265",
+        "hr": 39,
+        "rbi": 113,
+        "stolenBases": 1,
+        "ops": 0.871,
+        "team": "巨人"
+      },
+      {
+        "season": "2022",
+        "games": 140,
+        "avg": 0.252,
+        "avgDisplay": ".252",
+        "hr": 30,
+        "rbi": 82,
+        "stolenBases": 1,
+        "ops": 0.805,
+        "team": "巨人"
+      },
+      {
+        "season": "2023",
+        "games": 140,
+        "avg": 0.278,
+        "avgDisplay": ".278",
+        "hr": 41,
+        "rbi": 93,
+        "stolenBases": 0,
+        "ops": 0.958,
+        "team": "巨人"
+      },
+      {
+        "season": "2024",
+        "games": 143,
+        "avg": 0.28,
+        "avgDisplay": ".280",
+        "hr": 27,
+        "rbi": 83,
+        "stolenBases": 1,
+        "ops": 0.863,
+        "team": "巨人"
+      },
+      {
+        "season": "2025",
+        "games": 69,
+        "avg": 0.327,
+        "avgDisplay": ".327",
+        "hr": 15,
+        "rbi": 49,
+        "stolenBases": 1,
+        "ops": 1.014,
+        "team": "巨人"
+      },
+      {
+        "season": "2026",
+        "games": 156,
+        "avg": 0.232,
+        "avgDisplay": ".232",
+        "hr": 33,
+        "rbi": 92,
+        "stolenBases": 1,
+        "ops": 0.762,
+        "team": "ブルージェイズ(MLB)"
+      }
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/岡本和真",
+      "https://npb.jp/bis/players/11515130.html",
+      "https://www.baseball-reference.com/players/o/okamoka01.shtml"
+    ]
+  },
+  {
+    "id": "legend-nishida-rikuu",
+    "name": "西田陸浮",
+    "nameKana": "にしだ りくう",
+    "category": "overseas",
+    "isPitcher": false,
+    "detailedPosition": "外野手",
+    "peakTeam": "シカゴ・ホワイトソックス",
+    "activeYears": "2023-",
+    "birthDate": "2001-05-06",
+    "bestSeason": {
+      "year": "2026",
+      "avg": 0.241,
+      "avgDisplay": ".241",
+      "hr": 0,
+      "rbi": 2,
+      "stolenBases": 0,
+      "games": 12
+    },
+    "careerHighlight": "大阪府枚方市出身。東北高校からアメリカの短大、オレゴン大学へ進み、2023年のMLBドラフト11巡目でシカゴ・ホワイトソックスに指名された。NPBを経ずにマイナーで力をつけ、2026年5月25日にメジャーデビューを果たした。",
+    "titles": [],
+    "teamHistory": [
+      {
+        "team": "シカゴ・ホワイトソックス（MLB）",
+        "years": "2026-",
+        "highlight": "2024年はマイナーの3チームで合計49盗塁。2026年4月にAAA級へ昇格して好調を維持し、5月25日のツインズ戦に「9番・右翼手」で先発出場してメジャーデビュー、初安打も記録した。メジャーでは12試合で打率.241だった。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "小・中学時代",
+        "title": "枚方で野球を始める",
+        "description": "小学2年で枚方リトルリーグに入り、中学3年からは硬式の北大阪ボーイズでプレーした。"
+      },
+      {
+        "period": "東北高校時代",
+        "title": "宮城大会準優勝",
+        "description": "3年夏の宮城県大会で決勝まで進んだが、仙台育英に敗れて甲子園出場は逃した。"
+      },
+      {
+        "period": "アメリカの大学時代",
+        "title": "オレゴン大学で打率.312",
+        "description": "マウントフッド・コミュニティ・カレッジを経て2023年にオレゴン大学へ編入し、63試合で打率.312を記録した。"
+      },
+      {
+        "period": "2023年〜2025年",
+        "title": "ドラフト指名とマイナー",
+        "description": "2023年のMLBドラフト11巡目でホワイトソックスに指名され、日本人の指名は2013年の加藤豪将以来5人目だった。マイナーで2年連続40盗塁以上を記録した。"
+      },
+      {
+        "period": "2026年",
+        "title": "メジャーデビュー",
+        "description": "AAA級での好調を受けて5月25日にメジャー初昇格し、デビュー戦で初安打を放った。"
+      }
+    ],
+    "episodes": [
+      "2026年5月25日のメジャーデビュー戦には、同じホワイトソックスの村上宗隆も2番・一塁で先発出場していた。日本人野手2人が同じチームで同時に先発出場するのは、イチローと川崎宗則（2012年）以来14年ぶりのことだった。",
+      "2023年のドラフト後、野球留学や大学編入のサポート、少年野球教室などを手がける会社を自ら起業した。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2026",
+        "games": 12,
+        "avg": 0.241,
+        "avgDisplay": ".241",
+        "hr": 0,
+        "rbi": 2,
+        "stolenBases": 0,
+        "ops": 0.483,
+        "team": "ホワイトソックス(MLB)"
+      }
+    ],
+    "dataNote": "NPBでのプレー経験なし。マイナーリーグの成績は statsHistory に含めていない。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/西田陸浮",
+      "https://www.baseball-reference.com/players/n/nishiri01.shtml"
+    ]
+  },
+  {
+    "id": "legend-kato-gosuke",
+    "name": "加藤豪将",
+    "nameKana": "かとう ごうすけ",
+    "category": "overseas",
+    "isPitcher": false,
+    "detailedPosition": "二塁手",
+    "peakTeam": "北海道日本ハムファイターズ",
+    "activeYears": "2013-2024",
+    "birthDate": "1994-10-08",
+    "bestSeason": {
+      "year": "2023",
+      "avg": 0.21,
+      "avgDisplay": ".210",
+      "hr": 6,
+      "rbi": 16,
+      "stolenBases": 3,
+      "games": 62
+    },
+    "careerHighlight": "アメリカ・カリフォルニア州生まれで、両親は日本人。2013年のMLBドラフトでヤンキースから2巡目指名を受け、マイナーで9年間プレーした末、2022年にトロント・ブルージェイズでメジャーデビューした。同年秋のドラフトで日本ハムから3位指名を受けて入団し、2年間プレーして2024年に現役を引退した。",
+    "titles": [],
+    "teamHistory": [
+      {
+        "team": "トロント・ブルージェイズ（MLB）",
+        "years": "2022",
+        "highlight": "プロ10年目の2022年に初めて開幕ロースター入りし、4月9日のレンジャーズ戦に代走でメジャー初出場。NPBを経ずにメジャーデビューした日本人として、野手で初めての例となった。メジャーでは8試合に出場し、4月27日のレッドソックス戦で初安打（二塁打）を放った。"
+      },
+      {
+        "team": "北海道日本ハムファイターズ",
+        "years": "2023-2024",
+        "highlight": "MLB経験のある野手として史上初めてNPBのドラフト指名で入団。2023年5月25日のソフトバンク戦でNPBデビューし、初打席で初安打。デビューから10試合連続安打は2リーグ制以降の新人タイ記録だった。2024年11月に現役引退を発表した。"
+      }
+    ],
+    "growthTimeline": [
+      {
+        "period": "幼少期",
+        "title": "日米を行き来して育つ",
+        "description": "カリフォルニア州マウンテンビュー生まれ。3歳で神奈川県に移り、5歳で再びアメリカ・サンディエゴへ。6歳からリトルリーグで野球を始め、イチローに憧れて左打ちになった。"
+      },
+      {
+        "period": "高校時代",
+        "title": "全米ファーストチームに選出",
+        "description": "ランチョ・バーナード高校で二塁手として打率.411・25本塁打を記録し、ルイビルスラッガー社の全米ファーストチームに選ばれた。"
+      },
+      {
+        "period": "2013年",
+        "title": "ヤンキースから2巡目指名",
+        "description": "MLBドラフトでヤンキースから2巡目（全体66番目）で指名された。日本国籍を持つ選手が全体100番目以内で指名されたのは史上初だった。"
+      },
+      {
+        "period": "2013年〜2021年",
+        "title": "長いマイナー生活",
+        "description": "ヤンキース、マーリンズ、パドレスの傘下でプレー。2021年はAAA級で打率.306を記録した。"
+      },
+      {
+        "period": "2022年",
+        "title": "メジャーデビュー",
+        "description": "ブルージェイズでメジャーデビュー。その後メッツに移り、秋のNPBドラフトで日本ハムから3位指名を受けた。"
+      },
+      {
+        "period": "2023年〜2024年",
+        "title": "日本ハムでプレー、引退後はブルージェイズの分析担当に",
+        "description": "日本ハムで2年間プレーして引退。2024年11月からはブルージェイズで野球運営部門の分析担当補佐を務めている。"
+      }
+    ],
+    "episodes": [
+      "登場曲にしていたMr.Childrenの「Tomorrow never knows」には強い思い入れがある。少年時代、移り住んだアメリカの生活になじめず野球がつらかった時期にこの曲を聴いて勇気づけられ、「あの時に野球をやめなかったから今の自分がある」と語っている。",
+      "日本ハムでのデビューから10試合連続で安打を放ち、新人選手として2リーグ制以降のNPBタイ記録となった。"
+    ],
+    "statsHistory": [
+      {
+        "season": "2022",
+        "games": 8,
+        "avg": 0.143,
+        "avgDisplay": ".143",
+        "hr": 0,
+        "rbi": 0,
+        "stolenBases": 0,
+        "ops": 0.686,
+        "team": "ブルージェイズ(MLB)"
+      },
+      {
+        "season": "2023",
+        "games": 62,
+        "avg": 0.21,
+        "avgDisplay": ".210",
+        "hr": 6,
+        "rbi": 16,
+        "stolenBases": 3,
+        "ops": 0.614,
+        "team": "日本ハム"
+      },
+      {
+        "season": "2024",
+        "games": 28,
+        "avg": 0.172,
+        "avgDisplay": ".172",
+        "hr": 0,
+        "rbi": 1,
+        "stolenBases": 0,
+        "ops": 0.428,
+        "team": "日本ハム"
+      }
+    ],
+    "dataNote": "マイナーリーグの成績は含めていない。2022年はメッツにも在籍したがメジャー出場はなし。",
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/加藤豪将",
+      "https://npb.jp/bis/players/81385157.html",
+      "https://www.baseball-reference.com/players/k/katohgo01.shtml"
+    ]
   }
 ]
