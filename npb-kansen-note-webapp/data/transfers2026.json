@@ -5,6 +5,29 @@
   "items": [
     {
       "type": "move",
+      "team": "楽天",
+      "from": "巨人",
+      "kind": "トレード",
+      "name": "甲斐拓也",
+      "position": "捕手",
+      "date": "2026-10-30",
+      "addedAt": "2026-11-07",
+      "importance": 4,
+      "title": "巨人から金銭トレードで楽天へ",
+      "detail": "2024年オフにソフトバンクから5年契約でFA加入した捕手。巨人では今季13試合の出場にとどまり、契約期間の途中で異例の移籍となった。",
+      "sources": [
+        [
+          "Baseball Geeks",
+          "https://www.hb-nippon.com/articles/18813"
+        ],
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/04/post2040398/"
+        ]
+      ]
+    },
+    {
+      "type": "move",
       "team": "広島",
       "from": "ソフトバンク",
       "kind": "トレード",
