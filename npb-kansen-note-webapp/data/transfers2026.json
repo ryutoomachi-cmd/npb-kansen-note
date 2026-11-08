@@ -1,8 +1,25 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "木浪聖也",
+      "position": "内野手",
+      "date": "2026-11-04",
+      "addedAt": "2026-11-08",
+      "importance": 3,
+      "title": "国内FA権を行使せず残留",
+      "detail": "阪神は11月4日、今季取得した国内FA権を木浪聖也内野手が行使せず、チームに残留すると発表した。本人は日本一奪還への思いをコメントした。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711772/"
+        ]
+      ]
+    },
     {
       "type": "move",
       "team": "楽天",
