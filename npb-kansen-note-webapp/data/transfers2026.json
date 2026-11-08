@@ -5,6 +5,40 @@
   "items": [
     {
       "type": "stay",
+      "team": "日本ハム",
+      "name": "西川遥輝",
+      "position": "外野手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-08",
+      "importance": 2,
+      "title": "FA権を行使せず残留",
+      "detail": "11月5日に会見し、国内FA権を使わず日本ハムでプレーを続けると表明。現状維持の年俸2000万円で契約を更改した。今季は25試合で打率.194だった。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1335288"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "玉井大翔",
+      "position": "投手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-08",
+      "importance": 2,
+      "title": "FA権を行使せず残留",
+      "detail": "11月5日、国内FA権を使わず日本ハムに残ることを表明した。契約更改では1300万円減の5300万円でサイン。今季は救援で12試合に投げ防御率2.79だった。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1335288"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "阪神",
       "name": "木浪聖也",
       "position": "内野手",
