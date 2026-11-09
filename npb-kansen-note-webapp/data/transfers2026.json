@@ -4,6 +4,57 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "fa",
+      "team": "楽天",
+      "name": "太田光",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "国内FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、国内FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "中日",
+      "name": "上林誠知",
+      "position": "外野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "国内FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、国内FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "DeNA",
+      "name": "戸柱恭孝",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "海外FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、海外FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
       "type": "stay",
       "team": "阪神",
       "name": "伏見寅威",
