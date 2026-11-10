@@ -56,6 +56,24 @@
   {
     "id": "n7",
     "teamName": "ソフトバンク",
+    "date": "2026-11-10",
+    "playerName": "嶺井博希",
+    "headline": "ソフトバンク・嶺井博希がDeNAへ無償トレード、古巣復帰",
+    "summary": "ソフトバンクは10日、嶺井博希捕手がDeNAへ無償トレードで移籍すると発表された。嶺井選手は2022年オフのFAでソフトバンクへ移った35歳で、今季は一軍出場がなかった。背番号は99に決まった。",
+    "source": "https://www.baseballchannel.jp/npb/300889/"
+  },
+  {
+    "id": "n8",
+    "teamName": "ソフトバンク",
+    "date": "2026-11-09",
+    "playerName": "小笠原孝",
+    "headline": "ソフトバンク・小笠原孝二軍投手チーフコーチが今季限りで退団",
+    "summary": "ソフトバンクは、二軍投手チーフコーチの小笠原孝氏が今季限りで退団すると発表した。元中日の左腕で、2024年から3年間チーフコーチを務め、今季はファームの西地区優勝を支えた。",
+    "source": "https://www.baseballchannel.jp/npb/300754/"
+  },
+  {
+    "id": "n9",
+    "teamName": "ソフトバンク",
     "date": "2026-11-06",
     "playerName": "東浜巨",
     "headline": "ソフトバンク・東浜巨が広島へ無償トレードで移籍",
@@ -63,7 +81,7 @@
     "source": "https://www.baseballchannel.jp/npb/300401/"
   },
   {
-    "id": "n8",
+    "id": "n10",
     "teamName": "ソフトバンク",
     "date": "2026-11-02",
     "playerName": "正木智也",
@@ -72,7 +90,7 @@
     "source": "https://www.baseballchannel.jp/npb/299813/"
   },
   {
-    "id": "n9",
+    "id": "n11",
     "teamName": "ソフトバンク",
     "date": "2026-11-02",
     "playerName": "山本祐大",
@@ -81,7 +99,7 @@
     "source": "https://www.baseballchannel.jp/npb/299676/"
   },
   {
-    "id": "n10",
+    "id": "n12",
     "teamName": "西武",
     "date": "2026-11-06",
     "playerName": "岸潤一郎",
@@ -90,7 +108,7 @@
     "source": "https://www.baseballchannel.jp/npb/300503/"
   },
   {
-    "id": "n11",
+    "id": "n13",
     "teamName": "西武",
     "date": "2026-11-02",
     "playerName": "平良海馬",
@@ -99,7 +117,7 @@
     "source": "https://www.baseballchannel.jp/npb/299648/"
   },
   {
-    "id": "n12",
+    "id": "n14",
     "teamName": "西武",
     "date": "2026-11-02",
     "playerName": "髙橋光成",
@@ -108,7 +126,7 @@
     "source": "https://www.baseballchannel.jp/npb/lions/299746/"
   },
   {
-    "id": "n13",
+    "id": "n15",
     "teamName": "ロッテ",
     "date": "2026-11-04",
     "playerName": "",
@@ -117,7 +135,7 @@
     "source": "https://www.baseballchannel.jp/npb/300002/"
   },
   {
-    "id": "n14",
+    "id": "n16",
     "teamName": "ロッテ",
     "date": "2026-11-02",
     "playerName": "小島和哉",
@@ -126,7 +144,7 @@
     "source": "https://www.baseballchannel.jp/npb/299671/"
   },
   {
-    "id": "n15",
+    "id": "n17",
     "teamName": "ロッテ",
     "date": "2026-10-24",
     "playerName": "米沢友翔",
@@ -135,7 +153,16 @@
     "source": "https://www.baseballchannel.jp/npb/marines/297900/"
   },
   {
-    "id": "n16",
+    "id": "n18",
+    "teamName": "オリックス",
+    "date": "2026-11-09",
+    "playerName": "近藤一樹",
+    "headline": "オリックス、近藤一樹氏が二軍投手コーチに就任、2016年以来の復帰",
+    "summary": "オリックスは9日、元最優秀中継ぎ投手の近藤一樹氏が二軍投手コーチに就任すると発表した。背番号は72。古巣のユニフォームを着るのは2016年以来で、平野佳寿二軍監督のもとで投手陣を指導する。",
+    "source": "https://www.baseballchannel.jp/npb/buffaloes/300747/"
+  },
+  {
+    "id": "n19",
     "teamName": "オリックス",
     "date": "2026-11-01",
     "playerName": "",
@@ -144,7 +171,7 @@
     "source": "https://www.baseballchannel.jp/npb/buffaloes/299656/"
   },
   {
-    "id": "n17",
+    "id": "n20",
     "teamName": "オリックス",
     "date": "2026-10-30",
     "playerName": "平野佳寿",
@@ -153,16 +180,16 @@
     "source": "https://www.baseballchannel.jp/npb/299423/"
   },
   {
-    "id": "n18",
-    "teamName": "オリックス",
-    "date": "2026-10-30",
-    "playerName": "本田仁海",
-    "headline": "オリックス・本田仁海が27歳で現役引退を発表",
-    "summary": "オリックスは本田仁海投手の現役引退を発表しました。2022年には自己最多の42試合に登板し、通算98試合で6勝、30ホールド。本人は「今は後悔もなく、すっきりしています」と話しました。",
-    "source": "https://www.baseballchannel.jp/npb/buffaloes/299432/"
+    "id": "n21",
+    "teamName": "巨人",
+    "date": "2026-11-10",
+    "playerName": "西川歩",
+    "headline": "巨人・西川歩が契約更改、3軍で7勝し防御率1.64",
+    "summary": "巨人の育成左腕・西川歩投手が契約更改を行った。今季は3軍で17試合に登板して7勝2敗、防御率1.64とチーム2位の勝ち星を挙げた。来季は3年目での支配下昇格を目指す。",
+    "source": "https://www.baseballchannel.jp/npb/300946/"
   },
   {
-    "id": "n19",
+    "id": "n22",
     "teamName": "巨人",
     "date": "2026-11-07",
     "playerName": "河野優作",
@@ -171,7 +198,7 @@
     "source": "https://www.baseballchannel.jp/npb/300618/"
   },
   {
-    "id": "n20",
+    "id": "n23",
     "teamName": "巨人",
     "date": "2026-11-07",
     "playerName": "鈴木圭晋",
@@ -180,16 +207,16 @@
     "source": "https://www.baseballchannel.jp/npb/300620/"
   },
   {
-    "id": "n21",
-    "teamName": "巨人",
-    "date": "2026-11-06",
-    "playerName": "平山功太",
-    "headline": "巨人・平山功太が契約更改、支配下昇格1年目で1軍3発",
-    "summary": "22歳の平山功太内野手が契約更改。今季4月に支配下登録され、1軍で40試合に出場して打率.248、3本塁打、11打点。2軍でも打率.283と結果を残した。",
-    "source": "https://www.baseballchannel.jp/npb/300561/"
+    "id": "n24",
+    "teamName": "阪神",
+    "date": "2026-11-09",
+    "playerName": "梅野隆太郎",
+    "headline": "阪神・梅野隆太郎が国内FA権を行使せず残留",
+    "summary": "阪神は9日、梅野隆太郎捕手が保有するFA権を行使せず、来季も残留すると発表した。今季は自己最少の27試合の出場にとどまり、本人は「これからも自分らしく」とコメントしている。",
+    "source": "https://www.baseballchannel.jp/npb/300709/"
   },
   {
-    "id": "n22",
+    "id": "n25",
     "teamName": "阪神",
     "date": "2026-11-04",
     "playerName": "木浪聖也",
@@ -198,7 +225,7 @@
     "source": "https://www.baseballchannel.jp/npb/300100/"
   },
   {
-    "id": "n23",
+    "id": "n26",
     "teamName": "阪神",
     "date": "2026-10-30",
     "playerName": "矢野謙次",
@@ -207,16 +234,16 @@
     "source": "https://www.baseballchannel.jp/npb/299564/"
   },
   {
-    "id": "n24",
-    "teamName": "阪神",
-    "date": "2026-10-30",
-    "playerName": "岩貞祐太",
-    "headline": "阪神・岩貞祐太氏が引退直後に石川ミリオンスターズ監督へ",
-    "summary": "今季限りで引退した岩貞祐太氏が、来季から独立リーグ・石川ミリオンスターズの監督に就任します。阪神に籍を置いたままの派遣で、通算305試合に登板した元ドラ1左腕です。",
-    "source": "https://www.baseballchannel.jp/npb/299483/"
+    "id": "n27",
+    "teamName": "中日",
+    "date": "2026-11-10",
+    "playerName": "板山祐太郎",
+    "headline": "中日・板山祐太郎が契約更改、自己最多の6本塁打を記録",
+    "summary": "中日の板山祐太郎内野手が契約更改を行った。阪神を戦力外となった後に中日へ移り、今季は78試合に出場して打率.235、自己最多の6本塁打、24打点だった。",
+    "source": "https://www.baseballchannel.jp/npb/300870/"
   },
   {
-    "id": "n25",
+    "id": "n28",
     "teamName": "中日",
     "date": "2026-11-07",
     "playerName": "田中幹也",
@@ -225,7 +252,7 @@
     "source": "https://www.baseballchannel.jp/npb/300624/"
   },
   {
-    "id": "n26",
+    "id": "n29",
     "teamName": "中日",
     "date": "2026-11-06",
     "playerName": "橋本侑樹",
@@ -234,16 +261,16 @@
     "source": "https://www.baseballchannel.jp/npb/300592/"
   },
   {
-    "id": "n27",
-    "teamName": "中日",
-    "date": "2026-11-06",
-    "playerName": "石伊雄太",
-    "headline": "中日・石伊雄太が契約更改、112試合出場で開幕マスクも",
-    "summary": "石伊雄太捕手が契約更改。開幕マスクをかぶり、帯状疱疹で離脱しながらも112試合に出場。打率.264、7本塁打、31打点と、昨季を上回る成績を残した。",
-    "source": "https://www.baseballchannel.jp/npb/300578/"
+    "id": "n30",
+    "teamName": "DeNA",
+    "date": "2026-11-10",
+    "playerName": "嶺井博希",
+    "headline": "DeNA、ソフトバンクの嶺井博希を無償トレードで獲得",
+    "summary": "DeNAは10日、ソフトバンクの嶺井博希捕手を無償トレードで獲得すると発表した。2022年オフにFAで移籍して以来、4年ぶりの古巣復帰となる。背番号は99に決まった。",
+    "source": "https://www.baseballchannel.jp/npb/300889/"
   },
   {
-    "id": "n28",
+    "id": "n31",
     "teamName": "DeNA",
     "date": "2026-11-05",
     "playerName": "西巻賢二",
@@ -252,7 +279,7 @@
     "source": "https://www.baseballchannel.jp/npb/300239/"
   },
   {
-    "id": "n29",
+    "id": "n32",
     "teamName": "DeNA",
     "date": "2026-11-04",
     "playerName": "蝦名達夫",
@@ -261,16 +288,16 @@
     "source": "https://www.baseballchannel.jp/npb/300117/"
   },
   {
-    "id": "n30",
-    "teamName": "DeNA",
-    "date": "2026-10-30",
-    "playerName": "川島慶三",
-    "headline": "DeNA、川島慶三氏とコーチ契約　相川監督と再びタッグ",
-    "summary": "DeNAは川島慶三氏と来季のコーチ契約を結んだと発表しました。担当や背番号は後日発表です。NPB通算886試合に出場し、相川亮二監督とはヤクルト時代のチームメートでした。",
-    "source": "https://www.baseballchannel.jp/npb/299421/"
+    "id": "n33",
+    "teamName": "広島",
+    "date": "2026-11-10",
+    "playerName": "イーストン・マギー",
+    "headline": "広島、201cmの右腕マギーと来季契約で合意",
+    "summary": "広島は10日、米国出身の28歳右腕イーストン・マギー投手と2027年の契約に合意したと発表した。身長201cmで、メジャー通算の登板経験もあり、来季の先発候補として期待される。",
+    "source": "https://www.baseballchannel.jp/npb/300875/"
   },
   {
-    "id": "n31",
+    "id": "n34",
     "teamName": "広島",
     "date": "2026-11-06",
     "playerName": "床田寛樹",
@@ -279,7 +306,7 @@
     "source": "https://www.baseballchannel.jp/npb/300410/"
   },
   {
-    "id": "n32",
+    "id": "n35",
     "teamName": "広島",
     "date": "2026-11-05",
     "playerName": "坂倉将吾",
@@ -288,16 +315,16 @@
     "source": "https://www.baseballchannel.jp/npb/300268/"
   },
   {
-    "id": "n33",
-    "teamName": "広島",
-    "date": "2026-11-04",
-    "playerName": "森下暢仁",
-    "headline": "広島・森下暢仁がFA権を行使、複数球団が調査と報道",
-    "summary": "広島の森下暢仁投手が国内FA権を行使すると発表しました。今季は23試合で7勝11敗、防御率3.60。本人は「まだ決め切れていない」と話し、残留も含めて検討します。",
-    "source": "https://www.baseballchannel.jp/npb/300072/"
+    "id": "n36",
+    "teamName": "ヤクルト",
+    "date": "2026-11-10",
+    "playerName": "飯田琉斗",
+    "headline": "ヤクルト・飯田琉斗が契約更改、一軍は1登板にとどまる",
+    "summary": "ヤクルトの飯田琉斗投手が契約更改を行った。社会人出身の27歳右腕で、今季は6月に一軍初登板を果たしたが、一軍では1試合のみ。ファームでは22試合に登板し防御率4.30だった。",
+    "source": "https://www.baseballchannel.jp/npb/300950/"
   },
   {
-    "id": "n34",
+    "id": "n37",
     "teamName": "ヤクルト",
     "date": "2026-11-06",
     "playerName": "松下歩叶",
@@ -306,21 +333,12 @@
     "source": "https://www.baseballchannel.jp/npb/300524/"
   },
   {
-    "id": "n35",
+    "id": "n38",
     "teamName": "ヤクルト",
     "date": "2026-11-04",
     "playerName": "石川雅規",
     "headline": "ヤクルト・石川雅規、宮本慎也氏が開く引退慰労会に感謝",
     "summary": "今季限りで引退した石川雅規投手が、宮本慎也氏に慰労会を開いてもらったとSNSで報告しました。石山、小川、中村悠平らも集まりました。通算188勝を挙げたレジェンド左腕です。",
     "source": "https://www.baseballchannel.jp/npb/300121/"
-  },
-  {
-    "id": "n36",
-    "teamName": "ヤクルト",
-    "date": "2026-11-02",
-    "playerName": "村上宗隆",
-    "headline": "村上宗隆が11月14日の神宮奉納試合で始球式へ",
-    "summary": "ホワイトソックスの村上宗隆選手が、11月14日に神宮球場で行う「東京六大学選抜対ヤクルト」の奉納試合で始球式を務めます。メジャー1年目は35本塁打。「戻れて嬉しい」と語りました。",
-    "source": "https://www.baseballchannel.jp/npb/299752/"
   }
 ]
