@@ -1,8 +1,25 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "筒香嘉智",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-10",
+      "importance": 4,
+      "title": "海外FA権を行使せず残留",
+      "detail": "DeNAは11月9日、2025年に取得した海外FA権を筒香嘉智選手が行使せず、来季もDeNAでプレーすると発表した。3年契約の最終年を終え、横浜で頂点を目指すとコメントした。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/09/0021017153.shtml"
+        ]
+      ]
+    },
     {
       "type": "fa",
       "team": "楽天",
