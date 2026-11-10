@@ -82,24 +82,6 @@
   },
   {
     "id": "n10",
-    "teamName": "ソフトバンク",
-    "date": "2026-11-02",
-    "playerName": "正木智也",
-    "headline": "日本シリーズMVPの正木智也、自己最多の28本塁打を振り返る",
-    "summary": "ソフトバンクの正木智也外野手が今季を報告。自己最多の101試合で打率.274、28本塁打、59打点。DeNAとの日本シリーズでは第3戦でサヨナラ本塁打を放ち、MVPに選ばれました。",
-    "source": "https://www.baseballchannel.jp/npb/299813/"
-  },
-  {
-    "id": "n11",
-    "teamName": "ソフトバンク",
-    "date": "2026-11-02",
-    "playerName": "山本祐大",
-    "headline": "ソフトバンク・山本祐大、トレード移籍の激動の1年を回顧",
-    "summary": "5月にDeNAからトレードで加入した山本祐大捕手が、SNSで今季を振り返りました。55試合で打率.267、6本塁打、41打点。日本シリーズでは優秀選手賞に選ばれ、「幸せな一年」と語っています。",
-    "source": "https://www.baseballchannel.jp/npb/299676/"
-  },
-  {
-    "id": "n12",
     "teamName": "西武",
     "date": "2026-11-06",
     "playerName": "岸潤一郎",
@@ -108,7 +90,7 @@
     "source": "https://www.baseballchannel.jp/npb/300503/"
   },
   {
-    "id": "n13",
+    "id": "n11",
     "teamName": "西武",
     "date": "2026-11-02",
     "playerName": "平良海馬",
@@ -117,7 +99,7 @@
     "source": "https://www.baseballchannel.jp/npb/299648/"
   },
   {
-    "id": "n14",
+    "id": "n12",
     "teamName": "西武",
     "date": "2026-11-02",
     "playerName": "髙橋光成",
@@ -126,7 +108,7 @@
     "source": "https://www.baseballchannel.jp/npb/lions/299746/"
   },
   {
-    "id": "n15",
+    "id": "n13",
     "teamName": "ロッテ",
     "date": "2026-11-04",
     "playerName": "",
@@ -135,7 +117,7 @@
     "source": "https://www.baseballchannel.jp/npb/300002/"
   },
   {
-    "id": "n16",
+    "id": "n14",
     "teamName": "ロッテ",
     "date": "2026-11-02",
     "playerName": "小島和哉",
@@ -144,7 +126,7 @@
     "source": "https://www.baseballchannel.jp/npb/299671/"
   },
   {
-    "id": "n17",
+    "id": "n15",
     "teamName": "ロッテ",
     "date": "2026-10-24",
     "playerName": "米沢友翔",
@@ -153,7 +135,7 @@
     "source": "https://www.baseballchannel.jp/npb/marines/297900/"
   },
   {
-    "id": "n18",
+    "id": "n16",
     "teamName": "オリックス",
     "date": "2026-11-09",
     "playerName": "近藤一樹",
@@ -162,7 +144,7 @@
     "source": "https://www.baseballchannel.jp/npb/buffaloes/300747/"
   },
   {
-    "id": "n19",
+    "id": "n17",
     "teamName": "オリックス",
     "date": "2026-11-01",
     "playerName": "",
@@ -171,7 +153,7 @@
     "source": "https://www.baseballchannel.jp/npb/buffaloes/299656/"
   },
   {
-    "id": "n20",
+    "id": "n18",
     "teamName": "オリックス",
     "date": "2026-10-30",
     "playerName": "平野佳寿",
@@ -180,7 +162,7 @@
     "source": "https://www.baseballchannel.jp/npb/299423/"
   },
   {
-    "id": "n21",
+    "id": "n19",
     "teamName": "巨人",
     "date": "2026-11-10",
     "playerName": "西川歩",
@@ -189,7 +171,7 @@
     "source": "https://www.baseballchannel.jp/npb/300946/"
   },
   {
-    "id": "n22",
+    "id": "n20",
     "teamName": "巨人",
     "date": "2026-11-07",
     "playerName": "河野優作",
@@ -198,7 +180,7 @@
     "source": "https://www.baseballchannel.jp/npb/300618/"
   },
   {
-    "id": "n23",
+    "id": "n21",
     "teamName": "巨人",
     "date": "2026-11-07",
     "playerName": "鈴木圭晋",
@@ -207,7 +189,7 @@
     "source": "https://www.baseballchannel.jp/npb/300620/"
   },
   {
-    "id": "n24",
+    "id": "n22",
     "teamName": "阪神",
     "date": "2026-11-09",
     "playerName": "梅野隆太郎",
@@ -216,7 +198,7 @@
     "source": "https://www.baseballchannel.jp/npb/300709/"
   },
   {
-    "id": "n25",
+    "id": "n23",
     "teamName": "阪神",
     "date": "2026-11-04",
     "playerName": "木浪聖也",
@@ -225,7 +207,7 @@
     "source": "https://www.baseballchannel.jp/npb/300100/"
   },
   {
-    "id": "n26",
+    "id": "n24",
     "teamName": "阪神",
     "date": "2026-10-30",
     "playerName": "矢野謙次",
@@ -234,7 +216,7 @@
     "source": "https://www.baseballchannel.jp/npb/299564/"
   },
   {
-    "id": "n27",
+    "id": "n25",
     "teamName": "中日",
     "date": "2026-11-10",
     "playerName": "板山祐太郎",
@@ -243,7 +225,7 @@
     "source": "https://www.baseballchannel.jp/npb/300870/"
   },
   {
-    "id": "n28",
+    "id": "n26",
     "teamName": "中日",
     "date": "2026-11-07",
     "playerName": "田中幹也",
@@ -252,7 +234,7 @@
     "source": "https://www.baseballchannel.jp/npb/300624/"
   },
   {
-    "id": "n29",
+    "id": "n27",
     "teamName": "中日",
     "date": "2026-11-06",
     "playerName": "橋本侑樹",
@@ -261,7 +243,7 @@
     "source": "https://www.baseballchannel.jp/npb/300592/"
   },
   {
-    "id": "n30",
+    "id": "n28",
     "teamName": "DeNA",
     "date": "2026-11-10",
     "playerName": "嶺井博希",
@@ -270,7 +252,7 @@
     "source": "https://www.baseballchannel.jp/npb/300889/"
   },
   {
-    "id": "n31",
+    "id": "n29",
     "teamName": "DeNA",
     "date": "2026-11-05",
     "playerName": "西巻賢二",
@@ -279,7 +261,7 @@
     "source": "https://www.baseballchannel.jp/npb/300239/"
   },
   {
-    "id": "n32",
+    "id": "n30",
     "teamName": "DeNA",
     "date": "2026-11-04",
     "playerName": "蝦名達夫",
@@ -288,7 +270,7 @@
     "source": "https://www.baseballchannel.jp/npb/300117/"
   },
   {
-    "id": "n33",
+    "id": "n31",
     "teamName": "広島",
     "date": "2026-11-10",
     "playerName": "イーストン・マギー",
@@ -297,7 +279,7 @@
     "source": "https://www.baseballchannel.jp/npb/300875/"
   },
   {
-    "id": "n34",
+    "id": "n32",
     "teamName": "広島",
     "date": "2026-11-06",
     "playerName": "床田寛樹",
@@ -306,7 +288,7 @@
     "source": "https://www.baseballchannel.jp/npb/300410/"
   },
   {
-    "id": "n35",
+    "id": "n33",
     "teamName": "広島",
     "date": "2026-11-05",
     "playerName": "坂倉将吾",
@@ -315,7 +297,7 @@
     "source": "https://www.baseballchannel.jp/npb/300268/"
   },
   {
-    "id": "n36",
+    "id": "n34",
     "teamName": "ヤクルト",
     "date": "2026-11-10",
     "playerName": "飯田琉斗",
@@ -324,7 +306,7 @@
     "source": "https://www.baseballchannel.jp/npb/300950/"
   },
   {
-    "id": "n37",
+    "id": "n35",
     "teamName": "ヤクルト",
     "date": "2026-11-06",
     "playerName": "松下歩叶",
@@ -333,7 +315,7 @@
     "source": "https://www.baseballchannel.jp/npb/300524/"
   },
   {
-    "id": "n38",
+    "id": "n36",
     "teamName": "ヤクルト",
     "date": "2026-11-04",
     "playerName": "石川雅規",
