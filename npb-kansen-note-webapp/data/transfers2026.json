@@ -5,6 +5,115 @@
   "items": [
     {
       "type": "stay",
+      "team": "広島",
+      "name": "秋山翔吾",
+      "position": "外野手",
+      "date": "2026-10-31",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "8月に2度目の海外FA権を取得したが、行使せずに広島に残ると表明。今季は76試合で打率.276。「また1年、カープで頑張りたい」と話し、日米通算2000安打まで残り117本に迫っている。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/10/31/0020987620.shtml"
+        ],
+        [
+          "スポニチ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/3ec85eddf32190e823738ec95879594b35b2839b"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "オリックス",
+      "name": "田嶋大樹",
+      "position": "投手",
+      "date": "2026-11-01",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "国内FA権を行使せず残留",
+      "detail": "9月に取得した国内FA権を使わず、2年契約で残留することを表明。プロ9年で通算51勝の左腕で、今季は初めて救援も経験した。来季は再び先発として勝負する。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/c543d978598670864c0c60a341d24867205d5dd6"
+        ],
+        [
+          "スポニチ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/668daa6d7d63daedd6a7e143f3aae856d50fcfa4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "小深田大翔",
+      "position": "内野手",
+      "date": "2026-11-07",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "今季取得した国内FA権を使わず、楽天に残ると表明。球団から慰留を受けており、決め手は「イーグルスの力になりたいというところが一番」と語った。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1f5c136b58556a886870122132ed4a6ae42e40ef"
+        ],
+        [
+          "河北新報",
+          "https://kahoku.news/articles/JY72EM5GYAKHN.html"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "オリックス",
+      "name": "許宸緯",
+      "position": "投手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-10-16",
+      "addedAt": "2026-11-11",
+      "importance": 1,
+      "title": "台湾の18歳右腕が育成で入団",
+      "detail": "台湾・開南大学に所属する18歳の右投手。オリックスが育成選手として獲得すると発表した。背番号は131で、球速が持ち味。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/295792/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/10/19/0020943935.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "オリックス",
+      "name": "張乙安",
+      "position": "内野手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-10-16",
+      "addedAt": "2026-11-11",
+      "importance": 1,
+      "title": "台湾の18歳内野手が育成で入団",
+      "detail": "台湾・開南大学に所属する18歳の内野手。オリックスが育成選手として獲得すると発表した。背番号は153。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/295792/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/10/19/0020943935.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "阪神",
       "name": "梅野隆太郎",
       "position": "捕手",
