@@ -4,6 +4,96 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "阪神",
+      "name": "梅野隆太郎",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "阪神は11月9日、海外FA権を持つ梅野隆太郎捕手が権利を使わず残留すると発表した。今季はプロ入り後最少の27試合出場で打率.219、1本塁打、4打点にとどまった。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://daily.co.jp/tigers/2026/11/09/0021015393.shtml"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/5d04da6a74b87491f2433d281d6b1da764d7a1a2"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "糸原健斗",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "海外FA権を行使せず残留",
+      "detail": "今年6月に海外FA権を取得した糸原健斗内野手も、権利を使わず阪神に残ることが決まった。FA申請の締め切り日だった11月9日に、梅野捕手とともに残留が伝えられた。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/5d04da6a74b87491f2433d281d6b1da764d7a1a2"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "熊谷敬宥",
+      "position": "内野手",
+      "date": "2026-10-31",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "8月に国内FA権を取得した熊谷敬宥内野手が、権利を使わず阪神に残ることを決めた。内外野を守れる俊足のユーティリティーで、今季は80試合に出場し打率.211、13打点。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/299579/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "岩崎優",
+      "position": "投手",
+      "date": "2026-10-30",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "再取得のFA権を行使せず残留",
+      "detail": "阪神は10月30日、再取得したFA権を岩崎優投手が行使せず残留すると発表した。今季は50試合に登板し3勝3敗11セーブ19ホールド、防御率2.54とブルペンを支えた。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/299376/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "阪神",
+      "name": "キャム・ディベイニー",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "マイナビニュース（ベースボールキング）",
+          "https://news.mynavi.jp/article/20261109-5291939"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "DeNA",
       "from": "ソフトバンク",
