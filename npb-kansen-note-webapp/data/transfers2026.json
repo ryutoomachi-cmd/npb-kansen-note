@@ -1,8 +1,70 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "move",
+      "team": "DeNA",
+      "from": "ソフトバンク",
+      "kind": "トレード",
+      "name": "嶺井博希",
+      "position": "捕手",
+      "date": "2026-11-10",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "無償トレードで古巣DeNAへ",
+      "detail": "2022年オフに国内FA権でDeNAからソフトバンクへ移った35歳の捕手。4年契約の最終年だった今季はプロ13年目で初めて1軍出場なし。無償トレードで古巣に戻り、背番号は99。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/10/0021018935.shtml"
+        ],
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1337283"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "広島",
+      "kind": "新加入",
+      "name": "イーストン・マギー",
+      "position": "投手",
+      "date": "2026-11-10",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "前ロイヤルズの大型右腕と合意",
+      "detail": "前ロイヤルズの28歳、身長201センチの右腕と契約合意を球団が発表。2022年にレイズでメジャーデビューし通算20登板・防御率4.54。先発候補として、東浜に続く投手補強となる。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/11/10/0021018557.shtml"
+        ],
+        [
+          "中国新聞",
+          "https://www.chugoku-np.co.jp/articles/-/922137"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "西武",
+      "name": "外崎修汰",
+      "position": "内野手",
+      "date": "2026-11-07",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "球団が海外FA権を行使せず残留すると発表。契約最終年の今季はプロ入り後最少の35試合出場で打率.167、2本塁打。球団を通じて「来季もライオンズでプレーすることを決めた」とコメントした。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711959/"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "DeNA",
