@@ -5,6 +5,48 @@
   "items": [
     {
       "type": "stay",
+      "team": "ソフトバンク",
+      "name": "柳田悠岐",
+      "position": "外野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 4,
+      "title": "海外FA権を行使せず残留",
+      "detail": "7年契約が今季で満了し、海外FA権の行使を7日まで悩んだ末に残留を決めた。決め手は球団の「熱意」。今季は打率.302、19本塁打。4日に首の手術を受け、復帰まで2〜3カ月の見込み。",
+      "sources": [
+        [
+          "西スポWEB OTTO!",
+          "https://nishispo.nishinippon.co.jp/article/1055906"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/21ca085a9367da0ca0e371878e5f551c334b3c00"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ソフトバンク",
+      "name": "牧原大成",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "3年契約が今季で満了し、他球団の調査もあったが、申請期限の9日までに残留の意思を球団に伝えた。2025年に首位打者を獲得し、今季も打率3割で2年連続の3割を記録したユーティリティー。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/21ca085a9367da0ca0e371878e5f551c334b3c00"
+        ],
+        [
+          "東スポWEB",
+          "https://www.tokyo-sports.co.jp/articles/-/409380"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "広島",
       "name": "秋山翔吾",
       "position": "外野手",
