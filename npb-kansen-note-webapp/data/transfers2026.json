@@ -5,6 +5,25 @@
   "items": [
     {
       "type": "free",
+      "team": "阪神",
+      "name": "カーソン・ラグズデール",
+      "position": "投手",
+      "date": "2026-11-12",
+      "addedAt": "2026-11-12",
+      "importance": 2,
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/12/post2044054/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
       "team": "巨人",
       "name": "松浦慶斗",
       "position": "投手",
