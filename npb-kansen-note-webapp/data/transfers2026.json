@@ -1,8 +1,24 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "松浦慶斗",
+      "position": "投手",
+      "date": "2026-10-09",
+      "addedAt": "2026-11-12",
+      "importance": 1,
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/294740/"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "ソフトバンク",
