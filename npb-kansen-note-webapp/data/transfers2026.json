@@ -1,2952 +1,3595 @@
 {
- "title": "2026 オフの移籍・去就",
- "updatedAt": "2026-11-05",
- "showUntil": "2027-03-31",
- "items": [
-  {
-   "type": "fa",
-   "team": "広島",
-   "name": "坂倉将吾",
-   "position": "捕手",
-   "date": "2026-11-05",
-   "title": "国内FA権を行使",
-   "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
-   "sources": [
-    [
-     "ベースボールチャンネル（FA権行使選手一覧）",
-     "https://www.baseballchannel.jp/npb/300094/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "fa",
-   "team": "広島",
-   "name": "森下暢仁",
-   "position": "投手",
-   "date": "2026-11-04",
-   "title": "国内FA権を行使",
-   "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
-   "sources": [
-    [
-     "ベースボールチャンネル（FA権行使選手一覧）",
-     "https://www.baseballchannel.jp/npb/300094/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "fa",
-   "team": "オリックス",
-   "name": "宗佑磨",
-   "position": "内野手",
-   "date": "2026-11-03",
-   "title": "国内FA権を行使",
-   "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
-   "sources": [
-    [
-     "ベースボールチャンネル（FA権行使選手一覧）",
-     "https://www.baseballchannel.jp/npb/300094/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "チャッゼ・フレッド",
-   "position": "投手",
-   "date": "2026-11-03",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "カルロス・トーバー",
-   "position": "外野手",
-   "date": "2026-11-03",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "楽天",
-   "name": "宋家豪",
-   "position": "投手",
-   "date": "2026-11-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "楽天",
-   "name": "ロアンシー・コントレラス",
-   "position": "投手",
-   "date": "2026-11-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "日本ハム",
-   "name": "サウリン・ラオ",
-   "position": "投手",
-   "date": "2026-11-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "日本ハム",
-   "name": "ロドルフォ・カストロ",
-   "position": "内野手",
-   "date": "2026-11-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "fa",
-   "team": "西武",
-   "name": "髙橋光成",
-   "position": "投手",
-   "date": "2026-11-02",
-   "title": "海外FA権を行使",
-   "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
-   "sources": [
-    [
-     "ベースボールチャンネル（FA権行使選手一覧）",
-     "https://www.baseballchannel.jp/npb/300094/"
-    ]
-   ],
-   "importance": 5
-  },
-  {
-   "type": "fa",
-   "team": "ロッテ",
-   "name": "小島和哉",
-   "position": "投手",
-   "date": "2026-11-02",
-   "title": "国内FA権を行使",
-   "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
-   "sources": [
-    [
-     "ベースボールチャンネル（FA権行使選手一覧）",
-     "https://www.baseballchannel.jp/npb/300094/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "free",
-   "team": "中日",
-   "name": "アルベルト・アブレウ",
-   "position": "投手",
-   "date": "2026-11-02",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "中日",
-   "name": "ウンベルト・メヒア",
-   "position": "投手",
-   "date": "2026-11-02",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "中日",
-   "name": "オルランド・カリステ",
-   "position": "内野手",
-   "date": "2026-11-02",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "mlb",
-   "team": "西武",
-   "name": "平良海馬",
-   "position": "投手",
-   "date": "2026-10-30",
-   "title": "ポスティングでのメジャー挑戦を球団が受諾",
-   "detail": "今季は先発で12勝5敗・防御率1.36、最優秀防御率。11月2日（日本時間）からMLB球団との交渉が始まった。",
-   "sources": [
-    [
-     "ベースボールチャンネル",
-     "https://www.baseballchannel.jp/npb/lions/299458/"
-    ]
-   ],
-   "importance": 5
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "中村祐太",
-   "position": "投手",
-   "date": "2026-10-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "オリックス",
-   "name": "本田仁海",
-   "position": "投手",
-   "date": "2026-10-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "緒方理貢",
-   "position": "外野手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "渡辺翔太",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "古賀康誠",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "石原彪",
-   "position": "捕手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "大栄利哉",
-   "position": "捕手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "入江大樹",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "金子京介",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "牧野憲伸",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "松木平優太",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "福田幸之介",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "有馬恵叶",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "坂本拓己",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "竹山日向",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "西濱勇星",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "翔聖",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "佐藤琢磨",
-   "position": "投手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "中川拓真",
-   "position": "捕手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "遠藤成",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "髙野颯太",
-   "position": "内野手",
-   "date": "2026-10-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "東晃平",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "曽谷龍平",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "藤川敦也",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "横山楓",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "川瀬堅斗",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "糸川亮太",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "青山美夏人",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "佐々木健",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "牧野翔矢",
-   "position": "捕手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "茶野篤政",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "古川雄大",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "林冠臣",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "杉原望来",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "Ｍ・ラミレス",
-   "position": "内野手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "Ｎ・ロベルト",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "小澤怜史",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "茂木栄五郎",
-   "position": "内野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "北村恵吾",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "岩井俊介",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "安德駿",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "中村稔弥",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "相良雅斗",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "木村大成",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "秋広優人",
-   "position": "内野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "宮里優吾",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "川口冬弥",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "田上奏大",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "岡植純平",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "佐々木明都",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "牧原巧汰",
-   "position": "捕手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "重松凱人",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "佐藤航太",
-   "position": "外野手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "清宮虎多朗",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "阪口樂",
-   "position": "内野手",
-   "date": "2026-10-26",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "加藤大和",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "松本遼大",
-   "position": "投手",
-   "date": "2026-10-26",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "愛斗",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "宇佐見真吾",
-   "position": "捕手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "川越誠司",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "湯浅大",
-   "position": "内野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "北浦竜次",
-   "position": "投手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "宇都宮葵星",
-   "position": "内野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "浅野翔吾",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "鈴木大和",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "知念大成",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "三塚琉生",
-   "position": "外野手",
-   "date": "2026-10-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "ケムナ誠",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "長谷部銀次",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "松本竜也",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "日髙暖己",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "辻大雅",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "中村貴浩",
-   "position": "外野手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "森遼大朗",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "早坂響",
-   "position": "投手",
-   "date": "2026-10-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "長坂拳弥",
-   "position": "捕手",
-   "date": "2026-10-23",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "伊藤光",
-   "position": "捕手",
-   "date": "2026-10-20",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "日本ハム",
-   "name": "福谷浩司",
-   "position": "投手",
-   "date": "2026-10-20",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "mlb",
-   "team": "阪神",
-   "name": "佐藤輝明",
-   "position": "内野手",
-   "date": "2026-10-19",
-   "title": "ポスティングでのメジャー挑戦を球団が容認",
-   "detail": "2026年は三冠王。阪神は「選手の強い要望だけで容認するということはない。総合的な決断」と説明。申請期間は11月1日〜12月15日。",
-   "sources": [
-    [
-     "デイリースポーツ",
-     "https://www.daily.co.jp/tigers/2026/10/19/0020945504.shtml"
-    ],
-    [
-     "デイリースポーツ",
-     "https://www.daily.co.jp/tigers/2026/10/19/0020945650.shtml"
-    ]
-   ],
-   "importance": 5
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "松岡洸希",
-   "position": "投手",
-   "date": "2026-10-19",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "梅林優貴",
-   "position": "捕手",
-   "date": "2026-10-19",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "明瀬諒介",
-   "position": "内野手",
-   "date": "2026-10-19",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "島田海吏",
-   "position": "外野手",
-   "date": "2026-10-19",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "豊田寛",
-   "position": "外野手",
-   "date": "2026-10-19",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "オリックス",
-   "name": "Ｌ・ペルドモ",
-   "position": "投手",
-   "date": "2026-10-12",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "ヤクルト",
-   "name": "Ｌ・セデーニョ",
-   "position": "内野手",
-   "date": "2026-10-08",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "東妻勇輔",
-   "position": "投手",
-   "date": "2026-10-07",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "菊地吏玖",
-   "position": "投手",
-   "date": "2026-10-07",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "石垣勝海",
-   "position": "内野手",
-   "date": "2026-10-07",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "大江竜聖",
-   "position": "投手",
-   "date": "2026-10-06",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "長谷川威展",
-   "position": "投手",
-   "date": "2026-10-06",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "ハモンド",
-   "position": "投手",
-   "date": "2026-10-06",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ソフトバンク",
-   "name": "桑原秀侍",
-   "position": "内野手",
-   "date": "2026-10-06",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "DeNA",
-   "name": "松本隆之介",
-   "position": "投手",
-   "date": "2026-10-06",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "阿部翔太",
-   "position": "投手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "頓宮裕真",
-   "position": "捕手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "寿賀弘都",
-   "position": "投手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "芦田丈飛",
-   "position": "投手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "村上喬一朗",
-   "position": "捕手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "オリックス",
-   "name": "香月一也",
-   "position": "内野手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "藤田大清",
-   "position": "外野手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "日本ハム",
-   "name": "山口アタル",
-   "position": "外野手",
-   "date": "2026-10-05",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "山田龍聖",
-   "position": "投手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "郡拓也",
-   "position": "捕手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "岡田悠希",
-   "position": "外野手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "巨人",
-   "name": "萩尾匡也",
-   "position": "外野手",
-   "date": "2026-10-05",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "一條力真",
-   "position": "投手",
-   "date": "2026-10-04",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "本前郁也",
-   "position": "投手",
-   "date": "2026-10-04",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "永島田輝斗",
-   "position": "投手",
-   "date": "2026-10-04",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "勝又琉偉",
-   "position": "内野手",
-   "date": "2026-10-04",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ロッテ",
-   "name": "髙野光海",
-   "position": "外野手",
-   "date": "2026-10-04",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "楽天",
-   "name": "田中和基",
-   "position": "外野手",
-   "date": "2026-10-04",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "シンクレア",
-   "position": "投手",
-   "date": "2026-10-01",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "西武",
-   "name": "奥村光一",
-   "position": "外野手",
-   "date": "2026-10-01",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "矢野雅哉",
-   "position": "内野手",
-   "date": "2026-10-01",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "小園海斗",
-   "position": "内野手",
-   "date": "2026-10-01",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 5
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "前川誠太",
-   "position": "内野手",
-   "date": "2026-10-01",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "広島",
-   "name": "田村俊介",
-   "position": "外野手",
-   "date": "2026-10-01",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "Ｆ・グズマン",
-   "position": "投手",
-   "date": "2026-10-01",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "知野直人",
-   "position": "内野手",
-   "date": "2026-10-01",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "大貫晋一",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "橋本達弥",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "益子京右",
-   "position": "捕手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "東妻純平",
-   "position": "捕手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "濱将乃介",
-   "position": "外野手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "板東湧梧",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "富田龍",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "松井颯",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "石田隼都",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "吉村優聖歩",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "森本哲星",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "喜多隆介",
-   "position": "捕手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "北村流音",
-   "position": "内野手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "巨人",
-   "name": "田上優弥",
-   "position": "内野手",
-   "date": "2026-09-30",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "辻本倫太郎",
-   "position": "内野手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "ブライト健太",
-   "position": "外野手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "leave",
-   "team": "ロッテ",
-   "name": "中村奨吾",
-   "position": "内野手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "DeNA",
-   "name": "中川颯",
-   "position": "投手",
-   "date": "2026-09-30",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "沼田翔平",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "田口麗斗",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "青柳晃洋",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "長谷川宙輝",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "山野辺翔",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "ヤクルト",
-   "name": "根岸辰昇",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "福敬登",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "三浦瑞樹",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "土生翔太",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "尾田剛樹",
-   "position": "外野手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "川上理偉",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "中日",
-   "name": "津田啓史",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "小園健太",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "藤浪晋太郎",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "佐々木千隼",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "中川颯",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "堀岡隼人",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "井上絢登",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "松本隆之介",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "近藤大雅",
-   "position": "捕手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "小笠原蒼",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "DeNA",
-   "name": "西巻賢二",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "松原快",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "伊藤稜",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "Ａ・マルティネス",
-   "position": "投手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "戸井零士",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "Ｊ・アルナエス",
-   "position": "内野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "阪神",
-   "name": "Ｓ・コンスエグラ",
-   "position": "外野手",
-   "date": "2026-09-29",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "酒居知史",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "日當直喜",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "林優樹",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "今野龍太",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "松田啄磨",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "release",
-   "team": "楽天",
-   "name": "前田銀治",
-   "position": "外野手",
-   "date": "2026-09-28",
-   "ikusei": true,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "阪神",
-   "name": "岩貞祐太",
-   "position": "投手",
-   "date": "2026-09-28",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "阪神",
-   "name": "西勇輝",
-   "position": "投手",
-   "date": "2026-09-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "retire",
-   "team": "オリックス",
-   "name": "山田修義",
-   "position": "投手",
-   "date": "2026-09-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "オリックス",
-   "name": "西野真弘",
-   "position": "内野手",
-   "date": "2026-09-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "楽天",
-   "name": "辛島航",
-   "position": "投手",
-   "date": "2026-09-23",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "日本ハム",
-   "name": "中島卓也",
-   "position": "内野手",
-   "date": "2026-09-11",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "ロッテ",
-   "name": "唐川侑己",
-   "position": "投手",
-   "date": "2026-09-04",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "retire",
-   "team": "ハヤテ",
-   "name": "池谷蒼大",
-   "position": "投手",
-   "date": "2026-09-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "ヤクルト",
-   "name": "石川雅規",
-   "position": "投手",
-   "date": "2026-09-02",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "retire",
-   "team": "オイシックス",
-   "name": "又吉克樹",
-   "position": "投手",
-   "date": "2026-08-10",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "オリックス",
-   "name": "平野佳寿",
-   "position": "投手",
-   "date": "2026-08-09",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  },
-  {
-   "type": "retire",
-   "team": "オイシックス",
-   "name": "陽岱鋼",
-   "position": "外野手",
-   "date": "2026-07-27",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "ロッテ",
-   "name": "角中勝也",
-   "position": "外野手",
-   "date": "2026-07-20",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "free",
-   "team": "DeNA",
-   "name": "Ｊ．デュプランティエ",
-   "position": "投手",
-   "date": "2026-07-17",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "西武",
-   "name": "ボー・タカハシ",
-   "position": "投手",
-   "date": "2026-07-17",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "ソフトバンク",
-   "name": "中村晃",
-   "position": "内野手",
-   "date": "2026-07-03",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "free",
-   "team": "DeNA",
-   "name": "Ａ．コックス",
-   "position": "投手",
-   "date": "2026-06-08",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "free",
-   "team": "楽天",
-   "name": "Ｏ．ゴンザレス",
-   "position": "外野手",
-   "date": "2026-06-04",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "DeNA",
-   "name": "Ｄ．ビシエド",
-   "position": "内野手",
-   "date": "2026-05-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 3
-  },
-  {
-   "type": "free",
-   "team": "広島",
-   "name": "羽月隆太郎",
-   "position": "内野手",
-   "date": "2026-02-25",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ]
-  },
-  {
-   "type": "retire",
-   "team": "西武",
-   "name": "栗山巧",
-   "position": "外野手",
-   "date": "2025-11-24",
-   "ikusei": false,
-   "sources": [
-    [
-     "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
-     "https://www.baseballchannel.jp/npb/291604/"
-    ]
-   ],
-   "importance": 4
-  }
- ]
+  "title": "2026 オフの移籍・去就",
+  "updatedAt": "2026-11-13",
+  "showUntil": "2027-03-31",
+  "items": [
+    {
+      "type": "leave",
+      "team": "DeNA",
+      "name": "オスバルド・ビド",
+      "position": "投手",
+      "date": "2026-11-13",
+      "addedAt": "2026-11-13",
+      "importance": 2,
+      "title": "来日1年目で退団へ",
+      "detail": "6月に加入した右腕。一軍では2試合の登板にとどまり、防御率10.29。球団がウエーバー公示の手続きを行ったと発表し、来日1年での退団となる見込み。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/301519/"
+        ],
+        [
+          "サンケイスポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/84b82ffa55ae53ff7c9d085b87e602381bd3b5ac"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "DeNA",
+      "name": "クーパー・ヒュンメル",
+      "position": "外野手",
+      "date": "2026-11-13",
+      "addedAt": "2026-11-13",
+      "importance": 2,
+      "title": "来日1年目で退団へ",
+      "detail": "両打ちの外野手。今季は59試合に出場して打率.209、5本塁打、18打点。球団がウエーバー公示の手続きを行ったと発表し、1年での退団となる見込み。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/301519/"
+        ],
+        [
+          "サンケイスポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/84b82ffa55ae53ff7c9d085b87e602381bd3b5ac"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "阪神",
+      "name": "カーソン・ラグズデール",
+      "position": "投手",
+      "date": "2026-11-12",
+      "addedAt": "2026-11-12",
+      "importance": 2,
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/12/post2044054/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "松浦慶斗",
+      "position": "投手",
+      "date": "2026-10-09",
+      "addedAt": "2026-11-12",
+      "importance": 1,
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/294740/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ソフトバンク",
+      "name": "柳田悠岐",
+      "position": "外野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 4,
+      "title": "海外FA権を行使せず残留",
+      "detail": "7年契約が今季で満了し、海外FA権の行使を7日まで悩んだ末に残留を決めた。決め手は球団の「熱意」。今季は打率.302、19本塁打。4日に首の手術を受け、復帰まで2〜3カ月の見込み。",
+      "sources": [
+        [
+          "西スポWEB OTTO!",
+          "https://nishispo.nishinippon.co.jp/article/1055906"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/21ca085a9367da0ca0e371878e5f551c334b3c00"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ソフトバンク",
+      "name": "牧原大成",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "3年契約が今季で満了し、他球団の調査もあったが、申請期限の9日までに残留の意思を球団に伝えた。2025年に首位打者を獲得し、今季も打率3割で2年連続の3割を記録したユーティリティー。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/21ca085a9367da0ca0e371878e5f551c334b3c00"
+        ],
+        [
+          "東スポWEB",
+          "https://www.tokyo-sports.co.jp/articles/-/409380"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "広島",
+      "name": "秋山翔吾",
+      "position": "外野手",
+      "date": "2026-10-31",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "8月に2度目の海外FA権を取得したが、行使せずに広島に残ると表明。今季は76試合で打率.276。「また1年、カープで頑張りたい」と話し、日米通算2000安打まで残り117本に迫っている。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/10/31/0020987620.shtml"
+        ],
+        [
+          "スポニチ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/3ec85eddf32190e823738ec95879594b35b2839b"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "オリックス",
+      "name": "田嶋大樹",
+      "position": "投手",
+      "date": "2026-11-01",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "国内FA権を行使せず残留",
+      "detail": "9月に取得した国内FA権を使わず、2年契約で残留することを表明。プロ9年で通算51勝の左腕で、今季は初めて救援も経験した。来季は再び先発として勝負する。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/c543d978598670864c0c60a341d24867205d5dd6"
+        ],
+        [
+          "スポニチ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/668daa6d7d63daedd6a7e143f3aae856d50fcfa4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "小深田大翔",
+      "position": "内野手",
+      "date": "2026-11-07",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "今季取得した国内FA権を使わず、楽天に残ると表明。球団から慰留を受けており、決め手は「イーグルスの力になりたいというところが一番」と語った。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1f5c136b58556a886870122132ed4a6ae42e40ef"
+        ],
+        [
+          "河北新報",
+          "https://kahoku.news/articles/JY72EM5GYAKHN.html"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "オリックス",
+      "name": "許宸緯",
+      "position": "投手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-10-16",
+      "addedAt": "2026-11-11",
+      "importance": 1,
+      "title": "台湾の18歳右腕が育成で入団",
+      "detail": "台湾・開南大学に所属する18歳の右投手。オリックスが育成選手として獲得すると発表した。背番号は131で、球速が持ち味。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/295792/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/10/19/0020943935.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "オリックス",
+      "name": "張乙安",
+      "position": "内野手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-10-16",
+      "addedAt": "2026-11-11",
+      "importance": 1,
+      "title": "台湾の18歳内野手が育成で入団",
+      "detail": "台湾・開南大学に所属する18歳の内野手。オリックスが育成選手として獲得すると発表した。背番号は153。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/295792/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/10/19/0020943935.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "梅野隆太郎",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "阪神は11月9日、海外FA権を持つ梅野隆太郎捕手が権利を使わず残留すると発表した。今季はプロ入り後最少の27試合出場で打率.219、1本塁打、4打点にとどまった。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://daily.co.jp/tigers/2026/11/09/0021015393.shtml"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/5d04da6a74b87491f2433d281d6b1da764d7a1a2"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "糸原健斗",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "海外FA権を行使せず残留",
+      "detail": "今年6月に海外FA権を取得した糸原健斗内野手も、権利を使わず阪神に残ることが決まった。FA申請の締め切り日だった11月9日に、梅野捕手とともに残留が伝えられた。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/5d04da6a74b87491f2433d281d6b1da764d7a1a2"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "熊谷敬宥",
+      "position": "内野手",
+      "date": "2026-10-31",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "8月に国内FA権を取得した熊谷敬宥内野手が、権利を使わず阪神に残ることを決めた。内外野を守れる俊足のユーティリティーで、今季は80試合に出場し打率.211、13打点。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/299579/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "岩崎優",
+      "position": "投手",
+      "date": "2026-10-30",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "再取得のFA権を行使せず残留",
+      "detail": "阪神は10月30日、再取得したFA権を岩崎優投手が行使せず残留すると発表した。今季は50試合に登板し3勝3敗11セーブ19ホールド、防御率2.54とブルペンを支えた。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/299376/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "阪神",
+      "name": "キャム・ディベイニー",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-11",
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "マイナビニュース（ベースボールキング）",
+          "https://news.mynavi.jp/article/20261109-5291939"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "DeNA",
+      "from": "ソフトバンク",
+      "kind": "トレード",
+      "name": "嶺井博希",
+      "position": "捕手",
+      "date": "2026-11-10",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "無償トレードで古巣DeNAへ",
+      "detail": "2022年オフに国内FA権でDeNAからソフトバンクへ移った35歳の捕手。4年契約の最終年だった今季はプロ13年目で初めて1軍出場なし。無償トレードで古巣に戻り、背番号は99。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/10/0021018935.shtml"
+        ],
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1337283"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "広島",
+      "kind": "新加入",
+      "name": "イーストン・マギー",
+      "position": "投手",
+      "date": "2026-11-10",
+      "addedAt": "2026-11-11",
+      "importance": 2,
+      "title": "前ロイヤルズの大型右腕と合意",
+      "detail": "前ロイヤルズの28歳、身長201センチの右腕と契約合意を球団が発表。2022年にレイズでメジャーデビューし通算20登板・防御率4.54。先発候補として、東浜に続く投手補強となる。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/11/10/0021018557.shtml"
+        ],
+        [
+          "中国新聞",
+          "https://www.chugoku-np.co.jp/articles/-/922137"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "西武",
+      "name": "外崎修汰",
+      "position": "内野手",
+      "date": "2026-11-07",
+      "addedAt": "2026-11-11",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "球団が海外FA権を行使せず残留すると発表。契約最終年の今季はプロ入り後最少の35試合出場で打率.167、2本塁打。球団を通じて「来季もライオンズでプレーすることを決めた」とコメントした。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711959/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "筒香嘉智",
+      "position": "内野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-10",
+      "importance": 4,
+      "title": "海外FA権を行使せず残留",
+      "detail": "DeNAは11月9日、2025年に取得した海外FA権を筒香嘉智選手が行使せず、来季もDeNAでプレーすると発表した。3年契約の最終年を終え、横浜で頂点を目指すとコメントした。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/09/0021017153.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "楽天",
+      "name": "太田光",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "国内FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、国内FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "中日",
+      "name": "上林誠知",
+      "position": "外野手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "国内FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、国内FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "DeNA",
+      "name": "戸柱恭孝",
+      "position": "捕手",
+      "date": "2026-11-09",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "海外FA権を行使",
+      "detail": "FA権の行使期限の最終日までに、海外FA権を行使したと報じられた。補償の要らないCランク。11月11日から他球団とも交渉できる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/d5378813de8bbfc19c591d82050eb0923352909a"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "伏見寅威",
+      "position": "捕手",
+      "date": "2026-11-06",
+      "addedAt": "2026-11-09",
+      "importance": 3,
+      "title": "海外FA権を行使せず残留",
+      "detail": "阪神は11月6日、今季取得した海外FA権を伏見寅威捕手が行使せず、来季も阪神でプレーすると発表した。日本ハムからのトレードで加入1年目だった。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711893/"
+        ]
+      ]
+    },
+    {
+      "type": "mlb",
+      "team": "日本ハム",
+      "name": "伊藤大海",
+      "position": "投手",
+      "date": "2026-11-01",
+      "addedAt": "2026-11-08",
+      "importance": 5,
+      "title": "ポスティングでメジャー挑戦へ",
+      "detail": "日本ハムは伊藤大海投手のポスティングシステムを利用したメジャー挑戦を容認し、手続きを始めたと発表。2025年に沢村賞を受賞した右腕で、2年連続でパ・リーグ最多勝にも輝いた。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/08d8a14aa1033b77f043e5c8e971f969e66e8a85"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "西川遥輝",
+      "position": "外野手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-08",
+      "importance": 2,
+      "title": "FA権を行使せず残留",
+      "detail": "11月5日に会見し、国内FA権を使わず日本ハムでプレーを続けると表明。現状維持の年俸2000万円で契約を更改した。今季は25試合で打率.194だった。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1335288"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "玉井大翔",
+      "position": "投手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-08",
+      "importance": 2,
+      "title": "FA権を行使せず残留",
+      "detail": "11月5日、国内FA権を使わず日本ハムに残ることを表明した。契約更改では1300万円減の5300万円でサイン。今季は救援で12試合に投げ防御率2.79だった。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1335288"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "木浪聖也",
+      "position": "内野手",
+      "date": "2026-11-04",
+      "addedAt": "2026-11-08",
+      "importance": 3,
+      "title": "国内FA権を行使せず残留",
+      "detail": "阪神は11月4日、今季取得した国内FA権を木浪聖也内野手が行使せず、チームに残留すると発表した。本人は日本一奪還への思いをコメントした。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711772/"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "楽天",
+      "from": "巨人",
+      "kind": "トレード",
+      "name": "甲斐拓也",
+      "position": "捕手",
+      "date": "2026-10-30",
+      "addedAt": "2026-11-07",
+      "importance": 4,
+      "title": "巨人から金銭トレードで楽天へ",
+      "detail": "2024年オフにソフトバンクから5年契約でFA加入した捕手。巨人では今季13試合の出場にとどまり、契約期間の途中で異例の移籍となった。",
+      "sources": [
+        [
+          "Baseball Geeks",
+          "https://www.hb-nippon.com/articles/18813"
+        ],
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/04/post2040398/"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "広島",
+      "from": "ソフトバンク",
+      "kind": "トレード",
+      "name": "東浜巨",
+      "position": "投手",
+      "date": "2026-11-06",
+      "addedAt": "2026-11-07",
+      "importance": 4,
+      "title": "無償トレードで広島へ",
+      "detail": "2017年の最多勝右腕。今季は右肩の故障もあり一軍登板がなく、出場機会を求めて移籍。森下・床田の先発2人がFA権を行使した広島の先発陣を支える。",
+      "sources": [
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/06/post2041326/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/11/06/0021005849.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "広島",
+      "name": "床田寛樹",
+      "position": "投手",
+      "date": "2026-11-06",
+      "addedAt": "2026-11-07",
+      "importance": 5,
+      "title": "国内FA権を行使",
+      "detail": "今季8勝6敗、防御率2.76の左腕エース。森下・坂倉に続く3人目で、同一年に3人は球団史上初。広島は宣言残留を認めている。",
+      "sources": [
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/06/post2041271/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/11/06/0021005259.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "オリックス",
+      "name": "中川圭太",
+      "position": "内野手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-07",
+      "importance": 4,
+      "title": "国内FA権を行使",
+      "detail": "昨季ベストナインの30歳。今季は113試合で打率.252、6本塁打。阪神が最大4年10億円規模で獲得を狙うと報じられている。",
+      "sources": [
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/05/post2041029/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/05/0021003137.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "DeNA",
+      "name": "西巻賢二",
+      "position": "内野手",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-07",
+      "importance": 2,
+      "ikusei": true,
+      "title": "現役引退を発表",
+      "detail": "楽天・ロッテ・DeNAでプレーした27歳。戦力外通告のあと、プロ9年間で幕を閉じる決断をした。",
+      "sources": [
+        [
+          "フルカウント",
+          "https://full-count.jp/2026/11/05/post2040973/"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/05/0021002782.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "広島",
+      "name": "坂倉将吾",
+      "position": "捕手",
+      "date": "2026-11-05",
+      "title": "国内FA権を行使",
+      "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
+      "sources": [
+        [
+          "ベースボールチャンネル（FA権行使選手一覧）",
+          "https://www.baseballchannel.jp/npb/300094/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "fa",
+      "team": "広島",
+      "name": "森下暢仁",
+      "position": "投手",
+      "date": "2026-11-04",
+      "title": "国内FA権を行使",
+      "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
+      "sources": [
+        [
+          "ベースボールチャンネル（FA権行使選手一覧）",
+          "https://www.baseballchannel.jp/npb/300094/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "fa",
+      "team": "オリックス",
+      "name": "宗佑磨",
+      "position": "内野手",
+      "date": "2026-11-03",
+      "title": "国内FA権を行使",
+      "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
+      "sources": [
+        [
+          "ベースボールチャンネル（FA権行使選手一覧）",
+          "https://www.baseballchannel.jp/npb/300094/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "チャッゼ・フレッド",
+      "position": "投手",
+      "date": "2026-11-03",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "カルロス・トーバー",
+      "position": "外野手",
+      "date": "2026-11-03",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "楽天",
+      "name": "宋家豪",
+      "position": "投手",
+      "date": "2026-11-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "楽天",
+      "name": "ロアンシー・コントレラス",
+      "position": "投手",
+      "date": "2026-11-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "日本ハム",
+      "name": "サウリン・ラオ",
+      "position": "投手",
+      "date": "2026-11-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "日本ハム",
+      "name": "ロドルフォ・カストロ",
+      "position": "内野手",
+      "date": "2026-11-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "fa",
+      "team": "西武",
+      "name": "髙橋光成",
+      "position": "投手",
+      "date": "2026-11-02",
+      "title": "海外FA権を行使",
+      "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
+      "sources": [
+        [
+          "ベースボールチャンネル（FA権行使選手一覧）",
+          "https://www.baseballchannel.jp/npb/300094/"
+        ]
+      ],
+      "importance": 5
+    },
+    {
+      "type": "fa",
+      "team": "ロッテ",
+      "name": "小島和哉",
+      "position": "投手",
+      "date": "2026-11-02",
+      "title": "国内FA権を行使",
+      "detail": "FA宣言の期限は11月9日。11月11日から全球団と交渉できる。",
+      "sources": [
+        [
+          "ベースボールチャンネル（FA権行使選手一覧）",
+          "https://www.baseballchannel.jp/npb/300094/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "free",
+      "team": "中日",
+      "name": "アルベルト・アブレウ",
+      "position": "投手",
+      "date": "2026-11-02",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "中日",
+      "name": "ウンベルト・メヒア",
+      "position": "投手",
+      "date": "2026-11-02",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "中日",
+      "name": "オルランド・カリステ",
+      "position": "内野手",
+      "date": "2026-11-02",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "mlb",
+      "team": "西武",
+      "name": "平良海馬",
+      "position": "投手",
+      "date": "2026-10-30",
+      "title": "ポスティングでのメジャー挑戦を球団が受諾",
+      "detail": "今季は先発で12勝5敗・防御率1.36、最優秀防御率。11月2日（日本時間）からMLB球団との交渉が始まった。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/lions/299458/"
+        ]
+      ],
+      "importance": 5
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "中村祐太",
+      "position": "投手",
+      "date": "2026-10-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "オリックス",
+      "name": "本田仁海",
+      "position": "投手",
+      "date": "2026-10-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "緒方理貢",
+      "position": "外野手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "渡辺翔太",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "古賀康誠",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "石原彪",
+      "position": "捕手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "大栄利哉",
+      "position": "捕手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "入江大樹",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "金子京介",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "牧野憲伸",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "松木平優太",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "福田幸之介",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "有馬恵叶",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "坂本拓己",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "竹山日向",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "西濱勇星",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "翔聖",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "佐藤琢磨",
+      "position": "投手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "中川拓真",
+      "position": "捕手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "遠藤成",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "髙野颯太",
+      "position": "内野手",
+      "date": "2026-10-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "東晃平",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "曽谷龍平",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "藤川敦也",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "横山楓",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "川瀬堅斗",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "糸川亮太",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "青山美夏人",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "佐々木健",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "牧野翔矢",
+      "position": "捕手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "茶野篤政",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "古川雄大",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "林冠臣",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "杉原望来",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "Ｍ・ラミレス",
+      "position": "内野手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "Ｎ・ロベルト",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "小澤怜史",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "茂木栄五郎",
+      "position": "内野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "北村恵吾",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "岩井俊介",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "安德駿",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "中村稔弥",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "相良雅斗",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "木村大成",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "秋広優人",
+      "position": "内野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "宮里優吾",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "川口冬弥",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "田上奏大",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "岡植純平",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "佐々木明都",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "牧原巧汰",
+      "position": "捕手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "重松凱人",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "佐藤航太",
+      "position": "外野手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "清宮虎多朗",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "阪口樂",
+      "position": "内野手",
+      "date": "2026-10-26",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "加藤大和",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "松本遼大",
+      "position": "投手",
+      "date": "2026-10-26",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "愛斗",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "宇佐見真吾",
+      "position": "捕手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "川越誠司",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "湯浅大",
+      "position": "内野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "北浦竜次",
+      "position": "投手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "宇都宮葵星",
+      "position": "内野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "浅野翔吾",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "鈴木大和",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "知念大成",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "三塚琉生",
+      "position": "外野手",
+      "date": "2026-10-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "ケムナ誠",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "長谷部銀次",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "松本竜也",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "日髙暖己",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "辻大雅",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "中村貴浩",
+      "position": "外野手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "森遼大朗",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "早坂響",
+      "position": "投手",
+      "date": "2026-10-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "長坂拳弥",
+      "position": "捕手",
+      "date": "2026-10-23",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "伊藤光",
+      "position": "捕手",
+      "date": "2026-10-20",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "日本ハム",
+      "name": "福谷浩司",
+      "position": "投手",
+      "date": "2026-10-20",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "mlb",
+      "team": "阪神",
+      "name": "佐藤輝明",
+      "position": "内野手",
+      "date": "2026-10-19",
+      "title": "ポスティングでのメジャー挑戦を球団が容認",
+      "detail": "2026年は三冠王。阪神は「選手の強い要望だけで容認するということはない。総合的な決断」と説明。申請期間は11月1日〜12月15日。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/tigers/2026/10/19/0020945504.shtml"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/tigers/2026/10/19/0020945650.shtml"
+        ]
+      ],
+      "importance": 5
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "松岡洸希",
+      "position": "投手",
+      "date": "2026-10-19",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "梅林優貴",
+      "position": "捕手",
+      "date": "2026-10-19",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "明瀬諒介",
+      "position": "内野手",
+      "date": "2026-10-19",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "島田海吏",
+      "position": "外野手",
+      "date": "2026-10-19",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "豊田寛",
+      "position": "外野手",
+      "date": "2026-10-19",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "オリックス",
+      "name": "Ｌ・ペルドモ",
+      "position": "投手",
+      "date": "2026-10-12",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "Ｌ・セデーニョ",
+      "position": "内野手",
+      "date": "2026-10-08",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "東妻勇輔",
+      "position": "投手",
+      "date": "2026-10-07",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "菊地吏玖",
+      "position": "投手",
+      "date": "2026-10-07",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "石垣勝海",
+      "position": "内野手",
+      "date": "2026-10-07",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "大江竜聖",
+      "position": "投手",
+      "date": "2026-10-06",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "長谷川威展",
+      "position": "投手",
+      "date": "2026-10-06",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "ハモンド",
+      "position": "投手",
+      "date": "2026-10-06",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ソフトバンク",
+      "name": "桑原秀侍",
+      "position": "内野手",
+      "date": "2026-10-06",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "DeNA",
+      "name": "松本隆之介",
+      "position": "投手",
+      "date": "2026-10-06",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "阿部翔太",
+      "position": "投手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "頓宮裕真",
+      "position": "捕手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "寿賀弘都",
+      "position": "投手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "芦田丈飛",
+      "position": "投手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "村上喬一朗",
+      "position": "捕手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "オリックス",
+      "name": "香月一也",
+      "position": "内野手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "藤田大清",
+      "position": "外野手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "日本ハム",
+      "name": "山口アタル",
+      "position": "外野手",
+      "date": "2026-10-05",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "山田龍聖",
+      "position": "投手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "郡拓也",
+      "position": "捕手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "岡田悠希",
+      "position": "外野手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "巨人",
+      "name": "萩尾匡也",
+      "position": "外野手",
+      "date": "2026-10-05",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "一條力真",
+      "position": "投手",
+      "date": "2026-10-04",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "本前郁也",
+      "position": "投手",
+      "date": "2026-10-04",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "永島田輝斗",
+      "position": "投手",
+      "date": "2026-10-04",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "勝又琉偉",
+      "position": "内野手",
+      "date": "2026-10-04",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ロッテ",
+      "name": "髙野光海",
+      "position": "外野手",
+      "date": "2026-10-04",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "楽天",
+      "name": "田中和基",
+      "position": "外野手",
+      "date": "2026-10-04",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "シンクレア",
+      "position": "投手",
+      "date": "2026-10-01",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "西武",
+      "name": "奥村光一",
+      "position": "外野手",
+      "date": "2026-10-01",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "矢野雅哉",
+      "position": "内野手",
+      "date": "2026-10-01",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "小園海斗",
+      "position": "内野手",
+      "date": "2026-10-01",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 5
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "前川誠太",
+      "position": "内野手",
+      "date": "2026-10-01",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "広島",
+      "name": "田村俊介",
+      "position": "外野手",
+      "date": "2026-10-01",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "Ｆ・グズマン",
+      "position": "投手",
+      "date": "2026-10-01",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "知野直人",
+      "position": "内野手",
+      "date": "2026-10-01",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "大貫晋一",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "橋本達弥",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "益子京右",
+      "position": "捕手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "東妻純平",
+      "position": "捕手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "濱将乃介",
+      "position": "外野手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "板東湧梧",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "富田龍",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "松井颯",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "石田隼都",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "吉村優聖歩",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "森本哲星",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "喜多隆介",
+      "position": "捕手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "北村流音",
+      "position": "内野手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "巨人",
+      "name": "田上優弥",
+      "position": "内野手",
+      "date": "2026-09-30",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "辻本倫太郎",
+      "position": "内野手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "ブライト健太",
+      "position": "外野手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "ロッテ",
+      "name": "中村奨吾",
+      "position": "内野手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "DeNA",
+      "name": "中川颯",
+      "position": "投手",
+      "date": "2026-09-30",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "沼田翔平",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "田口麗斗",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "青柳晃洋",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "長谷川宙輝",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "山野辺翔",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "ヤクルト",
+      "name": "根岸辰昇",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "福敬登",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "三浦瑞樹",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "土生翔太",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "尾田剛樹",
+      "position": "外野手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "川上理偉",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "中日",
+      "name": "津田啓史",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "小園健太",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "藤浪晋太郎",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "佐々木千隼",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "中川颯",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "堀岡隼人",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "井上絢登",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "松本隆之介",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "近藤大雅",
+      "position": "捕手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "小笠原蒼",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "DeNA",
+      "name": "西巻賢二",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "松原快",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "伊藤稜",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "Ａ・マルティネス",
+      "position": "投手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "戸井零士",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "Ｊ・アルナエス",
+      "position": "内野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "阪神",
+      "name": "Ｓ・コンスエグラ",
+      "position": "外野手",
+      "date": "2026-09-29",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "酒居知史",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "日當直喜",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "林優樹",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "今野龍太",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "松田啄磨",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "release",
+      "team": "楽天",
+      "name": "前田銀治",
+      "position": "外野手",
+      "date": "2026-09-28",
+      "ikusei": true,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "阪神",
+      "name": "岩貞祐太",
+      "position": "投手",
+      "date": "2026-09-28",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "阪神",
+      "name": "西勇輝",
+      "position": "投手",
+      "date": "2026-09-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "retire",
+      "team": "オリックス",
+      "name": "山田修義",
+      "position": "投手",
+      "date": "2026-09-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "オリックス",
+      "name": "西野真弘",
+      "position": "内野手",
+      "date": "2026-09-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "楽天",
+      "name": "辛島航",
+      "position": "投手",
+      "date": "2026-09-23",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "日本ハム",
+      "name": "中島卓也",
+      "position": "内野手",
+      "date": "2026-09-11",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "ロッテ",
+      "name": "唐川侑己",
+      "position": "投手",
+      "date": "2026-09-04",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "retire",
+      "team": "ハヤテ",
+      "name": "池谷蒼大",
+      "position": "投手",
+      "date": "2026-09-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "ヤクルト",
+      "name": "石川雅規",
+      "position": "投手",
+      "date": "2026-09-02",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "retire",
+      "team": "オイシックス",
+      "name": "又吉克樹",
+      "position": "投手",
+      "date": "2026-08-10",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "オリックス",
+      "name": "平野佳寿",
+      "position": "投手",
+      "date": "2026-08-09",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    },
+    {
+      "type": "retire",
+      "team": "オイシックス",
+      "name": "陽岱鋼",
+      "position": "外野手",
+      "date": "2026-07-27",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "ロッテ",
+      "name": "角中勝也",
+      "position": "外野手",
+      "date": "2026-07-20",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "free",
+      "team": "DeNA",
+      "name": "Ｊ．デュプランティエ",
+      "position": "投手",
+      "date": "2026-07-17",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "西武",
+      "name": "ボー・タカハシ",
+      "position": "投手",
+      "date": "2026-07-17",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "ソフトバンク",
+      "name": "中村晃",
+      "position": "内野手",
+      "date": "2026-07-03",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "free",
+      "team": "DeNA",
+      "name": "Ａ．コックス",
+      "position": "投手",
+      "date": "2026-06-08",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "楽天",
+      "name": "Ｏ．ゴンザレス",
+      "position": "外野手",
+      "date": "2026-06-04",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "DeNA",
+      "name": "Ｄ．ビシエド",
+      "position": "内野手",
+      "date": "2026-05-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 3
+    },
+    {
+      "type": "free",
+      "team": "広島",
+      "name": "羽月隆太郎",
+      "position": "内野手",
+      "date": "2026-02-25",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "西武",
+      "name": "栗山巧",
+      "position": "外野手",
+      "date": "2025-11-24",
+      "ikusei": false,
+      "sources": [
+        [
+          "ベースボールチャンネル（12球団の戦力外・引退・自由契約・退団一覧）",
+          "https://www.baseballchannel.jp/npb/291604/"
+        ]
+      ],
+      "importance": 4
+    }
+  ]
 }
