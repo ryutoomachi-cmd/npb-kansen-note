@@ -1,8 +1,50 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "leave",
+      "team": "DeNA",
+      "name": "オスバルド・ビド",
+      "position": "投手",
+      "date": "2026-11-13",
+      "addedAt": "2026-11-13",
+      "importance": 2,
+      "title": "来日1年目で退団へ",
+      "detail": "6月に加入した右腕。一軍では2試合の登板にとどまり、防御率10.29。球団がウエーバー公示の手続きを行ったと発表し、来日1年での退団となる見込み。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/301519/"
+        ],
+        [
+          "サンケイスポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/84b82ffa55ae53ff7c9d085b87e602381bd3b5ac"
+        ]
+      ]
+    },
+    {
+      "type": "leave",
+      "team": "DeNA",
+      "name": "クーパー・ヒュンメル",
+      "position": "外野手",
+      "date": "2026-11-13",
+      "addedAt": "2026-11-13",
+      "importance": 2,
+      "title": "来日1年目で退団へ",
+      "detail": "両打ちの外野手。今季は59試合に出場して打率.209、5本塁打、18打点。球団がウエーバー公示の手続きを行ったと発表し、1年での退団となる見込み。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/301519/"
+        ],
+        [
+          "サンケイスポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/84b82ffa55ae53ff7c9d085b87e602381bd3b5ac"
+        ]
+      ]
+    },
     {
       "type": "free",
       "team": "阪神",
