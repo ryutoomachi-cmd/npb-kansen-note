@@ -191,6 +191,15 @@
   function loadRelations() { return fetchWithCache("relations", "data/relations.json"); }
   function loadSchedule() { return fetchWithCache("schedule", "data/schedule.json"); }
   function loadNews() { return fetchWithCache("news", "data/news.json"); }
+  function refreshNewsQuietly() {
+    forceFetchJson("data/news.json").then(function (fresh) {
+      if (!Array.isArray(fresh)) return;
+      cacheWrite("news", fresh);
+      if (JSON.stringify(fresh) === JSON.stringify(NEWS)) return;
+      NEWS = fresh;
+      if (state.tab === "home") renderHome();
+    }).catch(function () { /* 電波がない時は前回のニュースのまま */ });
+  }
 
   // レジェンドデータ（50人超）は初回描画には不要なため、boot()完了後にバックグラウンドで
   // 取得する（レジェンドタブを開いたとき・選手詳細の「似た成績のレジェンド」表示のときに使う）。
@@ -5006,6 +5015,9 @@
         RELATIONS = results[1] || [];
         TEAM_NEXT_GAMES = results[2] || [];
         NEWS = results[3] || [];
+        // ニュースは毎朝自動で入れ替わるので、起動直後に最新版を直接取りに行き、変わっていればその場で差し替える
+        // （以前はスマホに残った前回分が表示され続け、新しいニュースが出るまで何度も開き直す必要があった）
+        refreshNewsQuietly();
         // 天気・「本日の先発」は「次の試合の球場・日付・対戦相手」が分かって初めてキャッシュキーを
         // 判定できるため、TEAM_NEXT_GAMES が埋まったこのタイミングで確認する
         var earlyGame = nextGameFor(homeTeamName);
