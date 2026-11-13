@@ -83,6 +83,15 @@
   {
     "id": "n10",
     "teamName": "西武",
+    "date": "2026-11-13",
+    "playerName": "茶野篤政",
+    "headline": "西武戦力外の茶野篤政、11月17日のトライアウトに参加",
+    "summary": "元オリックスで、現役ドラフトで西武へ移った外野手。今季は一軍16試合で打率.143、ファームでは打率.267だった。トライアウトで新天地を探す。",
+    "source": "https://www.baseballchannel.jp/npb/301552/"
+  },
+  {
+    "id": "n11",
+    "teamName": "西武",
     "date": "2026-11-06",
     "playerName": "岸潤一郎",
     "headline": "西武・岸潤一郎が首を手術、復帰まで約2か月の見込み",
@@ -90,22 +99,13 @@
     "source": "https://www.baseballchannel.jp/npb/300503/"
   },
   {
-    "id": "n11",
+    "id": "n12",
     "teamName": "西武",
     "date": "2026-11-02",
     "playerName": "平良海馬",
     "headline": "西武・平良海馬がポスティング申請、MLB全球団と交渉可能に",
     "summary": "西武は平良海馬投手のポスティング申請が完了したと発表しました。今季は先発として12勝5敗、防御率1.36で最優秀防御率に輝いた右腕で、日本時間2日午後10時からMLB全球団と交渉できます。",
     "source": "https://www.baseballchannel.jp/npb/299648/"
-  },
-  {
-    "id": "n12",
-    "teamName": "西武",
-    "date": "2026-11-02",
-    "playerName": "髙橋光成",
-    "headline": "西武・髙橋光成が海外FA権の行使を表明",
-    "summary": "西武の髙橋光成投手が海外FA権を行使すると発表されました。今季は22試合で9勝6敗、防御率2.54。昨オフはポスティングでの挑戦後に残留しており、12年間の西武生活を「あっという間」と振り返りました。",
-    "source": "https://www.baseballchannel.jp/npb/lions/299746/"
   },
   {
     "id": "n13",
@@ -137,6 +137,15 @@
   {
     "id": "n16",
     "teamName": "オリックス",
+    "date": "2026-11-13",
+    "playerName": "阿部翔太",
+    "headline": "オリックス戦力外の阿部翔太、11月17日のトライアウトへ",
+    "summary": "2022年に防御率0.61で日本一に貢献した34歳の救援右腕。一軍通算143登板、47ホールドを記録しているが、今季は防御率10.13だった。トライアウトで再起を図る。",
+    "source": "https://www.baseballchannel.jp/npb/301564/"
+  },
+  {
+    "id": "n17",
+    "teamName": "オリックス",
     "date": "2026-11-09",
     "playerName": "近藤一樹",
     "headline": "オリックス、近藤一樹氏が二軍投手コーチに就任、2016年以来の復帰",
@@ -144,22 +153,13 @@
     "source": "https://www.baseballchannel.jp/npb/buffaloes/300747/"
   },
   {
-    "id": "n17",
+    "id": "n18",
     "teamName": "オリックス",
     "date": "2026-11-01",
     "playerName": "",
     "headline": "オリックス、楽天前監督の三木肇氏が一軍ヘッドコーチに",
     "summary": "オリックスは三木肇氏が一軍ヘッドコーチ、下園辰哉氏が一軍打撃コーチに就任すると発表しました。2人は今季まで楽天で指導しており、三木氏は楽天で2度、一軍監督を務めた経験があります。",
     "source": "https://www.baseballchannel.jp/npb/buffaloes/299656/"
-  },
-  {
-    "id": "n18",
-    "teamName": "オリックス",
-    "date": "2026-10-30",
-    "playerName": "平野佳寿",
-    "headline": "オリックス、平野佳寿氏が二軍監督に就任",
-    "summary": "オリックスは、今季限りで引退した平野佳寿氏が二軍監督に就任すると発表しました。日米通算258セーブを挙げた右腕で、一軍の岸田護監督とは2005年ドラフトの同期にあたります。",
-    "source": "https://www.baseballchannel.jp/npb/299423/"
   },
   {
     "id": "n19",
@@ -191,6 +191,24 @@
   {
     "id": "n22",
     "teamName": "阪神",
+    "date": "2026-11-13",
+    "playerName": "嶋村麟士朗",
+    "headline": "阪神・嶋村麟士朗が契約更改、育成から支配下へ飛躍",
+    "summary": "2024年育成2位で入団し、3月に支配下登録された若手捕手。今季は一軍30試合で打率.195、1本塁打、ファームでは打率.299と成長を見せ、来季の本格ブレイクが期待される。",
+    "source": "https://www.baseballchannel.jp/npb/301619/"
+  },
+  {
+    "id": "n23",
+    "teamName": "阪神",
+    "date": "2026-11-13",
+    "playerName": "百﨑蒼生",
+    "headline": "阪神・百﨑蒼生が契約更改、高卒3年目で一軍初出場",
+    "summary": "2023年ドラフト4位の内野手。今季は7月に一軍デビューして2試合に出場し、二軍では73試合で自己最多の5本塁打、22打点をマークした。来季は一軍定着を目指す。",
+    "source": "https://www.baseballchannel.jp/npb/301617/"
+  },
+  {
+    "id": "n24",
+    "teamName": "阪神",
     "date": "2026-11-09",
     "playerName": "梅野隆太郎",
     "headline": "阪神・梅野隆太郎が国内FA権を行使せず残留",
@@ -198,25 +216,16 @@
     "source": "https://www.baseballchannel.jp/npb/300709/"
   },
   {
-    "id": "n23",
-    "teamName": "阪神",
-    "date": "2026-11-04",
-    "playerName": "木浪聖也",
-    "headline": "阪神・木浪聖也が国内FA権を行使せず残留を決断",
-    "summary": "阪神は木浪聖也内野手が国内FA権を行使せず残留すると発表しました。今季は64試合で打率.211。2023年にベストナインとゴールデングラブ賞を獲得しており、「もう一度日本一を目指す」と語りました。",
-    "source": "https://www.baseballchannel.jp/npb/300100/"
-  },
-  {
-    "id": "n24",
-    "teamName": "阪神",
-    "date": "2026-10-30",
-    "playerName": "矢野謙次",
-    "headline": "阪神、元巨人の矢野謙次氏が一軍打撃チーフコーチに就任",
-    "summary": "阪神は矢野謙次氏が来季、一軍打撃チーフコーチに就任すると発表しました。今季まで巨人のコーチを務めており、ライバル球団からの異例の転身です。藤川監督のもと、打線の強化に取り組みます。",
-    "source": "https://www.baseballchannel.jp/npb/299564/"
-  },
-  {
     "id": "n25",
+    "teamName": "中日",
+    "date": "2026-11-13",
+    "playerName": "伊藤茉央",
+    "headline": "中日・伊藤茉央が契約更改、移籍2年目は20試合に登板",
+    "summary": "楽天から現役ドラフトで加入して2年目の25歳右腕。今季は20試合で16回2/3を投げ、1勝1敗、防御率3.78だった。中継ぎの一角として来季の飛躍を狙う。",
+    "source": "https://www.baseballchannel.jp/npb/301549/"
+  },
+  {
+    "id": "n26",
     "teamName": "中日",
     "date": "2026-11-12",
     "playerName": "花田旭",
@@ -225,7 +234,7 @@
     "source": "https://www.baseballchannel.jp/npb/301386/"
   },
   {
-    "id": "n26",
+    "id": "n27",
     "teamName": "中日",
     "date": "2026-11-12",
     "playerName": "土田龍空",
@@ -234,16 +243,16 @@
     "source": "https://www.baseballchannel.jp/npb/301371/"
   },
   {
-    "id": "n27",
-    "teamName": "中日",
-    "date": "2026-11-11",
-    "playerName": "森駿太",
-    "headline": "中日・森駿太が契約更改、9月にファーム月間MVPを受賞",
-    "summary": "中日の森駿太内野手が契約更改を終えました。今季はファームで88試合に出て9本塁打。9月26日のヤクルト戦ではプロ初本塁打となる3ランも放ち、来季は一軍定着を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/301138/"
+    "id": "n28",
+    "teamName": "DeNA",
+    "date": "2026-11-13",
+    "playerName": "濱将乃介",
+    "headline": "DeNA戦力外の濱将乃介、11月17日のトライアウトに参加",
+    "summary": "今季限りでDeNAを退団した26歳の俊足外野手。二軍で3年連続の2けた盗塁となる17盗塁を記録した。17日のエイブル トライアウトで現役続行を目指す。",
+    "source": "https://www.baseballchannel.jp/npb/301591/"
   },
   {
-    "id": "n28",
+    "id": "n29",
     "teamName": "DeNA",
     "date": "2026-11-10",
     "playerName": "嶺井博希",
@@ -252,7 +261,7 @@
     "source": "https://www.baseballchannel.jp/npb/300889/"
   },
   {
-    "id": "n29",
+    "id": "n30",
     "teamName": "DeNA",
     "date": "2026-11-05",
     "playerName": "西巻賢二",
@@ -261,16 +270,16 @@
     "source": "https://www.baseballchannel.jp/npb/300239/"
   },
   {
-    "id": "n30",
-    "teamName": "DeNA",
-    "date": "2026-11-04",
-    "playerName": "蝦名達夫",
-    "headline": "DeNA・蝦名達夫が左肩を手術、手術は無事終了",
-    "summary": "DeNAは蝦名達夫外野手が左肩の直視下ブリストウ術を受け、無事に終わったと発表しました。今季は104試合で打率.240、5本塁打。今後は復帰に向けてリハビリに取り組みます。",
-    "source": "https://www.baseballchannel.jp/npb/300117/"
+    "id": "n31",
+    "teamName": "広島",
+    "date": "2026-11-13",
+    "playerName": "長谷部銀次",
+    "headline": "広島戦力外の長谷部銀次、トライアウトで再起を懸ける",
+    "summary": "慶大出身で28歳の左腕。2024年には一軍5試合で7回無失点の好投を見せたが、今季は一軍登板がなく退団。11月17日のトライアウトに参加する。",
+    "source": "https://www.baseballchannel.jp/npb/301585/"
   },
   {
-    "id": "n31",
+    "id": "n32",
     "teamName": "広島",
     "date": "2026-11-10",
     "playerName": "イーストン・マギー",
@@ -279,22 +288,13 @@
     "source": "https://www.baseballchannel.jp/npb/300875/"
   },
   {
-    "id": "n32",
+    "id": "n33",
     "teamName": "広島",
     "date": "2026-11-06",
     "playerName": "床田寛樹",
     "headline": "広島・床田寛樹もFA権行使を表明、3日連続の主力宣言",
     "summary": "広島の床田寛樹投手が国内FA権の行使を表明。森下暢仁、坂倉将吾に続く3日連続の宣言で、同一年に3人が権利を行使するのは球団史上初となった。",
     "source": "https://www.baseballchannel.jp/npb/300410/"
-  },
-  {
-    "id": "n33",
-    "teamName": "広島",
-    "date": "2026-11-05",
-    "playerName": "坂倉将吾",
-    "headline": "広島・坂倉将吾が国内FA権の行使を表明",
-    "summary": "広島の坂倉将吾捕手が国内FA権を行使すると発表されました。今季は4番として140試合に出場し、打率.251、15本塁打、自己最多の74打点。他球団の評価を聞いたうえで進路を考えます。",
-    "source": "https://www.baseballchannel.jp/npb/300268/"
   },
   {
     "id": "n34",
