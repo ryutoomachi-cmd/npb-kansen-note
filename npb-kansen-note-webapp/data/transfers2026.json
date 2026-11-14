@@ -1,8 +1,42 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "ヤクルト",
+      "name": "宮本丈",
+      "position": "内野手",
+      "date": "2026-10-15",
+      "addedAt": "2026-11-14",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "今季取得した国内FA権を使わず、ヤクルトに残ることを表明。今季は49試合で打率.292と代打の切り札として活躍し、「このチームで優勝、日本一を」と話した。",
+      "sources": [
+        [
+          "時事通信",
+          "https://www.jiji.com/jc/article?k=2026101500833&g=spo"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "オリックス",
+      "name": "山岡泰輔",
+      "position": "投手",
+      "date": "2026-10-04",
+      "addedAt": "2026-11-14",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "昨年5月に取得した国内FA権を使わず、シーズン終了の翌日に残留を即決。今季は救援中心で20試合に登板し、来季は先発ローテーション争いへの復帰を目指す。",
+      "sources": [
+        [
+          "パ・リーグ.com（スポーツ報知）",
+          "https://pacificleague.com/news/2026/10/10055673"
+        ]
+      ]
+    },
     {
       "type": "leave",
       "team": "DeNA",
