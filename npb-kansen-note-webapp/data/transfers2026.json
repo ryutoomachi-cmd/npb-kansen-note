@@ -1,8 +1,42 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "京田陽太",
+      "position": "内野手",
+      "date": "2026-11-11",
+      "addedAt": "2026-11-15",
+      "importance": 2,
+      "title": "海外FA権を行使せず残留",
+      "detail": "今季取得した海外FA権を使わず、DeNAに残ることを決めた。今季はケガの影響で移籍後最少の51試合出場にとどまったが、「チームに愛着もある。優勝に貢献できるように」と来季への意気込みを語った。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1337822"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ヤクルト",
+      "name": "星知弥",
+      "position": "投手",
+      "date": "2026-10-28",
+      "addedAt": "2026-11-15",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "今季取得した国内FA権を使わず、ヤクルトに残ることを決めた。今季は自己最多の51試合に登板して31ホールド、防御率2.63とセットアッパーとして活躍。「スワローズで、神宮で今後も投げていきたい」と話した。",
+      "sources": [
+        [
+          "サンケイスポーツ",
+          "https://www.sanspo.com/article/20261029-2GS35IJ3U5PJXD46MVCAZWDNCA/?outputType=theme_swallows"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "ヤクルト",
