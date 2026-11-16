@@ -1,8 +1,29 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "free",
+      "team": "ヤクルト",
+      "name": "ナッシュ・ウォルターズ",
+      "position": "投手",
+      "date": "2026-11-16",
+      "addedAt": "2026-11-16",
+      "importance": 2,
+      "title": "来日2年目右腕が自由契約",
+      "detail": "2025年12月に中日から加入した右腕。今季は先発と救援で24試合に登板し3勝5敗5セーブ。7月9日の広島戦では7回無安打無失点で継投ノーヒットノーランに貢献した。",
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://baseballchannel.jp/npb/301808"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "DeNA",
