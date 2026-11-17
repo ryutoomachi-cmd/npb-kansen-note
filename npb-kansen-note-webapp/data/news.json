@@ -2,6 +2,15 @@
   {
     "id": "n1",
     "teamName": "楽天",
+    "date": "2026-11-17",
+    "playerName": "松田啄磨",
+    "headline": "楽天戦力外の24歳右腕・松田啄磨、トライアウトで再起へ",
+    "summary": "2024年ドラフト入団の新人で開幕一軍入りした右腕。右肘の手術を乗り越え、今季はファームで3勝5敗。17日のトライアウトで、ふたたびNPBのマウンドを目指します。",
+    "source": "https://www.baseballchannel.jp/npb/301806/"
+  },
+  {
+    "id": "n2",
+    "teamName": "楽天",
     "date": "2026-11-16",
     "playerName": "日當直喜",
     "headline": "楽天戦力外の21歳ドラ3右腕・日當直喜、トライアウトに挑戦",
@@ -9,22 +18,13 @@
     "source": "https://www.baseballchannel.jp/npb/301799/"
   },
   {
-    "id": "n2",
+    "id": "n3",
     "teamName": "楽天",
     "date": "2026-11-14",
     "playerName": "今野龍太",
     "headline": "楽天戦力外の今野龍太、トライアウトで再びNPBへ",
     "summary": "2013年ドラフト9位で入団し、ヤクルトを経て2024年オフに楽天へ戻った右腕。今季は一軍登板がなく、ファームで防御率3.13。11月17日のトライアウトで現役続行を目指す。",
     "source": "https://www.baseballchannel.jp/npb/301649/"
-  },
-  {
-    "id": "n3",
-    "teamName": "楽天",
-    "date": "2026-11-04",
-    "playerName": "吉野創士",
-    "headline": "楽天・吉野創士が契約更改、打率.118の今季に危機感",
-    "summary": "2021年ドラ1の吉野外野手が契約更改。今季は一軍で自己最多の20試合に出たものの34打数4安打、打率.118。ファームでは打率.276、7本塁打。打撃を一から見直し、一軍定着を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/299961/"
   },
   {
     "id": "n4",
@@ -56,6 +56,24 @@
   {
     "id": "n7",
     "teamName": "ソフトバンク",
+    "date": "2026-11-17",
+    "playerName": "",
+    "headline": "ソフトバンクの外国人5選手が自由契約に",
+    "summary": "NPBは17日、ソフトバンクのスチュワート・ジュニア投手ら外国人5人の自由契約を公示しました。今季45試合で防御率1.48だったヘルナンデス投手も含まれ、他球団と契約できます。",
+    "source": "https://www.baseballchannel.jp/npb/301958/"
+  },
+  {
+    "id": "n8",
+    "teamName": "ソフトバンク",
+    "date": "2026-11-17",
+    "playerName": "山川穂高",
+    "headline": "山川穂高、DeNAへ移る嶺井博希に惜別のメッセージ",
+    "summary": "ソフトバンクの山川穂高選手が、無償トレードでDeNAへ移る嶺井博希捕手に感謝を投稿しました。今宮健太選手らとの集合写真も公開し、移籍後も食事に行こうと呼びかけています。",
+    "source": "https://www.baseballchannel.jp/npb/301896/"
+  },
+  {
+    "id": "n9",
+    "teamName": "ソフトバンク",
     "date": "2026-11-15",
     "playerName": "田上奏大",
     "headline": "ソフトバンク退団の23歳右腕・田上奏大、17日のトライアウトへ",
@@ -63,25 +81,16 @@
     "source": "https://www.baseballchannel.jp/npb/301711/"
   },
   {
-    "id": "n8",
-    "teamName": "ソフトバンク",
-    "date": "2026-11-14",
-    "playerName": "田中怜利ハモンド",
-    "headline": "ソフトバンク戦力外の育成右腕・田中、トライアウトへ",
-    "summary": "最速151キロの22歳右腕。2021年育成5位で入団したが5年間支配下に届かず、10月末に自由契約となった。11月17日のトライアウトに参加し、現役続行を目指す。",
-    "source": "https://www.baseballchannel.jp/npb/301660/"
-  },
-  {
-    "id": "n9",
-    "teamName": "ソフトバンク",
-    "date": "2026-11-12",
-    "playerName": "中村稔弥",
-    "headline": "ソフトバンク退団の中村稔弥、11月17日のトライアウトに参加",
-    "summary": "ロッテから現役ドラフトで加入した左腕の中村稔弥投手が、来季契約を結ばない通達を受け、17日のトライアウトに挑む。今季は7試合で防御率2.70だったが、8月上旬以降は一軍登板がなかった。",
-    "source": "https://baseballchannel.jp/npb/301349"
-  },
-  {
     "id": "n10",
+    "teamName": "西武",
+    "date": "2026-11-17",
+    "playerName": "栗山巧",
+    "headline": "引退した西武・栗山巧氏を、岡本篤志氏と岸孝之が慰労",
+    "summary": "西武OBの岡本篤志氏が、今季限りで引退した栗山巧氏と楽天の岸孝之投手との3ショットを公開しました。栗山氏は球団一筋25年で、通算2152安打を記録しています。",
+    "source": "https://www.baseballchannel.jp/npb/301880/"
+  },
+  {
+    "id": "n11",
     "teamName": "西武",
     "date": "2026-11-15",
     "playerName": "伊藤翔",
@@ -90,7 +99,7 @@
     "source": "https://www.baseballchannel.jp/npb/301707/"
   },
   {
-    "id": "n11",
+    "id": "n12",
     "teamName": "西武",
     "date": "2026-11-13",
     "playerName": "茶野篤政",
@@ -99,16 +108,16 @@
     "source": "https://www.baseballchannel.jp/npb/301552/"
   },
   {
-    "id": "n12",
-    "teamName": "西武",
-    "date": "2026-11-06",
-    "playerName": "岸潤一郎",
-    "headline": "西武・岸潤一郎が首を手術、復帰まで約2か月の見込み",
-    "summary": "球団は岸潤一郎外野手が11月3日、都内の病院で首の手術を受けたと発表した。頚部症状の改善が目的で、復帰までは約2か月の見込み。来季に向けて回復を目指す。",
-    "source": "https://www.baseballchannel.jp/npb/300503/"
+    "id": "n13",
+    "teamName": "ロッテ",
+    "date": "2026-11-17",
+    "playerName": "",
+    "headline": "ロッテのドキュメンタリー映画、ナレーションはピエール瀧さん",
+    "summary": "ロッテは12月25日公開の映画「PLAY MUST GO ON」のナレーションを、昨年に続きピエール瀧さんが担当すると発表しました。全国32の劇場で上映されます。",
+    "source": "https://www.baseballchannel.jp/npb/302000/"
   },
   {
-    "id": "n13",
+    "id": "n14",
     "teamName": "ロッテ",
     "date": "2026-11-16",
     "playerName": "石垣勝海",
@@ -117,7 +126,7 @@
     "source": "https://www.baseballchannel.jp/npb/301704/"
   },
   {
-    "id": "n14",
+    "id": "n15",
     "teamName": "ロッテ",
     "date": "2026-11-14",
     "playerName": "益田直也",
@@ -126,16 +135,16 @@
     "source": "https://www.baseballchannel.jp/npb/301637/"
   },
   {
-    "id": "n15",
-    "teamName": "ロッテ",
-    "date": "2026-11-14",
-    "playerName": "愛斗",
-    "headline": "ロッテ戦力外の愛斗、11月17日のトライアウトに参加",
-    "summary": "2023年の現役ドラフトで西武から移籍した外野手。今季は一軍41試合で打率.209、プロ初の満塁本塁打も放ったが、10月25日に来季契約を結ばないと発表された。",
-    "source": "https://www.baseballchannel.jp/npb/301578/"
+    "id": "n16",
+    "teamName": "オリックス",
+    "date": "2026-11-17",
+    "playerName": "東松快征",
+    "headline": "オリックス・東松快征、初勝利の金色の記念球を公開",
+    "summary": "21歳の左腕が、担当スカウトから贈られた初勝利の記念ボールをSNSで紹介しました。初勝利は9月22日のロッテ戦。今季は一軍7試合に登板し1勝1敗でした。",
+    "source": "https://www.baseballchannel.jp/npb/301912/"
   },
   {
-    "id": "n16",
+    "id": "n17",
     "teamName": "オリックス",
     "date": "2026-11-16",
     "playerName": "芦田丈飛",
@@ -144,7 +153,7 @@
     "source": "https://www.baseballchannel.jp/npb/301794/"
   },
   {
-    "id": "n17",
+    "id": "n18",
     "teamName": "オリックス",
     "date": "2026-11-15",
     "playerName": "寿賀弘都",
@@ -153,16 +162,25 @@
     "source": "https://www.baseballchannel.jp/npb/301714/"
   },
   {
-    "id": "n18",
-    "teamName": "オリックス",
-    "date": "2026-11-13",
-    "playerName": "阿部翔太",
-    "headline": "オリックス戦力外の阿部翔太、11月17日のトライアウトへ",
-    "summary": "2022年に防御率0.61で日本一に貢献した34歳の救援右腕。一軍通算143登板、47ホールドを記録しているが、今季は防御率10.13だった。トライアウトで再起を図る。",
-    "source": "https://www.baseballchannel.jp/npb/301564/"
+    "id": "n19",
+    "teamName": "巨人",
+    "date": "2026-11-17",
+    "playerName": "皆川岳飛",
+    "headline": "巨人・皆川岳飛が契約更改、ファームで打率.297",
+    "summary": "中央大出身のドラフト4位ルーキーで、二軍では84試合に出て打率.297、15盗塁を記録しました。一軍は15試合で打率.158。来季は一軍での出場機会を増やせるかが注目です。",
+    "source": "https://www.baseballchannel.jp/npb/301893/"
   },
   {
-    "id": "n19",
+    "id": "n20",
+    "teamName": "巨人",
+    "date": "2026-11-17",
+    "playerName": "又木鉄平",
+    "headline": "巨人・又木鉄平が契約更改、ファームで9勝",
+    "summary": "社会人出身の左腕で、今季は一軍5試合で1勝、ファームでは9勝4敗、防御率1.82。最優秀防御率と勝率の二冠にも輝きました。来季は先発ローテ定着を目指します。",
+    "source": "https://www.baseballchannel.jp/npb/301891/"
+  },
+  {
+    "id": "n21",
     "teamName": "巨人",
     "date": "2026-11-16",
     "playerName": "荒巻悠",
@@ -171,25 +189,16 @@
     "source": "https://www.baseballchannel.jp/npb/301862/"
   },
   {
-    "id": "n20",
-    "teamName": "巨人",
-    "date": "2026-11-15",
-    "playerName": "保科広一",
-    "headline": "巨人退団後も現役続行の保科広一、3年ぶりにトライアウト参加",
-    "summary": "2020年育成ドラフト11位で入団した保科選手は、2023年限りで巨人を退団。現在は社会人クラブのCLUB REBASEでプレーしている。11月17日のトライアウトで、NPB復帰をねらう。",
-    "source": "https://www.baseballchannel.jp/npb/301699/"
-  },
-  {
-    "id": "n21",
-    "teamName": "巨人",
-    "date": "2026-11-14",
-    "playerName": "富田龍",
-    "headline": "巨人退団の育成左腕・富田龍、トライアウトで再起へ",
-    "summary": "2021年育成8位で入団した27歳の左腕。ファーム通算44登板、2023年は25試合で4勝0敗。支配下に届かず9月末に契約を結ばないと発表され、11月17日のトライアウトに挑む。",
-    "source": "https://www.baseballchannel.jp/npb/301560/"
-  },
-  {
     "id": "n22",
+    "teamName": "阪神",
+    "date": "2026-11-17",
+    "playerName": "",
+    "headline": "阪神の公式ドキュメンタリー映画、12月18日から公開",
+    "summary": "2年連続のリーグ優勝を追った『熱覇の記憶』が12月18日から全国で公開されます。試合映像のほか、藤川監督や選手のシーズン後のインタビューも収められています。",
+    "source": "https://www.baseballchannel.jp/npb/301946/"
+  },
+  {
+    "id": "n23",
     "teamName": "阪神",
     "date": "2026-11-14",
     "playerName": "茨木秀俊",
@@ -198,22 +207,13 @@
     "source": "https://www.baseballchannel.jp/npb/301664/"
   },
   {
-    "id": "n23",
+    "id": "n24",
     "teamName": "阪神",
     "date": "2026-11-14",
     "playerName": "石黒佑弥",
     "headline": "阪神・石黒佑弥が契約更改、自己最多の14登板",
     "summary": "一軍で自己最多の14試合に登板し防御率4.58。ファームでは21試合で防御率1.32と安定していた。3年連続で一軍登板数を増やしており、来季はブルペンでの定着が期待される。",
     "source": "https://www.baseballchannel.jp/npb/301662/"
-  },
-  {
-    "id": "n24",
-    "teamName": "阪神",
-    "date": "2026-11-13",
-    "playerName": "嶋村麟士朗",
-    "headline": "阪神・嶋村麟士朗が契約更改、育成から支配下へ飛躍",
-    "summary": "2024年育成2位で入団し、3月に支配下登録された若手捕手。今季は一軍30試合で打率.195、1本塁打、ファームでは打率.299と成長を見せ、来季の本格ブレイクが期待される。",
-    "source": "https://www.baseballchannel.jp/npb/301619/"
   },
   {
     "id": "n25",
