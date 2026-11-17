@@ -1,8 +1,66 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "retire",
+      "team": "ロッテ",
+      "name": "一條力真",
+      "position": "投手",
+      "date": "2026-10-04",
+      "addedAt": "2026-11-17",
+      "importance": 1,
+      "ikusei": false,
+      "title": "プロ2年目で現役引退",
+      "detail": "190センチの右腕。ロッテが来季の契約を結ばないと発表した5選手のうちの1人で、球団の発表で現役を引退することが明らかになった。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/708978/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "中日",
+      "name": "ブライト健太",
+      "position": "外野手",
+      "date": "2026-10-15",
+      "addedAt": "2026-11-17",
+      "importance": 3,
+      "ikusei": false,
+      "title": "元ドラ1外野手が引退",
+      "detail": "9月に戦力外通告を受けた27歳。ドラフト1位で入団し長距離砲として期待された。春から心身の不調で休養しており、自身のインスタグラムで現役引退を表明した。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/10/15/0020932439.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "巨人",
+      "name": "湯浅大",
+      "position": "内野手",
+      "date": "2026-11-06",
+      "addedAt": "2026-11-17",
+      "importance": 2,
+      "ikusei": false,
+      "title": "引退し巨人3軍コーチに",
+      "detail": "10月に戦力外通告を受けた26歳の内野手。2017年ドラフト8位で入団し、一軍通算140試合に出場。今季限りで引退し、来季から巨人の三軍内野守備走塁コーチを務める。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://baseballking.jp/ns/711956/"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/300551/"
+        ]
+      ]
+    },
     {
       "type": "free",
       "team": "ヤクルト",
