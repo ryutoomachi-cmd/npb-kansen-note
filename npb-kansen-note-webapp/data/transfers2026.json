@@ -4,6 +4,125 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "free",
+      "team": "ソフトバンク",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-17",
+      "name": "ダーウィンゾン・ヘルナンデス",
+      "position": "投手",
+      "importance": 3,
+      "title": "救援左腕が自由契約",
+      "detail": "2023年途中に加入したリリーフ左腕。24年から3年連続で40試合以上に登板し、4年間で136試合、48ホールド、防御率2.46。複数の米球団が関心を示していると報じられている。",
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "西スポWEB OTTO!（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1dbb94ae81389f9a650d57ad486ef5e41938b7f2"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/17/post2046306/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ソフトバンク",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-17",
+      "name": "カーター・スチュワート・ジュニア",
+      "position": "投手",
+      "importance": 3,
+      "title": "在籍8年目の右腕が自由契約",
+      "detail": "2019年途中に入団し、24年には9勝を挙げた。今季は14試合に登板して6勝5敗、防御率5.23。25年からの2年契約が満了し、条件次第では再契約の可能性も残ると報じられている。",
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "西スポWEB OTTO!（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1dbb94ae81389f9a650d57ad486ef5e41938b7f2"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/17/post2046306/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ソフトバンク",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-17",
+      "name": "ジーター・ダウンズ",
+      "position": "内野手",
+      "importance": 2,
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "西スポWEB OTTO!（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1dbb94ae81389f9a650d57ad486ef5e41938b7f2"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/17/post2046306/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ソフトバンク",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-17",
+      "name": "ジャクソン・ラトリッジ",
+      "position": "投手",
+      "importance": 2,
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "西スポWEB OTTO!（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1dbb94ae81389f9a650d57ad486ef5e41938b7f2"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/17/post2046306/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "ソフトバンク",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-17",
+      "name": "ルイス・ロドリゲス",
+      "position": "投手",
+      "importance": 1,
+      "sources": [
+        [
+          "NPB公式（自由契約選手公示）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "西スポWEB OTTO!（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1dbb94ae81389f9a650d57ad486ef5e41938b7f2"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/17/post2046306/"
+        ]
+      ]
+    },
+    {
       "type": "retire",
       "team": "ロッテ",
       "name": "一條力真",
