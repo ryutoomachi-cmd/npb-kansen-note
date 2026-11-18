@@ -4,6 +4,46 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "広島",
+      "name": "辻大雅",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "title": "育成選手として再契約",
+      "detail": "育成出身の左腕で、今季は救援で36試合に登板し2勝2敗、防御率4.68。9月に左肘のトミー・ジョン手術を受け、10月に戦力外を告げられていた。広島が育成契約を発表し、背番号は120。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/carp/2026/11/18/0021047453.shtml"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/1afa63a5eb459d721ddff76089ec2a565befc678"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ロッテ",
+      "name": "森遼大朗",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-16",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "2017年育成ドラフト2位で入団した右腕。今年7月に支配下へ復帰したが、10月24日に来季の契約を結ばないと伝えられていた。ロッテが育成選手として再契約したと発表した。",
+      "sources": [
+        [
+          "スポニチアネックス（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/06055388855da5d583c8f7df954a6a5166babf8e"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "楽天",
       "from": "ソフトバンク",
