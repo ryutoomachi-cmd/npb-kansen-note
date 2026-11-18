@@ -1,8 +1,119 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "move",
+      "team": "楽天",
+      "from": "ソフトバンク",
+      "name": "大江竜聖",
+      "position": "投手",
+      "kind": "新加入",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 3,
+      "title": "戦力外の中継ぎ左腕が楽天へ",
+      "detail": "2016年ドラフト6位で巨人に入団した左のリリーフ。25年5月のトレードでソフトバンクへ移り、今季は3登板で防御率0.00だったが戦力外に。通算168登板の経験を買われ、トライアウト翌日に楽天が獲得を発表した。",
+      "sources": [
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/18/post2046666/"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/d83b4f0b8cfce934dfebe62ecf39db4784eca568"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "楽天",
+      "from": "日本ハム",
+      "name": "梅林優貴",
+      "position": "捕手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "title": "前日本ハムの捕手と育成契約",
+      "detail": "2019年ドラフト6位で日本ハムに入団した捕手。一度育成契約を経て支配下に復帰したが、今季は2試合の出場にとどまり戦力外に。楽天が育成選手として契約合意したと発表した。",
+      "sources": [
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/18/post2046666/"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/d83b4f0b8cfce934dfebe62ecf39db4784eca568"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "DeNA",
+      "from": "ロッテ",
+      "name": "菊地吏玖",
+      "position": "投手",
+      "kind": "新加入",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "title": "元ロッテのドラ1右腕が育成で入団",
+      "detail": "2022年ドラフト1位でロッテに入団した右腕。4年間で44登板、1勝2敗1セーブ、防御率3.79を残したが戦力外に。DeNAが育成選手契約で合意したと発表し、背番号は101。",
+      "sources": [
+        [
+          "横浜DeNAベイスターズ公式",
+          "https://www.baystars.co.jp/news/2026/11/1118_02.php"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "益子京右",
+      "position": "捕手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "9月30日に来季の支配下契約を結ばないと伝えられていた捕手。DeNAが2027年シーズンの育成選手契約を結ぶと発表し、背番号は100となる。",
+      "sources": [
+        [
+          "ベースボールキング（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/b5fcd0853540fac432e3ee0b2cb39f180421ef57"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/18/post2046740/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "東妻純平",
+      "position": "捕手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "9月30日に来季の支配下契約を結ばないと伝えられていた捕手。DeNAが2027年シーズンの育成選手契約を結ぶと発表し、背番号は104となる。",
+      "sources": [
+        [
+          "ベースボールキング（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/b5fcd0853540fac432e3ee0b2cb39f180421ef57"
+        ],
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/18/post2046740/"
+        ]
+      ]
+    },
     {
       "type": "free",
       "team": "ソフトバンク",
