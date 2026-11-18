@@ -4,6 +4,116 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "日本ハム",
+      "from": "巨人",
+      "name": "郡拓也",
+      "position": "捕手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "kind": "育成契約",
+      "ikusei": true,
+      "title": "巨人戦力外の郡が古巣へ",
+      "detail": "2016年ドラフト7位で日本ハムに入団し、2024年から巨人でプレー。今季は一軍出場がなく巨人を戦力外に。捕手のほか内外野もこなせる選手で、育成契約で古巣に戻る。",
+      "sources": [
+        [
+          "パ・リーグ.com（ベースボールキング）",
+          "https://pacificleague.com/news/2026/11/10057090"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "湯浅京己",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 3,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "10月に国指定の難病・黄色靱帯骨化症の再手術を受けた右腕。手術からの復活を目指し、背番号119の育成選手として再出発する。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/0a8b71bfbd69f1cc5d2c2f86aa25968b206862a4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "畠世周",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "シーズン終了後に右手中指の手術（靱帯性腱鞘の再建）を受けた右腕。復活を目指し、背番号118の育成選手として来季に臨む。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/0a8b71bfbd69f1cc5d2c2f86aa25968b206862a4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "岡留英貴",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "腰の手術（内視鏡による分離症の手術）を受けた右腕。故障からの復活を目指し、背番号121の育成選手として再スタートを切る。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/0a8b71bfbd69f1cc5d2c2f86aa25968b206862a4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "椎葉剛",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 2,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "阪神が18日に育成選手としての契約合意を発表。故障からの復活を目指す5選手のうちの1人で、背番号は123となる。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/0a8b71bfbd69f1cc5d2c2f86aa25968b206862a4"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "山田脩也",
+      "position": "内野手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "右ひじの靱帯の修復手術を受けた内野手。阪神が18日に育成選手としての契約合意を発表し、背番号135で復活を目指す。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/0a8b71bfbd69f1cc5d2c2f86aa25968b206862a4"
+        ]
+      ]
+    },
+    {
       "type": "stay",
       "team": "広島",
       "name": "辻大雅",
