@@ -4,6 +4,96 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "ヤクルト",
+      "name": "竹山日向",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "享栄高から2021年ドラフト5位で入団した23歳右腕。高卒1年目に一軍デビューしたが、その後4年間一軍登板なし。今季は二軍で23試合に登板。10月に自由契約となり、ヤクルトが18日に育成再契約を発表した。",
+      "sources": [
+        [
+          "ベースボールチャンネル（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/4e732bb15107d8a223184f8fdf8d3898912e0135"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "古賀康誠",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "今オフに楽天から戦力外通告を受けていた22歳の投手。楽天が18日、古賀康誠・林優樹・大栄利哉・金子京介の4選手と来季の育成契約を結ぶことで合意したと発表した。",
+      "sources": [
+        [
+          "スポニチアネックス（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/7aefcc8fa817d395f75c4af7bbf6e62020e6b933"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "林優樹",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "今オフに楽天から戦力外通告を受けていた25歳の投手。楽天が18日、古賀康誠・林優樹・大栄利哉・金子京介の4選手と来季の育成契約を結ぶことで合意したと発表した。",
+      "sources": [
+        [
+          "スポニチアネックス（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/7aefcc8fa817d395f75c4af7bbf6e62020e6b933"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "大栄利哉",
+      "position": "捕手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "今オフに楽天から戦力外通告を受けていた19歳の捕手。楽天が18日、古賀康誠・林優樹・大栄利哉・金子京介の4選手と来季の育成契約を結ぶことで合意したと発表した。",
+      "sources": [
+        [
+          "スポニチアネックス（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/7aefcc8fa817d395f75c4af7bbf6e62020e6b933"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "楽天",
+      "name": "金子京介",
+      "position": "内野手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-18",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "今オフに楽天から戦力外通告を受けていた22歳の内野手。楽天が18日、古賀康誠・林優樹・大栄利哉・金子京介の4選手と来季の育成契約を結ぶことで合意したと発表した。",
+      "sources": [
+        [
+          "スポニチアネックス（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/7aefcc8fa817d395f75c4af7bbf6e62020e6b933"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "日本ハム",
       "from": "巨人",
