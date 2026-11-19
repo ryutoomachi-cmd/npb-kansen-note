@@ -2,6 +2,15 @@
   {
     "id": "n1",
     "teamName": "楽天",
+    "date": "2026-11-19",
+    "playerName": "ロウディー・テジェス",
+    "headline": "楽天、元大リーガーのテジェス内野手と契約合意",
+    "summary": "楽天は19日、米国出身の31歳の左の長距離砲ロウディー・テジェス内野手との契約合意を発表しました。メジャー通算123本塁打で、2022年には35本塁打を記録。打線の強化が期待されています。",
+    "source": "https://www.baseballchannel.jp/npb/302341/"
+  },
+  {
+    "id": "n2",
+    "teamName": "楽天",
     "date": "2026-11-18",
     "playerName": "大栄利哉",
     "headline": "楽天、大栄利哉捕手と育成契約で合意",
@@ -9,22 +18,13 @@
     "source": "https://www.baseballchannel.jp/npb/302151/"
   },
   {
-    "id": "n2",
+    "id": "n3",
     "teamName": "楽天",
     "date": "2026-11-18",
     "playerName": "",
     "headline": "楽天、古賀・林・大栄・金子の4選手と育成再契約",
     "summary": "楽天は古賀康誠投手、林優樹投手、大栄利哉捕手、金子京介内野手の4人と来季の育成契約で合意したと発表しました。いずれも来季契約なしの通告を受けており、支配下登録を目指します。",
     "source": "https://www.baseballchannel.jp/npb/302140/"
-  },
-  {
-    "id": "n3",
-    "teamName": "楽天",
-    "date": "2026-11-18",
-    "playerName": "大江竜聖",
-    "headline": "楽天、大江竜聖と梅林優貴の獲得を発表",
-    "summary": "楽天は戦力外となった大江竜聖投手との契約合意と、梅林優貴捕手との育成契約合意を発表しました。大江は元巨人・ソフトバンク、梅林は元日本ハム。新天地での再出発となります。",
-    "source": "https://www.baseballchannel.jp/npb/302052/"
   },
   {
     "id": "n4",
@@ -83,6 +83,24 @@
   {
     "id": "n10",
     "teamName": "西武",
+    "date": "2026-11-19",
+    "playerName": "",
+    "headline": "西武、戦力外の4選手と育成契約を結ぶ",
+    "summary": "西武は19日、青山美夏人投手、牧野翔矢捕手、古川雄大外野手、林冠臣外野手の4人と、来季の育成選手契約を結んだと発表しました。10月26日に戦力外を通告されていた選手たちです。",
+    "source": "https://www.baseballchannel.jp/npb/302472/"
+  },
+  {
+    "id": "n11",
+    "teamName": "西武",
+    "date": "2026-11-19",
+    "playerName": "",
+    "headline": "西武、ラミレス投手とワイナンス投手がウエイバー公示",
+    "summary": "西武は19日、ラミレス投手とワイナンス投手のウエイバー公示を申請しました。他球団から獲得の申し込みがなければ自由契約となります。ワイナンスは今季8試合で2勝4敗、防御率5.19でした。",
+    "source": "https://www.baseballchannel.jp/npb/302320/"
+  },
+  {
+    "id": "n12",
+    "teamName": "西武",
     "date": "2026-11-17",
     "playerName": "栗山巧",
     "headline": "引退した西武・栗山巧氏を、岡本篤志氏と岸孝之が慰労",
@@ -90,25 +108,16 @@
     "source": "https://www.baseballchannel.jp/npb/301880/"
   },
   {
-    "id": "n11",
-    "teamName": "西武",
-    "date": "2026-11-15",
-    "playerName": "伊藤翔",
-    "headline": "西武OBの伊藤翔、メキシコとBCリーグ経てNPB復帰へトライアウト",
-    "summary": "2017年ドラフト3位で入団し一軍通算47試合の伊藤投手は、退団後メキシコやBCリーグ埼玉でプレーを続けた。11月17日のトライアウトに参加し、NPBへの復帰を目指す。",
-    "source": "https://www.baseballchannel.jp/npb/301707/"
-  },
-  {
-    "id": "n12",
-    "teamName": "西武",
-    "date": "2026-11-13",
-    "playerName": "茶野篤政",
-    "headline": "西武戦力外の茶野篤政、11月17日のトライアウトに参加",
-    "summary": "元オリックスで、現役ドラフトで西武へ移った外野手。今季は一軍16試合で打率.143、ファームでは打率.267だった。トライアウトで新天地を探す。",
-    "source": "https://www.baseballchannel.jp/npb/301552/"
-  },
-  {
     "id": "n13",
+    "teamName": "ロッテ",
+    "date": "2026-11-19",
+    "playerName": "小園健太",
+    "headline": "ロッテ、DeNA戦力外の小園健太投手と育成契約",
+    "summary": "ロッテは19日、DeNAを戦力外となった23歳の右腕・小園健太投手と育成選手契約を結んだと発表しました。2021年ドラフト1位の右腕で、一日も早い支配下登録を目指します。",
+    "source": "https://www.baseballchannel.jp/npb/302429/"
+  },
+  {
+    "id": "n14",
     "teamName": "ロッテ",
     "date": "2026-11-17",
     "playerName": "愛斗",
@@ -117,22 +126,13 @@
     "source": "https://www.baseballchannel.jp/npb/302082/"
   },
   {
-    "id": "n14",
+    "id": "n15",
     "teamName": "ロッテ",
     "date": "2026-11-18",
     "playerName": "谷保恵美",
     "headline": "ロッテ、特別試合に谷保恵美さんが場内アナで登場",
     "summary": "ロッテは11月23日のZOZOマリンでの特別試合「マリーンズスペシャルゲーム2026」で、元場内アナウンス担当の谷保恵美さんが務めると発表。OBが昔のユニホームで戦う予定です。",
     "source": "https://www.baseballchannel.jp/npb/302081/"
-  },
-  {
-    "id": "n15",
-    "teamName": "ロッテ",
-    "date": "2026-11-17",
-    "playerName": "",
-    "headline": "ロッテのドキュメンタリー映画、ナレーションはピエール瀧さん",
-    "summary": "ロッテは12月25日公開の映画「PLAY MUST GO ON」のナレーションを、昨年に続きピエール瀧さんが担当すると発表しました。全国32の劇場で上映されます。",
-    "source": "https://www.baseballchannel.jp/npb/302000/"
   },
   {
     "id": "n16",
@@ -164,6 +164,15 @@
   {
     "id": "n19",
     "teamName": "巨人",
+    "date": "2026-11-19",
+    "playerName": "石塚裕惺",
+    "headline": "巨人・石塚裕惺が契約更改、一軍出場は49試合に",
+    "summary": "巨人の石塚裕惺内野手が19日、契約更改を行いました。2024年ドラフト1位で、今季の一軍出場は前年の9試合から49試合に増え、打率.216。二軍では打率.319をマークしました。",
+    "source": "https://www.baseballchannel.jp/npb/302512/"
+  },
+  {
+    "id": "n20",
+    "teamName": "巨人",
     "date": "2026-11-17",
     "playerName": "宮原駿介",
     "headline": "巨人・宮原駿介が契約更改、プロ初勝利を挙げた左腕",
@@ -171,7 +180,7 @@
     "source": "https://www.baseballchannel.jp/npb/302057/"
   },
   {
-    "id": "n20",
+    "id": "n21",
     "teamName": "巨人",
     "date": "2026-11-17",
     "playerName": "藤井健翔",
@@ -180,16 +189,25 @@
     "source": "https://www.baseballchannel.jp/npb/302064/"
   },
   {
-    "id": "n21",
-    "teamName": "巨人",
-    "date": "2026-11-17",
-    "playerName": "皆川岳飛",
-    "headline": "巨人・皆川岳飛が契約更改、ファームで打率.297",
-    "summary": "中央大出身のドラフト4位ルーキーで、二軍では84試合に出て打率.297、15盗塁を記録しました。一軍は15試合で打率.158。来季は一軍での出場機会を増やせるかが注目です。",
-    "source": "https://www.baseballchannel.jp/npb/301893/"
+    "id": "n22",
+    "teamName": "阪神",
+    "date": "2026-11-19",
+    "playerName": "ダウリ・モレッタ",
+    "headline": "阪神のモレッタ投手が自由契約に、今季は防御率6.19",
+    "summary": "NPBは18日、阪神のダウリ・モレッタ投手を自由契約として公示しました。来日1年目の今季は19試合に登板して2勝2敗、5ホールド、防御率6.19でした。今オフの外国人の自由契約は3人目です。",
+    "source": "https://www.baseballchannel.jp/npb/302382/"
   },
   {
-    "id": "n22",
+    "id": "n23",
+    "teamName": "阪神",
+    "date": "2026-11-19",
+    "playerName": "立石正広",
+    "headline": "阪神・立石正広が契約更改、ルーキーイヤーは38試合",
+    "summary": "阪神の立石正広内野手が19日、契約更改を行いました。創価大から2025年ドラフト1位で入団し、今季は一軍38試合で打率.192、2本塁打、10打点。来季は一軍定着を目指します。",
+    "source": "https://www.baseballchannel.jp/npb/302483/"
+  },
+  {
+    "id": "n24",
     "teamName": "阪神",
     "date": "2026-11-18",
     "playerName": "湯浅京己",
@@ -198,25 +216,25 @@
     "source": "https://www.baseballchannel.jp/npb/302185/"
   },
   {
-    "id": "n23",
-    "teamName": "阪神",
-    "date": "2026-11-18",
-    "playerName": "畠世周",
-    "headline": "阪神・畠世周が育成契約、今季は11登板で防御率2.53",
-    "summary": "阪神は畠世周投手と来季の育成契約を結びました。巨人から現役ドラフトで移籍した32歳で、今季は11試合に登板。右中指の手術後のリハビリを進め、支配下復帰を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/302181/"
-  },
-  {
-    "id": "n24",
-    "teamName": "阪神",
-    "date": "2026-11-17",
-    "playerName": "",
-    "headline": "阪神の公式ドキュメンタリー映画、12月18日から公開",
-    "summary": "2年連続のリーグ優勝を追った『熱覇の記憶』が12月18日から全国で公開されます。試合映像のほか、藤川監督や選手のシーズン後のインタビューも収められています。",
-    "source": "https://www.baseballchannel.jp/npb/301946/"
-  },
-  {
     "id": "n25",
+    "teamName": "中日",
+    "date": "2026-11-19",
+    "playerName": "梅津晃大",
+    "headline": "中日・梅津晃大が契約更改、育成選手として復活を期す",
+    "summary": "中日の梅津晃大投手が19日、契約更改を行いました。故障が続き今季は育成選手としてリハビリに専念。10月のシート打撃では最速153キロを記録し、来季は支配下復帰と一軍復帰を目指します。",
+    "source": "https://www.baseballchannel.jp/npb/302379/"
+  },
+  {
+    "id": "n26",
+    "teamName": "中日",
+    "date": "2026-11-19",
+    "playerName": "根尾昂",
+    "headline": "中日・根尾昂が契約更改、今季は投手として初勝利",
+    "summary": "中日の根尾昂投手が19日、契約更改を行いました。今季は一軍で9試合に登板して1勝1敗、防御率5.00。4月8日のDeNA戦でプロ初勝利を挙げました。",
+    "source": "https://www.baseballchannel.jp/npb/302452/"
+  },
+  {
+    "id": "n27",
     "teamName": "中日",
     "date": "2026-11-17",
     "playerName": "知野直人",
@@ -225,25 +243,16 @@
     "source": "https://www.baseballchannel.jp/npb/301986/"
   },
   {
-    "id": "n26",
-    "teamName": "中日",
-    "date": "2026-11-16",
-    "playerName": "大島洋平",
-    "headline": "中日一筋17年の大島洋平が契約更改、今季は打率.194",
-    "summary": "41歳のベテラン外野手。2000安打達成者で、今季は21試合に出場し打率.194、通算安打は2079本。通算出場は1966試合で、2000試合まであと34試合。",
-    "source": "https://www.baseballchannel.jp/npb/301774/"
-  },
-  {
-    "id": "n27",
-    "teamName": "中日",
-    "date": "2026-11-16",
-    "playerName": "梅野雄吾",
-    "headline": "中日・梅野雄吾が契約更改、一軍登板は今季2試合",
-    "summary": "ヤクルトから現役ドラフトで加入した27歳右腕。今季の一軍は2登板で防御率15.43、ファームでは36登板で防御率3.69。2019年には28ホールドを挙げた。",
-    "source": "https://www.baseballchannel.jp/npb/301790/"
-  },
-  {
     "id": "n28",
+    "teamName": "DeNA",
+    "date": "2026-11-19",
+    "playerName": "東克樹",
+    "headline": "DeNAの選手たちがスポンサー30社を訪問し感謝",
+    "summary": "DeNAは19日、東克樹投手ら選手がスポンサー企業30社を訪れ、今季の支援に感謝を伝えたと発表しました。選手会長の東は、来季のリーグ優勝を目指す考えを話しました。",
+    "source": "https://www.baseballchannel.jp/npb/302416/"
+  },
+  {
+    "id": "n29",
     "teamName": "DeNA",
     "date": "2026-11-18",
     "playerName": "",
@@ -252,7 +261,7 @@
     "source": "https://www.baseballchannel.jp/npb/302089/"
   },
   {
-    "id": "n29",
+    "id": "n30",
     "teamName": "DeNA",
     "date": "2026-11-18",
     "playerName": "菊地吏玖",
@@ -261,16 +270,16 @@
     "source": "https://www.baseballchannel.jp/npb/302058/"
   },
   {
-    "id": "n30",
-    "teamName": "DeNA",
-    "date": "2026-11-13",
-    "playerName": "",
-    "headline": "DeNA、ビド投手とヒュンメル外野手がウエイバー公示",
-    "summary": "DeNAは13日、来日1年目のビド投手とヒュンメル外野手についてウエイバー公示の手続きを発表した。ビドは一軍2登板で防御率10.29、ヒュンメルは59試合で打率.209、5本塁打だった。",
-    "source": "https://www.baseballchannel.jp/npb/301519/"
+    "id": "n31",
+    "teamName": "広島",
+    "date": "2026-11-19",
+    "playerName": "長谷部銀次",
+    "headline": "広島を退団した長谷部銀次投手が現役引退を発表",
+    "summary": "今季限りで広島を退団した28歳の左腕・長谷部銀次投手が、18日にインスタグラムで現役引退を発表しました。2022年ドラフト6位で入団し、17日のトライアウトが最後の登板でした。",
+    "source": "https://www.baseballchannel.jp/npb/302312/"
   },
   {
-    "id": "n31",
+    "id": "n32",
     "teamName": "広島",
     "date": "2026-11-17",
     "playerName": "矢野雅哉",
@@ -279,7 +288,7 @@
     "source": "https://www.baseballchannel.jp/npb/302090/"
   },
   {
-    "id": "n32",
+    "id": "n33",
     "teamName": "広島",
     "date": "2026-11-15",
     "playerName": "松本竜也",
@@ -288,39 +297,30 @@
     "source": "https://www.baseballchannel.jp/npb/301701/"
   },
   {
-    "id": "n33",
-    "teamName": "広島",
-    "date": "2026-11-14",
-    "playerName": "中村貴浩",
-    "headline": "広島戦力外の中村貴浩、トライアウトで再起を懸ける",
-    "summary": "2022年育成2位で入団した外野手。2025年はファームで打率.275、5本塁打を記録したが、今季は打率.147で10月24日に戦力外に。11月17日のトライアウトに参加する。",
-    "source": "https://www.baseballchannel.jp/npb/301648/"
+    "id": "n34",
+    "teamName": "ヤクルト",
+    "date": "2026-11-19",
+    "playerName": "岩井俊介",
+    "headline": "ヤクルト、他球団を戦力外の3選手と契約",
+    "summary": "ヤクルトは19日、ソフトバンク戦力外の岩井俊介投手、中日戦力外の津田啓史内野手、オリックス戦力外の村上喬一朗捕手と契約しました。岩井は今季ファームで防御率1.53でした。",
+    "source": "https://www.baseballchannel.jp/npb/302428/"
   },
   {
-    "id": "n34",
+    "id": "n35",
+    "teamName": "ヤクルト",
+    "date": "2026-11-19",
+    "playerName": "橋本星哉",
+    "headline": "ヤクルト・橋本星哉が契約更改、二軍で打率.295",
+    "summary": "ヤクルトの橋本星哉捕手が19日、契約更改を行いました。今季の一軍は13試合で打率.143でしたが、ファームでは73試合に出て打率.295、4本塁打、10盗塁。外野も守りました。",
+    "source": "https://www.baseballchannel.jp/npb/302464/"
+  },
+  {
+    "id": "n36",
     "teamName": "ヤクルト",
     "date": "2026-11-18",
     "playerName": "翔聖",
     "headline": "ヤクルト、台湾出身の翔聖投手と育成再契約",
     "summary": "ヤクルトは台湾出身の20歳右腕・翔聖投手と来季の育成再契約を結びました。今季はファームで11試合に登板し3勝1敗、防御率2.61。4年目の来季は支配下登録を目指します。",
     "source": "https://www.baseballchannel.jp/npb/302202/"
-  },
-  {
-    "id": "n35",
-    "teamName": "ヤクルト",
-    "date": "2026-11-18",
-    "playerName": "竹山日向",
-    "headline": "ヤクルト、竹山日向が育成再契約",
-    "summary": "ヤクルトは竹山日向投手と来季の育成再契約を結びました。2022年に一軍デビューしたものの、その後4年連続で一軍登板なし。今季はファームで23試合に登板しました。",
-    "source": "https://www.baseballchannel.jp/npb/302200/"
-  },
-  {
-    "id": "n36",
-    "teamName": "ヤクルト",
-    "date": "2026-11-16",
-    "playerName": "ナッシュ・ウォルターズ",
-    "headline": "ヤクルト・ウォルターズ投手が自由契約、NPBが公示",
-    "summary": "来日2年目の右腕。ウエイバー公示で他球団から請求がなく自由契約に。今季は24登板で3勝5敗5セーブ、防御率4.76。7月の広島戦では7回無安打の好投を見せた。",
-    "source": "https://www.baseballchannel.jp/npb/301808/"
   }
 ]
