@@ -5,6 +5,82 @@
   "items": [
     {
       "type": "move",
+      "team": "ロッテ",
+      "from": "DeNA",
+      "kind": "新加入",
+      "ikusei": true,
+      "name": "小園健太",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "importance": 3,
+      "title": "元DeNAドラ1右腕が育成で加入",
+      "detail": "2021年ドラフト1位でDeNAに入団し、今季終了後に戦力外となった右腕。ロッテと育成選手契約を結んだ。市和歌山高で同級生だった松川虎生と再びチームメートになる。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/c60556b1e8e1738b913c4d88ebfeae6b20cab908"
+        ],
+        [
+          "スポーツ報知",
+          "https://news.yahoo.co.jp/articles/b7f1ebbb0183540cb471d60908d0552e9550beab"
+        ],
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/10057130"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "巨人",
+      "from": "ソフトバンク",
+      "kind": "新加入",
+      "ikusei": true,
+      "name": "牧原巧汰",
+      "position": "捕手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "importance": 2,
+      "title": "鷹戦力外の捕手と育成契約",
+      "detail": "2020年ドラフト3位でソフトバンクに入団し、今季後に戦力外となった24歳の捕手。巨人が育成選手として獲得し、背番号は020。都内の球団事務所で入団会見を行った。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/19/0021050931.shtml"
+        ],
+        [
+          "スポーツ報知",
+          "https://news.yahoo.co.jp/articles/283590f5f4f42d6ec85063ca1e6653f456b0f163"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "巨人",
+      "from": "ロッテ",
+      "kind": "新加入",
+      "ikusei": true,
+      "name": "勝又琉偉",
+      "position": "内野手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-19",
+      "importance": 1,
+      "title": "ロッテ戦力外の大型内野手が加入",
+      "detail": "2022年育成ドラフト3位でロッテに入団し、今季後に戦力外となった22歳の内野手。身長188センチの大型遊撃手で、巨人が育成選手として獲得した。背番号は003。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/19/0021050931.shtml"
+        ],
+        [
+          "Full-Count",
+          "https://news.yahoo.co.jp/articles/1b1a30a9ea47ad663bead9cf23ea9490c6c37170"
+        ]
+      ]
+    },
+    {
+      "type": "move",
       "team": "ヤクルト",
       "from": "ソフトバンク",
       "name": "岩井俊介",
