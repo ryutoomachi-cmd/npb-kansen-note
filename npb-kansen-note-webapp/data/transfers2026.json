@@ -4,6 +4,27 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "free",
+      "team": "阪神",
+      "name": "ダウリ・モレッタ",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-19",
+      "importance": 2,
+      "title": "来日1年目の救援右腕が自由契約",
+      "detail": "ドミニカ共和国出身の右腕。開幕一軍入りしたが一軍と二軍を行き来し、今季は19試合で2勝2敗5ホールド、防御率6.19。NPBが18日に自由契約選手として公示し、今季限りで退団となる。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/tigers/2026/11/18/0021047626.shtml"
+        ],
+        [
+          "NPB公式",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ]
+      ]
+    },
+    {
       "type": "stay",
       "team": "ヤクルト",
       "name": "遠藤成",
