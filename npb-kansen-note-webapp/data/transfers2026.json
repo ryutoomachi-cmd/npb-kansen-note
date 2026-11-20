@@ -5,6 +5,88 @@
   "items": [
     {
       "type": "stay",
+      "team": "阪神",
+      "name": "西純矢",
+      "position": "外野手",
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 2,
+      "ikusei": true,
+      "title": "育成選手として再契約",
+      "detail": "元ドラフト1位で、野手に転向した育成1年目の今季は二軍61試合で打率.228。秋季キャンプから投手の練習も再開し、投打二刀流で支配下復帰を目指す。年俸は推定1200万円でサインした。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/83005ab55a107af1d762f28bbba3d9b1199e1161"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302667/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "町田隼乙",
+      "position": "捕手",
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "独立リーグ・埼玉武蔵から2024年ドラフト4位で入団した捕手。プロでは一軍出場がなく、今季は二軍33試合で打率.054。背番号は43から134に変わり、支配下復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302679/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "DeNA",
+      "name": "オスバルド・ビド",
+      "position": "投手",
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "6月に加入した右腕。一軍2試合の登板にとどまった。13日の退団発表に続き、20日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302675/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "DeNA",
+      "name": "クーパー・ヒュンメル",
+      "position": "外野手",
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "来日1年目の外野手。13日に球団が退団の見込みを発表しており、20日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302675/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "中日",
       "ikusei": true,
       "name": "牧野憲伸",
