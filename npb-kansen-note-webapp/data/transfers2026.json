@@ -4,6 +4,82 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "中日",
+      "ikusei": true,
+      "name": "牧野憲伸",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 2,
+      "title": "育成選手として再契約",
+      "detail": "オイシックス新潟から育成1位で入団し、3月に支配下登録されて開幕一軍入り。今季は23試合に登板し防御率4.15。10月に支配下契約を結ばないと通告され、育成選手として再出発する。",
+      "sources": [
+        [
+          "中日スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/c1edac87cc3269635256fe96b71645a25768115a"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "中日",
+      "ikusei": true,
+      "name": "有馬恵叶",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "プロ2年目の今季はファームで15試合に登板し1勝2敗、防御率4.44。10月に支配下契約を結ばないと通告されたが、育成選手として再契約し、支配下への返り咲きを目指す。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1341642"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ヤクルト",
+      "ikusei": true,
+      "name": "坂本拓己",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "高卒4年目の22歳左腕。5月に左ひじの手術を受け今季は一軍登板なし。10月に自由契約となったが、育成選手として再契約し背番号は019に。沖縄のウインターリーグにも派遣される。",
+      "sources": [
+        [
+          "東京ヤクルトスワローズ公式",
+          "https://www.yakult-swallows.co.jp/news/detail/32735"
+        ],
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/2feee028c548b8bdbcd3ce9f423ee8741494d0ac"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ヤクルト",
+      "ikusei": true,
+      "name": "髙野颯太",
+      "position": "内野手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月29日に自由契約を通告されていた内野手。球団が11月18日に契約更改を発表し、育成選手として再契約した。来季は支配下登録への復帰を目指す。",
+      "sources": [
+        [
+          "東京ヤクルトスワローズ公式",
+          "https://www.yakult-swallows.co.jp/news/detail/32735"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "中日",
       "from": "ソフトバンク",
