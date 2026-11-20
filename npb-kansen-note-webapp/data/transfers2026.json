@@ -4,6 +4,65 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "中日",
+      "from": "ソフトバンク",
+      "kind": "新加入",
+      "name": "緒方理貢",
+      "position": "外野手",
+      "ikusei": true,
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 3,
+      "title": "鷹戦力外の俊足外野手が育成で加入",
+      "detail": "ソフトバンクを戦力外となった28歳の外野手。2022年にウエスタン・リーグで盗塁王、今季までの3年間で一軍201試合に出場し13盗塁。中日とは育成選手として契約し、背番号は210。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1342229"
+        ],
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/af85196d5c9265ba35d02c654e0e4d8655cdff9f"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "ロッテ",
+      "name": "早坂響",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-20",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月に戦力外通告を受けた21歳の右腕。2023年ドラフト4位で入団し、2025年に一軍で9試合に登板したが今季は一軍登板なし。育成選手として再出発し、支配下への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302627/"
+        ]
+      ]
+    },
+    {
+      "type": "retire",
+      "team": "広島",
+      "name": "長谷部銀次",
+      "position": "投手",
+      "date": "2026-11-18",
+      "addedAt": "2026-11-20",
+      "importance": 2,
+      "title": "トライアウトを最後に現役引退",
+      "detail": "10月に広島から戦力外となった28歳の左腕。11月17日の12球団合同トライアウトに参加した翌日、自身のSNSで現役引退を報告した。プロ通算10試合に登板し1ホールド。",
+      "sources": [
+        [
+          "ベースボールチャンネル（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/f6b2142f3bb63cc17e7ea691939662b55859496a"
+        ]
+      ]
+    },
+    {
       "type": "stay",
       "team": "中日",
       "ikusei": true,
