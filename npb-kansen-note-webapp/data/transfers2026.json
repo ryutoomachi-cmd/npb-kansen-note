@@ -1,8 +1,80 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "西武",
+      "ikusei": true,
+      "name": "青山美夏人",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月26日に戦力外通告を受けていたが、西武と育成選手として再契約した。来季は支配下登録への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://news.yahoo.co.jp/articles/66c5276d6b0cc9991ae8b9cfa6a9a4359b34044b"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "西武",
+      "ikusei": true,
+      "name": "牧野翔矢",
+      "position": "捕手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月26日に戦力外通告を受けていたが、西武と育成選手として再契約した。来季は支配下登録への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://news.yahoo.co.jp/articles/66c5276d6b0cc9991ae8b9cfa6a9a4359b34044b"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "西武",
+      "ikusei": true,
+      "name": "古川雄大",
+      "position": "外野手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月26日に戦力外通告を受けていたが、西武と育成選手として再契約した。来季は支配下登録への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://news.yahoo.co.jp/articles/66c5276d6b0cc9991ae8b9cfa6a9a4359b34044b"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "西武",
+      "ikusei": true,
+      "name": "林冠臣",
+      "position": "外野手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "10月26日に戦力外通告を受けていたが、西武と育成選手として再契約した。来季は支配下登録への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールキング",
+          "https://news.yahoo.co.jp/articles/66c5276d6b0cc9991ae8b9cfa6a9a4359b34044b"
+        ]
+      ]
+    },
     {
       "type": "move",
       "team": "ロッテ",
