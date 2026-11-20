@@ -5,6 +5,42 @@
   "items": [
     {
       "type": "stay",
+      "team": "中日",
+      "ikusei": true,
+      "name": "松木平優太",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "2024年に支配下登録されプロ初勝利も挙げた右腕。今季は一軍登板がなく10月に支配下契約を結ばないと通告されたが、育成選手として再契約。支配下への返り咲きを目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/cd7c42c4043452e1b797e4a1f81fe4dccc9fb8e9"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "中日",
+      "ikusei": true,
+      "name": "福田幸之介",
+      "position": "投手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-20",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "履正社高から2023年ドラフト4位で入団した左腕。今季は一軍登板がなく、ファームで25試合に投げた。来季の契約を結ばないと通告された後、育成選手として再契約し、支配下復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/7dae8c09002efe578582153fc40a664c95920132"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "西武",
       "ikusei": true,
       "name": "青山美夏人",
