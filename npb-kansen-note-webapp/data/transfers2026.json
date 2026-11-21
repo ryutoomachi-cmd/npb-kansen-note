@@ -4,6 +4,29 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "DeNA",
+      "from": "オリックス",
+      "kind": "FA移籍",
+      "name": "宗佑磨",
+      "position": "内野手",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "importance": 4,
+      "title": "FA移籍第1号、地元・横浜へ",
+      "detail": "オリックスの三塁レギュラーで、2021〜23年に3年連続でベストナインとゴールデングラブ賞。今季は134試合で自己最多の14本塁打・65打点。横浜隼人高出身で、DeNAのFA補強は9年ぶり。背番号は後日の会見で発表。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/8992e6fe3614553509a134524694eb290ea72402"
+        ],
+        [
+          "Full-Count（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/e51cb3dfe346831c2a9eda50310c9cbb63dcb568"
+        ]
+      ]
+    },
+    {
       "type": "stay",
       "team": "阪神",
       "name": "佐野大陽",
