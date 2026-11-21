@@ -1,8 +1,26 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "佐野大陽",
+      "position": "内野手",
+      "date": "2026-11-20",
+      "addedAt": "2026-11-21",
+      "importance": 1,
+      "ikusei": true,
+      "title": "育成選手として契約",
+      "detail": "独立リーグ・富山から2024年ドラフト5位で入団した内野手。2025年6月に一軍昇格したが、2年間で一軍出場はなかった。背番号は133となり、支配下復帰を目指す。",
+      "sources": [
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/tigers/2026/11/20/0021055637.shtml"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "阪神",
