@@ -4,6 +4,48 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "free",
+      "team": "日本ハム",
+      "name": "サウリン・ラオ",
+      "position": "投手",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "野手から投手に転向し、来日1年目の今季は一軍3試合・5回を投げて0勝0敗、防御率3.60。3日の退団発表に続き、21日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式（自由契約選手）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "BASEBALL KING",
+          "https://baseballking.jp/ns/711735/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "日本ハム",
+      "name": "ロドルフォ・カストロ",
+      "position": "内野手",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "来日1年目の今季は71試合に出場し、打率.215、8本塁打、24打点、4盗塁。3日に球団が退団を発表しており、21日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式（自由契約選手）",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "BASEBALL KING",
+          "https://baseballking.jp/ns/711735/"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "DeNA",
       "from": "オリックス",
