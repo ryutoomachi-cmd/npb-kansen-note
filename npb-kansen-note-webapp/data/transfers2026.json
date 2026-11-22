@@ -4,6 +4,80 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "楽天",
+      "from": "DeNA",
+      "kind": "新加入",
+      "name": "堀岡隼人",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-22",
+      "addedAt": "2026-11-22",
+      "importance": 2,
+      "title": "DeNA戦力外の右腕が育成で加入",
+      "detail": "2017年育成ドラフト7位で巨人に入団し、DeNAで2024年に支配下登録を勝ち取った28歳右腕。150キロ超の直球とフォークが武器で、今季は一軍6登板。DeNAを戦力外となり、楽天と育成契約で合意した。",
+      "sources": [
+        [
+          "スポーツ報知（パ・リーグ.com）",
+          "https://pacificleague.com/news/2026/11/10057249"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "清水麻成",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-22",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "2023年育成ドラフト2位で入団した右腕。来季も育成選手としてプレーし、背番号は102。支配下登録を目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302089/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "森下瑠大",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-22",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "2022年ドラフト4位で入団した左腕。2025年に左ひじの手術を受け、今季は育成選手として再起を目指していた。来季も育成で、背番号は136。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302089/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "上甲凌大",
+      "position": "捕手",
+      "ikusei": true,
+      "date": "2026-11-18",
+      "addedAt": "2026-11-22",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "独立リーグ・愛媛から2022年育成ドラフト1位で入団し、2023年に支配下登録を勝ち取った捕手。来季も育成選手としてプレーし、背番号は127。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302089/"
+        ]
+      ]
+    },
+    {
       "type": "retire",
       "team": "日本ハム",
       "name": "山口アタル",
