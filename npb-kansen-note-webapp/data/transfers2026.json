@@ -1,8 +1,26 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "retire",
+      "team": "日本ハム",
+      "name": "山口アタル",
+      "position": "外野手",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-22",
+      "importance": 2,
+      "ikusei": true,
+      "title": "引退しフィリーズのスカウトへ",
+      "detail": "10月に戦力外となったカナダ出身の外野手が現役引退。2022年育成ドラフト3位で入団も、4年で4度の手術に苦しみ支配下には届かなかった。12月から大リーグ・フィリーズの日本担当スカウトに就く。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/40e6891f544d52128a7630e2fe4d19f75a81d734"
+        ]
+      ]
+    },
     {
       "type": "free",
       "team": "日本ハム",
