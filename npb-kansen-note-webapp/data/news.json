@@ -110,6 +110,15 @@
   {
     "id": "n13",
     "teamName": "ロッテ",
+    "date": "2026-11-22",
+    "playerName": "益田直也",
+    "headline": "ロッテ・益田直也、通算250セーブ記念のビックリマン絵を贈られる",
+    "summary": "益田投手がロッテ本社を訪れ、社長から通算250セーブを記念した「ビックリマン」の書き下ろしイラストを贈られた。社員との交流会も開かれ、来季の目標にチームの優勝と個人で通算1000試合登板を挙げた。",
+    "source": "https://www.baseballchannel.jp/npb/302786/"
+  },
+  {
+    "id": "n14",
+    "teamName": "ロッテ",
     "date": "2026-11-20",
     "playerName": "早坂響",
     "headline": "ロッテ、戦力外の早坂響と育成再契約",
@@ -117,22 +126,13 @@
     "source": "https://www.baseballchannel.jp/npb/302627/"
   },
   {
-    "id": "n14",
+    "id": "n15",
     "teamName": "ロッテ",
     "date": "2026-11-19",
     "playerName": "小園健太",
     "headline": "ロッテ、DeNA戦力外の小園健太投手と育成契約",
     "summary": "ロッテは19日、DeNAを戦力外となった23歳の右腕・小園健太投手と育成選手契約を結んだと発表しました。2021年ドラフト1位の右腕で、一日も早い支配下登録を目指します。",
     "source": "https://www.baseballchannel.jp/npb/302429/"
-  },
-  {
-    "id": "n15",
-    "teamName": "ロッテ",
-    "date": "2026-11-18",
-    "playerName": "谷保恵美",
-    "headline": "ロッテ、特別試合に谷保恵美さんが場内アナで登場",
-    "summary": "ロッテは11月23日のZOZOマリンでの特別試合「マリーンズスペシャルゲーム2026」で、元場内アナウンス担当の谷保恵美さんが務めると発表。OBが昔のユニホームで戦う予定です。",
-    "source": "https://www.baseballchannel.jp/npb/302081/"
   },
   {
     "id": "n16",
@@ -164,6 +164,24 @@
   {
     "id": "n19",
     "teamName": "巨人",
+    "date": "2026-11-21",
+    "playerName": "坂本勇人",
+    "headline": "巨人・坂本勇人が契約更改、通算300本塁打を達成した20年目",
+    "summary": "坂本選手は今季67試合で打率.175、5本塁打。5月に通算300本塁打を達成し、通算安打2474本で長嶋茂雄氏の2471安打を上回って歴代9位に浮上した。通算2500安打まであと26本。",
+    "source": "https://www.baseballchannel.jp/npb/302651/"
+  },
+  {
+    "id": "n20",
+    "teamName": "巨人",
+    "date": "2026-11-21",
+    "playerName": "泉口友汰",
+    "headline": "巨人・泉口友汰が契約更改、脳振とうを乗り越え自己最多の8本塁打",
+    "summary": "泉口内野手は4月に打球が顔に当たり脳振とうと診断されたが、約2週間で復帰。2年連続で規定打席に到達し、129試合で打率.264、8本塁打、49打点、9盗塁と自己最多を記録。遊撃のゴールデン・グラブ賞も受賞。",
+    "source": "https://www.baseballchannel.jp/npb/302650/"
+  },
+  {
+    "id": "n21",
+    "teamName": "巨人",
     "date": "2026-11-20",
     "playerName": "丸佳浩",
     "headline": "巨人・丸佳浩が契約更改、2000安打まで残り44本",
@@ -171,25 +189,16 @@
     "source": "https://www.baseballchannel.jp/npb/302612/"
   },
   {
-    "id": "n20",
-    "teamName": "巨人",
-    "date": "2026-11-19",
-    "playerName": "石塚裕惺",
-    "headline": "巨人・石塚裕惺が契約更改、一軍出場は49試合に",
-    "summary": "巨人の石塚裕惺内野手が19日、契約更改を行いました。2024年ドラフト1位で、今季の一軍出場は前年の9試合から49試合に増え、打率.216。二軍では打率.319をマークしました。",
-    "source": "https://www.baseballchannel.jp/npb/302512/"
-  },
-  {
-    "id": "n21",
-    "teamName": "巨人",
-    "date": "2026-11-17",
-    "playerName": "藤井健翔",
-    "headline": "巨人・藤井健翔が契約更改、ファームで開幕4番",
-    "summary": "巨人の19歳内野手・藤井健翔が契約更改。今季はファーム開幕から4番を務め、3月にプロ初本塁打を記録。腰のけがもあり一軍出場はなく、来季は一軍デビューが目標です。",
-    "source": "https://www.baseballchannel.jp/npb/302064/"
-  },
-  {
     "id": "n22",
+    "teamName": "阪神",
+    "date": "2026-11-21",
+    "playerName": "西純矢",
+    "headline": "阪神・西純矢が契約更改、野手転向から投手との二刀流に挑戦",
+    "summary": "西選手は昨オフに野手へ転向し育成契約で再出発。今季はファームで61試合に出場し打率.228だった。秋季キャンプから投手の練習も再開し、来季は支配下復帰を目指す。",
+    "source": "https://www.baseballchannel.jp/npb/302660/"
+  },
+  {
+    "id": "n23",
     "teamName": "阪神",
     "date": "2026-11-20",
     "playerName": "大山悠輔",
@@ -198,7 +207,7 @@
     "source": "https://www.baseballchannel.jp/npb/302640/"
   },
   {
-    "id": "n23",
+    "id": "n24",
     "teamName": "阪神",
     "date": "2026-11-19",
     "playerName": "ダウリ・モレッタ",
@@ -207,16 +216,25 @@
     "source": "https://www.baseballchannel.jp/npb/302382/"
   },
   {
-    "id": "n24",
-    "teamName": "阪神",
-    "date": "2026-11-19",
-    "playerName": "立石正広",
-    "headline": "阪神・立石正広が契約更改、ルーキーイヤーは38試合",
-    "summary": "阪神の立石正広内野手が19日、契約更改を行いました。創価大から2025年ドラフト1位で入団し、今季は一軍38試合で打率.192、2本塁打、10打点。来季は一軍定着を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/302483/"
+    "id": "n25",
+    "teamName": "中日",
+    "date": "2026-11-22",
+    "playerName": "涌井秀章",
+    "headline": "中日・涌井秀章が契約更改、40歳で4勝し通算170勝に到達",
+    "summary": "涌井投手は交流戦から先発ローテーションに入り、12試合で4勝3敗、防御率3.92。8月の阪神戦で通算170勝となり、先輩の松坂大輔氏に並んだ。来季は通算200勝を目指す。",
+    "source": "https://www.baseballchannel.jp/npb/302777/"
   },
   {
-    "id": "n25",
+    "id": "n26",
+    "teamName": "中日",
+    "date": "2026-11-22",
+    "playerName": "杉浦稔大",
+    "headline": "中日・杉浦稔大が契約更改、日本ハムからのトレード1年目は18試合",
+    "summary": "杉浦投手は4月に日本ハムから金銭トレードで中日へ移籍。今季は一軍で18試合に登板し、1勝2敗5ホールド、防御率3.57だった。2024年は日本ハムで防御率1.56を記録していた。",
+    "source": "https://www.baseballchannel.jp/npb/302783/"
+  },
+  {
+    "id": "n27",
     "teamName": "中日",
     "date": "2026-11-20",
     "playerName": "緒方理貢",
@@ -225,25 +243,16 @@
     "source": "https://www.baseballchannel.jp/npb/302638/"
   },
   {
-    "id": "n26",
-    "teamName": "中日",
-    "date": "2026-11-19",
-    "playerName": "梅津晃大",
-    "headline": "中日・梅津晃大が契約更改、育成選手として復活を期す",
-    "summary": "中日の梅津晃大投手が19日、契約更改を行いました。故障が続き今季は育成選手としてリハビリに専念。10月のシート打撃では最速153キロを記録し、来季は支配下復帰と一軍復帰を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/302379/"
-  },
-  {
-    "id": "n27",
-    "teamName": "中日",
-    "date": "2026-11-19",
-    "playerName": "根尾昂",
-    "headline": "中日・根尾昂が契約更改、今季は投手として初勝利",
-    "summary": "中日の根尾昂投手が19日、契約更改を行いました。今季は一軍で9試合に登板して1勝1敗、防御率5.00。4月8日のDeNA戦でプロ初勝利を挙げました。",
-    "source": "https://www.baseballchannel.jp/npb/302452/"
-  },
-  {
     "id": "n28",
+    "teamName": "DeNA",
+    "date": "2026-11-21",
+    "playerName": "宗佑磨",
+    "headline": "DeNA、オリックスからFAの宗佑磨内野手の獲得を正式発表",
+    "summary": "オリックスから国内FA権を行使した宗内野手の入団をDeNAが発表した。FA補強は2017年オフの大和以来9年ぶり。今季は134試合で打率.245、14本塁打、65打点で、ゴールデン・グラブ賞も受賞した。",
+    "source": "https://www.baseballchannel.jp/npb/302725/"
+  },
+  {
+    "id": "n29",
     "teamName": "DeNA",
     "date": "2026-11-19",
     "playerName": "東克樹",
@@ -252,22 +261,13 @@
     "source": "https://www.baseballchannel.jp/npb/302416/"
   },
   {
-    "id": "n29",
+    "id": "n30",
     "teamName": "DeNA",
     "date": "2026-11-18",
     "playerName": "",
     "headline": "DeNA、森下瑠大ら5選手と育成契約を結ぶ",
     "summary": "DeNAは清水麻成投手、森下瑠大投手、益子京右捕手、東妻純平捕手、上甲凌大捕手の5人と来季の育成契約を結ぶと発表。新しい背番号も決まり、支配下登録を目指します。",
     "source": "https://www.baseballchannel.jp/npb/302089/"
-  },
-  {
-    "id": "n30",
-    "teamName": "DeNA",
-    "date": "2026-11-18",
-    "playerName": "菊地吏玖",
-    "headline": "DeNA、ロッテ戦力外の菊地吏玖と育成契約",
-    "summary": "DeNAはロッテを戦力外となった26歳の菊地吏玖投手と来季の育成契約で合意。背番号は101です。2022年ドラフト1位で、今季の一軍登板は2試合。支配下復帰を目指します。",
-    "source": "https://www.baseballchannel.jp/npb/302058/"
   },
   {
     "id": "n31",
