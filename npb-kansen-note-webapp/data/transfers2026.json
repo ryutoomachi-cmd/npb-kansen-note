@@ -4,6 +4,27 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "free",
+      "team": "中日",
+      "name": "カイル・マラー",
+      "position": "投手",
+      "date": "2026-11-23",
+      "addedAt": "2026-11-23",
+      "importance": 3,
+      "title": "自由契約選手として公示",
+      "detail": "来日2年目の左腕。今季は19試合に投げて7勝8敗・防御率2.69、8月には月間MVPに選ばれた。打撃でも2本塁打を放ち話題になった。NPBが23日に自由契約選手として公示した。",
+      "sources": [
+        [
+          "中日スポーツ",
+          "https://www.chunichi.co.jp/article/1343456"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/23/0021064329.shtml"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "オリックス",
       "from": "DeNA",
