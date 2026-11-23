@@ -1,8 +1,31 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "move",
+      "team": "オリックス",
+      "from": "DeNA",
+      "kind": "FA移籍",
+      "name": "戸柱恭孝",
+      "position": "捕手",
+      "date": "2026-11-23",
+      "addedAt": "2026-11-23",
+      "importance": 3,
+      "title": "FA宣言の36歳捕手がオリックスへ",
+      "detail": "2016年にDeNAへ入団し、11年間プレーしたベテラン捕手。今季は42試合に出場。海外FA権を行使し、自身のSNSでオリックスへの移籍を表明した。初めてのパ・リーグ挑戦で、背番号は3を提示されている。",
+      "sources": [
+        [
+          "スポーツ報知（パ・リーグ.com）",
+          "https://pacificleague.com/news/2026/11/10057277"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/23/0021064520.shtml"
+        ]
+      ]
+    },
     {
       "type": "move",
       "team": "楽天",
