@@ -1,8 +1,42 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "ショーン・レイノルズ",
+      "position": "投手",
+      "date": "2026-11-24",
+      "addedAt": "2026-11-24",
+      "importance": 3,
+      "title": "来季も契約、残留が決定",
+      "detail": "来日1年目の今季は62試合に投げ17セーブ30ホールド、防御率1.59。7月からは抑えを任された203センチの右腕と、球団が2027年の契約を発表した。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302946/"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "DeNA",
+      "name": "ヘラル・エンカーナシオン",
+      "position": "外野手",
+      "date": "2026-11-24",
+      "addedAt": "2026-11-24",
+      "importance": 2,
+      "title": "来季も契約、残留が決定",
+      "detail": "6月中旬に加わり、64試合で打率.293、11本塁打、39打点を記録した右の強打者。球団が2027年シーズンの契約を結ぶと発表した。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302946/"
+        ]
+      ]
+    },
     {
       "type": "move",
       "team": "オリックス",
