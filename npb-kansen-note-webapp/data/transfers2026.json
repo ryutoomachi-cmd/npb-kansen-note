@@ -5,6 +5,23 @@
   "items": [
     {
       "type": "stay",
+      "team": "楽天",
+      "name": "加治屋蓮",
+      "position": "投手",
+      "date": "2026-11-24",
+      "addedAt": "2026-11-24",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "7月に取得した国内FA権を使わず、楽天に残ることを決めた。24日の契約更改で年俸は1000万円増の4400万円（推定）。今季は46試合に登板し16ホールド、防御率3.12だった。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/3e177f608315810cc7ab955831145bb18296d71f"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "DeNA",
       "name": "ショーン・レイノルズ",
       "position": "投手",
