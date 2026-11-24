@@ -4,6 +4,24 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "楽天",
+      "name": "石原彪",
+      "position": "捕手",
+      "ikusei": true,
+      "date": "2026-11-24",
+      "addedAt": "2026-11-24",
+      "importance": 2,
+      "title": "育成選手として再契約",
+      "detail": "10月に楽天から戦力外通告を受けていたプロ10年目の捕手。楽天が24日、石原彪と来季の育成選手契約を結ぶことで合意したと発表し、育成選手として残ることになった。",
+      "sources": [
+        [
+          "Full-Count（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/27628a91bef52d51b15a32806af71e4d4fda5b9d"
+        ]
+      ]
+    },
+    {
       "type": "move",
       "team": "阪神",
       "from": "中日",
