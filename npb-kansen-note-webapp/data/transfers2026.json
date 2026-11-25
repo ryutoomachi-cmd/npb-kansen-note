@@ -6,6 +6,49 @@
     {
       "type": "stay",
       "team": "広島",
+      "name": "河野佳",
+      "position": "投手",
+      "date": "2026-11-24",
+      "addedAt": "2026-11-25",
+      "importance": 2,
+      "title": "支配下選手として再契約",
+      "detail": "2022年ドラフト5位で入団した右腕。昨オフに戦力外となり今季は育成選手だったが、二軍で25試合に投げ8勝3敗、防御率2.01とチーム最多勝・最高防御率。2年ぶりに支配下に戻り、背番号は70。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/c61e1a7fa46650f71d19253e01548d538fdda49b"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/328e79b4ddb0aa01060e80282170e412f8fb5771"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "阪神",
+      "name": "小川一平",
+      "position": "投手",
+      "ikusei": true,
+      "date": "2026-11-20",
+      "addedAt": "2026-11-25",
+      "importance": 1,
+      "title": "育成選手として再契約",
+      "detail": "右ひじの手術を経て育成選手としてプレーしてきた右腕。育成選手の契約ルールで10月末に自由契約として公示されていたが、阪神と育成選手として再び契約を結び、支配下への復帰を目指す。",
+      "sources": [
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302667/"
+        ],
+        [
+          "スポーツナビ 入退団情報",
+          "https://baseball.yahoo.co.jp/npb/transfer"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "広島",
       "name": "杉原望来",
       "position": "投手",
       "date": "2026-11-25",
