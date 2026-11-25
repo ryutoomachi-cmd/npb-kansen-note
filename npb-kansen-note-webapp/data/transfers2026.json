@@ -1,8 +1,26 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "stay",
+      "team": "広島",
+      "name": "杉原望来",
+      "position": "投手",
+      "date": "2026-11-25",
+      "addedAt": "2026-11-25",
+      "importance": 1,
+      "ikusei": true,
+      "title": "育成選手として再契約",
+      "detail": "育成3年目を終えて自由契約となっていたが、育成選手として再び契約。今季は二軍で28試合に登板し3勝1敗1セーブ、防御率2.34。秋季キャンプにも参加していた。",
+      "sources": [
+        [
+          "日刊スポーツ",
+          "https://news.yahoo.co.jp/articles/ff05e936f2a8715e92778aa3b23463cb576fff74"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "楽天",
