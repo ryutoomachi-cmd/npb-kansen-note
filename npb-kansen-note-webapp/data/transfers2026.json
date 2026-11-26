@@ -4,6 +4,48 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "free",
+      "team": "西武",
+      "name": "アラン・ワイナンス",
+      "position": "投手",
+      "date": "2026-11-26",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "来日1年目の今季は先発で8試合2勝4敗、防御率5.19。19日に球団がウエーバー公示の手続きを発表し、26日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302320/"
+        ]
+      ]
+    },
+    {
+      "type": "free",
+      "team": "西武",
+      "name": "エマニュエル・ラミレス",
+      "position": "投手",
+      "date": "2026-11-26",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "ウエーバーを経て自由契約",
+      "detail": "在籍2年の救援右腕。今季は11試合で防御率4.50。19日に球団がウエーバー公示の手続きを発表し、26日にNPBが自由契約選手として公示した。",
+      "sources": [
+        [
+          "NPB公式",
+          "https://npb.jp/announcement/2026/pn_released.html"
+        ],
+        [
+          "ベースボールチャンネル",
+          "https://www.baseballchannel.jp/npb/302320/"
+        ]
+      ]
+    },
+    {
       "type": "mlb",
       "team": "西武",
       "name": "平良海馬",
