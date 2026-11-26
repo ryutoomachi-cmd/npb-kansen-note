@@ -5,6 +5,111 @@
   "items": [
     {
       "type": "stay",
+      "team": "日本ハム",
+      "name": "フランミル・レイエス",
+      "position": "外野手",
+      "date": "2026-11-02",
+      "addedAt": "2026-11-26",
+      "importance": 4,
+      "title": "来季も日本ハムでプレー",
+      "detail": "今季は打率.313・32本塁打で初の首位打者に輝いた主砲。球団が2027年シーズンの契約延長で合意したと発表した。海外では大型の複数年契約と報じられているが、球団は金額を公表していない。",
+      "sources": [
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/02/post2039868/"
+        ],
+        [
+          "NHK",
+          "https://news.web.nhk/newsweb/na/nd-20261102de69658"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "古林睿煬",
+      "position": "投手",
+      "date": "2026-11-16",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "来季の契約延長で合意",
+      "detail": "台湾出身の右腕。球団が2027年シーズンの契約延長で合意したと発表した。今季は本人いわく「不甲斐ないシーズン」で、来季は「別人に」と巻き返しを誓っている。",
+      "sources": [
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/10057030"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/16/0021040399.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "孫易磊",
+      "position": "投手",
+      "date": "2026-11-16",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "来季の契約延長で合意",
+      "detail": "台湾出身の若手右腕。今季は前年より一軍にいる期間が長く、先発と中継ぎの両方を経験した。球団が2027年シーズンの契約延長で合意したと発表した。",
+      "sources": [
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/10057030"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/16/0021040399.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "アリエル・マルティネス",
+      "position": "捕手",
+      "date": "2026-11-16",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "来季の契約延長で合意",
+      "detail": "来日10年目となる来季も日本ハムでプレーする。球団が古林睿煬らとあわせて、2027年シーズンの契約延長で合意したと発表した。",
+      "sources": [
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/10057030"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/16/0021040399.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
+      "team": "日本ハム",
+      "name": "ライル・リン",
+      "position": "捕手",
+      "date": "2026-11-16",
+      "addedAt": "2026-11-26",
+      "importance": 1,
+      "title": "来季の契約延長で合意",
+      "detail": "台湾出身の捕手。球団が古林睿煬・孫易磊・マルティネスとあわせて、2027年シーズンの契約延長（単年）で合意したと発表した。",
+      "sources": [
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/10057030"
+        ],
+        [
+          "デイリースポーツ",
+          "https://www.daily.co.jp/baseball/2026/11/16/0021040399.shtml"
+        ]
+      ]
+    },
+    {
+      "type": "stay",
       "team": "中日",
       "name": "山本泰寛",
       "position": "内野手",
