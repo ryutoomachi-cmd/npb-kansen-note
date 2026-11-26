@@ -1,8 +1,29 @@
 {
   "title": "2026 オフの移籍・去就",
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "showUntil": "2027-03-31",
   "items": [
+    {
+      "type": "mlb",
+      "team": "西武",
+      "name": "平良海馬",
+      "position": "投手",
+      "date": "2026-11-25",
+      "addedAt": "2026-11-26",
+      "importance": 5,
+      "title": "ブルージェイズと契約合意",
+      "detail": "ポスティングでメジャー移籍を目指していた右腕が、ブルージェイズと5年総額8000万ドル（約127億円）で合意したと西武が発表。3年目終了後に契約を破棄できる権利付き。今季は先発に戻り防御率1.36で最優秀防御率。",
+      "sources": [
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/c13a9adcc88886807c99436d048b0d80341698ee"
+        ],
+        [
+          "パ・リーグ.com",
+          "https://pacificleague.com/news/2026/11/87739"
+        ]
+      ]
+    },
     {
       "type": "stay",
       "team": "広島",
