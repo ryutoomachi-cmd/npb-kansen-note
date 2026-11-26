@@ -4,6 +4,27 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "stay",
+      "team": "中日",
+      "name": "山本泰寛",
+      "position": "内野手",
+      "date": "2026-11-26",
+      "addedAt": "2026-11-26",
+      "importance": 2,
+      "title": "国内FA権を行使せず残留",
+      "detail": "6月に取得した国内FA権を使わず中日に残ることを決め、26日に契約を更改した。今季は中日加入後で最も少ない33試合の出場にとどまり、同じチームで悔しさを晴らしたいと話した。",
+      "sources": [
+        [
+          "中日スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/f3d67d11bd270ab71b9f894b2fc9ad05eafd2d94"
+        ],
+        [
+          "中日ドラゴンズ公式",
+          "https://dragons.jp/news/2026/26112601.php"
+        ]
+      ]
+    },
+    {
       "type": "free",
       "team": "西武",
       "name": "アラン・ワイナンス",
