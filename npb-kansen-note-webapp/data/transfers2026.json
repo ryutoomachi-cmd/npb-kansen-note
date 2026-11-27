@@ -4,6 +4,49 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "オリックス",
+      "from": "楽天",
+      "kind": "新加入",
+      "name": "酒居知史",
+      "position": "投手",
+      "date": "2026-11-27",
+      "addedAt": "2026-11-27",
+      "importance": 3,
+      "ikusei": true,
+      "title": "通算318登板の右腕が地元へ",
+      "detail": "楽天を戦力外となった33歳の救援右腕を、オリックスが育成選手として獲得すると発表。2025年春に右ひじを手術し、今季は2軍で33試合に登板。大阪出身で、地元球団で支配下復帰をめざす。",
+      "sources": [
+        [
+          "Full-Count",
+          "https://full-count.jp/2026/11/27/post2051180/"
+        ],
+        [
+          "スポーツ報知（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/b874a2e8c86b753bd9b4d3c8ebf801f3859c0a59"
+        ]
+      ]
+    },
+    {
+      "type": "move",
+      "team": "オイシックス",
+      "from": "広島",
+      "kind": "新加入",
+      "name": "田村俊介",
+      "position": "外野手",
+      "date": "2026-11-27",
+      "addedAt": "2026-11-27",
+      "importance": 3,
+      "title": "広島戦力外の23歳がオイシックスへ",
+      "detail": "10月に広島から戦力外通告を受けた田村俊介外野手を、ファーム・リーグのオイシックス新潟が獲得すると発表。本人は球団を通じて古巣への感謝と謝罪を述べ、NPB復帰をめざす。",
+      "sources": [
+        [
+          "ベースボールキング（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/3366597c40881d332394c67b0b35c21bee85c638"
+        ]
+      ]
+    },
+    {
       "type": "leave",
       "team": "広島",
       "name": "テイラー・ハーン",
