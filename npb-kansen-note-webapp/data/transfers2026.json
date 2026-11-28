@@ -4,6 +4,29 @@
   "showUntil": "2027-03-31",
   "items": [
     {
+      "type": "move",
+      "team": "阪神",
+      "from": "オリックス",
+      "kind": "FA移籍",
+      "name": "中川圭太",
+      "position": "内野手",
+      "date": "2026-11-28",
+      "addedAt": "2026-11-28",
+      "importance": 4,
+      "title": "国内FAで阪神入りが決定",
+      "detail": "国内FA権を行使していたオリックスの中川圭太と契約合意したと阪神が発表。2019年の交流戦首位打者で、昨季はリーグ3位の打率.284。大阪府阪南市出身。報道では4年総額10億円規模とみられる。",
+      "sources": [
+        [
+          "日刊スポーツ（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/608006b4e336be78367aab5a5efae879dadb8163"
+        ],
+        [
+          "ベースボールキング（Yahoo!ニュース）",
+          "https://news.yahoo.co.jp/articles/4271d66630cba41a48b809fb54a06c33378c0609"
+        ]
+      ]
+    },
+    {
       "type": "mlb",
       "team": "阪神",
       "name": "佐藤輝明",
